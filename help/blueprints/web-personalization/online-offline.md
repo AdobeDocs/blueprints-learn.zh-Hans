@@ -3,15 +3,14 @@ title: 联机/脱机Web个性化方案
 description: 将Web个性化与电子邮件和其他已知的匿名渠道个性化同步。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
+exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 9b6c220a515c5abae22b58fe33558d7d2fed375d
+source-git-commit: 2daba1965d6dce011bcce924f8e7471d7dfd42fb
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
-
-
 
 # 联机/脱机Web个性化方案
 
@@ -36,10 +35,10 @@ ht-degree: 0%
 
 ## 瓜德雷尔
 
-* 从Experience Platform到Audience Manager共享的细分在细分实现后的几分钟内即可共享 — 无论是通过流评估还是批评估方法。 AEP与AAM之间初始区段配置同步约4小时，AEP区段成员关系才能在AAM用户档案中开始实现。 进入AAM用户档案后，AEP区段成员资格即可通过Adobe Target实现相同的页面个性化。
-* 请注意，对于在AEP和AAM之间4小时区段配置同步内发生的区段实现，这些区段实现将作为“现有”区段在后续批区段作业上实现到AAM中。
-* 从AEP中进行批量区段共享 — 每天一次或通过API手动启动。 一旦实现这些区段会员资格，它们将在几分钟内共享到AAM，并可在目标中实现同一/下一页个性化。
-* 流分段在~p95 5min内实现。 进行这些细分实现后，它们将在几分钟内共享到AAM，并可在目标中实现同一/下一页个性化。
+* 从Experience Platform到Audience Manager共享的细分在细分实现后的几分钟内即可共享 — 无论是通过流评估还是批评估方法。 在Experience Platform和Audience Manager之间进行初始段配置同步约4小时，Experience Platform段成员关系将开始在Audience Manager用户档案实现。 进入Audience Manager用户档案后，Experience Platform区段成员身份即可通过Adobe Target实现相同的页面个性化。
+* 请注意，对于在4小时段配置中在Experience Platform和Audience Manager之间同步的段实现，这些段实现将作为“现有”段在后续批段作业上实现为Audience Manager。
+* 通过Experience Platform进行批量区段共享 — 每天一次或通过API手动启动。 一旦实现这些区段会员资格，它们将在几分钟内共享给Audience Manager，并可在目标中实现同一/下一页个性化。
+* 流分段大约在5分钟内实现。 完成这些细分实现后，它们将在几分钟内共享给Audience Manager，并可在目标中实现同一/下一页个性化。
 * 默认情况下，区段共享服务允许每个Adobe Analytics报表包最多共享75个受众。 如果客户拥有Audience Manager许可证，则对Adobe Analytics与Adobe Target或Audience Manager与Adobe Target之间可共享的受众数量不设限制。
 
 ## 实施先决条件
@@ -102,5 +101,3 @@ Web/Mobile个性化蓝图可以使用传统的特定于应用程序的SDK（例�
 * [Adobe Experience Platform如何通过Journey Orchestration服务和移动消息供应商帮助客户实时个性化其移动消息](https://medium.com/adobetech/how-adobe-experience-platform-helped-a-client-personalize-their-mobile-messaging-in-real-time-with-7d634aefa098)
 * [分段（秒）：Adobe Experience Platform如何让实时客户用户档案成为现实](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
 * [构建最佳在线体验：利用查询服务丰富统一用户档案](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
-
-
