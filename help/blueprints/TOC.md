@@ -5,7 +5,7 @@ user-guide-description: Blueprint是可重复实施的，可用于解决已建�
 product: adobe experience platform
 role: 架构师、开发人员、业务从业者
 translation-type: tm+mt
-source-git-commit: af73c0fa0576cd836685824964bade10c0e0110d
+source-git-commit: c867a2956363ae495492a8ad33fd6c2aee9f5f5c
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform和应用程序](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platform数据流](/help/blueprints/experience-platform/platform-data-flow.md)
-+ 用户档案和Audience Activation{#audience-activation}
++ 受众和用户档案激活{#audience-activation}
    + [概述](/help/blueprints/audience-activation/overview.md)
    + [匿名Audience Activation](/help/blueprints/audience-activation/anonymous.md)
    + [联机/脱机Audience Activation](/help/blueprints/audience-activation/online-offline.md)
@@ -29,18 +29,16 @@ ht-degree: 2%
    + [概述](/help/blueprints/customer-journey-analytics/overview.md)
    + [数字行为数据整合](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [呼叫偏转](/help/blueprints/customer-journey-analytics/call-deflect.md)
-+ 用户档案扩充的自定义数据科学{#data-science}
-   + [概述](/help/blueprints/data-science/overview.md)
-+ 数据准备和摄取{#data-ingestion}
++ 数据收集和准备{#data-ingestion}
    + [概述](/help/blueprints/data-ingestion/overview.md)
-+ 企业数据探索和报告{#data-exploration}
-   + [概述](/help/blueprints/data-exploration/overview.md)
+   + [服务器端企业数据收集](/help/blueprints/data-ingestion/server-side-collection.md)
++ 数据分析和自定义数据科学{#data-exploration}
+   + [概述](/help/blueprints/data-insights/overview.md)
+   + [用户档案扩充](/help/blueprints/data-insights/data-science.md)
 + 多渠道消息编排{#multi-channel-message-orchestration}
    + [概述](/help/blueprints/multi-channel-message-orchestration/overview.md)
    + [批处理消息和Experience Platform](/help/blueprints/multi-channel-message-orchestration/batch-messaging.md)
    + [触发式消息和Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
-+ 服务器端企业数据收集{#server-side-enterprise-data-collection}
-   + [概述](/help/blueprints/server-side-enterprise-data-collection/overview.md)
 + Web和移动个性化{#web-personalization}
    + [概述](/help/blueprints/web-personalization/overview.md)
    + [行为Web个性化](/help/blueprints/web-personalization/behavioral.md)
