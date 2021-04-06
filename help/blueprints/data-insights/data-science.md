@@ -1,11 +1,11 @@
 ---
 title: 用户档案扩充蓝图的自定义数据科学
 description: 此蓝图显示Adobe Experience Platform的数据科学工作区如何使用Experience Platform中的数据来训练、部署和评分模型，从数据中提供机器学习洞察。
-solution: Experience Platform, Data Collection
+solution: Experience Platform,Data Collection
 kt: 7203
-exl-id: f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
+exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 translation-type: tm+mt
-source-git-commit: 3f27f27159d9fb07124f289164dd85941ec58a25
+source-git-commit: 7a097d7579d0e217ee5c6b469856bf786b17e6cb
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%
