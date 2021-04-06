@@ -5,9 +5,9 @@ user-guide-description: Blueprint是可重复实施的，可用于解决已建�
 product: adobe experience platform
 role: 架构师、开发人员、业务从业者
 translation-type: tm+mt
-source-git-commit: 4f952331b25ce0b0941d110976d2a0eda061c4b3
+source-git-commit: af73c0fa0576cd836685824964bade10c0e0110d
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '117'
 ht-degree: 2%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 2%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform和应用程序](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platform数据流](/help/blueprints/experience-platform/platform-data-flow.md)
-+ Audience Activation{#audience-activation}
++ 用户档案和Audience Activation{#audience-activation}
    + [概述](/help/blueprints/audience-activation/overview.md)
    + [匿名Audience Activation](/help/blueprints/audience-activation/anonymous.md)
    + [联机/脱机Audience Activation](/help/blueprints/audience-activation/online-offline.md)
-+ 客户活动中心{#customer-activity-hub}
-   + [概述](/help/blueprints/customer-activity-hub/overview.md)
+   + [激活到企业目标](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + [客户活动中心](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [概述](/help/blueprints/customer-journey-analytics/overview.md)
    + [数字行为数据整合](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
