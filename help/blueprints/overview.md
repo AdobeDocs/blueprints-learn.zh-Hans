@@ -2,14 +2,14 @@
 title: 数字体验蓝图
 description: Digital Experience Blueprint是可重复实施的产品，用于解决战略和解决已建立的业务问题。 它们可加快实现价值的速度，并为成功提供快速途径。
 solution: Experience Platform
+exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 37ef1ea91b3cf83e9ab444fa0f907d4115d0fd24
+source-git-commit: 28915e33bffece1d365803db1b03c0460224dd32
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
 
 ---
-
 
 # 数字体验蓝图
 
@@ -19,7 +19,7 @@ Digital Experience Blueprint是可重复实施的产品，用于解决战略和�
 
 ## 新增功能
 
-* **[客户活动中心蓝图](/help/blueprints/customer-activity-hub/overview.md)**
+* **[客户活动中心蓝图](/help/blueprints/audience-activation/customer-activity.md)**
 
    *提供代理协助支持和销售的上下文。*
 * **[企业数据探索和报告蓝图](/help/blueprints/data-exploration/overview.md)**
