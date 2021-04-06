@@ -4,7 +4,7 @@ description: Digital Experience Blueprint是可重复实施的产品，用于解
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 28915e33bffece1d365803db1b03c0460224dd32
+source-git-commit: 3f27f27159d9fb07124f289164dd85941ec58a25
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Digital Experience Blueprint是可重复实施的产品，用于解决战略和�
 * **[客户活动中心蓝图](/help/blueprints/audience-activation/customer-activity.md)**
 
    *提供代理协助支持和销售的上下文。*
-* **[企业数据探索和报告蓝图](/help/blueprints/data-exploration/overview.md)**
+* **[企业数据探索和报告蓝图](/help/blueprints/data-insights/overview.md)**
 
    *对数据湖中的数据执行探索性查询和分析。*
 * **[Customer Journey Analytics Blueprint](/help/blueprints/customer-journey-analytics/overview.md)**
