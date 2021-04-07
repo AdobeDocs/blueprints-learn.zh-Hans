@@ -1,19 +1,19 @@
 ---
-title: 匿名Audience Activation
+title: 匿名Audience ActivationBlueprint
 description: 匿名Audience Activation。
 solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
+exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 translation-type: tm+mt
-source-git-commit: c4bd4bbd40f2ae6b9ab980c5274a6e2007d976d3
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-
-# 匿名Audience Activation方案
+# 匿名Audience ActivationBlueprint
 
 您可以基于匿名和行为客户数据跨网络和广告渠道目标受众。 该功能支持跨设备的个性化、一致的实时客户体验。
 
@@ -46,18 +46,3 @@ ht-degree: 0%
 * [Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 * [将Audience Manager与目标集成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * [通过Audience Manager分享Analytics细分](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
