@@ -1,18 +1,18 @@
 ---
-title: 数字行为数据整合方案
+title: 数字行为数据整合蓝图
 description: 分析客户旅程中的客户互动并从中获得洞察。
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
+exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
 
 ---
 
-
-# 数字行为数据整合方案
+# 数字行为数据整合蓝图
 
 通过统一来自各种Web、移动和线下属性的视图，统一不同渠道中的客户行为。
 
@@ -82,7 +82,3 @@ Customer Journey Analytics中的数据摄取：
 * [Customer Journey Analytics产品说明](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
 * [Customer Journey Analytics文档](https://experienceleague.adobe.com/docs/customer-journey-analytics.html)
 * [Customer Journey Analytics教程](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html)
-
-
-
-
