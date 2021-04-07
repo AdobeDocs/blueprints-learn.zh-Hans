@@ -1,18 +1,18 @@
 ---
-title: 行为Web个性化方案
+title: 行为Web个性化蓝图
 description: 根据在线行为和受众数据进行个性化。
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
+exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
 
 ---
 
-
-# 行为Web个性化方案
+# 行为Web个性化蓝图
 
 根据在线行为和受众数据进行个性化。
 
