@@ -3,11 +3,11 @@ user-guide-title: 数字体验蓝图
 breadcrumb-title: 'Blueprint '
 user-guide-description: Blueprint是可重复实施的，可用于解决已建立的业务问题并包含体系结构图、技术注意事项和相关文档链接。
 product: adobe experience platform
-role: 架构师、开发人员、业务从业者
+role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 08b0a9e06b4a5cc1f411a3cab1cc23fa47325844
+source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '120'
 ht-degree: 2%
 
 ---
@@ -31,9 +31,11 @@ ht-degree: 2%
    + [呼叫偏转](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + 数据收集和准备{#data-ingestion}
    + [概述](/help/blueprints/data-ingestion/overview.md)
+   + [数据摄取和准备Experience Platform](/help/blueprints/data-ingestion/ingestion.md)
    + [服务器端企业数据收集](/help/blueprints/data-ingestion/server-side-collection.md)
-+ 数据分析和自定义数据科学{#data-exploration}
++ 数据分析、智能和AI/ML{#data-exploration}
    + [概述](/help/blueprints/data-insights/overview.md)
+   + [数据分析和智能](/help/blueprints/data-insights/analysis.md)
    + [用户档案扩充](/help/blueprints/data-insights/data-science.md)
 + 多渠道消息编排{#multi-channel-message-orchestration}
    + [概述](/help/blueprints/multi-channel-message-orchestration/overview.md)
