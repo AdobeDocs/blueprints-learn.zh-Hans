@@ -1,21 +1,21 @@
 ---
-title: 企业数据探索和报告蓝图
+title: 数据分析和智能蓝图
 description: 此蓝图显示了Adobe Experience Platform内对数据湖中存在的数据执行探索性查询和分析的能力。
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
 
-# 企业数据探索和报告蓝图
+# 数据分析和智能蓝图
 
-企业数据探索和报告包括Adobe Experience Platform内对数据湖中存在的数据执行探索性查询和分析的能力。
+数据分析和智能包括Adobe Experience Platform内对数据湖中存在的数据执行探索性查询和分析的能力。
 
 Experience Platform的查询服务允许对数据执行SQL查询。 数据科学工作区支持对数据执行数据探索、数据科学和机器学习工作负载。
 
