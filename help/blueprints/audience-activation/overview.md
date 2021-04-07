@@ -1,26 +1,26 @@
 ---
-title: 用户档案和Audience Activation蓝图
-description: 借助实时渠道平台提供受众激活的跨客户广告​。
+title: 受众和用户档案激活
+description: 通过实时客户数据平台提供激活的受众和以用户档案为中心的客户体​验。
 solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 translation-type: tm+mt
-source-git-commit: af73c0fa0576cd836685824964bade10c0e0110d
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
 
-# 用户档案和Audience Activation蓝图
+# 受众和Audience Activation
 
-用户档案和受众优先激活是在数据驱动型营销世界中取得成功的关键。 但是，许多品牌仍然将精力集中在渠道优先激活上，这往往带来不一致的触及范围和个性化。 通过渠道优先的方法，每个渠道都充当一个筒仓，个性化努力仅目标在该渠道上与品牌互动的客户。 此方法并不反映客户与跨多个不同接触点的品牌互动的现实。 受众至上激活使品牌能够跨多个渠道连接客户互动，从而提供可激活给所有渠道的集中受众。
+用户档案和受众优先激活是在数据驱动型营销世界中取得成功的关键。 但是，许多品牌仍然将精力集中在渠道优先激活上，这往往带来不一致的触及范围和个性化。 通过渠道优先的方法，每个渠道都充当一个筒仓，个性化努力仅目标在该渠道上与品牌互动的客户。 此方法并不反映客户与跨多个不同接触点的品牌互动的现实。 用户档案和受众优先激活使品牌能够将多个渠道的客户互动关联起来，从而提供可激活给所有渠道的集中用户档案和受众。
 
-## 场景
+## Blueprint
 
-| 方案 | 说明 | Experience Cloud应用程序 |
+| Blueprint | 说明 | Experience Cloud应用程序 |
 |---|---|---|
 | **[匿名Web和广告Audience Activation](anonymous.md)** | <ul><li>目标跨Web和广告渠道的受众，获得匿名和行为客户数据。</li><li>与第三方受众数据集成以提高个性化。</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[联机/脱机+ PII用户档案和Audience Activation](online-offline.md)** | <ul><li>激活到基于用户档案的已知目标，如电子邮件提供商、社交网络和广告目标。 </li><li>将线下属性和事件（如线下订单、交易、CRM或忠诚度数据）与在线行为结合使用，实现在线定位和个性化。</li></ul> | <ul><li>Adobe Experience Platform</li><li> 实时客户数据平台</li><li>Adobe Audience Manager（可选）</li></ul> |
