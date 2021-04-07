@@ -1,18 +1,18 @@
 ---
-title: 批处理消息和Adobe Experience Platform方案
+title: 批处理消息和Adobe Experience Platform Blueprint
 description: 使用Adobe Experience Platform作为客户用户档案和细分的中心，执行计划消息和批量消息活动。
 solution: Experience Platform, Campaign
 kt: 7196
+exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
 
 ---
 
-
-# 批处理消息和Adobe Experience Platform方案
+# 批处理消息和Adobe Experience Platform Blueprint
 
 使用Adobe Experience Platform作为客户用户档案和细分的中心，执行计划消息和批量消息活动。
 
