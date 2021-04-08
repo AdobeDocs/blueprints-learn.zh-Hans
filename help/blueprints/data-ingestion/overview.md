@@ -6,16 +6,16 @@ kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
 # 数据收集和准备
 
-数据收集和准备包括准备数据并将其引入Adobe Experience Platform的所有方法。 以及将数据收集到Adobe Experience Platform边缘网络以向企业目标进行服务器端转发的能力。
+数据收集和准备包括准备数据并将其引入Adobe Experience Platform的所有方法。 此外，还能够通过侧向转发向企业目标收集数据到Adobe Experience Platform的边缘网络，以及随后将数据转发到企业目标。
 
 数据准备包括将源数据映射到体验数据模型(XDM)模式。 它还包括对数据执行转换，包括日期格式、字段拆分/串联/转换，以及对记录进行连接/合并/重新键入。 数据准备有助于统一客户数据以提供汇总/筛选分析，包括报告或准备数据以用于客户用户档案汇编/数据科学/激活。
 
