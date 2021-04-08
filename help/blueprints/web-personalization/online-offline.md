@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,21 @@ ht-degree: 0%
 * 流分段大约在5分钟内实现。 完成这些细分实现后，它们将在几分钟内共享给Audience Manager，并可在目标中实现同一/下一页个性化。
 * 默认情况下，区段共享服务允许每个Adobe Analytics报表包最多共享75个受众。 如果客户拥有Audience Manager许可证，则对Adobe Analytics与Adobe Target或Audience Manager与Adobe Target之间可共享的受众数量不设限制。
 
+## 实施模式
+
+Web/移动个性化蓝图可以通过以下方法实现，如下所述。
+
+1. 使用Platform Web SDK/Mobile SDK和Edge Network。
+1. 使用传统的特定于应用程序的SDK（例如，AppMeasurement.js）
+
+### 1.平台Web/移动SDK和Edge Approach
+
+<img src="assets/websdkflow.svg" alt="平台Web SDK/Mobile SDK和Edge Network Approach的参考架构" style="border:1px solid #4a4a4a" />
+
+### 2.特定于应用程序的SDK方法
+
+<img src="assets/appsdkflow.png" alt="特定于应用程序的SDK方法的参考架构" style="border:1px solid #4a4a4a" />
+
 ## 实施先决条件
 
 | 应用程序/服务 | 所需的库 | 附注 |
@@ -64,18 +79,6 @@ ht-degree: 0%
    >
    >每个应用程序都必须使用Experience CloudID，并且必须是同一Experience Cloud组织的一部分，以允许应用程序之间共享受众。
 1. [请求设置以在Experience Platform和Adobe Target之间共享受众(共享受众)](https://www.adobe.com/go/audiences)
-
-## 实现数据流图
-
-Web/Mobile个性化蓝图可以使用传统的特定于应用程序的SDK（例如，AppMeasurement.js）或使用Platform Web SDK/Mobile SDK和Edge Network来实现。
-
-### 平台Web/移动SDK和Edge Approach
-
-<img src="assets/websdkflow.svg" alt="平台Web SDK/Mobile SDK和Edge Network Approach的参考架构" style="border:1px solid #4a4a4a" />
-
-### 应用程序特定的SDK方法
-
-<img src="assets/appsdkflow.png" alt="特定于应用程序的SDK方法的参考架构" style="border:1px solid #4a4a4a" />
 
 ## 相关文档
 
