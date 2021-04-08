@@ -5,9 +5,9 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,24 @@ ht-degree: 0%
 
 默认情况下，区段共享服务允许每个Adobe Analytics报表包最多共享75个受众。 如果Audience Manager用于受众共享，则对可共享的受众数没有限制。 
 
+## 实施模式
+
+Web/移动个性化蓝图可以通过以下方法实现，如下所述。
+
+1. 使用Platform Web SDK/Mobile SDK和Edge Network。
+1. 使用传统的特定于应用程序的SDK（例如，AppMeasurement.js）
+
+### 1.平台Web/移动SDK和Edge Approach
+
+<img src="assets/websdkflow.svg" alt="平台Web SDK/Mobile SDK和Edge Network Approach的参考架构" style="border:1px solid #4a4a4a" />
+
+### 2.特定于应用程序的SDK方法
+
+<img src="assets/appsdkflow.png" alt="特定于应用程序的SDK方法的参考架构" style="border:1px solid #4a4a4a" />
+
+
+
+
 ## 实施先决条件
 
 | 应用程序/服务 | 所需的库 | 附注 |
@@ -65,21 +83,6 @@ ht-degree: 0%
 1. [请求对人员和受众共享服务的设置(共享受众)](https://www.adobe.com/go/audiences)
 1. 在[Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)或[Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html)和[中构建区段，并配置这些受众以共享到Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)(如果使用Audience Manager或Adobe Analytics)
 1. 受众在Adobe Target中可用后，即可用于Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html)的[定位体验
-
-
-## 实现数据流图
-
-Web/移动个性化蓝图可以通过以下两种方式实现：使用平台Web SDK或移动SDK和Edge网络，或使用传统的特定于应用程序的SDK（例如AppMeasurement.js）。
-
-### 平台Web/移动SDK和Edge Network Approach
-
-<img src="assets/websdkflow.svg" alt="平台Web SDK/Mobile SDK和Edge Network Approach的参考架构" style="border:1px solid #4a4a4a" />
-
-
-### 应用程序特定的SDK方法
-
-<img src="assets/appsdkflow.png" alt="特定于应用程序的SDK方法的参考架构" style="border:1px solid #4a4a4a" />
-
 
 ## 相关文档
 
