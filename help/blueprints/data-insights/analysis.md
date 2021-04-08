@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 77ddc003d4328074ad269de5837a02f5e6d6add5
+source-git-commit: cd98c46d948af9026449c947496df82fd1be6718
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,6 @@ Experience Platform的查询服务允许对数据执行SQL查询。 数据科学
 ## 应用程序
 
 * Adobe Experience Platform
-
-## 场景
-
-| 方案 | 说明 | Experience Cloud Applications/Services |
-|---|---|---|
-| **数据探索 — 数据的原始查询** | <ul><li>使用交互式查询用户界面或连接的SQL客户端在数据湖中写入和执行SQL查询。 Data Science Workspace还可用于查询和从Experience Platform中的原始数据获得洞察。</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
-| **企业仪表板** | <ul><li>将Business Intelligence工具与Experience Platform连接，以可视化仪表板和报告使用案例的数据。</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## 架构
 
