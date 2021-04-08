@@ -5,29 +5,22 @@ solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 translation-type: tm+mt
-source-git-commit: 7a097d7579d0e217ee5c6b469856bf786b17e6cb
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # 用户档案扩充蓝图的自定义数据科学
 
-此Blueprint显示了Data Science Workspace如何使用Adobe Experience Platform中的数据来培训、部署和评分模型以提供机器学习洞察。 这些模型可以直接输出到启用实时客户用户档案的数据集。 机器学习洞察的示例包括终身价值、产品和类别关联、转化倾向或客户流失倾向。
+针对用户档案扩充的自定义数据科学蓝图说明了如何在Adobe Experience Platform中使用数据科学工作区来培训、部署和评分模型以提供机器学习洞察。 这些模型可以直接输出到启用实时客户用户档案的数据集，以进一步丰富客户用户档案。 然后，可以对这些洞察进行个性化配置。 机器学习洞察的示例包括终身价值评分、产品和类别关联、转化倾向或客户流失倾向。
 
 ## 用例
 
 * 从Experience Platform中的客户数据中提取洞察并发现模式。 根据这些数据对模型进行培训和评分。
-* 利用模型驱动的洞察和属性丰富实时客户用户档案，实现更精细的个性化和优化的旅程优化。
+* 利用模型驱动的洞察和属性丰富实时客户用户档案，实现更精细的个性化和优化旅程。
 * 培训和评分模型以确定客户洞察，如客户终身价值、转化或参与倾向、产品和内容关联，以及互动分数。
-
-## 场景
-
-| 方案 | 方案描述 | Experience Cloud应用程序 |
-|---|---|---|
-| 探索性数据科学 | <ul><li>发现信号、完整性、数据正确性</li><li>使用数据科学工具发掘新洞察</li></ul> | <ul><li>Experience Platform智能</li></ul> |
-| 用户档案扩充(AI/ML<br>) — 批处理 | <ul><li>发现、创作、培训、部署、评分和操作模型。</li><li>将模型预测推送到用户档案或数据湖，以实现基于批量的激活。</li></ul> | <ul><li>Experience Platform智能</li></ul> |
 
 ## 架构
 
