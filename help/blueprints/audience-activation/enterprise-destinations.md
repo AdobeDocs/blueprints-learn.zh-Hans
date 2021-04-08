@@ -1,21 +1,21 @@
 ---
-title: 用户档案和Audience Activation到企业目标Blueprint
-description: 用户档案和Audience Activation到企业目标
-solution: Experience Platform,Real-time Customer Data Platform,Target,Audience Manager,Analytics,Experience Cloud Services,Data Collection
-kt: 7086
-exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
+title: 受众和用户档案激活到企业目标Blueprint
+description: 受众和用户档案激活到企业目标
+solution: Experience Platform,Real-time Customer Data Platform
+kt: 7475
+exl-id: null
 translation-type: tm+mt
-source-git-commit: 2fa5fc1def554713b057e1478bdd65a15913e0e4
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
 
 
-# 用户档案和Audience Activation到企业目标Blueprint
+# 受众和用户档案激活到企业目标Blueprint
 
-将用户档案更改复制和更新到企业激活存储，以用于和报告使用案例。
+将用户档案和受众更改复制和更新到企业存储，以用于激活和报告使用案例。
 
 通过客户操作的通知，从实时客户数据平台到企业系统和应用程序，向客户发起销售或支持行动。
 
@@ -79,10 +79,12 @@ ht-degree: 0%
 
 ## 相关文档
 
+* [目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+* [Enterprise Cloud存储目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
+* [HTTP目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/http-destination.html?lang=en#overview)
 * [实时客户数据平台产品说明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 * [用户档案和细分指南](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [分段文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
-* [目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 
 ## 相关视频和Tutorials
 
