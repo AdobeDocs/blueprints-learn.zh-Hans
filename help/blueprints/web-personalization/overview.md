@@ -6,7 +6,7 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%
@@ -14,7 +14,6 @@ ht-degree: 0%
 ---
 
 # Web和移动个性化
-
 
 Web和移动个性化解决了在多个应用程序中使用受众细分来个性化和优化客户体验的问题。 您可以使用客户行为、人口统计、忠诚度级别和先前交易个性化布局、行动号召和内容。
 
