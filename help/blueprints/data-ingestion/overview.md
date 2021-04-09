@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -21,5 +21,5 @@ ht-degree: 0%
 
 | Blueprint | 说明 | Experience Cloud应用程序 |
 |---|---|---|
-| **[数据准备和引入到Experience Platform](ingestion.md)** | <ul><li>数据准备和摄取蓝图包含准备数据并将其引入Adobe Experience Platform的所有方法。</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
-| **[服务器端转发 — 企业集合](server-side-collection.md)** | <ul><li>激活到基于用户档案的已知目标，如电子邮件提供商、社交网络和广告目标。 </li><li>将线下属性和事件（如线下订单、交易、CRM或忠诚度数据）与在线行为结合使用，实现在线定位和个性化。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL 实时客户数据平台]</li><li>Adobe Audience Manager（可选）</li></ul> |
+| **[数据准备和摄取](ingestion.md)** | <ul><li>数据准备和摄取蓝图包含准备数据并将其引入Adobe Experience Platform的所有方法。</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
+| **[服务器端企业数据收集](server-side-collection.md)** | <ul><li>激活到基于用户档案的已知目标，如电子邮件提供商、社交网络和广告目标。 </li><li>将线下属性和事件（如线下订单、交易、CRM或忠诚度数据）与在线行为结合使用，实现在线定位和个性化。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL 实时客户数据平台]</li><li>Adobe Audience Manager（可选）</li></ul> |
