@@ -1,22 +1,22 @@
 ---
 title: 客户活动中心蓝图
-description: 实时客户用户档案查找，为代理协助支持和销售提供上下文。
+description: '[!UICONTROL 实时客户概要] 信息查找，为代理支持和销售提供上下文。'
 solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c,4f15aa5d-9ee3-4d92-8012-3e2f0c0d615f
 translation-type: tm+mt
-source-git-commit: 98d44067a1640dc8b695cb0d25f69ec26be647e1
+source-git-commit: f217273f29e1091a121a60c2a19d71190df0f0ff
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
 # 客户活动中心蓝图
 
-Customer 活动 Hub Blueprint显示外部应用程序如何访问Adobe Experience Platform的实时客户用户档案。
+Customer 活动 Hub Blueprint显示外部应用程序如何访问Adobe Experience Platform的[!UICONTROL 实时客户用户档案]。
 
-外部应用程序可以通过API用户档案请求访问实时客户GET。 然后，存储在用户档案中的属性、事件、区段成员关系和模型驱动功能可以用于这些外部非Adobe应用程序。
+外部应用程序可以通过API用户档案请求访问GET。 然后，存储在用户档案中的属性、事件、区段成员关系和模型驱动功能可以用于这些外部非Adobe应用程序。
 
 利用此功能，您可以在客户呼叫呼叫中心时显示丰富的上下文。 例如，支持代理可以了解客户的终身价值、客户流失倾向或营销活动暴露情况。 销售代理还可以从更多情境中受益，或从中洞察客户。
 
@@ -34,7 +34,7 @@ Customer 活动 Hub Blueprint显示外部应用程序如何访问Adobe Experienc
 
 ## 瓜德雷尔
 
-* [实时客户用户档案数据的保证](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* [实时客 [!UICONTROL 户档案数据的保] 障](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 
 ## 实施步骤
 
@@ -46,6 +46,6 @@ Customer 活动 Hub Blueprint显示外部应用程序如何访问Adobe Experienc
 ## 相关文档
 
 * [Adobe Experience Platform 激活产品说明](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform0.html)
-* [实时客户用户档案文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en)
+* [[!UICONTROL 实时客户档案文] 档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en)
 * [用户档案瓜德雷尔](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 * [用户档案查找API](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)
