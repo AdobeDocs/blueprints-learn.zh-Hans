@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,9 @@ ht-degree: 0%
 | 数据准备方法 | 说明 |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL 数据科学工作区]  — 数据准备 | 模型驱动的转换，脚本转换。<br>[文档](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) |
->[!NOTE]
->
->|外部ETL工具（[!DNL Snaplogic]、[!DNL Mulesoft]、[!DNL Informatica]等） |在ETL工具中执行复杂转换，并使用标准Experience Platform源API或连接器来收集结果数据。                                                                                                                                                               |
-
-| [!UICONTROL 查询服务] — 数据准备                                  |将连接、拆分、合并、转换、查询和筛选数据转换为新数据集。 使用创建表作为选择(CTAS)<br>[文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)                                                                       |
-| XDM映射器和数据准备功能（流和批处理）     |在Experience Platform获取过程中，将CSV或JSON格式的源属性映射到XDM属性。<br>在摄取数据时对数据计算函数；即数据格式化、拆分、串联等。<br>[文档](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
+| 外部ETL工具（[!DNL Snaplogic]、[!DNL Mulesoft]、[!DNL Informatica]等） | 在ETL工具中执行复杂的转换，并使用标准Experience Platform[!UICONTROL 流服务] API或源连接器收集生成数据。 |
+| [!UICONTROL 查询服务]  — 数据准备 | 将数据联接、拆分、合并、转换、查询和筛选到新数据集。 使用创建表作为选择(CTAS)<br>[文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql) |
+| XDM映射器和数据准备功能（流和批处理） | 在Experience Platform获取过程中，将CSV或JSON格式的源属性映射到XDM属性。<br>在摄取数据时对数据计算函数；即数据格式化、拆分、串联等。<br>[文档](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
 
 ## 相关博客帖子
 
