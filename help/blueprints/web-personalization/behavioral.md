@@ -5,9 +5,9 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 087da6c5c5c6a6e9deee890d2ea02cf8591bdf15
+source-git-commit: 870541f548266ab82d74fec2e84b8cb6d5c952eb
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,12 @@ ht-degree: 0%
 
 Web/移动个性化蓝图可以通过以下方法实现，如下所述。
 
-1. 使用Platform Web SDK/Mobile SDK和Edge Network。
+1. 使用[!UICONTROL Platform Web SDK]或[!UICONTROL Platform Mobile SDK]和[!UICONTROL Edge Network]。
 1. 使用传统的特定于应用程序的SDK（例如，AppMeasurement.js）
 
 ### 1.平台Web/移动SDK和Edge Approach
 
-<img src="assets/websdkflow.svg" alt="平台Web SDK/Mobile SDK和Edge Network Approach的参考架构" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.svg" alt="[!UICONTROL Platform Web SDK]或[!UICONTROL Platform Mobile SDK]和[!UICONTROL Edge Network]方法的参考架构" style="border:1px solid #4a4a4a" />
 
 ### 2.特定于应用程序的SDK方法
 
@@ -59,10 +59,10 @@ Web/移动个性化蓝图可以通过以下方法实现，如下所述。
 
 | 应用程序/服务 | 所需的库 | 附注 |
 |---|---|---|
-| Adobe Target | 平台Web SDK*、at.js 0.9.1+或mbox.js 61+ | 首选at.js，因为mbox.js不再在开发中。 |
-| Adobe Audience Manager（可选） | 平台Web SDK*或dil.js 5.0+ |  |
-| Adobe Analytics（可选） | 平台Web SDK*或AppMeasurement.js 1.6.4+ |  |
-| Experience Cloud Identity Service | 平台Web SDK*或VisitorAPI.js 2.0+ |  |
+| Adobe Target | [!UICONTROL 平台Web] SDK*、at.js 0.9.1+或mbox.js 61+ | 首选at.js，因为mbox.js不再在开发中。 |
+| Adobe Audience Manager（可选） | [!UICONTROL 平台Web SDK]*或dil.js 5.0+ |  |
+| Adobe Analytics（可选） | [!UICONTROL 平台Web SDK]*或AppMeasurement.js 1.6.4+ |  |
+| Experience Cloud Identity Service | [!UICONTROL 平台Web SDK]*或VisitorAPI.js 2.0+ |  |
 | Experience Platform Mobile SDK（可选） | 适用于iOS和Android™的4.11或更高版本 |  |
 | Experience Platform Web SDK | 1.0，当前Experience Platform SDK版本具有[尚未支持Experience Cloud应用程序](https://github.com/adobe/alloy/projects/5)的各种用例 |  |
 
@@ -70,7 +70,7 @@ Web/移动个性化蓝图可以通过以下方法实现，如下所述。
 
 1. [为您的Web](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) 或移动应用程序实施Adobe目标。
 
-   如果使用Audience Manager或Analytics:
+   如果使用Audience Manager或Adobe Analytics:
 
 1. [实施Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)
 1. [实施Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)
