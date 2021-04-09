@@ -1,20 +1,20 @@
 ---
 title: 触发式消息和Adobe Experience Platform Blueprint
-description: 使用Adobe Experience Platform作为集中中心流数据、客户用户档案和细分执行触发式消息和体验。
+description: 使用Adobe Experience Platform作为流数据、客户用户档案和细分的中心枢纽，执行触发式消息和体验。
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 2404d871a852df8fed3adb97a79cc15e994db762
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
 
 # 触发式消息和Adobe Experience Platform Blueprint
 
-使用Adobe Experience Platform作为集中中心流数据、客户用户档案和细分执行触发式消息和体验。
+使用Adobe Experience Platform作为流数据、客户用户档案和细分的中心枢纽，执行触发式消息和体验。
 
 ## 用例
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 ## 架构
 
-<img src="assets/triggered.svg" alt="触发消息和Adobe Experience Platform方案的参考架构" style="border:1px solid #4a4a4a" />
+<img src="assets/triggered.svg" alt="触发式消息和Adobe Experience Platform蓝图的参考体系结构" style="border:1px solid #4a4a4a" />
 
 ## 集成模式
 
