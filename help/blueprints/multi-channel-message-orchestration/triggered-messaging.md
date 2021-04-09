@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 1%
+source-wordcount: '621'
+ht-degree: 0%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 * 当前不支持Offer decisioning
 * 请参阅[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)的用户档案和数据摄取护栏
 
-### Campaign Standard
+### Adobe Campaign Standard
 
 * 吞吐量仅支持14 tp（每小时50k）
 * 不支持由区段成员发起的旅程
@@ -69,7 +69,7 @@ ht-degree: 1%
 #### 模式/数据集
 
 1. 根据客户提供的数据在Experience Platform中配置单个用户档案、体验事件和多实体模式。
-1. 创建以下活动模式:broadLog、trackingLog、不可交付的地址和用户档案首选项（可选）。
+1. 创建以下Adobe Campaign模式:broadLog、trackingLog、不可交付的地址和用户档案首选项（可选）。
 1. 将数据使用标签添加到数据集以进行管理。
 1. 创建策略以对目标实施管理。
 
@@ -79,16 +79,16 @@ ht-degree: 1%
 1. 向模式添加身份。
 1. 支持模式和用户档案集。
 1. 为[!UICONTROL 实时客户用户档案]的不同视图设置合并规则（可选）。
-1. 为活动使用创建区段。
+1. 为Adobe Campaign使用创建区段。
 
 #### 源/目标
 
 1. 使用流API和源连接器将数据引入Experience Platform。
-1. 配置[!DNL Azure] blob存储目标以与活动一起使用。
+1. 配置[!DNL Azure] blob存储目标以与Adobe Campaign一起使用。
 
 #### 移动应用程序部署
 
-1. 实施活动 SDK for Campaign Classic或Experience Platform SDK for Campaign Standard。 如果存在Experience Platform Launch，建议将Campaign Classic/Standard扩展与Experience Platform SDK一起使用。
+1. 为Adobe Campaign Classic实施Adobe Campaign SDK或为Adobe Campaign Standard实施Experience Platform SDK。 如果存在Experience Platform Launch，建议将Adobe Campaign Classic或Adobe Campaign Standard扩展与Experience Platform SDK一起使用。
 
 
 ### Journey Orchestration
@@ -97,7 +97,7 @@ ht-degree: 1%
 1. 配置外部数据源。
 1. 配置自定义操作。
 
-### Campaign Standard
+### Adobe Campaign Standard
 
 1. 使用适当的个性化设置配置消息传递模板。
 1. 配置导出工作流，导出事务消息日志。 建议最多每四小时运行一次。
@@ -107,7 +107,7 @@ ht-degree: 1%
 
 * [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
 * [Journey Orchestration文档](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=en)
-* [Campaign Classic文档](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
-* [Campaign Standard文档](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
+* [Adobe Campaign Classic文档](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
+* [Adobe Campaign Standard文档](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
 * [Experience Platform Launch文档](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Platform Mobile SDK文档](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
