@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 架构
 
-<img src="assets/aepbatch.svg" alt="批处理消息和Adobe Experience Platform方案的参考架构" style="border:1px solid #4a4a4a" />
+<img src="assets/aepbatch.svg" alt="批处理消息和Adobe Experience Platform Blueprint的参考架构" style="border:1px solid #4a4a4a" />
 
 ## 瓜德雷尔
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 1. 创建任何客户特定的命名空间。
 1. 向模式添加身份。
 1. 支持模式和用户档案集。
-1. 为实时客户视图的不同用户档案设置合并规则（可选）。
+1. 为[!UICONTROL 实时客户用户档案]的不同视图设置合并规则（可选）。
 1. 为活动使用创建区段。
 
 #### 源/目标
