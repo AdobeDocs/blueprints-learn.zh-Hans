@@ -5,7 +5,7 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: d5f7502d97386d10d81fadc2c882a17ada36226c
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Web/移动个性化蓝图可以通过以下方法实现，如下所述。
 
 1. [为您的Web](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) 或移动应用程序实施Adobe目标。
 
-   如果使用受众管理器或分析：
+   如果使用Audience Manager或Analytics:
 
 1. [实施Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)
 1. [实施Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)
