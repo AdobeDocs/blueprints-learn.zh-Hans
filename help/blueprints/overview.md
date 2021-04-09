@@ -4,9 +4,9 @@ description: Digital Experience Blueprint是可重复实施的产品，用于解
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 3c139ed925fc7999ea3b7e6eb21bf68ae9ff23cb
+source-git-commit: 5ee692fb1ffe0e360f561a8fdaa0c21b6545d41b
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,8 @@ Digital Experience Blueprint是可重复实施的产品，用于解决战略和�
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="数字行为数据整合蓝图的缩略图" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Web/移动个性化蓝图</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>数字行为数据整合蓝图 
+</strong></a></div>
     <p><em>对不同渠道中的客户行为有一个统一的视图。</em></p>
   </td>
 </tr>
