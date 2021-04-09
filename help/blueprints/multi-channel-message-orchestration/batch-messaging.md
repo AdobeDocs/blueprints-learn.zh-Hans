@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 * 活动是所有活动用户档案的真相来源，这意味着用户档案必须存在于活动中，而新用户档案不应基于Experience Platform段创建。
 * 通过Experience Platform实现的区段成员身份对于批（每天1次）和流（约5分钟）都是潜在的
 
-**实时客户数据平台细分共享到活动:**
+**[!UICONTROL 实时客户数据平] 台细分共享到活动:**
 
 * 建议20段限额
 * 激活限于每24小时
