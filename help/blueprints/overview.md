@@ -4,9 +4,9 @@ description: Digital Experience Blueprint是可重复实施的产品，用于解
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 5ee692fb1ffe0e360f561a8fdaa0c21b6545d41b
+source-git-commit: 652f8d2cab997418aa8752d3d2c80f715ef6a85c
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -34,19 +34,18 @@ Digital Experience Blueprint是可重复实施的产品，用于解决战略和�
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="触发式消息和Adobe Experience Platform Blueprint的缩略图" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>触发式消息和Adobe Experience Platform Blueprint</strong></a></div>
-    <p><em>使用Adobe Experience Platform作为中心枢纽来触发消息和体验。</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="“触发的消息传递”和“Experience Platform蓝图”的缩略图" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>触发式消息和Experience Platform</strong></a></div>
+    <p><em>使用[!UICONTROL平台]作为中心中心触发消息和体验。</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="“联机/脱机Audience ActivationBlueprint”的缩略图" src="audience-activation/assets/onoff.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>联机/脱机Audience Activation蓝图</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>联机/脱机Audience Activation</strong></a></div>
     <p><em>提供受众激活的跨渠道广告。</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="数字行为数据整合蓝图的缩略图" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>数字行为数据整合蓝图 
-</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>数字行为数据整合</strong></a></div>
     <p><em>对不同渠道中的客户行为有一个统一的视图。</em></p>
   </td>
 </tr>
