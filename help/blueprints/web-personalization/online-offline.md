@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
+source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -45,12 +45,12 @@ ht-degree: 0%
 
 Web/移动个性化蓝图可以通过以下方法实现，如下所述。
 
-1. 使用Platform Web SDK/Mobile SDK和Edge Network。
+1. 使用[!UICONTROL Platform Web SDK]或[!UICONTROL Platform Mobile SDK]和[!UICONTROL Edge Network]。
 1. 使用传统的特定于应用程序的SDK（例如，AppMeasurement.js）
 
 ### 1.平台Web/移动SDK和Edge Approach
 
-<img src="assets/websdkflow.svg" alt="平台Web SDK/Mobile SDK和Edge Network Approach的参考架构" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.svg" alt="[!UICONTROL Platform Web SDK]或[!UICONTROL Platform Mobile SDK]和[!UICONTROL Edge Network]方法的参考架构" style="border:1px solid #4a4a4a" />
 
 ### 2.特定于应用程序的SDK方法
 
@@ -60,10 +60,10 @@ Web/移动个性化蓝图可以通过以下方法实现，如下所述。
 
 | 应用程序/服务 | 所需的库 | 附注 |
 |---|---|---|
-| Adobe Target | 平台Web SDK*、at.js 0.9.1+或mbox.js 61+ | 首选at.js，因为mbox.js不再在开发中。 |
-| Adobe Audience Manager（可选） | 平台Web SDK*或dil.js 5.0+ |  |
-| Adobe Analytics（可选） | 平台Web SDK*或AppMeasurement.js 1.6.4+ | Adobe Analytics跟踪必须使用区域数据收集(RDC)。 |
-| Experience CloudID服务 | 平台Web SDK*或VisitorAPI.js 2.0+ | （建议）使用Experience Platform Launch部署ID服务，以确保在调用任何应用程序之前设置ID |
+| Adobe Target | [!UICONTROL 平台Web] SDK*、at.js 0.9.1+或mbox.js 61+ | 首选at.js，因为mbox.js不再在开发中。 |
+| Adobe Audience Manager（可选） | [!UICONTROL 平台Web SDK]*或dil.js 5.0+ |  |
+| Adobe Analytics（可选） | [!UICONTROL 平台Web SDK]*或AppMeasurement.js 1.6.4+ | Adobe Analytics跟踪必须使用区域数据收集(RDC)。 |
+| Experience CloudID服务 | [!UICONTROL 平台Web SDK]*或VisitorAPI.js 2.0+ | （建议）使用Experience Platform Launch部署ID服务，以确保在调用任何应用程序之前设置ID |
 | Experience Platform Mobile SDK（可选） | 适用于iOS和Android™的4.11或更高版本 |  |
 | Experience Platform Web SDK | 1.0，当前Experience Platform SDK版本具有[尚未支持Experience Cloud应用程序](https://github.com/adobe/alloy/projects/5)的各种用例 |  |
 
