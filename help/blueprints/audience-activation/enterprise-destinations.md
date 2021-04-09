@@ -5,7 +5,7 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: 8bcd82eac5e8837c3cd84524174cf5792d73ac6e
+source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 将用户档案和受众更改复制和更新到企业存储，以用于激活和报告使用案例。
 
-通过客户操作的通知，从实时客户数据平台到企业系统和应用程序，向客户发起销售或支持行动。
+通过从[!UICONTROL 实时客户数据平台]到企业系统和应用程序的客户操作通知，向客户发起销售或支持操作。
 
 ## 用例
 
@@ -79,14 +79,14 @@ ht-degree: 0%
 ## 相关文档
 
 * [目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
-* [Enterprise Cloud存储目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
+* [云存储目标概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
 * [HTTP目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/http-destination.html?lang=en#overview)
-* [实时客户数据平台产品说明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
+* [[!UICONTROL 实时客户数据平台产] 品说明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 * [用户档案和细分指南](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [分段文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 
 ## 相关视频和Tutorials
 
-* [实时客户数据平台概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
-* [实时客户数据平台演示](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
+* [[!UICONTROL 实时客户数据平] 台](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
+* [实时客 [!UICONTROL 户数据平台演示]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
 * [创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
