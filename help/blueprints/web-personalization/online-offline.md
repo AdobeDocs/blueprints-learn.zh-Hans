@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
+source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 应用程序
 
-* 实时客户数据平台
+* [!UICONTROL 实时客户数据平台]
 * Adobe Target
 * Adobe Audience Manager（可选）：添加第三方受众数据、基于协作的设备图形、在Adobe Analytics中显示平台区段的功能以及在Platform中显示Adobe Analytics区段的功能
 * Adobe Analytics（可选）：添加了根据历史行为数据构建细分和从Adobe Analytics数据细粒度细分的能力
@@ -73,7 +73,7 @@ Web/移动个性化蓝图可以通过以下方法实现，如下所述。
 1. [为您的Web或](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) 移动应用程序实施Adobe目标
 1. [实施Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html) （可选）
 1. [实施Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)  （可选）
-1. [实施Experience Platform和实时客户用户档案](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
+1. [实施Experience Platform [!UICONTROL 和实时客户用户档案]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
 1. 实施[Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html)或[Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
    >[!NOTE]
    >
@@ -87,20 +87,20 @@ Web/移动个性化蓝图可以通过以下方法实现，如下所述。
 * [流细分](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [Experience Platform区段生成器概述](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)
 * [Audience Manager源连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
-* [Adobe Analytics通过AAM进行细分共享](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Adobe Analytics细分共享(通过Adobe Audience Manager)](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 * [Experience Platform Web SDK文档](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Experience CloudID服务文档](https://experienceleague.adobe.com/docs/id-service/using/home.html)
 * [Experience Platform Launch文档](https://experienceleague.adobe.com/docs/launch/using/home.html)
 
 ## 相关博客帖子
 
-* [使用Adobe Experience Platform实时客户用户档案的Web个性化蓝图](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
-* [构建最佳在线体验：利用查询服务丰富统一用户档案](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
-* [将Adobe Experience Platform决策引擎与AEM网站集成](https://jaeness.medium.com/integrating-adobe-experience-platform-decisioning-engine-with-aem-websites-9c222acd12e2)
-* [Adobe Experience Platform的Identity Service — 如何解决客户身份难题](https://medium.com/adobetech/adobe-experience-platforms-identity-service-how-to-solve-the-customer-identity-conundrum-f95e22d16ea9)
-* [Adobe Experience Platform预测受众如何改善个性化体验](https://medium.com/adobetech/how-adobe-experience-platform-predictive-audiences-improves-personalized-experiences-1f75a60cb7a3)
-* [Adobe Experience Platform Web SDK for 受众 Management](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
-* [通过“客户零”用户档案实施Adobe Experience Platform实时客户项目](https://medium.com/adobetech/implementing-adobe-experience-platform-real-time-customer-profile-through-our-customer-zero-32e7cd952896)
-* [Adobe Experience Platform如何通过Journey Orchestration服务和移动消息供应商帮助客户实时个性化其移动消息](https://medium.com/adobetech/how-adobe-experience-platform-helped-a-client-personalize-their-mobile-messaging-in-real-time-with-7d634aefa098)
-* [分段（秒）：Adobe Experience Platform如何让实时客户用户档案成为现实](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
-* [构建最佳在线体验：利用查询服务丰富统一用户档案](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
+* [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
+* [[!DNL Build an Optimal Online Experience: Enrich Unified Profile with Query Service]](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
+* [[!DNL Integrating Adobe Experience Platform Decisioning Engine with AEM Websites]](https://jaeness.medium.com/integrating-adobe-experience-platform-decisioning-engine-with-aem-websites-9c222acd12e2)
+* [[!DNL Adobe Experience Platform’s Identity Service — How to Solve the Customer Identity Conundrum]](https://medium.com/adobetech/adobe-experience-platforms-identity-service-how-to-solve-the-customer-identity-conundrum-f95e22d16ea9)
+* [[!DNL How Adobe Experience Platform Predictive Audiences improves Personalized Experiences]](https://medium.com/adobetech/how-adobe-experience-platform-predictive-audiences-improves-personalized-experiences-1f75a60cb7a3)
+* [[!DNL Adobe Experience Platform Web SDK for Audience Management]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
+* [[!DNL Implementing Adobe Experience Platform Real-Time Customer Profile through our “Customer Zero” Program]](https://medium.com/adobetech/implementing-adobe-experience-platform-real-time-customer-profile-through-our-customer-zero-32e7cd952896)
+* [[!DNL How Adobe Experience Platform Can Help Customers Personalize Their Mobile Messaging in Real-Time with Journey Orchestration Service and a Mobile Messaging Vendor]](https://medium.com/adobetech/how-adobe-experience-platform-helped-a-client-personalize-their-mobile-messaging-in-real-time-with-7d634aefa098)
+* [[!DNL Segmentation in Seconds: How Adobe Experience Platform Made Real-time Customer Profiles a Reality]](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
+* [[!DNL Build an Optimal Online Experience: Enrich Unified Profile with Query Service]](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
