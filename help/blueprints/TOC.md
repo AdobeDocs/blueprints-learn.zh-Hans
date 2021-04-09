@@ -5,9 +5,9 @@ user-guide-description: Blueprint是可重复实施的，可用于解决已建�
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: 04fa7c1f111a27e782d4a70282f51397a096b46c
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
    + [呼叫偏转](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + 数据收集和准备{#data-ingestion}
    + [概述](/help/blueprints/data-ingestion/overview.md)
-   + [数据摄取和准备Experience Platform](/help/blueprints/data-ingestion/ingestion.md)
+   + [数据准备和摄取](/help/blueprints/data-ingestion/ingestion.md)
    + [服务器端企业数据收集](/help/blueprints/data-ingestion/server-side-collection.md)
 + 数据分析、智能和AI/ML{#data-exploration}
    + [概述](/help/blueprints/data-insights/overview.md)
@@ -43,6 +43,6 @@ ht-degree: 2%
    + [触发式消息和Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
 + Web和移动个性化{#web-personalization}
    + [概述](/help/blueprints/web-personalization/overview.md)
-   + [行为Web个性化](/help/blueprints/web-personalization/behavioral.md)
-   + [在线/离线Web个性化](/help/blueprints/web-personalization/online-offline.md)
+   + [行为个性化](/help/blueprints/web-personalization/behavioral.md)
+   + [在线/离线个性化](/help/blueprints/web-personalization/online-offline.md)
 
