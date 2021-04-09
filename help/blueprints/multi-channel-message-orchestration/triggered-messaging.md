@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 2404d871a852df8fed3adb97a79cc15e994db762
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 1%
@@ -78,7 +78,7 @@ ht-degree: 1%
 1. 创建任何客户特定的命名空间。
 1. 向模式添加身份。
 1. 支持模式和用户档案集。
-1. 为实时客户视图的不同用户档案设置合并规则（可选）。
+1. 为[!UICONTROL 实时客户用户档案]的不同视图设置合并规则（可选）。
 1. 为活动使用创建区段。
 
 #### 源/目标
