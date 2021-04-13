@@ -4,18 +4,16 @@ description: Digital Experience Blueprint是可重复实施的产品，用于解
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 652f8d2cab997418aa8752d3d2c80f715ef6a85c
+source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
 
 # 数字体验蓝图
 
-Digital Experience Blueprint是可重复实施的产品，用于解决战略和解决已建立的业务问题。 Blueprint可加快实现价值的速度，并提供快速的成功之路。
-
-每个Blueprint优惠Adobe客户都会有一系列伪像，用于解释高价值业务问题、体系结构、实施步骤、技术考虑事项以及指向相关文档的链接。
+Digital Experience Blueprint是可重复实施的产品，使您能够解决战略问题并快速解决已建立的业务问题。 每个Blueprint都提供一系列工件，用于解释高价值业务问题、体系结构、实施步骤、技术考虑事项以及指向相关文档的链接。
 
 ## 新增功能
 
