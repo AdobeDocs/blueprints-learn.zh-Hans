@@ -5,18 +5,16 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: a63da7d5da3038cf66b5f2c99e117d4aa5b21cc1
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
 
 # 受众和用户档案激活到企业目标Blueprint
 
-将用户档案和受众更改复制和更新到企业存储，以用于激活和报告使用案例。<!-- This sentence is difficult to mentally process because there's no verb. Describe what the customer can do with this feature. The first paragraph on a page should not be an abstract description.-->
-
-通过从[!UICONTROL 实时客户数据平台]到企业系统和应用程序的客户操作通知，向客户发起销售或支持操作。<!-- What kinds of sales or support actions? You might add a "For example...." The content in these blueprints should be more simple and friendly.-->
+从[!UICONTROL 实时客户数据平台]共享用户档案和受众更改以及流式或批量事件到企业数据存储和应用程序。 这些用户档案和受众事件可用于向客户发起销售或支持行动，例如跟踪放弃的应用程序流程或网络研讨会注册，或使用[!UICONTROL 实时客户数据平台]的最新客户属性和智能更新企业应用程序。
 
 ## 用例
 
@@ -49,7 +47,7 @@ ht-degree: 0%
 
 ## 实施步骤
 
-1. 为要摄取的数据创建模式。<!-- Cross-references to these topics would be helpful -->
+1. 为要摄取的数据创建模式。
 1. 为要摄取的数据创建数据集。
 1. 在模式上配置正确的身份和身份命名空间，以确保摄取的数据可以拼接到统一的用户档案中。
 1. 启用模式和数据集以进行用户档案处理。
