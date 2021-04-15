@@ -1,18 +1,18 @@
 ---
-title: 数字行为数据整合蓝图
+title: 跨渠道历程分析
 description: 分析客户旅程中的客户互动并从中获得洞察。
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
 
-# 数字行为数据整合蓝图
+# 跨渠道历程分析蓝图
 
 通过统一来自各种Web、移动和线下属性的视图，统一不同渠道中的客户行为。
 
