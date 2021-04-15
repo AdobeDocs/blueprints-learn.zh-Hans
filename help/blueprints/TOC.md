@@ -5,10 +5,10 @@ user-guide-description: Blueprint是可重复实施的，可用于解决已建�
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 04fa7c1f111a27e782d4a70282f51397a096b46c
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
    + [客户活动中心](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [概述](/help/blueprints/customer-journey-analytics/overview.md)
-   + [数字行为数据整合](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
+   + [跨渠道历程分析](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [呼叫偏转](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + 数据收集和准备{#data-ingestion}
    + [概述](/help/blueprints/data-ingestion/overview.md)
