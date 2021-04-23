@@ -1,17 +1,17 @@
 ---
-title: 数字体验蓝图
-description: Digital Experience Blueprint是可重复实施的产品，用于解决战略和解决已建立的业务问题。 它们可加快实现价值的速度，并为成功提供快速途径。
+title: 数字体验 Blueprints
+description: 数字体验 Blueprints 是可重复实施的产品，用于应对战略和解决既定的业务问题。它们可加快实现价值的速度，并提供快速的成功之路。
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
 source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# 数字体验蓝图
+# 数字体验 Blueprints
 
 Digital Experience Blueprint是可重复实施的产品，使您能够解决战略问题并快速解决已建立的业务问题。 每个Blueprint都提供一系列工件，用于解释高价值业务问题、体系结构、实施步骤、技术考虑事项以及指向相关文档的链接。
 
@@ -20,14 +20,14 @@ Digital Experience Blueprint是可重复实施的产品，使您能够解决战�
 * **[受众和用户档案激活到企业目标Blueprint](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
    *使所有系统中的客户用户档案保持最新，为您的销售和支持团队提供支持&#x200B;。*
-* **[客户活动中心蓝图](/help/blueprints/audience-activation/customer-activity.md)**
+* **[客户活动中心 Blueprint](/help/blueprints/audience-activation/customer-activity.md)**
 
-   *提供代理协助支持和销售的上下文。*
+   *提供座席协助支持和销售的背景信息。*
 * **[数据分析和智能蓝图](/help/blueprints/data-insights/analysis.md)**
 
    *对数据湖中的数据执行探索性查询和分析。*
 
-## 特色蓝图
+## 特色 Blueprints
 
 <table style="table-layout:fixed">
 <tr>
@@ -38,8 +38,8 @@ Digital Experience Blueprint是可重复实施的产品，使您能够解决战�
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="“联机/脱机Audience ActivationBlueprint”的缩略图" src="audience-activation/assets/onoff.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>联机/脱机Audience Activation</strong></a></div>
-    <p><em>提供受众激活的跨渠道广告。</em></p>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>线上/线下 Audience Activation</strong></a></div>
+    <p><em>投放受众激活的跨渠道广告。</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="数字行为数据整合蓝图的缩略图" src="customer-journey-analytics/assets/CJA.svg" /></a>
@@ -49,7 +49,7 @@ Digital Experience Blueprint是可重复实施的产品，使您能够解决战�
 </tr>
 </table>
 
-## 博客文章
+## 博客帖子
 
 * [[!DNL Introducing Adobe Experience Platform’s New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
 * [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
