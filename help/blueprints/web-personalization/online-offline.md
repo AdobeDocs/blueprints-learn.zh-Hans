@@ -1,6 +1,6 @@
 ---
 title: 联机/脱机Web个性化蓝图
-description: 将Web个性化与电子邮件和其他已知的匿名渠道个性化同步。
+description: 将 Web 个性化与电子邮件和其他已知和匿名渠道的个性化同步。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
@@ -8,38 +8,38 @@ translation-type: tm+mt
 source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
 source-wordcount: '865'
-ht-degree: 0%
+ht-degree: 69%
 
 ---
 
 # 在线/离线Web/移动个性化蓝图
 
-将Web个性化与电子邮件和其他已知的匿名渠道个性化同步。
+将 Web 个性化与电子邮件和其他已知和匿名渠道的个性化同步。
 
 ## 用例
 
 * 登陆页优化
 * 行为和线下用户档案定位
-* 除了离线洞察（如交易、忠诚度和CRM数据）以及建模的洞察之外，还基于以前的产品/内容视图、产品/内容关联、环境属性、第三方受众数据和人口统计信息进行个性化
+* 除线下洞察（如交易、预订、CRM 和忠诚度数据）和模型洞察以外，还基于以前的产品/内容视图、产品/内容关联、环境属性、第三方受众数据和人口统计的个性化
 
 ## 应用程序
 
 * [!UICONTROL 实时客户数据平台]
 * Adobe Target
-* Adobe Audience Manager（可选）：添加第三方受众数据、基于协作的设备图形、在Adobe Analytics中显示平台区段的功能以及在Platform中显示Adobe Analytics区段的功能
-* Adobe Analytics（可选）：添加了根据历史行为数据构建细分和从Adobe Analytics数据细粒度细分的能力
+* Adobe Audience Manager（可选）：添加了第三方受众数据，基于合作社的设备图，在 Adobe Analytics 中显示 Platform 区段功能以及在 Platform 中显示 Adobe Analytics 区段的功能
+* Adobe Analytics（可选）：添加了根据历史行为数据和来自 Adobe Analytics 数据的精细分段来构建区段的功能
 
 ## 架构
 
 <img src="assets/onoff.svg" alt="在线/离线Web个性化蓝图的参考体系结构" style="border:1px solid #4a4a4a" />
 
-## 瓜德雷尔
+## 护栏
 
-* 从Experience Platform到Audience Manager共享的细分在细分实现后的几分钟内即可共享 — 无论是通过流评估还是批评估方法。 在Experience Platform和Audience Manager之间进行初始段配置同步约4小时，Experience Platform段成员关系将开始在Audience Manager用户档案实现。 进入Audience Manager用户档案后，Experience Platform区段成员身份即可通过Adobe Target实现相同的页面个性化。
+* 从 Experience Platform 共享到 Audience Manager 的区段可以在区段实现的几分钟内共享 - 无论是通过流式还是批次评估方法。在Experience Platform和Audience Manager之间进行初始段配置同步约4小时，Experience Platform段成员关系将开始在Audience Manager用户档案实现。 进入Audience Manager用户档案后，Experience Platform区段成员身份即可通过Adobe Target实现相同的页面个性化。
 * 请注意，对于在4小时段配置中在Experience Platform和Audience Manager之间同步的段实现，这些段实现将作为“现有”段在后续批段作业上实现为Audience Manager。
 * 通过Experience Platform进行批量区段共享 — 每天一次或通过API手动启动。 一旦实现这些区段会员资格，它们将在几分钟内共享给Audience Manager，并可在目标中实现同一/下一页个性化。
 * 流分段大约在5分钟内实现。 完成这些细分实现后，它们将在几分钟内共享给Audience Manager，并可在目标中实现同一/下一页个性化。
-* 默认情况下，区段共享服务允许每个Adobe Analytics报表包最多共享75个受众。 如果客户拥有Audience Manager许可证，则对Adobe Analytics与Adobe Target或Audience Manager与Adobe Target之间可共享的受众数量不设限制。
+* 默认情况下，区段共享服务允许每个 Adobe Analytics 报告包最多共享 75 名受众。如果客户拥有 Audience Manager 许可，则可以在 Adobe Analytics 和 Adobe Target 或 Audience Manager 和 Adobe Target 之间共享受众，数量没有限制。
 
 ## 实施模式
 
@@ -54,43 +54,43 @@ Web/移动个性化蓝图可以通过以下方法实现，如下所述。
 
 ### 2.特定于应用程序的SDK方法
 
-<img src="assets/appsdkflow.png" alt="特定于应用程序的SDK方法的参考架构" style="border:1px solid #4a4a4a" />
+<img src="assets/appsdkflow.png" alt="特定于应用程序的 SDK 方法的参考架构" style="border:1px solid #4a4a4a" />
 
 ## 实施先决条件
 
-| 应用程序/服务 | 所需的库 | 附注 |
+| 应用程序/服务 | 所需的库 | 备注 |
 |---|---|---|
-| Adobe Target | [!UICONTROL 平台Web] SDK*、at.js 0.9.1+或mbox.js 61+ | 首选at.js，因为mbox.js不再在开发中。 |
+| Adobe Target | [!UICONTROL 平台Web] SDK*、at.js 0.9.1+或mbox.js 61+ | 首选 at.js，因为 mbox.js 将不再开发。 |
 | Adobe Audience Manager（可选） | [!UICONTROL 平台Web SDK]*或dil.js 5.0+ |  |
-| Adobe Analytics（可选） | [!UICONTROL 平台Web SDK]*或AppMeasurement.js 1.6.4+ | Adobe Analytics跟踪必须使用区域数据收集(RDC)。 |
-| Experience CloudID服务 | [!UICONTROL 平台Web SDK]*或VisitorAPI.js 2.0+ | （建议）使用Experience Platform Launch部署ID服务，以确保在调用任何应用程序之前设置ID |
-| Experience Platform Mobile SDK（可选） | 适用于iOS和Android™的4.11或更高版本 |  |
-| Experience Platform Web SDK | 1.0，当前Experience Platform SDK版本具有[尚未支持Experience Cloud应用程序](https://github.com/adobe/alloy/projects/5)的各种用例 |  |
+| Adobe Analytics（可选） | [!UICONTROL 平台Web SDK]*或AppMeasurement.js 1.6.4+ | Adobe Analytics 跟踪必须使用区域数据收集 (RDC)。 |
+| Experience Cloud ID 服务 | [!UICONTROL 平台Web SDK]*或VisitorAPI.js 2.0+ | （推荐）使用 Experience Platform Launch 部署 ID 服务，以确保在任何应用程序调用之前已设置 ID。 |
+| Experience Platform Mobile SDK（可选） | 适用于 Android™ 和 iOS 的 4.11 或更高版本 |  |
+| Experience Platform Web SDK | 1.0，当前 Experience Platform SDK 版本具有[尚未支持 Experience Cloud 应用程序的各种用例](https://github.com/adobe/alloy/projects/5) |  |
 
 
 ## 实施步骤
 
-1. [为您的Web或](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) 移动应用程序实施Adobe目标
-1. [实施Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html) （可选）
-1. [实施Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)  （可选）
-1. [实施Experience Platform [!UICONTROL 和实时客户用户档案]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
-1. 实施[Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html)或[Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+1. 为您的 Web 或移动应用程序[实施 Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=zh-Hans)
+1. [实施 Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=zh-Hans)（可选）
+1. [实施 Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=zh-Hans)（可选）
+1. [[!UICONTROL 实施 Experience Platform 和实时客户档案]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=zh-Hans)
+1. 实施 [Experience Cloud Identity 服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=zh-Hans)或者 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)
    >[!NOTE]
    >
-   >每个应用程序都必须使用Experience CloudID，并且必须是同一Experience Cloud组织的一部分，以允许应用程序之间共享受众。
-1. [请求设置以在Experience Platform和Adobe Target之间共享受众(共享受众)](https://www.adobe.com/go/audiences)
+   >每个应用程序都必须使用 Experience Cloud ID，并且必须是同一 Experience Cloud 组织的一部分，以允许应用程序之间共享受众。
+1. [请求预配 Experience Platform 和 Adobe Target 之间的受众共享（共享的受众）](https://www.adobe.com/go/audiences)
 
 ## 相关文档
 
-* [Experience Platform细分共享与Audience Manager和其他Experience Cloud解决方案](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html)
-* [Experience Platform细分概述](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
-* [流细分](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
-* [Experience Platform区段生成器概述](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)
-* [Audience Manager源连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
-* [Adobe Analytics细分共享(通过Adobe Audience Manager)](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-* [Experience Platform Web SDK文档](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
-* [Experience CloudID服务文档](https://experienceleague.adobe.com/docs/id-service/using/home.html)
-* [Experience Platform Launch文档](https://experienceleague.adobe.com/docs/launch/using/home.html)
+* [与 Audience Manager 和其他 Experience Cloud 解决方案共享 Experience Platform 区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=zh-Hans)
+* [Experience Platform 区段概述](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)
+* [流传输区段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans)
+* [Experience Platform 区段生成器概述](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans)
+* [Audience Manager 源连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=zh-Hans)
+* [Adobe Analytics细分共享(通过Adobe Audience Manager)](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hans)
+* [Experience Platform Web SDK 文档](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Experience Cloud ID 服务文档](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
+* [Experience Platform Launch 文档](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=zh-Hans)
 
 ## 相关博客帖子
 
