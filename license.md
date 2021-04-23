@@ -1,17 +1,29 @@
 ---
 source-git-commit: 8225c25ca54acb10ff9e9dd07d869b0c9a626c0b
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '170'
 ht-degree: 100%
 
 ---
 # MIT 许可
 
-© Copyright 2020 Adobe. All rights reserved.
+© Copyright 2020 Adobe.All rights reserved.
 
-特此向任何获得本软件及相关文档（简称“软件”）副本的人、以及被供应本“软件”的人授权：被授权人可以不受限制地免费使用本“软件”，包括但不限于：使用、复制、修改、合并、发布、分发、再授权和/或出售本“软件”的副本，但被授权人需遵守以下条件：
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-上述版权声明和以下许可声明都应包含在本“软件”和“软件”的所有副本中。
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-本软件按“原样”提供，不作任何形式的明示或默示担保，包括但不限于对适销性、适用于特定用途和非侵权的担保。在任何情况下，对于因本“软件”、使用本“软件”或其他交易本“软件”而导致的任何索赔、损坏或其他责任，无论是否涉及合同、侵权或其他事宜，作者或版权持有人均不承担任何责任。
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
