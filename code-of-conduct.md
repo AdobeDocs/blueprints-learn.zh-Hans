@@ -1,7 +1,7 @@
 ---
 source-git-commit: 8225c25ca54acb10ff9e9dd07d869b0c9a626c0b
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '431'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## 我们的标准
 
-有助于营造正面、积极环境的行为举例如下：
+有助于营造正面、积极环境的行为示例包括：
 
 * 使用友好和包容的语言
 * 尊重不同的观点和经验
@@ -22,13 +22,13 @@ ht-degree: 100%
 * 专注于对社区最有利的方面
 * 对社区其他成员表现出同理心
 
-不可接受的参与者行为举例如下：
+不可接受的参与者行为示例包括：
 
 * 使用明示或暗示性别差异的语言或表述，以及不受欢迎的性别关注或骚扰
 * 发布挑衅、侮辱/诋毁性言论，以及进行个人或政治攻击
 * 公开或私下骚扰
 * 未经明确许可发布他人的私人信息，如物理地址或电子地址
-* 在专业环境中可合理认为不适当的其他行为
+* 在专业环境中有理由被认为不适当的其他行为
 
 ## 我们的责任
 
@@ -46,6 +46,6 @@ ht-degree: 100%
 
 如果项目维护人不以诚信原则遵守或执行本行为准则，项目领导层的其他成员可能做出对该项目维护人有暂时或永久性影响的决定。
 
-## 归属
+## 归因
 
 本行为准则根据 [Contributor Covenant](https://contributor-covenant.org)（参与者公约）第 1.4 版编写，您可在 [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/) 查看此版本的“参与者公约”
