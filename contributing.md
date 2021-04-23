@@ -1,9 +1,9 @@
 ---
 source-git-commit: 8225c25ca54acb10ff9e9dd07d869b0c9a626c0b
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '296'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 # 参与
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 ## 参与者指南文档
 
-请参阅[Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
+请参阅[参与者指南](https://docs.adobe.com/content/help/zh-Hans/contributor/contributor-guide/introduction.html)。
 
 ## 有问题？
 
@@ -30,7 +30,7 @@ ht-degree: 93%
 
 ## 行为准则审核
 
-所有提交均应以拉取请求的形式完成，并且需要由项目提交者进行审核。请阅读 [GitHub 的拉取请求文档](https://help.github.com/cn/articles/about-pull-requests/)，了解有关发送拉取请求的更多信息。
+所有提交均应以拉取请求的形式完成，并且需要由项目提交者进行审核。请阅读 [GitHub 的拉取请求文档](https://help.github.com/articles/about-pull-requests/)，了解有关发送拉取请求的更多信息。
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -39,7 +39,7 @@ submitting a pull request!
 
 ## 从参与者到提交者
 
-非常欢迎大家积极参与我们的社区！如果您希望不仅仅作为贡献者，而是想要成为提交者，以便在项目中具有完全写入访问权限并拥有发言权，则必须被邀请到项目中。现有提交者采用内部提名流程，在发出邀请前必须达成“懒惰共识”（也就是沉默即批准）。如果您觉得自己符合要求并且希望更深入地参与，请与现有提交者联系，就相关事宜进行交谈。
+非常欢迎大家积极参与我们的社区！如果您希望不仅仅作为参与者，而是想要成为提交者，以便在项目中具有完全写入访问权限并拥有发言权，则必须被邀请到项目中。现有提交者采用内部提名流程，在发出邀请前必须达成“懒惰共识”（也就是沉默即批准）。如果您觉得自己符合要求并且希望更深入地参与，请与现有提交者联系，就相关事宜进行交谈。
 
 ## 安全性问题
 
