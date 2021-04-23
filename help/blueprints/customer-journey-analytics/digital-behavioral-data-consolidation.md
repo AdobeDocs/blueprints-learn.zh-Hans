@@ -1,6 +1,6 @@
 ---
 title: 跨渠道历程分析
-description: 分析客户旅程中的客户互动并从中获得洞察。
+description: 分析客户历程中的客户互动并从中获得洞察。
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
@@ -8,18 +8,18 @@ translation-type: tm+mt
 source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
 # 跨渠道历程分析蓝图
 
-通过统一来自各种Web、移动和线下属性的视图，统一不同渠道中的客户行为。
+通过统一来自各种 Web、移动和线下属性的数据，获取关于不同渠道客户行为的整合视图。
 
 ## 用例
 
 * 分析桌面和移动设备上的客户互动，了解客户行为并提取洞察，以优化数字客户体验。
-* 分析渠道之间的客户互动，包括数字和线下渠道（如支持互动和店内购买），以更好地了解和优化客户旅程。 
+* 分析渠道之间的客户互动，包括数字和线下渠道（如支持互动和店内购买），以更好地了解和优化客户历程。 
 
 ## 应用程序
 
@@ -30,55 +30,54 @@ ht-degree: 0%
 ## 集成模式
 
 * Adobe Experience Platform → Customer Journey Analytics
-* Adobe Analytics→ Adobe Experience Platform → Customer Journey Analytics
+* Adobe Analytics → Adobe Experience Platform → Customer Journey Analytics
 
 ## 架构
 
-<img src="assets/CJA.svg" alt="Customer Journey Analytics Blueprint的参考架构" style="border:1px solid #4a4a4a" />
+<img src="assets/CJA.svg" alt="Customer Journey Analytics Blueprint 的参考架构" style="border:1px solid #4a4a4a" />
 
-## 瓜德雷尔
+## 护栏
 
-Customer Journey Analytics中的数据摄取：
+将数据摄入 Customer Journey Analytics 中：
 
-* 数据摄取到湖泊：API ~ 7 GB/小时，源连接器~ 200 GB/小时，流到湖泊~ 15分钟，Adobe Analytics源连接器到湖泊~ 45分钟。
-* 在数据发布到数据湖后，处理到Customer Journey Analytics可能需要90分钟。
+* 数据摄入到数据湖：API ~7 GB/小时，源连接器 ~200 GB/小时，流到数据湖 ~15 分钟，Adobe Analytics 源连接器到数据湖 ~45 分钟。
+* 在数据发布到数据湖后，处理到 Customer Journey Analytics 可能需要最多 90 分钟。
 
 ## 实施步骤
 
-1. 配置数据集和模式。
-1. 将数据引入平台。
-在处理到Customer Journey Analytics之前，数据必须被引入平台。
-1. 分析要在合并中分析的跨渠道事件数据集，以确保它们具有通用的命名空间ID或通过基于字段的Customer Journey Analytics拼接功能重新键入。 
+1. 配置数据集和架构
+1. 将数据引入 Platform。数据必须先被引入 Platform，然后才能处理到 Customer Journey Analytics 中。
+1. 分析要合并分析的跨渠道事件数据集，以确保它们具有通用的命名空间 ID 或通过 Customer Journey Analytics 基于字段的拼接功能重新设置键。 
 
    >[!NOTE]
    >
-   >Customer Journey Analytics当前不使用Experience Platform用户档案或身份服务进行拼接。
+   >Customer Journey Analytics 当前不使用 Experience Platform 用户档案或身份服务进行拼接。
 
-1. 对数据执行任何自定义数据准备或使用基于现场的身份拼接，以确保将时间序列数据集中的公共密钥引入Customer Journey Analytics。
-1. 为查找数据指定可连接到事件数据中某个字段的主ID。 在许可中计为行。
-1. 为用户档案数据设置与事件数据的主ID相同的主ID。
-1. 配置数据连接，将Experience Platform中的数据收录到Customer Journey Analytics。 数据进入数据湖后，在90分钟内即可处理为Customer Journey Analytics。
-1. 在连接上配置视图，以选择要包含在视图中的特定维度和量度。 还在数据视图中配置了归因和分配设置。 这些设置在报告时计算。
-1. 创建一个项目以在Analysis Workspace内配置仪表板和报表。
+1. 对数据执行任何自定义数据准备或使用基于字段的身份拼接，以确保将时间序列数据集中的公共键引入 Customer Journey Analytics。
+1. 为查找数据指定可连接到事件数据中某个字段的主 ID。在许可中计为行。
+1. 为用户档案数据设置与事件数据的主 ID 相同的主 ID。
+1. 配置数据连接，将 Experience Platform 中的数据摄入到 Customer Journey Analytics。数据进入数据湖后，在 90 分钟内即可处理到 Customer Journey Analytics 中。
+1. 在连接上配置数据视图，以选择要包含在视图中的特定维度和量度。还在数据视图中配置了归因和分配设置。这些设置在报告时计算。
+1. 创建一个项目以便在 Analysis Workspace 内配置仪表板和报告。
 
 ## 实施注意事项
 
 ### 身份拼接注意事项
 
-* 要统一的时间序列命名空间必须在每个记录上具有相同的ID数据。
-* 统一不同数据集的合并过程需要跨数据集使用共同的主要人/实体密钥。
-* 目前不支持辅助基于密钥的合并。
-* 基于字段的身份拼接过程允许基于后续的瞬时ID记录（如验证ID）重新键入行中的身份。 这允许将不同记录解析为个人级别而不是设备或Cookie级别的分析的单个ID。
-* 缝合每周进行一次，缝合后重播。
+* 待统一的时间序列命名空间必须在每个记录上具有相同的 ID 数据。
+* 统一不同数据集的合并过程需要跨数据集使用共同的主要人/实体键。
+* 目前不支持二级基于键的合并。
+* 基于字段的身份拼接过程允许基于后续的瞬时 ID 记录（如验证 ID）对行中的身份重新设置键。这允许将不同记录解析为单个 ID，以便在个人级别而不是设备或 Cookie 级别进行分析。
+* 拼接每周进行一次，拼接后重播。
 
 ## 常见问题解答
 
-* 数据模型在Customer Journey Analytics中对下游有何影响？
+* 数据模型在 Customer Journey Analytics 中对下游有何影响？
 
-   同一XDM字段的对象和属性在Customer Journey Analytics中合并为一个维。 到  将不同数据集中的多个属性合并到同一Customer Journey Analytics维度中，数据集应引用相同的XDM字段或模式。
+   同一 XDM 字段的对象和属性在 Customer Journey Analytics 中合并为一个维度。要将不同数据集中的多个属性合并到同一 Customer Journey Analytics 维度中，数据集应参考相同的 XDM 字段或架构。
 
 ## 相关文档
 
-* [Customer Journey Analytics产品说明](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
-* [Customer Journey Analytics文档](https://experienceleague.adobe.com/docs/customer-journey-analytics.html)
-* [Customer Journey Analytics教程](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html)
+* [Customer Journey Analytics 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/customer-journey-analytics.html)
+* [Customer Journey Analytics 文档](https://experienceleague.adobe.com/docs/customer-journey-analytics.html?lang=zh-Hans)
+* [Customer Journey Analytics 教程](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html?lang=zh-Hans)
