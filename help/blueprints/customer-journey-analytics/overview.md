@@ -1,6 +1,6 @@
 ---
 title: Customer Journey Analytics
-description: 统一和分析整个客户旅程中的数据和客户行为
+description: 统一和分析整个客户历程中的数据和客户行为
 solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
@@ -9,26 +9,26 @@ translation-type: tm+mt
 source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 5%
+ht-degree: 96%
 
 ---
 
 # Customer Journey Analytics
 
-Customer Journey Analytics显示了各品牌如何统一来自各种交互渠道和来源的客户数据和行为，以创建所有客户交互的基于旅程的视图。 报告和分析可在Customer Journey Analytics应用程序服务中执行，以评估和了解客户交互和行为模式。
+Customer Journey Analytics 显示了各品牌如何统一来自各种互动渠道和来源的客户数据和行为，以创建包含所有客户互动的基于历程的视图。报告和分析可在 Customer Journey Analytics 应用程序服务中执行，以评估和了解客户互动和行为模式。
 
 常见分析包括：
 
-* 顶部/底部转换路径
+* 顶部/底部转化路径
 * 查看次数最多的内容
 * 类别和产品
-* 哪些活动提高了转化率和参与度
+* 哪些营销活动提高了转化率和参与度
 * 工具使用分析，以优化自助服务体验
 
-| Blueprint | 说明 | Experience Cloud应用程序 |
+| Blueprint | 描述 | Experience Cloud 应用程序 |
 |---|---|---|
-| **[跨渠道历程分析](digital-behavioral-data-consolidation.md)** | <ul><li>通过统一来自各种Web、移动和线下属性的视图，统一不同渠道中的客户行为。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（可选）</li></ul> |
-| **[呼叫偏转历程分析](call-deflect.md)** | <ul><li>通过将呼叫中心数据与Web、移动和其他交互数据结合在一起，确定哪些行为最能指示产生代理协助呼叫。</li><li>然后，这些洞察可用于优化客户体验，并通过优化自助服务内容和工具减少代理协助互动的路径。  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| **[跨渠道历程分析](digital-behavioral-data-consolidation.md)** | <ul><li>通过统一来自各种 Web、移动和线下属性的数据，获取关于不同渠道客户行为的整合视图。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（可选）</li></ul> |
+| **[呼叫偏转历程分析](call-deflect.md)** | <ul><li>通过将呼叫中心数据与 Web、移动和其他交互数据结合在一起，确定哪些行为最能指示产生座席协助呼叫。</li><li>然后，这些洞察可用于优化客户体验，并通过优化自助服务内容和工具精简座席协助互动的路径。  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## 相关博客帖子
 
