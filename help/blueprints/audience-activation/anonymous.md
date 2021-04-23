@@ -1,6 +1,6 @@
 ---
-title: 匿名Audience ActivationBlueprint
-description: 匿名Audience Activation。
+title: 匿名 Audience Activation Blueprint
+description: 匿名 Audience Activation。
 solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
@@ -9,13 +9,13 @@ translation-type: tm+mt
 source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 0%
+ht-degree: 87%
 
 ---
 
 # 匿名Audience ActivationBlueprint
 
-您可以基于匿名和行为客户数据跨网络和广告渠道目标受众。 该功能支持跨设备的个性化、一致的实时客户体验。
+您可以基于匿名和行为客户数据跨网络和广告渠道定位受众。该功能支持跨设备的个性化、一致的实时客户体验。
 
 ## 用例
 
@@ -34,15 +34,15 @@ ht-degree: 0%
 
 <!-- These steps should link to help. -->
 
-1. [实施Audience Manager](https://experienceleague.corp.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=en#implementation-integration-guides)。
-1. 收集Audience Manager。
+1. [实施 Audience Manager](https://experienceleague.corp.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=en#implementation-integration-guides)
+1. 将数据收集至 Audience Manager。
 1. 配置要在区段定义中使用的信号和特征。
-1. 以Audience Manager创建区段。
-1. 在Audience Manager中配置目标以共享受众。
+1. 在 Audience Manager 中创建区段。
+1. 在 Audience Manager 中配置目的地以共享受众。
 
 ## 相关文档
 
-* [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=en)
-* [Experience Cloud [!UICONTROL 受众]](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
-* [将Audience Manager与目标集成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
-* [Adobe Analytics通过Audience Manager分享](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=zh-Hans)
+* [[!UICONTROL Experience Cloud 受众]](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)
+* [将 Audience Manager 与 Target 集成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=zh-Hans)
+* [Adobe Analytics通过Audience Manager分享](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hans)
