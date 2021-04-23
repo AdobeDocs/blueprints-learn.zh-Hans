@@ -1,5 +1,5 @@
 ---
-title: Web和移动个性化
+title: 'Web 和移动个性化 '
 description: 通过[!UICONTROL 实时客户用户档案]提供个性化的Web和移动内容。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
@@ -8,19 +8,19 @@ exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
 source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Web和移动个性化
+# Web 和移动个性化
 
-Web和移动个性化解决了在多个应用程序中使用受众细分来个性化和优化客户体验的问题。 您可以使用客户行为、人口统计、忠诚度级别和先前交易个性化布局、行动号召和内容。
+Web 和移动个性化 解决了在多个应用程序中使用受众分段来个性化和优化客户体验的问题。您可以使用客户行为、人口统计、忠诚度级别和先前交易个性化布局、行动号召和内容。
 
-| Blueprint | 说明 | Experience Cloud应用程序 |
+| Blueprint | 描述 | Experience Cloud 应用程序 |
 |---|---|---|
-| **[行为Web/移动个性化](behavioral.md)** | <ul><li>基于在线行为和受众数据进行个性化</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *（可选）*</li><li>Adobe Audience Manager *（可选）*</li></ul> |
-| **[在线/离线Web/移动个性化](online-offline.md)** | <ul><li>利用离线属性和事件（交易、预订、CRM和忠诚度数据）进行个性化设置。</li><li>在网络、电子邮件和其他已知渠道之间同步个性化。</li></ul> | <ul><li>[!UICONTROL 实时客户数据平台]</li><li>Adobe Target</li><li>Adobe Analytics *（可选）*</li><li>Adobe Audience Manager *（可选）*</li></ul> |
+| **[行为Web/移动个性化](behavioral.md)** | <ul><li>基于线上行为和受众数据进行个性化</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *（可选）*</li><li>Adobe Audience Manager *（可选）*</li></ul> |
+| **[在线/离线Web/移动个性化](online-offline.md)** | <ul><li>利用线下属性和事件（交易、预订、CRM 和忠诚度数据）进行个性化设置。</li><li>在网络、电子邮件和其他已知渠道之间同步个性化。</li></ul> | <ul><li>[!UICONTROL 实时客户数据平台]</li><li>Adobe Target</li><li>Adobe Analytics *（可选）*</li><li>Adobe Audience Manager *（可选）*</li></ul> |
 
 ## 相关博客帖子
 
