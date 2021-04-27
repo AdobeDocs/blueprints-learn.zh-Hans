@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 37416aafc997838888edec2658d2621d20839f94
+source-git-commit: 2f35195b875d85033993f31c8cef0f85a7f6cccc
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 69%
+source-wordcount: '1091'
+ht-degree: 48%
 
 ---
 
@@ -35,11 +35,23 @@ ht-degree: 69%
 
 ## 护栏
 
-* 从 Experience Platform 共享到 Audience Manager 的区段可以在区段实现的几分钟内共享 - 无论是通过流式还是批次评估方法。在Experience Platform和Audience Manager之间进行初始段配置同步约4小时，Experience Platform段成员关系将开始在Audience Manager用户档案实现。 进入Audience Manager用户档案后，Experience Platform区段成员身份即可通过Adobe Target实现相同的页面个性化。
-* 请注意，对于在4小时段配置中在Experience Platform和Audience Manager之间同步的段实现，这些段实现将作为“现有”段在后续批段作业上实现为Audience Manager。
-* 通过Experience Platform进行批量区段共享 — 每天一次或通过API手动启动。 一旦实现这些区段会员资格，它们将在几分钟内共享给Audience Manager，并可在目标中实现同一/下一页个性化。
-* 流分段大约在5分钟内实现。 完成这些细分实现后，它们将在几分钟内共享给Audience Manager，并可在目标中实现同一/下一页个性化。
-* 默认情况下，区段共享服务允许每个 Adobe Analytics 报告包最多共享 75 名受众。如果客户拥有 Audience Manager 许可，则可以在 Adobe Analytics 和 Adobe Target 或 Audience Manager 和 Adobe Target 之间共享受众，数量没有限制。
+### 细分评估和激活的保证
+
+|分段类型 |频率 |吞吐量 |延迟（区段评估） |延迟(区段激活) |
+|-||-||-||
+|边缘细分 |边缘分割目前处于测试阶段，允许在Experience Platform Edge Network上评估有效的实时分割，以便通过Adobe Target和Adobe Journey Optimizer实时、同一页面决策。 |  | ~ 100毫秒 |可立即在Adobe Target中进行个性化、在Edge用户档案中进行用户档案查找，以及通过基于Cookie的目标进行激活。 |
+|流细分 |每次新的流事件或记录被引入实时客户用户档案，且区段定义是有效的流区段时。 <br>有关流细分 [标准](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans) 的指导，请参阅细分文档 |每秒最多1500个事件。| ~ p95 &lt;5分钟 |这些细分实现完成后，几分钟内即可共享给Audience Manager和受众共享服务，并可在Adobe Target中实现同一/下一页个性化。 |
+|增量分段 |自上次增量或批量细分评估以来，每小时一次新数据被引入实时客户用户档案。 |  |  |在实现这些区段会员资格后，它们将在几分钟内共享给Audience Manager和受众共享服务，并可在Adobe Target中实现同一/下一页个性化。 |
+|批分段 |基于预定的系统集计划每天一次，或通过API手动启动点对点。 |  |每个作业大约1小时(最大为10 TB的用户档案存储大小)，每个作业2小时(最大为10 TB至100 TB的用户档案存储大小)。 批区段作业绩效取决于数量用户档案、用户档案大小和要评估的区段数。 |在实现这些区段会员资格后，它们将在几分钟内共享给Audience Manager和受众共享服务，并可在Adobe Target中实现同一/下一页个性化。 |
+
+### 跨应用程序受众共享的护栏
+
+
+|受众共享集成模式 |详细信息 |频率 |吞吐量 |延迟（区段评估） |延迟(区段激活) |
+|-||-||-||-||
+|实时客户数据平台到Audience Manager |  |取决于分段类型 — 请参阅上面的分段护栏表。 |取决于分段类型 — 请参阅上面的分段护栏表。 |取决于分段类型 — 请参阅上面的分段护栏表。 |在完成细分评估后的几分钟内。<br>在实时受众平台和Audience Manager之间进行初始客户配置同步大约需要4小时。<br>在4小时内实现的任何受众会员资格将作为“现有”受众会员资格写入后续批分段作业的Audience Manager。|
+| Adobe Analytics到Audience Manager |默认情况下，每个Adobe Analytics报表包最多可共享75个受众。 如果使用Audience Manager许可证，则对Adobe Analytics与Adobe Target或Adobe Audience Manager与Adobe Target之间可共享的受众数量没有限制。 |  |  |  |  |
+| Adobe Analytics到实时客户数据平台 |当前不可用。 |  |  |  |  |
 
 ## 实施模式
 
@@ -84,7 +96,7 @@ Web/移动个性化蓝图可以通过以下方法实现，如下所述。
 
 * [与 Audience Manager 和其他 Experience Cloud 解决方案共享 Experience Platform 区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=zh-Hans)
 * [Experience Platform 区段概述](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)
-* [流传输区段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans)
+* [流传输区段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [Experience Platform 区段生成器概述](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans)
 * [Audience Manager 源连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=zh-Hans)
 * [Adobe Analytics细分共享(通过Adobe Audience Manager)](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hans)
