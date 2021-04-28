@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 24b6ffe3021389d33e84688a8f1a90711ca4b772
+source-git-commit: db083e30d8add029e99cade25d561a26da78338e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1040'
+ht-degree: 34%
 
 ---
 
@@ -51,8 +51,10 @@ ht-degree: 0%
 | 受众应用程序集成 | 频率 | 吞吐量/卷 | 延迟（区段评估） | 延迟(区段激活) |
 |---|---|---|---|---|
 | 实时客户数据平台到Audience Manager | 取决于分段类型 — 请参阅上面的分段护栏表。 | 取决于分段类型 — 请参阅上面的分段护栏表。 | 取决于分段类型 — 请参阅上面的分段护栏表。 | 在完成细分评估后几分钟内。<br>在实时受众平台和Audience Manager之间进行初始客户配置同步大约需要4小时。<br>在4小时内实现的任何受众会员资格将作为“现有”受众会员资格写入后续批分段作业的Audience Manager。 |
-| Adobe Analytics到Audience Manager |  | 默认情况下，每个Adobe Analytics报表包最多可共享75个受众。 如果使用Audience Manager许可证，则对Adobe Analytics与Adobe Target或Adobe Audience Manager与Adobe Target之间可共享的受众数量没有限制。 |  |  |
+| 实时客户数据平台到Ad Cloud | 请注意，将受众从实时客户数据平台共享到Adobe Advertising Cloud需要Audience Manager。 同样，适用于向受众 Manager实时客户数据平台共享的保证将申请将实时客户数据平台受众集成到Advertising Cloud。 | - | - | - |
 | Adobe Analytics到实时客户数据平台 | 当前不可用 | 当前不可用 | 当前不可用 | 当前不可用 |
+| Adobe Analytics到Audience Manager | - | 默认情况下，每个Adobe Analytics报表包最多可共享75个受众。 如果使用Audience Manager许可证，则对Adobe Analytics与Adobe Target或Adobe Audience Manager与Adobe Target之间可共享的受众数量没有限制。 | - | - |
+
 
 
 
