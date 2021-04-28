@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 2f35195b875d85033993f31c8cef0f85a7f6cccc
+source-git-commit: 9a52c5f9513e39b31956aaa0f30cad1426b63a95
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 48%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,21 +37,21 @@ ht-degree: 48%
 
 ### 细分评估和激活的保证
 
-|分段类型 |频率 |吞吐量 |延迟（区段评估） |延迟(区段激活) |
-|-||-||-||
-|边缘细分 |边缘分割目前处于测试阶段，允许在Experience Platform Edge Network上评估有效的实时分割，以便通过Adobe Target和Adobe Journey Optimizer实时、同一页面决策。 |  | ~ 100毫秒 |可立即在Adobe Target中进行个性化、在Edge用户档案中进行用户档案查找，以及通过基于Cookie的目标进行激活。 |
-|流细分 |每次新的流事件或记录被引入实时客户用户档案，且区段定义是有效的流区段时。 <br>有关流细分 [标准](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans) 的指导，请参阅细分文档 |每秒最多1500个事件。| ~ p95 &lt;5分钟 |这些细分实现完成后，几分钟内即可共享给Audience Manager和受众共享服务，并可在Adobe Target中实现同一/下一页个性化。 |
-|增量分段 |自上次增量或批量细分评估以来，每小时一次新数据被引入实时客户用户档案。 |  |  |在实现这些区段会员资格后，它们将在几分钟内共享给Audience Manager和受众共享服务，并可在Adobe Target中实现同一/下一页个性化。 |
-|批分段 |基于预定的系统集计划每天一次，或通过API手动启动点对点。 |  |每个作业大约1小时(最大为10 TB的用户档案存储大小)，每个作业2小时(最大为10 TB至100 TB的用户档案存储大小)。 批区段作业绩效取决于数量用户档案、用户档案大小和要评估的区段数。 |在实现这些区段会员资格后，它们将在几分钟内共享给Audience Manager和受众共享服务，并可在Adobe Target中实现同一/下一页个性化。 |
+| 分段类型 | 频率 | 吞吐量 | 延迟（区段评估） | 延迟(区段激活) |
+|---|---|---|---|---|
+| 边缘分割 | 边缘分割目前处于测试阶段，允许在Experience Platform Edge Network上评估有效的实时分割，以便通过Adobe Target和Adobe Journey Optimizer实时、同一页面决策。 |  | ~100毫秒 | 可立即在Adobe Target中进行个性化，在Edge用户档案中进行用户档案查找，并通过基于Cookie的目标进行激活。 |
+| 流传输区段 | 每次将新的流事件或记录引入实时客户用户档案，且区段定义是有效的流区段。 <br>有关流细分 [标准](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans) 的指导，请参阅细分文档 | 每秒最多1500事件。 | ~ p95 &lt;5分钟 | 完成这些细分实现后，它们将在几分钟内共享给Audience Manager和受众共享服务，并可在Adobe Target中实现同一/下一页个性化。 |
+| 增量细分 | 自上次增量或批量细分评估以来，每小时一次新数据被引入实时客户用户档案。 |  |  | 在实现这些区段会员资格后，几分钟内即可将它们共享给Audience Manager和受众共享服务，并可在Adobe Target中实现同一/下一页个性化。 |
+| 批分段 | 每天根据预定的系统集计划进行一次，或通过API手动启动的点对点。 |  | 每个作业大约1小时，存储容量高达10 TB，每个作业2小时，存储容量为10 TB到100 TB，用户档案存储容量为10 TB。 批区段作业绩效取决于数量用户档案、用户档案大小和要评估的区段数。 | 在实现这些区段会员资格后，几分钟内即可将它们共享给Audience Manager和受众共享服务，并可在Adobe Target中实现同一/下一页个性化。 |
 
 ### 跨应用程序受众共享的护栏
 
 
-|受众共享集成模式 |详细信息 |频率 |吞吐量 |延迟（区段评估） |延迟(区段激活) |
-|-||-||-||-||
-|实时客户数据平台到Audience Manager |  |取决于分段类型 — 请参阅上面的分段护栏表。 |取决于分段类型 — 请参阅上面的分段护栏表。 |取决于分段类型 — 请参阅上面的分段护栏表。 |在完成细分评估后的几分钟内。<br>在实时受众平台和Audience Manager之间进行初始客户配置同步大约需要4小时。<br>在4小时内实现的任何受众会员资格将作为“现有”受众会员资格写入后续批分段作业的Audience Manager。|
-| Adobe Analytics到Audience Manager |默认情况下，每个Adobe Analytics报表包最多可共享75个受众。 如果使用Audience Manager许可证，则对Adobe Analytics与Adobe Target或Adobe Audience Manager与Adobe Target之间可共享的受众数量没有限制。 |  |  |  |  |
-| Adobe Analytics到实时客户数据平台 |当前不可用。 |  |  |  |  |
+| 受众共享集成模式 | 详细信息 | 频率 | 吞吐量 | 延迟（区段评估） | 延迟(区段激活) |
+|---|---|---|---|---|---|
+| 实时客户数据平台到Audience Manager |  | 取决于分段类型 — 请参阅上面的分段护栏表。 | 取决于分段类型 — 请参阅上面的分段护栏表。 | 取决于分段类型 — 请参阅上面的分段护栏表。 | 在完成细分评估后几分钟内。<br>在实时受众平台和Audience Manager之间进行初始客户配置同步大约需要4小时。<br>在4小时内实现的任何受众会员资格将作为“现有”受众会员资格写入后续批分段作业的Audience Manager。 |
+| Adobe Analytics到Audience Manager | 默认情况下，每个Adobe Analytics报表包最多可共享75个受众。 如果使用Audience Manager许可证，则对Adobe Analytics与Adobe Target或Adobe Audience Manager与Adobe Target之间可共享的受众数量没有限制。 |  |  |  |  |
+| Adobe Analytics到实时客户数据平台 | 当前不可用。 |  |  |  |  |
 
 ## 实施模式
 
