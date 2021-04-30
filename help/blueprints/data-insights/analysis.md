@@ -1,15 +1,15 @@
 ---
 title: 数据分析和智能蓝图
-description: 此蓝图显示了Adobe Experience Platform内对数据湖中存在的数据执行探索性查询和分析的能力。
+description: 此 Blueprint 展示了 Adobe Experience Platform 内对数据湖中存在的数据执行探索性查询和分析的能力。
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 0%
+ht-degree: 44%
 
 ---
 
@@ -26,8 +26,8 @@ Experience Platform的[!UICONTROL 查询服务]允许对数据执行SQL查询。
 ## 用例
 
 * 交互式查询和数据聚合
-* 对所摄取数据的行和列访问，以便进行探索和验证
-* 通过Business Intelligence工具实现数据仪表板和可视化
+* 对所摄入数据的行和列访问，以便进行探索和验证
+* 通过 Business Intelligence 工具实现数据仪表板化和可视化
 
 ## 应用程序
 
@@ -35,22 +35,22 @@ Experience Platform的[!UICONTROL 查询服务]允许对数据执行SQL查询。
 
 ## 架构
 
-<img src="assets/dataexplore.svg" alt="企业数据探索与报告蓝图的参考体系" style="border:1px solid #4a4a4a" />
+<img src="assets/data_exploration.svg" alt="企业数据探索和报告 Blueprint 的参考架构" style="border:1px solid #4a4a4a" />
 
-## 瓜德雷尔
+## 护栏
 
-* 交互式查询的10分钟时限
-* 在UI中返回100个记录限制
-* 通过SQL连接器返回50,000个记录限制
+* 交互式查询的 10 分钟时限
+* 在 UI 中返回 100 个记录限制
+* 通过 SQL 连接器返回 50,000 个记录限制
 
 ## 实施步骤
 
-1. 配置数据集和模式，以将数据引入数据湖中。
-1. 收录数据。
+1. 配置数据集和架构，以将数据引入数据湖中。
+1. 摄入数据。
 1. 确认[!UICONTROL 查询服务]和[!UICONTROL 数据科学工作区]可用于原始访问和查询。
 1. 将Business Intelligence工具和SQL客户端连接到[!UICONTROL 查询服务]，以实现可视化、查询和探索。
 
 ## 相关文档
 
-* [Adobe Experience Platform Intelligence产品说明](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [[!UICONTROL 查询] 服务文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
+* [Adobe Experience Platform 智能产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [查询服务文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans)
