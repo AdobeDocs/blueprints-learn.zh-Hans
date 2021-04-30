@@ -5,10 +5,10 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: 3a4a0e2387e72d378589edfdc5b0c27a50c42db5
+source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '345'
+ht-degree: 39%
 
 ---
 
@@ -26,22 +26,11 @@ ht-degree: 0%
 
 ## 架构
 
-<img src="assets/enterprise_destination.svg" alt="企业激活方案的参考体系结构" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_destination_activation.svg" alt="企业激活方案的参考体系结构" style="border:1px solid #4a4a4a" />
 
 ## 护栏
 
-[用户档案和区段指南](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
-
-### 细分评估和激活的保证
-
-| 分段类型 | 频率 | 吞吐量 | 延迟（区段评估） | 延迟(区段激活) | 激活有效负荷 |
-|---|---|---|---|---|---|
-| 边缘分割 | 边缘分割目前处于测试阶段，允许在Experience Platform Edge Network上评估有效的实时分割，以便通过Adobe Target和Adobe Journey Optimizer实时、同一页面决策。 |  | ~100毫秒 | 可立即在Adobe Target中进行个性化，在Edge用户档案中进行用户档案查找，并通过基于Cookie的目标进行激活。 | 受众边缘上可用于用户档案查找和基于Cookie的目标的成员资格。<br>受众会员资格和用户档案属性适用于Adobe Target和Journey Optimizer。 |
-| 流传输区段 | 每次将新的流事件或记录引入实时客户用户档案，且区段定义是有效的流区段。 <br>有关流细分 [标准](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans) 的指导，请参阅细分文档 | 每秒最多1500事件。 | ~ p95 &lt;5分钟 | 流目标：流式受众会员资格在大约10分钟内激活，或根据目标的要求进行微批处理。<br>计划目标：流式受众成员关系会根据计划的目标投放时间批量激活。 | 流目标：受众成员关系更改、标识值和用户档案属性。<br>计划目标：受众成员关系更改、标识值和用户档案属性。 |
-| 增量细分 | 自上次增量或批量细分评估以来，每小时一次新数据被引入实时客户用户档案。 |  |  | 流目标：增量受众会员资格在大约10分钟内激活，或根据目标的要求进行微批量激活。<br>计划目标：增量受众成员关系将根据计划的目标投放时间批量激活。 | 流目标：受众成员资格更改和身份值。<br>计划目标：受众成员关系更改、标识值和用户档案属性。 |
-| 批分段 | 每天根据预定的系统集计划进行一次，或通过API手动启动的点对点。 |  | 每个作业大约1小时，存储容量高达10 TB，每个作业2小时，存储容量为10 TB到100 TB，用户档案存储容量为10 TB。 批区段作业绩效取决于数量用户档案、用户档案大小和要评估的区段数。 | 流目标：在基于目的地的需求的分段评估或微批处理的约10个完成内，激活批受众会员资格。<br>计划目标：批受众成员关系将根据计划的目标投放时间激活。 | 流目标：受众成员资格更改和身份值。<br>计划目标：受众成员关系更改、标识值和用户档案属性。 |
-
-
+请参阅“受众和用户档案激活概述”页上概述的护栏 — [ LINK](overview.md)
 
 ## 实施步骤
 
@@ -53,33 +42,14 @@ ht-degree: 0%
 1. 在Experience Platform中创作区段，以批量或流形式进行评估。 系统自动确定以批次还是流式评估区段。
 1. 配置目的地，以共享用户档案属性和受众成员到所需目的地。
 
-## 实施注意事项
-
-激活属性和身份
-
-* [!UICONTROL 实时受众数据平台可] 以激活成员资格，以及属性和身份更改，这些更改针对属于为激活选择的区段的用户档案。如果您的目标是激活属性或身份，则必须定义一个全局区段，其中包含所有用户档案，这些属性和身份更新都将发送到该区段。 此时，您可以选择要作为目标配置的一部分激活的区段和所需属性。
-* 请注意，批处理目标不支持激活仅属性更改事件。 可以随选定的受众属性一起发送完整或增量的激活成员关系，但您无法通过批处理目标激活仅属性更改事件。
-
-将批处理区段激活到流化目标
-
-* 支持将批量段激活到流目标。 在区段作业完成后，批处理区段作业会将消息放在管道上以进行流激活
-
-将流区段激活为批处理目标
-
-* 支持流式段激活到批处理目标。 批目标计划根据批目标计划导出用户档案段成员关系。 这包括通过流和批处理方法确定的段成员关系。
-
-激活体验事件
-
-* 不支持激活原始体验事件。 要根据体验事件进行激活，必须使用包含或排除体验事件逻辑的必要规则创建区段。 这会创建一个根据体验事件定义的细分，并且可以激活区段成员身份作为激活原始体验事件的代理。 还可考虑使用[!UICONTROL 启动服务器端]激活通过SDK收集的原始体验事件。
-
 ## 相关文档
 
 * [目的地文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans)
 * [云存储目标概述](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
 * [HTTP目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/http-destination.html?lang=en#overview)
 * [实时客户数据平台产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform.html)
-* [用户档案和细分指南](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
-* [分段文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
+* [用户档案和细分指南](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
+* [分段文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans)
 
 ## 相关视频和教程
 
