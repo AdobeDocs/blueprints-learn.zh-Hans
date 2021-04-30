@@ -4,10 +4,10 @@ description: 数字体验 Blueprints 是可重复实施的产品，用于应对�
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '265'
+ht-degree: 37%
 
 ---
 
@@ -37,7 +37,7 @@ Digital Experience Blueprint是可重复实施的产品，使您能够解决战�
     <p><em>使用[!UICONTROL平台]作为中心中心触发消息和体验。</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="“联机/脱机Audience ActivationBlueprint”的缩略图" src="audience-activation/assets/onoff.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="“联机/脱机Audience ActivationBlueprint”的缩略图" src="audience-activation/assets/online_offline_activation.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>线上/线下 Audience Activation</strong></a></div>
     <p><em>投放受众激活的跨渠道广告。</em></p>
   </td>
