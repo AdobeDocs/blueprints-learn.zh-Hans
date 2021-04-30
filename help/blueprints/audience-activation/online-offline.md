@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: db083e30d8add029e99cade25d561a26da78338e
+source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 34%
+source-wordcount: '421'
+ht-degree: 79%
 
 ---
 
@@ -31,34 +31,11 @@ ht-degree: 34%
 
 ## 架构
 
-<img src="assets/onoff.svg" alt="联机/脱机Audience Activation蓝图的参考体系结构" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_activation.svg" alt="联机/脱机Audience Activation蓝图的参考体系结构" style="border:1px solid #4a4a4a" />
 
 ## 护栏
 
-* [用户档案和区段指南](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
-
-### 细分评估和激活的保证
-
-| 分段类型 | 频率 | 吞吐量 | 延迟（区段评估） | 延迟(区段激活) | 激活有效负荷 |
-|---|---|---|---|---|---|
-| 边缘分割 | 边缘分割目前处于测试阶段，允许在Experience Platform Edge Network上评估有效的实时分割，以便通过Adobe Target和Adobe Journey Optimizer实时、同一页面决策。 |  | ~100毫秒 | 可立即在Adobe Target中进行个性化，在Edge用户档案中进行用户档案查找，并通过基于Cookie的目标进行激活。 | 受众边缘上可用于用户档案查找和基于Cookie的目标的成员资格。<br>受众会员资格和用户档案属性适用于Adobe Target和Journey Optimizer。 |
-| 流传输区段 | 每次将新的流事件或记录引入实时客户用户档案，且区段定义是有效的流区段。 <br>有关流细分 [标准](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans) 的指导，请参阅细分文档 | 每秒最多1500事件。 | ~ p95 &lt;5分钟 | 流目标：流式受众会员资格在大约10分钟内激活，或根据目标的要求进行微批处理。<br>计划目标：流式受众成员关系会根据计划的目标投放时间批量激活。 | 流目标：受众成员关系更改、标识值和用户档案属性。<br>计划目标：受众成员关系更改、标识值和用户档案属性。 |
-| 增量细分 | 自上次增量或批量细分评估以来，每小时一次新数据被引入实时客户用户档案。 |  |  | 流目标：增量受众会员资格在大约10分钟内激活，或根据目标的要求进行微批量激活。<br>计划目标：增量受众成员关系将根据计划的目标投放时间批量激活。 | 流目标：受众成员资格更改和身份值。<br>计划目标：受众成员关系更改、标识值和用户档案属性。 |
-| 批分段 | 每天根据预定的系统集计划进行一次，或通过API手动启动的点对点。 |  | 每个作业大约1小时，存储容量高达10 TB，每个作业2小时，存储容量为10 TB到100 TB，用户档案存储容量为10 TB。 批区段作业绩效取决于数量用户档案、用户档案大小和要评估的区段数。 | 流目标：在基于目的地的需求的分段评估或微批处理的约10个完成内，激活批受众会员资格。<br>计划目标：批受众成员关系将根据计划的目标投放时间激活。 | 流目标：受众成员资格更改和身份值。<br>计划目标：受众成员关系更改、标识值和用户档案属性。 |
-
-### 跨应用程序受众共享的护栏
-
-| 受众应用程序集成 | 频率 | 吞吐量/卷 | 延迟（区段评估） | 延迟(区段激活) |
-|---|---|---|---|---|
-| 实时客户数据平台到Audience Manager | 取决于分段类型 — 请参阅上面的分段护栏表。 | 取决于分段类型 — 请参阅上面的分段护栏表。 | 取决于分段类型 — 请参阅上面的分段护栏表。 | 在完成细分评估后几分钟内。<br>在实时受众平台和Audience Manager之间进行初始客户配置同步大约需要4小时。<br>在4小时内实现的任何受众会员资格将作为“现有”受众会员资格写入后续批分段作业的Audience Manager。 |
-| 实时客户数据平台到Ad Cloud | 请注意，将受众从实时客户数据平台共享到Adobe Advertising Cloud需要Audience Manager。 同样，适用于向受众 Manager实时客户数据平台共享的保证将申请将实时客户数据平台受众集成到Advertising Cloud。 | - | - | - |
-| Adobe Analytics到实时客户数据平台 | 当前不可用 | 当前不可用 | 当前不可用 | 当前不可用 |
-| Adobe Analytics到Audience Manager | - | 默认情况下，每个Adobe Analytics报表包最多可共享75个受众。 如果使用Audience Manager许可证，则对Adobe Analytics与Adobe Target或Adobe Audience Manager与Adobe Target之间可共享的受众数量没有限制。 | - | - |
-
-
-
-
-
+请参阅“受众和用户档案激活概述”页上概述的护栏 — [ LINK](overview.md)
 
 ## 实施步骤
 
@@ -79,8 +56,8 @@ ht-degree: 34%
 ## 相关文档
 
 * [实时客户数据平台产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform.html)
-* [用户档案和细分指南](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
-* [分段文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
+* [用户档案和细分指南](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
+* [分段文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans)
 * [目的地文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans)
 
 ## 相关视频和教程
