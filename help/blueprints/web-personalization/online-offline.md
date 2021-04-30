@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 9a52c5f9513e39b31956aaa0f30cad1426b63a95
+source-git-commit: ed56e79cd45c956cab23c640810dc8e1cc204c16
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '648'
+ht-degree: 80%
 
 ---
 
@@ -31,27 +31,11 @@ ht-degree: 0%
 
 ## 架构
 
-<img src="assets/onoff.svg" alt="在线/离线Web个性化蓝图的参考体系结构" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_personalization.svg" alt="在线/离线Web个性化蓝图的参考体系结构" style="border:1px solid #4a4a4a" />
 
 ## 护栏
 
-### 细分评估和激活的保证
-
-| 分段类型 | 频率 | 吞吐量 | 延迟（区段评估） | 延迟(区段激活) |
-|---|---|---|---|---|
-| 边缘分割 | 边缘分割目前处于测试阶段，允许在Experience Platform Edge Network上评估有效的实时分割，以便通过Adobe Target和Adobe Journey Optimizer实时、同一页面决策。 |  | ~100毫秒 | 可立即在Adobe Target中进行个性化，在Edge用户档案中进行用户档案查找，并通过基于Cookie的目标进行激活。 |
-| 流传输区段 | 每次将新的流事件或记录引入实时客户用户档案，且区段定义是有效的流区段。 <br>有关流细分 [标准](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans) 的指导，请参阅细分文档 | 每秒最多1500事件。 | ~ p95 &lt;5分钟 | 完成这些细分实现后，它们将在几分钟内共享给Audience Manager和受众共享服务，并可在Adobe Target中实现同一/下一页个性化。 |
-| 增量细分 | 自上次增量或批量细分评估以来，每小时一次新数据被引入实时客户用户档案。 |  |  | 在实现这些区段会员资格后，几分钟内即可将它们共享给Audience Manager和受众共享服务，并可在Adobe Target中实现同一/下一页个性化。 |
-| 批分段 | 每天根据预定的系统集计划进行一次，或通过API手动启动的点对点。 |  | 每个作业大约1小时，存储容量高达10 TB，每个作业2小时，存储容量为10 TB到100 TB，用户档案存储容量为10 TB。 批区段作业绩效取决于数量用户档案、用户档案大小和要评估的区段数。 | 在实现这些区段会员资格后，几分钟内即可将它们共享给Audience Manager和受众共享服务，并可在Adobe Target中实现同一/下一页个性化。 |
-
-### 跨应用程序受众共享的护栏
-
-
-| 受众共享集成模式 | 详细信息 | 频率 | 吞吐量 | 延迟（区段评估） | 延迟(区段激活) |
-|---|---|---|---|---|---|
-| 实时客户数据平台到Audience Manager |  | 取决于分段类型 — 请参阅上面的分段护栏表。 | 取决于分段类型 — 请参阅上面的分段护栏表。 | 取决于分段类型 — 请参阅上面的分段护栏表。 | 在完成细分评估后几分钟内。<br>在实时受众平台和Audience Manager之间进行初始客户配置同步大约需要4小时。<br>在4小时内实现的任何受众会员资格将作为“现有”受众会员资格写入后续批分段作业的Audience Manager。 |
-| Adobe Analytics到Audience Manager | 默认情况下，每个Adobe Analytics报表包最多可共享75个受众。 如果使用Audience Manager许可证，则对Adobe Analytics与Adobe Target或Adobe Audience Manager与Adobe Target之间可共享的受众数量没有限制。 |  |  |  |  |
-| Adobe Analytics到实时客户数据平台 | 当前不可用。 |  |  |  |  |
+请参阅“受众和用户档案激活Blueprint”部分 — [ LINK](../audience-activation/overview.md)下的护栏
 
 ## 实施模式
 
@@ -62,11 +46,11 @@ Web/移动个性化蓝图可以通过以下方法实现，如下所述。
 
 ### 1.平台Web/移动SDK和Edge Approach
 
-<img src="assets/websdkflow.svg" alt="[!UICONTROL Platform Web SDK]或[!UICONTROL Platform Mobile SDK]和[!UICONTROL Edge Network]方法的参考架构" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="[!UICONTROL Platform Web SDK]或[!UICONTROL Platform Mobile SDK]和[!UICONTROL Edge Network]方法的参考架构" style="border:1px solid #4a4a4a" />
 
 ### 2.特定于应用程序的SDK方法
 
-<img src="assets/appsdkflow.png" alt="特定于应用程序的 SDK 方法的参考架构" style="border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.png" alt="特定于应用程序的 SDK 方法的参考架构" style="border:1px solid #4a4a4a" />
 
 ## 实施先决条件
 
@@ -96,7 +80,7 @@ Web/移动个性化蓝图可以通过以下方法实现，如下所述。
 
 * [与 Audience Manager 和其他 Experience Cloud 解决方案共享 Experience Platform 区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=zh-Hans)
 * [Experience Platform 区段概述](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)
-* [流传输区段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
+* [流传输区段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans)
 * [Experience Platform 区段生成器概述](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans)
 * [Audience Manager 源连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=zh-Hans)
 * [Adobe Analytics细分共享(通过Adobe Audience Manager)](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hans)
