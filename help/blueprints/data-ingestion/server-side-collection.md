@@ -1,37 +1,37 @@
 ---
-title: 服务器端企业数据收集蓝图
-description: 通过Experience PlatformSDK将收集的数据流传输到目标
+title: 服务器端企业数据收集 Blueprint
+description: 通过 Experience Platform SDK 将收集的数据流传输到目的地
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b,c7d6356d-a1ae-472b-b501-5c736e990252
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 服务器端企业数据收集蓝图
+# 服务器端企业数据收集 Blueprint
 
-服务器端企业数据收集蓝图显示如何将通过Adobe Experience Platform Web和移动SDK收集的数据从Experience Platform Edge Network转发到所需的目标。 您可以根据在Experience Platform Launch中配置的事件和规则转发从SDK收集的所有原始数据或特定数据。
+服务器端企业数据收集 Blueprint 显示如何将通过 Adobe Experience Platform Web 和 Mobile SDK 收集的数据从 Experience Platform Edge 网络转发到所需的目的地。您可以根据在 Experience Platform Launch 中配置的事件和规则转发从 SDK 收集的所有原始数据或特定数据。
 
 ## 用例
 
-* 使用单个收集标签从Web或移动设备收集数据，在客户端浏览器和应用程序上突显代码权重。 将收集的数据传播到单个数据收集源的各种端点。
+* 使用单个收集标签从 Web 或移动设备收集数据，从而减轻客户端浏览器和应用程序上的代码权重。将收集的数据传播到单个数据收集源的各个端点。
 * 将收集的数据转发到合作伙伴应用程序或数据存储位置，以根据收集的数据构建洞察和应用程序。
 
 ## 应用程序
 
-* Adobe Experience Platform Collection
+* Adobe Experience Platform 收藏集
 
 ## 架构
 
-<img src="assets/entcollect.svg" alt="企业数据采集的参考体系结构" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_collection.svg" alt="企业数据收集的参考架构" style="border:1px solid #4a4a4a" />
 
 ## 相关文档
 
-[Experience Platform Launch服务器端文档](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=en#server-side-info)
+[Experience Platform Launch 服务器端文档](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=zh-Hans#server-side-info)
 
 ## 相关博客帖子
 
