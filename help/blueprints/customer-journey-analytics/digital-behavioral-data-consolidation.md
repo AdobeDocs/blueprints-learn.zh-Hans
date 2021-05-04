@@ -5,9 +5,9 @@ solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
+source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '518'
 ht-degree: 98%
 
 ---
@@ -35,13 +35,6 @@ ht-degree: 98%
 ## 架构
 
 <img src="assets/CJA.svg" alt="Customer Journey Analytics Blueprint 的参考架构" style="border:1px solid #4a4a4a" />
-
-## 护栏
-
-将数据摄入 Customer Journey Analytics 中：
-
-* 数据摄入到数据湖：API ~7 GB/小时，源连接器 ~200 GB/小时，流到数据湖 ~15 分钟，Adobe Analytics 源连接器到数据湖 ~45 分钟。
-* 在数据发布到数据湖后，处理到 Customer Journey Analytics 可能需要最多 90 分钟。
 
 ## 实施步骤
 
