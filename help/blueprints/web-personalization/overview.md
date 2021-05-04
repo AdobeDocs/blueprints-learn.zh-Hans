@@ -6,10 +6,10 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
+source-git-commit: 61cb72965cd528cf264231058b1010829a87df9e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '247'
+ht-degree: 78%
 
 ---
 
@@ -21,6 +21,14 @@ Web 和移动个性化 解决了在多个应用程序中使用受众分段来个
 |---|---|---|
 | **[行为Web/移动个性化](behavioral.md)** | <ul><li>基于线上行为和受众数据进行个性化</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *（可选）*</li><li>Adobe Audience Manager *（可选）*</li></ul> |
 | **[在线/离线Web/移动个性化](online-offline.md)** | <ul><li>利用线下属性和事件（交易、预订、CRM 和忠诚度数据）进行个性化设置。</li><li>在网络、电子邮件和其他已知渠道之间同步个性化。</li></ul> | <ul><li>[!UICONTROL 实时客户数据平台]</li><li>Adobe Target</li><li>Adobe Analytics *（可选）*</li><li>Adobe Audience Manager *（可选）*</li></ul> |
+
+## Web和移动个性化护栏
+
+请参阅“受众和用户档案激活Blueprint”部分 — [ LINK](../audience-activation/overview.md)下的护栏
+
+### 联机/脱机个性化护栏图
+
+<img src="assets/personalization_guardrails.svg" alt="在线/离线Web个性化蓝图的参考体系结构" style="border:1px solid #4a4a4a" />
 
 ## 相关博客帖子
 
