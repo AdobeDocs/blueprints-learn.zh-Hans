@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 61cb72965cd528cf264231058b1010829a87df9e
+source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 77%
+source-wordcount: '649'
+ht-degree: 80%
 
 ---
 
@@ -31,17 +31,12 @@ ht-degree: 77%
 
 ## 架构
 
-### 包含实时客户数据平台、目标和Audience Manager的在线/离线个性化架构图
-
 <img src="assets/online_offline_personalization_with_apps.svg" alt="在线/离线Web个性化蓝图的参考体系结构" style="border:1px solid #4a4a4a" />
 
 ## 护栏
 
-请参阅“受众和用户档案激活Blueprint”部分 — [ LINK](../audience-activation/overview.md)下的护栏
-
-### 联机/脱机个性化护栏图
-
-<img src="assets/personalization_guardrails.svg" alt="联机/脱机Web个性化蓝图的护栏图" style="border:1px solid #4a4a4a" />
+请参阅Web和Mobile Personalization Blueprints概述页面上的护栏。
+[链接](overview.md)
 
 ## 实施模式
 
