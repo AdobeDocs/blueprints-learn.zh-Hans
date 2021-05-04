@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 61cb72965cd528cf264231058b1010829a87df9e
+source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 74%
@@ -34,6 +34,7 @@ ht-degree: 74%
 ### 具有目标的联机/脱机Audience Activation
 
 <img src="assets/online_offline_activation.svg" alt="联机/脱机Audience Activation蓝图的参考体系结构" style="border:1px solid #4a4a4a" />
+<br>
 
 ### 使用Experience Cloud应用程序进行在线/离线Audience Activation
 
