@@ -5,10 +5,10 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
+source-git-commit: 762836aba236ed78f4f396e8521a99c775dd52fc
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 39%
+source-wordcount: '418'
+ht-degree: 41%
 
 ---
 
@@ -35,13 +35,14 @@ ht-degree: 39%
 
 ## 实施步骤
 
-1. 为要摄取的数据创建模式。
-1. 为要摄取的数据创建数据集。
-1. 在架构上配置正确的身份和身份命名空间，以确保摄入的数据可以拼接到统一的用户档案中。
-1. 启用模式和数据集以进行用户档案处理。
-1. 配置任何数据获取源。
-1. 在Experience Platform中创作区段，以批量或流形式进行评估。 系统自动确定以批次还是流式评估区段。
-1. 配置目的地，以共享用户档案属性和受众成员到所需目的地。
+1. [创](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) 建要收录的数据架构。
+1. [为要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) 摄取的数据创建数据集。
+1. [在架构上配置正确的身份和身份命名空间，以确保摄入的数据可以拼接到统一的用户档案中。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)
+1. [启用模式和用户档案集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html)。
+1. [将数据引入平台](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)。
+1. [设置实时客户数据平台在 Experience Platform 和 Audience Manager 之间共享区段，以便将 Experience Platform 中定义的受众共享给 Audience Manager。](https://www.adobe.com/go/audiences)
+1. [在Experience Platform中创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=zh-Hans)，以批量或流形式进行评估。系统自动确定以批次还是流式评估区段。
+1. [配置目的地，以共享用户档案属性和受众成员到所需目的地。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html)
 
 ## 相关文档
 
@@ -56,4 +57,4 @@ ht-degree: 39%
 
 * [实时客户数据平台概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hans)
 * [[!UICONTROL 实时客户数据平台演示]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=zh-Hans)
-* [创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=zh-Hans)
+* [创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
