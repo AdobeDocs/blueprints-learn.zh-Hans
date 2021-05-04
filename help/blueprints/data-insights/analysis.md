@@ -6,10 +6,10 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
+source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 44%
+source-wordcount: '291'
+ht-degree: 36%
 
 ---
 
@@ -39,9 +39,8 @@ Experience Platform的[!UICONTROL 查询服务]允许对数据执行SQL查询。
 
 ## 护栏
 
-* 交互式查询的 10 分钟时限
-* 在 UI 中返回 100 个记录限制
-* 通过 SQL 连接器返回 50,000 个记录限制
+有关最佳实践和护栏的详细信息，请参阅查询服务产品文档。
+[查询服务指南](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=en#best-practices)
 
 ## 实施步骤
 
