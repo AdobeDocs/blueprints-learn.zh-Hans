@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: 37416aafc997838888edec2658d2621d20839f94
+source-git-commit: 81df87f850b7ac4be9dce7a3b96d39a3a47685c5
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 59%
+source-wordcount: '639'
+ht-degree: 48%
 
 ---
 
@@ -59,22 +59,23 @@ ht-degree: 59%
 
 #### 架构/数据集
 
-1. 根据客户提供的数据在 Experience Platform 中配置单个用户档案、体验事件和多实体架构。
+1. [根据客户提供的数据在 Experience Platform 中配置单个用户档案、体验事件和多实体架构。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
 1. 为broadLog、trackingLog、不可交付地址和用户档案首选项创建Adobe Campaign模式（可选）。
-1. 将数据使用标签添加到数据集以进行治理。
-1. 创建对目的地实施治理的策略。
+1. [在Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) 中创建要摄取的数据。
+1. [将Experience Platform中的数](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) 据使用标签添加到数据集以进行管理。
+1. [创建对目的地实施治理的策略。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html)
 
 #### 用户档案/身份
 
-1. 创建任何客户特定的命名空间。
-1. 向架构添加身份。
-1. 启用架构和用户档案数据集。
-1. 为[!UICONTROL 实时客户用户档案]的不同视图设置合并规则（可选）。
+1. [创建任何客户特定的命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
+1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
+1. [启用模式和用户档案集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html)。
+1. [为实时客](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) 户视图的不 [!UICONTROL 同用户档案设置合] 并策略（可选）。
 1. 为Adobe Campaign使用创建区段。
 
 #### 源/目的地
 
-1. 使用流传输 API 和源连接器将数据引入 Experience Platform。
+1. [使用流传输 API 和源连接器将数据引入 Experience Platform。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 1. 配置[!DNL Azure] blob存储目标以与Adobe Campaign一起使用。
 
 #### 移动应用程序部署
