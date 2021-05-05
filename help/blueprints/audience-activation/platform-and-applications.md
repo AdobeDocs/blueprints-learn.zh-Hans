@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7722
 exl-id: null
 translation-type: tm+mt
-source-git-commit: c1a281f0808a0f081b2b63927a8bddb6377bbbad
+source-git-commit: 0f69d5b2422cc9750ed9c71ea0c10e3271973bf2
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 33%
 
 ## 用例
 
-* 以Experience Cloud为后盾的跨客户互动渠道的个性化和定位。
-* 与Experience Platform共享受众和用户档案数据。
+* 在以Experience Cloud为后盾的客户互动渠道中实现个性化和目标。
+* 在受众和用户档案应用程序之间共享Experience Platform和Experience Cloud数据。
 
 ## 应用程序
 
@@ -29,9 +29,9 @@ ht-degree: 33%
 * [!UICONTROL 实时客户数据平台]
 * Experience Platform激活
 * Experience Cloud 应用程序
-   * Audience Manager
-   * 目标
-   * Campaign
+   * Adobe Audience Manager
+   * Adobe Target
+   * Adobe Campaign
    * Journey Optimizer
 
 ## 架构
