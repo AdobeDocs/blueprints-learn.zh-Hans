@@ -6,7 +6,7 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 translation-type: tm+mt
-source-git-commit: ee4e59f014ad73df8e9bceb2a41752b3bc760761
+source-git-commit: 5471d9c0f6fdef6fbac72d5d35f32353ea5a5ee8
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 28%
@@ -25,7 +25,7 @@ ht-degree: 28%
 | **[匿名 Audience Activation](anonymous.md)** | <ul><li>跨 Web 和广告渠道定位目标受众，以获取匿名和行为客户数据。</li><li>与第三方受众数据集成以提高个性化。</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[线上/线下 Audience Activation](online-offline.md)** | <ul><li>激活到基于用户档案的已知目标，如电子邮件提供商、社交网络和广告目标。 </li><li>将离线属性和事件（如离线订单、交易、CRM或忠诚度数据）与在线行为结合使用，实现在线定位和个性化。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL 实时客户数据平台]</li><li>Adobe Audience Manager（可选）</li></ul> |
 | **[受众和用户档案激活到企业目标](enterprise-destinations.md)** | <ul><li>将用户档案和受众更改复制和更新到企业存储，以用于激活和报告使用案例。 </li></ul><ul><li>通过从[!UICONTROL 实时客户数据平台]到企业系统和应用程序的客户操作通知，向客户发起销售或支持操作。</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL 实时客户数据平台]</li><li>Experience Platform激活</li><li>Adobe Audience Manager（可选）</li></ul> |
-| **[受众和用户档案激活与Experience Cloud应用程序](aep+apps.md)** | </ul><li>在Experience Platform中管理用户档案和受众，并与Experience Cloud应用程序共享它们</li><li>在Experience Platform中构建和共享丰富的客户细分和洞察，并与Experience Cloud应用程序共享</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL 实时客户数据平台]</li><li>Experience Platform激活</li><li>Experience Cloud 应用程序</li></ul> |
+| **[受众和用户档案激活与Experience Cloud应用程序](platform-and-applications.md)** | </ul><li>在Experience Platform中管理用户档案和受众，并与Experience Cloud应用程序共享它们</li><li>在Experience Platform中构建和共享丰富的客户细分和洞察，并与Experience Cloud应用程序共享</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL 实时客户数据平台]</li><li>Experience Platform激活</li><li>Experience Cloud 应用程序</li></ul> |
 | **[客户活动中心](customer-activity.md)** | <ul><li>为座席支持的交互（如支持和销售体验）提供更深入的消费者背景信息。通过对Experience Platform的用户档案查找，工程师可以接收有关消费者的更多上下文，例如最近购买、活动交互、倾向、受众会员资格，以及存储在实时客户用户档案中的其他属性和洞察。</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 
