@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
+source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 69%
+source-wordcount: '543'
+ht-degree: 63%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 69%
 将线下属性和事件（如线下订单、交易、CRM 或忠诚度数据）与线上行为结合使用，实现线上定位和个性化。
 
 将受众激活到基于用户档案的已知目的地（如电子邮件提供商、社交网络和广告目的地）。
+
+“联机/脱机Audience Activation蓝图”与“Experience Cloud应用程序蓝图”的[受众和用户档案激活紧密对齐。 ](platform-and-applications.md)在[受众和用户档案激活中，使用Experience Cloud Applications Blueprint](platform-and-applications.md)提供了更多详细信息   特定于Experience Platform和Experience Cloud应用程序之间的集成。
 
 ## 用例
 
@@ -42,7 +44,7 @@ ht-degree: 69%
 
 ## 护栏
 
-请参阅“受众和用户档案激活概述”页上概述的护栏 — [ LINK](overview.md)
+[请参阅“受众和用户档案激活概述”页上概述的护栏。](overview.md)
 
 ## 实施步骤
 
