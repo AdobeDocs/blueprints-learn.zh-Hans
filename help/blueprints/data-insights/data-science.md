@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 translation-type: tm+mt
-source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
+source-git-commit: 6365fa00a77ba22774b2d6de3e882a3e09dcae0f
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 69%
+source-wordcount: '398'
+ht-degree: 62%
 
 ---
 
@@ -28,8 +28,9 @@ ht-degree: 69%
 
 ## 实施步骤
 
-1. 创建架构和数据集。
-1. 将数据引入 Experience Platform。
+1. [创](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) 建要收录的数据架构。
+1. [为要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) 摄取的数据创建数据集。
+1. [将数据引入平台](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)。
 1. 创建 DSW 笔记本。
 1. 选择语言。支持 Python 和 PySpark。
 1. 在笔记本中创作模型。
