@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c,4f15aa5d-9ee3-4d92-8012-3e2f0c0d615f
 translation-type: tm+mt
-source-git-commit: 762836aba236ed78f4f396e8521a99c775dd52fc
+source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 69%
+source-wordcount: '384'
+ht-degree: 73%
 
 ---
 
@@ -39,16 +39,11 @@ ht-degree: 69%
 
 ## 实施步骤
 
-1. 配置数据集和架构
-1. 配置[!UICONTROL 实时客户用户档案]:为[!UICONTROL 实时客户用户档案]配置模式和数据集，并设置合并策略和标识。
-1. 将数据引入 Platform 并处理到[!UICONTROL 实时客户档案]。
-
-
 1. [创](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) 建要收录的数据架构。
 1. [为要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) 摄取的数据创建数据集。
 1. [在架构上配置正确的身份和身份命名空间，以确保摄入的数据可以拼接到统一的用户档案中。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)
-1. [启用模式和用户档案集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html)。
-1. [将数据引入平台](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)。
+1. [为用户档案启用模式和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html)。
+1. [将数据引入 Experience Platform。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 1. [设置合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html)
 1. 使用[Entities API从记录实体或体验用户档案实体中查找事件属性](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html)。
 
