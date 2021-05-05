@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7722
 exl-id: null
 translation-type: tm+mt
-source-git-commit: 0f69d5b2422cc9750ed9c71ea0c10e3271973bf2
+source-git-commit: d81329f6e90a0bdc0b76a41e4045b8e1aa5f89cd
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 34%
+source-wordcount: '264'
+ht-degree: 37%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 34%
 
 在Experience Platform中管理用户档案和受众，并与Experience Cloud应用程序共享它们。 在Experience Platform中构建和共享丰富的客户细分和洞察，并与Experience Cloud应用程序共享。
 
-激活与Experience Cloud应用程序的Audience Activation与[联机/脱机Blueprint](online-offline.md)紧密对齐。 此蓝图中提供了更多详细信息，特定于Experience Platform和Experience Cloud应用程序之间的集成。
+激活与Experience Cloud应用程序的Audience Activation与[联机/脱机Blueprint](online-offline.md)紧密对齐。
 
 ## 用例
 
@@ -35,8 +35,6 @@ ht-degree: 34%
    * Journey Optimizer
 
 ## 架构
-
-### 受众和用户档案激活与Experience Cloud应用程序
 
 <img src="assets/activation+apps.svg" alt="受众和用户档案激活的参考体系结构" style="border:1px solid #4a4a4a" />
 
