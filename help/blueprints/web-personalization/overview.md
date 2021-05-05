@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
+source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 76%
 
 ---
@@ -24,7 +24,7 @@ Web 和移动个性化 解决了在多个应用程序中使用受众分段来个
 
 ## Web和移动个性化护栏
 
-有关受众和用户档案激活的护栏，请参阅“受众和用户档案激活蓝图”部分 — [ LINK](../audience-activation/overview.md)下的护栏
+[有关受众和用户档案激活的护栏，请参阅受众和用户档案激活蓝图部分下的护栏。](../audience-activation/overview.md)
 
 ### 联机/脱机个性化护栏图
 
