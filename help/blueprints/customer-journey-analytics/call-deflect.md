@@ -5,10 +5,10 @@ solution: Experience Platform, Customer Journey Analytics
 kt: 7209
 exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
 translation-type: tm+mt
-source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
+source-git-commit: 6365fa00a77ba22774b2d6de3e882a3e09dcae0f
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 98%
+source-wordcount: '638'
+ht-degree: 92%
 
 ---
 
@@ -36,8 +36,9 @@ ht-degree: 98%
 
 ## 实施步骤
 
-1. 配置数据集和架构
-1. 将数据引入 Platform。数据必须先被摄入 Platform，然后才能处理到 Customer Journey Analytics 中。
+1. [创](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) 建要收录的数据架构。
+1. [为要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) 摄取的数据创建数据集。
+1. [将数据引入平台](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)。数据必须先被摄入 Platform，然后才能处理到 Customer Journey Analytics 中。
 1. 分析跨渠道事件数据集。合并分析的数据集必须具有通用的命名空间 ID，或通过 Customer Journey Analytics 中基于字段的拼接功能重新设置键。 
 
    >[!NOTE]
