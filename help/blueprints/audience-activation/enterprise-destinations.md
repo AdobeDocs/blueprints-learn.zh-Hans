@@ -5,10 +5,10 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
+source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 42%
+source-wordcount: '411'
+ht-degree: 43%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 42%
 
 ## 护栏
 
-请参阅“受众和用户档案激活概述”页上概述的护栏 — [ LINK](overview.md)
+[请参阅“受众和用户档案激活概述”页上概述的护栏。](overview.md)
 
 ## 实施步骤
 
