@@ -1,18 +1,18 @@
 ---
-title: 受众和用户档案激活与Experience Cloud应用程序
-description: 受众和用户档案激活与Experience Cloud应用程序
+title: 受众和用户档案激活与Experience Cloud Applications Blueprint
+description: 在Experience Platform中管理用户档案和受众，并与Experience Cloud应用程序共享它们。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: null
 translation-type: tm+mt
-source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
+source-git-commit: c1a281f0808a0f081b2b63927a8bddb6377bbbad
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 34%
+source-wordcount: '289'
+ht-degree: 33%
 
 ---
 
-# 受众和用户档案激活与Experience Cloud应用程序
+# 受众和用户档案激活与Experience Cloud Applications Blueprint
 
 在Experience Platform中管理用户档案和受众，并与Experience Cloud应用程序共享它们。 在Experience Platform中构建和共享丰富的客户细分和洞察，并与Experience Cloud应用程序共享。
 
@@ -36,16 +36,15 @@ ht-degree: 34%
 
 ## 架构
 
-[有关与Experience PlatformExperience Platform与Experience Cloud应用程序集成相关的其他架构图，请参阅和应用程序架构部分。](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html)
-
 ### 受众和用户档案激活与Experience Cloud应用程序
 
 <img src="assets/activation+apps.svg" alt="受众和用户档案激活的参考体系结构" style="border:1px solid #4a4a4a" />
-<br>
+
+有关与Experience Platform及其与Experience Cloud应用程序集成相关的其他架构图，请参阅[Adobe Experience Platform和应用程序图](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html)。
 
 ## 护栏
 
-[请参阅“受众和用户档案激活概述”页上概述的护栏](overview.md)
+请参阅“受众和用户档案激活概述”页面](overview.md)上的[护栏
 
 ## 相关文档
 
