@@ -8,18 +8,18 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 63%
+ht-degree: 95%
 
 ---
 
 # 用户档案扩充的自定义数据科学 Blueprint
 
-针对用户档案扩充的自定义数据科学Blueprint说明了如何在[!UICONTROL 数据科学工作区]中使用Adobe Experience Platform中的数据来培训、部署和得分模型以提供机器学习洞察。 这些模型可以直接输出到启用[!UICONTROL 实时客户用户档案]的数据集，以进一步丰富客户用户档案。 然后，可以对这些洞察进行个性化配置。 机器学习洞察的示例包括终身价值评分、产品和类别关联、转化倾向或客户流失倾向。
+用户档案扩充的自定义数据科学 Blueprint 说明了如何在[!UICONTROL 数据科学工作区]中使用 Adobe Experience Platform 中的数据来训练、部署和评估模型以提供机器学习洞察。这些模型可以直接输出到启用[!UICONTROL 实时客户档案]的数据集，以进一步丰富客户档案。然后，可以对这些洞察进行个性化配置。机器学习洞察的示例包括存留期值评分、产品和类别亲和力、转化倾向或客户流失倾向。
 
 ## 用例
 
 * 从 Experience Platform 中的客户数据中提取洞察并发现模式。根据这些数据对模型进行训练和评分。
-* 利用模型驱动的洞察和属性丰富[!UICONTROL 实时客户用户档案]，以实现更精细的个性化和优化旅程。
+* 利用模型驱动的洞察和属性来丰富[!UICONTROL 实时客户档案]，以实现更精细的个性化并优化历程。
 * 对模型进行训练和评分，以确定客户洞察，如客户存留期值、转化或参与倾向、产品和内容关联，以及参与分数。
 
 ## 架构
@@ -28,21 +28,21 @@ ht-degree: 63%
 
 ## 实施步骤
 
-1. [创](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) 建要收录的数据架构。
-1. [为要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) 摄取的数据创建数据集。
-1. [将数据引入 Experience Platform。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
+1. [为要摄入的数据创建架构。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [为要摄入的数据创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
+1. [将数据摄入 Experience Platform。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 1. 创建 DSW 笔记本。
 1. 选择语言。支持 Python 和 PySpark。
 1. 在笔记本中创作模型。
 1. 训练模型。
 1. 对模型进行评分，以使用目标数据生成预测。
-1. 如果将模型结果推送到[!UICONTROL 实时客户用户档案]，则启用模型结果数据集以进行用户档案。
+1. 如果将模型结果推送到[!UICONTROL 实时客户档案]，则为用户档案启用模型结果数据集。
 
 ## 相关文档
 
 * [Adobe Experience Platform 智能产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [数据科学工作空间文档](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=zh-Hans)
-* [数据科学工作空间教程](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html?lang=zh-Hans)
+* [[!UICONTROL 数据科学工作空间]文档](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=zh-Hans)
+* [[!UICONTROL 数据科学工作空间]教程](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html?lang=zh-Hans)
 
 ## 相关博客帖子
 
