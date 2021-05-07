@@ -1,5 +1,5 @@
 ---
-title: 批处理消息和Adobe Experience Platform Blueprint
+title: 批次消息和 Adobe Experience Platform Blueprint
 description: 使用 Adobe Experience Platform 作为客户档案和分段的中心，执行计划消息和批次消息活动。
 solution: Experience Platform, Campaign
 kt: 7196
@@ -8,11 +8,11 @@ translation-type: tm+mt
 source-git-commit: 01f70fe432d7be38b71889ae19c0d5fe4cf0f78a
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 48%
+ht-degree: 82%
 
 ---
 
-# 批处理消息和Adobe Experience Platform Blueprint
+# 批次消息和 Adobe Experience Platform Blueprint
 
 使用 Adobe Experience Platform 作为客户档案和分段的中心，执行计划消息和批次消息活动。
 
@@ -33,15 +33,15 @@ ht-degree: 48%
 
 ## 架构
 
-<img src="assets/aepbatch.svg" alt="批处理消息和Adobe Experience Platform Blueprint的参考架构" style="border:1px solid #4a4a4a" />
+<img src="assets/aepbatch.svg" alt="批次消息和 Adobe Experience Platform Blueprint 的参考架构" style="border:1px solid #4a4a4a" />
 
 ## 护栏
 
-* 仅支持Adobe Campaign单个组织单位部署
-* Adobe Campaign是所有活动用户档案的真相来源，这意味着用户档案必须存在于Adobe Campaign中，而新用户档案不应基于Experience Platform段创建。
+* 仅支持 Adobe Campaign 单个组织单位部署
+* Adobe Campaign 是所有主要用户档案的真相来源，这意味着用户档案必须存在于 Adobe Campaign 中，而新用户档案不应基于 Experience Platform 区段创建。
 * 通过 Experience Platform 实现的区段成员对于批次（每天 1 次）和流传输（约 5 分钟）都是潜在的
 
-**[!UICONTROL 实时客户数据平] 台细分共享到Adobe Campaign:**
+**[!UICONTROL 实时客户数据平台]区段共享到 Adobe Campaign：**
 
 * 建议 20 区段限额
 * 激活限于每 24 小时
@@ -50,7 +50,7 @@ ht-degree: 48%
 * 所有具有“已实现”区段成员的用户档案每个区段有一个文件，或者如果已在文件中将区段成员作为属性添加，则包含“已实现”和“已退出”用户档案
 * 支持增量或完整的区段导出
 * 不支持文件加密
-* Adobe Campaign导出工作流最多每4小时运行一次
+* Adobe Campaign 导出工作流最多每 4 小时运行一次
 * 请参阅 [Experience Platform 的用户档案和数据摄入护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 
 ## 实施步骤
@@ -60,7 +60,7 @@ ht-degree: 48%
 #### 架构/数据集
 
 1. [根据客户提供的数据在 Experience Platform 中配置单个用户档案、体验事件和多实体架构。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. 为broadLog、trackingLog、不可交付地址和用户档案首选项创建Adobe Campaign模式（可选）。
+1. 为 broadLog、trackingLog、无法投放的地址和用户档案首选项创建 Adobe Campaign 架构（可选）。
 1. [在Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) 中创建要摄取的数据。
 1. [将Experience Platform中的数](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) 据使用标签添加到数据集以进行管理。
 1. [创建对目的地实施治理的策略。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html)
@@ -71,16 +71,16 @@ ht-degree: 48%
 1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
 1. [为用户档案启用模式和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html)。
 1. [为实时客](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) 户视图的不 [!UICONTROL 同用户档案设置合] 并策略（可选）。
-1. 为Adobe Campaign使用创建区段。
+1. 为 Adobe Campaign 使用创建区段。
 
 #### 源/目的地
 
-1. [使用流传输 API 和源连接器将数据引入 Experience Platform。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
-1. 配置[!DNL Azure] blob存储目标以与Adobe Campaign一起使用。
+1. [使用流传输 API 和源连接器将数据摄入 Experience Platform。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
+1. 配置 [!DNL Azure] blob 存储目的地以与 Adobe Campaign 一起使用。
 
 #### 移动应用程序部署
 
-1. 为Adobe Campaign Classic实施Adobe Campaign SDK或为Adobe Campaign Standard实施Experience Platform SDK。 如果存在Experience Platform Launch，建议将Adobe Campaign Classic或Adobe Campaign Standard扩展与Experience Platform SDK一起使用。
+1. 为 Adobe Campaign Classic 实施 Adobe Campaign SDK 或为 Adobe Campaign Standard 实施 Experience Platform SDK。如果存在 Experience Platform Launch，建议将 Adobe Campaign Classic 或 Adobe Campaign Standard 扩展与 Experience Platform SDK 一起使用。
 
 #### Adobe Campaign
 
@@ -88,17 +88,17 @@ ht-degree: 48%
 
 >[!IMPORTANT]
 >
->此时了解用户档案和事件数据在Experience Platform中包含哪些数据模型至关重要，这样您就能了解Adobe Campaign中需要哪些数据。
+>此时了解用户档案和事件数据在 Experience Platform 中包含哪些数据模型至关重要，这样您就能了解 Adobe Campaign 中需要哪些数据。
 
 #### 导入工作流
 
-1. 将简化的用户档案数据加载并导入Adobe Campaign sFTP。
-1. 将业务安排和消息个性化数据加载和收录到Adobe Campaign sFTP上。
+1. 将简化的用户档案数据加载并摄入 Adobe Campaign sFTP。
+1. 将业务安排和消息个性化数据加载和摄入到 Adobe Campaign sFTP 中。
 1. 通过工作流从 [!DNL Azure] blob 摄入 Experience Platform 区段。
 
 #### 导出工作流
 
-1. 每四小时通过工作流将Adobe Campaign日志发送回Experience Platform（broadLog、trackingLog、不可交付的地址）。
+1. 每四小时通过工作流将 Adobe Campaign 日志发送回 Experience Platform（broadLog、trackingLog、无法投放的地址）。
 1. 每四小时通过咨询构建的工作流将用户档案首选项发送回 Experience Platform（可选）。
 
 
