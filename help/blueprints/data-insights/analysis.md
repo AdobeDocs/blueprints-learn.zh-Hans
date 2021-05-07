@@ -1,5 +1,5 @@
 ---
-title: 数据分析和智能蓝图
+title: 数据分析和智能 Blueprint
 description: 此 Blueprint 展示了 Adobe Experience Platform 内对数据湖中存在的数据执行探索性查询和分析的能力。
 solution: Experience Platform
 kt: 7207
@@ -9,19 +9,19 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 31%
+ht-degree: 85%
 
 ---
 
-# 数据分析和智能蓝图
+# 数据分析和智能 Blueprint
 
-数据分析和智能包括Adobe Experience Platform内对数据湖中存在的数据执行探索性查询和分析的能力。
+数据分析和智能包括 Adobe Experience Platform 内对数据湖中存在的数据执行探索性查询和分析的能力。
 
-Experience Platform的[!UICONTROL 查询服务]允许对数据执行SQL查询。 [!UICONTROL 数据科] 学工作空间支持对数据执行数据探索、数据科学和机器学习工作负载。
+Experience Platform 的[!UICONTROL 查询服务]允许对数据执行 SQL 查询。[!UICONTROL 数据科学工作区]支持对数据执行数据探索、数据科学和机器学习工作负载。
 
-此外，Experience Platform允许与第三方SQL客户端、接口和Business Intelligence(BI)工具连接，以使用[!DNL PostgreSQL]协议直接连接、访问和查询Experience Platform内的数据。
+此外，Experience Platform 允许与第三方 SQL 客户端、接口和 Business Intelligence (BI) 工具连接，以使用[!DNL PostgreSQL]协议直接连接、访问和查询 Experience Platform 内的数据。
 
-某些护栏适用于查询超时和查询结果中包含的数据量，如蓝图详细信息中所述。
+如 Blueprint 详情中所述，某些护栏适用于查询超时和查询结果中包含的数据量。
 
 ## 用例
 
@@ -31,7 +31,7 @@ Experience Platform的[!UICONTROL 查询服务]允许对数据执行SQL查询。
 
 ## 应用程序
 
-* Adobe Experience Platform
+* Adobe Experience Platform 
 
 ## 架构
 
@@ -44,13 +44,13 @@ Experience Platform的[!UICONTROL 查询服务]允许对数据执行SQL查询。
 
 ## 实施步骤
 
-1. [创](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) 建要收录的数据架构。
-1. [为要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) 摄取的数据创建数据集。
-1. [将数据引入 Experience Platform。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
-1. 确认[!UICONTROL 查询服务]和[!UICONTROL 数据科学工作区]可用于原始访问和查询。
-1. 将Business Intelligence工具和SQL客户端连接到[!UICONTROL 查询服务]，以实现可视化、查询和探索。
+1. [为要摄入的数据创建架构。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [为要摄入的数据创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
+1. [将数据摄入 Experience Platform。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
+1. 确认数据可用于[!UICONTROL 查询服务]和[!UICONTROL 数据科学工作区]以进行原始访问和查询。
+1. 将 Business Intelligence 工具和 SQL 客户端连接到[!UICONTROL 查询服务]，以实现可视化、数据查询和探索。
 
 ## 相关文档
 
 * [Adobe Experience Platform 智能产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [查询服务文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans)
+* [[!UICONTROL 查询服务]文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans)
