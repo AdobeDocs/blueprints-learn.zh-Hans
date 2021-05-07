@@ -1,5 +1,5 @@
 ---
-title: 呼叫偏转分析蓝图
+title: 呼叫偏转分析 Blueprint
 description: 在客户联系呼叫中心之前，分析客户行为。
 solution: Experience Platform, Customer Journey Analytics
 kt: 7209
@@ -8,11 +8,11 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
-# 呼叫偏转历程分析蓝图
+# 呼叫偏转历程分析 Blueprint
 
 在客户联系呼叫中心之前，分析客户在桌面和移动设备上的行为。通过了解客户尝试完成哪些操作、他们查看哪些内容以及在与客户支持联系之前搜索哪些条款来确定改善客户历程的机会。确定可以改进的内容和自助服务工具，以帮助客户解决问题而无需拨入。
 
@@ -36,16 +36,16 @@ ht-degree: 93%
 
 ## 实施步骤
 
-1. [创](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) 建要收录的数据架构。
-1. [为要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) 摄取的数据创建数据集。
-1. [将数据引入 Experience Platform。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)数据必须先被摄入 Platform，然后才能处理到 Customer Journey Analytics 中。
+1. [为要摄入的数据创建架构。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [为要摄入的数据创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
+1. [将数据摄入 Experience Platform。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)数据必须先被摄入 Platform，然后才能摄入到 Customer Journey Analytics 中。
 1. 分析跨渠道事件数据集。合并分析的数据集必须具有通用的命名空间 ID，或通过 Customer Journey Analytics 中基于字段的拼接功能重新设置键。 
 
    >[!NOTE]
    >
    >Customer Journey Analytics 当前不使用 Experience Platform 用户档案或身份服务进行拼接。
 
-1. 对数据执行任何自定义数据准备或使用基于字段的身份拼接，以确保将时间序列数据集中的公共键引入 Customer Journey Analytics。
+1. 对数据执行任何自定义数据准备或使用基于字段的身份拼接，以确保将时间序列数据集中的公共键摄入 Customer Journey Analytics。
 1. 为查找数据提供主 ID，它可以加入到事件数据中的字段中。在许可中计为行。
 1. 为用户档案数据设置与事件数据的主 ID 相同的主 ID。
 1. 配置数据连接，将 Experience Platform 中的数据摄入到 Customer Journey Analytics。数据进入数据湖后，在 90 分钟内即可处理到 Customer Journey Analytics 中。
