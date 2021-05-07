@@ -1,50 +1,50 @@
 ---
-title: 数字体验 Blueprints
-description: 数字体验 Blueprints 是可重复实施的产品，用于应对战略和解决既定的业务问题。它们可加快实现价值的速度，并提供快速的成功之路。
+title: 数字体验 Blueprint
+description: 数字体验 Blueprint 是可重复实施的产品，用于应对战略和解决既定的业务问题。它们可加快实现价值的速度，并提供快速的成功之路。
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
 source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
-# 数字体验 Blueprints
+# 数字体验 Blueprint
 
-Digital Experience Blueprint是可重复实施的产品，使您能够解决战略问题并快速解决已建立的业务问题。 每个Blueprint都提供一系列工件，用于解释高价值业务问题、体系结构、实施步骤、技术考虑事项以及指向相关文档的链接。
+数字体验 Blueprint 是可重复实施的产品，可让您有效应对战略和快速解决既定业务问题。每个 Blueprint 均会提供一系列工件，用于解释高价值业务问题、体系架构、实施步骤、技术注意事项以及指向相关文档的链接。
 
 ## 新增功能
 
-* **[受众和用户档案激活到企业目标Blueprint](/help/blueprints/audience-activation/enterprise-destinations.md)**
+* **[受众和用户档案激活到企业目的地 Blueprint](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
-   *使所有系统中的客户用户档案保持最新，为您的销售和支持团队提供支持&#x200B;。*
+   *使所有系统中的客户档案保持最新，以增强您的销售和支持团队的能力。*
 * **[客户活动中心 Blueprint](/help/blueprints/audience-activation/customer-activity.md)**
 
    *提供座席协助支持和销售的背景信息。*
-* **[数据分析和智能蓝图](/help/blueprints/data-insights/analysis.md)**
+* **[数据分析和智能 Blueprint](/help/blueprints/data-insights/analysis.md)**
 
    *对数据湖中的数据执行探索性查询和分析。*
 
-## 特色 Blueprints
+## 特色 Blueprint
 
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="“触发的消息传递”和“Experience Platform蓝图”的缩略图" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>触发式消息和Experience Platform</strong></a></div>
-    <p><em>使用[!UICONTROL平台]作为中心中心触发消息和体验。</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html?lang=zh-Hans"><img alt="“触发式消息”和“Experience Platform Blueprint”的缩略图" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>触发式消息和 Experience Platform</strong></a></div>
+    <p><em>使用 [!UICONTROL Platform] 作为中心枢纽来触发消息和体验。</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="“联机/脱机Audience ActivationBlueprint”的缩略图" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>线上/线下 Audience Activation</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=zh-Hans"><img alt="线上/线下受众激活 Blueprint 的缩略图" src="audience-activation/assets/online_offline_activation.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>线上/线下受众激活</strong></a></div>
     <p><em>投放受众激活的跨渠道广告。</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="数字行为数据整合蓝图的缩略图" src="customer-journey-analytics/assets/CJA.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=zh-Hans"><img alt="数字行为数据整合 Blueprint 的缩略图" src="customer-journey-analytics/assets/CJA.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>数字行为数据整合</strong></a></div>
-    <p><em>对不同渠道中的客户行为有一个统一的视图。</em></p>
+    <p><em>拥有关于不同渠道客户行为的整合视图。</em></p>
   </td>
 </tr>
 </table>
