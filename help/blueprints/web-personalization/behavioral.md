@@ -1,5 +1,5 @@
 ---
-title: 行为Web个性化蓝图
+title: 行为 Web 个性化 Blueprint
 description: 根据线上行为和受众数据进行个性化。
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
@@ -8,11 +8,11 @@ translation-type: tm+mt
 source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# 行为Web/移动个性化蓝图
+# 行为 Web/移动个性化 Blueprint
 
 根据线上行为和受众数据进行个性化。
 
@@ -30,7 +30,7 @@ ht-degree: 78%
 
 ## 架构
 
-<img src="assets/behavioral_personalization.svg" alt="行为Web个性化蓝图的参考体系结构" style="border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="行为 Web 个性化 Blueprint 的参考架构" style="border:1px solid #4a4a4a" />
 
 
 ## 护栏
@@ -39,16 +39,16 @@ ht-degree: 78%
 
 ## 实施模式
 
-Web/移动个性化蓝图可以通过以下方法实现，如下所述。
+Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 
-1. 使用[!UICONTROL Platform Web SDK]或[!UICONTROL Platform Mobile SDK]和[!UICONTROL Edge Network]。
-1. 使用传统的特定于应用程序的SDK（例如，AppMeasurement.js）
+1. 使用 [!UICONTROL Platform Web SDK] 或 [!UICONTROL Platform Mobile SDK] 和 [!UICONTROL Edge Network]。
+1. 使用传统的特定于应用程序的 SDK（例如，AppMeasurement.js）
 
-### 1.平台Web/移动SDK和Edge Approach
+### 1. Platform Web/移动 SDK 和 Edge 方法
 
-<img src="assets/web_sdk_flow.svg" alt="[!UICONTROL Platform Web SDK]或[!UICONTROL Platform Mobile SDK]和[!UICONTROL Edge Network]方法的参考架构" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="[!UICONTROL Platform Web SDK] 或 [!UICONTROL Platform Mobile SDK] 和 [!UICONTROL Edge Network] 方法的参考架构" style="border:1px solid #4a4a4a" />
 
-### 2.特定于应用程序的SDK方法
+### 2. 特定于应用程序的 SDK 方法
 
 <img src="assets/app_sdk_flow.png" alt="特定于应用程序的 SDK 方法的参考架构" style="border:1px solid #4a4a4a" />
 
@@ -56,10 +56,10 @@ Web/移动个性化蓝图可以通过以下方法实现，如下所述。
 
 | 应用程序/服务 | 所需的库 | 备注 |
 |---|---|---|
-| Adobe Target | [!UICONTROL 平台Web] SDK*、at.js 0.9.1+或mbox.js 61+ | 首选 at.js，因为 mbox.js 将不再开发。 |
-| Adobe Audience Manager（可选） | [!UICONTROL 平台Web SDK]*或dil.js 5.0+ |  |
-| Adobe Analytics（可选） | [!UICONTROL 平台Web SDK]*或AppMeasurement.js 1.6.4+ |  |
-| Experience Cloud 身份服务 | [!UICONTROL 平台Web SDK]*或VisitorAPI.js 2.0+ |  |
+| Adobe Target | [!UICONTROL Platform Web SDK]*、at.js 0.9.1+ 或 mbox.js 61+ | 首选 at.js，因为 mbox.js 将不再开发。 |
+| Adobe Audience Manager（可选） | [!UICONTROL Platform Web SDK]* 或 dil.js 5.0+ |  |
+| Adobe Analytics（可选） | [!UICONTROL Platform Web SDK]* 或 AppMeasurement.js 1.6.4+ |  |
+| Experience Cloud 身份服务 | [!UICONTROL Platform Web SDK]* 或 VisitorAPI.js 2.0+ |  |
 | Experience Platform Mobile SDK（可选） | 适用于 Android™ 和 iOS 的 4.11 或更高版本 |  |
 | Experience Platform Web SDK | 1.0，当前 Experience Platform SDK 版本具有[尚未支持 Experience Cloud 应用程序的各种用例](https://github.com/adobe/alloy/projects/5) |  |
 
@@ -67,7 +67,7 @@ Web/移动个性化蓝图可以通过以下方法实现，如下所述。
 
 1. 为您的 Web 或移动应用程序[实施 Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=zh-Hans)。
 
-   如果使用Audience Manager或Adobe Analytics:
+   如果使用 Audience Manager 或 Adobe Analytics：
 
 1. [实施 Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=zh-Hans)
 1. [实施 Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=zh-Hans)
@@ -85,7 +85,7 @@ Web/移动个性化蓝图可以通过以下方法实现，如下所述。
 
 * [Experience Cloud 受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)
 * [将 Audience Manager 与 Adobe Target 集成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=zh-Hans)
-* [Adobe Analytics细分共享(通过Adobe Audience Manager)](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [通过 Adobe Audience Manager 分享 Adobe Analytics 区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 
 ## 相关博客帖子
