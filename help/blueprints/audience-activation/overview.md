@@ -5,11 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-translation-type: tm+mt
-source-git-commit: 5471d9c0f6fdef6fbac72d5d35f32353ea5a5ee8
+source-git-commit: fb0ed8245f2be9b9260afbc3b749fde0eae58b5c
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 91%
+source-wordcount: '941'
+ht-degree: 66%
 
 ---
 
@@ -28,6 +27,17 @@ ht-degree: 91%
 | **[受众和用户档案激活与Experience Cloud应用程序](platform-and-applications.md)** | </ul><li>在Experience Platform中管理用户档案和受众，并与Experience Cloud应用程序共享它们</li><li>在Experience Platform中构建和共享丰富的客户细分和洞察，并与Experience Cloud应用程序共享</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL 实时客户数据平台]</li><li>Experience Platform 激活</li><li>Experience Cloud 应用程序</li></ul> |
 | **[客户活动中心](customer-activity.md)** | <ul><li>为座席支持的交互（如支持和销售体验）提供更深入的消费者背景信息。通过对 Experience Platform 用户档案的查找，座席可以接收更多有关消费者的背景信息，例如最近购买、活动交互、倾向、受众成员，以及存储在实时客户档案中的其他属性和洞察。</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
+## 实时客户用户档案架构
+
+下图概述了Experience Platform实时客户用户档案的核心组件。
+
+第一个数据源被引入Experience Platform。 如果用户档案源配置为进行用户档案处理，它将馈送到实时客户。 为每个用户档案源和为每个数据源配置的每个主ID记录创建单个文档片段或。 另外，当数据被摄入到用户档案时，也由标识服务处理。 模式中标记了多个标识并且记录中填充了相应值的来自数据源的任何记录将作为标识服务中的标识关系进行处理。
+
+请注意，只有一个标识的记录不会被标识服务处理，因为此类记录没有用于进一步填充图形的标识链接。 另外，标识服务不区分主标识和次标识。 它只是处理不同身份的身份关系。
+
+合并用户档案片段时，标识图会跨已相关的各种源用户档案片段提供关系。 合并策略确定哪些源片段以及哪些标识图将用作合并片段。 无论何时用户档案访问用户档案片段，都会进行合并，以确保用户档案的最新组合视图。 治理和政策规则确保只能将授权的细分和属性激活到指定目标。
+
+<img src="assets/profile_architecture.jpg" alt="实时客户用户档案的参考架构" style="border:1px solid #4a4a4a" />
 
 
 ## 受众和用户档案激活蓝图的护栏
