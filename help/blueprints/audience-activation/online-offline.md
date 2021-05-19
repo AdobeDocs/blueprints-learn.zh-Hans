@@ -7,7 +7,7 @@ exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 77%
 
 将受众激活到基于用户档案的已知目的地（如电子邮件提供商、社交网络和广告目的地）。
 
-“联机/脱机Audience Activation蓝图”与“Experience Cloud应用程序蓝图”的[受众和用户档案激活紧密对齐。 ](platform-and-applications.md)在[受众和用户档案激活中，使用Experience Cloud Applications Blueprint](platform-and-applications.md)提供了更多详细信息   特定于Experience Platform和Experience Cloud应用程序之间的集成。
+线上/线下受众激活 Blueprint 与[使用 Experience Cloud 应用程序的受众和用户档案激活 Blueprint](platform-and-applications.md) 联系紧密。[使用 Experience Cloud 应用程序的受众和用户档案激活 Blueprint](platform-and-applications.md) 中提供了更多详细信息，该 Blueprint 特定于 Experience Platform 和 Experience Cloud 应用程序之间的集成。
 
 ## 用例
 
@@ -27,30 +27,30 @@ ht-degree: 77%
 
 ## 应用程序
 
-* Adobe Experience Platform 
+* Adobe Experience Platform  
 * [!UICONTROL 实时客户数据平台]
 
 ## 架构
 
-### 具有目标的联机/脱机Audience Activation
+### 具有目的地的线上/线下受众激活
 
 <img src="assets/online_offline_activation.svg" alt="线上/线下受众激活 Blueprint 的参考架构" style="border:1px solid #4a4a4a" />
 <br>
 
 ## 护栏
 
-[请参阅“受众和用户档案激活概述”页上概述的护栏。](overview.md)
+[请参阅“受众和用户档案激活概述”页上的护栏概述。](overview.md)
 
 ## 实施步骤
 
-1. [为要摄入的数据创建架构。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. [为要摄入的数据创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
-1. [在架构上配置正确的身份和身份命名空间，以确保摄入的数据可以拼接到统一的用户档案中。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)
-1. [为用户档案启用模式和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html)。
-1. [将数据摄入 Experience Platform。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
-1. [设置在 Experience Platform 和 Audience Manager 之间共享[!UICONTROL 实时客户数据平台]区段，以便将 Experience Platform 中定义的受众共享给 Audience Manager。](https://www.adobe.com/go/audiences)
-1. [在Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=zh-Hans) 中创建细分。系统自动确定以批次还是流式评估区段。
-1. [配置目的地，以共享用户档案属性和受众成员资格到所需目的地。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html)
+1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=zh-Hans)
+1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
+1. 在架构上[配置正确的身份和身份命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)，以确保摄入的数据可以拼接到统一的用户档案中。
+1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
+1. [将数据摄入](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans) Experience Platform。
+1. 在 Experience Platform 和 Audience Manager 之间[设置[!UICONTROL 实时客户数据平台]区段共享](https://www.adobe.com/go/audiences)，以便将 Experience Platform 中定义的受众共享给 Audience Manager。
+1. 在 Experience Platform 中[创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=zh-Hans)。系统自动确定以批次还是流式评估区段。
+1. [配置目的地](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=zh-Hans)，以共享用户档案属性和受众成员资格到所需目的地。
 
 ## 实施注意事项
 
