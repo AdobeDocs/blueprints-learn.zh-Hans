@@ -5,11 +5,11 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -39,14 +39,13 @@ Experience Platform 的[!UICONTROL 查询服务]允许对数据执行 SQL 查询
 
 ## 护栏
 
-有关最佳实践和护栏的详细信息，请参阅查询服务产品文档。
-[查询服务指南](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=en#best-practices)
+有关最佳实践和护栏的详细信息，请参阅查询服务产品文档。[查询服务指南](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=zh-Hans#best-practices)
 
 ## 实施步骤
 
-1. [为要摄入的数据创建架构。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. [为要摄入的数据创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
-1. [将数据摄入 Experience Platform。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
+1. 为要摄入的数据[创建架构](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=zh-Hans)。
+1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
+1. [将数据摄入](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans) Experience Platform。
 1. 确认数据可用于[!UICONTROL 查询服务]和[!UICONTROL 数据科学工作区]以进行原始访问和查询。
 1. 将 Business Intelligence 工具和 SQL 客户端连接到[!UICONTROL 查询服务]，以实现可视化、数据查询和探索。
 
