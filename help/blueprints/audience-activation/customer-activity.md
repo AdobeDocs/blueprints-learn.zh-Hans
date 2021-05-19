@@ -4,11 +4,11 @@ description: '[!UICONTROL 实时用户档案]查询可提供座席协助支持�
 solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c,4f15aa5d-9ee3-4d92-8012-3e2f0c0d615f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -39,17 +39,17 @@ ht-degree: 79%
 
 ## 实施步骤
 
-1. [为要摄入的数据创建架构。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. [为要摄入的数据创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
-1. [在架构上配置正确的身份和身份命名空间，以确保摄入的数据可以拼接到统一的用户档案中。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)
-1. [为用户档案启用模式和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html)。
-1. [将数据摄入 Experience Platform。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
-1. [设置合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html)。
-1. 使用[Entities API从记录实体或体验用户档案实体中查找事件属性](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html)。
+1. 为要摄入的数据[创建架构](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=zh-Hans)。
+1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
+1. 在架构上[配置正确的身份和身份命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)，以确保摄入的数据可以拼接到统一的用户档案中。
+1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
+1. [将数据摄入](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans) Experience Platform。
+1. [设置合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=zh-Hans)。
+1. 使用[实体 API ](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=zh-Hans)从记录实体或体验用户档案实体中查找事件属性。
 
 ## 相关文档
 
 * [Adobe Experience Platform Activation 激活产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-platform0.html)
 * [[!UICONTROL 实时客户档案]文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)
-* [用户档案护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* [用户档案护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 * [用户档案查找 API](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)
