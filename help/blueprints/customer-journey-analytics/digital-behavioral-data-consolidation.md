@@ -4,11 +4,11 @@ description: 分析客户历程中的客户互动并从中获得洞察。
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '548'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 96%
 
 ## 实施步骤
 
-1. [为要摄入的数据创建架构。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. [为要摄入的数据创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
-1. [将数据摄入 Experience Platform。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)数据必须先被摄入 Platform，然后才能处理到 Customer Journey Analytics 中。
+1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=zh-Hans)
+1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
+1. [将数据摄入](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans) Experience Platform。数据必须先被摄入 Platform，然后才能处理到 Customer Journey Analytics 中。
 1. 分析要合并分析的跨渠道事件数据集，以确保它们具有通用的命名空间 ID 或通过 Customer Journey Analytics 基于字段的拼接功能重新设置键。 
 
    >[!NOTE]
