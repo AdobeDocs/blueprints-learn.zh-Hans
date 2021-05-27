@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7722
 exl-id: null
 source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 92%
 
 ## 架构
 
-[有关与Experience PlatformExperience Platform与Experience Cloud应用程序集成相关的其他架构图，请参阅和应用程序架构部分。](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=zh-Hans)
+[请参阅 Experience Platform 和应用程序架构的相关章节，以了解有关 Experience Platform 与 Experience Cloud 应用程序集成的其他架构图。](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=zh-Hans)
 
 ### 使用 Experience Cloud 应用程序的受众和用户档案激活
 
