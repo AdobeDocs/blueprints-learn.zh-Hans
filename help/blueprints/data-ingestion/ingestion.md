@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 source-git-commit: 53914ce36ef0e48734c04818fbf8a5285fbb14ab
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '600'
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 0%
 
 | 摄入方法 | 描述 |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Web/Mobile SDK | 延迟：<ul><li>实时 — 到 Edge Network 的同一页面集合</li><li>流式摄入到用户档案 ~1 分钟</li><li>流式摄入到数据湖（微批量 ~15 分钟）</ul>文档： <ul><li>[Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)</li></ul> |
+| Web/Mobile SDK | 延迟：<ul><li>实时 — 到 Edge Network 的同一页面集合</li><li>流式摄入到用户档案 ~1 分钟</li><li>流式摄入到数据湖（微批量 ~15 分钟）</ul>文档： <ul><li>[Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=zh-Hans)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)</li></ul> |
 | 流传输源 | 延迟：<ul><li>实时 — 到 Edge Network 的同一页面集合</li><li>流式摄入到用户档案 ~1 分钟</li><li>流式摄入到数据湖（微批量 ~15 分钟）</li></ul>[文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans#connectors) |
 | 流传输 API | 延迟：<ul><li>实时 — 到 Edge Network 的同一页面集合</li><li>流式摄入到用户档案 ~1 分钟</li><li>流式摄入到数据湖（微批量 ~15 分钟）</li><li>7 GB/小时</li></ul>[文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans#what-can-you-do-with-streaming-ingestion%3F) |
 | ETL 工具 | 使用 ETL 工具在将企业数据摄入到 Experience Platform 之前对其进行修改和转换。<br><br>延迟：<ul><li>根据外部 ETL 工具的调度进行定时，然后根据摄入方法应用标准摄入护栏。</li></ul> |
-| 批次源 | 计划从源获取<br>延迟：~ 200 GB/小时文档视频<br><br>[文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>[视频教程](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=zh-Hans) |
+| 批次源 | 计划从源获取<br>延迟：~ 200 GB/小时文档视频<br><br>[文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans#connectors)<br>[视频教程](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=zh-Hans) |
 | 批处理 API | 延迟：<ul><li>根据大小和流量负载，批次摄入到用户档案需要约 45 分钟</li><li>根据大小和流量负载，批次摄入到数据湖</li></ul>[文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=zh-Hans#batch) |
 | Adobe 应用程序连接器 | 自动摄入来自 Adobe Experience Cloud 应用程序的数据<ul><li>Adobe Analytics：[文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans#connectors)和[视频教程](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html?lang=zh-Hans)</li><li>Audience Manager：[文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=zh-Hans#connectors)和[视频教程](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html?lang=zh-Hans)</li></ul> |
 
