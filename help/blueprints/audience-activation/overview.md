@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 source-git-commit: 8cdb08ae29b766adf16877919af82d0691768576
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '941'
+ht-degree: 100%
 
 ---
 
@@ -27,17 +27,17 @@ ht-degree: 0%
 | **[使用 Experience Cloud 应用程序的受众和用户档案激活](platform-and-applications.md)** | <ul><li>在 Experience Platform 中管理用户档案和受众，并将其与 Experience Cloud 应用程序共享</li><li>在 Experience Platform 中建立并共享丰富的客户区段和洞察，将其与 Experience Cloud 应用程序共享</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL 实时客户数据平台]</li><li>Experience Platform 激活</li><li>Experience Cloud 应用程序</li></ul> |
 | **[客户活动中心](customer-activity.md)** | <ul><li>为座席支持的交互（如支持和销售体验）提供更深入的消费者背景信息。通过对 Experience Platform 用户档案的查找，座席可以接收更多有关消费者的背景信息，例如最近购买、活动交互、倾向、受众成员，以及存储在实时客户档案中的其他属性和洞察。</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
-## 实时客户用户档案架构
+## 实时客户档案架构
 
-下图概述了Experience Platform实时客户用户档案的核心组件。
+下图概述了 Experience Platform 实时客户档案的核心组件。
 
-第一个数据源被引入Experience Platform。 如果用户档案源配置为进行用户档案处理，它将馈送到实时客户。 为每个用户档案源和为每个数据源配置的每个主ID记录创建单个文档片段或。 另外，当数据被摄入到用户档案时，也由标识服务处理。 模式中标记了多个标识并且记录中填充了相应值的来自数据源的任何记录将作为标识服务中的标识关系进行处理。
+首先，数据源被摄入 Experience Platform。如果已为数据源配置用户档案处理，则它将被馈送到实时客户档案中。会为每个数据源和为其配置的每个主 ID 记录创建一个单独的用户档案片段或文档。另外，当数据被摄入到用户档案时，身份服务也会对其进行处理。在身份服务中，如果来自数据源的任何记录在架构中标记了一个以上的身份，并在记录中填充了相应的值，则记录将被作为身份关系来处理。
 
-请注意，只有一个标识的记录不会被标识服务处理，因为此类记录没有用于进一步填充图形的标识链接。 另外，标识服务不区分主标识和次标识。 它只是处理不同身份的身份关系。
+请注意，身份服务不会处理仅具有一个身份的记录，因为此类记录没有身份链接可用于进一步填充身份图。另外，身份服务不区分主身份和次身份。它只处理不同身份之间的身份关系。
 
-合并用户档案片段时，标识图会跨已相关的各种源用户档案片段提供关系。 合并策略确定哪些源片段以及哪些标识图将用作合并片段。 无论何时用户档案访问用户档案片段，都会进行合并，以确保用户档案的最新组合视图。 治理和政策规则确保只能将授权的细分和属性激活到指定目标。
+在身份图提供相关联的各种源用户档案片段之间的关系时，会发生用户档案合并。合并策略决定在合并片段时将使用哪些源片段和哪个身份图。每当访问用户档案时，都会发生用户档案合并，以确保用户档案的组合视图最新。治理和策略规则确保只能将授权的区段和属性激活到指定目的地。
 
-<img src="assets/profile_architecture.jpg" alt="实时客户用户档案的参考架构" style="border:1px solid #4a4a4a" />
+<img src="assets/profile_architecture.jpg" alt="实时客户档案的参考架构" style="border:1px solid #4a4a4a" />
 
 
 ## 受众和用户档案激活 Blueprint 护栏
