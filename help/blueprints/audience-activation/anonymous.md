@@ -6,9 +6,9 @@ kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: 53914ce36ef0e48734c04818fbf8a5285fbb14ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
 <!-- These steps should link to help. -->
 
-1. [实施 Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=en#implementation-integration-guides)
+1. [实施 Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=zh-Hans#implementation-integration-guides)
 1. 将数据收集至 Audience Manager。
 1. 配置要在区段定义中使用的信号和特征。
 1. 在 Audience Manager 中创建区段。
