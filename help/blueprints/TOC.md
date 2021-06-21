@@ -4,10 +4,10 @@ breadcrumb-title: 'Blueprint '
 user-guide-description: Blueprint 是可重复实施的产品，用于应对战略和解决既定的业务问题，并包含架构图、技术注意事项和相关文档链接。
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
+source-git-commit: 366c1c90e8132faac85da17eade60e3b7be77906
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '118'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,10 @@ ht-degree: 0%
    + [概述](/help/blueprints/customer-journey-analytics/overview.md)
    + [跨渠道历程分析](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [呼叫偏转](/help/blueprints/customer-journey-analytics/call-deflect.md)
++ 客户历程{#customer-journeys}
+   + [概述](/help/blueprints/customer-journeys/overview.md)
+   + [批处理消息和 Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
+   + [触发式消息和 Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
 + 数据收集和准备 {#data-ingestion}
    + [概述](/help/blueprints/data-ingestion/overview.md)
    + [数据准备和摄入](/help/blueprints/data-ingestion/ingestion.md)
@@ -37,10 +41,6 @@ ht-degree: 0%
    + [概述](/help/blueprints/data-insights/overview.md)
    + [数据分析和智能](/help/blueprints/data-insights/analysis.md)
    + [为用户档案扩充自定义数据科学](/help/blueprints/data-insights/data-science.md)
-+ 多渠道消息编排 {#customer-journeys}
-   + [概述](/help/blueprints/customer-journeys/overview.md)
-   + [批处理消息和 Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
-   + [触发式消息和 Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
 + Web 和移动个性化 {#web-personalization}
    + [概述](/help/blueprints/web-personalization/overview.md)
    + [行为个性化](/help/blueprints/web-personalization/behavioral.md)
