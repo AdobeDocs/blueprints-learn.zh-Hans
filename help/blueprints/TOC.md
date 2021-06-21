@@ -4,10 +4,10 @@ breadcrumb-title: 'Blueprint '
 user-guide-description: Blueprint 是可重复实施的产品，用于应对战略和解决既定的业务问题，并包含架构图、技术注意事项和相关文档链接。
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-source-git-commit: 70b3bf294741888c3d109a2d4ef710d428800abf
-workflow-type: ht
-source-wordcount: '119'
-ht-degree: 100%
+source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,10 +37,10 @@ ht-degree: 100%
    + [概述](/help/blueprints/data-insights/overview.md)
    + [数据分析和智能](/help/blueprints/data-insights/analysis.md)
    + [为用户档案扩充自定义数据科学](/help/blueprints/data-insights/data-science.md)
-+ 多渠道消息编排 {#multi-channel-message-orchestration}
-   + [概述](/help/blueprints/multi-channel-message-orchestration/overview.md)
-   + [批处理消息和 Experience Platform](/help/blueprints/multi-channel-message-orchestration/batch-messaging.md)
-   + [触发式消息和 Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
++ 多渠道消息编排 {#customer-journeys}
+   + [概述](/help/blueprints/customer-journeys/overview.md)
+   + [批处理消息和 Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
+   + [触发式消息和 Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
 + Web 和移动个性化 {#web-personalization}
    + [概述](/help/blueprints/web-personalization/overview.md)
    + [行为个性化](/help/blueprints/web-personalization/behavioral.md)
