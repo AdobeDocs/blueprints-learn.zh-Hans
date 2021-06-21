@@ -3,7 +3,7 @@ title: 数字体验 Blueprint
 description: 数字体验 Blueprint 是可重复实施的产品，用于应对战略和解决既定的业务问题。它们可加快实现价值的速度，并提供快速的成功之路。
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
+source-git-commit: 83cda30e0fac5c3a2c38ca4b2df2c2405736e4a0
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 94%
@@ -31,8 +31,8 @@ ht-degree: 94%
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/triggered-messaging.html"><img alt="“触发式消息”和“Experience Platform Blueprint”的缩略图" src="customer-journeys/assets/triggered.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/triggered-messaging.html"><strong>触发式消息和 Experience Platform</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><img alt="“触发式消息”和“Experience Platform Blueprint”的缩略图" src="customer-journeys/assets/journey-optimizer.png" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>触发式消息和 Experience Platform</strong></a></div>
     <p><em>使用 [!UICONTROL Platform] 作为中心枢纽来触发消息和体验。</em></p>
   </td>
   <td>
