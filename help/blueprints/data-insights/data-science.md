@@ -4,9 +4,8 @@ description: 该 Blueprint 展示了 Adobe Experience Platform 的数据科学�
 solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-translation-type: ht
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 100%
 
@@ -28,7 +27,7 @@ ht-degree: 100%
 
 ## 实施步骤
 
-1. 为要摄入的数据[创建架构](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=zh-Hans)。
+1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=zh-Hans)
 1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
 1. [将数据摄入](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans) Experience Platform。
 1. 创建 DSW 笔记本。
