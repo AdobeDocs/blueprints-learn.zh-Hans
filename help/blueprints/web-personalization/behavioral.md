@@ -4,9 +4,8 @@ description: 根据线上行为和受众数据进行个性化。
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-translation-type: ht
 source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 100%
 
@@ -85,7 +84,7 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 
 * [Experience Cloud 受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)
 * [将 Audience Manager 与 Adobe Target 集成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=zh-Hans)
-* [通过 Adobe Audience Manager 分享 Adobe Analytics 区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hans)
+* [通过 Adobe Audience Manager 分享 Adobe Analytics 区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 
 ## 相关博客帖子
