@@ -4,10 +4,10 @@ description: 根据线上行为和受众数据进行个性化。
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
+source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 
 ### 1. Platform Web/移动 SDK 和 Edge 方法
 
-<img src="assets/web_sdk_flow.svg" alt="[!UICONTROL Platform Web SDK] 或 [!UICONTROL Platform Mobile SDK] 和 [!UICONTROL Edge Network] 方法的参考架构" style="border:1px solid #4a4a4a" />
+[请参阅Experience PlatformWeb和移动SDK Blueprint](../data-ingestion/websdk.md)
 
 ### 2. 特定于应用程序的 SDK 方法
 
