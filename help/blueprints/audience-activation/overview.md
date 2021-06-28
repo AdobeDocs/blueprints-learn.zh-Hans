@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 8cdb08ae29b766adf16877919af82d0691768576
+source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 100%
@@ -31,13 +31,13 @@ ht-degree: 100%
 
 下图概述了 Experience Platform 实时客户档案的核心组件。
 
+<img src="assets/profile_architecture.jpg" alt="实时客户档案的参考架构" style="border:1px solid #4a4a4a" width="90%"/>
+
 首先，数据源被摄入 Experience Platform。如果已为数据源配置用户档案处理，则它将被馈送到实时客户档案中。会为每个数据源和为其配置的每个主 ID 记录创建一个单独的用户档案片段或文档。另外，当数据被摄入到用户档案时，身份服务也会对其进行处理。在身份服务中，如果来自数据源的任何记录在架构中标记了一个以上的身份，并在记录中填充了相应的值，则记录将被作为身份关系来处理。
 
 请注意，身份服务不会处理仅具有一个身份的记录，因为此类记录没有身份链接可用于进一步填充身份图。另外，身份服务不区分主身份和次身份。它只处理不同身份之间的身份关系。
 
 在身份图提供相关联的各种源用户档案片段之间的关系时，会发生用户档案合并。合并策略决定在合并片段时将使用哪些源片段和哪个身份图。每当访问用户档案时，都会发生用户档案合并，以确保用户档案的组合视图最新。治理和策略规则确保只能将授权的区段和属性激活到指定目的地。
-
-<img src="assets/profile_architecture.jpg" alt="实时客户档案的参考架构" style="border:1px solid #4a4a4a" />
 
 
 ## 受众和用户档案激活 Blueprint 护栏
