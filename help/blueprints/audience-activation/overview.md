@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+source-git-commit: 64f29b492d010539e310c7d24979dedee56068f7
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,6 +39,11 @@ ht-degree: 100%
 
 在身份图提供相关联的各种源用户档案片段之间的关系时，会发生用户档案合并。合并策略决定在合并片段时将使用哪些源片段和哪个身份图。每当访问用户档案时，都会发生用户档案合并，以确保用户档案的组合视图最新。治理和策略规则确保只能将授权的区段和属性激活到指定目的地。
 
+## 分段和目标概述
+
+下图概述了各种分段方法以及各种用户档案和受众激活模式。
+
+<img src="assets/segmentation_destination_overview.png" alt="实时客户档案的参考架构" style="border:1px solid #4a4a4a" width="90%"/>
 
 ## 受众和用户档案激活 Blueprint 护栏
 
