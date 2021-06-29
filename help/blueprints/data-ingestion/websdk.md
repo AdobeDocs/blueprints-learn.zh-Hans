@@ -1,18 +1,18 @@
 ---
-title: 数据准备和摄入 Blueprint
+title: Web/Mobile SDK数据收集Blueprint
 description: 此Blueprint显示了通过Experience PlatformWeb和Mobile SDK进行的架构和摄取
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: null
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+source-git-commit: f6f25c1b650445c5c3686de80c80334aacc17db5
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '72'
+ht-degree: 0%
 
 ---
 
-# Experience PlatformWebSDK数据收集
+# Experience PlatformWeb/Mobile SDK数据收集
 
 以下架构图说明了利用Experience PlatformWebSDK的集成路径和数据收集。
 
@@ -20,4 +20,4 @@ ht-degree: 7%
 
 ## 参考文档
 
-[Experience PlatformWebSDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
+[Experience PlatformWeb/Mobile SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
