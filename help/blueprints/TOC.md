@@ -6,8 +6,8 @@ product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: 1c352489190da65d9c39e126456980d7aa7981f1
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 95%
 + 受众和用户档案激活 {#audience-activation}
    + [概述](/help/blueprints/audience-activation/overview.md)
    + [匿名受众激活](/help/blueprints/audience-activation/anonymous.md)
-   + [线上/线下受众激活](/help/blueprints/audience-activation/online-offline.md)
-   + [激活到企业目的地](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + [在线/离线受众激活](/help/blueprints/audience-activation/online-offline.md)
+   + [激活到企业目标](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [使用 Experience Cloud 应用程序激活](/help/blueprints/audience-activation/platform-and-applications.md)
    + [客户活动中心](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics {#customer-journey-analytics}
@@ -31,19 +31,19 @@ ht-degree: 95%
    + [呼叫偏转](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + 客户历程{#customer-journeys}
    + [概述](/help/blueprints/customer-journeys/overview.md)
-   + [批处理消息和 Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
+   + [批次消息和 Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
    + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-+ 数据收集和准备 {#data-ingestion}
++ 数据收集和准备{#data-ingestion}
    + [概述](/help/blueprints/data-ingestion/overview.md)
    + [数据准备和摄入](/help/blueprints/data-ingestion/ingestion.md)
    + [服务器端企业数据收集](/help/blueprints/data-ingestion/server-side-collection.md)
    + [Experience PlatformWebSDK](/help/blueprints/data-ingestion/websdk.md)
-+ 数据分析、智能和 AI/ML {#data-exploration}
++ 数据分析、智能和 AI/ML{#data-exploration}
    + [概述](/help/blueprints/data-insights/overview.md)
    + [数据分析和智能](/help/blueprints/data-insights/analysis.md)
    + [为用户档案扩充自定义数据科学](/help/blueprints/data-insights/data-science.md)
-+ Web 和移动个性化 {#web-personalization}
++ Web 和移动个性化{#web-personalization}
    + [概述](/help/blueprints/web-personalization/overview.md)
    + [行为个性化](/help/blueprints/web-personalization/behavioral.md)
-   + [线上/线下个性化](/help/blueprints/web-personalization/online-offline.md)
+   + [在线/离线个性化](/help/blueprints/web-personalization/online-offline.md)
 
