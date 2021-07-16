@@ -7,8 +7,8 @@ thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: 45e47c3ac88a67069485952aaa57741820c37143
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,16 +18,16 @@ Web 和移动个性化解决了在多个应用程序中使用受众分段来个�
 
 | Blueprint | 描述 | Experience Cloud 应用程序 |
 |---|---|---|
-| **[行为 Web/移动个性化](behavioral.md)** | <ul><li>基于线上行为和受众数据进行个性化</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *（可选）*</li><li>Adobe Audience Manager *（可选）*</li></ul> |
-| **[线上/线下 Web/移动个性化](online-offline.md)** | <ul><li>利用线下属性和事件（交易、预订、CRM 和忠诚度数据）进行个性化设置。</li><li>在网络、电子邮件和其他已知渠道之间同步个性化。</li></ul> | <ul><li>[!UICONTROL 实时客户数据平台]</li><li>Adobe Target</li><li>Adobe Analytics *（可选）*</li><li>Adobe Audience Manager *（可选）*</li></ul> |
+| **[行为 Web/移动个性化](behavioral.md)** | <ul><li>根据在线行为和受众数据进行个性化</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *（可选）*</li><li>Adobe Audience Manager *（可选）*</li></ul> |
+| **[在线/离线 Web/移动个性化](online-offline.md)** | <ul><li>利用离线属性和事件（交易、预订、CRM 和忠诚度数据）进行个性化设置。</li><li>在网络、电子邮件和其他已知渠道之间同步个性化。</li></ul> | <ul><li>[!UICONTROL 实时客户数据平台]</li><li>Adobe Target</li><li>Adobe Analytics *（可选）*</li><li>Adobe Audience Manager *（可选）*</li></ul> |
 
 ## Web 和移动个性化护栏
 
 [有关与受众和用户档案激活相关的护栏，请参阅“受众和用户档案激活 Blueprint”部分下的护栏。](../audience-activation/overview.md)
 
-### 线上/线下个性化护栏图
+### 在线/离线个性化护栏图
 
-<img src="assets/personalization_guardrails.png" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.png" alt="在线/离线 Web 个性化 Blueprint 的参考架构" style="border:1px solid #4a4a4a" />
 
 ## 相关博客帖子
 
