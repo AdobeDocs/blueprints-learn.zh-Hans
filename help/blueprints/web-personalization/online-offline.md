@@ -4,10 +4,10 @@ description: 将 Web 个性化与电子邮件和其他已知和匿名渠道的�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
+source-git-commit: 176f4950ffb5b21005b6ad8cfbb993186086442b
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 98%
+source-wordcount: '731'
+ht-degree: 86%
 
 ---
 
@@ -53,6 +53,11 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 
 ## 实施先决条件
 
+身份先决条件
+
+* 将受众从Adobe Experience Platform共享到Adobe Target需要将ECID用作标识。
+* 备用身份可用于通过Audience Manager将Experience Platform受众共享到Adobe Target，因为Audience Manager能够将备用ID解析为ECID，前提是同时收集ECID和备用ID以进行Audience Manager。 请注意，Audience Manager和Target通过ECID标识解析受众成员关系，因此要将最终受众共享到Adobe Target，仍需要ECID。
+
 | 应用程序/服务 | 所需的库 | 备注 |
 |---|---|---|
 | Adobe Target | [!UICONTROL Platform Web SDK]*、at.js 0.9.1+ 或 mbox.js 61+ | 首选 at.js，因为 mbox.js 将不再开发。 |
@@ -61,6 +66,8 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 | Experience Cloud ID 服务 | [!UICONTROL Platform Web SDK]* 或 VisitorAPI.js 2.0+ | （推荐）使用 Experience Platform Launch 部署 ID 服务，以确保在任何应用程序调用之前已设置 ID。 |
 | Experience Platform Mobile SDK（可选） | 适用于 Android™ 和 iOS 的 4.11 或更高版本 |  |
 | Experience Platform Web SDK | 1.0，当前 Experience Platform SDK 版本具有[尚未支持 Experience Cloud 应用程序的各种用例](https://github.com/adobe/alloy/projects/5) |  |
+
+
 
 
 ## 实施步骤
