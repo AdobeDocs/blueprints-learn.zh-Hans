@@ -4,10 +4,10 @@ breadcrumb-title: 'Blueprint '
 user-guide-description: Blueprint 是可重复实施的产品，用于应对战略和解决既定的业务问题，并包含架构图、技术注意事项和相关文档链接。
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: 1c352489190da65d9c39e126456980d7aa7981f1
+source-git-commit: c5fd3f33d48d830b5e5058b919e814e7f84ace81
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '121'
+ht-degree: 93%
 
 ---
 
@@ -45,5 +45,5 @@ ht-degree: 0%
 + Web 和移动个性化{#web-personalization}
    + [概述](/help/blueprints/web-personalization/overview.md)
    + [行为个性化](/help/blueprints/web-personalization/behavioral.md)
-   + [在线/离线个性化](/help/blueprints/web-personalization/online-offline.md)
+   + [使用在线和离线数据进行个性化](/help/blueprints/web-personalization/online-offline.md)
 
