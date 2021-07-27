@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: 45e47c3ac88a67069485952aaa57741820c37143
+source-git-commit: 3e3077c2a5f6dd67ccc4645ad2340efcbb4f4137
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '256'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ Web 和移动个性化解决了在多个应用程序中使用受众分段来个�
 | Blueprint | 描述 | Experience Cloud 应用程序 |
 |---|---|---|
 | **[行为 Web/移动个性化](behavioral.md)** | <ul><li>根据在线行为和受众数据进行个性化</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *（可选）*</li><li>Adobe Audience Manager *（可选）*</li></ul> |
-| **[在线/离线 Web/移动个性化](online-offline.md)** | <ul><li>利用离线属性和事件（交易、预订、CRM 和忠诚度数据）进行个性化设置。</li><li>在网络、电子邮件和其他已知渠道之间同步个性化。</li></ul> | <ul><li>[!UICONTROL 实时客户数据平台]</li><li>Adobe Target</li><li>Adobe Analytics *（可选）*</li><li>Adobe Audience Manager *（可选）*</li></ul> |
+| **[使用在线和离线数据进行Web/移动个性化](online-offline.md)** | <ul><li>利用离线属性和事件（交易、预订、CRM 和忠诚度数据）进行个性化设置。</li><li>在网络、电子邮件和其他已知渠道之间同步个性化。</li></ul> | <ul><li>[!UICONTROL 实时客户数据平台]</li><li>Adobe Target</li><li>Adobe Analytics *（可选）*</li><li>Adobe Audience Manager *（可选）*</li></ul> |
 
 ## Web 和移动个性化护栏
 
