@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 source-git-commit: 64f29b492d010539e310c7d24979dedee56068f7
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '968'
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 0%
 |---|---|---|
 | **[匿名受众激活](anonymous.md)** | <ul><li>跨 Web 和广告渠道定位目标受众，以获取匿名和行为客户数据。</li><li>与第三方受众数据集成以提高个性化。</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[线上/线下受众激活](online-offline.md)** | <ul><li>激活到基于用户档案的已知目的地（如电子邮件提供商、社交网络和广告目的地）。 </li><li>将线下属性和事件（如线下订单、交易、CRM 或忠诚度数据）与线上行为结合使用，实现线上定位和个性化。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL 实时客户数据平台]</li><li>Adobe Audience Manager（可选）</li></ul> |
-| **[将受众和用户档案激活到企业目的地](enterprise-destinations.md)** | <ul><li>将用户档案和受众的更改复制和更新到企业存储，以用于激活和用例报告。 </li></ul><ul><li>通过从[!UICONTROL 实时客户数据平台]向企业系统和应用程序发出客户操作通知，向客户发起销售或支持行动。</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL 实时客户数据平台]</li><li>Experience Platform 激活</li><li>Adobe Audience Manager（可选）</li></ul> |
-| **[使用 Experience Cloud 应用程序的受众和用户档案激活](platform-and-applications.md)** | <ul><li>在 Experience Platform 中管理用户档案和受众，并将其与 Experience Cloud 应用程序共享</li><li>在 Experience Platform 中建立并共享丰富的客户区段和洞察，将其与 Experience Cloud 应用程序共享</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL 实时客户数据平台]</li><li>Experience Platform 激活</li><li>Experience Cloud 应用程序</li></ul> |
+| **[将受众和用户档案激活到企业目的地](enterprise-destinations.md)** | <ul><li>将用户档案和受众的更改复制和更新到企业存储，以用于激活和用例报告。 </li></ul><ul><li>通过从[!UICONTROL 实时客户数据平台]向企业系统和应用程序发出客户操作通知，向客户发起销售或支持行动。</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL 实时客户数据平台]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager（可选）</li></ul> |
+| **[使用 Experience Cloud 应用程序的受众和用户档案激活](platform-and-applications.md)** | <ul><li>在 Experience Platform 中管理用户档案和受众，并将其与 Experience Cloud 应用程序共享</li><li>在 Experience Platform 中建立并共享丰富的客户区段和洞察，将其与 Experience Cloud 应用程序共享</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL 实时客户数据平台]</li><li>Experience Platform Activation</li><li>Experience Cloud 应用程序</li></ul> |
 | **[客户活动中心](customer-activity.md)** | <ul><li>为座席支持的交互（如支持和销售体验）提供更深入的消费者背景信息。通过对 Experience Platform 用户档案的查找，座席可以接收更多有关消费者的背景信息，例如最近购买、活动交互、倾向、受众成员，以及存储在实时客户档案中的其他属性和洞察。</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## 实时客户档案架构
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 在身份图提供相关联的各种源用户档案片段之间的关系时，会发生用户档案合并。合并策略决定在合并片段时将使用哪些源片段和哪个身份图。每当访问用户档案时，都会发生用户档案合并，以确保用户档案的组合视图最新。治理和策略规则确保只能将授权的区段和属性激活到指定目的地。
 
-## 分段和目标概述
+## 分段和目的地概述
 
 下图概述了各种分段方法以及各种用户档案和受众激活模式。
 
