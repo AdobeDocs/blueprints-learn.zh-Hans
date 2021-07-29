@@ -5,9 +5,9 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 
 ### 1. Platform Web/移动 SDK 和 Edge 方法
 
-[请参阅Experience PlatformWeb和移动SDK Blueprint](../data-ingestion/websdk.md)
+[请参阅 Experience Platform Web 和 Mobile SDK Blueprint](../data-ingestion/websdk.md)
 
 ### 2. 特定于应用程序的 SDK 方法
 
@@ -84,7 +84,7 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 
 * [Experience Cloud 受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)
 * [将 Audience Manager 与 Adobe Target 集成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=zh-Hans)
-* [通过 Adobe Audience Manager 分享 Adobe Analytics 区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [通过 Adobe Audience Manager 分享 Adobe Analytics 区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hans)
 
 
 ## 相关博客帖子
