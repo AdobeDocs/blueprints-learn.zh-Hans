@@ -7,7 +7,7 @@ role: Architect, Developer, User
 source-git-commit: c5fd3f33d48d830b5e5058b919e814e7f84ace81
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -29,20 +29,20 @@ ht-degree: 93%
    + [概述](/help/blueprints/customer-journey-analytics/overview.md)
    + [跨渠道历程分析](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [呼叫偏转](/help/blueprints/customer-journey-analytics/call-deflect.md)
-+ 客户历程{#customer-journeys}
++ 客户历程 {#customer-journeys}
    + [概述](/help/blueprints/customer-journeys/overview.md)
    + [批次消息和 Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
    + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-+ 数据收集和准备{#data-ingestion}
++ 数据收集和准备 {#data-ingestion}
    + [概述](/help/blueprints/data-ingestion/overview.md)
    + [数据准备和摄入](/help/blueprints/data-ingestion/ingestion.md)
    + [服务器端企业数据收集](/help/blueprints/data-ingestion/server-side-collection.md)
-   + [Experience PlatformWebSDK](/help/blueprints/data-ingestion/websdk.md)
-+ 数据分析、智能和 AI/ML{#data-exploration}
+   + [Experience Platform WebSDK](/help/blueprints/data-ingestion/websdk.md)
++ 数据分析、智能和 AI/ML {#data-exploration}
    + [概述](/help/blueprints/data-insights/overview.md)
    + [数据分析和智能](/help/blueprints/data-insights/analysis.md)
    + [为用户档案扩充自定义数据科学](/help/blueprints/data-insights/data-science.md)
-+ Web 和移动个性化{#web-personalization}
++ Web 和移动个性化 {#web-personalization}
    + [概述](/help/blueprints/web-personalization/overview.md)
    + [行为个性化](/help/blueprints/web-personalization/behavioral.md)
    + [使用在线和离线数据进行个性化](/help/blueprints/web-personalization/online-offline.md)
