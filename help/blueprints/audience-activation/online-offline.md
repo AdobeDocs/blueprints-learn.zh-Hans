@@ -4,10 +4,10 @@ description: 线上/线下受众激活。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
+source-git-commit: 0a1cd20e267136df305bba0b740ab57a450cb953
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 91%
+source-wordcount: '527'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 91%
 
 ## 架构
 
-### 通过目标激活在线和离线数据
+### 通过目标进行在线和离线数据激活
 
 <img src="assets/online_offline_activation.svg" alt="线上/线下受众激活 Blueprint 的参考架构" style="border:1px solid #4a4a4a" />
 <br>
