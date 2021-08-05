@@ -1,17 +1,17 @@
 ---
-title: 受众和用户档案激活到企业目的地 Blueprint
+title: 激活文件和企业流目标Blueprint的受众和配置文件
 description: 受众和用户档案激活到企业目的地
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
-source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
+source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 94%
 
 ---
 
-# 受众和用户档案激活到企业目的地 Blueprint
+# 激活文件和企业流目标Blueprint的受众和配置文件
 
 从[!UICONTROL 实时客户数据平台]以流式或批次方式共享用户档案和受众更改与事件到企业数据存储和应用程序。这些用户档案和受众事件可用于向客户发起销售或支持行动，例如跟踪放弃的应用程序流程或网络研讨会注册，或使用[!UICONTROL 实时客户数据平台]的最新客户属性和智能更新企业应用程序。
 
