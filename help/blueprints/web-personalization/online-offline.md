@@ -6,9 +6,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: aa0cb68acc93821b978e58f638f8ab16a33cdfe6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '760'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 身份先决条件
 
 * 从 Adobe Experience Platform 将受众共享到 Adobe Target 需要使用 ECID 作为身份。
-* 备用身份可用于通过Audience Manager将Experience Platform受众共享到Adobe Target，因为Audience Manager能够将备用ID解析为ECID，前提是同时收集ECID和备用ID以进行Audience Manager，并且在Audience Manager和Experience Platform中使用相同的身份命名空间。 请注意，Audience Manager 和 Target 通过 ECID 身份解析受众成员关系，因此要将最终受众共享到 Adobe Target，仍然需要 ECID。
+* 可使用备用身份来通过 Audience Manager 将 Experience Platform 受众共享到 Adobe Target，因为只要同时将 ECID 和备用 ID 收集到 Audience Manager，并且在 Audience Manager 和 Experience Platform 中使用相同的身份命名空间，该工具就能够将备用 ID 解析为 ECID。请注意，Audience Manager 和 Target 通过 ECID 身份解析受众成员关系，因此要将最终受众共享到 Adobe Target，仍然需要 ECID。
 
 | 应用程序/服务 | 所需的库 | 备注 |
 |---|---|---|
@@ -91,7 +91,7 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 * [Experience Platform 区段生成器概述](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans)
 * [Audience Manager 源连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=zh-Hans)
 * [通过 Adobe Audience Manager 分享 Adobe Analytics 区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hans)
-* [Experience Platform Web SDK 文档](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Experience Platform Web SDK 文档](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)
 * [Experience Cloud ID 服务文档](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
 * [Experience Platform Launch 文档](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=zh-Hans)
 
