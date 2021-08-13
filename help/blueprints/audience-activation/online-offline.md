@@ -1,23 +1,23 @@
 ---
-title: 使用Blueprint激活在线和离线数据
+title: 使用线上和线下数据激活 Blueprint
 description: 线上/线下受众激活。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 0a1cd20e267136df305bba0b740ab57a450cb953
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# 使用Blueprint激活在线和离线数据
+# 使用线上和线下数据激活 Blueprint
 
 将线下属性和事件（如线下订单、交易、CRM 或忠诚度数据）与线上行为结合使用，实现线上定位和个性化。
 
 将受众激活到基于用户档案的已知目的地（如电子邮件提供商、社交网络和广告目的地）。
 
-通过在线和离线数据进行激活的Blueprint与[通过Experience Cloud应用程序Blueprint进行的受众和配置文件激活](platform-and-applications.md)非常接近。 [使用 Experience Cloud 应用程序的受众和用户档案激活 Blueprint](platform-and-applications.md) 中提供了更多详细信息，该 Blueprint 特定于 Experience Platform 和 Experience Cloud 应用程序之间的集成。
+使用线上/线下数据激活 Blueprint 与[使用 Experience Cloud 应用程序的受众和用户档案激活 Blueprint](platform-and-applications.md) 联系紧密。[使用 Experience Cloud 应用程序的受众和用户档案激活 Blueprint](platform-and-applications.md) 中提供了更多详细信息，该 Blueprint 特定于 Experience Platform 和 Experience Cloud 应用程序之间的集成。
 
 ## 用例
 
@@ -32,7 +32,7 @@ ht-degree: 92%
 
 ## 架构
 
-### 通过目标进行在线和离线数据激活
+### 使用线上和线下数据以及目的地激活
 
 <img src="assets/online_offline_activation.svg" alt="线上/线下受众激活 Blueprint 的参考架构" style="border:1px solid #4a4a4a" />
 <br>
@@ -69,4 +69,4 @@ ht-degree: 92%
 
 * [[!UICONTROL 实时客户数据平台]概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hans)
 * [[!UICONTROL 实时客户数据平台]演示](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=zh-Hans)
-* [创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=zh-Hans)
