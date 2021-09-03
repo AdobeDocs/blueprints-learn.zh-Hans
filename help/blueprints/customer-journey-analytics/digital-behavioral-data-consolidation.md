@@ -7,7 +7,7 @@ exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 source-git-commit: 2cf3445775b2db827938d2927214a4073da20cdb
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -39,9 +39,8 @@ ht-degree: 90%
 
 1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=zh-Hans)
 1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
-1. 将数据[摄取数据教程](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans)摄取到Experience Platform。
-数据必须先被摄入 Platform，然后才能处理到 Customer Journey Analytics 中。有关数据摄取和数据源类型的更多信息，请参阅以下文档。 [数据](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans) 源，包括 [Analytics Data Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans)
-1. 分析要合并分析的跨渠道事件数据集，以确保它们具有通用的命名空间 ID 或通过 Customer Journey Analytics 基于字段的拼接功能重新设置键。 有关Customer Journey Analytics中身份拼合的更多信息，请参阅跨渠道分析文档。 [身份拼合](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en)
+1. 将数据摄入 Experience Platform。数据必须先被摄入 Platform，然后才能处理到 Customer Journey Analytics 中。有关数据摄入和数据源类型的更多信息，请参阅以下文档。[数据源，](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)包括 [Analytics 数据连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans)。[数据摄入教程](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans)
+1. 分析要合并分析的跨渠道事件数据集，以确保它们具有通用的命名空间 ID 或通过 Customer Journey Analytics 基于字段的拼接功能重新设置键。 有关 Customer Journey Analytics 中身份拼接的更多信息，请参阅跨渠道分析文档。[身份拼接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hans)
 
    >[!NOTE]
    >

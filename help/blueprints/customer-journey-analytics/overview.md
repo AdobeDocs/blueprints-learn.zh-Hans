@@ -8,7 +8,7 @@ exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: 724d4c1016bbbdc7431df159af052f587288d2bf
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Customer Journey Analytics 显示了各品牌如何统一来自各种互动渠�
 常见分析包括：
 
 * 顶部/底部转化路径
-* 渠道参与和转化
+* 渠道参与度和转化率
 * 查看次数最多的内容
-* 热门类别和产品
+* 首要类别和产品
 * 哪些营销活动提高了转化率和参与度
 * 工具使用分析，以优化自助服务体验
 
