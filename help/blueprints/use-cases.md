@@ -1,7 +1,7 @@
 ---
 title: Digital Experience Blueprint的用例
 description: 数字体验 Blueprint 是可重复实施的产品，用于应对战略和解决既定的业务问题。它们可加快实现价值的速度，并提供快速成功之路。
-source-git-commit: 474584b43ce94213719804fa660ccb714dd85f2b
+source-git-commit: 988861c95a9f138acd8c6107e6c08b7e05e4e537
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 76%
@@ -22,16 +22,16 @@ ht-degree: 76%
  </tr>
  <tr>
   <td>执行匿名数字受众定位和个性化。</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=zh-Hans">匿名受众激活</a></td>
-  <td rowspan="9" border="1" valign="middle">受众和用户档案激活</td>
+  <td rowspan="9" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">受众和用户档案激活</td>
  </tr>
  <tr>
   <td>构建受众以在支持的广告网络上定位。</td>
  </tr>
  <tr>
   <td>受众定位，针对社交和广告目的地上的已知受众。</td>
-  <td rowspan="3" border="1" valign="middle"><a
+  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=zh-Hans">在线/离线受众激活</a></td>
  </tr>
  <tr>
@@ -47,7 +47,7 @@ ht-degree: 76%
  </tr>
  <tr>
   <td>基于 Experience Cloud 跨客户交互渠道进行个性化和定位。</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">使用 Experience Cloud 应用程序激活</a></td>
  </tr>
  <tr>
@@ -60,17 +60,17 @@ ht-degree: 76%
  </tr>
  <tr>
   <td>分析桌面和移动设备上的客户互动，了解客户行为并提取洞察，以优化数字客户体验。</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=en">交叉
   渠道</a></td>
-  <td rowspan="4" border="1" valign="middle">Customer Journey Analytics</td>
+  <td rowspan="4" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Customer Journey Analytics</td>
  </tr>
  <tr>
   <td>分析渠道之间的客户互动，包括数字和线下渠道（如支持互动和店内购买），以更好地了解和优化客户历程。</td>
  </tr>
  <tr>
   <td>在客户与支持部门联系之前分析客户行为.</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/call-deflect.html?lang=en">呼叫偏转</a></td>
  </tr>
  <tr>
@@ -78,17 +78,17 @@ ht-degree: 76%
  </tr>
  <tr>
   <td>计划的电子邮件活动.</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">批次
   消息和平台</a></td>
-  <td rowspan="6" border="1" valign="middle">客户历程</td>
+  <td rowspan="6" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">客户历程</td>
  </tr>
  <tr>
   <td>入门培训和再营销活动.</td>
  </tr>
  <tr>
   <td>触发式消息.</td>
-  <td rowspan="4" border="1" valign="middle"><a
+  <td rowspan="4" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Journey Optimizer</a></td>
  </tr>
  <tr>
@@ -105,11 +105,11 @@ ht-degree: 76%
   <td><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/ingestion.html?lang=en">数据
   准备和摄取</a></td>
-  <td rowspan="4" border="1" valign="middle">数据收集和准备</td>
+  <td rowspan="4" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">数据收集和准备</td>
  </tr>
  <tr>
   <td>使用单个收集标签从 Web 或移动设备收集数据，从而减轻客户端浏览器和应用程序上的代码权重。将收集的数据传播到单个数据收集源的各个端点。</td>
-  <td rowspan="2" border="1" valign="middle"><a
+  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/server-side-collection.html?lang=en">AEP
   收集企业（事件转发）</a></td>
  </tr>
@@ -124,9 +124,9 @@ ht-degree: 76%
  </tr>
  <tr>
   <td>交互式查询和数据聚合.</td>
-  <td rowspan="3" border="1" valign="middle"><a
+  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/analysis.html?lang=en">数据分析和智能</a></td>
-  <td rowspan="6" border="1" valign="middle">数据
+  <td rowspan="6" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">数据
   Analytics、Intelligence和ML</td>
  </tr>
  <tr>
@@ -137,7 +137,7 @@ ht-degree: 76%
  </tr>
  <tr>
   <td>从 Experience Platform 中的客户数据中提取洞察并发现模式。根据这些数据对模型进行训练和评分。</td>
-  <td rowspan="3" border="1" valign="middle"><a
+  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/data-science.html?lang=en">客户
   用于扩充用户档案的数据科学</a></td>
  </tr>
@@ -149,9 +149,9 @@ ht-degree: 76%
  </tr>
  <tr>
   <td>登陆页优化.</td>
-  <td rowspan="3" border="1" valign="middle"><a
+  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=en">行为个性化</a></td>
-  <td rowspan="6" border="1" valign="middle">Web 和移动个性化</td>
+  <td rowspan="6" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Web 和移动个性化</td>
  </tr>
  <tr>
   <td>行为定位.</td>
@@ -161,7 +161,7 @@ ht-degree: 76%
  </tr>
  <tr>
   <td>登陆页优化.</td>
-  <td rowspan="3" border="1" valign="middle"><a
+  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=en">在线/离线个性化</a></td>
  </tr>
  <tr>
