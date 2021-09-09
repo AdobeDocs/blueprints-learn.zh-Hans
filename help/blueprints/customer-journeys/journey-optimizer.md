@@ -4,10 +4,10 @@ description: 使用 Adobe Experience Platform 作为流式传输数据、客户�
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
+source-git-commit: 93561231286b5bfd9bf3660399b542d27aedb52c
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 98%
+source-wordcount: '712'
+ht-degree: 95%
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Journey Optimizer 是专门为营销团队打造的系统，可实时响�
 
 ## 护栏
 
-* 有关限制的更多详情，请参阅链接
+* 有关Journey Optimizer [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)护栏的更多详细信息，请参阅链接
 * 批次区段 - 需要确保您了解合格用户的每日流量，并确保目标系统能够处理每个历程以及所有历程中的突发吞吐量
 * 流式区段 -需要确保可以处理用户档案资格的初始突发量，以及每个历程和所有历程的每日合格流传输流量
 * 用户档案更新活动 - 可以在历程中以本地方式更新实时客户档案。在将更新处理到用户档案存储时，有最多 1 分钟的延迟
