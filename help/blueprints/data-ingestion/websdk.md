@@ -5,16 +5,16 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: null
-source-git-commit: f6f25c1b650445c5c3686de80c80334aacc17db5
-workflow-type: ht
-source-wordcount: '72'
-ht-degree: 100%
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 76%
 
 ---
 
 # Experience Platform Web/Mobile SDK 数据收集
 
-以下架构图说明了利用 Experience Platform WebSDK 的集成路径和数据收集。
+以下架构图说明了利用Experience PlatformWeb SDK的集成路径和数据收集。
 
 <img src="assets/web_sdk_flow.svg" alt="使用 Experience Platform Web 和 Mobile SDK 实施的参考架构" style="border:1px solid #4a4a4a" />
 

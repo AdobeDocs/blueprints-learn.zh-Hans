@@ -4,10 +4,10 @@ description: 线上/线下受众激活。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 0a1cd20e267136df305bba0b740ab57a450cb953
-workflow-type: ht
-source-wordcount: '527'
-ht-degree: 100%
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## 应用程序
 
-* Adobe Experience Platform  
+* Adobe Experience Platform   
 * [!UICONTROL 实时客户数据平台]
 
 ## 架构
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 ## 实施步骤
 
-1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=zh-Hans)
+1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
 1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
 1. 在架构上[配置正确的身份和身份命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)，以确保摄入的数据可以拼接到统一的用户档案中。
 1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
@@ -69,4 +69,4 @@ ht-degree: 100%
 
 * [[!UICONTROL 实时客户数据平台]概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hans)
 * [[!UICONTROL 实时客户数据平台]演示](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=zh-Hans)
-* [创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=zh-Hans)
+* [创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)

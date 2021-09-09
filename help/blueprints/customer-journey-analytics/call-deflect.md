@@ -4,10 +4,10 @@ description: 在客户联系呼叫中心之前，分析客户行为。
 solution: Experience Platform, Customer Journey Analytics
 kt: 7209
 exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
-source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 100%
+source-wordcount: '637'
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ## 实施步骤
 
-1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=zh-Hans)
+1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
 1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
 1. [将数据摄入](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans) Experience Platform。数据必须先被摄入 Platform，然后才能摄入到 Customer Journey Analytics 中。
 1. 分析跨渠道事件数据集。合并分析的数据集必须具有通用的命名空间 ID，或通过 Customer Journey Analytics 中基于字段的拼接功能重新设置键。 

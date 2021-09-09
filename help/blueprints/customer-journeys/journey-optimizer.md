@@ -4,10 +4,10 @@ description: 使用 Adobe Experience Platform 作为流式传输数据、客户�
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: dc13a1fe9a32f70497c5c73485618e6989b7a644
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '699'
+ht-degree: 98%
 
 ---
 
@@ -37,8 +37,8 @@ Adobe Journey Optimizer 是专门为营销团队打造的系统，可实时响�
 
 * 客户必须拥有构建应用程序的移动开发人员
 * Adobe Experience Platform Mobile SDK
-* Adobe Launch
-   * 移动属性
+* 数据收集
+   * 移动标记属性
       * 扩展：
          * Adobe Journey Optimizer 扩展
          * Adobe Experience Platform Edge Network
@@ -73,7 +73,7 @@ Adobe Journey Optimizer 是专门为营销团队打造的系统，可实时响�
 
 #### 模式/数据集
 
-1. 根据客户提供的数据在 Experience Platform 中[配置单个用户档案、体验事件和多实体模式。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=zh-Hans)
+1. 根据客户提供的数据在 Experience Platform 中[配置单个用户档案、体验事件和多实体模式。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
 1. 为 broadLog、trackingLog、无法投放的地址和用户档案偏好设置创建 Adobe Campaign 模式（可选）。
 1. 为要摄入的数据在 Experience Platform 中[创建数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)。
 1. 在 Experience Platform 中为数据集[添加数据使用标签](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=zh-Hans)以便进行治理。

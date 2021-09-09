@@ -4,16 +4,16 @@ description: 通过 Experience Platform SDK 将收集的数据流传输到目的
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 3bcb5d798986e563fda6f40fc730ff62b74b3187
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '220'
+ht-degree: 82%
 
 ---
 
 # 服务器端企业数据收集 Blueprint
 
-服务器端企业数据收集 Blueprint 显示如何将通过 Adobe Experience Platform Web 和 Mobile SDK 收集的数据从 Experience Platform Edge 网络转发到所需的目的地。您可以根据在 Experience Platform Launch 中配置的事件和规则转发从 SDK 收集的所有原始数据或特定数据。
+服务器端企业数据收集 Blueprint 显示如何将通过 Adobe Experience Platform Web 和 Mobile SDK 收集的数据从 Experience Platform Edge 网络转发到所需的目的地。您可以根据标记属性（以前称为Launch）中配置的事件和规则，转发从SDK收集的所有原始数据或特定数据。
 
 ## 用例
 
@@ -30,8 +30,8 @@ ht-degree: 100%
 
 ## 相关文档
 
-[Experience Platform Launch 服务器端文档](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=zh-Hans#server-side-info)
-[Experience Platform Launch 服务器端视频](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=zh-Hans)
+* [事件转发文档](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)
+* [事件转发视频](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=zh-Hans)
 
 ## 相关博客帖子
 

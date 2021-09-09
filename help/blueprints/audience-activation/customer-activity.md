@@ -4,10 +4,10 @@ description: '[!UICONTROL 实时用户档案]查询可提供座席协助支持�
 solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 8b055d87a9c55b640bd35e54325977526ce21d94
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '382'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 实施步骤
 
-1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=zh-Hans)
+1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
 1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
 1. 在架构上[配置正确的身份和身份命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)，以确保摄入的数据可以拼接到统一的用户档案中。
 1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。

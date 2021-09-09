@@ -5,10 +5,10 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
-source-git-commit: 3bcb5d798986e563fda6f40fc730ff62b74b3187
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 91%
 
 ---
 
@@ -30,7 +30,7 @@ Experience Platform 的[!UICONTROL 查询服务]允许对数据执行 SQL 查询
 
 ## 应用程序
 
-* Adobe Experience Platform  
+* Adobe Experience Platform   
 
 ## 架构
 
@@ -42,11 +42,11 @@ Experience Platform 的[!UICONTROL 查询服务]允许对数据执行 SQL 查询
 
 ## 实施步骤
 
-1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=zh-Hans)
+1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
 1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
 1. [将数据摄入](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans) Experience Platform。
-1. 确认数据可用于[!UICONTROL 查询服务]和[!UICONTROL 数据科学工作区]以进行原始访问和查询。
-1. 将 Business Intelligence 工具和 SQL 客户端连接到[!UICONTROL 查询服务]，以实现可视化、数据查询和探索。
+1. 确认数据可用于[[!UICONTROL 查询服务]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=en)和[[!UICONTROL 数据科学工作区]以进行原始访问和查询。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=en)
+1. [将 Business Intelligence 工具和 SQL 客户端连接到[!UICONTROL 查询服务]，以实现可视化、数据查询和探索。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.qsvc.dash)
 
 ## 相关文档
 
