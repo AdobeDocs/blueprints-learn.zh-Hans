@@ -4,10 +4,10 @@ description: 使用 Adobe Experience Platform 作为流式传输数据、客户�
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 93561231286b5bfd9bf3660399b542d27aedb52c
+source-git-commit: d19f42a181b51135c3cf672eeb957709279fe49a
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 95%
+source-wordcount: '714'
+ht-degree: 94%
 
 ---
 
@@ -105,6 +105,6 @@ Adobe Journey Optimizer 是专门为营销团队打造的系统，可实时响�
 ## 相关文档
 
 * [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
-* [Journey Optimizer 文档](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=zh-Hans)
+* [Journey Optimizer 文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en)
 * [Experience Platform Launch 文档](https://experienceleague.adobe.com/docs/launch.html?lang=zh-Hans)
 * [Experience Platform Mobile SDK 文档](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)
