@@ -2,10 +2,10 @@
 title: 数字体验 Blueprint
 description: 数字体验 Blueprint 是可重复实施的产品，用于应对战略和解决既定的业务问题。它们可加快实现价值的速度，并提供快速成功之路。
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: d35b3cc34e0b3ab6fce9fc15a96e5f1183b0a0fd
+source-git-commit: d2b0643bd567a10b27591d22480db1bde2a0a36a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '269'
+ht-degree: 93%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 100%
     <p><em>投放受众激活的跨渠道广告。</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=zh-Hans"><img alt="数字行为数据整合 Blueprint 的缩略图" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>数字行为数据整合</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><img alt="数字行为数据整合 Blueprint 的缩略图" src="customer-journey-analytics/assets/CJA.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>跨渠道历程分析</strong></a></div>
     <p><em>对不同渠道客户行为有一个单一整合视图。</em></p>
   </td>
 </tr>
