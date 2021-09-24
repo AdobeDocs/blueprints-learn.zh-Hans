@@ -5,9 +5,9 @@ solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: c26bf7523dc9b3310678a4129ea10ad06ef5e7cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 83%
 1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
 1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
 1. [将数据摄入](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans) Experience Platform。
-1. [创建DSW笔记本](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=en)。
+1. [创建 DSW 笔记本](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=zh-Hans)。
 1. 选择语言。支持 Python 和 PySpark。
-1. [在笔记本中创作模型。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=en)
-1. [训练模型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en)。
-1. [对模型进行评分，以使用目标数据生成预测。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en)
-1. [如果将模型结果推送到实时客户资料，则为资料启用模 [!UICONTROL 型结果数据集]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=en)。
+1. 在笔记本中[创作模型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=zh-Hans)。
+1. [训练模型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=zh-Hans)。
+1. [对模型进行评分](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=zh-Hans)，以使用目标数据生成预测。
+1. [如果将模型结果推送到[!UICONTROL 实时客户档案]，则为用户档案启用模型结果数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=zh-Hans)。
 
 ## 相关文档
 
