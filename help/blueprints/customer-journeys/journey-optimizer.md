@@ -7,7 +7,7 @@ exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: d19f42a181b51135c3cf672eeb957709279fe49a
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -53,9 +53,9 @@ Adobe Journey Optimizer 是专门为营销团队打造的系统，可实时响�
 
 ## 护栏
 
-* 有关Journey Optimizer [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)护栏的更多详细信息，请参阅链接
+* 请参阅有关 Journey Optimizer 护栏更多详细信息的[链接](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=zh-Hans)
 * 批次区段 - 需要确保您了解合格用户的每日流量，并确保目标系统能够处理每个历程以及所有历程中的突发吞吐量
-* 流式区段 -需要确保可以处理用户档案资格的初始突发量，以及每个历程和所有历程的每日合格流传输流量
+* 流式区段 - 需要确保可以处理用户档案资格的初始突发量，以及每个历程和所有历程的每日合格流传输流量
 * 用户档案更新活动 - 可以在历程中以本地方式更新实时客户档案。在将更新处理到用户档案存储时，有最多 1 分钟的延迟
 * 业务事件 - 基于对 JO 系统的外部调用，可触发基于读取区段的历程
 * 本机仅支持消息中的 Offer Decisioning。将来会通过本机操作提供支持

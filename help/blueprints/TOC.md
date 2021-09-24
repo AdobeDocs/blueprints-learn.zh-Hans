@@ -6,8 +6,8 @@ product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: ec32344078e8bad9639d8d11ce93ed68fda186f3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '123'
+ht-degree: 100%
 
 ---
 
@@ -44,5 +44,5 @@ ht-degree: 0%
 + Web 和移动个性化 {#web-personalization}
    + [概述](/help/blueprints/web-personalization/overview.md)
    + [行为个性化](/help/blueprints/web-personalization/behavioral.md)
-   + [使用在线和离线数据进行个性化](/help/blueprints/web-personalization/online-offline.md)
+   + [使用线上和线下数据进行个性化](/help/blueprints/web-personalization/online-offline.md)
 
