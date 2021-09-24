@@ -5,15 +5,15 @@ solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
 source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # 服务器端企业数据收集 Blueprint
 
-服务器端企业数据收集 Blueprint 显示如何将通过 Adobe Experience Platform Web 和 Mobile SDK 收集的数据从 Experience Platform Edge 网络转发到所需的目的地。您可以根据标记属性（以前称为Launch）中配置的事件和规则，转发从SDK收集的所有原始数据或特定数据。
+服务器端企业数据收集 Blueprint 显示如何将通过 Adobe Experience Platform Web 和 Mobile SDK 收集的数据从 Experience Platform Edge 网络转发到所需的目的地。您可以根据在标记属性（原 Launch）中配置的事件和规则转发从 SDK 收集的所有原始数据或特定数据。
 
 ## 用例
 
@@ -30,7 +30,7 @@ ht-degree: 82%
 
 ## 相关文档
 
-* [事件转发文档](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)
+* [事件转发文档](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=zh-Hans)
 * [事件转发视频](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=zh-Hans)
 
 ## 相关博客帖子
