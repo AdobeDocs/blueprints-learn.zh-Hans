@@ -3,9 +3,9 @@ title: 数字体验 Blueprint
 description: 数字体验 Blueprint 是可重复实施的产品，用于应对战略和解决既定的业务问题。它们可加快实现价值的速度，并提供快速成功之路。
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: d2b0643bd567a10b27591d22480db1bde2a0a36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,17 +31,17 @@ ht-degree: 93%
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=zh-Hans"><img alt="“触发式消息”和“Experience Platform Blueprint”的缩略图" src="customer-journeys/assets/journey-optimizer.png" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>触发式消息和 Experience Platform</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=zh-Hans"><strong>触发式消息和 Experience Platform</strong></a></div>
     <p><em>使用 [!UICONTROL Platform] 作为中心枢纽来触发消息和体验。</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=zh-Hans"><img alt="在线/离线受众激活 Blueprint 的缩略图" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>在线/离线受众激活</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=zh-Hans"><strong>在线/离线受众激活</strong></a></div>
     <p><em>投放受众激活的跨渠道广告。</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><img alt="数字行为数据整合 Blueprint 的缩略图" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>跨渠道历程分析</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=zh-Hans"><img alt="数字行为数据整合 Blueprint 的缩略图" src="customer-journey-analytics/assets/CJA.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=zh-Hans"><strong>跨渠道历程分析</strong></a></div>
     <p><em>对不同渠道客户行为有一个单一整合视图。</em></p>
   </td>
 </tr>
