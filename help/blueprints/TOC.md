@@ -5,7 +5,7 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: ec32344078e8bad9639d8d11ce93ed68fda186f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
 ht-degree: 100%
 
