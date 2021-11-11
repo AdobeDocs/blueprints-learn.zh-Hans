@@ -4,7 +4,7 @@ description: 在 Experience Platform 中管理用户档案和受众，并将其�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: null
-source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
@@ -24,9 +24,9 @@ ht-degree: 100%
 
 ## 应用程序
 
-* Adobe Experience Platform  
+* Adobe Experience Platform    
 * [!UICONTROL 实时客户数据平台]
-* Experience Platform 激活
+* Experience Platform Activation
 * Experience Cloud 应用程序
    * Adobe Audience Manager
    * Adobe Target
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ### 使用 Experience Cloud 应用程序的受众和用户档案激活
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="使用 Experience Cloud 应用程序的受众和用户档案激活的参考架构" style="border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="使用 Experience Cloud 应用程序的受众和用户档案激活的参考架构" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## 护栏

@@ -4,8 +4,8 @@ description: 使用 Adobe Experience Platform 作为流式传输数据、客户�
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: d19f42a181b51135c3cf672eeb957709279fe49a
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Adobe Journey Optimizer 是专门为营销团队打造的系统，可实时响�
 
 ## 架构
 
-<img src="assets/journey-optimizer.png" alt="触发式消息和 Adobe Experience Platform Blueprint 的参考架构" style="border:1px solid #4a4a4a" />
+<img src="assets/journey-optimizer.png" alt="触发式消息和 Adobe Experience Platform Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
 
 ## 集成模式
 
@@ -82,7 +82,7 @@ Adobe Journey Optimizer 是专门为营销团队打造的系统，可实时响�
 #### 用户档案/身份
 
 1. [创建任何客户特定的命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
-1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
+1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
 1. [为用户档案启用模式和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
 1. 为[!UICONTROL 实时客户档案]的不同视图[设置合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=zh-Hans)（可选）。
 1. 为 Adobe Campaign 用途创建区段。

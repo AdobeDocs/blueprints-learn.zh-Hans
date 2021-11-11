@@ -5,8 +5,8 @@ landing-page-description: 将 Web 个性化与电子邮件和其他已知和匿�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: fd4ca13589f988605bfd7a3bdf64c43cd9acad68
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ## 架构
 
-<img src="assets/online_offline_personalization_with_apps.svg" alt="在线/离线 Web 个性化 Blueprint 的参考架构" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_personalization_with_apps.svg" alt="在线/离线 Web 个性化 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
 
 ## 护栏
 
@@ -50,7 +50,7 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 
 ### 2. 特定于应用程序的 SDK 方法
 
-<img src="assets/app_sdk_flow.png" alt="特定于应用程序的 SDK 方法的参考架构" style="border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.png" alt="特定于应用程序的 SDK 方法的参考架构" style="width:80%; border:1px solid #4a4a4a" />
 
 ## 实施先决条件
 
@@ -91,7 +91,7 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 * [Experience Platform 区段生成器概述](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans)
 * [Audience Manager 源连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=zh-Hans)
 * [通过 Adobe Audience Manager 分享 Adobe Analytics 区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hans)
-* [Experience Platform Web SDK 文档](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)
+* [Experience Platform Web SDK 文档](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Experience Cloud ID 服务文档](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
 * [Experience Platform 标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
 

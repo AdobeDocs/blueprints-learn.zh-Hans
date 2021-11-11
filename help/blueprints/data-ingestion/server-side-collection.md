@@ -4,8 +4,8 @@ description: 通过 Experience Platform SDK 将收集的数据流传输到目的
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ## 架构
 
-<img src="assets/enterprise_collection.svg" alt="企业数据收集的参考架构" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_collection.svg" alt="企业数据收集的参考架构" style="width:80%; border:1px solid #4a4a4a" />
 
 ## 相关文档
 
