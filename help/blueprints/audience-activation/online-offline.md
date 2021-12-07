@@ -4,10 +4,10 @@ description: 线上/线下受众激活。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: ht
-source-wordcount: '532'
-ht-degree: 100%
+source-git-commit: c51ea51266ef61d5fdfdb50f4e0c1316790b1986
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 72%
 
 ---
 
@@ -56,7 +56,15 @@ ht-degree: 100%
 
 * 要将用户档案数据共享到目的地，您需要在目的地有效负荷中包含目的地使用的特定身份值。任何目标目的地必需的身份都必须被摄入 Platform，并配置为[!UICONTROL 实时客户档案]的身份。
 
-* 对于从Experience Platform共享受众以Audience Manager以下身份的激活方案，会自动共享以下身份：IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。 当前，不共享客户命名空间。 当所需目的地身份包括在[!UICONTROL 实时客户档案]中时，或者在[!UICONTROL 实时客户档案]中的身份可以与在 Audience Manager 中链接的所需目的地身份相关时，可以通过 Audience Manager 目的地共享来自 Experience Platform 的受众。
+### 受众从Real-time Customer Data Platform共享到Audience Manager
+
+* 无论区段评估是以批量方式还是以流式方式进行，一旦区段评估完成并写入实时Audience Manager资料，RT-CDP中的受众成员资格就会以流式方式共享到受众。 如果符合条件的配置文件包含相关配置文件设备的区域路由信息，则RTCDP的受众成员资格将在关联的Audience Manager边缘上以流式方式获得资格。 如果RTCDP中的用户档案不包含区域路由信息，则用户档案成员会发送到Audience Manager中心位置，以便进行批量评估和激活。 符合边缘激活资格的配置文件将在RTCDP区段鉴别后的几分钟内激活，不符合边缘激活资格的配置文件将在Audience Manager中心获得资格，并且可能有12-24小时的处理时间。
+
+* 在启用了Analytics数据以收集到配置文件后，可以从Analytics Data Connector中收集存储了配置文件相关设备信息的Audience Manager边缘的区域路由信息，或者直接从WebSDK作为单独的配置文件记录类数据集进行收集，然后必须为配置文件启用该数据集。
+
+* 对于从Experience Platform共享受众以Audience Manager以下身份的激活方案，会自动共享以下身份：IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。 当前，不共享自定义命名空间。
+
+当所需目的地身份包括在[!UICONTROL 实时客户档案]中时，或者在[!UICONTROL 实时客户档案]中的身份可以与在 Audience Manager 中链接的所需目的地身份相关时，可以通过 Audience Manager 目的地共享来自 Experience Platform 的受众。
 
 ## 相关文档
 
@@ -69,4 +77,4 @@ ht-degree: 100%
 
 * [[!UICONTROL 实时客户数据平台]概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hans)
 * [[!UICONTROL 实时客户数据平台]演示](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=zh-Hans)
-* [创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=zh-Hans)
+* [创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
