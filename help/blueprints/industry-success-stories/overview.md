@@ -1,10 +1,10 @@
 ---
 title: Digital Experience Blueprint行业成功案例
 description: Digital Experience Blueprints成功案例展示了各个行业如何使用由Adobe Experience Platform提供支持的Adobe Experience Cloud应用程序实现业务价值。
-source-git-commit: 41cb8d159c5aa358bb492e722a39ac61e3414dcc
+source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 25%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,23 +19,23 @@ ht-degree: 25%
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans"><img alt="使用受众激活、customer journey analytics和customer journeys Blueprint的服装行业缩略图" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><strong>服装行业：使用Experience Cloud应用程序激活 </strong></a></div>
-    <p><em>使用了多个Blueprint来实现实时营销、跨渠道激活和跨渠道分析。</em></p>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><strong>服装行业</strong></a></div>
+    <p><em>实时营销、跨渠道激活和跨渠道分析。</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=zh-Hans"><img alt="零售行业使用“在线/离线数据激活”和“Journey Optimizer Blueprint”的缩略图" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><strong>零售业：使用Experience Cloud应用程序激活 </strong></a></div>
-    <p><em>跨数字媒体、电子邮件、推送和Web渠道提供实时客户体验。</em></p>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><strong>零售业</strong></a></div>
+    <p><em>跨数字媒体、电子邮件、推送和Web渠道的实时客户体验。</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="Journey Optimizer Blueprint的缩略图图像" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><strong>电信行业：Journey Optimizer for Triggered Messaging</strong></a></div>
-    <p><em>实时为客户提供量身定制的交易，同时高效率地载入客户，以实现长期忠诚度。</em></p>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><strong>电信行业</strong></a></div>
+    <p><em>实时定制交易，同时高效的客户入门，以实现长期忠诚度。</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=zh-Hans"><img alt="用于激活在线/离线数据Blueprint的缩略图图像" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en"><strong>旅游与服务业：使用在线和离线数据激活</strong></a></div>
-    <p><em>通过单个整合的视图实时决策各种渠道中的客户行为。</em></p>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en"><strong>旅游与服务业</strong></a></div>
+    <p><em>实时决策，整合了各种渠道中的客户行为视图。</em></p>
   </td>
 </tr>
 </table>
