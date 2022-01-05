@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: c51ea51266ef61d5fdfdb50f4e0c1316790b1986
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 72%
 ## 应用程序
 
 * Adobe Experience Platform    
-* [!UICONTROL 实时客户数据平台]
+* [!UICONTROL Real-time Customer Data Platform]
 
 ## 架构
 
@@ -48,7 +48,7 @@ ht-degree: 72%
 1. 在架构上[配置正确的身份和身份命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)，以确保摄入的数据可以拼接到统一的用户档案中。
 1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
 1. [将数据摄入](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans) Experience Platform。
-1. 在 Experience Platform 和 Audience Manager 之间[设置[!UICONTROL 实时客户数据平台]区段共享](https://www.adobe.com/go/audiences)，以便将 Experience Platform 中定义的受众共享给 Audience Manager。
+1. 在 Experience Platform 和 Audience Manager 之间[设置 [!UICONTROL Real-time Customer Data Platform] 区段共享](https://www.adobe.com/go/audiences)，以便将 Experience Platform 中定义的受众共享给 Audience Manager。
 1. 在 Experience Platform 中[创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=zh-Hans)。系统自动确定以批次还是流式评估区段。
 1. [配置目的地](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=zh-Hans)，以共享用户档案属性和受众成员资格到所需目的地。
 
@@ -56,25 +56,25 @@ ht-degree: 72%
 
 * 要将用户档案数据共享到目的地，您需要在目的地有效负荷中包含目的地使用的特定身份值。任何目标目的地必需的身份都必须被摄入 Platform，并配置为[!UICONTROL 实时客户档案]的身份。
 
-### 受众从Real-time Customer Data Platform共享到Audience Manager
+### 从 Real-time Customer Data Platform 共享受众到 Audience Manager
 
-* 无论区段评估是以批量方式还是以流式方式进行，一旦区段评估完成并写入实时Audience Manager资料，RT-CDP中的受众成员资格就会以流式方式共享到受众。 如果符合条件的配置文件包含相关配置文件设备的区域路由信息，则RTCDP的受众成员资格将在关联的Audience Manager边缘上以流式方式获得资格。 如果RTCDP中的用户档案不包含区域路由信息，则用户档案成员会发送到Audience Manager中心位置，以便进行批量评估和激活。 符合边缘激活资格的配置文件将在RTCDP区段鉴别后的几分钟内激活，不符合边缘激活资格的配置文件将在Audience Manager中心获得资格，并且可能有12-24小时的处理时间。
+* 无论是在批处理中还是流传输中发生的区段评估，一旦区段评估完成并写入实时客户档案，RT-CDP 中的受众成员资格就会以流传输方式共享到 Audience Manager。如果符合条件的用户档案包含相关用户档案设备的区域路由信息，则 RTCDP 的受众成员资格将在关联的 Audience Manager Edge 上以流传输方式判断资格。如果 RTCDP 中的用户档案不包含区域路由信息，则用户档案成员资格会发送到 Audience Manager 中心位置，以进行批量评估和激活。符合 Edge 激活资格的用户档案将在 RTCDP 区段资格审核后的几分钟内激活，不符合 Edge 激活资格的用户档案将在 Audience Manager 中心判断资格，并且处理时间可能在 12-24 小时。
 
-* 在启用了Analytics数据以收集到配置文件后，可以从Analytics Data Connector中收集存储了配置文件相关设备信息的Audience Manager边缘的区域路由信息，或者直接从WebSDK作为单独的配置文件记录类数据集进行收集，然后必须为配置文件启用该数据集。
+* 如果启用了将 Analytics 数据收集到用户档案，可以从 Analytics 数据连接器收集存储用户档案相关设备信息的 Audience Manager Edge 的区域路由信息，或者直接从 WebSDK 以单独的用户档案记录类数据集形式进行收集，然后必须为用户档案启用该数据集。
 
-* 对于从Experience Platform共享受众以Audience Manager以下身份的激活方案，会自动共享以下身份：IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。 当前，不共享自定义命名空间。
+* 对于从 Experience Platform 共享受众到 Audience Manager 的激活方案，会自动共享以下身份：IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。当前，不共享客户命名空间。
 
 当所需目的地身份包括在[!UICONTROL 实时客户档案]中时，或者在[!UICONTROL 实时客户档案]中的身份可以与在 Audience Manager 中链接的所需目的地身份相关时，可以通过 Audience Manager 目的地共享来自 Experience Platform 的受众。
 
 ## 相关文档
 
-* [[!UICONTROL 实时客户数据平台]产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform.html)
+* [[!UICONTROL Real-time Customer Data Platform] 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform.html)
 * [用户档案和分段指南](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 * [分段文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans)
 * [目的地文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans)
 
 ## 相关视频和教程
 
-* [[!UICONTROL 实时客户数据平台]概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hans)
-* [[!UICONTROL 实时客户数据平台]演示](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=zh-Hans)
-* [创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [[!UICONTROL Real-time Customer Data Platform] 概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hans)
+* [[!UICONTROL Real-time Customer Data Platform] 演示](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=zh-Hans)
+* [创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=zh-Hans)
