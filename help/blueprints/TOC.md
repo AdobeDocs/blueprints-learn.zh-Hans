@@ -5,9 +5,9 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: 12a791205a2d8ee1cd0a7184eba54340f7d9ab1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 92%
 
 + [概述](/help/blueprints/overview.md)
 + [查看所有用例](/help/blueprints/use-cases.md)
-+ 查看所有行业成功案例{#industry-success-stories}
++ 查看所有行业成功案例 {#industry-success-stories}
    + [概述](/help/blueprints/industry-success-stories/overview.md)
    + [服装](/help/blueprints/industry-success-stories/apparel.md)
    + [零售](/help/blueprints/industry-success-stories/retail.md)
-   + [电信](/help/blueprints/industry-success-stories/telecommunications.md)
-   + [旅游和酒店](/help/blueprints/industry-success-stories/travel-hospitality.md)
+   + [电信业](/help/blueprints/industry-success-stories/telecommunications.md)
+   + [旅游与酒店](/help/blueprints/industry-success-stories/travel-hospitality.md)
 + 架构概述 {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform 和应用程序](/help/blueprints/experience-platform/platform-applications.md)
