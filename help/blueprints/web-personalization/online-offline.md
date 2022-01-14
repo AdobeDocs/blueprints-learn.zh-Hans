@@ -7,8 +7,8 @@ kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 070c78ee3cf32e70af90c6cbcdd77d5258a32fb7
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 63%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 63%
 * 登陆页优化
 * 行为和线下用户档案定位
 * 除线下洞察（如交易、预订、CRM 和忠诚度数据）和模型洞察以外，还基于以前的产品/内容视图、产品/内容关联、环境属性、第三方受众数据和人口统计的个性化
-* 在使用Adobe Target的网站和移动设备应用程序上共享和定位Real-time Customer Data Platform中定义的受众。
+* 使用 Adobe Target 在网站和移动设备应用程序上共享和定位 Real-time Customer Data Platform 中定义的受众。
 
 ## 应用程序
 
-* [!UICONTROL 实时客户数据平台]
+* [!UICONTROL Real-time Customer Data Platform]
 * Adobe Target
 * Adobe Audience Manager（可选）：添加了第三方受众数据，基于合作社的设备图，在 Adobe Analytics 中显示 Platform 区段功能以及在 Platform 中显示 Adobe Analytics 区段的功能
 * Adobe Analytics（可选）：添加了根据历史行为数据和来自 Adobe Analytics 数据的精细分段来构建区段的功能
@@ -50,21 +50,21 @@ ht-degree: 63%
 <tbody>
   <tr>
     <td class="tg-0lax">1</td>
-    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">通过受众共享服务方法，将RTCDP流式传输和批量受众共享到Target并Audience Manager</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal"> — 通过受众共享服务，将从RTCDP到Target的流式和批量受众共享到Target和Audience Manager。 实时评估的受众需要WebSDK和集成模式3中概述的实时受众评估。</span></td>
-    <td class="tg-73oq"> — 必须通过受众共享服务来配置受众投影。<br> — 与Target集成需要与Experience Platform实例相同的IMS组织。<br> — 必须将身份解析为ECID才能共享到边缘，以便Target对其执行操作。 AAM具有单独的已批准身份列表，可与<br> — 此集成不需要WebSDK部署。</td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">通过受众共享服务方法，将 RTCDP 流传输和批次受众共享到 Target 和 Audience Manager</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal"> - 通过受众共享服务，将流传输和批次受众从 RTCDP 共享到 Target 和 Audience Manager。要实时评估受众，需要集成模式 3 中概述的 WebSDK 和实时受众评估。</span></td>
+    <td class="tg-73oq"> - 必须配置通过受众共享服务的受众投影。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。<br>- 必须将身份解析为 ECID 才能共享到 Edge，以便 Target 对其执行操作。AAM 具有单独的已批准身份列表可用于匹配<br> - 此集成不需要 WebSDK 部署。</td>
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
-    <td class="tg-73oq">通过Edge方法将RTCDP流和批量受众共享到Target</td>
-    <td class="tg-0lax"> — 通过边缘网络将从RTCDP到Target的流受众和批量受众共享。 实时评估的受众需要WebSDK和集成模式3中概述的实时受众评估。</td>
-    <td class="tg-73oq"><span style="text-decoration:none"> — 目前为测试版</span><br> — 必须在RTCDP目标中配置Target目标。<br> — 与Target集成需要与Experience Platform实例相同的IMS组织。<br>不需要WebSDK。 支持WebSDk和AT.js。 <br> — 如果使用AT.js，则仅支持对ECID进行配置文件查找。 <br> — 对于Edge上的自定义ID命名空间查找，需要WebSDK部署，并且必须在身份映射中将每个身份设置为标识。</td>
+    <td class="tg-73oq">通过 Edge 方法将 RTCDP 流传输和批次受众共享到 Target</td>
+    <td class="tg-0lax"> - 通过 Edge Network 将流传输和批次受众从 RTCDP 共享到 Target。要实时评估受众，需要集成模式 3 中概述的 WebSDK 和实时受众评估。</td>
+    <td class="tg-73oq"><span style="text-decoration:none">- 目前为测试版</span><br> - 必须在 RTCDP 目标中配置 Target 目标。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。<br>不需要 WebSDK。支持 WebSDk 和 AT.js。<br>- 如果使用 AT.js，则仅支持针对 ECID 的用户档案查找。<br>- 对于 Edge 上的自定义 ID 命名空间查找，需要部署 WebSDK，并且必须在身份映射中将每个身份设置为身份。</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
-    <td class="tg-73oq">在通过边缘网络使用WebSDK共享到Target的边缘设备上进行RTCDP实时区段评估。</td>
-    <td class="tg-0lax"> — 在Edge上实时评估受众的相同或下一页个性化情况。</td>
-    <td class="tg-73oq"><span style="text-decoration:none"> — 目前为测试版</span><br> — 必须在RTCDP目标中配置Target目标。<br> — 与Target集成需要与Experience Platform实例相同的IMS组织。<br> — 必须实施WebSDK。<br> — 也通过API支持。</td>
+    <td class="tg-73oq">在使用 WebSDK 通过 Edge Network 共享到 Target 的 Edge 上进行 RTCDP 实时区段评估。</td>
+    <td class="tg-0lax"> - 在 Edge 上实时评估受众以进行同页或下一页个性化。</td>
+    <td class="tg-73oq"><span style="text-decoration:none">- 目前为测试版</span><br> - 必须在 RTCDP 目标中配置 Target 目标。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。<br>- 必须实施 WebSDK。<br>- 也通过 API 支持。</td>
   </tr>
 </tbody>
 </table>
@@ -74,15 +74,15 @@ ht-degree: 63%
 
 概述架构
 
-<img src="assets/RTCDP+Target.png" alt="在线/离线 Web 个性化 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/RTCDP+Target.png" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
 
 流程架构
 
-<img src="assets/RTCDP+Target_flow.png" alt="在线/离线 Web 个性化 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/RTCDP+Target_flow.png" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
 
 详细架构
 
-<img src="assets/personalization_with_apps.png" alt="在线/离线 Web 个性化 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a"/>
+<img src="assets/personalization_with_apps.png" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a"/>
 
 ## 护栏
 
@@ -132,7 +132,7 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 1. [在Adobe Target中启用Real-time Customer Data Platform作为目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) 或对于受众共享方法 [请求配置Experience Platform与Adobe Target（共享受众）之间的受众共享](https://www.adobe.com/go/audiences) 将受众从Experience Platform共享到Target。
    >[!NOTE]
    >
-   >在RTCDP和Adobe Target之间使用受众共享服务时，必须使用Experience CloudID共享受众，并且受众属于同一Experience Cloud组织。对ECID以外的标识的支持需要使用WebSDK和Experience Edge Network。
+   >在 RTCDP 和 Adobe Target 之间使用受众共享服务时，受众必须使用 Experience Cloud ID 共享，并且属于同一 Experience Cloud 组织。要支持 ECID 以外的身份，需要使用 WebSDK 和 Experience Edge Network。
 
 
 ## 相关文档
