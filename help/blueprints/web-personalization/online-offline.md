@@ -8,7 +8,7 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 0746a479d4e651244995a8c355ed4c58b968f0c1
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 1. [实施 Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=zh-Hans)（可选）
 1. [实施 Experience Platform 和[!UICONTROL 实时客户档案]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=zh-Hans)
 1. 实施 [Experience Cloud Identity 服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=zh-Hans)或者 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)
-1. [在Adobe Target中启用Real-time Customer Data Platform作为目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) 或对于受众共享方法 [请求配置Experience Platform与Adobe Target（共享受众）之间的受众共享](https://www.adobe.com/go/audiences) 将受众从Experience Platform共享到Target。
+1. [在 Real-time Customer Data Platform 中启用将 Adobe Target 作为目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans)或用于受众共享方法 [请求为 Experience Platform 与 Adobe Target 之间的受众共享进行配置（共享受众）](https://www.adobe.com/go/audiences)以便将受众从 Experience Platform 共享到 Target。
    >[!NOTE]
    >
    >在 RTCDP 和 Adobe Target 之间使用受众共享服务时，受众必须使用 Experience Cloud ID 共享，并且属于同一 Experience Cloud 组织。要支持 ECID 以外的身份，需要使用 WebSDK 和 Experience Edge Network。
@@ -141,7 +141,7 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 * [与 Audience Manager 和其他 Experience Cloud 解决方案共享 Experience Platform 区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=zh-Hans)
 * [Experience Platform 分段概述](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)
 * [流式分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans)
-* [Adobe Target Connection for Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en)
+* [用于 Real-time Customer Data Platform 的 Adobe Target 连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en)
 * [Experience Platform 区段生成器概述](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans)
 * [Audience Manager 源连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=zh-Hans)
 * [通过 Adobe Audience Manager 分享 Adobe Analytics 区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hans)
