@@ -6,17 +6,19 @@ kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
 source-git-commit: ad3e1a7a6a870785653394472db186c535dd814c
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '107'
+ht-degree: 100%
 
 ---
 
 # Adobe Experience Cloud 架构图
 
-以下架构图说明了Adobe Experience Platform如何连接到Adobe Experience Cloud应用程序并与之集成，以便跨数据、内容和体验交付实现大规模个性化。
+以下架构图说明了 Adobe Experience Platform 如何连接到 Adobe Experience Cloud 应用程序并与之集成，以便在投放数据、内容和体验时实现大规模个性化。
 
-<img src="assets/pers_at_scale.png" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a" /><br>下面的架构图说明了 Adobe Experience Cloud 应用程序和 Adobe Experience Platform 是如何融入企业客户体验架构中的。
+<img src="assets/pers_at_scale.png" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />
+<br>
+下面的架构图说明了 Adobe Experience Cloud 应用程序和 Adobe Experience Platform 是如何融入企业客户体验架构中的。
 
 <img src="assets/aec_experience_architecture.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />
 <br>
