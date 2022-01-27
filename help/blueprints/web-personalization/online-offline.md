@@ -5,10 +5,10 @@ landing-page-description: 将 Web 个性化与电子邮件和其他已知和匿�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 0746a479d4e651244995a8c355ed4c58b968f0c1
+source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,13 +58,13 @@ ht-degree: 100%
     <td class="tg-0lax">2</td>
     <td class="tg-73oq">通过 Edge 方法将 RTCDP 流传输和批次受众共享到 Target</td>
     <td class="tg-0lax"> - 通过 Edge Network 将流传输和批次受众从 RTCDP 共享到 Target。要实时评估受众，需要集成模式 3 中概述的 WebSDK 和实时受众评估。</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- 目前为测试版</span><br> - 必须在 RTCDP 目标中配置 Target 目标。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。<br>不需要 WebSDK。支持 WebSDk 和 AT.js。<br>- 如果使用 AT.js，则仅支持针对 ECID 的用户档案查找。<br>- 对于 Edge 上的自定义 ID 命名空间查找，需要部署 WebSDK，并且必须在身份映射中将每个身份设置为身份。</td>
+    <td class="tg-73oq"> — 必须在RTCDP目标中配置Target目标。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。<br>不需要 WebSDK。支持 WebSDk 和 AT.js。<br>- 如果使用 AT.js，则仅支持针对 ECID 的用户档案查找。<br>- 对于 Edge 上的自定义 ID 命名空间查找，需要部署 WebSDK，并且必须在身份映射中将每个身份设置为身份。</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq">在使用 WebSDK 通过 Edge Network 共享到 Target 的 Edge 上进行 RTCDP 实时区段评估。</td>
     <td class="tg-0lax"> - 在 Edge 上实时评估受众以进行同页或下一页个性化。</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- 目前为测试版</span><br> - 必须在 RTCDP 目标中配置 Target 目标。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。<br>- 必须实施 WebSDK。<br>- 也通过 API 支持。</td>
+    <td class="tg-73oq"> — 必须在RTCDP目标中配置Target目标。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。<br>- 必须实施 WebSDK。<br>- 也通过 API 支持。</td>
   </tr>
 </tbody>
 </table>
@@ -79,6 +79,11 @@ ht-degree: 100%
 流程架构
 
 <img src="assets/RTCDP+Target_flow.png" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
+
+<br>
+
+<img src="assets/RTCDP+Target_sequence.png" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
+
 
 详细架构
 

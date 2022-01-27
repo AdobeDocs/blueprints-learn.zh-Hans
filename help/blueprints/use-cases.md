@@ -2,8 +2,8 @@
 title: 数字体验 Blueprint 的用例
 description: 数字体验 Blueprint 是可重复实施的产品，用于应对战略和解决既定的业务问题。它们可加快实现价值的速度，并提供快速成功之路。
 exl-id: 7ec2b5c9-b46c-4434-b0d3-8aba863e9006
-source-git-commit: c80967fc9463996b4a3892dd5d0e76270d9247d1
-workflow-type: ht
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 100%
 

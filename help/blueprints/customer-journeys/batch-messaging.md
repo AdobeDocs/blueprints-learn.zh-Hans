@@ -4,8 +4,8 @@ description: 使用 Adobe Experience Platform 作为客户档案和分段的中�
 solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: ht
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 #### 用户档案/身份
 
 1. [创建任何客户特定的命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
-1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
+1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
 1. [为用户档案启用模式和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
 1. 为[!UICONTROL 实时客户档案]的不同视图[设置合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=zh-Hans)（可选）。
 1. 为 Adobe Campaign 使用创建区段。

@@ -1,9 +1,8 @@
 ---
-source-git-commit: 8225c25ca54acb10ff9e9dd07d869b0c9a626c0b
-workflow-type: ht
-translation-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 # 贡献文章
@@ -22,7 +21,7 @@ ht-degree: 100%
 
 ### 细微更改
 
-如果您出于好意，想提供一些细微更改，请访问相应文章，然后单击文章中的&#x200B;**编辑**&#x200B;链接，跳转到文章的 GitHub 源。然后，您只需使用 GitHub UI 进行更新。有关更多信息，请参阅通用 [Adobe 文档参与者指南](https://docs.adobe.com/content/help/zh-Hans/contributor/contributor-guide/introduction.html)。
+如果您出于好意，想提供一些细微更改，请访问相应文章，然后单击文章中的&#x200B;**编辑**&#x200B;链接，跳转到文章的 GitHub 源。然后，您只需使用 GitHub UI 进行更新。有关更多信息，请参阅通用 [Adobe 文档参与者指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
 
 您在本存储库中为文档和代码示例提交的细微更改或说明均受 Adobe 使用条款保护。
 
@@ -44,7 +43,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 社区参与者可以使用 GitHub UI 进行基本编辑或派生存储库内容以作出重大贡献。
 
-请参阅 [Adobe 文档参与者指南](https://docs.adobe.com/content/help/zh-Hans/contributor/contributor-guide/introduction.html)，了解更多详情。
+请参阅 [Adobe 文档参与者指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)，了解更多详情。
 
 ## 如何使用 Markdown 标记语言设置主题的格式
 
@@ -59,4 +58,3 @@ If you submit a pull request with significant changes to documentation and code 
 
 * **Change sent to author**（更改已发送作者）：作者已收到通知，有提取请求待处理。
 * **ready-to-merge**（准备合并）：已准备好由我们的提取请求审核小组进行审核。
-

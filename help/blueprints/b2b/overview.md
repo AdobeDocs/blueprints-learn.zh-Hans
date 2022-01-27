@@ -3,8 +3,7 @@ title: B2B 分析和激活
 description: 通过 Real-time Customer Data Platform 交付基于帐户的受众和以用户档案为中心的客户体验。
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
-source-git-commit: 9d0766cba6562066e5d8d7dc5c8983ab6fb1824b
+source-git-commit: c64aa472624abd7279e9c26e2affa0878796ab33
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%

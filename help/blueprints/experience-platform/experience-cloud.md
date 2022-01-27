@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Analytics, Target, Audience Manager, Ma
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: ad3e1a7a6a870785653394472db186c535dd814c
-workflow-type: ht
-source-wordcount: '107'
-ht-degree: 100%
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
