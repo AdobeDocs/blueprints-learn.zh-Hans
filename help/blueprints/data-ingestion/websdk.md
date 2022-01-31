@@ -7,8 +7,8 @@ thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
 source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '88'
+ht-degree: 100%
 
 ---
 
@@ -21,4 +21,4 @@ ht-degree: 0%
 ## 参考文档
 
 * [Experience Platform Web/Mobile SDK 概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)
-* [使用Web SDK实施Adobe Experience Cloud教程](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html)
+* [使用 Web SDK 实施 Adobe Experience Cloud 教程](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=zh-Hans)

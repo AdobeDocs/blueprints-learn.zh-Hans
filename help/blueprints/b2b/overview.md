@@ -3,10 +3,11 @@ title: B2B 分析和激活
 description: 通过 Real-time Customer Data Platform 交付基于帐户的受众和以用户档案为中心的客户体验。
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-source-git-commit: 3b5628d856d754046b7a95ad22b660211c35260d
+exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
+source-git-commit: fcfd45ce954e9a273561ab6fd824aa16fd0fe1e9
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,6 +19,5 @@ B2B 受众和用户档案激活是在数据驱动营销世界中取得成功的�
 
 | Blueprint | 描述 | Experience Cloud 应用程序 |
 |---|---|---|
-| **[B2B 分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html)** | <ul><li>在客户历程分析中包含 B2B 帐户信息</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
+| **[B2B 分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=zh-Hans)** | <ul><li>在客户历程分析中包含 B2B 帐户信息</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
 | **[B2B 受众激活](b2bactivation.md)** | <ul><li>跨 Web、电子邮件和广告渠道定位 B2B 受众。</li></ul> | <ul><li>Adobe Real-time Customer Data Platform B2B 版</li></ul> |
-
