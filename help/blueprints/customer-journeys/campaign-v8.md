@@ -2,9 +2,7 @@
 title: Campaign v8 Blueprint
 description: Adobe Campaign v8是新一代活动工具，专为电子邮件和直邮等传统营销渠道构建。 它提供了强大的ETL和数据管理功能，以帮助策划和策划完美的营销活动。 其编排引擎提供丰富的多接触点营销计划，其核心重点是基于批处理的驱动历程。  它还与可扩展的实时消息传送服务器相配对，该服务器使营销团队能够根据来自任何IT系统的包含所有内容的有效负载发送预定义的消息，以便进行密码重置、订单确认、电子收据等操作。
 solution: Campaign v8
-hidefromtoc: true
-exl-id: f754d099-6842-4759-8e27-6a06d5d8c2e9
-source-git-commit: 13f750c0ff820ab01ed4fc615aba864bc2dc7b75
+source-git-commit: 1c46cbdfc395de4fc9139966cf869ba1feeceaaa
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 3%
@@ -32,7 +30,7 @@ Adobe Campaign v8是新一代活动工具，专为电子邮件和直邮等传统
 
 <br>
 
-## Blueprint方案
+## 集成模式
 
 | 场景 | 描述 | 功能 |
 | :-- | :--- | :--- |

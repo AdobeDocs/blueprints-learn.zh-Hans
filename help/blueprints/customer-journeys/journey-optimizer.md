@@ -3,9 +3,9 @@ title: Journey Optimizer - 触发式消息和 Adobe Experience Platform Blueprin
 description: 使用 Adobe Experience Platform 作为流式传输数据、客户档案和分段的中心枢纽，执行触发的消息和体验。
 solution: Experience Platform, Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
+source-git-commit: 2ead62f94e761cd9453be284a9fde3c5803879eb
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1046'
 ht-degree: 41%
 
 ---
@@ -38,6 +38,13 @@ Adobe Journey Optimizer 是专门为营销团队打造的系统，可实时响�
 | 场景 | 描述 | 功能 |
 | :-- | :--- | :--- |
 | [第三方消息传送](3rd-party-messaging.md) | 演示如何将Adobe Journey Optimizer与第三方消息传递系统结合使用来编排和发送个性化通信 | 在客户与您的品牌或公司进行互动时，立即向客户提供1:1的个性化通信<br><br>注意事项：<br><ul><li>第三方系统必须支持用于身份验证的承载令牌</li><li>由于多租户架构，不支持静态IP</li><li>当涉及每秒API调用数时，请注意第三方系统存在的体系结构限制。  客户可能需要从第三方供应商购买额外的卷，以支持来自Journey Optimizer的卷</li><li>不支持消息或负载中的Offer decisioning</li></ul> |
+
+<br>
+
+## 集成模式
+
+| 集成 | 描述 | 功能 |
+| :-- | :--- | :--- |
 | [Journey Optimizer与Adobe Campaign](ajo-and-campaign.md) | 显示如何使用Adobe Journey Optimizer利用实时客户资料编排1:1体验，并利用本机Adobe Campaign事务型消息传递系统来发送消息 | 利用Journey Optimizer的实时客户资料和强大的功能，在时刻体验中进行编排，同时利用Adobe Campaign的本机实时消息传送功能进行最后一英里通信<br><br>注意事项：<br><ul><li>Campaign应用程序必须位于v7内部版本>21.1或v8上</li><li>消息传送吞吐量</li><ul><li>Campaign v7 — 每小时最多5万</li><li>Campaign v8 — 每小时最多100万</li><li>Campaign Standard — 每小时最多5万</li></ul><li>不执行限制，因此用例需要企业架构师的技术审查</li><li>不支持在Campaign发送的消息中利用Offer decisioning</li></ul> |
 
 <br>
