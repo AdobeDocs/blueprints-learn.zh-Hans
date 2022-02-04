@@ -1,44 +1,24 @@
 ---
-title: Journey Optimizer - 触发式消息和 Adobe Experience Platform Blueprint
-description: 使用 Adobe Experience Platform 作为流式传输数据、客户档案和分段的中心枢纽，执行触发的消息和体验。
+title: Journey Optimizer — 第三方消息传递Blueprint
+description: 演示如何将Adobe Journey Optimizer与第三方消息传递系统结合使用来编排和发送个性化通信。
 solution: Experience Platform, Journey Optimizer
-exl-id: 97831309-f235-4418-bd52-28af815e1878
+hidefromtoc: true
 source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 41%
+source-wordcount: '829'
+ht-degree: 33%
 
 ---
 
-# Journey Optimizer
+# 第三方消息传送
 
-Adobe Journey Optimizer 是专门为营销团队打造的系统，可实时响应客户行为并在其所处场景中与之交流。数据管理功能已迁移至 Adobe Experience Platform，以便营销团队能够专注于自己最擅长的工作：创造世界一流的客户历程和个性化的对话。此 Blueprint 概述了该应用程序的技术功能，并深入介绍了组成 Adobe Journey Optimizer 的各种架构组件。
-
-<br>
-
-## 用例
-
-* 触发式消息
-* 欢迎和注册确认
-* 放弃购物车和申请表
-* 位置触发式消息
-* 体育场内体验
-* 旅游和酒店在抵达前和入住期间的体验
+演示如何将Adobe Journey Optimizer与第三方消息传递系统结合使用来编排和发送个性化通信。
 
 <br>
 
 ## 架构
 
-<img src="assets/ajo-architecture.svg" alt="参考架构Journey Optimizer Blueprint" style="width:100%; border:1px solid #4a4a4a" />
-
-<br>
-
-## Blueprint方案
-
-| 场景 | 描述 | 功能 |
-| :-- | :--- | :--- |
-| [第三方消息传送](3rd-party-messaging.md) | 演示如何将Adobe Journey Optimizer与第三方消息传递系统结合使用来编排和发送个性化通信 | 在客户与您的品牌或公司进行互动时，立即向客户提供1:1的个性化通信<br><br>注意事项：<br><ul><li>第三方系统必须支持用于身份验证的承载令牌</li><li>由于多租户架构，不支持静态IP</li><li>当涉及每秒API调用数时，请注意第三方系统存在的体系结构限制。  客户可能需要从第三方供应商购买额外的卷，以支持来自Journey Optimizer的卷</li><li>不支持消息或负载中的Offer decisioning</li></ul> |
-| [Journey Optimizer与Adobe Campaign](ajo-and-campaign.md) | 显示如何使用Adobe Journey Optimizer利用实时客户资料编排1:1体验，并利用本机Adobe Campaign事务型消息传递系统来发送消息 | 利用Journey Optimizer的实时客户资料和强大的功能，在时刻体验中进行编排，同时利用Adobe Campaign的本机实时消息传送功能进行最后一英里通信<br><br>注意事项：<br><ul><li>Campaign应用程序必须位于v7内部版本>21.1或v8上</li><li>消息传送吞吐量</li><ul><li>Campaign v7 — 每小时最多5万</li><li>Campaign v8 — 每小时最多100万</li><li>Campaign Standard — 每小时最多5万</li></ul><li>不执行限制，因此用例需要企业架构师的技术审查</li><li>不支持在Campaign发送的消息中利用Offer decisioning</li></ul> |
+<img src="assets/3rd-party-messaging-architecture.svg" alt="参考架构Journey Optimizer Blueprint" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -50,16 +30,9 @@ Adobe Experience Platform
 * 对于基于体验事件类的架构，当您希望触发的事件不是基于规则的事件时，请添加“编排事件ID字段组”
 * 对于基于个人用户档案类的架构，添加“用户档案测试详细信息”字段组，以便能够加载测试用户档案以与Journey Optimizer一起使用
 
-电子邮件
+第三方消息传送应用程序
 
-* 必须准备好用于消息发送的子域
-* 子域可以完全委派给Adobe（推荐），或者CNAME可以用于指向特定于Adobe的DNS服务器（自定义）
-* 每个子域都需要Google TXT记录，以确保良好的可交付性
-
-移动推送
-
-* 客户必须拥有构建应用程序的移动开发人员
-* Adobe Experience Platform Mobile SDK
+* 必须支持REST API调用以发送事务负载
 
 <br>
 
@@ -67,30 +40,37 @@ Adobe Experience Platform
 
 [Journey Optimizer护栏产品链接](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=zh-Hans)
 
-请注意上述链接中未列出的这些内容：
+其他Journey Optimizer护栏：
 
+* 现在可通过API设置上限，以确保目标系统未饱和到故障点。 这意味着超过上限的消息将被完全丢弃，并且从不发送。 不支持限制。
+   * 最大连接数 — 目标可处理的http/s连接数上限
+   * 最大调用计数 — periodInMs参数中要发起的最大调用数
+   * periodInMs — 时间（以毫秒为单位）
+* 区段成员资格发起的历程可以两种模式运行：
+   * 批量区段（每24小时刷新一次）
+   * 流区段（&lt;5分钟鉴别）
 * 批次区段 - 需要确保您了解合格用户的每日流量，并确保目标系统能够处理每个历程以及所有历程中的突发吞吐量
 * 流式区段 - 需要确保可以处理用户档案资格的初始突发量，以及每个历程和所有历程的每日合格流传输流量
-* 本地支持仅在消息中Offer decisioning（无自定义操作）
-* 支持的消息类型：
-   * 电子邮件
-   * 推送 (FCM / APNS)
-   * 自定义操作（通过Rest API）
+* offer decisioning不受支持
 * 出站集成到第三方系统
    * 不支持单个静态IP，因为我们的基础架构是多租户(必须允许列表所有数据中心IP)
    * 自定义操作仅支持POST和PUT方法
-   * 通过用户/通过或授权令牌进行身份验证
+   * 身份验证支持：令牌 |密码 | OAuth2
 * 无法在各种沙箱之间打包和移动Adobe Experience Platform或Journey Optimizer的各个组件。 必须在新环境中重新实施
-
-### 数据摄入护栏
-
-<img src="assets/aep-data-ingestion-details-latency.svg" alt="参考架构Journey Optimizer Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 
 <br>
 
-### 激活护栏
+第三方报文传送系统
 
-<img src="assets/ajo-activation-details-latency.svg" alt="参考架构Journey Optimizer Blueprint" style="width:80%; border:1px solid #4a4a4a" />
+* 需要了解系统可支持哪些负载进行事务API调用
+   * 每秒允许的调用数
+   * 连接数
+* 需要了解进行API调用所需的身份验证
+   * 身份验证类型：  令牌 |密码 |通过Journey Optimizer支持OAuth2
+   * 身份验证缓存持续时间：  令牌有效多长时间？ 
+* 如果仅支持批量摄取，则需要将流式处理到云存储引擎，如Amazon Kinesis或Azure Event Grid 1st
+   * 这些云存储引擎的数据可以打包并传输到第三方
+   * 客户或第三方将负责提供所需的任何中间件
 
 <br>
 
@@ -119,21 +99,22 @@ Adobe Experience Platform
 
 ### Journey Optimizer
 
-1. 配置您的Experience Platform数据源并确定哪些字段应作为profile的一部分缓存。必须先在Journey Optimizer中配置用于启动客户旅程的流数据，才能获取编排ID。 然后，此编排ID将提供给开发人员以与摄取结合使用
-1. 配置外部数据源。
-1. 配置自定义操作。
+1. 配置Experience Platform数据源并确定哪些字段应作为profile的一部分缓存。必须先在Journey Optimizer中配置用于启动客户旅程的流数据，才能获取编排ID。 然后，此编排ID将提供给开发人员以与摄取结合使用
+1. 配置外部数据源
+1. 为第三方应用程序配置自定义操作
 
-### 移动推送配置
+### 移动设备推送配置（可选，因为第三方可能会收集令牌）
 
 1. 实施Experience PlatformMobile SDK以收集推送令牌和登录信息，以关联到已知的客户配置文件
 1. 利用Adobe标记并创建具有以下扩展的移动资产：
-1. Adobe Journey Optimizer
-1. Adobe Experience Platform Edge Network
-1. 身份 （边缘网络）
-1. 移动核心
+   * Adobe Journey Optimizer
+   * Adobe Experience Platform Edge Network
+   * 身份 （边缘网络）
+   * 移动核心
 1. 确保您拥有专用数据流，用于移动设备应用程序部署与Web部署
 1. 有关更多信息，请参阅 [Adobe Journey Optimizer Mobile指南](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
 
+<br>
 
 ## 相关文档
 

@@ -4,10 +4,10 @@ breadcrumb-title: 'Blueprint '
 user-guide-description: Blueprint 是可重复实施的产品，用于应对战略和解决既定的业务问题，并包含架构图、技术注意事项和相关文档链接。
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
+source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 100%
+source-wordcount: '157'
+ht-degree: 90%
 
 ---
 
@@ -39,8 +39,13 @@ ht-degree: 100%
    + [概述](/help/blueprints/customer-journey-analytics/overview.md)
 + 客户历程 {#customer-journeys}
    + [概述](/help/blueprints/customer-journeys/overview.md)
-   + [批次消息和 Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
+   + [Campaign托管Cloud Services](/help/blueprints/customer-journeys/campaign.md)
+   + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
+   + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
+   + [使用Real-Time CDP的Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+   + [使用Journey Optimizer的Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
    + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
+   + [第三方消息传送](/help/blueprints/customer-journeys/3rd-party-messaging.md)
 + 数据收集和准备 {#data-ingestion}
    + [概述](/help/blueprints/data-ingestion/overview.md)
    + [数据准备和摄入](/help/blueprints/data-ingestion/ingestion.md)
