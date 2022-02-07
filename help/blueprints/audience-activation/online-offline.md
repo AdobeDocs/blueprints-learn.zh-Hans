@@ -4,10 +4,10 @@ description: 线上/线下受众激活。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
+source-git-commit: c4adcc5d23bb0482a348d7b5b2b70b06ff2873e8
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,9 +58,9 @@ ht-degree: 100%
 
 ### 从 Real-time Customer Data Platform 共享受众到 Audience Manager
 
-* 无论是在批处理中还是流传输中发生的区段评估，一旦区段评估完成并写入实时客户档案，RT-CDP 中的受众成员资格就会以流传输方式共享到 Audience Manager。如果符合条件的用户档案包含相关用户档案设备的区域路由信息，则 RTCDP 的受众成员资格将在关联的 Audience Manager Edge 上以流传输方式判断资格。如果 RTCDP 中的用户档案不包含区域路由信息，则用户档案成员资格会发送到 Audience Manager 中心位置，以进行批量评估和激活。符合 Edge 激活资格的用户档案将在 RTCDP 区段资格审核后的几分钟内激活，不符合 Edge 激活资格的用户档案将在 Audience Manager 中心判断资格，并且处理时间可能在 12-24 小时。
+* 无论是在批处理中还是流传输中发生的区段评估，一旦区段评估完成并写入实时客户档案，RT-CDP 中的受众成员资格就会以流传输方式共享到 Audience Manager。如果符合条件的用户档案包含相关用户档案设备的区域路由信息，则 RTCDP 的受众成员资格将在关联的 Audience Manager Edge 上以流传输方式判断资格。如果将区域路由信息应用于过去14天内具有时间戳的用户档案，则会在流Audience Manager边缘中评估该信息。 如果RTCDP中的用户档案不包含区域路由信息或区域路由信息大于14天，则会将用户档案成员资格发送到Audience Manager中心位置，以便进行批量评估和激活。 符合边缘激活资格的配置文件将在RTCDP区段鉴别后的几分钟内激活，不符合边缘激活资格的配置文件将在Audience Manager中心获得资格，并且可能有12-24小时的处理时间。
 
-* 如果启用了将 Analytics 数据收集到用户档案，可以从 Analytics 数据连接器收集存储用户档案相关设备信息的 Audience Manager Edge 的区域路由信息，或者直接从 Web SDK 以单独的用户档案记录类数据集形式进行收集，然后必须为用户档案启用该数据集。
+* 可以收集存储了Audience Manager配置文件的Edge的区域路由信息，以便从Audience Manager、访客ID服务、Analytics、Launch或直接从Web SDK作为单独的配置文件记录类数据集，并使用“数据捕获区域信息”XDM字段组进行Experience Platform。
 
 * 对于从 Experience Platform 共享受众到 Audience Manager 的激活方案，会自动共享以下身份：IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。当前，不共享客户命名空间。
 
