@@ -5,9 +5,9 @@ landing-page-description: 将 Web 个性化与电子邮件和其他已知和匿�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: d639a2c76290588f92e443f645e95864caac442a
+source-git-commit: 91db73c9fb14d461ee62444199c3d053bd094639
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1146'
 ht-degree: 68%
 
 ---
@@ -72,11 +72,11 @@ ht-degree: 68%
 
 ## 架构
 
-概述架构
+详细架构
 
 <img src="assets/RTCDP+Target.png" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
 
-流程架构
+序列图
 
 <img src="assets/RTCDP+Target_flow.png" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
 
@@ -85,7 +85,7 @@ ht-degree: 68%
 <img src="assets/RTCDP+Target_sequence.png" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
 
 
-详细架构
+概述架构
 
 <img src="assets/personalization_with_apps.png" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a"/>
 
@@ -115,7 +115,7 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 1. [实施 Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=zh-Hans)（可选）
 1. [实施 Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=zh-Hans)（可选）
 1. [实施 Experience Platform 和[!UICONTROL 实时客户档案]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=zh-Hans)
-1. 实施 [Experience Cloud Identity 服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=zh-Hans)或者 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans) Experience PlatformWeb SDK是实时边缘分段所必需的，但将流受众和批量受众从Real-time Customer Data Platform共享到Target时则不需要。 请注意，目前不支持通过Mobile SDK和API进行实时分段。
+1. 实施 [Experience Cloud Identity 服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=zh-Hans)或者 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans). Experience PlatformWeb SDK是实时边缘分段所必需的，但将流受众和批量受众从Real-time Customer Data Platform共享到Target时则不需要。 请注意，目前不支持通过Mobile SDK和API进行实时分段。
 1. [在 Real-time Customer Data Platform 中启用将 Adobe Target 作为目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans)或用于受众共享方法 [请求为 Experience Platform 与 Adobe Target 之间的受众共享进行配置（共享受众）](https://www.adobe.com/go/audiences)以便将受众从 Experience Platform 共享到 Target。
 
 ## 相关文档
