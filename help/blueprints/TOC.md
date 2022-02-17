@@ -3,13 +3,15 @@ user-guide-title: 数字体验 Blueprint
 breadcrumb-title: 'Blueprint '
 user-guide-description: Blueprint 是可重复实施的产品，用于应对战略和解决既定的业务问题，并包含架构图、技术注意事项和相关文档链接。
 product: adobe experience platform
+mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 66b0ceec973d31a902eef0c3a86bd7fcd51b7b8a
+source-git-commit: 28774e211ceedec2e099abbe0dbfee91267bda21
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 91%
+source-wordcount: '172'
+ht-degree: 83%
 
 ---
+
 
 # 数字体验 Blueprint {#architecture}
 
@@ -28,7 +30,9 @@ ht-degree: 91%
 + 受众和用户档案激活 {#audience-activation}
    + [概述](/help/blueprints/audience-activation/overview.md)
    + [匿名受众激活](/help/blueprints/audience-activation/anonymous.md)
-   + [使用线上和线下数据激活](/help/blueprints/audience-activation/online-offline.md)
+   + [激活社交和广告渠道]{#audience-activation}
+      + [使用在线和离线数据激活](/help/blueprints/audience-activation/online-offline.md)
+      + [激活Facebook自定义受众](/help/blueprints/audience-activation/destinations/facebook.md)
    + [激活到文件和企业流传输目标](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [使用 Experience Cloud 应用程序激活](/help/blueprints/audience-activation/platform-and-applications.md)
    + [客户活动中心](/help/blueprints/audience-activation/customer-activity.md)
@@ -61,4 +65,3 @@ ht-degree: 91%
    + [概述](/help/blueprints/web-personalization/overview.md)
    + [行为个性化](/help/blueprints/web-personalization/behavioral.md)
    + [使用线上和线下数据进行个性化](/help/blueprints/web-personalization/online-offline.md)
-
