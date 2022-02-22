@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '270'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 ## 应用程序
 
 * Adobe Experience Platform    
-* [!UICONTROL 实时客户数据平台]
+* [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform Activation
 * Experience Cloud 应用程序
    * Adobe Audience Manager
