@@ -1,14 +1,14 @@
 ---
 title: 受众和用户档案激活
-description: 通过实时客户数据平台交付受众激活且以用户档案为中心的客户体验。
+description: 通过 Real-time Customer Data Platform 交付受众激活且以用户档案为中心的客户体验。
 solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '951'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 0%
 | Blueprint | 描述 | Experience Cloud 应用程序 |
 |---|---|---|
 | **[匿名受众激活](anonymous.md)** | <ul><li>跨 Web 和广告渠道定位目标受众，以获取匿名和行为客户数据。</li><li>与第三方受众数据集成以提高个性化。</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
-| **[使用线上和线下数据激活](online-offline.md)** | <ul><li>激活到基于用户档案的已知目的地（如电子邮件提供商、社交网络和广告目的地）。 </li><li>将线下属性和事件（如线下订单、交易、CRM 或忠诚度数据）与线上行为结合使用，实现线上定位和个性化。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL 实时客户数据平台]</li><li>Adobe Audience Manager（可选）</li></ul> |
-| **[激活到文件和企业流传输目的地](enterprise-destinations.md)** | <ul><li>跨企业系统和应用程序激活和访问实时客户档案，以提供丰富的情境式客户体验。 </li></ul><ul><li>利用来自实时客户档案的分析和事件来触发销售或支持体验。</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL 实时客户数据平台]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager（可选）</li></ul> |
-| **[使用 Experience Cloud 应用程序的受众和用户档案激活](platform-and-applications.md)** | <ul><li>在 Experience Platform 中管理用户档案和受众，并将其与 Experience Cloud 应用程序共享</li><li>在 Experience Platform 中建立并共享丰富的客户区段和洞察，将其与 Experience Cloud 应用程序共享</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL 实时客户数据平台]</li><li>Experience Platform激活</li><li>Experience Cloud 应用程序</li></ul> |
+| **[使用线上和线下数据激活](online-offline.md)** | <ul><li>激活到基于用户档案的已知目的地（如电子邮件提供商、社交网络和广告目的地）。 </li><li>将线下属性和事件（如线下订单、交易、CRM 或忠诚度数据）与线上行为结合使用，实现线上定位和个性化。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager（可选）</li></ul> |
+| **[激活到文件和企业流传输目的地](enterprise-destinations.md)** | <ul><li>跨企业系统和应用程序激活和访问实时客户档案，以提供丰富的情境式客户体验。 </li></ul><ul><li>利用来自实时客户档案的分析和事件来触发销售或支持体验。</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager（可选）</li></ul> |
+| **[使用 Experience Cloud 应用程序的受众和用户档案激活](platform-and-applications.md)** | <ul><li>在 Experience Platform 中管理用户档案和受众，并将其与 Experience Cloud 应用程序共享</li><li>在 Experience Platform 中建立并共享丰富的客户区段和洞察，将其与 Experience Cloud 应用程序共享</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud 应用程序</li></ul> |
 | **[客户活动中心](customer-activity.md)** | <ul><li>为座席支持的交互（如支持和销售体验）提供更深入的消费者背景信息。通过对 Experience Platform 用户档案的查找，座席可以接收更多有关消费者的背景信息，例如最近购买、活动交互、倾向、受众成员，以及存储在实时客户档案中的其他属性和洞察。</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## 实时客户档案架构
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ### 激活属性和身份
 
-* [!UICONTROL 实时受众数据平台]可以激活受众成员资格以及属性和身份更改，这些更改是针对被选择激活的区段内成员的用户档案而进行的。如果您的目标是激活属性或身份，则必须定义一个全局区段，其中包含将属性和身份更新发送到的所有用户档案。此时，您可以选择要激活的区段和所需属性，将其作为目的地配置的一部分。
+* [!UICONTROL Real-time Customer Data Platform] 可以激活受众成员资格以及属性和身份更改，这些更改是针对被选择激活的区段内成员的用户档案而进行的。如果您的目标是激活属性或身份，则必须定义一个全局区段，其中包含将属性和身份更新发送到的所有用户档案。此时，您可以选择要激活的区段和所需属性，将其作为目的地配置的一部分。
 * 请注意，批次目的地不支持激活仅限属性的更改事件。完整或增量受众成员资格可选定的属性一起发送以用于激活。
 
 ### 将批次区段激活到流式目的地
