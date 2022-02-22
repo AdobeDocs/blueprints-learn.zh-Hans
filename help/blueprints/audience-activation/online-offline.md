@@ -27,7 +27,7 @@ ht-degree: 79%
 
 ## 应用程序
 
-* Adobe Experience Platform    
+* Adobe Experience Platform 
 * [!UICONTROL Real-time Customer Data Platform]
 
 ## 架构

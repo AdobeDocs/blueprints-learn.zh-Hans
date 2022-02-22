@@ -35,8 +35,8 @@ ht-degree: 93%
     <p><em>使用[!UICONTROL Platform]作为中心，实时发送消息并影响客户体验。</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=zh-Hans"><img alt="在线/离线受众激活 Blueprint 的缩略图" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>在线/离线受众激活</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=zh-Hans"><img alt="线上/线下受众激活 Blueprint 的缩略图" src="audience-activation/assets/online_offline_activation.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>线上/线下受众激活</strong></a></div>
     <p><em>投放受众激活的跨渠道广告。</em></p>
   </td>
   <td>
