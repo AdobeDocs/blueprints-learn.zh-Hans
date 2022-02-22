@@ -6,9 +6,9 @@ kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '939'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 0%
       <td colspan="1">Ad Cloud</td>
       <td colspan="1">
         <ul>
-          <li>实时客户数据平台中定义的受众可以共享到 Ad Cloud，以便通过 Audience Manager 进行定位。</li>
+          <li>Real-time Customer Data Platform 中定义的受众可以共享到 Ad Cloud，以便通过 Audience Manager 进行定位。</li>
         </ul>
       </td>
       <td colspan="1">当前无集成</td>
@@ -88,7 +88,7 @@ ht-degree: 0%
       <td>Audience Manager</td>
       <td>
         <ul>
-          <li>可以将实时客户数据平台中定义的受众共享到 Audience Manager，以便激活到第三方 Cookie 目的地。</li>
+          <li>可以将 Real-time Customer Data Platform 中定义的受众共享到 Audience Manager，以便激活到第三方 Cookie 目的地。</li>
         </ul>
       </td>
       <td>
@@ -100,13 +100,13 @@ ht-degree: 0%
       <td>
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">匿名受众激活</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=zh-Hans">匿名受众激活</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">线上/线下受众激活</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=zh-Hans">线上/线下受众激活</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">通过 Experience Platform 和应用程序进行激活</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans">通过 Experience Platform 和应用程序进行激活</a>
           </li>
         </ul>
       </td>
@@ -115,12 +115,12 @@ ht-degree: 0%
       <td colspan="1">Campaign Classic</td>
       <td colspan="1">
         <ul>
-          <li>可以将实时客户数据平台中定义的受众共享至 Campaign Classic，作为启动营销活动的受众。</li>
+          <li>可以将 Real-time Customer Data Platform 中定义的受众共享至 Campaign Classic，作为启动营销活动的受众。</li>
         </ul>
       </td>
       <td colspan="1">
         <ul>
-          <li>Campaign 收集的交互和营销活动数据可作为数据源引入 Experience Platform，以供在通过实时客户数据平台构建受众时，以及通过 Customer Journey Analytics、Experience Platform 查询服务和数据科学工作区进行分析时进一步使用。</li>
+          <li>Campaign 收集的交互和营销活动数据可作为数据源引入 Experience Platform，以供在通过 Real-time Customer Data Platform 构建受众时，以及通过 Customer Journey Analytics、Experience Platform 查询服务和数据科学工作区进行分析时进一步使用。</li>
         </ul>
       </td>
       <td colspan="1">
@@ -135,18 +135,18 @@ ht-degree: 0%
       <td colspan="1">Campaign Standard</td>
       <td colspan="1">
         <ul>
-          <li>可以将实时客户数据平台中定义的受众共享至 Campaign Standard，作为启动营销活动的受众。</li>
+          <li>可以将 Real-time Customer Data Platform 中定义的受众共享至 Campaign Standard，作为启动营销活动的受众。</li>
         </ul>
       </td>
       <td colspan="1">
         <ul>
-          <li>Campaign 收集的交互和营销活动数据可作为数据源引入 Experience Platform，以供在通过实时客户数据平台构建受众时，以及通过 Customer Journey Analytics、Experience Platform 查询服务和数据科学工作区进行分析时进一步使用。</li>
+          <li>Campaign 收集的交互和营销活动数据可作为数据源引入 Experience Platform，以供在通过 Real-time Customer Data Platform 构建受众时，以及通过 Customer Journey Analytics、Experience Platform 查询服务和数据科学工作区进行分析时进一步使用。</li>
         </ul>
       </td>
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">批处理消息</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=zh-Hans">批处理消息</a>
           </li>
         </ul>
       </td>
@@ -178,7 +178,7 @@ ht-degree: 0%
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">线上/线下受众激活</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=zh-Hans">线上/线下受众激活</a>
           </li>
         </ul>
       </td>
@@ -192,7 +192,7 @@ ht-degree: 0%
       </td>
       <td colspan="1">
         <ul>
-          <li>Journey Optimizer 生成的交互和营销活动数据会收集到 Experience Platform 中，以便在通过实时客户数据平台构建受众时，以及通过 Customer Journey Analytics、Experience Platform 查询服务和数据科学工作区进行分析时进一步使用。</li>
+          <li>Journey Optimizer 生成的交互和营销活动数据会收集到 Experience Platform 中，以便在通过 Real-time Customer Data Platform 构建受众时，以及通过 Customer Journey Analytics、Experience Platform 查询服务和数据科学工作区进行分析时进一步使用。</li>
         </ul>
       </td>
       <td colspan="1">
@@ -213,7 +213,7 @@ ht-degree: 0%
       <td colspan="1">Marketo</td>
       <td colspan="1">
         <ul>
-          <li>实时客户数据平台中定义的受众可以作为受众共享给 Marketo，以启动 Marketo 营销活动和更新 Marketo 对象。</li>
+          <li>Real-time Customer Data Platform 中定义的受众可以作为受众共享给 Marketo，以启动 Marketo 营销活动和更新 Marketo 对象。</li>
         </ul>
       </td>
       <td colspan="1">
@@ -229,10 +229,10 @@ ht-degree: 0%
       </td>
     </tr>
     <tr>
-      <td colspan="1">实时 CDP</td>
+      <td colspan="1">Real-time CDP</td>
       <td colspan="1">
         <ul>
-          <li>摄入并收集到 Experience Platform 中的数据是用于组合实时客户用户档案的数据源，可支持实时客户数据平台。</li>
+          <li>摄入并收集到 Experience Platform 中的数据是用于组合实时客户用户档案的数据源，可支持 Real-time Customer Data Platform。</li>
         </ul>
       </td>
       <td colspan="1">
@@ -244,10 +244,10 @@ ht-degree: 0%
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">线上/线下受众激活</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=zh-Hans">线上/线下受众激活</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">通过 Experience Platform 和应用程序进行激活</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans">通过 Experience Platform 和应用程序进行激活</a>
           </li>
         </ul>
       </td>
@@ -256,22 +256,22 @@ ht-degree: 0%
       <td colspan="1">Target</td>
       <td colspan="1">
         <ul>
-          <li>实时客户数据平台中定义的受众可以共享到 Target，并用于 Target 提供的个性化和定位体验。 </li>
+          <li>Real-time Customer Data Platform 中定义的受众可以共享到 Target，并用于 Target 提供的个性化和定位体验。 </li>
           <li>路线图中提供了 Target 与 Experience Edge 的直接集成，以便实时获取区段成员资格和用户档案属性访问权限。</li>
         </ul>
       </td>
       <td colspan="1">
         <ul>
-          <li>可以通过 Experience Platform Web SDK 将为 Target 体验和交互收集的数据收集至 Experience Platform。此数据可用于通过实时客户数据平台构建受众以及通过 Customer Journey Analytics、Experience Platform 查询服务和数据科学工作区进行分析。</li>
+          <li>可以通过 Experience Platform Web SDK 将为 Target 体验和交互收集的数据收集至 Experience Platform。此数据可用于通过 Real-time Customer Data Platform 构建受众以及通过 Customer Journey Analytics、Experience Platform 查询服务和数据科学工作区进行分析。</li>
         </ul>
       </td>
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">线上/线下受众激活</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=zh-Hans">线上/线下受众激活</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">通过 Experience Platform 和应用程序进行激活</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans">通过 Experience Platform 和应用程序进行激活</a>
           </li>
         </ul>
       </td>
