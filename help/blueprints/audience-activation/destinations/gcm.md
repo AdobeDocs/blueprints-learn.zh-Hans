@@ -1,79 +1,93 @@
 ---
-title: 使用线上和线下数据激活 Blueprint
-description: 线上/线下受众激活。
-solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+title: 激活Google客户匹配
+description: 激活FGoogle客户匹配。
+solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
-source-git-commit: f1477d39a2b2349708ad74625bab6c5f4012ae1e
+source-git-commit: 0a0181a5fd84a645344fadefd47838237807c97c
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 79%
+source-wordcount: '1010'
+ht-degree: 3%
 
 ---
 
-# 使用线上和线下数据激活 Blueprint
 
-将线下属性和事件（如线下订单、交易、CRM 或忠诚度数据）与线上行为结合使用，实现线上定位和个性化。
+# 激活FGoogle客户匹配
 
-将受众激活到基于用户档案的已知目的地（如电子邮件提供商、社交网络和广告目的地）。
-
-[使用 Experience Cloud 应用程序的受众和用户档案激活 Blueprint](platform-and-applications.md) 中提供了更多详细信息，该 Blueprint 特定于 Experience Platform 和 Experience Cloud 应用程序之间的集成。
+从多个来源摄取客户数据以构建客户的单个配置文件视图，对这些配置文件进行分段以构建营销和个性化的受众，将这些受众共享到社交广告网络(如Google客户匹配)，以针对这些受众定位和个性化促销活动。 Google客户匹配允许您使用在线和离线数据，跨Google自有和运营的资产访问客户并与其重新互动，例如：搜索、购物、Gmail和YouTube。
 
 ## 用例
 
 * 受众定位，针对社交和广告目的地上的已知受众。
 * 具有线上和线下属性的线上个性化。
-* 激活已知渠道（如电子邮件和短信）的受众。
 
 ## 应用程序
 
-* Adobe Experience Platform    
-* [!UICONTROL Real-time Customer Data Platform]
+* Real-time Customer Data Platform  
 
 ## 架构
 
-### 使用线上和线下数据以及目的地激活
-
-<img src="assets/online_offline_activation.svg" alt="线上/线下受众激活 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
-<br>
-
-## 护栏
-
-[请参阅“受众和用户档案激活概述”页上的护栏概述。](overview.md)
+<img src="../assets/gcm.png" alt="Google客户匹配激活的参考架构" style="width:80%; border:1px solid #4a4a4a" />
 
 ## 实施步骤
 
-1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
-1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
-1. 在架构上[配置正确的身份和身份命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)，以确保摄入的数据可以拼接到统一的用户档案中。
-1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
-1. [将数据摄入](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans) Experience Platform。
-1. 在 Experience Platform 和 Audience Manager 之间[设置 [!UICONTROL Real-time Customer Data Platform] 区段共享](https://www.adobe.com/go/audiences)，以便将 Experience Platform 中定义的受众共享给 Audience Manager。
-1. 在 Experience Platform 中[创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=zh-Hans)。系统自动确定以批次还是流式评估区段。
-1. [配置目的地](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=zh-Hans)，以共享用户档案属性和受众成员资格到所需目的地。
+1. 配置要在配置文件数据源中使用的身份命名空间。
+   * 使用开箱即用的命名空间，如电子邮件、电子邮件SHA256哈希（如果可用）。
+   * Google客户匹配包含一个受支持身份的列表。 要激活到Google客户匹配，要激活的配置文件中必须存在一个受支持的标识。
+   * Google客户匹配当前支持以下身份：GAID、IDFA、phone_sha256_e.164、email_lc_sha256、user_id。
+   * 有关更多详细信息，请参阅 [Google客户匹配目标指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html).
+   * 创建自定义命名空间，其中开箱即用的命名空间对适用的标识不可用。
+1. 配置配置文件数据源架构和数据集。
+   * 为所有用户档案记录源数据创建用户档案记录架构。
+      * 为每个架构指定主标识和次标识。
+      * 启用用于配置文件摄取的架构。
+   * 为所有配置文件记录源数据创建配置文件记录数据集，并分配关联的架构。
+      * 为配置文件摄取启用数据集。
+   * 为所有基于配置文件时间序列的源数据创建配置文件体验事件架构。
+      * 为架构指定主标识和次标识。
+   * 启用用于配置文件摄取的架构。
+   * 为所有配置文件体验事件源数据创建配置文件体验事件数据集，并分配关联的架构。
+      * 为配置文件摄取启用数据集。
+1. 使用源连接器将源数据摄取到上面配置的关联数据集。
+   * 使用凭据配置源连接器帐户。
+   * 配置数据流，以按照指定的时间表将数据从源文件或文件夹位置摄取到指定数据集。
+   * 将源数据中的任何字段映射到目标架构。
+   * 将任何字段转换为正确的格式，以便将摄取转换为Experience Platform。
+      * 日期转换
+      * 在适当时转换为小写 — 如电子邮件地址
+      * 模式转换（例如电话号码）
+      * 为体验事件记录添加唯一记录ID（如果源数据中不存在）。
+      * 转换数组和映射类型字段，以确保数组和映射的映射和建模正确，以便在Experience Platform中进行分段。
+1. 配置配置文件合并策略，以确保身份图的正确配置以及合并配置文件时应包含哪些数据集。
+1. 执行数据流后，确保成功摄取配置文件数据，且未出现错误。
+   * Inspect是多个用户档案的身份图，可确保正确处理身份关系。
+   * Inspect多个配置文件的属性和事件，以确保向配置文件正确摄取属性和事件。
+1. 创作区段以创建用户档案受众
+   * 在区段生成器中根据属性和事件使用规则生成区段。
+   * 保存区段以进行评估。 区段将按指定的计划每天评估一次。
+      * 如果区段规则符合流分段的条件，则在为用户档案摄取新的流数据时，将评估区段。 在计划的批量分段期间，流区段也将每天评估一次。
+1. 确保区段结果符合预期。
+   * 查看给定区段的区段结果计数。
+   * 调查应包含在区段中的配置文件，以验证区段成员资格是否包含在配置文件的区段成员资格部分中。
+1. 在目标配置中配置将受众交付到目标。
+   * 请参阅 [Google客户匹配目标指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html) 有关配置Facebook目标的更多详细信息。
+   * 配置目标时，选择要激活到目标的受众。
+   * 确定您希望目标数据流开始向目标传送受众的计划开始日期。
+   * 每个目标都具有将要发送的必需属性和可选属性。
+      * 对于Google客户匹配，必须包含其中一个必需的标识，该标识用于将Experience Platform中受众的用户档案与Google客户匹配可定位的用户档案进行匹配。
+   * 每个目标还具有指定的提交类型，无论是流传送还是批处理传送，还是基于文件或JSON有效负载。
+      * 对于Google客户匹配，受众成员身份将以流式方式以JSON格式交付到Google客户匹配端点。
+      * 在Experience Platform中进行流式或批量分段评估后，将以流式方式提供受众成员资格。
+1. 确保目标流程已按预期将受众交付到目标。
+   * 检查监控界面以确认已向受众发送预期用户档案数。 受众大小应反映激活的用户档案预期数量，并注意到特定目标(如Google客户匹配)将需要特定字段（如电子邮件哈希标识），如果受众成员的用户档案中不存在，则不会将其激活到目标。
+   * 检查是否存在跳过的配置文件标识缺失或缺少必需的属性。
+   * 检查是否存在需要解决的任何其他错误。
+1. 验证是否已使用预期受众成员资格数将受众激活到最终目标。
+   * 完成激活流程后，切换到您的Google Ads帐户。 激活的区段以客户列表的形式显示在您的Google帐户中。 请注意，根据区段大小，某些受众不会填充，除非要提供的活动用户超过100个。
 
-## 实施注意事项
+## 护栏
 
-* 要将用户档案数据共享到目的地，您需要在目的地有效负荷中包含目的地使用的特定身份值。任何目标目的地必需的身份都必须被摄入 Platform，并配置为[!UICONTROL 实时客户档案]的身份。
-
-### 从 Real-time Customer Data Platform 共享受众到 Audience Manager
-
-* 无论是在批处理中还是流传输中发生的区段评估，一旦区段评估完成并写入实时客户档案，RT-CDP 中的受众成员资格就会以流传输方式共享到 Audience Manager。如果符合条件的用户档案包含相关用户档案设备的区域路由信息，则 RTCDP 的受众成员资格将在关联的 Audience Manager Edge 上以流传输方式判断资格。如果将区域路由信息应用于过去14天内具有时间戳的用户档案，则会在流Audience Manager边缘中评估该信息。 如果RTCDP中的用户档案不包含区域路由信息或区域路由信息大于14天，则会将用户档案成员资格发送到Audience Manager中心位置，以便进行批量评估和激活。 符合边缘激活资格的配置文件将在RTCDP区段鉴别后的几分钟内激活，不符合边缘激活资格的配置文件将在Audience Manager中心获得资格，并且可能有12-24小时的处理时间。
-
-* 可以收集存储了Audience Manager配置文件的Edge的区域路由信息，以便从Audience Manager、访客ID服务、Analytics、Launch或直接从Web SDK作为单独的配置文件记录类数据集，并使用“数据捕获区域信息”XDM字段组进行Experience Platform。
-
-* 对于从 Experience Platform 共享受众到 Audience Manager 的激活方案，会自动共享以下身份：IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。当前，不共享客户命名空间。
-
-当所需目的地身份包括在[!UICONTROL 实时客户档案]中时，或者在[!UICONTROL 实时客户档案]中的身份可以与在 Audience Manager 中链接的所需目的地身份相关时，可以通过 Audience Manager 目的地共享来自 Experience Platform 的受众。
+[配置文件和分段护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 
 ## 相关文档
 
-* [[!UICONTROL Real-time Customer Data Platform] 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform.html)
-* [用户档案和分段指南](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
-* [分段文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans)
-* [目的地文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans)
-
-## 相关视频和教程
-
-* [[!UICONTROL Real-time Customer Data Platform] 概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hans)
-* [[!UICONTROL Real-time Customer Data Platform] 演示](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=zh-Hans)
-* [创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+激活Google客户匹配 —  [目标配置](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html)

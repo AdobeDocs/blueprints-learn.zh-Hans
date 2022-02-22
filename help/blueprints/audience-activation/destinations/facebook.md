@@ -3,13 +3,13 @@ title: 激活Facebook自定义受众
 description: 激活Facebook自定义受众。
 solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
-source-git-commit: f1477d39a2b2349708ad74625bab6c5f4012ae1e
+exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
+source-git-commit: 051b094412419363e5e2406f2e436cc528bd409e
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '957'
 ht-degree: 3%
 
 ---
-
 
 # 激活Facebook自定义受众
 
@@ -18,7 +18,10 @@ ht-degree: 3%
 ## 用例
 
 * 受众定位，针对社交和广告目的地上的已知受众。
-* 具有线上和线下属性的线上个性化。应用程序
+* 具有线上和线下属性的线上个性化。
+
+## 应用程序
+
 * Real-time Customer Data Platform  
 
 ## 架构
@@ -31,7 +34,7 @@ ht-degree: 3%
    * 使用开箱即用的命名空间，如电子邮件、电子邮件SHA256哈希（如果可用）。
    * Facebook有一个受支持身份的列表。 要激活到Facebook自定义受众，要激活的用户档案中必须存在一个受支持的标识。
    * facebook当前支持以下标识：GAID、IDFA、phone_sha256、email_lc_sha256、extern_id。
-   * 有关更多详细信息，请参阅 [Facebook目标指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en).
+   * 有关更多详细信息，请参阅 [Facebook目标指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html).
    * 创建自定义命名空间，其中开箱即用的命名空间对适用的标识不可用。
 1. 配置配置文件数据源架构和数据集。
    * 为所有用户档案记录源数据创建用户档案记录架构。
@@ -66,7 +69,7 @@ ht-degree: 3%
    * 查看给定区段的区段结果计数。
    * 调查应包含在区段中的配置文件，以验证区段成员资格是否包含在配置文件的区段成员资格部分中。
 1. 在目标配置中配置将受众交付到目标。
-   * 请参阅 [Facebook目标指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en) 有关配置Facebook目标的更多详细信息。
+   * 请参阅 [Facebook目标指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html) 有关配置Facebook目标的更多详细信息。
    * 配置目标时，选择要激活到目标的受众。
    * 确定您希望目标数据流开始向目标传送受众的计划开始日期。
    * 每个目标都具有将要发送的必需属性和可选属性。
@@ -87,4 +90,4 @@ ht-degree: 3%
 
 ## 相关文档
 
-激活Facebook自定义受众 —  [目标配置](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en)
+激活Facebook自定义受众 —  [目标配置](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)
