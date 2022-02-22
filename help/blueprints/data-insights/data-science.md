@@ -5,9 +5,9 @@ solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '453'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 1. 选择语言。支持 Python 和 PySpark。
 1. 在笔记本中[创作模型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=zh-Hans)。
 1. [训练模型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=zh-Hans)。
-1. [对模型进行评分](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en)，以使用目标数据生成预测。
+1. [对模型进行评分](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=zh-Hans)，以使用目标数据生成预测。
 1. [如果将模型结果推送到[!UICONTROL 实时客户档案]，则为用户档案启用模型结果数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=zh-Hans)。
 
 ## 相关文档
