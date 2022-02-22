@@ -6,7 +6,7 @@ kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
 ht-degree: 100%
 
@@ -21,4 +21,4 @@ ht-degree: 100%
 | Blueprint | 描述 | Experience Cloud 应用程序 |
 |---|---|---|
 | **[数据准备和摄入](ingestion.md)** | <ul><li>数据准备和摄入 Blueprint 包含准备数据并将其摄入到 Adobe Experience Platform 的所有方法。</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
-| **[服务器端企业数据收集](server-side-collection.md)** | <ul><li>激活到基于用户档案的已知目的地（如电子邮件提供商、社交网络和广告目的地）。 </li><li>将线下属性和事件（如线下订单、交易、CRM 或忠诚度数据）与线上行为结合使用，实现线上定位和个性化。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL 实时客户数据平台]</li><li>Adobe Audience Manager（可选）</li></ul> |
+| **[服务器端企业数据收集](server-side-collection.md)** | <ul><li>激活到基于用户档案的已知目的地（如电子邮件提供商、社交网络和广告目的地）。 </li><li>将线下属性和事件（如线下订单、交易、CRM 或忠诚度数据）与线上行为结合使用，实现线上定位和个性化。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager（可选）</li></ul> |
