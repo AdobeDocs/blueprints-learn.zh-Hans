@@ -5,9 +5,9 @@ landing-page-description: 将 Web 个性化与电子邮件和其他已知和匿�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 91db73c9fb14d461ee62444199c3d053bd094639
+source-git-commit: 106f0f8c68cd77cc187f03d406b24baf1032feba
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1172'
 ht-degree: 68%
 
 ---
@@ -63,8 +63,8 @@ ht-degree: 68%
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq"><span style="font-weight:400;font-style:normal">Real-time Customer Data Platform通过受众共享服务方法将受众流式和批量共享到Target并Audience Manager</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal"> — 通过受众共享服务，将流受众和批量受众从Real-time Customer Data Platform共享到Target，并Audience Manager。 要实时评估受众，需要集成模式 1 中概述的 WebSDK 和实时受众评估。</span></td>
-    <td class="tg-73oq"> - 必须配置通过受众共享服务的受众投影。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。<br>- 必须将身份解析为 ECID 才能共享到 Edge，以便 Target 对其执行操作。<br> — 此集成不需要WebSDK部署。</td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal"> — 通过受众共享服务，将流受众和批量受众从Real-time Customer Data Platform共享到Target，并Audience Manager。 当需要从第三方数据和Audience Manager中的受众进行额外扩充时，可以利用此集成模式。 否则，首选集成模式1和2。 要实时评估受众，需要集成模式 1 中概述的 WebSDK 和实时受众评估。</span></td>
+    <td class="tg-73oq"> - 必须配置通过受众共享服务的受众投影。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。<br>- 必须将身份解析为 ECID 才能共享到 Edge，以便 Target 对其执行操作。<br>- 此集成不需要 WebSDK 部署。</td>
   </tr>
 </tbody>
 </table>
@@ -115,7 +115,7 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 1. [实施 Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=zh-Hans)（可选）
 1. [实施 Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=zh-Hans)（可选）
 1. [实施 Experience Platform 和[!UICONTROL 实时客户档案]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=zh-Hans)
-1. 实施 [Experience Cloud Identity 服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=zh-Hans)或者 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans). Experience PlatformWeb SDK是实时边缘分段所必需的，但将流受众和批量受众从Real-time Customer Data Platform共享到Target时则不需要。 请注意，目前不支持通过Mobile SDK和API进行实时分段。
+1. 实施 [Experience Cloud Identity 服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=zh-Hans)或者 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans) . Experience PlatformWeb SDK是实时边缘分段所必需的，但将流受众和批量受众从Real-time Customer Data Platform共享到Target时则不需要。 请注意，目前不支持通过Mobile SDK和API进行实时分段。
 1. [在 Real-time Customer Data Platform 中启用将 Adobe Target 作为目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans)或用于受众共享方法 [请求为 Experience Platform 与 Adobe Target 之间的受众共享进行配置（共享受众）](https://www.adobe.com/go/audiences)以便将受众从 Experience Platform 共享到 Target。
 
 ## 相关文档
@@ -135,7 +135,7 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 
 ### 教程
 
-* [使用实时CDP和Adobe Target实现下一次点击的个性化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=en)
+* [使用 Real-time CDP 和 Adobe Target 实现下一次点击的个性化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=zh-Hans)
 
 ## 相关博客帖子
 
