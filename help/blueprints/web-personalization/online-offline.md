@@ -5,9 +5,9 @@ landing-page-description: 将 Web 个性化与电子邮件和其他已知和匿�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 7d614edd9d6db1d6da936c79f4de9bb66db72c0b
+source-git-commit: 4d02197b437c167a90cbadf16b0b19fc733a9f65
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1465'
 ht-degree: 50%
 
 ---
@@ -51,19 +51,19 @@ ht-degree: 50%
   <tr>
     <td class="tg-0lax">1</td>
 <td class="tg-73oq">对从Real-time Customer Data Platform共享到Target的Edge进行实时区段评估</td>
-    <td class="tg-0lax"> - 在 Edge 上实时评估受众以进行同页或下一页个性化。<br> — 此外，在流或批处理中评估的任何区段也将投影到边缘网络，以包含在边缘区段评估和个性化中。</td>
+    <td class="tg-0lax"> - 在 Edge 上实时评估受众以进行同页或下一页个性化。<br> — 此外，任何以流方式或批量方式评估的区段也将投影到边缘网络，以包含在边缘区段评估和个性化中。</td>
     <td class="tg-73oq"> — 必须在Experience Edge中配置数据流，并启用Target和Experience Platform扩展，数据流ID将在Target目标配置中提供。<br> — 必须在Real-time Customer Data Platform目标中配置目标。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。<br>- 必须实施 WebSDK。<br> — 当前不提供基于Mobile SDK和API的实施</td> 
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
     <td class="tg-73oq">通过Edge方法从Real-time Customer Data Platform到Target的流式受众和批量受众共享</td>
-    <td class="tg-0lax"> — 通过边缘网络将来自Real-time Customer Data Platform的流受众和批量受众共享到Target。 要实时评估受众，需要集成模式 1 中概述的 WebSDK 和实时受众评估。</td>
-    <td class="tg-73oq"> — 必须在Experience Edge中配置数据流，数据流ID将在Target目标配置中提供 — 尽管在使用AT.js实施方法时，不需要为个性化或共享流和批量受众实施此数据流，但必须在边缘网络中进行配置。<br> — 必须在Real-time Customer Data Platform目标中配置目标。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。<br> — 将流受众和批量受众共享到Target时不需要WebSDK，不过需要它来启用实时边缘区段评估，如集成模式1中所述。 <br> — 如果使用AT.js，则仅支持与ECID标识命名空间的配置文件集成。 <br> — 对于Edge上的自定义身份命名空间查找，需要WebSDK部署，并且必须在身份映射中将每个身份设置为身份。</td>
+    <td class="tg-0lax"> — 通过边缘网络将来自Real-time Customer Data Platform的流受众和批量受众共享到Target。 要实时评估受众，需要集成模式 1 中概述的 WebSDK 和实时受众评估。<br> — 此集成通常用于使用传统SDK共享流受众和批量受众，而不是迁移到Edge Collection和WebSDK，后者支持实时受众以及流受众和批量受众，如集成协议1中所述。</td>
+    <td class="tg-73oq"> — 数据流必须在Experience Edge中配置，数据流ID将在Target目标配置中提供。<br> — 必须在Real-time Customer Data Platform目标中配置目标。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。<br> — 将流受众和批量受众共享到Target时不需要WebSDK，不过需要它来启用实时边缘区段评估，如集成模式1中所述。 <br> — 如果使用AT.js，则仅支持与ECID标识命名空间的配置文件集成。 <br> — 对于Edge上的自定义身份命名空间查找，需要WebSDK部署，并且必须在身份映射中将每个身份设置为身份。</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq"><span style="font-weight:400;font-style:normal">通过受众共享服务方法从Real-time Customer Data Platform到Target和Audience Manager进行流式和批量受众共享</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal"> — 通过受众共享服务，将流受众和批量受众从Real-time Customer Data Platform共享到Target，并Audience Manager。 当需要从第三方数据和Audience Manager中的受众进行额外扩充时，可以利用此集成模式。 否则，首选集成模式1和2。 要实时评估受众，需要集成模式 1 中概述的 WebSDK 和实时受众评估。</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal"> — 通过受众共享服务，将流受众和批量受众从Real-time Customer Data Platform共享到Target，并Audience Manager。<br>  — 当需要从第三方数据和Audience Manager中的受众进行额外扩充时，可以利用此集成模式。 否则，首选集成模式1和2。 要实时评估受众，需要集成模式 1 中概述的 WebSDK 和实时受众评估。</span></td>
     <td class="tg-73oq"> - 必须配置通过受众共享服务的受众投影。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。<br>- 必须将身份解析为 ECID 才能共享到 Edge，以便 Target 对其执行操作。<br>- 此集成不需要 WebSDK 部署。</td>
   </tr>
 </tbody>
