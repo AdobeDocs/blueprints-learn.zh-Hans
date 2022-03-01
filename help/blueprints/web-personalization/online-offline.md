@@ -5,10 +5,10 @@ landing-page-description: 将 Web 个性化与电子邮件和其他已知和匿�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 2b2e9a7b849b71ac4b827a3783820a7e4b8ad6f1
+source-git-commit: bf2fd224c0eb3e4933dd39a9c26aeaf613fe5abc
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 47%
+source-wordcount: '1521'
+ht-degree: 48%
 
 ---
 
@@ -52,24 +52,24 @@ ht-degree: 47%
     <td class="tg-0lax">1</td>
 <td class="tg-73oq">对从Real-time Customer Data Platform共享到Target的Edge进行实时区段评估</td>
     <td class="tg-0lax"> - 在 Edge 上实时评估受众以进行同页或下一页个性化。<br> — 此外，任何以流方式或批量方式评估的区段也将投影到边缘网络，以包含在边缘区段评估和个性化中。</td>
-    <td class="tg-73oq"><br> — 实施模式1，如下所述。<br> — 必须实施Web/Mobile SDK。<br> — 请注意，当前不提供基于Mobile SDK和API的实时分段支持<br> — 必须在Experience Edge中配置数据流，并启用Target和Experience Platform扩展，数据流ID将在Target目标配置中提供。<br> — 必须在Real-time Customer Data Platform目标中配置目标。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。</td> 
+    <td class="tg-73oq"> — 实施模式1，如下所述。<br> — 必须实施Web/Mobile SDK。<br> — 请注意，当前不提供基于Mobile SDK和API的实时分段支持<br> — 必须在Experience Edge中配置数据流，并启用Target和Experience Platform扩展，数据流ID将在Target目标配置中提供。<br> — 必须在Real-time Customer Data Platform目标中配置目标。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。</td> 
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
     <td class="tg-73oq">通过Edge方法从Real-time Customer Data Platform到Target的流式受众和批量受众共享</td>
     <td class="tg-0lax"> — 通过边缘网络将来自Real-time Customer Data Platform的流受众和批量受众共享到Target。 要实时评估受众，需要集成模式 1 中概述的 WebSDK 和实时受众评估。<br> — 此集成通常用于使用传统SDK共享流受众和批量受众，而不是迁移到Edge Collection和WebSDK，后者支持实时受众以及流受众和批量受众，如集成协议1中所述。</td>
-    <td class="tg-73oq"><br> — 实施模式1或2如下所述。<br> — 将流受众和批量受众共享到Target时，不需要Web/Mobile SDK，不过需要它来启用实时边缘区段评估，如集成模式1中所述。 <br> — 如果使用AT.js，则仅支持与ECID标识命名空间的配置文件集成。 <br> — 对于Edge上的自定义身份命名空间查找，需要WebSDK部署，并且必须在身份映射中将每个身份设置为身份。<br> — 数据流必须在Experience Edge中配置，数据流ID将在Target目标配置中提供。<br> — 必须在Real-time Customer Data Platform目标中配置目标。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。</td>
+    <td class="tg-73oq"> — 实施模式1或2如下所述。<br> — 将流受众和批量受众共享到Target时，不需要Web/Mobile SDK，不过需要它来启用实时边缘区段评估，如集成模式1中所述。 <br> — 如果使用AT.js，则仅支持与ECID标识命名空间的配置文件集成。 <br> — 对于Edge上的自定义身份命名空间查找，需要WebSDK部署，并且必须在身份映射中将每个身份设置为身份。<br> — 数据流必须在Experience Edge中配置，数据流ID将在Target目标配置中提供。<br> — 必须在Real-time Customer Data Platform目标中配置目标。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq"><span style="font-weight:400;font-style:normal">通过受众共享服务方法从Real-time Customer Data Platform到Target和Audience Manager进行流式和批量受众共享</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal"> — 通过受众共享服务，将流受众和批量受众从Real-time Customer Data Platform共享到Target，并Audience Manager。<br>  — 当需要从第三方数据和Audience Manager中的受众进行额外扩充时，可以利用此集成模式。 否则，首选集成模式1和2。 要实时评估受众，需要集成模式 1 中概述的 WebSDK 和实时受众评估。</span></td>
-    <td class="tg-73oq"><br> — 实施模式1或2如下所述。<br> — 此集成不需要Web/Mobile SDK部署。<br> - 必须配置通过受众共享服务的受众投影。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。<br>- 必须将身份解析为 ECID 才能共享到 Edge，以便 Target 对其执行操作。</td>
+    <td class="tg-73oq"> — 实施模式1或2如下所述。<br> — 此集成不需要Web/Mobile SDK部署。<br> - 必须配置通过受众共享服务的受众投影。<br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。<br>- 必须将身份解析为 ECID 才能共享到 Edge，以便 Target 对其执行操作。</td>
   </tr>
 </tbody>
 </table>
 
-## 场景1和场景2的架构 — 通过边缘网络进行实时、流式和批量受众共享
+## 场景1和2 — 将实时、流式和批量受众共享到Adobe Target
 
 架构
 
@@ -79,11 +79,11 @@ ht-degree: 47%
 
 <img src="assets/RTCDP+Target_flow.png" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
 
-集成模式1的概述架构
+用例情景1和2的概述架构
 
 <img src="assets/personalization_with_apps.png" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a"/>
 
-### 情景1的实施步骤，还支持情景2
+### 用例情景1的实施步骤，还支持用例情景2
 
 1. 为您的 Web 或移动应用程序[实施 Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=zh-Hans)
 1. [实施 Experience Platform 和[!UICONTROL 实时客户档案]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=zh-Hans)
@@ -91,7 +91,7 @@ ht-degree: 47%
 1. [使用边缘数据流配置边缘网络](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
 1. [在Adobe Target中启用Real-time Customer Data Platform作为目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans)
 
-## 场景3的架构 — 通过受众共享服务将受众流和批量共享到Adobe Target和Audience Manager
+## 场景3 — 通过受众共享服务将受众流和批量共享到Adobe Target和Audience Manager
 
 架构
 
@@ -108,7 +108,7 @@ ht-degree: 47%
 1. （可选） [使用边缘数据流配置边缘网络](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html) (仅当集成模式2需要使用此参数时，才需要将受众共享到Audience Manager，或通过Audience Manager受众或数据扩充受众)。
 1. （可选） [在Adobe Target中启用Real-time Customer Data Platform作为目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) 与通过受众共享服务和Audience Manager将流受众和批量受众从Real-time Customer Data Platform直接共享到Edge。
 
-### 实施模式
+## 实施模式
 
 通过多种实施方法支持在线和离线个性化。
 
@@ -119,9 +119,10 @@ ht-degree: 47%
 
 <br>
 序列图
+
 <img src="assets/RTCDP+Target_sequence.png" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
 
-### 实施模式2 — 支持用例情景3和2。 特定于应用程序的SDK
+### 实施模式2 — 支持用例情景2和3。 特定于应用程序的SDK
 
 使用传统的特定于应用程序的SDK（例如，AT.js和AppMeasurement.js）
 <img src="assets/app_sdk_flow.png" alt="特定于应用程序的 SDK 方法的参考架构" style="width:80%; border:1px solid #4a4a4a" />
@@ -134,8 +135,8 @@ ht-degree: 47%
 
 身份先决条件
 
-* 在边缘网络和WebSDK中利用上述集成模式1时，可以利用任何主标识。 首次登录个性化要求个性化请求集主标识与Real-time Customer Data Platform中用户档案的主标识相匹配。 匿名设备与已知客户之间的身份拼合会在中心进行处理，然后投影到边缘。 因此，如果将主标识设置为设备标识符，则在匿名和已知用户档案已统一的后续会话之前，将不应用已知客户数据。
-* 如上面的集成模式3中所述，在使用受众共享服务时，要将受众从Adobe Experience Platform共享到Adobe Target，需要将ECID用作标识。
+* 在边缘网络和WebSDK中利用上述实施模式1时，可以利用任何主标识。 首次登录个性化要求个性化请求集主标识与Real-time Customer Data Platform中用户档案的主标识相匹配。 匿名设备与已知客户之间的身份拼合会在中心进行处理，然后投影到边缘。
+* 将受众从Adobe Experience Platform共享到Adobe Target时，在使用受众共享服务时，需要使用ECID作为标识，如上面的用例情景3中所述。
 * 替代身份也可用于通过Audience Manager将Experience Platform受众共享到Adobe Target。 Experience Platform通过以下受支持的命名空间激活受众以Audience Manager：IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。 请注意，Audience Manager 和 Target 通过 ECID 身份解析受众成员关系，因此要将最终受众共享到 Adobe Target，仍然需要 ECID。
 
 ## 相关文档
