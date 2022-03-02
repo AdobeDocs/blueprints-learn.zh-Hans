@@ -5,10 +5,10 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: bdbf083e60a94b29debb70976aad47a083b41e32
+source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 80%
+source-wordcount: '175'
+ht-degree: 82%
 
 ---
 
@@ -30,13 +30,14 @@ ht-degree: 80%
 + 受众和用户档案激活 {#audience-activation}
    + [概述](/help/blueprints/audience-activation/overview.md)
    + [匿名受众激活](/help/blueprints/audience-activation/anonymous.md)
-   + [使用在线和离线数据激活](/help/blueprints/audience-activation/online-offline.md)
-   + 激活社交和广告渠道{#audience-activation}
-      + [激活Facebook自定义受众](/help/blueprints/audience-activation/destinations/facebook.md)
-      + [激活Google客户匹配](/help/blueprints/audience-activation/destinations/gcm.md)
-   + [激活到文件和企业流传输目标](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + 已知的客户激活{#known-customer-audience-activation}
+      + [概述](/help/blueprints/audience-activation/known.md)
+      + 激活社交和广告渠道{#audience-activation}
+         + [激活Facebook自定义受众](/help/blueprints/audience-activation/destinations/facebook.md)
+         + [激活Google客户匹配](/help/blueprints/audience-activation/destinations/gcm.md)
+      + [激活到文件和企业流传输目标](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [客户活动中心](/help/blueprints/audience-activation/customer-activity.md)
    + [使用 Experience Cloud 应用程序激活](/help/blueprints/audience-activation/platform-and-applications.md)
-   + [客户活动中心](/help/blueprints/audience-activation/customer-activity.md)
 + B2B 激活与营销 {#b2b-activation}
    + [概述](/help/blueprints/b2b/overview.md)
    + [B2B 激活](/help/blueprints/b2b/b2bactivation.md)
