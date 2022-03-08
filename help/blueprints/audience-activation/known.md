@@ -4,10 +4,10 @@ description: 线上/线下受众激活。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: aba3bfcecac07cb51393fef9e6278d9d6af3e377
+source-git-commit: 7611084c357e721f954ff980ef88b965609dd5ed
 workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 76%
+ht-degree: 74%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 76%
 
 ## 护栏
 
-[请参阅“受众和用户档案激活概述”页上的护栏概述。](overview.md)
+[请参阅受众和配置文件激活概述页面上概述的防护](overview.md).
 
 ## 实施步骤
 
