@@ -4,10 +4,10 @@ description: 线上/线下受众激活。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 7611084c357e721f954ff980ef88b965609dd5ed
+source-git-commit: 20dd657a85ffeb8ae2f160855369643c2f2743bb
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 74%
+source-wordcount: '473'
+ht-degree: 85%
 
 ---
 
@@ -56,15 +56,7 @@ ht-degree: 74%
 
 * 要将用户档案数据共享到目的地，您需要在目的地有效负荷中包含目的地使用的特定身份值。任何目标目的地必需的身份都必须被摄入 Platform，并配置为[!UICONTROL 实时客户档案]的身份。
 
-### 从 Real-time Customer Data Platform 共享受众到 Audience Manager
-
-* 无论是在批处理中还是流传输中发生的区段评估，一旦区段评估完成并写入实时客户档案，RT-CDP 中的受众成员资格就会以流传输方式共享到 Audience Manager。如果符合条件的用户档案包含相关用户档案设备的区域路由信息，则 RTCDP 的受众成员资格将在关联的 Audience Manager Edge 上以流传输方式判断资格。如果将区域路由信息应用于过去14天内具有时间戳的用户档案，则会在流Audience Manager边缘中评估该信息。 如果RTCDP中的用户档案不包含区域路由信息或区域路由信息大于14天，则会将用户档案成员资格发送到Audience Manager中心位置，以便进行批量评估和激活。 符合边缘激活资格的配置文件将在RTCDP区段鉴别后的几分钟内激活，不符合边缘激活资格的配置文件将在Audience Manager中心获得资格，并且可能有12-24小时的处理时间。
-
-* 可以收集存储了Audience Manager配置文件的Edge的区域路由信息，以便从Audience Manager、访客ID服务、Analytics、Launch或直接从Web SDK作为单独的配置文件记录类数据集，并使用“数据捕获区域信息”XDM字段组进行Experience Platform。
-
-* 对于从 Experience Platform 共享受众到 Audience Manager 的激活方案，会自动共享以下身份：IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。当前，不共享客户命名空间。
-
-当所需目的地身份包括在[!UICONTROL 实时客户档案]中时，或者在[!UICONTROL 实时客户档案]中的身份可以与在 Audience Manager 中链接的所需目的地身份相关时，可以通过 Audience Manager 目的地共享来自 Experience Platform 的受众。
+* 请参阅 [使用Experience Cloud应用程序Blueprint激活受众和配置文件](platform-and-applications.md) 有关将受众从Real-time Customer Data Platform共享到Audience Manager、Analytics、Target、Campaign和Journey Optimizer的其他详细信息。
 
 ## 相关文档
 
