@@ -4,10 +4,10 @@ description: 在 Experience Platform 中管理用户档案和受众，并将其�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 20dd657a85ffeb8ae2f160855369643c2f2743bb
+source-git-commit: 8d9875595cb5cb4a4815fff9213defc2921e647d
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Experience Cloud应用程序激活与 [已知的客户激活Blueprint](known.md)
 
 ## 架构
 
-[请参阅 Experience Platform 和应用程序架构的相关章节，以了解有关 Experience Platform 与 Experience Cloud 应用程序集成的其他架构图。](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=zh-Hans)
+请参阅 [Experience Platform和应用程序架构部分](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=zh-Hans) 有关与Experience Platform与Experience Cloud应用程序集成相关的其他架构图。
 
 ### 使用 Experience Cloud 应用程序的受众和用户档案激活
 
