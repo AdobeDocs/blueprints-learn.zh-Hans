@@ -5,7 +5,7 @@ exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: 7611084c357e721f954ff980ef88b965609dd5ed
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 90%
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=zh-Hans"><img alt="“触发式消息”和“Experience Platform Blueprint”的缩略图" src="customer-journeys/assets/ajo-architecture.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>跨渠道编排</strong></a></div>
-    <p><em>使用[!UICONTROL Platform]作为中心，实时发送消息并影响客户体验。</em></p>
+    <p><em>使用 [!UICONTROL Platform] 作为中心，实时发送消息并影响客户体验。</em></p>
   </td>
   <td>
     <a href="/help/blueprints/audience-activation/known.md"><img alt="已知客户激活Blueprint的缩略图图像" src="audience-activation/assets/online_offline_activation.svg" /></a>

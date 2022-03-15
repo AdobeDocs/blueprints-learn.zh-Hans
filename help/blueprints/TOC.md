@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 82%
+ht-degree: 98%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 82%
    + [匿名受众激活](/help/blueprints/audience-activation/anonymous.md)
    + 已知的客户激活{#known-customer-audience-activation}
       + [概述](/help/blueprints/audience-activation/known.md)
-      + 激活社交和广告渠道{#audience-activation}
-         + [激活Facebook自定义受众](/help/blueprints/audience-activation/destinations/facebook.md)
-         + [激活Google客户匹配](/help/blueprints/audience-activation/destinations/gcm.md)
+      + 激活社交和广告渠道 {#audience-activation}
+         + [激活到 Facebook 自定义受众](/help/blueprints/audience-activation/destinations/facebook.md)
+         + [激活到 Google Customer Match](/help/blueprints/audience-activation/destinations/gcm.md)
       + [激活到文件和企业流传输目标](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [客户活动中心](/help/blueprints/audience-activation/customer-activity.md)
    + [使用 Experience Cloud 应用程序激活](/help/blueprints/audience-activation/platform-and-applications.md)
@@ -45,15 +45,15 @@ ht-degree: 82%
    + [概述](/help/blueprints/customer-journey-analytics/overview.md)
 + 客户历程 {#customer-journeys}
    + [概述](/help/blueprints/customer-journeys/overview.md)
-   + Journey Optimizer{#journey-optimizer}
+   + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + [Journey Optimizer与Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
-      + [第三方消息传送](/help/blueprints/customer-journeys/3rd-party-messaging.md)
-   + Campaign v8{#campaign-v8}
+      + [Journey Optimizer 与 Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
+      + [第三方消息传递](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+   + Campaign v8 {#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
-   + Campaign v7{#campaign-v7}
+   + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP与Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Real-Time CDP 与 Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
 + 数据收集和准备 {#data-ingestion}
    + [概述](/help/blueprints/data-ingestion/overview.md)
    + [数据准备和摄入](/help/blueprints/data-ingestion/ingestion.md)
