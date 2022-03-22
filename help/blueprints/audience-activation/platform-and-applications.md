@@ -4,10 +4,10 @@ description: 在 Experience Platform 中管理用户档案和受众，并将其�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 8d9875595cb5cb4a4815fff9213defc2921e647d
+source-git-commit: 2b4e1f7134b240b68a432bfd70fe698ff634857a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '741'
+ht-degree: 79%
 
 ---
 
@@ -52,11 +52,13 @@ Experience Cloud应用程序激活与 [已知的客户激活Blueprint](known.md)
 
 ### 从 Real-time Customer Data Platform 共享受众到 Audience Manager
 
+* 有关更多详细信息，请参阅以下文档。 [与 Audience Manager 和其他 Experience Cloud 解决方案共享 Experience Platform 区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=zh-Hans).
+
 * 无论是在批处理中还是流传输中发生的区段评估，一旦区段评估完成并写入实时客户档案，RT-CDP 中的受众成员资格就会以流传输方式共享到 Audience Manager。如果符合条件的用户档案包含相关用户档案设备的区域路由信息，则 RTCDP 的受众成员资格将在关联的 Audience Manager Edge 上以流传输方式判断资格。如果将区域路由信息应用于具有过去 14 天内时间戳的用户档案，则会在流传输中在 Audience Manager Edge 上对其进行评估。如果 RTCDP 中的用户档案不包含区域路由信息或区域路由信息超过 14 天，则用户档案成员资格会发送到 Audience Manager 中心位置，以进行批量评估和激活。符合 Edge 激活资格的用户档案将在 RTCDP 区段资格审核后的几分钟内激活，不符合 Edge 激活资格的用户档案将在 Audience Manager 中心判断资格，并且处理时间可能在 12-24 小时。
 
 * 对于存储 Audience Manager 用户档案的 Edge 的区域路由信息，可从 Audience Manager、访客 ID 服务、Analytics、Launch 或直接从 Web SDK，使用“数据捕获区域信息”XDM 字段组以单独用户档案记录类数据集的形式收集到 Experience Platform。
 
-* 对于从 Experience Platform 共享受众到 Audience Manager 的激活方案，会自动共享以下身份：IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。当前，不共享客户命名空间。
+* 对于从Experience Platform共享受众以Audience Manager以下身份的激活方案，会自动共享以下身份：ECID、IDFA、GAID、经过哈希处理的电子邮件地址(EMAIL_LC_SHA256)、AdCloud ID。 当前，不共享客户命名空间。
 
 * 当所需目的地身份包括在[!UICONTROL 实时客户档案]中时，或者在[!UICONTROL 实时客户档案]中的身份可以与在 Audience Manager 中链接的所需目的地身份相关时，可以通过 Audience Manager 目的地共享来自 Experience Platform 的受众。
 
