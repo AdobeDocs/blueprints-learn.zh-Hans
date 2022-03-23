@@ -4,10 +4,10 @@ description: 线上/线下受众激活。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 20dd657a85ffeb8ae2f160855369643c2f2743bb
+source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 85%
+source-wordcount: '561'
+ht-degree: 70%
 
 ---
 
@@ -29,19 +29,25 @@ ht-degree: 85%
 
 * Adobe Experience Platform 
 * [!UICONTROL Real-time Customer Data Platform]
+* 还可以利用基于Audience Manager的目标来激活Facebook、LinkedIn和Google客户匹配中基于人员的目标。
 
 ## 架构
 
-### 使用线上和线下数据以及目的地激活
+### 通过Real-time Customer Data Platform激活已知客户
 
-<img src="assets/online_offline_activation.svg" alt="线上/线下受众激活 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="已知客户激活Blueprint的参考架构" style="width:80%; border:1px solid #4a4a4a" />
+<br>
+
+### 通过基于Audience Manager人员的目标激活已知客户
+
+<img src="assets/AAM_PBD.svg" alt="已知客户激活Blueprint的参考架构" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## 护栏
 
 [请参阅受众和配置文件激活概述页面上概述的防护](overview.md).
 
-## 实施步骤
+## Real-time Customer Data Platform实施步骤
 
 1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
 1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
@@ -57,6 +63,12 @@ ht-degree: 85%
 * 要将用户档案数据共享到目的地，您需要在目的地有效负荷中包含目的地使用的特定身份值。任何目标目的地必需的身份都必须被摄入 Platform，并配置为[!UICONTROL 实时客户档案]的身份。
 
 * 请参阅 [使用Experience Cloud应用程序Blueprint激活受众和配置文件](platform-and-applications.md) 有关将受众从Real-time Customer Data Platform共享到Audience Manager、Analytics、Target、Campaign和Journey Optimizer的其他详细信息。
+
+## 基于Audience Manager的目标的实施步骤
+
+* 有关实施Audience Manager的详细信息，请参阅以下内容 [文档](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=zh-Hans).
+
+* 有关在Audience Manager中实施基于人员的目标的详细信息，请参阅以下内容 [文档](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html).
 
 ## 相关文档
 

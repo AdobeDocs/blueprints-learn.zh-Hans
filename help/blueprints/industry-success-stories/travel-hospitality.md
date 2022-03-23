@@ -3,13 +3,13 @@ title: 旅游与服务行业 - 利用线上和线下数据激活
 description: 对不同渠道客户行为有一个单一整合视图，以支持实时决策。
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
+source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
+workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
 
 ---
-
 
 # 旅游和服务行业业务挑战
 
@@ -42,8 +42,4 @@ ht-degree: 100%
 
 ### Blueprint 架构
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans"><img alt="旅游和酒店业务的缩略图，通过统一的视图了解不同渠道的客户行为，从而做出实时决策。" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/online_offline_activation.svg"/></a>
-
-
-
-
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans"><img alt="旅游和酒店业务的缩略图，通过统一的视图了解不同渠道的客户行为，从而做出实时决策。" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/known_activation.svg"/></a>
