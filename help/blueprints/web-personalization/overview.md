@@ -6,15 +6,15 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: aba3bfcecac07cb51393fef9e6278d9d6af3e377
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # Web 和移动个性化
 
-Web和移动个性化让您能够跨多个应用程序使用用户档案和受众分段，以个性化和优化客户体验。 可以利用客户行为、人口统计、忠诚度级别和以前的交易记录来个性化布局、行动动员和内容。
+Web 和移动个性化解决了跨多个应用程序使用用户档案和受众分段来个性化和优化客户体验的问题。可以利用客户行为、人口统计、忠诚度级别和过往交易记录来个性化布局、行动号召和内容。
 
 <br>
 
@@ -27,7 +27,7 @@ Web和移动个性化让您能够跨多个应用程序使用用户档案和受�
 
 ## Web 和移动个性化护栏
 
-[有关受众和配置文件激活的相关护栏，请参阅配置文件和分段护栏文档。](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
+[有关受众和用户档案激活的护栏，请参阅用户档案和分段护栏文档。](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 
 <br>
 
