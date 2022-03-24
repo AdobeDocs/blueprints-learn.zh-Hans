@@ -1,16 +1,16 @@
 ---
-title: Real-Time CDP与Adobe Campaign集成模式
+title: Real-Time CDP 与 Adobe Campaign 集成模式
 description: 显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign 结合使用来提供个性化对话。
 solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
 source-git-commit: e158cb7c14970a9deb035fde50c9c070b0760203
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Real-Time CDP与Adobe Campaign集成模式
+# Real-Time CDP 与 Adobe Campaign 集成模式
 
 显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign 结合使用来提供个性化对话。
 
@@ -18,14 +18,14 @@ ht-degree: 96%
 
 ## 应用程序
 
-* Adobe Experience Platform Real-time CDP
+* Adobe Experience Platform  Real-time CDP
 * Adobe Campaign v7 或 Campaign Standard
 
 <br>
 
 ## 架构
 
-<img src="assets/rtcdp-campaign-architecture.svg" alt="批量消息和Adobe Experience Platform集成模式的参考架构" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaign-architecture.svg" alt="批次消息和 Adobe Experience Platform 集成模式的参考架构" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -71,7 +71,7 @@ ht-degree: 96%
 #### 用户档案/身份
 
 1. [创建任何客户特定的命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
-1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
+1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
 1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
 1. 为[!UICONTROL 实时客户档案]的不同视图[设置合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=zh-Hans)（可选）。
 1. 为 Adobe Campaign 使用创建区段。
