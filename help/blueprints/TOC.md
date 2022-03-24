@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 + 受众和用户档案激活 {#audience-activation}
    + [概述](/help/blueprints/audience-activation/overview.md)
    + [匿名受众激活](/help/blueprints/audience-activation/anonymous.md)
-   + 已知的客户激活{#known-customer-audience-activation}
+   + 已知客户激活 {#known-customer-audience-activation}
       + [概述](/help/blueprints/audience-activation/known.md)
       + 激活社交和广告渠道 {#audience-activation}
          + [激活到 Facebook 自定义受众](/help/blueprints/audience-activation/destinations/facebook.md)
