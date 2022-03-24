@@ -3,9 +3,9 @@ title: 数字体验 Blueprint 的用例
 description: 数字体验 Blueprint 是可重复实施的产品，用于应对战略和解决既定的业务问题。它们可加快实现价值的速度，并提供快速成功之路。
 exl-id: 7ec2b5c9-b46c-4434-b0d3-8aba863e9006
 source-git-commit: 657e94baf69ba1898a163a082fbfef36fdfd9a3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '691'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
  <tr>
   <td>受众定位，针对社交和广告目的地上的已知受众。</td>
   <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html?lang=en">已知的客户激活</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html?lang=zh-Hans">已知客户激活</a></td>
  </tr>
  <tr>
   <td>具有线上和线下属性的线上个性化。</td>
@@ -43,12 +43,12 @@ ht-degree: 98%
  <tr>
   <td>用户档案和受众激活到云存储目的地，或用于企业跟踪、存储、分析和激活客户数据和洞察的流式目的地。</td>
   <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/enterprise-destinations.html?lang=en">激活到企业目标</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/enterprise-destinations.html?lang=zh-Hans">激活到企业目标</a></td>
  </tr>
  <tr>
   <td>基于 Experience Cloud 跨客户交互渠道进行个性化和定位。</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">使用 Experience Cloud 应用程序激活</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans">使用 Experience Cloud 应用程序激活</a></td>
  </tr>
  <tr>
   <td>在 Experience Platform 和 Experience Cloud 应用程序之间共享受众和用户档案数据。</td>
@@ -56,7 +56,7 @@ ht-degree: 98%
  <tr>
   <td>为座席支持的交互（如支持和销售体验）提供更深入的消费者背景信息。通过对 Experience Platform 用户档案的查找，座席可以接收更多有关消费者的背景信息，例如最近购买、活动交互、倾向、受众成员，以及存储在实时客户档案中的其他属性和洞察。</td>
   <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/customer-activity.html?lang=en">客户活动中心</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/customer-activity.html?lang=zh-Hans">客户活动中心</a></td>
  </tr>
  <tr>
   <td>分析桌面和移动设备上的客户互动，了解客户行为并提取洞察，以优化数字客户体验。</td>
@@ -79,7 +79,7 @@ ht-degree: 98%
  <tr>
   <td>计划的电子邮件活动.</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/campaign-managed-cloud-services.html?lang=en">Campaign Managed Cloud Services</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/campaign-managed-cloud-services.html?lang=zh-Hans">Campaign Managed Cloud Services</a></td>
   <td rowspan="6" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">客户历程</td>
  </tr>
  <tr>
