@@ -1,13 +1,13 @@
 ---
 title: 客户活动中心 Blueprint
-description: '"[!UICONTROL 实时客户资料] 查找以提供代理辅助支持和销售的上下文。”'
+description: “[!UICONTROL 实时用户档案]查询可提供座席协助支持和销售的背景信息。”
 solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
 source-git-commit: 687e5d61be990b7a837e413d4643cffde4f1d584
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -49,5 +49,5 @@ ht-degree: 96%
 
 * [Adobe Experience Platform Activation 激活产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-platform0.html)
 * [[!UICONTROL 实时客户档案]文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)
-* [用户档案护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* [用户档案护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 * [用户档案查找 API](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)
