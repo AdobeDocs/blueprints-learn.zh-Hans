@@ -1,5 +1,5 @@
 ---
-title: 已知的客户激活
+title: 已知客户激活
 description: 线上/线下受众激活。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
@@ -7,15 +7,15 @@ exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 70%
+ht-degree: 82%
 
 ---
 
-# 已知的客户激活Blueprint
+# 已知客户激活 Blueprint
 
 将线下属性和事件（如线下订单、交易、CRM 或忠诚度数据）与线上行为结合使用，实现线上定位和个性化。
 
-通过内置管理控制扩展的标识符提供了更多与已知客户通信的机会。 将受众激活到基于用户档案的已知目的地（如电子邮件提供商、社交网络和广告目的地）。
+通过内置管理控制扩展的标识符为与已知客户沟通提供了更多机会。将受众激活到基于用户档案的已知目的地（如电子邮件提供商、社交网络和广告目的地）。
 
 [使用 Experience Cloud 应用程序的受众和用户档案激活 Blueprint](platform-and-applications.md) 中提供了更多详细信息，该 Blueprint 特定于 Experience Platform 和 Experience Cloud 应用程序之间的集成。
 
@@ -27,7 +27,7 @@ ht-degree: 70%
 
 ## 应用程序
 
-* Adobe Experience Platform 
+* Adobe Experience Platform  
 * [!UICONTROL Real-time Customer Data Platform]
 * 还可以利用基于Audience Manager的目标来激活Facebook、LinkedIn和Google客户匹配中基于人员的目标。
 
@@ -45,7 +45,7 @@ ht-degree: 70%
 
 ## 护栏
 
-[请参阅受众和配置文件激活概述页面上概述的防护](overview.md).
+[请参阅“受众和用户档案激活概述”页上的护栏概述](overview.md)。
 
 ## Real-time Customer Data Platform实施步骤
 
@@ -62,7 +62,7 @@ ht-degree: 70%
 
 * 要将用户档案数据共享到目的地，您需要在目的地有效负荷中包含目的地使用的特定身份值。任何目标目的地必需的身份都必须被摄入 Platform，并配置为[!UICONTROL 实时客户档案]的身份。
 
-* 请参阅 [使用Experience Cloud应用程序Blueprint激活受众和配置文件](platform-and-applications.md) 有关将受众从Real-time Customer Data Platform共享到Audience Manager、Analytics、Target、Campaign和Journey Optimizer的其他详细信息。
+* 请参阅[使用 Experience Cloud 应用程序的受众和用户档案激活 Blueprint](platform-and-applications.md)，以了解有关将受众从 Real-time Customer Data Platform 共享到 Audience Manager、Analytics、Target、Campaign 和 Journey Optimizer 的更多详细信息。
 
 ## 基于Audience Manager的目标的实施步骤
 

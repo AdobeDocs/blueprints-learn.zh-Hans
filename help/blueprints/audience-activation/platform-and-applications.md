@@ -7,7 +7,7 @@ exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 2b4e1f7134b240b68a432bfd70fe698ff634857a
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 79%
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 在 Experience Platform 中管理用户档案和受众，并将其与 Experience Cloud 应用程序共享。在 Experience Platform 中建立并共享丰富的客户区段和洞察，将其与 Experience Cloud 应用程序共享。
 
-Experience Cloud应用程序激活与 [已知的客户激活Blueprint](known.md).
+使用 Experience Cloud 应用程序的激活与[已知客户激活 Blueprint](known.md) 联系紧密。
 
 ## 用例
 
@@ -24,7 +24,7 @@ Experience Cloud应用程序激活与 [已知的客户激活Blueprint](known.md)
 
 ## 应用程序
 
-* Adobe Experience Platform 
+* Adobe Experience Platform  
 * [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform Activation
 * Experience Cloud 应用程序
@@ -35,7 +35,7 @@ Experience Cloud应用程序激活与 [已知的客户激活Blueprint](known.md)
 
 ## 架构
 
-请参阅 [Experience Platform和应用程序架构部分](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=zh-Hans) 有关与Experience Platform与Experience Cloud应用程序集成相关的其他架构图。
+请参阅 [Experience Platform 和应用程序架构的相关章节](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=zh-Hans)，以了解有关 Experience Platform 与 Experience Cloud 应用程序集成的其他架构图。
 
 ### 使用 Experience Cloud 应用程序的受众和用户档案激活
 
@@ -62,13 +62,13 @@ Experience Cloud应用程序激活与 [已知的客户激活Blueprint](known.md)
 
 * 当所需目的地身份包括在[!UICONTROL 实时客户档案]中时，或者在[!UICONTROL 实时客户档案]中的身份可以与在 Audience Manager 中链接的所需目的地身份相关时，可以通过 Audience Manager 目的地共享来自 Experience Platform 的受众。
 
-### 受众从Real-time Customer Data Platform共享到Target
+### 从 Real-time Customer Data Platform 共享受众到 Target
 
-* 请参阅 [使用在线和离线数据Blueprint进行Web/移动个性化](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html) 有关将用户档案和受众从Real-time Customer Data Platform共享到Target的其他详细信息。
+* 请参阅[使用线上和线下数据进行 Web/移动个性化 Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=zh-Hans)，以了解有关将用户档案和受众从 Real-time Customer Data Platform 共享到 Target 的更多详细信息。
 
-### 受众从Real-time Customer Data Platform共享到Campaign和Journey Optimizer
+### 从 Real-time Customer Data Platform 共享受众到 Campaign 和 Journey Optimizer
 
-* 请参阅 [客户历程Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html) 有关将用户档案和受众从Real-time Customer Data Platform共享到Campaign和Journey Optimizer的其他详细信息。
+* 请参阅[客户历程 Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html?lang=zh-Hans)，以了解有关将用户档案和受众从 Real-time Customer Data Platform 共享到 Campaign 和 Journey Optimizer 的更多详细信息。
 
 ## 相关文档
 
