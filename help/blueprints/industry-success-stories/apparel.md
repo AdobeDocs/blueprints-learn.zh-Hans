@@ -1,15 +1,15 @@
 ---
 title: 服装行业 - 通过 Experience Cloud 应用程序激活
 description: 使用多个 Blueprint 来实现实时营销、跨渠道激活和跨渠道分析。
-solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%
 
 ---
-
 
 # 服装行业业务挑战
 
@@ -47,7 +47,3 @@ ht-degree: 100%
 ### Blueprint 架构
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans"><img alt="使用受众激活、Customer Journey Analytics 和 Customer Journeys Blueprint 的服装公司缩略图" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-
-
-
-

@@ -1,15 +1,15 @@
 ---
 title: 零售行业 - 通过 Experience Cloud 应用程序激活
 description: 跨数字媒体、电子邮件、推送和 Web 渠道提供实时客户体验。
-solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: a675bc81-e76c-491a-8718-359867d63351
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 100%
 
 ---
-
 
 # 零售行业业务挑战
 
@@ -39,7 +39,3 @@ ht-degree: 100%
 ### Blueprint 架构
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans"><img alt="跨数字媒体、电子邮件、推送和 Web 渠道提供实时客户体验的零售企业缩略图" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-
-
-
-
