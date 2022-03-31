@@ -6,8 +6,8 @@ kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,25 +29,25 @@ ht-degree: 82%
 
 * Adobe Experience Platform  
 * [!UICONTROL Real-time Customer Data Platform]
-* 还可以利用基于Audience Manager的目标来激活Facebook、LinkedIn和Google客户匹配中基于人员的目标。
+* Audience Manager 基于人员的目标还可用于对 Facebook、LinkedIn 和 Google Customer Match 进行基于人员的激活。
 
 ## 架构
 
-### 通过Real-time Customer Data Platform激活已知客户
+### 通过 Real-time Customer Data Platform 的已知客户激活
 
-<img src="assets/known_activation.svg" alt="已知客户激活Blueprint的参考架构" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="已知客户激活 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
-### 通过基于Audience Manager人员的目标激活已知客户
+### 通过 Audience Manager 基于人员的目标的已知客户激活
 
-<img src="assets/AAM_PBD.svg" alt="已知客户激活Blueprint的参考架构" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="已知客户激活 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## 护栏
 
 [请参阅“受众和用户档案激活概述”页上的护栏概述](overview.md)。
 
-## Real-time Customer Data Platform实施步骤
+## Real-time Customer Data Platform 的实施步骤
 
 1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
 1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
@@ -64,11 +64,11 @@ ht-degree: 82%
 
 * 请参阅[使用 Experience Cloud 应用程序的受众和用户档案激活 Blueprint](platform-and-applications.md)，以了解有关将受众从 Real-time Customer Data Platform 共享到 Audience Manager、Analytics、Target、Campaign 和 Journey Optimizer 的更多详细信息。
 
-## 基于Audience Manager的目标的实施步骤
+## Audience Manager 基于人员的目标的实施步骤
 
-* 有关实施Audience Manager的详细信息，请参阅以下内容 [文档](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=zh-Hans).
+* 有关实施 Audience Manager 的详细信息，请参阅以下[文档](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=zh-Hans)。
 
-* 有关在Audience Manager中实施基于人员的目标的详细信息，请参阅以下内容 [文档](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html).
+* 有关实施 Audience Manager 基于人员的目标的详细信息，请参阅以下[文档](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html?lang=zh-Hans)。
 
 ## 相关文档
 
