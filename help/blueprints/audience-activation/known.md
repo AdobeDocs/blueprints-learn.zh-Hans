@@ -4,10 +4,10 @@ description: 线上/线下受众激活。
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+source-git-commit: 4fef6460b305dc01671eeb9a90e58483f42d35e2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '558'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,6 @@ ht-degree: 0%
 
 ## 应用程序
 
-* Adobe Experience Platform  
 * [!UICONTROL Real-time Customer Data Platform]
 * Audience Manager 基于人员的目标还可用于对 Facebook、LinkedIn 和 Google Customer Match 进行基于人员的激活。
 

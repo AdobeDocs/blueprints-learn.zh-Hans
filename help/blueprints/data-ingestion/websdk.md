@@ -5,10 +5,10 @@ solution: Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+source-git-commit: 4fef6460b305dc01671eeb9a90e58483f42d35e2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '112'
+ht-degree: 100%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 0%
 以下架构图说明了利用 Experience Platform Web SDK 的集成路径和数据收集。
 
 <img src="assets/web_sdk_flow.png" alt="使用 Experience Platform Web 和 Mobile SDK 实施的参考架构" style="width:80%; border:1px solid #4a4a4a" />
+
+序列图
+
+<img src="assets/web_sdk_sequence.png" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
 
 ## 参考文档
 
