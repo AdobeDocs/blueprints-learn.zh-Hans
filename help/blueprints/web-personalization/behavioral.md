@@ -5,9 +5,9 @@ landing-page-description: 了解如何根据在线行为和受众数据进行个
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
+source-git-commit: 99de2ae48ef0b6177193ffbbb9cef71e7bc83e59
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '612'
 ht-degree: 96%
 
 ---
@@ -38,17 +38,8 @@ ht-degree: 96%
 
 Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 
-1. 使用 [!UICONTROL Platform Web SDK] 或 [!UICONTROL Platform Mobile SDK] 和 [!UICONTROL Edge Network]。
-1. 使用传统的特定于应用程序的 SDK（例如，AppMeasurement.js）
-
-### 1. Platform Web/移动 SDK 和 Edge 方法
-
-[请参阅 Experience Platform Web 和 Mobile SDK Blueprint](../data-ingestion/websdk.md)
-
-### 2. 特定于应用程序的 SDK 方法
-
-[请参阅特定于应用程序的SDK Blueprint](../data-ingestion/appsdk.md)
-
+1. 使用 [!UICONTROL Platform Web SDK] 或 [!UICONTROL Platform Mobile SDK] 和 [!UICONTROL Edge Network]。[请参阅 Experience Platform Web 和 Mobile SDK Blueprint](../data-ingestion/websdk.md)
+1. 使用传统的特定于应用程序的 SDK（例如，AppMeasurement.js）.[请参阅特定于应用程序的SDK Blueprint](../data-ingestion/appsdk.md)
 
 ## 实施步骤
 
