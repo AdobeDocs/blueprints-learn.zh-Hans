@@ -4,7 +4,7 @@ description: 线上/线下受众激活。
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 4fef6460b305dc01671eeb9a90e58483f42d35e2
+source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
@@ -34,12 +34,12 @@ ht-degree: 100%
 
 ### 通过 Real-time Customer Data Platform 的已知客户激活
 
-<img src="assets/known_activation.svg" alt="已知客户激活 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="已知客户激活 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ### 通过 Audience Manager 基于人员的目标的已知客户激活
 
-<img src="assets/AAM_PBD.svg" alt="已知客户激活 Blueprint 的参考架构" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="已知客户激活 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## 护栏

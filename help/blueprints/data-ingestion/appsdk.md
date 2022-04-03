@@ -4,7 +4,7 @@ description: 此Blueprint显示了通过特定于应用程序的SDK进行的架�
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
-source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
+source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 49%
@@ -15,7 +15,7 @@ ht-degree: 49%
 
 以下架构图说明了利用特定于应用程序的SDK实施的集成路径和数据收集。
 
-<img src="assets/app_sdk_flow.png" alt="使用特定于应用程序的SDK实施的参考架构" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.png" alt="使用特定于应用程序的SDK实施的参考架构" style="width:90%; border:1px solid #4a4a4a" />
 
 ## 参考文档
 
