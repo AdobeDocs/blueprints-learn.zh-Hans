@@ -2,9 +2,9 @@
 title: 数字体验 Blueprint
 description: 数字体验 Blueprint 是可重复实施的产品，用于应对战略和解决既定的业务问题。它们可加快实现价值的速度，并提供快速成功之路。
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
-workflow-type: ht
-source-wordcount: '255'
+source-git-commit: 5f35c36d3ef426396aadf0292e291d7738520032
+workflow-type: tm+mt
+source-wordcount: '254'
 ht-degree: 100%
 
 ---
@@ -31,17 +31,17 @@ ht-degree: 100%
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=zh-Hans"><img alt="“触发式消息”和“Experience Platform Blueprint”的缩略图" src="customer-journeys/assets/ajo-architecture.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=zh-Hans"><strong>跨渠道编排</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>跨渠道编排</strong></a></div>
     <p><em>使用 [!UICONTROL Platform] 作为中心，实时发送消息并影响客户体验。</em></p>
   </td>
   <td>
     <a href="/help/blueprints/audience-activation/known.md"><img alt="已知客户激活 Blueprint 的缩略图" src="audience-activation/assets/known_activation.svg" /></a>
-    <div><a href="/help/blueprints/audience-activation/known.md"><strong>线上/线下受众激活</strong></a></div>
+    <div><a href="/help/blueprints/audience-activation/known.md"><strong>已知客户激活</strong></a></div>
     <p><em>投放受众激活的跨渠道广告。</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=zh-Hans"><img alt="数字行为数据整合 Blueprint 的缩略图" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=zh-Hans"><strong>跨渠道历程分析</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>跨渠道历程分析</strong></a></div>
     <p><em>对不同渠道客户行为有一个单一整合视图。</em></p>
   </td>
 </tr>
