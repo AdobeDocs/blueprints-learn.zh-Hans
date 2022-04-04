@@ -2,20 +2,20 @@
 title: 匿名受众激活 Blueprint
 description: 了解如何基于匿名和行为客户数据跨网络和广告渠道定位受众。该功能支持跨设备的个性化、一致的实时客户体验。
 landing-page-description: 了解如何基于匿名和行为客户数据跨网络和广告渠道定位受众。
-solution: Audience Manager, Experience Platform
+solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
+source-git-commit: 16c05fcb36fb3f11b0d86ad30710e399cecc05c0
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 95%
+ht-degree: 88%
 
 ---
 
 # 匿名受众激活 Blueprint
 
-匿名受众激活是指根据匿名设备和行为数据，跨 Web、移动设备和广告渠道来定位和个性化受众的能力。
+匿名受众激活是一种根据匿名设备和行为数据，在Web、移动设备和广告渠道中定位和个性化受众的功能。
 
 ## 用例
 
