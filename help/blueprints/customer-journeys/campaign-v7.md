@@ -1,10 +1,10 @@
 ---
 title: Campaign v7 Blueprint
 description: Adobe Campaign v7 是一款针对电子邮件和直邮等传统营销渠道而构建的活动工具。它提供了强大的 ETL 和数据管理功能，以帮助策划完美的营销活动。其编排引擎提供丰富的多接触点营销计划，其核心重点是基于批次的驱动历程。它还与实时消息服务器相配合，使营销团队能够根据来自任何 IT 系统的包含所有内容的有效负载发送预定义消息，以执行密码重置、订单确认、电子收据等操作。
-solution: Campaign Classic v7
+solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
-source-git-commit: 0c072465c2cac954631fe3a8dbdcef280ee397ab
-workflow-type: ht
+source-git-commit: 24d5ec498d09f6dac443561bd530d58a33dae7af
+workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 100%
 
