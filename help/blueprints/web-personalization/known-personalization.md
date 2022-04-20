@@ -5,9 +5,9 @@ landing-page-description: 将 Web 个性化与电子邮件和其他已知和匿�
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 24d5ec498d09f6dac443561bd530d58a33dae7af
+source-git-commit: 4d0313e079a6f0f48f9c958f598f0fd02b90fd5f
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1229'
 ht-degree: 62%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 62%
 
 ## 实施模式
 
-已知客户Personalization通过多种实施方法受到支持。
+通过多种实施方法支持已知的客户个性化。
 
 ### 实施模式1 — 使用Web/Mobile SDK的边缘网络（推荐方法）
 
@@ -74,7 +74,7 @@ ht-degree: 62%
 1. 实施 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)。Experience Platform Web SDK 是实时 Edge 分段所必需的，但不是将流传输和批次受众从 Real-time Customer Data Platform 共享到 Target 所必需的。请注意，目前不支持通过 Mobile SDK 和 API 进行实时分段。
 1. [使用 Edge 数据流配置 Edge 网络](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=zh-Hans)
 1. [在 Real-time Customer Data Platform 中启用 Adobe Target 作为目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans)
-1. （可选） [实施Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=zh-Hans) （可选）
+1. （可选） [实施Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=zh-Hans).
 1. （可选） [请求配置Experience Platform与Adobe Target（共享受众）之间的受众共享](https://www.adobe.com/go/audiences) 将受众从Experience Platform共享到Target。
 
 ## 护栏
