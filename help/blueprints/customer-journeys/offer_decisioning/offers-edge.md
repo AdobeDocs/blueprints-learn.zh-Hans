@@ -2,10 +2,11 @@
 title: offer decisioning
 description: 跨渠道向消费者提供个性化优惠，包括网亭和代理协助体验。
 solution: Experience Platform, Journey Optimizer
-source-git-commit: 5309a5ce986ebf238884df2aac38eb175f3dda11
+exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
+source-git-commit: 3e75ce52939c84ce9ae1faf72f7f1508d74c1ecc
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 38%
+source-wordcount: '702'
+ht-degree: 39%
 
 ---
 
@@ -71,12 +72,14 @@ Adobe Experience Platform
 ## 实施模式
 
 * 使用Web SDK或Mobile SDK在网站和移动应用程序上部署，以实施部署SDK的Offer decisioning。
+   * [Web/Mobile SDK蓝图](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=zh-Hans)
    * [WebSDK](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/web-sdk.html)
    * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
 或
 
-* 对于基于API服务器到服务器的实施，请使用边缘网络服务器API将服务器直接实施到服务器Offer decisioning。 [链接](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
+* 对于基于API服务器到服务器的实施，请使用边缘网络服务器API将服务器直接实施到服务器Offer decisioning。
+   * [边缘网络服务器API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
 
 <br>
 
