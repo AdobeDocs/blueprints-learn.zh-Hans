@@ -6,7 +6,7 @@ kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
 source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
 ht-degree: 100%
 
@@ -38,7 +38,8 @@ Experience Platform 的[!UICONTROL 查询服务]允许对数据执行 SQL 查询
 
 ## 护栏
 
-有关最佳实践和护栏的详细信息，请参阅查询服务产品文档。[查询服务指南](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=zh-Hans#best-practices)
+有关最佳实践和护栏的详细信息，请参阅查询服务产品文档。
+[查询服务指南](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=zh-Hans#best-practices)
 
 ## 实施步骤
 
