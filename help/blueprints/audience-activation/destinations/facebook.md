@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
 source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ ht-degree: 100%
    * 查看给定区段的区段结果计数。
    * 调查应包含在区段中的用户档案，以验证区段成员资格是否包含在用户档案的区段成员资格部分中。
 1. 在目标配置中将受众传送配置到目标。
-   * 有关配置 Facebook 目标的更多详细信息，请参阅[《Facebook 目标指南》](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)。
+   * 有关配置 Facebook 目标的更多详细信息，请参阅[《Facebook 目标指南》](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=zh-Hans)。
    * 配置目标时，选择要激活到目标的受众。
    * 确定您希望目标数据流开始向目标传送受众的计划开始日期。
    * 每个目标都具有将要发送的必要属性和可选属性。
@@ -90,4 +90,4 @@ ht-degree: 100%
 
 ## 相关文档
 
-激活到 Facebook 自定义受众 - [目标配置](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)
+激活到 Facebook 自定义受众 - [目标配置](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=zh-Hans)
