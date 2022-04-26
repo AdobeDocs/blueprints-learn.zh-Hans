@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 97%
    + [数据准备和摄入](/help/blueprints/data-ingestion/ingestion.md)
    + [服务器端企业数据收集](/help/blueprints/data-ingestion/server-side-collection.md)
    + [Experience Platform Web SDK](/help/blueprints/data-ingestion/websdk.md)
-   + [应用程序SDK](/help/blueprints/data-ingestion/appsdk.md)
+   + [应用程序 SDK](/help/blueprints/data-ingestion/appsdk.md)
 + 数据分析、智能和 AI/ML {#data-exploration}
    + [概述](/help/blueprints/data-insights/overview.md)
    + [数据分析和智能](/help/blueprints/data-insights/analysis.md)
@@ -67,4 +67,4 @@ ht-degree: 97%
 + Web 和移动个性化 {#web-personalization}
    + [概述](/help/blueprints/web-personalization/overview.md)
    + [行为个性化](/help/blueprints/web-personalization/behavioral.md)
-   + [已知客户Personalization](/help/blueprints/web-personalization/known-personalization.md)
+   + [已知客户个性化](/help/blueprints/web-personalization/known-personalization.md)
