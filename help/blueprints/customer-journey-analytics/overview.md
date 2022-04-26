@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: 798dec7767938b85d0b8c41438a0782ef179bf68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '312'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Customer Journey Analytics 用例的完整列表可在此处的客户历程分�
 |**[跨渠道历程分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=zh-Hans)**| <ul><li>通过统一来自各种 Web、移动和线下属性的数据，获取关于不同渠道客户行为的整合视图。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（可选）</li></ul>|
 | **[呼叫偏转历程分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html?lang=zh-Hans)** | <ul><li>通过将呼叫中心数据与 Web、移动和其他交互数据结合在一起，确定哪些行为最能指示产生座席协助呼叫。</li><li>然后，这些洞察可用于优化客户体验，并通过优化自助服务内容和工具精简座席协助互动的路径。  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
-## Customer Journey Analytics蓝图的体系结构
+## Customer Journey Analytics 的架构 Blueprint
 
 ![架构图](assets/CJA.svg)
 
