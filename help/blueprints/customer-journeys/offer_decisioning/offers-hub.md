@@ -1,40 +1,39 @@
 ---
-title: offer decisioning在边缘
-description: 跨渠道（包括实时Web体验和移动体验）向消费者提供个性化优惠。
+title: offer decisioning中心
+description: 跨渠道（包括网亭、代理协助体验）向消费者提供个性化选件，以及通过电子邮件和其他叫客投放进行交付。
 solution: Experience Platform, Journey Optimizer
-exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 86956e351c166bac0aa37deccc18b7dc151d1473
+source-git-commit: 8ad119551e25c1f6acb66fec544c8a67b26c0927
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 36%
+ht-degree: 35%
 
 ---
 
-# Journey Optimizer — 边缘Offer decisioning
+# Journey Optimizer — 中心Offer decisioning
 
 Adobe决策管理是作为Adobe Journey Optimizer的一部分提供的服务。 此蓝图概述了应用程序的用例和技术功能，并深入介绍了构成Offer decisioning的各种体系结构组件和注意事项。
 
-决策管理可以通过两种方式之一进行部署。 第一种方式是通过Adobe Experience Platform中心，该中心是一个数据中心架构。 在“中心”方法中，会在第二个延迟内执行、个性化和交付选件。 因此，中心架构最适合不需要亚秒延迟的客户体验，例如，为诸如呼叫中心或个人交互中的网亭或代理辅助体验提供的选件决策。
+决策管理可以通过两种方式之一进行部署。 第一个是通过Adobe Experience Platform中心，该中心是一个中央数据中心架构。 在“中心”方法中，可在500毫秒以上的延迟内执行、个性化和交付选件。 因此，中心架构最适合不需要亚秒延迟的客户体验，例如，为诸如呼叫中心或个人交互中的网亭或代理辅助体验提供的选件决策。 插入到电子邮件和出站促销活动中的选件也由中心方法提供支持。
 
-第二种方法是通过Experience Edge Network，它是分布在全球各地的基础架构，可提供快速且在几秒钟以内的体验。 最靠近消费者地理位置的边缘基础架构执行的最终消费者体验，可最大程度地减少延迟。 Edge上的决策管理旨在提供实时的消费者体验。 这些体验包括Web或移动入站个性化请求等体验。
+第二种方法是通过Experience Edge Network，它是分布在全球各地的基础架构，可提供快速且在几秒钟以内的体验。 最靠近消费者地理位置的边缘基础架构执行的最终消费者体验，可最大程度地减少延迟。 Edge上的决策管理旨在提供实时客户体验，例如Web或移动入站个性化请求。
 
-此蓝图将介绍Edge上决策管理的具体细节。
+此蓝图将介绍中心上决策管理的具体细节。
 
-要详细了解中心上的决策管理，请参阅 [中心上的决策管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html?lang=en) 蓝图。
+要详细了解Edge上的决策管理，请参阅 [边缘决策管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html?lang=en) 蓝图。
 
-要了解有关决策管理的更多信息，请参阅产品文档 [此处](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+要了解有关决策管理的更多信息，请参阅此产品文档(https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
 
 ## 用例
 
-* 通过Web或移动设备进行在线个性化。
-* 入站offer decisioning和优惠建议。
+* 在网亭和商店体验上提供个性化选件。
+* 通过座席辅助体验提供的个性化选件，例如呼叫中心或销售行动。
 * 跨渠道历程执行 — 通过Adobe Journey Optimizer提供跨Web、移动设备、电子邮件和其他交互渠道的一致性。
 
 <br>
 
 ## 架构
 
-<img src="../assets/offers_edge.svg" alt="边缘Blueprint上的引用架构Offer decisioning" style="width:100%; border:1px solid #4a4a4a" />
+<img src="../assets/offers_hub.svg" alt="边缘Blueprint上的引用架构Offer decisioning" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -73,16 +72,9 @@ Adobe Experience Platform
 
 ## 实施模式
 
-* 使用Web SDK或Mobile SDK在网站和移动应用程序上部署，以实施部署SDK的Offer decisioning。
-   * [Web/Mobile SDK蓝图](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=zh-Hans)
-   * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html)
-   * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
-
-或
-
-* 对于基于API服务器到服务器的实施，请使用边缘网络服务API将服务器直接实施到服务器Offer decisioning。
-   * [边缘网络服务器API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
-   * [决策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* 通过与Adobe Journey Optimizer直接集成，在电子邮件、短信和出站渠道中实施。
+* 对于其他渠道体验，请使用 [决策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* 对于基于Edge的实时体验，请按照 [offer decisioningEdge Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html).
 
 <br>
 

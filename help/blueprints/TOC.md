@@ -5,10 +5,10 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 96d4e0c62b85070e1650adf637519098d227c53d
+source-git-commit: 8ad119551e25c1f6acb66fec544c8a67b26c0927
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 95%
+source-wordcount: '189'
+ht-degree: 92%
 
 ---
 
@@ -49,6 +49,7 @@ ht-degree: 95%
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
       + offer decisioning{#offer-decisioning}
          + [offer decisioning在边缘](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
+         + [offer decisioning中心](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
       + [Journey Optimizer 与 Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [第三方消息传递](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}
