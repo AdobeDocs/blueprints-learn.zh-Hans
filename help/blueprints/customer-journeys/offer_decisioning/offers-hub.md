@@ -2,10 +2,11 @@
 title: offer decisioning中心
 description: 跨渠道（包括网亭、代理协助体验）向消费者提供个性化选件，以及通过电子邮件和其他叫客投放进行交付。
 solution: Experience Platform, Journey Optimizer
-source-git-commit: 8ad119551e25c1f6acb66fec544c8a67b26c0927
+exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
+source-git-commit: 9cdb1bf7a8e97fce6a41fb135441c12ed8e477e0
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 35%
+source-wordcount: '797'
+ht-degree: 33%
 
 ---
 
@@ -27,6 +28,7 @@ Adobe决策管理是作为Adobe Journey Optimizer的一部分提供的服务。 
 
 * 在网亭和商店体验上提供个性化选件。
 * 通过座席辅助体验提供的个性化选件，例如呼叫中心或销售行动。
+* 电子邮件、短信或其他出站交互中包含的选件。
 * 跨渠道历程执行 — 通过Adobe Journey Optimizer提供跨Web、移动设备、电子邮件和其他交互渠道的一致性。
 
 <br>
@@ -72,10 +74,10 @@ Adobe Experience Platform
 
 ## 实施模式
 
-* 通过与Adobe Journey Optimizer直接集成，在电子邮件、短信和出站渠道中实施。
-* 对于其他渠道体验，请使用 [决策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* 通过与直接集成，在电子邮件、短信和出站渠道中实施 [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/offers-e2e.html).
+* 对于基于服务器API的Offer decisioning实施，请利用 [决策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* 要实施基于批量的决策，以便将选件批量交付到消息投放应用程序，请使用 [批量决策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/batch-decisioning-api.html).
 * 对于基于Edge的实时体验，请按照 [offer decisioningEdge Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html).
-
 <br>
 
 ## 实施步骤

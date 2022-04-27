@@ -3,7 +3,7 @@ title: offer decisioning在边缘
 description: 跨渠道（包括实时Web体验和移动体验）向消费者提供个性化优惠。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 86956e351c166bac0aa37deccc18b7dc151d1473
+source-git-commit: 9cdb1bf7a8e97fce6a41fb135441c12ed8e477e0
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 36%
@@ -82,7 +82,7 @@ Adobe Experience Platform
 
 * 对于基于API服务器到服务器的实施，请使用边缘网络服务API将服务器直接实施到服务器Offer decisioning。
    * [边缘网络服务器API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
-   * [决策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+   * [决策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html)
 
 <br>
 
