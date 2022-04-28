@@ -3,10 +3,10 @@ title: offer decisioning在边缘
 description: 跨渠道（包括实时Web体验和移动体验）向消费者提供个性化优惠。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 9cdb1bf7a8e97fce6a41fb135441c12ed8e477e0
+source-git-commit: fd8762711a6c3b04d0dd991e4dced2fb6be48c13
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 36%
+source-wordcount: '768'
+ht-degree: 35%
 
 ---
 
@@ -56,8 +56,8 @@ Adobe Experience Platform
 
 ## 护栏
 
-[Journey Optimizer 护栏产品链接](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
-
+* 有关Journey Optimizer护，请参阅以下内容 [Journey Optimizer护栏](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* 有关Offer decisioning护，请参阅以下内容 [offer decisioning产品描述](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 ### 数据摄入护栏
 
@@ -114,5 +114,5 @@ Adobe Experience Platform
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * [Adobe Journey Optimizer决策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-* [Adobe Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Adobe Journey Optimizer产品描述](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
 * [AdobeOffer decisioning产品说明](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
