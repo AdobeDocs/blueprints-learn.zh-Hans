@@ -3,10 +3,10 @@ title: offer decisioning中心
 description: 跨渠道（包括网亭、代理协助体验）向消费者提供个性化选件，以及通过电子邮件和其他叫客投放进行交付。
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: fd8762711a6c3b04d0dd991e4dced2fb6be48c13
+source-git-commit: 494d70fca12a42befb7b726562d98cec17a21d22
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 32%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -57,8 +57,8 @@ Adobe Experience Platform
 
 ## 护栏
 
-* 有关Journey Optimizer护，请参阅以下内容 [Journey Optimizer护栏](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
-* 有关Offer decisioning护，请参阅以下内容 [offer decisioning产品描述](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
+* 有关Journey Optimizer护栏，请参阅以下内容 [Journey Optimizer护栏](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
+* 有关Offer decisioning护栏，请参阅以下内容 [offer decisioning产品描述](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 
 ### 数据摄入护栏
