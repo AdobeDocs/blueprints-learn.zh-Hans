@@ -3,14 +3,16 @@ title: offer decisioning在边缘
 description: 跨渠道（包括实时Web体验和移动体验）向消费者提供个性化优惠。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: bedfce6f9ded6c168656e8c37c59f85f250481a1
+source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '772'
+ht-degree: 34%
 
 ---
 
 # Journey Optimizer — 边缘Offer decisioning
+
+要了解有关决策管理的更多信息，请参阅产品文档 [此处](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) 和Offer decisioning概述 [此处](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
 
 Adobe决策管理是作为Adobe Journey Optimizer的一部分提供的服务。 此蓝图概述了应用程序的用例和技术功能，并深入介绍了构成Offer decisioning的各种体系结构组件和注意事项。
 
@@ -20,14 +22,11 @@ Adobe决策管理是作为Adobe Journey Optimizer的一部分提供的服务。 
 
 此蓝图将介绍Edge上决策管理的具体细节。
 
-要详细了解中心上的决策管理，请参阅 [中心上的决策管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html?lang=en) 蓝图。
+要详细了解中心上的决策管理，请参阅 [中心上的决策管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html) 蓝图。
 
-要了解有关决策管理的更多信息，请参阅产品文档 [此处](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+## 边缘决策管理用例
 
-## 用例
-
-* 通过Web或移动设备进行在线个性化。
-* 入站offer decisioning和优惠建议。
+* 通过Web或移动设备入站体验进行在线个性化。
 * 跨渠道历程执行 — 通过Adobe Journey Optimizer提供跨Web、移动设备、电子邮件和其他交互渠道的一致性。
 
 <br>

@@ -3,16 +3,20 @@ title: offer decisioning中心
 description: 跨渠道（包括网亭、代理协助体验）向消费者提供个性化选件，以及通过电子邮件和其他叫客投放进行交付。
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 494d70fca12a42befb7b726562d98cec17a21d22
+source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '904'
+ht-degree: 28%
 
 ---
 
 # Journey Optimizer — 中心Offer decisioning
 
+要了解有关决策管理的更多信息，请参阅产品文档 [此处](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) 和Offer decisioning概述 [此处](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
+
 Adobe决策管理是作为Adobe Journey Optimizer的一部分提供的服务。 此蓝图概述了应用程序的用例和技术功能，并深入介绍了构成Offer decisioning的各种体系结构组件和注意事项。
+
+Journey Optimizer用于在适当的时间跨所有接触点为客户提供最佳选件和体验。 offer decisioning通过集中的营销选件库和决策引擎(该引擎可将规则和约束应用于Adobe Experience Platform创建的丰富实时用户档案，以帮助您在适当的时间向客户发送正确的选件)，从而轻松实现个性化。
 
 决策管理可以通过两种方式之一进行部署。 第一个是通过Adobe Experience Platform中心，该中心是一个中央数据中心架构。 在“中心”方法中，可在500毫秒以上的延迟内执行、个性化和交付选件。 因此，中心架构最适合不需要亚秒延迟的客户体验，例如，为诸如呼叫中心或个人交互中的网亭或代理辅助体验提供的选件决策。 插入到电子邮件和出站促销活动中的选件也由中心方法提供支持。
 
@@ -20,11 +24,9 @@ Adobe决策管理是作为Adobe Journey Optimizer的一部分提供的服务。 
 
 此蓝图将介绍中心上决策管理的具体细节。
 
-要详细了解Edge上的决策管理，请参阅 [边缘决策管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html?lang=en) 蓝图。
+要详细了解Edge上的决策管理，请参阅 [边缘决策管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html) 蓝图。
 
-要了解有关决策管理的更多信息，请参阅产品文档 [此处](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-
-## 用例
+## 中心上的决策管理用例
 
 * 在网亭和商店体验上提供个性化选件。
 * 通过座席辅助体验提供的个性化选件，例如呼叫中心或销售行动。
