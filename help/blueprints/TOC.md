@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -47,10 +47,10 @@ ht-degree: 89%
    + [概述](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + offer decisioning{#offer-decisioning}
+      + Offer Decisioning {#offer-decisioning}
          + [概述](/help/blueprints/customer-journeys/offer_decisioning/offers-overview.md)
-         + [offer decisioning在边缘](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
-         + [offer decisioning中心](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
+         + [边缘 Offer Decisioning](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
+         + [中心 Offer Decisioning](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
       + [Journey Optimizer 与 Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [第三方消息传递](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}
@@ -62,8 +62,8 @@ ht-degree: 89%
    + [概述](/help/blueprints/data-ingestion/overview.md)
    + [数据准备和摄入](/help/blueprints/data-ingestion/ingestion.md)
    + [服务器端企业数据收集](/help/blueprints/data-ingestion/server-side-collection.md)
-   + 部署{#deployment}
-      + [Experience PlatformWeb SDK和边缘网络](/help/blueprints/data-ingestion/websdk.md)
+   + 部署 {#deployment}
+      + [Experience Platform Web SDK 和 Edge 网络](/help/blueprints/data-ingestion/websdk.md)
       + [应用程序 SDK](/help/blueprints/data-ingestion/appsdk.md)
 + 数据分析、智能和 AI/ML {#data-exploration}
    + [概述](/help/blueprints/data-insights/overview.md)
@@ -73,4 +73,4 @@ ht-degree: 89%
    + [概述](/help/blueprints/web-personalization/overview.md)
    + [行为个性化](/help/blueprints/web-personalization/behavioral.md)
    + [已知客户个性化](/help/blueprints/web-personalization/known-personalization.md)
-   + [offer decisioning](/help/blueprints/web-personalization/offers-edge.md)
+   + [Offer Decisioning](/help/blueprints/web-personalization/offers-edge.md)
