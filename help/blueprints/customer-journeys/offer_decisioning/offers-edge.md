@@ -1,39 +1,39 @@
 ---
-title: offer decisioning在边缘
-description: 跨渠道（包括实时Web体验和移动体验）向消费者提供个性化优惠。
+title: 边缘 Offer Decisioning
+description: 跨渠道向消费者提供个性化优惠，包括实时 Web 体验和移动体验。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
+source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 34%
+source-wordcount: '847'
+ht-degree: 85%
 
 ---
 
-# Journey Optimizer — 边缘Offer decisioning
+# Journey Optimizer - 边缘 Offer Decisioning
 
-要了解有关决策管理的更多信息，请参阅产品文档 [此处](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) 和Offer decisioning概述 [此处](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
+要了解有关决策管理的更多信息，请参阅产品文档 [此处](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans) 和Offer decisioning概述 [此处](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
 
-Adobe决策管理是作为Adobe Journey Optimizer的一部分提供的服务。 此蓝图概述了应用程序的用例和技术功能，并深入介绍了构成Offer decisioning的各种体系结构组件和注意事项。
+Adobe 决策管理是作为 Adobe Journey Optimizer 的一部分提供的服务。此 Blueprint 概述了该应用程序的用例和技术功能，并深入介绍了构成 Offer Decisioning 的各种架构组件和注意事项。
 
-决策管理可以通过两种方式之一进行部署。 第一种方式是通过Adobe Experience Platform中心，该中心是一个数据中心架构。 在“中心”方法中，会在第二个延迟内执行、个性化和交付选件。 因此，中心架构最适合不需要亚秒延迟的客户体验，例如，为诸如呼叫中心或个人交互中的网亭或代理辅助体验提供的选件决策。
+决策管理可以通过两种方式进行部署。第一种是通过 Adobe Experience Platform 中心，即采用单个数据中心架构。对于“中心”方法，执行、个性化和投放优惠的延迟为一秒左右。因此，中心架构最适合不需要亚秒级延迟的客户体验，例如，为自助终端、呼叫中心中的座席协助体验或者个人交互提供的优惠决策。
 
-第二种方法是通过Experience Edge Network，它是分布在全球各地的基础架构，可提供快速且在几秒钟以内的体验。 最靠近消费者地理位置的边缘基础架构执行的最终消费者体验，可最大程度地减少延迟。 Edge上的决策管理旨在提供实时的消费者体验。 这些体验包括Web或移动入站个性化请求等体验。
+第二种方法是通过 Experience Edge 网络，它是分布在全球各地的基础架构，可提供快速的亚秒级和毫秒级体验。由最靠近消费者地理位置的边缘基础架构执行最终消费者体验，可最大程度地减少延迟。边缘决策管理旨在提供实时的消费者体验。这些体验包括 Web 或移动入站个性化请求等体验。
 
-此蓝图将介绍Edge上决策管理的具体细节。
+此 Blueprint 将介绍边缘决策管理的具体细节。
 
-要详细了解中心上的决策管理，请参阅 [中心上的决策管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html) 蓝图。
+要了解有关中心决策管理的更多信息，请参阅[中心决策管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html) Blueprint。
 
 ## 边缘决策管理用例
 
 * 通过Web或移动设备入站体验进行在线个性化。
-* 跨渠道历程执行 — 通过Adobe Journey Optimizer提供跨Web、移动设备、电子邮件和其他交互渠道的一致性。
+* 跨渠道历程执行 - 通过 Adobe Journey Optimizer 提供跨 Web、移动设备、电子邮件和其他交互渠道的一致性。
 
 <br>
 
 ## 架构
 
-<img src="../assets/offers_edge.svg" alt="边缘Blueprint上的引用架构Offer decisioning" style="width:100%; border:1px solid #4a4a4a" />
+<img src="../assets/offers_edge.svg" alt="边缘 Offer decisioning 参考架构 Blueprint" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -41,7 +41,7 @@ Adobe决策管理是作为Adobe Journey Optimizer的一部分提供的服务。 
 
 | 集成 | 描述 |
 | :-- | :--- |
-| [offer decisioningAdobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html) | offer decisioning可以与Adobe Target集成，以便选件可以作为Target体验进行测试和交付。 |
+| [Offer Decisioning 与 Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html?lang=zh-Hans) | Offer Decisioning 可以与 Adobe Target 集成，以便将优惠作为 Target 体验进行测试和投放。 |
 
 ## 先决条件
 
@@ -55,8 +55,12 @@ Adobe Experience Platform
 
 ## 护栏
 
-* 有关Journey Optimizer护栏，请参阅以下内容 [Journey Optimizer护栏](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
-* 有关Offer decisioning护栏，请参阅以下内容 [offer decisioning产品描述](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
+* 有关 Journey Optimizer 护栏，请参阅以下 [Journey Optimizer 护栏](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=zh-Hans)。
+* 有关 Offer Decisioning 护栏，请参阅以下 [Offer Decisioning 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/offer-decisioning-app-service.html)。
+* 每秒请求数= 5000。
+* 响应的延迟少于250毫秒。
+* 访问边缘实时配置文件。 配置文件中只有边缘预测受众和配置文件属性可用。
+* 如果首次体验中需要个性化，则中心将是理想的选择，因为完整的用户档案可用。 边缘配置文件必须首次从集线器同步到边缘体验。 因此，从边缘网站获得的首个体验将不包含以前上传到中心的配置文件数据。
 
 ### 数据摄入护栏
 
@@ -72,15 +76,15 @@ Adobe Experience Platform
 
 ## 实施模式
 
-* 使用Web SDK或Mobile SDK在网站和移动应用程序上部署，以实施部署SDK的Offer decisioning。
-   * [Web/Mobile SDK蓝图](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=zh-Hans)
-   * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html)
+* 使用 Web SDK 或 Mobile SDK 在网站和移动应用程序上部署，在部署 SDK 的位置实施 Offer Decisioning。
+   * [Web/Mobile SDK Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=zh-Hans)
+   * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=zh-Hans)
    * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
 或
 
-* 对于基于API服务器到服务器的实施，请使用边缘网络服务API将服务器直接实施到服务器Offer decisioning。
-   * [边缘网络服务器API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
+* 对于基于 API 服务器到服务器的实施，请使用 Edge 网络服务 API 进行直接的服务器到服务器 Offer decisioning 实施。
+   * [Edge 网络服务器 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html?lang=zh-Hans)
 
 <br>
 
@@ -109,8 +113,8 @@ Adobe Experience Platform
 
 ## 相关文档
 
-* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)
-* [Adobe Journey Optimizer决策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-* [Adobe Journey Optimizer产品描述](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
-* [AdobeOffer decisioning产品说明](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
+* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hans)
+* [Adobe Journey Optimizer 决策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+* [Adobe Journey Optimizer 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Adobe Offer Decisioning 产品描述](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)

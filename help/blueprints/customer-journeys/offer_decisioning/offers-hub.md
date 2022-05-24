@@ -3,10 +3,10 @@ title: 中心 Offer Decisioning
 description: 跨渠道向消费者投放个性化优惠，包括自助终端、座席协助体验、电子邮件以及其他推拨投放。
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 86%
+source-wordcount: '901'
+ht-degree: 84%
 
 ---
 
@@ -56,6 +56,9 @@ Adobe Experience Platform
 
 * 有关 Journey Optimizer 护栏，请参阅以下 [Journey Optimizer 护栏](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=zh-Hans)。
 * 有关 Offer Decisioning 护栏，请参阅以下 [Offer Decisioning 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/offer-decisioning-app-service.html)。
+* 每秒请求数= 2000。
+* 响应的延迟小于500毫秒。
+* 访问完整的实时客户用户档案，包括受众成员资格、属性和体验事件。
 
 
 ### 数据摄入护栏
