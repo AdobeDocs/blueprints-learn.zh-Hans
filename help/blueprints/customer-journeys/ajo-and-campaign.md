@@ -3,10 +3,10 @@ title: Journey Optimizer 与 Adobe Campaign Blueprint
 description: 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合使用，通过 Campaign 中的实时消息传送服务器在本地发送消息
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
-source-git-commit: d19555201107b6aa827e63eb8ecff8642d9f967c
-workflow-type: ht
+source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
+workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 100%
    * 流传输区段（&lt;5 分钟资格）
 * 批次区段 - 需要确保您了解合格用户的每日流量，并确保目标系统能够处理每个历程以及所有历程中的突发吞吐量
 * 流式区段 - 需要确保可以处理用户档案资格的初始突发量，以及每个历程和所有历程的每日合格流传输流量
-* 不支持 Offer Decisioning
+* 不支持的决策管理
 * 不支持业务事件
 * 出站集成到第三方系统
    * 不支持单个静态 IP，因为我们的基础架构是多租户的（必须允许列出所有数据中心 IP）
@@ -76,7 +76,7 @@ ht-degree: 100%
 * AC (v7) 仅支持事件启动历程
    * 无启动了区段或区段成员资格的历程
    * 鉴于它可以发送到执行实例的数量，不支持基于读取受众和业务事件的历程
-* AC (v7) 或 AC (v8) 都不支持消息中的 Offer Decisioning
+* AC(v7)或AC(v8)均不支持消息中的决策管理
 * 对 Campaign 的出站 API 调用没有限流
 * 事务性消息日志未本地同步到 AEP。需要咨询团队的精力。建议最多每 4 小时导出一次日志
 
@@ -108,7 +108,7 @@ ht-degree: 100%
 #### 用户档案/身份
 
 1. [创建任何客户特定的命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
-1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
+1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
 1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
 1. 为[!UICONTROL 实时客户档案]的不同视图[设置合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=zh-Hans)（可选）。
 1. 创建区段以用于 Journey。

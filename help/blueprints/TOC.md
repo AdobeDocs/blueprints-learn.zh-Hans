@@ -5,10 +5,10 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: f39c916d4b13d17eb3705c7adf01353929ff7956
+source-git-commit: ac995cdb942fd14d87281c4b499239732a1e4019
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,10 +47,10 @@ ht-degree: 96%
    + [概述](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + Offer Decisioning {#offer-decisioning}
-         + [概述](/help/blueprints/customer-journeys/offer_decisioning/offers-overview.md)
-         + [边缘 Offer Decisioning](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
-         + [中心 Offer Decisioning](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
+      + 决策管理{#decision-management}
+         + [概述](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
+         + [边缘决策管理](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
+         + [中心上的决策管理](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer 与 Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [第三方消息传递](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}
@@ -74,4 +74,4 @@ ht-degree: 96%
    + [概述](/help/blueprints/web-personalization/overview.md)
    + [行为个性化](/help/blueprints/web-personalization/behavioral.md)
    + [已知客户个性化](/help/blueprints/web-personalization/known-personalization.md)
-   + [Offer Decisioning](/help/blueprints/web-personalization/offers-edge.md)
+   + [决策管理](/help/blueprints/web-personalization/decision-management-edge.md)
