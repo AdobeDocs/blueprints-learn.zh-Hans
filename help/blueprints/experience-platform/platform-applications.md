@@ -5,8 +5,8 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 64c3ae4c706ef24808818af99e65c2f30f4f5c13
-workflow-type: ht
+source-git-commit: 02a2f679921e63d99101ec8c20c2d8419b1ff6fb
+workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 100%
 
@@ -20,11 +20,11 @@ ht-degree: 100%
 
 <img src="assets/aep+apps_vertical.svg" alt="Experience Platform 和应用程序" style="border:1px solid #4a4a4a; width:90%;" />
 
->[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
-
 ## Adobe Experience Platform 和应用程序详细架构图
 
 <img src="assets/aep+apps_horizontal.svg" alt="Experience Platform 和应用程序" style="border:1px solid #4a4a4a; width:90%;" />
+
+>[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
 ## Adobe Experience Platform 和 Experience Cloud 应用程序集成
 
@@ -100,13 +100,13 @@ ht-degree: 100%
       <td>
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=zh-Hans">匿名受众激活</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">匿名受众激活</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=zh-Hans">线上/线下受众激活</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">线上/线下受众激活</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans">通过 Experience Platform 和应用程序进行激活</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">通过 Experience Platform 和应用程序进行激活</a>
           </li>
         </ul>
       </td>
@@ -146,7 +146,7 @@ ht-degree: 100%
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=zh-Hans">批处理消息</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">批处理消息</a>
           </li>
         </ul>
       </td>
@@ -178,7 +178,7 @@ ht-degree: 100%
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=zh-Hans">线上/线下受众激活</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">线上/线下受众激活</a>
           </li>
         </ul>
       </td>
@@ -244,10 +244,10 @@ ht-degree: 100%
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=zh-Hans">线上/线下受众激活</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">线上/线下受众激活</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans">通过 Experience Platform 和应用程序进行激活</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">通过 Experience Platform 和应用程序进行激活</a>
           </li>
         </ul>
       </td>
@@ -268,10 +268,10 @@ ht-degree: 100%
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=zh-Hans">线上/线下受众激活</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">线上/线下受众激活</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans">通过 Experience Platform 和应用程序进行激活</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">通过 Experience Platform 和应用程序进行激活</a>
           </li>
         </ul>
       </td>
