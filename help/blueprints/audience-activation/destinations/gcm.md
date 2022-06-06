@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
 source-git-commit: 6fa38772f77ffd565580db55f8f2889b0e703949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1010'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ ht-degree: 100%
    * 查看给定区段的区段结果计数。
    * 调查应包含在区段中的用户档案，以验证区段成员资格是否包含在用户档案的区段成员资格部分中。
 1. 在目标配置中将受众传送配置到目标。
-   * 有关配置 Google Customer Match 目标的更多详细信息，请参阅[《Google Customer Match 目标指南》](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html)。
+   * 有关配置 Google Customer Match 目标的更多详细信息，请参阅[《Google Customer Match 目标指南》](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=zh-Hans)。
    * 配置目标时，选择要激活到目标的受众。
    * 确定您希望目标数据流开始向目标传送受众的计划开始日期。
    * 每个目标都具有将要发送的必要属性和可选属性。
@@ -91,4 +91,4 @@ ht-degree: 100%
 
 ## 相关文档
 
-激活到 Google Customer Match - [目标配置](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html)
+激活到 Google Customer Match - [目标配置](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=zh-Hans)
