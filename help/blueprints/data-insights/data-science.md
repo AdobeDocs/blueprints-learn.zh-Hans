@@ -7,17 +7,17 @@ exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071
 source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 48%
+ht-degree: 64%
 
 ---
 
 # 用户档案扩充的自定义数据科学 Blueprint
 
-用于用户档案扩充蓝图的自定义数据科学展示了如何使用Adobe Experience Platform中的数据来训练、部署和评分模型，以便通过数据科学和机器学习工具对Experience Platform和Real-time Customer Data Platform提供机器学习分析。 可以将模型化的分析引入Experience Platform，以丰富实时客户资料。 机器学习洞察的示例包括存留期值评分、产品和类别亲和力、转化倾向或客户流失倾向。
+用户档案扩充的自定义数据科学 Blueprint 展示了如何使用 Adobe Experience Platform 中的数据来对模型进行训练、部署和评分，以便通过数据科学和机器学习工具为 Experience Platform 和 Real-time Customer Data Platform 提供机器学习洞察。可以将模型化的洞察摄入 Experience Platform，以丰富实时客户档案。机器学习洞察的示例包括存留期值评分、产品和类别亲和力、转化倾向或客户流失倾向。
 
 ## 用例
 
-* 从客户数据中提取洞察信息并发现模式，从此数据中训练和评分模型。
+* 从客户数据中提取洞察并发现模式，利用此数据对模型进行训练和评分。
 * 利用模型驱动的洞察和属性来丰富[!UICONTROL 实时客户档案]，以实现更精细的个性化并优化历程。
 * 对模型进行训练和评分，以确定客户洞察，如客户存留期值、转化或参与倾向、产品和内容关联，以及参与分数。
 
@@ -53,7 +53,7 @@ ht-degree: 48%
 ## 相关文档
 
 * [Adobe Experience Platform 智能产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)
+* [Adobe Experience Platform 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans)
 
 ## 相关博客帖子
 

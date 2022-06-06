@@ -7,8 +7,8 @@ mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: ac995cdb942fd14d87281c4b499239732a1e4019
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '194'
+ht-degree: 94%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 0%
       + 决策管理{#decision-management}
          + [概述](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
          + [边缘决策管理](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
-         + [中心上的决策管理](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
+         + [中心决策管理](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer 与 Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [第三方消息传递](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}
