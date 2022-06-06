@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
 source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 82%
 
 Experience Platform 的[!UICONTROL 查询服务]允许对数据执行 SQL 查询。
 
-Experience Platform允许与第三方SQL客户端、接口和Business Intelligence(BI)工具连接，以便使用 [!DNL PostgreSQL] 协议。
+Experience Platform 允许与第三方 SQL 客户端、接口和 Business Intelligence (BI) 工具连接，以使用[!DNL PostgreSQL]协议直接连接、访问和查询 Experience Platform 内的数据。
 
-某些护栏适用于查询超时和查询结果中包含的数据量，如下面的护栏部分中所述。
+如下文护栏部分中所述，某些护栏适用于查询超时和查询结果中包含的数据量。
 
 ## 用例
 
