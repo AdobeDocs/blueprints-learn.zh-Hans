@@ -1,19 +1,19 @@
 ---
-title: 事件转发Blueprint
+title: 事件转发 Blueprint
 description: 通过 Experience Platform SDK 将收集的数据流传输到目的地
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
 source-git-commit: 7181c1dc3f823a9ea6f0e95f036eb4623b1b6c3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# 事件转发Blueprint
+# 事件转发 Blueprint
 
-事件转发Blueprint显示如何将通过Adobe Experience Platform Web和移动SDK收集的数据从Experience Platform边缘网络转发到所需的目标。 您可以根据在标记属性（原 Launch）中配置的事件和规则转发从 SDK 收集的所有原始数据或特定数据。
+事件转发 Blueprint 显示如何将通过 Adobe Experience Platform Web 和 Mobile SDK 收集的数据从 Experience Platform Edge 网络转发到所需的目的地。您可以根据在标记属性（原 Launch）中配置的事件和规则转发从 SDK 收集的所有原始数据或特定数据。
 
 ## 用例
 
