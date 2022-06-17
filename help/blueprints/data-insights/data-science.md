@@ -5,9 +5,9 @@ solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -31,23 +31,23 @@ ht-degree: 64%
 1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
 1. [将数据摄入](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans) Experience Platform。
 
-要将模型结果摄取到实时客户资料中，请务必在摄取数据之前执行以下操作：
+要将模型结果摄入到实时客户档案中，请务必在摄入数据之前执行以下操作：
 
 1. 在架构上[配置正确的身份和身份命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)，以确保摄入的数据可以拼接到统一的用户档案中。
 1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
 
 ## 实施注意事项
 
-* 在大多数情况下，模型结果应作为用户档案属性而不是体验事件进行摄取。 模型结果可以是一个简单的属性字符串。 如果要摄取多个模型结果，建议使用数组或映射类型字段。
-* 每日配置文件快照数据集是统一配置文件属性数据的每日导出数据，可以利用该数据集对配置文件属性数据进行模型培训。 可以访问配置文件快照数据集文档 [此处](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html#profile-attribute-datasets).
-* 要从Experience Platform中提取数据，可使用以下方法
-   * 数据访问SDK
+* 在大多数情况下，模型结果应作为用户档案属性而不是体验事件进行摄入。模型结果可以是一个简单的属性字符串。如果要摄入多个模型结果，建议使用数组或映射类型字段。
+* 每日用户档案快照数据集是统一用户档案属性数据的每日导出数据，可用于在用户档案属性数据基础上训练模型。可以在[此处](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=zh-Hans#profile-attribute-datasets)访问用户档案快照数据集文档。
+* 要从 Experience Platform 中提取数据，可使用以下方法
+   * 数据访问 SDK
       * 数据以原始文件形式提供
       * 用户档案体验事件数据保持其不统一的原始状态。
-   * RTCDP目标
-      * 只能处理用户档案属性和区段成员关系。
+   * RTCDP 目标
+      * 只能处理用户档案属性和区段会员资格。
    * 查询服务
-      * 访问大量原始数据可能会导致查询在10分钟超时。 建议以增量方式查询数据。
+      * 访问大量原始数据可能会导致查询在 10 分钟后超时。建议以增量方式查询数据。
 
 
 ## 相关文档
