@@ -4,9 +4,9 @@ description: 演示如何将 Adobe Journey Optimizer 与第三方消息传递系
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
 source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '829'
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Adobe Experience Platform
 #### 用户档案/身份
 
 1. [创建任何客户特定的命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
-1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
+1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
 1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
 1. 为[!UICONTROL 实时客户档案]的不同视图[设置合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=zh-Hans)（可选）。
 1. 创建区段以用于 Journey。
@@ -109,7 +109,7 @@ Adobe Experience Platform
 1. 利用 Adobe 标记并创建具有以下扩展的移动资产：
    * Adobe Journey Optimizer
    * Adobe Experience Platform Edge Network
-   * 身份 （边缘网络）
+   * 身份（边缘网络）
    * 移动核心
 1. 确保您拥有专用数据流，用于移动应用程序部署与 Web 部署
 1. 有关更多信息，请参阅 [Adobe Journey Optimizer 移动指南](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
