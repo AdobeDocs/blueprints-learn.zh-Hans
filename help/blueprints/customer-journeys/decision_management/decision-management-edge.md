@@ -4,17 +4,17 @@ description: 跨渠道向消费者提供个性化优惠，包括实时 Web 体�
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 source-git-commit: 5b2f7531cc05178127fb08d3fdafcbce70192ecd
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '847'
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer — 边缘决策管理
+# Journey Optimizer - 边缘决策管理
 
-要了解有关决策管理的更多信息，请参阅产品文档 [此处](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans) 和决策管理概述 [此处](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-overview.html)
+要了解有关决策管理的更多信息，请参阅[此处](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans)的产品文档和[此处](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-overview.html?lang=zh-Hans)的决策管理概述
 
-Adobe 决策管理是作为 Adobe Journey Optimizer 的一部分提供的服务。此蓝图概述了应用程序的用例和技术功能，并深入介绍了构成决策管理的各种体系结构组件和注意事项。
+Adobe 决策管理是作为 Adobe Journey Optimizer 的一部分提供的服务。此 Blueprint 概述了该应用程序的用例和技术功能，并深入介绍了构成决策管理的各种架构组件和注意事项。
 
 决策管理可以通过两种方式进行部署。第一种是通过 Adobe Experience Platform 中心，即采用单个数据中心架构。对于“中心”方法，执行、个性化和投放优惠的延迟为一秒左右。因此，中心架构最适合不需要亚秒级延迟的客户体验，例如，为自助终端、呼叫中心中的座席协助体验或者个人交互提供的优惠决策。
 
@@ -22,18 +22,18 @@ Adobe 决策管理是作为 Adobe Journey Optimizer 的一部分提供的服务�
 
 此 Blueprint 将介绍边缘决策管理的具体细节。
 
-要了解有关中心决策管理的更多信息，请参阅[中心决策管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-hub.html) Blueprint。
+要了解有关中心决策管理的更多信息，请参阅[中心决策管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-hub.html?lang=zh-Hans) Blueprint。
 
 ## 边缘决策管理用例
 
-* 通过Web或移动设备入站体验进行在线个性化。
+* 通过 Web 或移动设备集客体验进行在线个性化。
 * 跨渠道历程执行 - 通过 Adobe Journey Optimizer 提供跨 Web、移动设备、电子邮件和其他交互渠道的一致性。
 
 <br>
 
 ## 架构
 
-<img src="../assets/offers_edge.svg" alt="边缘蓝图上的参考体系结构决策管理" style="width:100%; border:1px solid #4a4a4a" />
+<img src="../assets/offers_edge.svg" alt="边缘决策管理参考架构 Blueprint" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -41,7 +41,7 @@ Adobe 决策管理是作为 Adobe Journey Optimizer 的一部分提供的服务�
 
 | 集成 | 描述 |
 | :-- | :--- |
-| [使用Adobe Target进行决策管理](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html?lang=zh-Hans) | 决策管理可以与Adobe Target集成，以便能够测试选件并将其作为Target体验进行交付。 |
+| [使用 Adobe Target 进行决策管理](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html?lang=zh-Hans) | 决策管理可以与 Adobe Target 集成，以便将优惠作为 Target 体验进行测试和投放。 |
 
 ## 先决条件
 
@@ -56,11 +56,11 @@ Adobe Experience Platform
 ## 护栏
 
 * 有关 Journey Optimizer 护栏，请参阅以下 [Journey Optimizer 护栏](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=zh-Hans)。
-* 有关决策管理护栏，请参阅以下内容 [决策管理产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/offer-decisioning-app-service.html).
+* 有关决策管理护栏，请参阅以下[决策管理产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/offer-decisioning-app-service.html).
 * 每秒请求数= 5000。
-* 响应的延迟少于250毫秒。
-* 访问边缘实时配置文件。 配置文件中只有边缘预测受众和配置文件属性可用。
-* 如果首次体验中需要个性化，则中心将是理想的选择，因为完整的用户档案可用。 边缘配置文件必须首次从集线器同步到边缘体验。 因此，从边缘网站获得的首个体验将不包含以前上传到中心的配置文件数据。
+* 响应延迟小于 250 ms。
+* 访问边缘实时用户档案。用户档案中只有边缘预测受众和用户档案属性可用。
+* 如果首次体验中需要个性化，则中心将是理想的选择，因为可以使用完整的用户档案。对于首次边缘体验，必须从中心同步边缘用户档案。因此，从边缘网站获得的首个体验将不包含以前上传到中心的用户档案数据。
 
 ### 数据摄入护栏
 
@@ -76,14 +76,14 @@ Adobe Experience Platform
 
 ## 实施模式
 
-* 使用Web或移动SDK在网站和移动应用程序上进行部署，以在部署SDK的位置实施决策管理。
+* 使用 Web SDK 或 Mobile SDK 在网站和移动应用程序上部署，在部署 SDK 的位置实施决策管理。
    * [Web/Mobile SDK Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=zh-Hans)
    * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=zh-Hans)
    * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
 或
 
-* 对于基于API服务器到服务器的实施，使用边缘网络服务API将决策管理的服务器直接实施到服务器。
+* 对于基于 API 服务器到服务器的实施，请使用 Edge 网络服务 API 进行直接的服务器到服务器决策管理实施。
    * [Edge 网络服务器 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html?lang=zh-Hans)
 
 <br>
@@ -102,7 +102,7 @@ Adobe Experience Platform
 #### 用户档案/身份
 
 1. [创建任何客户特定的命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
-1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
+1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
 1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
 1. 为[!UICONTROL 实时客户档案]的不同视图[设置合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=zh-Hans)（可选）。
 1. 创建区段以用于 Journey。
@@ -115,6 +115,6 @@ Adobe Experience Platform
 
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hans)
-* [Adobe Journey Optimizer 决策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+* [Adobe Journey Optimizer 决策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans)
 * [Adobe Journey Optimizer 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Adobe决策管理产品说明](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
+* [Adobe 决策管理产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/offer-decisioning-app-service.html)
