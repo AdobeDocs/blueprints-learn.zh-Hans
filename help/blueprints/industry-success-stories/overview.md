@@ -2,10 +2,10 @@
 title: 数字体验 Blueprint 行业成功案例
 description: 数字体验 Blueprint 成功案例展示了各个行业如何使用基于 Adobe Experience Platform 的 Adobe Experience Cloud 应用程序实现业务价值。
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: 1bea087acd18e4cfe931984731c90d8a0148d363
+source-git-commit: 3de073a8e11dfc228c597f52f494159725eef1ed
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 89%
+source-wordcount: '255'
+ht-degree: 78%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 89%
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans"><img alt="使用受众激活、Customer Journey Analytics 和 Customer Journeys Blueprint 的服装行业缩略图" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><img alt="使用受众激活、Customer Journey Analytics 和 Customer Journeys Blueprint 的服装行业缩略图" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=zh-Hans"><img alt="使用线上/线下数据激活和 Journey Optimizer Blueprint 的零售行业缩略图" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><img alt="使用线上/线下数据激活和 Journey Optimizer Blueprint 的零售行业缩略图" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
 
 </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="Journey Optimizer Blueprint 的缩略图" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html"><img alt="Journey Optimizer Blueprint 的缩略图" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=zh-Hans"><img alt="线上/线下数据激活 Blueprint 的缩略图" src="../audience-activation/assets/known_activation.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html"><img alt="线上/线下数据激活 Blueprint 的缩略图" src="../audience-activation/assets/known_activation.svg" /></a>
   </td>
 </tr>
 <tr>
