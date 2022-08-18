@@ -5,7 +5,7 @@ exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
 source-git-commit: 3de073a8e11dfc228c597f52f494159725eef1ed
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,23 +18,23 @@ ht-degree: 78%
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><img alt="使用受众激活、Customer Journey Analytics 和 Customer Journeys Blueprint 的服装行业缩略图" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html?lang=zh-Hans"><img alt="使用受众激活、Customer Journey Analytics 和 Customer Journeys Blueprint 的服装行业缩略图" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><img alt="使用线上/线下数据激活和 Journey Optimizer Blueprint 的零售行业缩略图" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html?lang=zh-Hans"><img alt="使用线上/线下数据激活和 Journey Optimizer Blueprint 的零售行业缩略图" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
 
 </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html"><img alt="Journey Optimizer Blueprint 的缩略图" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html?lang=zh-Hans"><img alt="Journey Optimizer Blueprint 的缩略图" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html"><img alt="线上/线下数据激活 Blueprint 的缩略图" src="../audience-activation/assets/known_activation.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html?lang=zh-Hans"><img alt="线上/线下数据激活 Blueprint 的缩略图" src="../audience-activation/assets/known_activation.svg" /></a>
   </td>
 </tr>
 <tr>
   <td>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><strong>服装行业</strong></a></div>
-    <p><em>实时营销、跨渠道激活和跨渠道分析。</em></p>
+    <p><em>实时营销、跨渠道激活和 Cross-Channel Analytics。</em></p>
   </td>
   <td>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><strong>零售行业</strong></a></div>
