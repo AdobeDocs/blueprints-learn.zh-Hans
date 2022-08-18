@@ -1,19 +1,19 @@
 ---
 title: 用户档案扩充的自定义数据科学 Blueprint
-description: 该 Blueprint 展示了 Adobe Experience Platform 的数据科学工作区如何使用 Adobe Experience Platform 中的数据来对模型进行训练、部署和评分以提供机器学习洞察。
+description: 此Blueprint显示如何将基于数据科学的分析引入Experience Platform以丰富实时客户资料。
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 83%
 
 ---
 
 # 用户档案扩充的自定义数据科学 Blueprint
 
-用户档案扩充的自定义数据科学 Blueprint 展示了如何使用 Adobe Experience Platform 中的数据来对模型进行训练、部署和评分，以便通过数据科学和机器学习工具为 Experience Platform 和 Real-time Customer Data Platform 提供机器学习洞察。可以将模型化的洞察摄入 Experience Platform，以丰富实时客户档案。机器学习洞察的示例包括存留期值评分、产品和类别亲和力、转化倾向或客户流失倾向。
+用于用户档案扩充蓝图的自定义数据科学展示了如何使用数据来训练、部署和评分模型，以便通过数据科学和机器学习工具对Experience Platform和Real-time Customer Data Platform提供机器学习分析。 可以将模型化的洞察摄入 Experience Platform，以丰富实时客户档案。机器学习洞察的示例包括存留期值评分、产品和类别亲和力、转化倾向或客户流失倾向。
 
 ## 用例
 
@@ -38,17 +38,14 @@ ht-degree: 100%
 
 ## 实施注意事项
 
-* 在大多数情况下，模型结果应作为用户档案属性而不是体验事件进行摄入。模型结果可以是一个简单的属性字符串。如果要摄入多个模型结果，建议使用数组或映射类型字段。
+* 在大多数情况下，模型结果应作为用户档案属性而不是体验事件进行摄入。模型结果可以是一个简单的属性字符串。 如果要摄入多个模型结果，建议使用数组或映射类型字段。
 * 每日用户档案快照数据集是统一用户档案属性数据的每日导出数据，可用于在用户档案属性数据基础上训练模型。可以在[此处](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=zh-Hans#profile-attribute-datasets)访问用户档案快照数据集文档。
 * 要从 Experience Platform 中提取数据，可使用以下方法
    * 数据访问 SDK
       * 数据以原始文件形式提供
       * 用户档案体验事件数据保持其不统一的原始状态。
    * RTCDP 目标
-      * 只能处理用户档案属性和区段会员资格。
-   * 查询服务
-      * 访问大量原始数据可能会导致查询在 10 分钟后超时。建议以增量方式查询数据。
-
+      * 配置文件属性和区段成员关系可以得到描述。
 
 ## 相关文档
 
