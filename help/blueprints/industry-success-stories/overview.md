@@ -3,7 +3,7 @@ title: 数字体验 Blueprint 行业成功案例
 description: 数字体验 Blueprint 成功案例展示了各个行业如何使用基于 Adobe Experience Platform 的 Adobe Experience Cloud 应用程序实现业务价值。
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
 source-git-commit: 3de073a8e11dfc228c597f52f494159725eef1ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
 ht-degree: 100%
 
@@ -33,19 +33,19 @@ ht-degree: 100%
 </tr>
 <tr>
   <td>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><strong>服装行业</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html?lang=zh-Hans"><strong>服装行业</strong></a></div>
     <p><em>实时营销、跨渠道激活和 Cross-Channel Analytics。</em></p>
   </td>
   <td>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><strong>零售行业</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html?lang=zh-Hans"><strong>零售行业</strong></a></div>
     <p><em>跨数字媒体、电子邮件、推送和 Web 渠道的实时客户体验。</em></p>
   </td>
   <td>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html"><strong>电信行业</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html?lang=zh-Hans"><strong>电信行业</strong></a></div>
     <p><em>实时为客户量身定制交易，同时高效完成客户注册，以提升长期忠诚度。</em></p>
   </td>
   <td>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html"><strong>旅游与服务行业</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html?lang=zh-Hans"><strong>旅游与服务行业</strong></a></div>
     <p><em>实时决策，具有各种渠道中客户行为的整合视图。</em></p>
   </td>
 </tr>
