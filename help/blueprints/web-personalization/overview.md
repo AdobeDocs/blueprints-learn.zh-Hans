@@ -5,10 +5,10 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
+source-git-commit: 310ef2284ffbc58d74f1924f5fe73ca226201da0
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Web 和移动个性化解决了跨多个应用程序使用用户档案和受众�
 | Blueprint | 描述 | Experience Cloud 应用程序 |
 |---|---|---|
 | **[行为 Web/移动个性化](behavioral.md)** | <ul><li>根据在线行为和受众数据进行个性化</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *（可选）*</li><li>Adobe Analytics *（可选）*</li><li>Adobe Audience Manager *（可选）*</li></ul> |
-| **[使用已知客户数据的 Web/移动个性化](known-personalization.md)** | <ul><li>完整的客户用户档案和增强的分段可提供更好的个性化体验。</li><li>利用离线属性和事件（交易、预订、CRM 和忠诚度数据）进行个性化设置。</li><li>在网络、电子邮件和其他已知渠道之间同步个性化。</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics *（可选）*</li><li>Adobe Audience Manager *（可选）*</li></ul> |
+| **[使用已知客户数据的 Web/移动个性化](known-personalization.md)** | <ul><li>完整的客户用户档案和增强的分段可提供更好的个性化体验。</li><li>利用离线属性和事件（交易、预订、CRM 和忠诚度数据）进行个性化设置。</li><li>在网络、电子邮件和其他已知渠道之间同步个性化。</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics或Customer Journey Analytics *（可选）*</li><li>Adobe Audience Manager *（可选）*</li></ul> |
 
 <br>
 
@@ -33,7 +33,7 @@ Web 和移动个性化解决了跨多个应用程序使用用户档案和受众�
 
 ### 已知客户个性化护栏图
 
-<img src="assets/personalization_guardrails.png" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.svg" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a" />
 
 ## 相关博客帖子
 
