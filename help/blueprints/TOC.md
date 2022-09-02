@@ -5,10 +5,10 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: a5a8de74c2ce176e1ca36fa536ad1c088fccdc27
-workflow-type: ht
-source-wordcount: '203'
-ht-degree: 100%
+source-git-commit: c0994c3f09d854c635049054328abcd2d552c28e
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 95%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 100%
    + [Experience Platform 数据流](/help/blueprints/experience-platform/platform-data-flow.md)
 + 受众和用户档案激活 {#audience-activation}
    + [概述](/help/blueprints/audience-activation/overview.md)
-   + [匿名受众激活](/help/blueprints/audience-activation/anonymous.md)
-   + 已知客户激活 {#known-customer-audience-activation}
+   + [匿名受众激活 (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + 已知的客户激活(RTCDP) {#known-customer-audience-activation}
       + [概述](/help/blueprints/audience-activation/known.md)
       + 激活社交和广告渠道 {#audience-activation}
          + [激活到 Facebook 自定义受众](/help/blueprints/audience-activation/destinations/facebook.md)
@@ -74,6 +74,6 @@ ht-degree: 100%
    + [为用户档案扩充自定义数据科学](/help/blueprints/data-insights/data-science.md)
 + Web 和移动个性化 {#web-personalization}
    + [概述](/help/blueprints/web-personalization/overview.md)
-   + [行为个性化](/help/blueprints/web-personalization/behavioral.md)
-   + [已知客户个性化](/help/blueprints/web-personalization/known-personalization.md)
+   + [行为个性化 - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [已知的客户个性化 — Target和RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [决策管理](/help/blueprints/web-personalization/decision-management-edge.md)
