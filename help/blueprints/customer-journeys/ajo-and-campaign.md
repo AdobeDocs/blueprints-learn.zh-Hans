@@ -3,10 +3,10 @@ title: Journey Optimizer 与 Adobe Campaign Blueprint
 description: 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合使用，通过 Campaign 中的实时消息传送服务器在本地发送消息
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
-source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
-workflow-type: ht
-source-wordcount: '1150'
-ht-degree: 100%
+source-git-commit: a04bd6fe26c9b67a5bfbe753d734882f30f6c047
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 100%
    * 鉴于它可以发送到执行实例的数量，不支持基于读取受众和业务事件的历程
 * AC (v7) 或 AC (v8) 都不支持消息中的决策管理
 * 对 Campaign 的出站 API 调用没有限流
-* 事务性消息日志未本地同步到 AEP。需要咨询团队的精力。建议最多每 4 小时导出一次日志
+* 借助Campaign v8.4，可以在Experience Platform中利用Adobe Campaign Managed Services Source Connector将投放和跟踪事件从Campaign同步到Experience Platform。 有关更多详细信息，请参阅源连接器文档。 [链接](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
 
 <br>
 
@@ -108,7 +108,7 @@ ht-degree: 100%
 #### 用户档案/身份
 
 1. [创建任何客户特定的命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
-1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
+1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
 1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
 1. 为[!UICONTROL 实时客户档案]的不同视图[设置合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=zh-Hans)（可选）。
 1. 创建区段以用于 Journey。
@@ -126,7 +126,8 @@ ht-degree: 100%
 ### Campaign v7/v8 或 Campaign Standard
 
 * 需要使用相应的个性化上下文配置消息模板
-* 导出工作流需要配置为将事务性消息传递日志导出并发回 Experience Platform。建议最多每 4 小时运行一次
+* 对于Campaign Standard — 导出工作流需要配置为将事务性消息日志导出回Experience Platform。 建议最多每4小时运行一次。
+* 对于Campaign v8.4，可以在Experience Platform中利用Adobe Campaign Managed Services Source Connector将投放和跟踪事件从Campaign同步到Experience Platform。 有关更多详细信息，请参阅源连接器文档。 [链接](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
 
 ### 移动推送配置（可选）
 
