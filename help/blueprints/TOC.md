@@ -7,8 +7,8 @@ mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: fc247d3a933d6df33e43f3a1f55f9dfb1eba35a6
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 90%
 + 受众和用户档案激活 {#audience-activation}
    + [概述](/help/blueprints/audience-activation/overview.md)
    + [匿名受众激活 (AAM)](/help/blueprints/audience-activation/anonymous.md)
-   + 已知的客户激活(RTCDP) {#known-customer-audience-activation}
+   + 已知客户激活 (RTCDP) {#known-customer-audience-activation}
       + [概述](/help/blueprints/audience-activation/known.md)
       + 激活社交和广告渠道 {#audience-activation}
          + [激活到 Facebook 自定义受众](/help/blueprints/audience-activation/destinations/facebook.md)
@@ -76,5 +76,5 @@ ht-degree: 90%
 + Web 和移动个性化 {#web-personalization}
    + [概述](/help/blueprints/web-personalization/overview.md)
    + [行为个性化 - Target](/help/blueprints/web-personalization/behavioral.md)
-   + [已知的客户个性化 — Target和RTCDP](/help/blueprints/web-personalization/known-personalization.md)
+   + [已知的客户个性化 - Target 和 RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [决策管理](/help/blueprints/web-personalization/decision-management-edge.md)
