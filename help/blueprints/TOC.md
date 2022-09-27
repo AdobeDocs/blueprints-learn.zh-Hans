@@ -5,10 +5,10 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: fc247d3a933d6df33e43f3a1f55f9dfb1eba35a6
+source-git-commit: 84eb7427077a068c3fe3b2cfc4856e115427f4ca
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 94%
 
 ---
 
@@ -16,13 +16,12 @@ ht-degree: 0%
 # 数字体验 Blueprint {#architecture}
 
 + [概述](/help/blueprints/overview.md)
-+ [查看所有用例](/help/blueprints/use-cases.md)
 + 垂直行业蓝图{#vertical-blueprints}
-   + [概述](/help/blueprints/industry-success-stories/overview.md)
-   + [服装](/help/blueprints/industry-success-stories/apparel.md)
-   + [零售](/help/blueprints/industry-success-stories/retail.md)
-   + [电信业](/help/blueprints/industry-success-stories/telecommunications.md)
-   + [旅游与酒店](/help/blueprints/industry-success-stories/travel-hospitality.md)
+   + [概述](/help/blueprints/vertical-blueprints/overview.md)
+   + [服装](/help/blueprints/vertical-blueprints/apparel.md)
+   + [零售](/help/blueprints/vertical-blueprints/retail.md)
+   + [电信业](/help/blueprints/vertical-blueprints/telecommunications.md)
+   + [旅游与酒店](/help/blueprints/vertical-blueprints/travel-hospitality.md)
 + 架构概述 {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform 和应用程序](/help/blueprints/experience-platform/platform-applications.md)

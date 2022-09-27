@@ -4,10 +4,10 @@ description: 在 Experience Platform 中管理用户档案和受众，并将其�
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
-source-wordcount: '741'
-ht-degree: 100%
+source-git-commit: 094591020413933932356cb8c393bf569bcfca50
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 95%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 ### 从 Real-time Customer Data Platform 共享受众到 Target
 
-* 请参阅[使用线上和线下数据进行 Web/移动个性化 Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=zh-Hans)，以了解有关将用户档案和受众从 Real-time Customer Data Platform 共享到 Target 的更多详细信息。
+* 请参阅 [已知的客户个性化 — Target和RTCDP Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html) 有关将用户档案和受众从Real-time Customer Data Platform共享到Target的其他详细信息。
 
 ### 从 Real-time Customer Data Platform 共享受众到 Campaign 和 Journey Optimizer
 
