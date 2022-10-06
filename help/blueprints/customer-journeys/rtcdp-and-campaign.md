@@ -1,12 +1,12 @@
 ---
-title: Real-Time CDP与Adobe Campaign v7集成模式
+title: Real-Time CDP与Adobe Campaign v7和Campaign Standard集成模式
 description: 显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign 结合使用来提供个性化对话。
 solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
+source-git-commit: 163dd644b690c1f5554a3929e1f83c121e132df5
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 98%
+source-wordcount: '804'
+ht-degree: 94%
 
 ---
 
@@ -78,6 +78,8 @@ ht-degree: 98%
 
 #### 源/目的地
 
+1. [Experience Platform和Campaign Standard源和描述](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
+1. [Experience Platform和促销活动v7源和设计](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html)
 1. 使用流传输 API 和源连接器[将数据摄入 Experience Platform。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans)
 1. 配置 [!DNL Azure] blob 存储目的地以与 Adobe Campaign 一起使用。
 
