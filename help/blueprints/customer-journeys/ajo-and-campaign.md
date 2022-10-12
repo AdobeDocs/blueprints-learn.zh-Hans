@@ -5,8 +5,8 @@ solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaig
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
 source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 92%
    * 不支持单个静态 IP，因为我们的基础架构是多租户的（必须允许列出所有数据中心 IP）
    * 自定义操作仅支持 POST 和 PUT 方法
    * 身份验证支持：令牌 |密码 | OAuth2
-* 无法打包 Adobe Experience Platform 或 Journey Optimizer 的各个组件，并在各个沙箱之间移动它们。必须在新环境中重新实施
+* 无法打包 Adobe Experience Platform 或 Journey Optimizer 的各个组件，并在各个沙盒之间移动它们。必须在新环境中重新实施
 
 <br>
 

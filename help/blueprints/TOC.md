@@ -7,8 +7,8 @@ mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 80%
 # 数字体验 Blueprint {#architecture}
 
 + [概述](/help/blueprints/overview.md)
-+ 垂直行业蓝图{#vertical-blueprints}
++ 垂直行业 Blueprint {#vertical-blueprints}
    + [概述](/help/blueprints/vertical-blueprints/overview.md)
    + [服装](/help/blueprints/vertical-blueprints/apparel.md)
    + [零售](/help/blueprints/vertical-blueprints/retail.md)
@@ -31,7 +31,7 @@ ht-degree: 80%
       + [应用程序 SDK](/help/blueprints/data-ingestion/appsdk.md)
 + 受众和用户档案激活 {#audience-activation}
    + [概述](/help/blueprints/audience-activation/overview.md)
-   + [匿名受众激活 (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [匿名受众激活  (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + 已知客户激活 (RTCDP) {#known-customer-audience-activation}
       + [概述](/help/blueprints/audience-activation/known.md)
       + 激活社交和广告渠道 {#audience-activation}
@@ -69,7 +69,7 @@ ht-degree: 80%
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP 与 Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer带Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
-+ 数据摄取和数据导出{#data-ingestion}
++ 数据摄入和数据导出 {#data-ingestion}
    + [概述](/help/blueprints/data-ingestion/overview.md)
    + [数据准备和摄入](/help/blueprints/data-ingestion/ingestion.md)
    + [事件转发](/help/blueprints/data-ingestion/server-side-collection.md)
@@ -80,6 +80,6 @@ ht-degree: 80%
    + [为用户档案扩充自定义数据科学](/help/blueprints/data-insights/data-science.md)
 + Web 和移动个性化 {#web-personalization}
    + [概述](/help/blueprints/web-personalization/overview.md)
-   + [行为个性化 - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [行为个性化  - Target](/help/blueprints/web-personalization/behavioral.md)
    + [已知的客户个性化 - Target 和 RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [决策管理](/help/blueprints/web-personalization/decision-management-edge.md)
