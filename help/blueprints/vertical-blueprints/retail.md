@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey 
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
 source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ### 描述
 
-<ul><li>在 Experience Platform 中管理用户档案和受众，并将其与 Experience Cloud 应用程序共享</li><li>在 Experience Platform 中建立并共享丰富的客户区段和洞察，将其与 Experience Cloud 应用程序共享</li></ul>
+<ul><li>在 Experience Platform 中管理用户档案和受众，并将其与 Experience Cloud 应用程序共享。</li><li>在 Experience Platform 中建立并共享丰富的客户区段和洞察，将其与 Experience Cloud 应用程序共享。</li></ul>
 
 ### Experience Cloud 应用程序
 
