@@ -6,7 +6,7 @@ solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 83f1f5e0e508d35d6711710cdb4d367f67e4f715
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 
 * [Experience Cloud 受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)
 * [将 Audience Manager 与 Adobe Target 集成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=zh-Hans)
-* [通过 Adobe Audience Manager 分享 Adobe Analytics 区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [通过 Adobe Audience Manager 分享 Adobe Analytics 区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hans)
 * [[!UICONTROL Real-time Customer Data Platform] 概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hans)
 * [[!UICONTROL Real-time Customer Data Platform]产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform.html)
 * [用户档案和分段指南](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
