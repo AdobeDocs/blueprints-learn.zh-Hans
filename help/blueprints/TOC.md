@@ -5,10 +5,10 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
+source-git-commit: 4ada1c55ea67a2d723050a2c72b4ab02c9394660
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '249'
+ht-degree: 84%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 0%
 + 垂直行业 Blueprint {#vertical-blueprints}
    + [概述](/help/blueprints/vertical-blueprints/overview.md)
    + [服装](/help/blueprints/vertical-blueprints/apparel.md)
+   + [医疗保健](/help/blueprints/vertical-blueprints/healthcare-vertical.md)
    + [零售](/help/blueprints/vertical-blueprints/retail.md)
    + [电信业](/help/blueprints/vertical-blueprints/telecommunications.md)
    + [旅游与酒店](/help/blueprints/vertical-blueprints/travel-hospitality.md)
@@ -26,9 +27,10 @@ ht-degree: 0%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform 和应用程序](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platform 数据流](/help/blueprints/experience-platform/platform-data-flow.md)
-   + 部署模式{#deployment}
+   + 部署 {#deployment}
       + [Experience Platform Web SDK 和 Edge 网络](/help/blueprints/data-ingestion/websdk.md)
       + [应用程序 SDK](/help/blueprints/data-ingestion/appsdk.md)
+      + [护栏](/help/blueprints/experience-platform/deployment/guardrails.md)
 + 受众和用户档案激活 {#audience-activation}
    + [概述](/help/blueprints/audience-activation/overview.md)
    + [匿名受众激活  (AAM)](/help/blueprints/audience-activation/anonymous.md)
