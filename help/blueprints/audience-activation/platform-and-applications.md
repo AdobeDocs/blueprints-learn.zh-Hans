@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 094591020413933932356cb8c393bf569bcfca50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 95%
 
 ### 从 Real-time Customer Data Platform 共享受众到 Target
 
-* 请参阅 [已知的客户个性化 — Target和RTCDP Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html) 有关将用户档案和受众从Real-time Customer Data Platform共享到Target的其他详细信息。
+* 请参阅[已知客户个性化 - Target 和 RTCDP Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=zh-Hans)，以了解有关将用户档案和受众从 Real-time Customer Data Platform 共享到 Target 的更多详细信息。
 
 ### 从 Real-time Customer Data Platform 共享受众到 Campaign 和 Journey Optimizer
 
