@@ -2,10 +2,10 @@
 title: Journey Optimizer 与 Adobe Campaign v8 Blueprint
 description: 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合使用，通过 Campaign 中的实时消息传送服务器在本地发送消息
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
-source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
-workflow-type: ht
-source-wordcount: '1128'
-ht-degree: 100%
+source-git-commit: a74ef566bf468c5508263f4070beaf6d0cd73a0e
+workflow-type: tm+mt
+source-wordcount: '1028'
+ht-degree: 99%
 
 ---
 
@@ -68,14 +68,9 @@ ht-degree: 100%
 ### Campaign (v8)
 
 * 消息中心的执行实例必须由 Adobe 托管云服务托管
-* 需要 v7 版本 21.1 以上或 v8
 * 消息传递吞吐量
-   * AC (v7) 每小时 5 万
    * AC (v8) 多达每小时 100 万（基于软件包）
-* AC (v7) 仅支持事件启动历程
-   * 无启动了区段或区段成员资格的历程
-   * 鉴于它可以发送到执行实例的数量，不支持基于读取受众和业务事件的历程
-* AC (v7) 或 AC (v8) 都不支持消息中的决策管理
+* AC(v8)不支持消息中的决策管理
 * 对 Campaign 的出站 API 调用没有限流
 * 借助 Campaign v8.4，可以在 Experience Platform 中利用 Adobe Campaign Managed Services Source 连接器将投放和跟踪事件从 Campaign 同步到 Experience Platform 中。有关更多详细信息，请参阅源连接器文档。[链接](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)
 
@@ -96,7 +91,7 @@ ht-degree: 100%
 #### 用户档案/身份
 
 1. [创建任何客户特定的命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
-1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
+1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
 1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
 1. 为[!UICONTROL 实时客户档案]的不同视图[设置合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=zh-Hans)（可选）。
 1. 创建区段以用于 Journey。
@@ -115,7 +110,7 @@ ht-degree: 100%
 
 * 需要使用相应的个性化上下文配置消息模板
 * 对于 Campaign Standard - 导出工作流需要配置为将事务性消息传递日志导出并发回 Experience Platform。建议最多每 4 小时运行一次。
-* 对于 Campaign v8.4，可以在 Experience Platform 中利用 Adobe Campaign Managed Services Source 连接器将投放和跟踪事件从 Campaign 同步到 Experience Platform 中。有关更多详细信息，请参阅源连接器文档。[链接](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)
+* 对于 Campaign v8.4，可以在 Experience Platform 中利用 Adobe Campaign Managed Services Source 连接器将投放和跟踪事件从 Campaign 同步到 Experience Platform 中。有关更多详细信息，请参阅源连接器文档。[链接](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
 
 ### 移动推送配置（可选）
 
@@ -135,11 +130,6 @@ ht-degree: 100%
 
 ## 相关文档
 
-* [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
-* [Experience Platform 标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
-* [Experience Platform Mobile SDK 文档](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)
 * [Journey Optimizer 文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hans)
 * [Journey Optimizer 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)
 * [Campaign v8 文档](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=zh-Hans)
-* [Campaign v7 文档](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=zh-Hans)
-* [Campaign Standard 文档](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=zh-Hans)
