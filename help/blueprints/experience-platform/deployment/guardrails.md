@@ -3,10 +3,10 @@ title: Experience Platform和应用程序护栏
 description: 护栏定义了对Adobe Experience Platform和应用程序中组件和服务的性能期望和影响
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: 8a53151558f4df9d2909d43d13bdbd800adbc79f
+source-git-commit: e75f8b39b52794b61c4efd33df1f658a6615a7b8
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 31%
+source-wordcount: '297'
+ht-degree: 30%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 31%
 [身份护栏](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=en)
 
 [查询服务护栏](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en)
+
+[目标激活护栏](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
 
 [Journey Optimizer护栏](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en)
 
