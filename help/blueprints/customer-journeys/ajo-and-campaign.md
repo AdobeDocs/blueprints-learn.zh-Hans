@@ -4,9 +4,9 @@ description: 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合�
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
 source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '504'
+ht-degree: 100%
 
 ---
 
@@ -66,9 +66,9 @@ ht-degree: 0%
 
 <br>
 
-### Campaign集成
+### Campaign 集成
 
-有关与特定版本的Adobe Campaign和Adobe Journey Optimizer集成的指导，请参阅每个Adobe Campaign版本的相应指南。
+有关与特定版本的 Adobe Campaign 和 Adobe Journey Optimizer 集成的指导，请参阅每个 Adobe Campaign 版本的相应指南。
 
-* [Adobe Journey Optimizer和Campaign v7](ajo-and-campaign-v7.md)
-* [Adobe Journey Optimizer和Campaign v8](ajo-and-campaign-v8.md)
+* [Adobe Journey Optimizer 和 Campaign v7](ajo-and-campaign-v7.md)
+* [Adobe Journey Optimizer 和 Campaign v8](ajo-and-campaign-v8.md)
