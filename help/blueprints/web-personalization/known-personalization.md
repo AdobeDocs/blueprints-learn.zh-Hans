@@ -1,14 +1,14 @@
 ---
-title: Web/移动个性化概述 - Adobe Target 和 RTCDP
+title: Web/移动个性化概述  - Adobe Target 和 RTCDP
 description: 将 Web 个性化与电子邮件和其他已知和匿名渠道的个性化同步。
 landing-page-description: 将 Web 个性化与电子邮件和其他已知和匿名渠道的个性化同步。
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: ad83e4e71f82d12b8aa2f3ef98a9614deb666a4c
-workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 99%
 ### 实施模式 1 - 使用 Web/Mobile SDK 或 Edge 网络 API 的 Edge 网络（推荐方法）
 
 * 将 Edge 网络与 Web/Mobile SDK 结合使用。实时 Edge 分段需要使用 Web/Mobile SDK 或 Edge API 实施方法。
-* [请参阅 Experience Platform Web 和 Mobile SDK Blueprint](../data-ingestion/websdk.md)   以了解基于 SDK 的实施。
+* [请参阅 Experience Platform Web 和 Mobile SDK Blueprint](../data-ingestion/websdk.md)    以了解基于 SDK 的实施。
 * 在 Mobile SDK 中使用 [Adobe Journey Optimizer - 决策扩展](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning)必须安装在 Mobile SDK 中。
 * 有关基于 API 的含边缘用户档案 Adobe Target 实施，[请参阅 Edge 网络服务器 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)。
 
@@ -95,14 +95,14 @@ ht-degree: 99%
 
 ### SDK 文档
 
-* [Experience Platform Web SDK 文档](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Experience Platform Web SDK 文档](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)
 * [Experience Platform 标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
 * [Experience Cloud ID 服务文档](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
 
 ### 连接文档
 
-* [用于 Real-time Customer Data Platform 的 Adobe Target 连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en)
-* [Edge 数据流配置](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
+* [用于 Real-time Customer Data Platform 的 Adobe Target 连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans)
+* [Edge 数据流配置](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=zh-Hans)
 * [与 Audience Manager 和其他 Experience Cloud 解决方案共享 Experience Platform 区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=zh-Hans)
 
 ### 分段文档
@@ -111,7 +111,7 @@ ht-degree: 99%
 * [实时分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=zh-Hans)
 * [流式分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans)
 * [通过 Adobe Audience Manager 分享 Adobe Analytics 区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hans)
-* [合并策略配置](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#create-a-merge-policy)
+* [合并策略配置](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans#create-a-merge-policy)
 
 ### 教程
 
