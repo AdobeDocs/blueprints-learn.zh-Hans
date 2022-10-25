@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 4ada1c55ea67a2d723050a2c72b4ab02c9394660
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 84%
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 84%
       + [护栏](/help/blueprints/experience-platform/deployment/guardrails.md)
 + 受众和用户档案激活 {#audience-activation}
    + [概述](/help/blueprints/audience-activation/overview.md)
-   + [匿名受众激活  (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [匿名受众激活   (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + 已知客户激活 (RTCDP) {#known-customer-audience-activation}
       + [概述](/help/blueprints/audience-activation/known.md)
       + 激活社交和广告渠道 {#audience-activation}
@@ -60,17 +60,17 @@ ht-degree: 84%
          + [中心决策管理](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer 与 Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [第三方消息传递](/help/blueprints/customer-journeys/3rd-party-messaging.md)
-   + Campaign Standard{#campaign-standard}
-      + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html)
-      + [Real-Time CDP与Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
+   + Campaign Standard {#campaign-standard}
+      + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=zh-Hans)
+      + [Real-Time CDP 与 Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=zh-Hans)
    + Campaign v8 {#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
-      + [Real-Time CDP带Adobe Campaign v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
-      + [Journey Optimizer带Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
+      + [Real-Time CDP 与 Adobe Campaign v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
+      + [Journey Optimizer 与 Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP 与 Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-      + [Journey Optimizer带Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
+      + [Journey Optimizer 与 Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + 数据摄入和数据导出 {#data-ingestion}
    + [概述](/help/blueprints/data-ingestion/overview.md)
    + [数据准备和摄入](/help/blueprints/data-ingestion/ingestion.md)
@@ -82,6 +82,6 @@ ht-degree: 84%
    + [为用户档案扩充自定义数据科学](/help/blueprints/data-insights/data-science.md)
 + Web 和移动个性化 {#web-personalization}
    + [概述](/help/blueprints/web-personalization/overview.md)
-   + [行为个性化  - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [行为个性化   - Target](/help/blueprints/web-personalization/behavioral.md)
    + [已知的客户个性化 - Target 和 RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [决策管理](/help/blueprints/web-personalization/decision-management-edge.md)
