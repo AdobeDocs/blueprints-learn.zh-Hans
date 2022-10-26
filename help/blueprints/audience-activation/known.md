@@ -4,10 +4,10 @@ description: 线上/线下受众激活。
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
-source-wordcount: '558'
-ht-degree: 100%
+source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
+workflow-type: tm+mt
+source-wordcount: '568'
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 ## 护栏
 
-[请参阅“受众和用户档案激活概述”页上的护栏概述](overview.md)。
+[请参阅“受众和用户档案激活概述”页上的护栏概述](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html?lang=en#guardrails-for-audience-and-profile-activation-blueprints)。
 
 ## Real-time Customer Data Platform 的实施步骤
 
@@ -80,4 +80,4 @@ ht-degree: 100%
 
 * [[!UICONTROL Real-time Customer Data Platform] 概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hans)
 * [[!UICONTROL Real-time Customer Data Platform] 演示](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=zh-Hans)
-* [创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=zh-Hans)
+* [创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)

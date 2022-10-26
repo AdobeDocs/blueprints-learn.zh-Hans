@@ -5,10 +5,10 @@ solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
+source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,8 +46,7 @@ ht-degree: 100%
 
 ## 受众和用户档案激活 Blueprint 护栏
 
-* [用户档案和分段指南](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
-
+* 有关详细的护栏和端到端延迟，请参阅 [部署护栏文档](../experience-platform/deployment/guardrails.md) 和 [配置文件和分段护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 
 ### 激活属性和身份
 
