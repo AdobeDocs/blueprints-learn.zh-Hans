@@ -3,10 +3,10 @@ title: Journey Optimizer - 触发式消息和 Adobe Experience Platform Blueprin
 description: 使用 Adobe Experience Platform 作为流式传输数据、客户档案和分段的中心枢纽，执行触发的消息和体验。
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 8a53151558f4df9d2909d43d13bdbd800adbc79f
+source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1045'
+ht-degree: 100%
 
 ---
 
@@ -97,7 +97,7 @@ Adobe Experience Platform
 
 ### 激活护栏
 
-<img src="../experience-platform/assets/activation-latency.svg" alt="参考架构 Journey Optimizer Blueprint" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/AJO_guardrails.svg" alt="参考架构 Journey Optimizer Blueprint" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -136,7 +136,7 @@ Adobe Experience Platform
 1. 利用 Adobe 标记并创建具有以下扩展的移动资产：
 1. Adobe Journey Optimizer
 1. Adobe Experience Platform Edge Network
-1. 身份 （边缘网络）
+1. 身份  （边缘网络）
 1. 移动核心
 1. 确保您拥有专用数据流，用于移动应用程序部署与 Web 部署
 1. 有关更多信息，请参阅 [Adobe Journey Optimizer 移动指南](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)

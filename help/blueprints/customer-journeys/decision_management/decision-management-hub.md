@@ -3,10 +3,10 @@ title: 中心决策管理
 description: 跨渠道向消费者投放个性化优惠，包括自助终端、座席协助体验、电子邮件以及其他推拨投放。
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 1c05a017e7729d2be676203c2bc06bddd5f9141a
+source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '906'
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Adobe Experience Platform
 
 ### 激活护栏
 
-<img src="../../experience-platform/assets/activation-latency.svg" alt="参考架构 Journey Optimizer Blueprint" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../../experience-platform/assets/AJO_guardrails.svg" alt="参考架构 Journey Optimizer Blueprint" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
