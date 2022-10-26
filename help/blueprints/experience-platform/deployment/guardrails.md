@@ -3,10 +3,10 @@ title: Experience Platform和应用程序护栏
 description: 护栏定义了对Adobe Experience Platform和应用程序中组件和服务的性能期望和影响
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: f618f3be083e15ebd0a00fcb242bd2ca07798272
+source-git-commit: a6b0e80c58ae3968b58a607765a45ed846428c71
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 25%
+source-wordcount: '294'
+ht-degree: 24%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 25%
 
 <br>
 
-## 端到端延迟
+## 端到端延迟图
 
 ### 数据摄取
 
@@ -45,6 +45,12 @@ ht-degree: 25%
 ### 分段
 
 <img src="../assets/segmentation_guardrails.svg" alt="Experience Platform分段护栏" style="border:1px solid #4a4a4a" width="85%" />
+
+<br>
+
+### Real-time Customer Data Platform和Adobe Target
+
+<img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP和Target" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
