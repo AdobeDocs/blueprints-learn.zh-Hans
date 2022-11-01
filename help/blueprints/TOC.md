@@ -5,10 +5,10 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: e7a640580038c547cf983956ed155099aa14b159
+source-git-commit: f087e4d4312c7e8e33130a699b43909914252035
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 96%
 
 ---
 
@@ -70,9 +70,10 @@ ht-degree: 100%
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP 与 Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer 与 Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
-+ 数据摄入和数据导出 {#data-ingestion}
++ 数据收集、摄取、访问和导出{#data-ingestion}
    + [概述](/help/blueprints/data-ingestion/overview.md)
    + [数据准备和摄入](/help/blueprints/data-ingestion/ingestion.md)
+   + [数据访问和导出](/help/blueprints/data-ingestion/egress.md)
    + [事件转发](/help/blueprints/data-ingestion/server-side-collection.md)
    + [多沙盒数据收集](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
 + 数据分析、智能和 AI/ML {#data-exploration}
