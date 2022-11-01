@@ -4,10 +4,10 @@ description: 此 Blueprint 显示如何将基于数据科学的分析摄入 Expe
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 92%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 100%
 ## 架构
 
 <img src="assets/data_science.svg" alt="用户档案扩充的自定义数据科学 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a" />
+
+## 护栏
+
+* 有关将数据科学结果摄取到Experience Platform的详细防护和端到端延迟，以及实时客户资料，请参阅 [部署护栏文档](../experience-platform/deployment/guardrails.md).
 
 ## 实施步骤
 
