@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 83f1f5e0e508d35d6711710cdb4d367f67e4f715
-workflow-type: ht
-source-wordcount: '917'
-ht-degree: 100%
+source-git-commit: 79e349d8b8dcb1626cccfff2ad56160bb9babd76
+workflow-type: tm+mt
+source-wordcount: '987'
+ht-degree: 88%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 <td>Analytics</td>
 <td>
 <ul>
-<li>当前无集成</li>
+<li>通过Web/Mobile SDK收集的数据可以转发到Adobe Analytics。</li>
 </ul>
 </td>
 <td>
@@ -89,13 +89,13 @@ ht-degree: 100%
 </td>
 <td>
 <ul>
-<li>可以将收集和评估的受众会员资格数据共享到 Experience Platform 数据湖和用户档案存储。 <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=zh-Hans">Audience Manager 源连接器</a></li>
+<li>收集和评估的数据以及来自Audience Manager的受众成员资格可以共享到Experience Platform数据湖和用户档案存储。 <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=zh-Hans">Audience Manager 源连接器</a></li>
 </ul>
 </td>
 <td>
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=zh-Hans">匿名受众激活</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=zh-Hans">已知客户激活</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">匿名受众激活</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html">已知客户激活</a></li>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans">通过 Experience Platform 和应用程序进行激活</a></li>
 </ul>
 </td>
@@ -141,6 +141,9 @@ ht-degree: 100%
 <td colspan="1">
 <ul>
 <li>收集并摄入 Experience Platform 数据湖中的数据可用于处理到 Customer Journey Analytics 中。 </li>
+<li>可以将来自Real-time Customer Data Platform的用户档案和受众数据摄取到CJA。 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en">将RTCDP与CJA集成</a>.
+</li>
+</ul>
 </ul>
 </td>
 <td colspan="1">
@@ -191,15 +194,15 @@ ht-degree: 100%
 </td>
 </tr>
 <tr>
-<td colspan="1">Magento</td>
+<td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>当前无集成</li>
+<li>在Real-time Customer Data Platform中构建的用户档案和受众可在Adobe Commerce中进行个性化。 </li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Magento 的本机数据可通过 Magento 源连接器发送到 Experience Platform。 </li>
+<li>Adobe Commerce的本机数据可以通过Adobe Commerce源连接器发送到Experience Platform。 </li>
 </ul>
 </td>
 <td colspan="1">当前无集成</td>
@@ -218,7 +221,7 @@ ht-degree: 100%
 </td>
 <td colspan="1">
 <ul>
-<li>B2B 激活 - 正在开发中</li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=en">B2B Activation Blueprint</a></li>
 </ul>
 </td>
 </tr>
@@ -237,8 +240,8 @@ ht-degree: 100%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=zh-Hans">已知客户激活</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans">通过 Experience Platform 和应用程序进行激活</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">已知客户激活</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">通过 Experience Platform 和应用程序进行激活</a></li>
 </ul>
 </td>
 </tr>
@@ -256,8 +259,8 @@ ht-degree: 100%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=zh-Hans">已知客户激活</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans">通过 Experience Platform 和应用程序进行激活</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">已知客户激活</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">通过 Experience Platform 和应用程序进行激活</a></li>
 </ul>
 </td>
 </tr>
