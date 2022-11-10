@@ -7,8 +7,8 @@ mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: 0dfe87cbffa265ee47873a91259a73dbc6c9dc76
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '251'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
       + [护栏](/help/blueprints/experience-platform/deployment/guardrails.md)
 + 受众和用户档案激活 {#audience-activation}
    + [概述](/help/blueprints/audience-activation/overview.md)
-   + [匿名受众激活   (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [匿名受众激活    (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + 已知客户激活 (RTCDP) {#known-customer-audience-activation}
       + [概述](/help/blueprints/audience-activation/known.md)
       + 激活社交和广告渠道 {#audience-activation}
@@ -68,7 +68,7 @@ ht-degree: 0%
       + [Journey Optimizer 与 Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP 与 Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Real-Time CDP 与 Adobe Campaign  v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer 与 Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + 数据收集、访问和导出{#data-ingestion}
    + [概述](/help/blueprints/data-ingestion/overview.md)
@@ -82,6 +82,6 @@ ht-degree: 0%
    + [为用户档案扩充自定义数据科学](/help/blueprints/data-insights/data-science.md)
 + Web 和移动个性化 {#web-personalization}
    + [概述](/help/blueprints/web-personalization/overview.md)
-   + [行为个性化   - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [行为个性化    - Target](/help/blueprints/web-personalization/behavioral.md)
    + [已知的客户个性化 - Target 和 RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [决策管理](/help/blueprints/web-personalization/decision-management-edge.md)
