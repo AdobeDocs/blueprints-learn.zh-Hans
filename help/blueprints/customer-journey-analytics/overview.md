@@ -30,7 +30,7 @@ Customer Journey Analytics 用例的完整列表可在此处的客户历程分�
 * 哪些营销活动提高了转化率和参与度
 * 工具使用分析，以优化自助服务体验
 
-## Customer Journey Analytics架构
+## Customer Journey Analytics 的架构
 
 ![架构图](assets/CJA.svg)
 
