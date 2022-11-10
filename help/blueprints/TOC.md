@@ -5,10 +5,10 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 0dfe87cbffa265ee47873a91259a73dbc6c9dc76
+source-git-commit: d952442d066ea99f5b089f85798129dd0e40daec
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -75,7 +75,6 @@ ht-degree: 97%
    + [数据准备和摄入](/help/blueprints/data-ingestion/ingestion.md)
    + [数据访问和导出](/help/blueprints/data-ingestion/egress.md)
    + [事件转发](/help/blueprints/data-ingestion/server-side-collection.md)
-   + [多沙盒数据收集](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
 + 数据分析、智能和 AI/ML {#data-exploration}
    + [概述](/help/blueprints/data-insights/overview.md)
    + [数据分析和智能](/help/blueprints/data-insights/analysis.md)
