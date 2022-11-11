@@ -5,10 +5,10 @@ landing-page-description: 将 Web 个性化与电子邮件和其他已知和匿�
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
+source-git-commit: 87679928d2bfcfe74c85bb054341c662999e52a5
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 95%
+source-wordcount: '1625'
+ht-degree: 79%
 
 ---
 
@@ -82,13 +82,17 @@ ht-degree: 95%
 
 [请参阅“Web 和移动个性化 Blueprint 概述”页面上的护栏。](overview.md)
 
+* 仅当用户在Edge上处于活动状态时，才会创建边缘配置文件，这意味着其配置文件具有通过Web/Mobile SDK或边缘服务器API提交到边缘的流事件。 这通常对应于在网站或移动设备应用程序上处于活动状态的用户。
+* 边缘配置文件的默认生存时间为14天。 如果用户尚未收集活动的边缘事件，则配置文件将在处于不活动状态14天后在边缘端过期。 配置文件在集线器中将保持有效，并在用户再次在边缘上处于活动状态时与边缘同步。
+* 在边缘上创建新配置文件后，将异步向集线器发起同步调用，以获取通过目标为边缘投影配置的任何受众和属性。 由于它是一个异步过程，因此集线器配置文件可能需要1秒到几分钟的时间才能同步到边缘。 因此，无法保证新用户档案具有来自首页体验中心的用户档案上下文。 这同样适用于新收集的数据到中心。 此数据将异步投影到边缘，因此，数据到达相应边缘的时间将与边缘活动分开。 只有边缘节点上处于活动状态的用户档案才会保留从中心投影的属性和受众。
+
 ## 实施注意事项
 
 身份先决条件
 
 * 在 Edge 网络和 WebSDK 中利用上述实施模式 1 时，可以利用任何主身份。首次登录个性化要求个性化请求集主身份与 Real-time Customer Data Platform 中用户档案的主身份匹配。匿名设备与已知客户之间的身份拼接会在中心处理，然后映射到边缘。
 * 请注意，在消费者访问或登录网站之前上传到中心的数据不会立即可用于个性化。要同步到中心数据，必须先存在活动的边缘用户档案。创建后，边缘用户档案将与中心用户档案异步同步，从而实现下一页个性化。
-* 如上文集成模式 2 和 3 中所述，在使用受众共享服务将受众从 Adobe Experience Platform 共享到 Adobe Target 时，需要使用 ECID 作为身份。
+* 如上面的集成模式2和3中所述，在使用受众共享服务时，要将受众从Adobe Experience Platform共享到Adobe Target，需要将ECID用作标识。
 * 替代身份也可用于通过Audience Manager将Experience Platform受众共享到Adobe Target。 Experience Platform通过以下受支持的命名空间激活受众以Audience Manager：IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。 请注意，Audience Manager 和 Target 通过 ECID 身份解析受众成员关系，因此要最终将受众共享到 Adobe Target，仍需要将 ECID 放在消费者的身份图中。
 
 ## 相关文档

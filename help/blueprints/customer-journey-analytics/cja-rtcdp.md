@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: d47efe9bb7d19a745e0d75d21a09cb87912bd60b
+source-git-commit: 985f7320db7c77b8541ec4ef76b1eb7ad0caae56
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 92%
+source-wordcount: '392'
+ht-degree: 44%
 
 ---
 
@@ -29,6 +29,18 @@ ht-degree: 92%
 * 有关详细的护栏和端到端延迟，请参阅 [部署护栏文档](../experience-platform/deployment/guardrails.md)
 
 ![护栏图](../experience-platform/assets/CJA_guardrails.svg)
+
+## 常见问题解答
+
+* 如果CJA发送的RTCDP中不存在相应的用户档案，是会创建新用户档案，还是仅从CJA为已存在的用户档案记录受众？ 是，将创建新用户档案。 因此，如果RTCDP实施仅面向已知客户，则应编写CJA受众规则以仅筛选具有已知身份的用户档案。 这将确保RTCDP配置文件计数不会从匿名配置文件中增加（如果不需要）。
+
+* CJA是否会将受众数据作为管道事件发送或作为同样会发送到数据湖的平面文件发送？ CJA受众通过管道流式传输到RTCDP用户档案服务，但数据也作为数据集存储在数据湖中。
+
+* CJA会发送哪些身份？ 在CJA配置期间，CJA会通过任何已配置为“人员ID”的身份来发送。
+
+* 将什么设置为主标识？ 用户在将CJA设置为主“人员”ID时选择的任何身份。
+
+* 标识服务是否也会处理CJA消息？ 例如，CJA是否可以通过受众共享向配置文件标识图添加标识？ 不能，身份服务不处理CJA消息。
 
 ## 相关博客帖子
 
