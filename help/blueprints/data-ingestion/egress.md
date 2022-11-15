@@ -3,10 +3,11 @@ title: 数据访问和导出Blueprint
 description: 此Blueprint提供并概述了从Adobe Experience Platform和应用程序访问和导出数据的所有方法。
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
-source-git-commit: 67e66068bb8a2106dd8aa9784b5a39377225c045
+exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
+source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 4%
+source-wordcount: '1513'
+ht-degree: 5%
 
 ---
 
@@ -50,7 +51,7 @@ Blueprint将划分为两个类别，用于从Experience Platform和应用程序�
 
 * 实时客户资料 [护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) 。
 * 专为一次进行单个用户档案查找而设计。 不用于批量访问或下载整个配置文件群体以用于分析或数据科学。
-* 用户档案查找响应时间与用户档案护栏相连。 低延迟要求 — 例如，对于同一页面个性化要求，应使用边缘配置文件或客户个性化目标来实现低延迟的配置文件访问。 [文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en).
+* 用户档案查找响应时间与用户档案护栏相连。 实时低延迟要求 — 例如，对于同一页面个性化要求，应使用从到的边缘用户档案 [Adobe Target连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans) 或 [自定义个性化连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en) 用于在浏览器和应用程序内个性化中实时访问用户档案。
 
 ### 数据访问API {#data-access-api}
 
@@ -129,7 +130,7 @@ Blueprint将划分为两个类别，用于从Experience Platform和应用程序�
 
 #### 用例
 
-* 激活配置文件属性信息，包括企业间数据存储库、分析工具、电子邮件系统或支持系统的受众成员资格。
+* 激活配置文件属性信息，包括内部企业数据存储库、分析工具、电子邮件系统或支持系统的受众成员资格。
 * 向外部广告供应商激活用户档案受众成员资格，以定位和个性化用户档案的内容。
 
 #### 注意事项
@@ -150,17 +151,7 @@ Blueprint将划分为两个类别，用于从Experience Platform和应用程序�
 
 #### 注意事项
 
-* 对支持的吞吐量的护栏 [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en) 和 [实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) 。
+* 对支持的吞吐量的护栏 [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans) 和 [实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) 。
 * 自定义操作可以逐个在流中对历程中的每个事件或用户档案执行。 无法跨客户历程以文件或聚合请求的形式执行批量操作或批量数据输出。
 * 对实时客户配置文件属性和体验事件的流式访问，这些属性和体验事件可包含在激活有效负载中。
 * 在将事件发送到外部目标之前，可以过滤并应用简单的映射转换。
-
-
-
-
-
-
-
-
-
-
