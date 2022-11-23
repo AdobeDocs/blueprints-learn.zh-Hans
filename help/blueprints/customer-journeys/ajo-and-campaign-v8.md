@@ -2,14 +2,15 @@
 title: Journey Optimizer 与 Adobe Campaign v8 Blueprint
 description: 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合使用，通过 Campaign 中的实时消息传送服务器在本地发送消息
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
-source-git-commit: a74ef566bf468c5508263f4070beaf6d0cd73a0e
-workflow-type: tm+mt
+exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
+source-git-commit: 779b55ab12a27796a00db4b1adb6add7d3ccd0a8
+workflow-type: ht
 source-wordcount: '1028'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer 与 Adobe Campaign v8
+# Journey Optimizer 与 Adobe Campaign   v8
 
 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合使用，通过 Campaign 中的实时消息传送服务器在本地发送消息。
 
@@ -60,7 +61,7 @@ ht-degree: 99%
 * 出站集成到第三方系统
    * 不支持单个静态 IP，因为我们的基础架构是多租户的（必须允许列出所有数据中心 IP）
    * 自定义操作仅支持 POST 和 PUT 方法
-   * 身份验证支持：令牌 |密码 | OAuth2
+   * 身份验证支持：令牌 | 密码 | OAuth2
 * 无法打包 Adobe Experience Platform 或 Journey Optimizer 的各个组件，并在各个沙盒之间移动它们。必须在新环境中重新实施
 
 <br>
@@ -70,7 +71,7 @@ ht-degree: 99%
 * 消息中心的执行实例必须由 Adobe 托管云服务托管
 * 消息传递吞吐量
    * AC (v8) 多达每小时 100 万（基于软件包）
-* AC(v8)不支持消息中的决策管理
+* AC (v8) 不支持消息中的决策管理
 * 对 Campaign 的出站 API 调用没有限流
 * 借助 Campaign v8.4，可以在 Experience Platform 中利用 Adobe Campaign Managed Services Source 连接器将投放和跟踪事件从 Campaign 同步到 Experience Platform 中。有关更多详细信息，请参阅源连接器文档。[链接](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)
 
@@ -82,7 +83,7 @@ ht-degree: 99%
 
 #### 模式/数据集
 
-1. 根据客户提供的数据在 Experience Platform 中[配置单个用户档案、体验事件和多实体模式。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
+1. 根据客户提供的数据在 Experience Platform 中[配置单个用户档案、体验事件和多实体模式。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=zh-Hans)
 1. 为 Adobe Campaign broadLog、trackingLog 和无法投放地址表创建基于体验事件类的架构（可选）。
 1. 为要摄入的数据在 Experience Platform 中[创建数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)。
 1. 在 Experience Platform 中为数据集[添加数据使用标签](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=zh-Hans)以便进行治理。
@@ -91,7 +92,7 @@ ht-degree: 99%
 #### 用户档案/身份
 
 1. [创建任何客户特定的命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
-1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
+1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
 1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
 1. 为[!UICONTROL 实时客户档案]的不同视图[设置合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=zh-Hans)（可选）。
 1. 创建区段以用于 Journey。
@@ -110,15 +111,15 @@ ht-degree: 99%
 
 * 需要使用相应的个性化上下文配置消息模板
 * 对于 Campaign Standard - 导出工作流需要配置为将事务性消息传递日志导出并发回 Experience Platform。建议最多每 4 小时运行一次。
-* 对于 Campaign v8.4，可以在 Experience Platform 中利用 Adobe Campaign Managed Services Source 连接器将投放和跟踪事件从 Campaign 同步到 Experience Platform 中。有关更多详细信息，请参阅源连接器文档。[链接](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* 对于 Campaign v8.4，可以在 Experience Platform 中利用 Adobe Campaign Managed Services Source 连接器将投放和跟踪事件从 Campaign 同步到 Experience Platform 中。有关更多详细信息，请参阅源连接器文档。[链接](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)
 
 ### 移动推送配置（可选）
 
 1. 实施 Experience Platform Mobile SDK 以收集推送令牌和登录信息，从而关联回已知的客户用户档案
 1. 利用 Adobe 标记并创建具有以下扩展的移动资产：
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
-   * Adobe Experience Platform Edge Network
-   * 身份  （边缘网络）
+   * Adobe Experience Platform Edge 网络
+   * 身份    （边缘网络）
    * 移动核心
 1. 确保您拥有专用数据流，用于移动应用程序部署与 Web 部署
 1. 有关更多信息，请参阅 [Adobe Journey Optimizer 移动指南](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
