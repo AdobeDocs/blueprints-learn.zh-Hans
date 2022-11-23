@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
 source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '837'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 
 ## 集成模式
 
-* B2B 数据源（Marketo、Salesforce 等）-> Real-time Customer Data Platform B2B 版 -> 目标
+* B2B 数据源（Marketo、Salesforce 等） -> Real-time Customer Data Platform B2B 版 -> 目标
 各种 B2B 数据源可用于将帐户、商机、机会和人员数据映射到 Real-time Customer Data Platform B2B 版。
 
 ## 架构
@@ -38,7 +38,7 @@ ht-degree: 95%
 
 * 请注意，仅当将 Marketo Engage 用作源和/或目标时，与 Marketo Engage 相关的护栏和实施步骤才相关。
 
-* 有关端到端延迟的其他详细信息和防护，请参阅 [部署护栏文档](../experience-platform/deployment/guardrails.md)
+* 有关端到端延迟护栏的更多详细信息，请参阅 [部署护栏文档](../experience-platform/deployment/guardrails.md)
 
 
 ### 多实例和 IMS 组织支持：
@@ -59,7 +59,7 @@ ht-degree: 95%
 
 #### Experience Platform 用户档案和分段护栏：
 
-* 请参阅用户档案和分段护栏以进行Experience Platform- [配置文件和分段护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
+* 有关 Experience Platform - [用户档案和分段护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)，请参阅用户档案和分段护栏
 * B2B 区段包括帐户、商机、机会，使用多实体关系，这会导致区段评估成为批处理。对于仅限于人员和事件的区段，支持流传输分段。
 
 #### Experience Platform - Marketo Engage 源连接器：
@@ -78,7 +78,7 @@ ht-degree: 95%
 
 #### 目标护栏
 
-* 有关目标的具体指导，请参阅目标文档。[目标护栏](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=en)
+* 有关目标的具体指导，请参阅目标文档。[目标护栏](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=zh-Hans)
 
 
 ## 实施步骤
@@ -98,7 +98,7 @@ ht-degree: 95%
 
 ## 相关文档
 
-* [Real-time Customer Data Platform B2B 版](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
+* [Real-time Customer Data Platform B2B 版](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=zh-Hans)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=zh-Hans)
 * [Adobe Experience Platform - Marketo 源连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=zh-Hans)
