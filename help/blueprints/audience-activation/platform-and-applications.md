@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 68%
 
 在 Experience Platform 中管理用户档案和受众，并将其与 Experience Cloud 应用程序共享。在 Experience Platform 中建立并共享丰富的客户区段和洞察，将其与 Experience Cloud 应用程序共享。
 
-Experience Cloud应用程序激活与 [已知的客户激活Blueprint](known.md).
+使用 Experience Cloud 应用程序的激活与[已知客户激活 Blueprint](known.md) 保持一致。
 
 ## 用例
 
 * 基于 Experience Cloud 跨客户交互渠道进行个性化和定位。
 * 在 Experience Platform 和 Experience Cloud 应用程序之间共享受众和用户档案数据。
-* 从包括在线行为数据和数据科学模型在内的多渠道数据构建丰富的洞察，以丰富Experience Platform中的实时客户资料，然后与Experience Cloud应用程序共享。
+* 通过包括线上行为数据和数据科学模型在内的多渠道数据得到丰富的洞察，以丰富 Experience Platform 中的实时客户档案，然后与 Experience Cloud 应用程序共享。
 
 ## 应用程序
 
@@ -48,7 +48,7 @@ Experience Cloud应用程序激活与 [已知的客户激活Blueprint](known.md)
 
 ## 护栏
 
-请参阅[“受众和用户档案激活概述”页上的护栏](overview.md) 和 [部署护栏](../experience-platform/deployment/guardrails.md) 页面。
+请参阅[“受众和用户档案激活概述”页上的护栏](overview.md) 和[部署护栏](../experience-platform/deployment/guardrails.md)页面。
 
 ## 实施注意事项
 
@@ -59,9 +59,9 @@ Experience Cloud应用程序激活与 [已知的客户激活Blueprint](known.md)
 * 有关更多详细信息，请参阅以下文档。[与 Audience Manager 和其他 Experience Cloud 解决方案共享 Experience Platform 区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=zh-Hans).
 
 * 无论是在批处理中还是流传输中发生的区段评估，一旦区段评估完成并写入实时客户档案，RT-CDP 中的受众成员资格就会以流传输方式共享到 Audience Manager。
-* 如果符合条件的用户档案包含相关用户档案设备的区域路由信息，则 RTCDP 的受众成员资格将在关联的 Audience Manager Edge 上以流传输方式判断资格。如果将区域路由信息应用于过去14天内具有时间戳的用户档案，则会在流Audience Manager边缘中评估该区域路由信息。 如果RTCDP中的用户档案不包含区域路由信息或区域路由信息大于14天，则RTCDP受众成员会发送到Audience Manager中心位置，以便进行批量评估和激活。
-* 利用区域路由信息，这些配置文件符合边缘激活的条件，并将在RTCDP进行区段鉴别后的几分钟内激活，不符合边缘激活条件的配置文件将在Audience Manager中心获得资格，并且可能有12-24小时的处理时间。
-* 对于存储 Audience Manager 用户档案的 Edge 的区域路由信息，可从 Audience Manager、访客 ID 服务、Analytics、Launch 或直接从 Web SDK，使用“数据捕获区域信息”XDM 字段组以单独用户档案记录类数据集的形式收集到 Experience Platform。有关更多详细信息，请参阅获取区域信息文档 [链接](https://experienceleague.adobe.com/docs/id-service/using/reference/regions.html?lang=en).
+* 如果符合条件的用户档案包含相关用户档案设备的区域路由信息，则 RTCDP 的受众成员资格将在关联的 Audience Manager Edge 上以流传输方式判断资格。如果将区域路由信息应用于具有过去 14 天内时间戳的用户档案，则会在流传输中在 Audience Manager Edge 上对其进行评估。如果 RTCDP 中的用户档案不包含区域路由信息或区域路由信息超过 14 天，则 RTCDP 受众成员资格会发送到 Audience Manager 中心位置，以进行批量评估和激活。
+* 凭借区域路由信息，这些用户档案符合边缘激活资格，并将在 RTCDP 区段资格审核后的几分钟内激活，不符合边缘激活资格的用户档案将在 Audience Manager 中心判断资格，并且处理时间可能在 12-24 小时。
+* 对于存储 Audience Manager 用户档案的 Edge 的区域路由信息，可从 Audience Manager、访客 ID 服务、Analytics、Launch 或直接从 Web SDK，使用“数据捕获区域信息”XDM 字段组以单独用户档案记录类数据集的形式收集到 Experience Platform。有关更多详细信息，请参阅获取区域信息文档[链接](https://experienceleague.adobe.com/docs/id-service/using/reference/regions.html?lang=zh-Hans)。
 * 对于从 Experience Platform 共享受众到 Audience Manager 的激活方案，会自动共享以下身份：ECID、IDFA、GAID、散列电子邮件地址 (EMAIL_LC_SHA256)、AdCloud ID。当前，不共享客户命名空间。
 * 当所需目的地身份包括在[!UICONTROL 实时客户档案]中时，或者在[!UICONTROL 实时客户档案]中的身份可以与在 Audience Manager 中链接的所需目的地身份相关时，可以通过 Audience Manager 目的地共享来自 Experience Platform 的受众。
 
@@ -71,15 +71,15 @@ Experience Cloud应用程序激活与 [已知的客户激活Blueprint](known.md)
 
 ### 从 Real-time Customer Data Platform 共享受众到 Campaign 和 Journey Optimizer
 
-* 请参阅[客户历程 Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=en)，以了解有关将用户档案和受众从 Real-time Customer Data Platform 共享到 Campaign 和 Journey Optimizer 的更多详细信息。
+* 请参阅[客户历程 Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=zh-Hans)，以了解有关将用户档案和受众从 Real-time Customer Data Platform 共享到 Campaign 和 Journey Optimizer 的更多详细信息。
 
-### 受众从Real-time Customer Data Platform共享到Marketo Engage
+### 从 Real-time Customer Data Platform 共享受众到 Marketo Engage
 
-* 请参阅 [B2B Activation Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=en) 有关将用户档案和受众从Real-time Customer Data Platform共享到Marketo Engage的其他详细信息。
+* 请参阅 [B2B 激活 Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=zh-Hans)，以了解有关将用户档案和受众从 Real-time Customer Data Platform 共享到 Marketo Engage 的其他详细信息。
 
-### 受众从Real-time Customer Data Platform共享到Customer Journey Analytics
+### 从 Real-time Customer Data Platform 共享受众到 Customer Journey Analytics
 
-* 请参阅 [与Customer Journey Analytics共享的RTCDP受众](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en) 有关将Real-time Customer Data Platform受众共享到Customer Journey Analytics的其他详细信息。
+* 请参阅[与 Customer Journey Analytics 共享 RTCDP 受众](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=zh-Hans)，以了解有关将 Real-time Customer Data Platform 受众共享到 Customer Journey Analytics 的其他详细信息。
 
 ## 相关文档
 
