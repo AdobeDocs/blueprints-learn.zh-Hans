@@ -5,15 +5,15 @@ solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer 
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 779b55ab12a27796a00db4b1adb6add7d3ccd0a8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '300'
+ht-degree: 100%
 
 ---
 
 # 护栏
 
-护栏是建议的阈值，用于就数据和系统使用、优化性能提供指导，并避免在 Adobe Experience Platform 和应用程序中出现错误或意外结果。护栏旨在反映系统约束和性能预期，以便于客户架构和使用案例性能优化。 护栏不是服务级别协议，有关产品特定的服务级别协议的信息，请参阅下面链接的产品描述文档。
+护栏是建议的阈值，用于就数据和系统使用、优化性能提供指导，并避免在 Adobe Experience Platform 和应用程序中出现错误或意外结果。护栏旨在反映系统约束和性能预期，以促进客户架构和使用案例性能优化。护栏不是服务级别协议，有关产品特定的服务级别协议的信息，请参阅下面链接的产品描述文档。
 
 
 ## Adobe Experience Platform 和应用程序的护栏
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 [查询服务护栏](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=zh-Hans)
 
-[目标激活护栏](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
+[目标激活护栏](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=zh-Hans)
 
 [Journey Optimizer 护栏](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans)
 
@@ -44,19 +44,19 @@ ht-degree: 0%
 
 ### 分段
 
-<img src="../assets/segmentation_guardrails.svg" alt="Experience Platform分段护栏" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/segmentation_guardrails.svg" alt="Experience Platform 分段护栏" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
-### Real-time Customer Data Platform和Adobe Target
+### Real-time Customer Data Platform 和 Adobe Target
 
-<img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP和Target护栏" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP 和 Target 护栏" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Customer Journey Analytics
 
-<img src="../assets/CJA_guardrails.svg" alt="CJA护栏" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/CJA_guardrails.svg" alt="CJA 护栏" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
