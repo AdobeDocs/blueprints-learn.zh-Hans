@@ -4,9 +4,9 @@ description: Adobe Campaign v8 是一款针对电子邮件和直邮等传统营�
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
 source-git-commit: c79422931cb4305347a4034ae1cb6bac2be1e229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1147'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign v8 是一款针对电子邮件和直邮等传统营销渠道而�
 
 | 场景 | 描述 | 功能 |
 | :-- | :--- | :--- |
-| [使用Adobe Campaign的实时客户数据平台](rtcdp-and-campaign-v8.md) | 显示如何将Adobe Experience Platform及其实时客户资料和集中化分段工具与Adobe Campaign结合使用来提供个性化对话 | <ul><li>使用云存储文件交换和Adobe Campaign摄取工作流，将用户档案和受众从Real-Time CDP共享到Adobe Campaign </li><li>将客户对话中的传送和交互数据轻松共享回 Adobe Campaign 的 Real-Time CDP，以增强实时客户档案并提供有关消息传递营销活动的跨渠道报告</li></ul> |
+| [Real time Customer Data Platform 与 Adobe Campaign](rtcdp-and-campaign-v8.md) | 显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign 结合使用来提供个性化对话 | <ul><li>使用云存储文件交换和 Adobe Campaign 摄入工作流，将用户档案和受众从 Real-Time CDP 共享到 Adobe Campaign </li><li>将客户对话中的传送和交互数据轻松共享回 Adobe Campaign 的 Real-Time CDP，以增强实时客户档案并提供有关消息传递营销活动的跨渠道报告</li></ul> |
 | [Journey Optimizer 与 Adobe Campaign](ajo-and-campaign.md) | 显示如何使用 Adobe Journey Optimizer 利用实时客户档案编排 1:1 体验，并利用本机 Adobe Campaign 事务型消息传递系统来发送消息 | 利用实时客户档案和 Journey Optimizer 的强大功能编排即刻体验，同时利用 Adobe Campaign 的本机实时消息传递功能进行最后一英里通信<br><br>注意事项：<br><ul><li>可通过实时消息服务器每小时发送最多 100 万条消息<li>不会从 Journey Optimizer 执行限流，因此请确保售前企业架构师进行技术审查</li><li>Campaign v8 的有效负载中不支持决策管理</li></ul> |
 
 <br>
