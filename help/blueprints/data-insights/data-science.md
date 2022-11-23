@@ -5,9 +5,9 @@ solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 92%
 
 ## 护栏
 
-* 有关将数据科学结果摄取到Experience Platform的详细防护和端到端延迟，以及实时客户资料，请参阅 [部署护栏文档](../experience-platform/deployment/guardrails.md).
+* 有关将数据科学结果摄入到 Experience Platform 以及实时客户档案的详细防护和端到端延迟，请参阅[部署护栏文档](../experience-platform/deployment/guardrails.md)中引用的数据摄入护栏和延迟图。
 
 ## 实施步骤
 
-1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
+1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=zh-Hans)
 1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
 1. [将数据摄入](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans) Experience Platform。
 
@@ -49,7 +49,7 @@ ht-degree: 92%
       * 数据以原始文件形式提供
       * 用户档案体验事件数据保持其不统一的原始状态。
    * RTCDP 目标
-      * 可处理用户档案属性和区段会员资格。
+      * 可导出用户档案属性和区段会员资格。
 
 ## 相关文档
 
