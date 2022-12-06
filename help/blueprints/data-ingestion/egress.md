@@ -5,9 +5,9 @@ product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1513'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 96%
 
 * 实时客户档案[护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)适用。
 * 专为一次进行单个用户档案查找而设计。不用于出于分析或数据科学目的批量访问或下载所有用户档案。
-* 用户档案查找响应时间遵循用户档案护栏。实时低延迟要求 — 例如，对于同一页面个性化要求，应使用从到的边缘用户档案 [Adobe Target连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans) 或 [自定义个性化连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=zh-Hans) 用于在浏览器和应用程序内个性化中实时访问用户档案。
+* 用户档案查找响应时间遵循用户档案护栏。实时低延迟要求 - 例如，对于同页个性化要求，应利用来自 [Adobe Target 连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans)或[自定义个性化连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=zh-Hans)的边缘用户档案来实时访问用户档案，实现浏览器内和应用程序内个性化。
 
 ### 数据访问 API {#data-access-api}
 
@@ -130,7 +130,7 @@ ht-degree: 96%
 
 #### 用例
 
-* 激活配置文件属性信息，包括内部企业数据存储库、分析工具、电子邮件系统或支持系统的受众成员资格。
+* 激活用户档案属性信息，包括企业间数据存储、分析工具、电子邮件系统或支持系统的受众成员资格。
 * 将用户档案受众成员资格激活到外部广告供应商，以根据用户档案定位和个性化内容。
 
 #### 注意事项
@@ -151,7 +151,7 @@ ht-degree: 96%
 
 #### 注意事项
 
-* 有关 [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans) 支持的吞吐量和[实时客户档案](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)支持的扩充的护栏。
+* 有关 [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans) 支持的吞吐量和[实时客户档案](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)支持的扩充的护栏。
 * 自定义操作可以按流传输方式逐一对历程中的每个事件或用户档案执行。无法跨客户历程以文件或聚合请求的形式执行批量操作或批量数据导出。
 * 对实时客户用户档案属性和体验事件的流传输访问，这些属性和体验事件可包含在激活有效负载中。
 * 在将事件发送到外部目标之前，可以过滤并应用简单的映射转换。
