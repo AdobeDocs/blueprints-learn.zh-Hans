@@ -6,15 +6,15 @@ kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
 source-git-commit: d952442d066ea99f5b089f85798129dd0e40daec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Adobe Experience Cloud 架构图
 
-## Adobe Experience Cloud营销架构
+## Adobe Experience Cloud 营销架构
 
 下图展示了基于 Adobe Experience Platform 构建和集成的 Adobe Experience Cloud 组件，涵盖数据分析与受众、内容与商务、客户历程、营销工作流。
 
