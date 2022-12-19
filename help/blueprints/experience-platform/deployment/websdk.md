@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
+source-git-commit: 0b0f77eaf903f592993ed8f4abe29827b733c769
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 有关 Web 和 Mobile SDK 以及 Edge 网络服务器 API 的概述和详细信息，请参阅以下内容。
 * [WebSDK 概述](https://experienceleague.adobe.com/docs/web-sdk.html?lang=zh-Hans)
-* [MobileSDK 概述](https://aep-sdks.gitbook.io/docs/)
+* [MobileSDK 概述](https://developer.adobe.com/client-sdks/documentation/)
 * [Edge 网络服务器 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)
 
 有关 WebSDK 支持哪些应用程序功能的详细概述，请参阅以下文档。
