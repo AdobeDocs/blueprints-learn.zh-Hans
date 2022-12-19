@@ -2,7 +2,7 @@
 description: 概述 — 使用Marketo和Workfront优化促销活动供应链
 title: 概述
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
 workflow-type: tm+mt
 source-wordcount: '1738'
 ht-degree: 0%
@@ -147,7 +147,7 @@ Workfront项目可以进行模板化，以便在每次运行特定营销策略�
 
 ### Workfront Fusion、Workfront和Marketo Engage集成快速入门 {#getting-started-with-workfront-fusion}
 
-* [引入和创建](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.md){target=&quot;_blank&quot;} — 使用Marketo Engage和Workfront实现营销活动开发自动化
+* [引入和创建](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target=&quot;_blank&quot;} — 使用Marketo Engage和Workfront实现营销活动开发自动化
 
 * 验证和批准（即将推出）
 

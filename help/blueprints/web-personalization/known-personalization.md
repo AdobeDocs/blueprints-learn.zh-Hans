@@ -5,8 +5,8 @@ landing-page-description: 将 Web 个性化与电子邮件和其他已知和匿�
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 87679928d2bfcfe74c85bb054341c662999e52a5
-workflow-type: ht
+source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
+workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 ### 实施模式 1 - 使用 Web/Mobile SDK 或 Edge 网络 API 的 Edge 网络（推荐方法）
 
 * 将 Edge 网络与 Web/Mobile SDK 结合使用。实时 Edge 分段需要使用 Web/Mobile SDK 或 Edge API 实施方法。
-* [请参阅 Experience Platform Web 和 Mobile SDK Blueprint](../data-ingestion/websdk.md)      以了解基于 SDK 的实施。
+* [请参阅 Experience Platform Web 和 Mobile SDK Blueprint](../experience-platform/deployment/websdk.md)      以了解基于 SDK 的实施。
 * 在 Mobile SDK 中使用 [Adobe Journey Optimizer - 决策扩展](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning)必须安装在 Mobile SDK 中。
 * 有关基于 API 的含边缘用户档案 Adobe Target 实施，[请参阅 Edge 网络服务器 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)。
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 使用传统的特定于应用程序的 SDK（例如，AT.js 和 AppMeasurement.js）。使用此实施方案不支持实时 Edge 区段评估。但是，使用此实施方案支持从 Experience Platform 中心进行流传输和批次受众共享。
 
-[请参阅特定于应用程序的 SDK Blueprint](../data-ingestion/appsdk.md)
+[请参阅特定于应用程序的 SDK Blueprint](../experience-platform/deployment/appsdk.md)
 
 ### 实施步骤
 
