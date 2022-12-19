@@ -2,7 +2,7 @@
 description: 引入和创建 — 利用Marketo和Workfront优化促销活动供应链
 title: 引入和创建
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: c33790d001c98628fcaa57f0ef8ebf449adb8af2
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->要进一步了解Workfront中用于组织营销活动工作的不同类型对象以及它如何映射到Marketo Engage项目，请查看 [Marketo和Workfront概述](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md){target=&quot;_blank&quot;}。
+>要进一步了解Workfront中用于组织营销活动工作的不同类型对象以及它如何映射到Marketo Engage项目，请查看 [Marketo和Workfront概述](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}。
 
 ## 准备Campaign开发流程以实现自动化 {#prepare-your-campaign-development-process-for-automation}
 
@@ -157,4 +157,4 @@ ht-degree: 0%
 
 * [Adobe Workfront模块](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target=&quot;_blank&quot;}
 
-* [Marketo和Workfront概述](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md){target=&quot;_blank&quot;}
+* [Marketo和Workfront概述](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}
