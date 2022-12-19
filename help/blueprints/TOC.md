@@ -5,7 +5,7 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: fd8dd3caee5cbf450c5f00266c74ccdef7cd1de9
+source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 94%
@@ -27,8 +27,8 @@ ht-degree: 94%
    + [Experience Platform 和应用程序](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platform 数据流](/help/blueprints/experience-platform/platform-data-flow.md)
    + 部署 {#deployment}
-      + [Experience Platform Web SDK 和 Edge 网络](/help/blueprints/data-ingestion/websdk.md)
-      + [应用程序 SDK](/help/blueprints/data-ingestion/appsdk.md)
+      + [Experience Platform Web SDK 和 Edge 网络](/help/blueprints/experience-platform/deployment/websdk.md)
+      + [应用程序 SDK](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [护栏](/help/blueprints/experience-platform/deployment/guardrails.md)
 + 受众和用户档案激活 {#audience-activation}
    + [概述](/help/blueprints/audience-activation/overview.md)
