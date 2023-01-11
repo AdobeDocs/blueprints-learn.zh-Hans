@@ -1,8 +1,8 @@
 ---
 source-git-commit: b8709e01d7771ac9002fbc286c2d9709ef3d0ca2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 # 贡献文章
@@ -15,13 +15,13 @@ ht-degree: 95%
 
 ## 关于如何为 Adobe 内容作贡献
 
-请参阅 [Adobe 文档参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
+请参阅 [Adobe 文档参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
 
 您的参与方式取决于您的身份，以及您希望参与的更改类型：
 
 ### 细微更改
 
-如果您出于好意，想提供一些细微更改，请访问相应文章，然后单击文章中的&#x200B;**编辑**&#x200B;链接，跳转到文章的 GitHub 源。然后，您只需使用 GitHub UI 进行更新。有关更多信息，请参阅通用 [Adobe 文档参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
+如果您出于好意，想提供一些细微更改，请访问相应文章，然后单击文章中的&#x200B;**编辑**&#x200B;链接，跳转到文章的 GitHub 源。然后，您只需使用 GitHub UI 进行更新。有关更多信息，请参阅通用 [Adobe 文档参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
 
 您在本存储库中为文档和代码示例提交的细微更改或说明均受 Adobe 使用条款保护。
 
@@ -43,13 +43,13 @@ If you submit a pull request with significant changes to documentation and code 
 
 社区参与者可以使用 GitHub UI 进行基本编辑或派生存储库内容以作出重大贡献。
 
-请参阅 [Adobe 文档参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)，了解更多详情。
+请参阅 [Adobe 文档参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans)，了解更多详情。
 
 ## 如何使用 Markdown 标记语言设置主题的格式
 
 本存储库中的所有文章均使用 GitHub 风格的 Markdown。如果您不熟悉 Markdown，请参阅：
 
-* [Markdown 基础](https://docs.github.com/cn/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)
+* [Markdown 基础](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
 * [可打印的 Markdown 备忘单](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## 标签
