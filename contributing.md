@@ -1,8 +1,8 @@
 ---
 source-git-commit: b8709e01d7771ac9002fbc286c2d9709ef3d0ca2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 # 参与
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 ## 参与者指南文档
 
-请参阅[参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
+请参阅[参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
 
 ## 有问题？
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 
 ## 行为准则审核
 
-所有提交均应以拉取请求的形式完成，并且需要由项目提交者进行审核。请阅读 [GitHub 的拉取请求文档](https://help.github.com/articles/about-pull-requests/)，了解有关发送拉取请求的更多信息。
+所有提交均应以拉取请求的形式完成，并且需要由项目提交者进行审核。请阅读 [GitHub 的拉取请求文档](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)，了解有关发送拉取请求的更多信息。
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
