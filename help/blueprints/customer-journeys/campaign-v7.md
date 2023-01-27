@@ -3,10 +3,10 @@ title: Campaign v7 Blueprint
 description: Adobe Campaign v7 是一款针对电子邮件和直邮等传统营销渠道而构建的活动工具。它提供了强大的 ETL 和数据管理功能，以帮助策划完美的营销活动。其编排引擎提供丰富的多接触点营销计划，其核心重点是基于批次的驱动历程。它还与实时消息服务器相配合，使营销团队能够根据来自任何 IT 系统的包含所有内容的有效负载发送预定义消息，以执行密码重置、订单确认、电子收据等操作。
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
-source-git-commit: a74ef566bf468c5508263f4070beaf6d0cd73a0e
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '1195'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Campaign v7 是一款针对电子邮件和直邮等传统营销渠道而�
 
 * IP 地址允许列表
    * 识别所有用户在访问客户端控制台期间将利用的 IP 范围
-   * 确定允许哪些企业系统与实时消息服务器进行通信，并确保它们具有您可以允许列出的静态分配的 IP 或范围
+   * 确定允许哪些企业系统与实时消息服务器进行通信，并确保它们具有静态分配的IP或范围，您可以允许列表
    * 可以通过 Campaign 控制面板设置和控制该设置
 * sFTP 密钥管理
    * 具有可用于 Campaign 提供的 sFTP 的 SSH 公钥。这可以通过 Campaign 控制面板进行设置和控制。
@@ -82,7 +82,7 @@ Adobe Campaign v7 是一款针对电子邮件和直邮等传统营销渠道而�
    * 不支持出于自定义应用程序目的使用 API 读取数据
 * API 调用按比例限制为每秒 15 次或每天 15 万次
 
-### 批次消息服务器大小调整
+### 批量消息传送服务器大小调整
 
 * 可以扩展至每小时处理多达 250 万条消息
 

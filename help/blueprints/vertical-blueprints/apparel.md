@@ -4,14 +4,14 @@ description: 使用多个 Blueprint 来实现实时营销、跨渠道激活和�
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
-source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
-# 服装行业业务挑战
+# 服装行业面临的业务挑战
 
 这家特定的服装公司是设计、开发、制造鞋类、服装、装备、配饰和服务的全球领先企业，在全球范围内开展营销和销售。
 
@@ -21,29 +21,29 @@ ht-degree: 100%
 * 基于触发的实时营销
 * 凭借个性化和衡量营销活动效果的能力针对客户执行全方位分析和归因
 
-## Adobe 方法
+## Adobe方法
 
 * 搭建强大的 Platform 基础，为业务带来价值，从而在企业范围内得到广泛采用。
 * 与技术团队协作，确保通过技术实施实现业务价值。
 * 创建此服装公司客户的全方位视图，以便直接分段、激活和生成营销活动报告。
 * 让触发自动化并编排个性化的客户历程。
 
-## 提供的商业价值
+## 业务价值
 
 | 目标 | 战术 | 解锁的价值 |
 |---|---|---|
 | **互联的跨渠道体验&#x200B;**<br></br>**促进互动和客户保留&#x200B;**<br></br>**数据大众化和洞察**</ul> | <ul><li>载入了多个企业数据集，以创建数千万个用户档案和数百个区段、多个目标以及报告仪表板</li><li>使用 Real-time Customer Data Platform 跨多个目标激活</li><li>客户历程分析解锁客户级别分析功能</li><li>用于通过 Adobe Journey Optimizer 实施的客户交互的自动事件触发器</li></ul> | <ul><li><strong> 客户档案：</strong>用于分段的全方位客户视图</li><li><strong>目标激活：</strong>付费媒体、电子邮件和社交平台上的激活</li><li><strong>客户分析和归因：</strong>跨渠道归因分析可随时提供，便于安排<li><strong>Journey Orchestration：</strong>利用实时背景信息，创建并操作触发式营销活动和计划式营销活动</li></ul> |
 
-## 主要 Blueprint：使用 Experience Cloud 应用程序的受众和激活
+## 主Blueprint:使用Experience Cloud应用程序进行受众和激活
 
 ### 描述
 
 <ul><li>在 Experience Platform 中管理用户档案和受众，并将其与 Experience Cloud 应用程序共享。</li><li>在 Experience Platform 中建立并共享丰富的客户区段和洞察，将其与 Experience Cloud 应用程序共享。</li></ul>
 
-### Experience Cloud 应用程序
+### Experience Cloud应用程序
 
 <ul><li>Adobe Experience Platform    </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud 应用程序</li></ul>
 
-### Blueprint 架构
+### Blueprint架构
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans"><img alt="使用受众激活、Customer Journey Analytics 和 Customer Journeys Blueprint 的服装公司缩略图" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>

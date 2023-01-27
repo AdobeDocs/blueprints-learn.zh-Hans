@@ -4,10 +4,10 @@ description: 护栏定义了对 Adobe Experience Platform 和应用程序中组�
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: f208fcd938bfc12882421f213192a6888f546a79
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '305'
+ht-degree: 94%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 护栏是建议的阈值，用于就数据和系统使用、优化性能提供指导，并避免在 Adobe Experience Platform 和应用程序中出现错误或意外结果。护栏旨在反映系统约束和性能预期，以促进客户架构和使用案例性能优化。护栏不是服务级别协议，有关产品特定的服务级别协议的信息，请参阅下面链接的产品描述文档。
 
 
-## Adobe Experience Platform 和应用程序的护栏
+## Adobe Experience Platform和应用程序的防护
 
-[数据摄入护栏](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hans)
+[数据摄取护栏](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hans)
 
 [边缘网络 API 护栏](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=zh-Hans)
 
@@ -34,9 +34,9 @@ ht-degree: 100%
 
 <br>
 
-## 端到端延迟  图
+## 端到端延迟图
 
-### 数据摄入
+### 数据摄取
 
 <img src="../assets/aep_data_flow_guardrails.svg" alt="Experience Platform 数据流" style="border:1px solid #4a4a4a" width="85%" />
 

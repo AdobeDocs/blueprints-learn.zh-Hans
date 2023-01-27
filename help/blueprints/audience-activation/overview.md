@@ -1,32 +1,32 @@
 ---
-title: 受众和用户档案激活
+title: 受众和配置文件激活蓝图
 description: 通过 Real-time Customer Data Platform 交付受众激活且以用户档案为中心的客户体验。
 solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 100%
+source-wordcount: '872'
+ht-degree: 93%
 
 ---
 
 
-# 受众和用户档案激活
+# 受众和配置文件激活蓝图
 
-受众和用户档案激活是在数据驱动营销世界中取得成功的关键。但是，许多品牌仍然将精力集中在渠道优先激活上，这往往会带来不一致的覆盖范围和个性化。
+受众和用户档案激活是数据驱动型营销领域取得成功的关键。 但是，许多品牌仍然将精力集中在渠道优先激活上，这往往会带来不一致的覆盖范围和个性化。
 
 通过渠道优先的方法，每个渠道都充当一个筒仓，个性化努力仅以该渠道上与品牌互动的客户为目标。此方法并不反映客户与跨多个不同接触点的品牌互动的现实。受众和用户档案激活使品牌能够将多个渠道的客户互动关联起来，从而提供集中的用户档案和受众，可将其激活到所有渠道。
 
-| Blueprint | 描述 | Experience Cloud 应用程序 |
+| Blueprint | 描述 | Experience Cloud应用程序 |
 |---|---|---|
 | **[匿名受众激活](anonymous.md)** | <ul><li>跨 Web 和广告渠道定位目标受众，以获取匿名和行为客户数据。</li><li>与第三方受众数据集成以提高个性化。</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[已知客户激活](known.md)** | <ul><li>激活到基于用户档案的已知目的地（如电子邮件提供商、社交网络和广告目的地）。 </li><li>将线下属性和事件（如线下订单、交易、CRM 或忠诚度数据）与线上行为结合使用，实现线上定位和个性化。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager（可选）</li></ul> |
-| **[使用 Experience Cloud 应用程序的受众和用户档案激活](platform-and-applications.md)** | <ul><li>在 Experience Platform 中管理用户档案和受众，并将其与 Experience Cloud 应用程序共享。</li><li>在 Experience Platform 中建立并共享丰富的客户区段和洞察，将其与 Experience Cloud 应用程序共享。</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud 应用程序</li></ul> |
+| **[使用Experience Cloud应用程序激活受众和配置文件](platform-and-applications.md)** | <ul><li>在 Experience Platform 中管理用户档案和受众，并将其与 Experience Cloud 应用程序共享。</li><li>在 Experience Platform 中建立并共享丰富的客户区段和洞察，将其与 Experience Cloud 应用程序共享。</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud 应用程序</li></ul> |
 | **[区段匹配](segment-match.md)** | <ul><li>通过更好的治理、权限和首选项管理系统，营销人员可以通过关键合作伙伴进一步增强其经过身份验证的第一方受众。</li></ul> | <ul><li>Adobe Experience Platform   </li></ul> |
 
-## 实时客户档案架构
+## 实时客户资料架构
 
 下图概述了 Experience Platform 实时客户档案的核心组件。
 
@@ -38,13 +38,13 @@ ht-degree: 100%
 
 在身份图提供相关联的各种源用户档案片段之间的关系时，会发生用户档案合并。合并策略决定在合并片段时将使用哪些源片段和哪个身份图。每当访问用户档案时，都会发生用户档案合并，以确保用户档案的组合视图最新。治理和策略规则确保只能将授权的区段和属性激活到指定目的地。
 
-## 分段和目的地概述
+## 分段和目标概述
 
 下图概述了各种分段方法以及各种用户档案和受众激活模式。
 
 <img src="assets/segmentation_destination_overview.png" alt="实时客户档案的参考架构" style="border:1px solid #4a4a4a" width="90%"/>
 
-## 受众和用户档案激活 Blueprint 护栏
+## 受众和配置文件激活蓝图的防护
 
 * 有关详细的护栏和端到端延迟信息，请参阅 [部署护栏文档](../experience-platform/deployment/guardrails.md) 和 [用户档案和分段护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 

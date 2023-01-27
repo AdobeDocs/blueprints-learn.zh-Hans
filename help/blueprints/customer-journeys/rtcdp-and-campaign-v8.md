@@ -1,15 +1,16 @@
 ---
-title: Real-Time CDP 与 Adobe Campaign v8 集成模式
+title: Real-Time CDP与Adobe Campaign v8集成模式
 description: 显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign v8 结合使用来提供个性化对话。
 solution: Real-time Customer Data Platform, Campaign
-source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
-workflow-type: ht
+exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
-# Real-Time CDP 与 Adobe Campaign v8 集成模式
+# Real-Time CDP与Adobe Campaign v8集成模式
 
 显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign 结合使用来提供个性化对话。
 
@@ -24,7 +25,7 @@ ht-degree: 100%
 
 ## 架构
 
-<img src="assets/rtcdp-campaignv8-architecture.svg" alt="批次消息和 Adobe Experience Platform 集成模式的参考架构" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaignv8-architecture.svg" alt="批量消息传递和Adobe Experience Platform集成模式的参考架构" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -60,7 +61,7 @@ ht-degree: 100%
 * 激活延迟为最少 3 小时
 * 仅合并可用于激活的架构属性（不支持阵列/映射/体验事件）
 * 建议每个区段不超过 20 个属性
-* 所有具有“已实现”区段成员的用户档案每个区段有一个文件，或者如果已在文件中将区段成员作为属性添加，则包含“已实现”和“已退出”用户档案
+* 所有具有“已实现”区段成员资格的配置文件的每个区段都有一个文件，或者如果将区段成员资格作为属性添加到文件中，则同时作为“已实现”和“已退出”配置文件
 * 支持增量和完整的区段导出
 * 不支持文件加密
 * 请参阅 AEP 的用户档案和数据摄入护栏 - [链接](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)

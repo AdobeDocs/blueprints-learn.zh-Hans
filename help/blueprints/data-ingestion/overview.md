@@ -5,14 +5,14 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
-source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
-workflow-type: ht
-source-wordcount: '213'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 99%
 
 ---
 
-# 数据收集和准备
+# 数据收集和准备 蓝图
 
 数据收集和准备包含准备数据并将其摄入到 Adobe Experience Platform 的所有方法。此外，还能够收集数据到 Adobe Experience Platform 的 Edge Network，以及随后通过侧向转发将数据转发到企业目的地。
 

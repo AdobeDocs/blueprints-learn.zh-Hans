@@ -1,15 +1,15 @@
 ---
-description: 概述 — 优化营销活动供应链（包含 Marketo 和 Workfront）
-title: 概述
+title: 利用Marketo和Workfront蓝图的Campaign供应链
+description: 概述 — 使用Marketo和Workfront蓝图优化营销活动供应链
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
-workflow-type: ht
-source-wordcount: '1738'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '1743'
+ht-degree: 93%
 
 ---
 
-# 概述 {#overview}
+# 利用Marketo和Workfront蓝图的Campaign供应链 {#overview}
 
 ## 利用优化的营销活动供应链加快上市速度 {#achieving-faster-time-to-market-with-optimized-campaign-supply-chain}
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 通过将多渠道营销激活系统 (Marketo Engage) 与营销规划和记录系统 (Workfront) 集成，您可以提高营销活动速度并改善对利益相关者的可见性。
 
-借助 Workfront Fusion，营销运营团队可以在很大程度上消除将营销摘要转换为营销活动时涉及的手动和容易出错的步骤。Workfront Fusion 在 Workfront 和 Marketo Engage 之间提供了一个开箱即用的集成层，允许灵活、高效地在系统之间开发工作流。您可以在[此处](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=zh-Hans){target=&quot;_blank&quot;} 详细了解如何设置集成以及可以采取哪些操作来自动化工作流。
+借助 Workfront Fusion，营销运营团队可以在很大程度上消除将营销摘要转换为营销活动时涉及的手动和容易出错的步骤。Workfront Fusion 在 Workfront 和 Marketo Engage 之间提供了一个开箱即用的集成层，允许灵活、高效地在系统之间开发工作流。您可以进一步了解如何设置集成以及可以采取哪些操作来自动化工作流 [此处](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=zh-Hans){target="_blank"}.
 
 ## 营销活动规划到执行 — 自动化用例 {#campaign-planning-to-execution-automation-use-cases}
 
@@ -147,7 +147,7 @@ Workfront 项目可以模板化，以便能够在每次运行特定营销策略�
 
 ### Workfront Fusion、Workfront 和 Marketo Engage 集成快速入门 {#getting-started-with-workfront-fusion}
 
-* [接收和创建](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target=&quot;_blank&quot;} — 使用 Marketo Engage 和 Workfront 实现营销活动开发自动化
+* [引入和创建](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"}  — 通过Marketo Engage和Workfront实现营销活动开发自动化
 
 * 验证和审批（即将推出）
 
@@ -155,10 +155,10 @@ Workfront 项目可以模板化，以便能够在每次运行特定营销策略�
 
 ### 管理 Marketo Engage 营销活动名称及其关联 URL {#managing-marketo-engage-campaign-names}
 
-标准化营销活动和 URL 的命名约定是在 Marketo Engage 中准确管理计划的关键基础，有助于在整个营销活动供应链中推动更一致的流程。如果您要查找相关工具来帮助解决此问题，我们建议您查看 [Adobe 成功服务](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target=&quot;_blank&quot;} 中的一些免费开源工具，这些工具可让您创建一致的方法来创建和管理 Marketo Engage 营销活动及其关联 URL。
+标准化营销活动和 URL 的命名约定是在 Marketo Engage 中准确管理计划的关键基础，有助于在整个营销活动供应链中推动更一致的流程。如果您要查找相关工具来帮助解决此问题，我们建议从 [Adobe成功服务](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} 这样，您就可以创建和管理Marketo Engage营销活动及其关联URL的一致方法。
 
 ### 资源 {#resources}
 
-* [适用于 Marketo Engage 的 Workfront Fusion](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=zh-Hans){target=&quot;_blank&quot;}
+* [Workfront Fusion for Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=zh-Hans){target="_blank"}
 
-* [适用于 Workfront 的 Workfront Fusion](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=zh-Hans){target=&quot;_blank&quot;}
+* [Workfront Fusion for Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=zh-Hans){target="_blank"}

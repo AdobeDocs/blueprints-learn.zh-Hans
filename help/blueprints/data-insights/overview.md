@@ -1,18 +1,18 @@
 ---
-title: 数据分析、智能和 AI/ML
+title: 数据分析、智能和AI/ML蓝图
 description: 此 Blueprint 展示了 Adobe Experience Platform 内对数据湖中存在的数据执行探索性查询和分析的能力。
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
-source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
-workflow-type: ht
-source-wordcount: '171'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 95%
 
 ---
 
-# 数据分析、智能和 AI/ML
+# 数据分析、智能和 AI/ML 蓝图
 
 数据分析、智能和 AI/ML 包括 Adobe Experience Platform 内对数据湖中存在的数据执行探索性查询和分析的能力。
 

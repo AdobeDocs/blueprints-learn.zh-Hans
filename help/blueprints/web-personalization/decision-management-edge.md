@@ -3,14 +3,14 @@ title: 使用决策管理实现 Web/移动个性化
 description: 跨渠道向消费者投放个性化优惠，包括自助终端和座席协助体验。
 solution: Experience Platform, Journey Optimizer
 exl-id: f2a6e7fd-c8bb-4356-8ca1-96956662ecf5
-source-git-commit: 53237df8202aa68599c183572376b529be53fe42
-workflow-type: ht
-source-wordcount: '74'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 98%
 
 ---
 
-# Journey Optimizer - 边缘决策管理
+# Journey Optimizer - 边缘决策管理 Blueprint
 
 Adobe Journey Optimizer 决策管理可用于在网站、移动设备应用程序、自助终端等集客渠道以及跨其他客户接触点个性化和投放优惠。
 

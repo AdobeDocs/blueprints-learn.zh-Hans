@@ -1,29 +1,29 @@
 ---
-title: 数据访问和导出 Blueprint
+title: 数据访问和导出Blueprint
 description: 此 Blueprint 概述了通过 Adobe Experience Platform 和应用程序访问和导出数据的所有方法。
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
-# 数据访问和导出 Blueprint
+# 数据访问和导出Blueprint
 
 数据访问和导出 Blueprint 概述了通过 Adobe Experience Platform 和应用程序访问或导出数据的所有可能方法。
 
 该 Blueprint 分为两个类别，分别用于通过 Experience Platform 和应用程序访问数据。首先是通过 Experience Platform 和应用程序导出数据的方法；这被视为数据导出的推送类型方法。其次是通过 Experience Platform 和应用程序访问数据的方法；这被视为数据访问的拉取类型方法。
 
-数据访问方法
+数据访问方法：
 
 * [实时客户档案访问 API](#rtcp-profile-access-api)
 * [数据访问 API](#data-access-api)
 * [查询服务](#query-service)
 
-数据导出方法
+数据导出方法：
 
 * [客户端标记](#client-side-tags-extensions)
 * [事件转发](#event-forwarding)
@@ -117,12 +117,12 @@ ht-degree: 100%
 
 #### 注意事项
 
-* 要使用事件转发，必须使用 WebSDK 或 MobileSDK 将数据发送到边缘网络。
+* 要使用事件转发，必须使用Web SDK或MobileSDK将数据发送到边缘网络。
 * 事件转发方法可减少页面加载时间和页面权重，因为页面上添加了更多标记。
 * 当前不支持从边缘用户档案或其他数据源进行扩充。
 * 支持有限的数据筛选和简单的映射转换。
 
-### Real-time Customer Data Platform 目标 {#RTCDP-destinations}
+### Real-time Customer Data Platform目标 {#RTCDP-destinations}
 
 用户档案属性数据和受众成员资格数据可以激活到企业和广告目标。这意味着必须将导出的数据摄入到 Experience Platform 实时客户档案中。
 
@@ -138,7 +138,7 @@ ht-degree: 100%
 * 可激活用户档案属性和受众会员资格。原始体验事件当前无法作为 RTCDP 目标的一部分进行激活。
 * 根据区段评估的性质和目标接受的摄入协议的性质，可能按流传输或批次方式进行激活。
 
-### Journey Optimizer 自定义操作 {#jo-custom-actions}
+### Journey Optimizer自定义操作 {#jo-custom-actions}
 
 使用 Journey Optimizer，客户可以从历程画布中调用自定义操作，以将有效负载或消息发送到已配置的外部 API 端点。可以将操作配置为来自任何提供商的任何服务，只要该服务可使用 JSON 格式有效负载通过 REST API 调用。此有效负载可以包括在历程中配置的事件信息、用户档案属性和先前事件数据、转换和扩充。
 

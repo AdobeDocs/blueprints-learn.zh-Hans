@@ -1,12 +1,12 @@
 ---
-title: Campaign v8 Blueprint、Campaign 和 AEP
+title: Campaign v8 Blueprint、Campaign和Platform
 description: Adobe Campaign v8 是一款针对电子邮件和直邮等传统营销渠道而构建的新一代活动工具。它提供了强大的 ETL 和数据管理功能，以帮助策划完美的营销活动。其编排引擎提供丰富的多接触点营销计划，其核心重点是基于批次的驱动历程。它还与可扩展的实时消息服务器相配合，使营销团队能够根据来自任何 IT 系统的包含所有内容的有效负载发送预定义消息，以执行密码重置、订单确认、电子收据等操作。
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: c79422931cb4305347a4034ae1cb6bac2be1e229
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Campaign v8 是一款针对电子邮件和直邮等传统营销渠道而�
 ## 先决条件
 
 
-### 应用程序服务器和实时消息服务器
+### 应用服务器和实时消息服务器
 
 * 需要 Adobe Campaign 客户端控制台才能使用 Campaign v8 软件并与之交互。它是基于 Windows 的客户端，使用标准 Internet 协议（SOAP、HTTP 等）。确保您的组织中已启用分发、安装和运行软件的必要权限
 
@@ -86,7 +86,7 @@ Adobe Campaign v8 是一款针对电子邮件和直邮等传统营销渠道而�
    * 通过 API 加载的数据将在应用程序数据库中进行暂存，然后每小时向云数据库复制一次
 * API 调用按比例限制为每秒 15 次或每天 15 万次
 
-### 批次消息服务器大小调整
+### 批量消息传送服务器大小调整
 
 * 可以扩展至每小时处理多达 2000 万条消息
 

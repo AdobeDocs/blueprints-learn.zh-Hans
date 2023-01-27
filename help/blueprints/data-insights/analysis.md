@@ -1,18 +1,18 @@
 ---
-title: 数据分析和智能 Blueprint
+title: 数据分析和智能蓝图
 description: 此 Blueprint 展示了 Adobe Experience Platform 内对数据湖中存在的数据执行探索性查询和分析的能力。
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
-# 数据分析和智能 Blueprint
+# 数据分析和智能蓝图
 
 数据分析和智能包括 Adobe Experience Platform 内对数据湖中存在的数据执行探索性查询和分析的能力。
 
@@ -43,7 +43,7 @@ Experience Platform 允许与第三方 SQL 客户端、接口和 Business Intell
 
 ## 实施步骤
 
-1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
+1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=zh-Hans)
 1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
 1. [将数据摄入](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans) Experience Platform。
 1. 确认数据可用于[[!UICONTROL 查询服务]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=zh-Hans)。

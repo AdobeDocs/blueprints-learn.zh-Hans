@@ -1,17 +1,17 @@
 ---
-title: B2B 分析和激活
+title: B2B 分析和激活 蓝图
 description: 通过 Real-time Customer Data Platform 交付基于帐户的受众和以用户档案为中心的客户体验。
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
-source-git-commit: bd0a93ef2efa702b4d4f3eb20d126ee22fb113af
-workflow-type: ht
-source-wordcount: '229'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 97%
 
 ---
 
-# B2B 分析和激活
+# B2B分析和激活蓝图
 
 B2B 受众和用户档案激活是在数据驱动营销世界中取得成功的关键。但是，许多品牌仍然将精力集中在渠道优先激活上，这往往会带来不一致的覆盖范围和个性化。
 

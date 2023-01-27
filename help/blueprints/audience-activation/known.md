@@ -1,23 +1,23 @@
 ---
-title: 已知客户激活
+title: 已知客户激活 Blueprint
 description: 线上/线下受众激活。
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: ht
-source-wordcount: '568'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '567'
+ht-degree: 79%
 
 ---
 
-# 已知客户激活 Blueprint
+# 已知的客户激活蓝图
 
 将线下属性和事件（如线下订单、交易、CRM 或忠诚度数据）与线上行为结合使用，实现线上定位和个性化。
 
 通过内置管理控制扩展的标识符为与已知客户沟通提供了更多机会。将受众激活到基于用户档案的已知目的地（如电子邮件提供商、社交网络和广告目的地）。
 
-[使用 Experience Cloud 应用程序的受众和用户档案激活 Blueprint](platform-and-applications.md) 中提供了更多详细信息，该 Blueprint 特定于 Experience Platform 和 Experience Cloud 应用程序之间的集成。
+在 [使用Experience Cloud应用程序Blueprint激活受众和配置文件](platform-and-applications.md) 特定于Experience Platform和Experience Cloud应用程序之间的集成。
 
 ## 用例
 
@@ -32,21 +32,21 @@ ht-degree: 100%
 
 ## 架构
 
-### 通过 Real-time Customer Data Platform 的已知客户激活
+### 已知客户通过Real-time Customer Data Platform激活
 
-<img src="assets/known_activation.svg" alt="已知客户激活 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="已知客户激活蓝图的参考架构" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
-### 通过 Audience Manager 基于人员的目标的已知客户激活
+### 通过基于Audience Manager的目标激活已知客户
 
-<img src="assets/AAM_PBD.svg" alt="已知客户激活 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="已知客户激活蓝图的参考架构" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## 护栏
 
 [请参阅“受众和用户档案激活概述”页上的护栏概述](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html?lang=zh-Hans#guardrails-for-audience-and-profile-activation-blueprints)。
 
-## Real-time Customer Data Platform 的实施步骤
+## Real-time Customer Data Platform实施步骤
 
 1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=zh-Hans)
 1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
@@ -61,9 +61,9 @@ ht-degree: 100%
 
 * 要将用户档案数据共享到目的地，您需要在目的地有效负荷中包含目的地使用的特定身份值。任何目标目的地必需的身份都必须被摄入 Platform，并配置为[!UICONTROL 实时客户档案]的身份。
 
-* 请参阅[使用 Experience Cloud 应用程序的受众和用户档案激活 Blueprint](platform-and-applications.md)，以了解有关将受众从 Real-time Customer Data Platform 共享到 Audience Manager、Analytics、Target、Campaign 和 Journey Optimizer 的更多详细信息。
+* 请参阅 [使用Experience Cloud应用程序Blueprint激活受众和配置文件](platform-and-applications.md) 有关将受众从Real-time Customer Data Platform共享到Audience Manager、Analytics、Target、Campaign和Journey Optimizer的其他详细信息。
 
-## Audience Manager 基于人员的目标的实施步骤
+## Audience Manager基于人员的目标的实施步骤
 
 * 有关实施 Audience Manager 的详细信息，请参阅以下[文档](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=zh-Hans)。
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 ## 相关文档
 
-* [[!UICONTROL Real-time Customer Data Platform] 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform.html)
+* [[!UICONTROL Real-time Customer Data Platform]产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform.html)
 * [用户档案和分段指南](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 * [分段文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans)
 * [目的地文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans)

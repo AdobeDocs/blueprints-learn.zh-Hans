@@ -1,19 +1,19 @@
 ---
-title: 客户活动中心 Blueprint
+title: 客户活动中心蓝图
 description: “[!UICONTROL 实时用户档案]查询可提供座席协助支持和销售的背景信息。”
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
-# 客户活动中心 Blueprint
+# 客户活动中心蓝图
 
-客户活动中心 Blueprint 显示外部应用程序如何访问 Adobe Experience Platform 的[!UICONTROL 实时客户档案]。
+Customer Activity Hub Blueprint显示外部应用程序如何访问Adobe Experience Platform [!UICONTROL 实时客户资料].
 
 外部应用程序可以使用 API GET 请求来访问用户档案。然后，存储在用户档案中的属性、事件、区段成员和模型驱动功能就可以用于这些外部非 Adobe 应用程序。
 

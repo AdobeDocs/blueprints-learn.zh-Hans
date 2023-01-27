@@ -1,18 +1,18 @@
 ---
-title: '客户历程 '
+title: 客户历程蓝图
 description: 跨屏幕提供个性化的即时客户体验。
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard, Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 97%
 
 ---
 
-# 客户历程
+# 客户历程蓝图
 
 客户历程可让品牌能够通过电子邮件、短信和手机提醒等渠道，积极地与其客户互动和沟通。编排工具也可以与其他交互渠道（如入站渠道）集成，通过与其他特定于渠道的决策引擎共享受众状态，实现 Web/移动个性化。在客户历程中应使用哪些应用程序和部署选项涉及诸多因素，但是可以总结为两种不同的方法：在某个客户互动时做出响应（触发），或在客户群组互动时做出响应（计划）。
 

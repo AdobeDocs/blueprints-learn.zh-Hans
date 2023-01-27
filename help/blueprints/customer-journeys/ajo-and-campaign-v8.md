@@ -1,16 +1,16 @@
 ---
-title: Journey Optimizer 与 Adobe Campaign v8 Blueprint
+title: Journey Optimizer与Adobe Campaign v8 Blueprint
 description: 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合使用，通过 Campaign 中的实时消息传送服务器在本地发送消息
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 779b55ab12a27796a00db4b1adb6add7d3ccd0a8
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# Journey Optimizer 与 Adobe Campaign   v8
+# Journey Optimizer 与 Adobe Campaign   v8 Blueprint
 
 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合使用，通过 Campaign 中的实时消息传送服务器在本地发送消息。
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 [Journey Optimizer 护栏产品链接](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=zh-Hans)
 
-### 其他 Journey Optimizer 护栏
+### 其他Journey Optimizer护栏
 
 * 现在可通过 API 设置封顶，以确保目标系统不会因饱和而达到故障点。这意味着超过上限的消息会被彻底丢弃，永不发送。不支持限流。
    * 最大连接数：目标可处理的 http/s 连接的最大数
@@ -79,9 +79,9 @@ ht-degree: 100%
 
 ## 实施步骤
 
-### Adobe Experience Platform
+### Adobe Experience Platform  
 
-#### 模式/数据集
+#### 架构/数据集
 
 1. 根据客户提供的数据在 Experience Platform 中[配置单个用户档案、体验事件和多实体模式。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=zh-Hans)
 1. 为 Adobe Campaign broadLog、trackingLog 和无法投放地址表创建基于体验事件类的架构（可选）。
@@ -89,7 +89,7 @@ ht-degree: 100%
 1. 在 Experience Platform 中为数据集[添加数据使用标签](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=zh-Hans)以便进行治理。
 1. [创建对目标实施治理的策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=zh-Hans)。
 
-#### 用户档案/身份
+#### 配置文件/标识
 
 1. [创建任何客户特定的命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
 1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。

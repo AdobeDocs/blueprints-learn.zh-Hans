@@ -1,16 +1,16 @@
 ---
-title: Real-Time CDP 与 Adobe Campaign v7 和 Campaign Standard 集成模式
+title: Real-Time CDP与Adobe Campaign v7和Campaign Standard集成模式
 description: 显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign 结合使用来提供个性化对话。
 solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: 163dd644b690c1f5554a3929e1f83c121e132df5
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
-# Real-Time CDP 与 Adobe Campaign 集成模式
+# Real-Time CDP与Adobe Campaign集成模式
 
 显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign 结合使用来提供个性化对话。
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ## 架构
 
-<img src="assets/rtcdp-campaign-architecture.svg" alt="批次消息和 Adobe Experience Platform 集成模式的参考架构" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaign-architecture.svg" alt="批量消息传递和Adobe Experience Platform集成模式的参考架构" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 * 激活限于每 24 小时
 * 仅合并可用于激活的架构属性（不支持阵列/映射/体验事件）
 * 建议每个区段不超过 20 个属性
-* 所有具有“已实现”区段成员的用户档案每个区段有一个文件，或者如果已在文件中将区段成员作为属性添加，则包含“已实现”和“已退出”用户档案
+* 所有具有“已实现”区段成员资格的配置文件的每个区段都有一个文件，或者如果将区段成员资格作为属性添加到文件中，则同时作为“已实现”和“已退出”配置文件
 * 支持增量和完整的区段导出
 * 不支持文件加密
 
@@ -58,17 +58,17 @@ ht-degree: 100%
 
 ## 实施步骤
 
-### Adobe Experience Platform
+### Adobe Experience Platform  
 
 #### 架构/数据集
 
-1. 根据客户提供的数据在 Experience Platform 中[配置单个用户档案、体验事件和多实体架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=zh-Hans)
+1. 根据客户提供的数据在 Experience Platform 中[配置单个用户档案、体验事件和多实体模式。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=zh-Hans)
 1. 为 broadLog、trackingLog、无法投放的地址和用户档案偏好设置创建 Adobe Campaign 模式（可选）。
 1. 为要摄入的数据在 Experience Platform 中[创建数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)。
 1. 在 Experience Platform 中为数据集[添加数据使用标签](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=zh-Hans)以便进行治理。
-1. [创建对目的地实施治理的策略。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=zh-Hans)
+1. [创建对目标实施治理的策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=zh-Hans)。
 
-#### 用户档案/身份
+#### 配置文件/标识
 
 1. [创建任何客户特定的命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
 1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
@@ -76,7 +76,7 @@ ht-degree: 100%
 1. 为[!UICONTROL 实时客户档案]的不同视图[设置合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=zh-Hans)（可选）。
 1. 为 Adobe Campaign 使用创建区段。
 
-#### 源/目的地
+#### 源/目标
 
 1. [Experience Platform 和 Campaign Standard 源和目标](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=zh-Hans)
 1. [Experience Platform 和 Campaign v7 源和目标](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=zh-Hans)

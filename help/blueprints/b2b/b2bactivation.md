@@ -1,17 +1,17 @@
 ---
-title: B2B 激活
+title: B2B受众和配置文件激活蓝图
 description: 通过 Real-time Customer Data Platform 交付基于帐户的受众和以用户档案为中心的客户体验。
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: ht
-source-wordcount: '837'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '842'
+ht-degree: 98%
 
 ---
 
-# B2B 受众和用户档案激活
+# B2B 受众和用户档案激活 Blueprint
 
 使用与单个客户绑定的帐户、机会和商机信息，创建可操作的 B2B 用户档案，以改进跨渠道的个性化和定位。
 

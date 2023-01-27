@@ -1,32 +1,32 @@
 ---
-title: Adobe Experience Platform 和应用程序架构图
+title: Adobe Experience Platform和应用程序架构图
 description: 此架构图展示了 Adobe Experience Platform 与其他 Adobe Experience Cloud 应用程序和应用程序服务之间的关系。
 solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 122e317b34c7704dc80da11d08b9a8ff955dfa8c
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 100%
+source-wordcount: '989'
+ht-degree: 96%
 
 ---
 
-# Adobe Experience Platform 和应用程序
+# Adobe Experience Platform和应用程序架构图
 
-## Adobe Experience Platform 和应用程序架构图
+## Adobe Experience Platform和应用程序架构图
 
 此架构图展示了 Adobe Experience Platform 与 Adobe Experience Cloud 应用程序和应用程序服务之间的关系。
 
 <img src="assets/aep+apps_vertical.svg" alt="Experience Platform 和应用程序" style="border:1px solid #4a4a4a; width:90%;" />
 
-## Adobe Experience Platform 和应用程序详细架构图
+## Adobe Experience Platform和应用程序详细架构图
 
 <img src="assets/aep-app-architecture.svg" alt="Experience Platform 和应用程序" style="border:1px solid #4a4a4a; width:90%;" />
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
-## Adobe Experience Platform 和 Experience Cloud 应用程序集成
+## Adobe Experience Platform和Experience Cloud应用程序集成
 
 <table class="relative-table wrapped" style="width: 100%;">
 <colgroup>
@@ -94,8 +94,8 @@ ht-degree: 100%
 </td>
 <td>
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">匿名受众激活</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html">已知客户激活</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=zh-Hans">匿名受众激活</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=zh-Hans">已知客户激活</a></li>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans">通过 Experience Platform 和应用程序进行激活</a></li>
 </ul>
 </td>
@@ -240,8 +240,8 @@ ht-degree: 100%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">已知客户激活</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">通过 Experience Platform 和应用程序进行激活</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=zh-Hans">已知客户激活</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans">通过 Experience Platform 和应用程序进行激活</a></li>
 </ul>
 </td>
 </tr>
@@ -259,8 +259,8 @@ ht-degree: 100%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">已知客户激活</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">通过 Experience Platform 和应用程序进行激活</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=zh-Hans">已知客户激活</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans">通过 Experience Platform 和应用程序进行激活</a></li>
 </ul>
 </td>
 </tr>
