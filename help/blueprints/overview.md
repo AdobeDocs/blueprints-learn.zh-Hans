@@ -3,7 +3,7 @@ title: 数字体验蓝图
 description: 数字体验蓝图是可重复实施的，用于解决策略和解决已经存在的业务问题。 它们可加快实现价值的速度，并提供快速成功之路。
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: f60a787630d68388fc4887f3df1756528fca446d
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 73%

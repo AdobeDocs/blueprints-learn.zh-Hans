@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ Customer Journey Analytics 用例的完整列表可在此处的客户历程分�
 
 [常见用例包括：](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=zh-Hans)
 
-* 创建受众并将其发布到 Real-time Customer Data Platform
+* 创建受众并将其发布到Real-time Customer Data Platform
 * 顶部/底部转化路径
 * 渠道参与度和转化率
 * 查看次数最多的内容
@@ -37,8 +37,7 @@ Customer Journey Analytics 用例的完整列表可在此处的客户历程分�
 主要用例示例包括以下内容。
 | Blueprint | 描述 | Experience Cloud 应用程序 |
 |---|---|---|
-| **[跨渠道历程分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=zh-Hans)**  | <ul><li>通过统一来自各种 Web、移动和线下属性的数据，获取关于不同渠道客户行为的整合视图。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（可选）</li></ul>|
-| **[将受众发布到 Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hans)** | <ul><li>创建在 Customer Journey Analytics (CJA) 中识别的受众并将其发布到 Adobe Experience Platform 中的实时客户档案，以用于客户定位和个性化。非常适用于使用历史数据创建受众，或通过 Customer Journey Analytics 中的精细筛选和计算字段得出更细化的受众。</li></ul> | <ul><li>Real-time Customer Data Platform  </li><li>Customer Journey Analytics</li> |
+| **[跨渠道历程分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=zh-Hans)**  | <ul><li>通过统一来自各种 Web、移动和线下属性的数据，获取关于不同渠道客户行为的整合视图。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（可选）</li></ul>| | **[将受众发布到Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hans)** | <ul><li>创建在 Customer Journey Analytics (CJA) 中识别的受众并将其发布到 Adobe Experience Platform 中的实时客户档案，以用于客户定位和个性化。非常适用于使用历史数据创建受众，或通过 Customer Journey Analytics 中的精细筛选和计算字段得出更细化的受众。</li></ul> | <ul><li>Real-time Customer Data Platform</li><li>Customer Journey Analytics</li> |
 | **[呼叫偏转历程分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html?lang=zh-Hans)** | <ul><li>通过将呼叫中心数据与 Web、移动和其他交互数据结合在一起，确定哪些行为最能指示产生座席协助呼叫。</li><li>然后，这些洞察可用于优化客户体验，并通过优化自助服务内容和工具精简座席协助互动的路径。  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Customer Journey Analytics蓝图护栏图

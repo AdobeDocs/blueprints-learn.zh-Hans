@@ -1,28 +1,28 @@
 ---
 title: Adobe Experience Platform和应用程序架构图
 description: 此架构图展示了 Adobe Experience Platform 与其他 Adobe Experience Cloud 应用程序和应用程序服务之间的关系。
-solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
+solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 96%
+ht-degree: 64%
 
 ---
 
-# Adobe Experience Platform和应用程序架构图
+# Adobe Experience Platform 和应用程序 架构图
 
-## Adobe Experience Platform和应用程序架构图
+## Adobe Experience Platform 和应用程序架构图
 
 此架构图展示了 Adobe Experience Platform 与 Adobe Experience Cloud 应用程序和应用程序服务之间的关系。
 
-<img src="assets/aep+apps_vertical.svg" alt="Experience Platform 和应用程序" style="border:1px solid #4a4a4a; width:90%;" />
+<img src="assets/aep+apps_vertical.svg" alt="Experience Platform 和应用程序" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" />
 
-## Adobe Experience Platform和应用程序详细架构图
+## Adobe Experience Platform 和应用程序详细架构图
 
-<img src="assets/aep-app-architecture.svg" alt="Experience Platform 和应用程序" style="border:1px solid #4a4a4a; width:90%;" />
+<img src="assets/aep-app-architecture.svg" alt="Experience Platform 和应用程序" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" />
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
@@ -46,7 +46,7 @@ ht-degree: 96%
 <td colspan="1">Ad Cloud</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platform 中定义的受众可以共享到 Ad Cloud，以便通过 Audience Manager 进行定位。</li>
+<li>可以将Real-time Customer Data Platform中定义的受众共享到Ad Cloud，以便通过Audience Manager进行定位。</li>
 </ul>
 </td>
 <td colspan="1">
@@ -84,7 +84,7 @@ ht-degree: 96%
 <td>Audience Manager</td>
 <td>
 <ul>
-<li>可以将 Real-time Customer Data Platform 中定义的受众共享到 Audience Manager，以便激活到第三方 Cookie 目的地。</li>
+<li>可以将Real-time Customer Data Platform中定义的受众共享到Audience Manager，以便激活到第三方Cookie目标。</li>
 </ul>
 </td>
 <td>
@@ -104,12 +104,12 @@ ht-degree: 96%
 <td colspan="1">Campaign Classic</td>
 <td colspan="1">
 <ul>
-<li>可以将 Real-time Customer Data Platform 中定义的受众共享至 Campaign Classic，作为启动营销活动的受众。</li>
+<li>可以将Real-time Customer Data Platform中定义的受众共享为Campaign Classic，作为启动营销活动的受众。</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Campaign 收集的交互和营销活动数据可作为数据源引入 Experience Platform，以供在通过 Real-time Customer Data Platform 构建受众时，以及通过 Customer Journey Analytics、Experience Platform 查询服务进行分析时进一步使用。</li>
+<li>Campaign收集的交互和促销活动数据可作为Experience Platform数据源引入，以供在通过Real-time Customer Data Platform构建受众以及通过Customer Journey Analytics和Experience Platform查询服务进行分析时进一步使用。</li>
 </ul>
 </td>
 <td colspan="1">
@@ -122,12 +122,12 @@ ht-degree: 96%
 <td colspan="1">Campaign Standard</td>
 <td colspan="1">
 <ul>
-<li>可以将 Real-time Customer Data Platform 中定义的受众共享至 Campaign Standard，作为启动营销活动的受众。</li>
+<li>可以将Real-time Customer Data Platform中定义的受众共享为Campaign Standard，作为启动营销活动的受众。</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Campaign 收集的交互和营销活动数据可作为数据源引入 Experience Platform，以供在通过 Real-time Customer Data Platform 构建受众时，以及通过 Customer Journey Analytics、Experience Platform 查询服务进行分析时进一步使用。</li>
+<li>Campaign收集的交互和促销活动数据可作为Experience Platform数据源引入，以供在通过Real-time Customer Data Platform构建受众以及通过Customer Journey Analytics和Experience Platform查询服务进行分析时进一步使用。</li>
 </ul>
 </td>
 <td colspan="1">
@@ -141,14 +141,14 @@ ht-degree: 96%
 <td colspan="1">
 <ul>
 <li>收集并摄入 Experience Platform 数据湖中的数据可用于处理到 Customer Journey Analytics 中。 </li>
-<li>来自 Real-time Customer Data Platform 的用户档案和受众数据可以摄入到 CJA 中。<a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=zh-Hans">RTCDP 与 CJA 的集成</a>。
+<li>可以将来自Real-time Customer Data Platform的用户档案和受众数据摄取到CJA。 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=zh-Hans">RTCDP 与 CJA 的集成</a>。
 </li>
 </ul>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>在 Customer Journey Analtyics 中构建受众，并将受众结果共享到 Real-time Customer Data Platform。<a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hans">CJA 受众发布</a></li>
+<li>在客户历程分析中构建受众，并将受众结果共享到Real-time Customer Data Platform。 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hans">CJA 受众发布</a></li>
 </ul>
 </td>
 <td colspan="1">
@@ -184,7 +184,7 @@ ht-degree: 96%
 </td>
 <td colspan="1">
 <ul>
-<li>Journey Optimizer 生成的交互和营销活动数据会收集到 Experience Platform 中，以便在通过 Real-time Customer Data Platform 构建受众时，以及通过 Customer Journey Analytics 和 Experience Platform 查询服务进行分析时进一步使用。</li>
+<li>由Journey Optimizer生成的交互和促销活动数据会收集到Experience Platform中，以便在通过Real-time Customer Data Platform构建受众、通过Customer Journey Analytics进行分析以及Experience Platform查询服务中进一步使用。</li>
 </ul>
 </td>
 <td colspan="1">
@@ -197,7 +197,7 @@ ht-degree: 96%
 <td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>在 Real-time Customer Data Platform 中构建的用户档案和受众可用于 Adobe Commerce 中的个性化。 </li>
+<li>在Real-time Customer Data Platform中构建的用户档案和受众可在Adobe Commerce中进行个性化。 </li>
 </ul>
 </td>
 <td colspan="1">
@@ -211,7 +211,7 @@ ht-degree: 96%
 <td colspan="1">Marketo</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platform 中定义的受众可以作为受众共享给 Marketo，以启动 Marketo 营销活动和更新 Marketo 对象。</li>
+<li>在Real-time Customer Data Platform中定义的受众可以作为受众共享到Marketo，以启动Marketo促销活动和更新Marketo对象。</li>
 </ul>
 </td>
 <td colspan="1">
@@ -229,7 +229,7 @@ ht-degree: 96%
 <td colspan="1">Real-time CDP</td>
 <td colspan="1">
 <ul>
-<li>摄入并收集到 Experience Platform 中的数据是用于组合实时客户用户档案的数据源，可支持 Real-time Customer Data Platform。</li>
+<li>摄取并收集到Experience Platform中的数据是用于组合支持Real-time Customer Data Platform的实时客户用户档案的数据源。</li>
 </ul>
 </td>
 <td colspan="1">
@@ -249,12 +249,12 @@ ht-degree: 96%
 <td colspan="1">Target</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platform 中定义的受众和用户档案属性可以共享到 Target，并用于 Target 提供的个性化和定位体验。</li>
+<li>可以将Real-time Customer Data Platform中定义的受众和配置文件属性共享到Target，并用于Target提供的个性化和定位体验。</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>可以通过 Experience Platform Web/Mobile SDK 将为 Target 体验和交互收集的数据收集至 Experience Platform。此数据可用于通过 Real-time Customer Data Platform 构建受众以及通过 Customer Journey Analytics 和 Experience Platform 查询服务进行分析。</li>
+<li>可以通过 Experience Platform Web/Mobile SDK 将为 Target 体验和交互收集的数据收集至 Experience Platform。此数据可用于通过Real-time Customer Data Platform构建受众、通过Customer Journey Analytics进行分析，以及Experience Platform查询服务。</li>
 </ul>
 </td>
 <td colspan="1">

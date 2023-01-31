@@ -1,12 +1,12 @@
 ---
 title: Real-Time CDP与Adobe Campaign v8集成模式
 description: 显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign v8 结合使用来提供个性化对话。
-solution: Real-time Customer Data Platform, Campaign
+solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 85%
+ht-degree: 76%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 85%
 
 ## 实施步骤
 
-请参阅以下文档，了解如何配置到 Adobe Experience Platform 的 Campaign v8 源连接器和到 Campaign v8 的 Real-time Customer Data Platform 目标连接器。
+请参阅以下文档，了解如何配置到Adobe Experience Platform的Campaign v8源连接器和到Campaign v8的Real-time Customer Data Platform目标连接器。
 [Campaign 和 AEP 连接器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=zh-Hans)
 
 ## 护栏
@@ -53,7 +53,7 @@ ht-degree: 85%
 * Adobe Campaign 是所有主要用户档案的真相来源，这意味着用户档案必须存在于 Adobe Campaign 中，而新用户档案不应基于 Experience Platform 区段创建。
 
 
-### Experience Platform Real-time Customer Data Platform 区段共享
+### Experience PlatformReal-time Customer Data Platform区段共享
 
 * 请参阅 RTCDP Campaign 目标连接器 - [RTCDP Campaign 连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=zh-Hans)
 * 建议 50 区段限额

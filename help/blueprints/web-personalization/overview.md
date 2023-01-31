@@ -1,14 +1,14 @@
 ---
 title: Web和移动个性化蓝图
 description: 通过[!UICONTROL 实时客户档案]提供个性化的 Web 和移动内容。
-solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 96%
+ht-degree: 89%
 
 ---
 
@@ -31,9 +31,9 @@ Web 和移动个性化解决了跨多个应用程序使用用户档案和受众�
 
 <br>
 
-### 已知客户个性化护栏图
+### 已知的客户个性化护栏图
 
-<img src="assets/personalization_guardrails.svg" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.svg" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
 ## 相关博客帖子
 

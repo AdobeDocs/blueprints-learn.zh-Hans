@@ -1,17 +1,17 @@
 ---
 title: B2B受众和配置文件激活蓝图
-description: 通过 Real-time Customer Data Platform 交付基于帐户的受众和以用户档案为中心的客户体验。
-solution: Real-time Customer Data Platform
+description: 通过Real-time Customer Data Platform提供基于帐户的受众以及以用户档案为中心的客户体​验。
+solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 98%
+ht-degree: 78%
 
 ---
 
-# B2B 受众和用户档案激活 Blueprint
+# B2B受众和配置文件激活蓝图
 
 使用与单个客户绑定的帐户、机会和商机信息，创建可操作的 B2B 用户档案，以改进跨渠道的个性化和定位。
 
@@ -22,12 +22,11 @@ ht-degree: 98%
 
 ## 应用程序
 
-* Real-time Customer Data Platform B2B 版
+* Real-time Customer Data Platform B2B版
 
 ## 集成模式
 
-* B2B 数据源（Marketo、Salesforce 等） -> Real-time Customer Data Platform B2B 版 -> 目标
-各种 B2B 数据源可用于将帐户、商机、机会和人员数据映射到 Real-time Customer Data Platform B2B 版。
+* B2B 数据源（Marketo、Salesforce 等） -> Real-time Customer Data Platform B2B Edition ->目标各种B2B数据源可用于将帐户、商机、商机和人员数据映射到Real-time Customer Data Platform B2B Edition。
 
 ## 架构
 
@@ -69,12 +68,12 @@ ht-degree: 98%
 
 #### Experience Platform - Marketo 目标连接器：
 
-* 从 Real-time Customer Data Platform 到 Marketo Engage 的流传输区段共享最多需要 5 分钟。
+* 从Real-time Customer Data Platform到Marketo Engage的流区段共享最多可能需要5分钟。
 * 根据 Experience Platform 分段计划，每天会共享一次批次分段。B2B 区段包括帐户、商机、机会，使用多实体关系，这会导致区段成为批处理。
 
 #### Marketo Engage 护栏：
 
-* 联系人和潜在客户必须直接在 Marketo Engage 中摄入和定义，Real-time Customer Data Platform 受众才能与 Marketo Engage 联系人和潜在客户进行匹配。
+* 联系人和潜在客户必须直接在Marketo Engage中摄取和定义，以便Real-time Customer Data Platform受众与Marketo Engage联系人和潜在客户进行匹配。
 
 #### 目标护栏
 
@@ -83,7 +82,7 @@ ht-degree: 98%
 
 ## 实施步骤
 
-有关如何实施和配置 Real-time Customer Data Platform B2B 版的指导，请参阅 Real-time Customer Data Platform B2B 版的文档。[Real-time Customer Data Platform B2B 版](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=zh-Hans)
+有关如何实施和配置Real-time Customer Data Platform B2B版的指导，请参阅Real-time Customer Data Platform文档的B2B版。 [B2B版Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=zh-Hans)
 
 存在两种可能的实施模式。能够从 Marketo Engage 中摄入 B2B 数据和用户档案，或者能从其他 CRM 数据源中摄入 B2B 数据。
 
@@ -93,12 +92,12 @@ ht-degree: 98%
 
 * 包含与不含 Marketo 的 CRM 集成：
 如果实施将使用 Marketo Engage 作为源，并且 Marketo Engage 已连接到 CRM，则使用 Experience Platform 中的 Marketo 源连接器将 CRM 数据摄入 Experience Platform 中。如果需要摄入其他表格，请使用 Experience Platform 源连接器。如果实施不使用 Marketo Engage 作为源，请使用 CRM 源 Experience Platform 连接器将 CRM 源直接连接到 AEP。
-* 不建议仅使用 Real-time Customer Data Platform B2B 版加入和培养潜在客户。在此用例中，建议使用潜在客户培养工具(如 Marketo Engage)。
+* 仅Real-time Customer Data PlatformB2B版不建议引入和培养铅。 在此用例中，建议使用潜在客户培养工具(如 Marketo Engage)。
 * AEP 的 Marketo Engage 目标连接器可将受众推送到 Marketo Engage 进行激活，它仅推送电子邮件地址和 ECID。如果联系人不存在，它不会创建新潜在客户，因此需要将用户档案和潜在客户数据摄入 Marketo Engage 中。
 
 ## 相关文档
 
-* [Real-time Customer Data Platform B2B 版](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=zh-Hans)
+* [B2B版Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=zh-Hans)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=zh-Hans)
 * [Adobe Experience Platform - Marketo 源连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=zh-Hans)

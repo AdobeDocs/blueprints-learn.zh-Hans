@@ -4,7 +4,7 @@ description: 实时为客户提供量身定制的交易，同时高效完成客�
 solution: Journey Optimizer
 kt: 9486
 exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 84%
@@ -29,7 +29,7 @@ ht-degree: 84%
 |---|---|---|
 | **提高营销活动转化率&#x200B;**<br></br>**增加年度客户收入**</ul> | <ul><li>近乎实时地为有兴趣添加线路但尚未转化的用户创建新区段。</li><li>促进对未转化客户的跟进，为感兴趣的未转化者提供额外接触点。 </li><li>使用测试策略来测量历程效果并通过电子邮件优化转化。</li></ul> | <ul><li><strong>高质量的相关体验：</strong>部署 Journey Orchestration 后，客户会得到更密切相关的消息体验，从而降低电子邮件列表流失率。</li><li><strong>大规模的 Journey Orchestration：</strong>可以打造更加及时的个性化历程，以提高转化率和总收入。</li></ul> |
 
-## 主Blueprint:使用Experience Cloud应用程序进行受众和激活
+## 主Blueprint:使用Experience Cloud应用程序激活和激活受众
 
 ### 描述
 

@@ -6,10 +6,10 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 85%
+ht-degree: 63%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 85%
 ## 应用程序
 
 * Audience Manager
-* Real-time Customer Data Platform  
+* Real-time Customer Data Platform
 
-Audience Manager 和 Real-time Customer Data Platform 均可用于提供现场和广告目标的匿名受众激活。请注意，Real-time Customer Data Platform 仅支持具有匿名设备标识符的一部分广告目标，如[目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=zh-Hans)中所列。
+利用Audience Manager和Real-time Customer Data Platform，可以提供现场和广告目标的匿名Audience Activation。 请注意，Real-time Customer Data Platform仅支持在 [目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=zh-Hans).
 
-对于基于匿名设备的定位，受支持 Real-time Customer Data Platform 广告目标主要有 Microsoft Bing、Google DV360 和 TradeDesk。除此之外，Real-time Customer Data Platform还支持在 [目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=zh-Hans) 如 [已知的客户激活蓝图](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=zh-Hans).
+Microsoft Bing、Google DV360和TradeDesk是基于匿名设备定位的主要受支持Real-time Customer Data Platform广告目标。 除此之外，Real-time Customer Data Platform还支持在 [目标文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=zh-Hans) 如 [已知的客户激活蓝图](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=zh-Hans).
 
 ## 架构
 
@@ -45,7 +45,7 @@ Audience Manager 和 Real-time Customer Data Platform 均可用于提供现场�
 
 ## Real-time Customer Data Platform实施步骤
 
-* 有关 Real-time Customer Data Platform 的实施步骤，请参阅以下[文档](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=zh-Hans)。
+* 有关Real-time Customer Data Platform的实施步骤，请参阅以下内容 [文档](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=zh-Hans).
 
 ## 相关文档
 

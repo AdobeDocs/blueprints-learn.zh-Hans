@@ -2,12 +2,12 @@
 title: 数据访问和导出Blueprint
 description: 此 Blueprint 概述了通过 Adobe Experience Platform 和应用程序访问和导出数据的所有方法。
 product: adobe experience platform
-solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
+solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -27,12 +27,12 @@ ht-degree: 95%
 
 * [客户端标记](#client-side-tags-extensions)
 * [事件转发](#event-forwarding)
-* [Real-time Customer Data Platform 目标](#RTCDP-destinations)
+* [Real-time Customer Data Platform目标](#RTCDP-destinations)
 * [Journey Optimizer 自定义操作](#jo-custom-actions)
 
 ## 数据访问和导出概述架构
 
-<img src="../experience-platform/assets/aep_data_flow.svg" alt="数据准备和摄入 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep_data_flow.svg" alt="数据准备和摄入 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
 ## 数据访问方法
 
@@ -126,7 +126,7 @@ ht-degree: 95%
 
 用户档案属性数据和受众成员资格数据可以激活到企业和广告目标。这意味着必须将导出的数据摄入到 Experience Platform 实时客户档案中。
 
-请参阅 [Real-time Customer Data Platform 目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans)文档以了解其他信息。
+请参阅 [Real-time Customer Data Platform目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans) 文档以了解其他信息。
 
 #### 用例
 

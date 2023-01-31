@@ -1,13 +1,13 @@
 ---
 title: 激活到 Facebook 自定义受众
 description: 激活到 Facebook 自定义受众。
-solution: Real-time Customer Data Platform, Data Collection
+solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '957'
-ht-degree: 99%
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 
 ## 应用程序
 
-* Real-time Customer Data Platform  
+* Real-time Customer Data Platform
 
 ## 架构
 
@@ -82,7 +82,7 @@ ht-degree: 99%
    * 检查跳过的用户档案，以查看是否缺失用户档案身份或缺少必要的属性。
    * 检查是否存在需要解决的任何其他错误。
 1. 验证是否已按照预期数量的受众成员资格将受众激活到最终目标。
-   * 登录 Facebook 自定义受众门户以验证是否已传送 Real-time Customer Data Platform 的受众，以及 Facebook 中受众的用户档案匹配率是否与 Real-time Customer Data Platform 中受众的用户档案数量合理匹配。
+   * 登录Facebook自定义受众门户以验证是否已交付Real-time Customer Data Platform受众，以及Facebook中受众的配置文件匹配率是否与Real-time Customer Data Platform中受众的配置文件数量合理匹配。
 
 ## 护栏
 

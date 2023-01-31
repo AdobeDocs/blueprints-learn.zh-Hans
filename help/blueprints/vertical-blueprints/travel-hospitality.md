@@ -1,13 +1,13 @@
 ---
 title: 旅游与服务行业 - 利用线上和线下数据激活
 description: 对不同渠道客户行为有一个单一整合视图，以支持实时决策。
-solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
+solution: Real-Time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 94%
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 ## Adobe方法
 
 * 将 Adobe Experience Platform 集成到其现有技术堆栈中，以提供跨解决方案的客户交互。
-* 激活的 Real-time Customer Data Platform 和 Customer Journey Analytics，以提供持续分析和个性化的客户档案。
+* 激活了Real-time Customer Data Platform和Customer Journey Analytics，以提供持续分析和个性化的客户用户档案。
 * 开发了客户历程的整体视图，以支持有效的营销归因和资源分配。
 * 对 COVID-19 的应对措施是制定了一个战略，在为业务做准备的同时，继续吸引客户。
 
@@ -38,7 +38,7 @@ ht-degree: 94%
 
 ### Experience Cloud应用程序
 
-<ul><li>Adobe Experience Platform    </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
+<ul><li>Adobe Experience Platform  </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
 
 ### Blueprint架构
 

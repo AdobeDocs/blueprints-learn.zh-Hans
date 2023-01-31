@@ -1,13 +1,13 @@
 ---
 title: Experience Platform 和应用程序护栏
 description: 护栏定义了对 Adobe Experience Platform 和应用程序中组件和服务的性能期望和影响
-solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
+solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 护栏是建议的阈值，用于就数据和系统使用、优化性能提供指导，并避免在 Adobe Experience Platform 和应用程序中出现错误或意外结果。护栏旨在反映系统约束和性能预期，以促进客户架构和使用案例性能优化。护栏不是服务级别协议，有关产品特定的服务级别协议的信息，请参阅下面链接的产品描述文档。
 
 
-## Adobe Experience Platform和应用程序的防护
+## Adobe Experience Platform 和应用程序的护栏
 
 [数据摄取护栏](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hans)
 
@@ -48,7 +48,7 @@ ht-degree: 94%
 
 <br>
 
-### Real-time Customer Data Platform 和 Adobe Target
+### Real-time Customer Data Platform和Adobe Target
 
 <img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP 和 Target 护栏" style="border:1px solid #4a4a4a" width="85%" />
 

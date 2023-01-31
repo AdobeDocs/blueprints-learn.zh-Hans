@@ -1,14 +1,14 @@
 ---
 title: 受众和配置文件激活蓝图
-description: 通过 Real-time Customer Data Platform 交付受众激活且以用户档案为中心的客户体验。
-solution: Real-time Customer Data Platform
+description: 通过Real-time Customer Data Platform提供激活的受众以及以用户档案为中心的客户体​验。
+solution: Real-Time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 93%
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 |---|---|---|
 | **[匿名受众激活](anonymous.md)** | <ul><li>跨 Web 和广告渠道定位目标受众，以获取匿名和行为客户数据。</li><li>与第三方受众数据集成以提高个性化。</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[已知客户激活](known.md)** | <ul><li>激活到基于用户档案的已知目的地（如电子邮件提供商、社交网络和广告目的地）。 </li><li>将线下属性和事件（如线下订单、交易、CRM 或忠诚度数据）与线上行为结合使用，实现线上定位和个性化。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager（可选）</li></ul> |
-| **[使用Experience Cloud应用程序激活受众和配置文件](platform-and-applications.md)** | <ul><li>在 Experience Platform 中管理用户档案和受众，并将其与 Experience Cloud 应用程序共享。</li><li>在 Experience Platform 中建立并共享丰富的客户区段和洞察，将其与 Experience Cloud 应用程序共享。</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud 应用程序</li></ul> |
+| **[使用Experience Cloud应用程序激活受众和配置文件](platform-and-applications.md)** | <ul><li>在 Experience Platform 中管理用户档案和受众，并将其与 Experience Cloud 应用程序共享。</li><li>在 Experience Platform 中建立并共享丰富的客户区段和洞察，将其与 Experience Cloud 应用程序共享。</li></ul> | <ul><li>Adobe Experience Platform  </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud 应用程序</li></ul> |
 | **[区段匹配](segment-match.md)** | <ul><li>通过更好的治理、权限和首选项管理系统，营销人员可以通过关键合作伙伴进一步增强其经过身份验证的第一方受众。</li></ul> | <ul><li>Adobe Experience Platform   </li></ul> |
 
 ## 实时客户资料架构
@@ -50,7 +50,7 @@ ht-degree: 93%
 
 ### 激活属性和身份
 
-* [!UICONTROL Real-time Customer Data Platform] 可以激活受众成员资格以及属性和身份更改，这些更改是针对被选择激活的区段内成员的用户档案而进行的。如果您的目标是激活属性或身份，则必须定义一个全局区段，其中包含将属性和身份更新发送到的所有用户档案。此时，您可以选择要激活的区段和所需属性，将其作为目的地配置的一部分。
+* [!UICONTROL Real-time Customer Data Platform] 可以激活受众成员资格，以及对于属于选定要激活的区段成员的用户档案发生的属性和身份更改。 如果您的目标是激活属性或身份，则必须定义一个全局区段，其中包含将属性和身份更新发送到的所有用户档案。此时，您可以选择要激活的区段和所需属性，将其作为目的地配置的一部分。
 * 请注意，批次目的地不支持激活仅限属性的更改事件。完整或增量受众成员资格可选定的属性一起发送以用于激活。
 
 ### 将批次区段激活到流式目的地
