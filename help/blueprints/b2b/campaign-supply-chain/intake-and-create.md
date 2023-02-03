@@ -1,11 +1,11 @@
 ---
-title: 摄取和创建Blueprint
+title: 接收和创建 Blueprint
 description: 接收和创建 — 利用 Marketo 和 Workfront 优化营销活动供应链
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1307'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 通过建立提交营销活动请求并自动创建经常请求的营销活动的流程，您可以：提高营销活动的速度、减少错误、将请求路由到处理营销操作的正确成员、平衡和提高资源利用率，以及将更多营销操作集中在更具战略性的任务上。
 
-通过Workfront和Marketo Engage，系统到系统连接允许 [Workfront请求表](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=zh-Hans){target="_blank"} 要创建Marketo Engage程序，请填写关键变量，例如：主题行、电子邮件副本、图像、日期、时间、事件信息等。
+通过 Workfront 和 Marketo Engage，系统到系统连接允许 [Workfront 请求表单](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=zh-Hans){target="_blank"}创建 Marketo Engage 计划，然后填写关键变量，例如主题行、电子邮件文案、图像、日期、时间、事件信息等。
 
 要实现此集成，您需要使用 Workfront Fusion，即一个工作自动化层，允许您自动执行 Workfront 与其他系统之间的工作流。
 
@@ -33,7 +33,7 @@ ht-degree: 89%
 
 **您会收到哪些类型的营销请求？**
 
-请考虑您将采用的营销策略类型，如电子邮件、客户培养、第一方网络研讨会和活动。您还运行第三方网络研讨会或展示广告吗？ 应考虑其中每个请求，因为它们可能需要请求表单中的特定输入字段，并且将映射到将被克隆的 Marketo Engage 中的不同计划模板。
+请考虑您将采用的营销策略类型，如电子邮件、客户培养、第一方网络研讨会和活动。您还会举办第 3 方网络研讨会或投放展示广告吗？应考虑其中每个请求，因为它们可能需要请求表单中的特定输入字段，并且将映射到将被克隆的 Marketo Engage 中的不同计划模板。
 
 您还需要了解您是否在多个地区开展营销活动。如果是这种情况，您需要在 Workfront 中考虑一个项目，在 Marketo Engage 中创建多个计划，每个计划代表不同的语言支持。
 
@@ -95,7 +95,7 @@ ht-degree: 89%
 
 拥有一组可重复使用的计划模板后，您就可以使用此蓝图中概述的自动化来进一步扩展您的工作范围，以加快营销活动开发的速度。
 
-要进一步了解如何创建您自己的卓越中心，请查看 [Marketo社区](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} 以了解最佳实践。
+要进一步了解如何创建您自己的卓越中心，请查看 [Marketo 社区](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"}以了解最佳实践。
 
 ### 使用令牌填充内容 {#use-tokens-to-populate-content}
 
@@ -103,7 +103,7 @@ ht-degree: 89%
 
 ![](assets/intake-and-create-2.png)
 
-### 从AEM Assets填充图像 {#populate-images-from-aem-assets}
+### 从 AEM Assets 填充图像 {#populate-images-from-aem-assets}
 
 您可以利用 Marketo Engage 令牌和指向 AEM Assets 中资产的链接，进一步自动化电子邮件和登录页面的开发。营销活动请求者可以在请求过程中提交来自 AEM Assets 的已发布图像链接。然后，Workfront Fusion 可以获取这些链接，并使用 Marketo Engage 令牌将其嵌入到电子邮件的 HTML 中。
 
@@ -113,7 +113,7 @@ ht-degree: 89%
 >
 >AEM Assets 不需要支持此工作流，但可以允许更简化的流程来管理整个营销活动开发供应链中的营销活动资产。
 
-### 为所有程序请求类型组合查找库 {#assemble-a-lookup-library-for-all-program-request-types}
+### 为所有计划请求类型组合查找库 {#assemble-a-lookup-library-for-all-program-request-types}
 
 通过 Workfront 请求自动创建新的 Marketo Engage 计划时，务必在 Workfront Fusion 自动化中包含一个步骤，以便从 Workfront 请求中获取信息，并查找应在 Marketo Engage 中克隆的正确计划模板。
 
@@ -145,16 +145,16 @@ ht-degree: 89%
   </tbody>
 </table>
 
-## 进气和创建自动化流 {#intake-and-create-automation-flow}
+## 接收和创建自动化流 {#intake-and-create-automation-flow}
 
-以下示例说明了如何使用预建的在Fusion中组装工作流逻辑 [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=zh-Hans){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=zh-Hans){target="_blank"} 可让您更快地实现自动化的模块。
+以下示例说明了如何使用预先构建的 [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=zh-Hans){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=zh-Hans){target="_blank"} 模块在 Fusion 中汇编工作流逻辑，使您能够更快地交付自动化。
 
 ![](assets/intake-and-create-3.png)
 
 ## 资源 {#resources}
 
-* [Adobe Marketo Engage模块](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=zh-Hans){target="_blank"}
+* [Adobe Marketo Engage 模块](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=zh-Hans){target="_blank"}
 
-* [Adobe Workfront模块](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=zh-Hans){target="_blank"}
+* [Adobe Workfront 模块](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=zh-Hans){target="_blank"}
 
-* [Marketo和Workfront概述](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}
+* [Marketo 和 Workfront 概述](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}
