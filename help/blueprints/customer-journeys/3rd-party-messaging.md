@@ -1,16 +1,16 @@
 ---
-title: Journey Optimizer — 第三方消息传递蓝图
+title: Journey Optimizer - 第三方消息传递 blueprint
 description: 演示如何将 Adobe Journey Optimizer 与第三方消息传递系统结合使用来编排和发送个性化通信。
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '823'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# 第三方消息传递蓝图
+# 第三方消息传递 blueprint
 
 演示如何将 Adobe Journey Optimizer 与第三方消息传递系统结合使用来编排和发送个性化通信。
 
@@ -30,7 +30,7 @@ Adobe Experience Platform
 * 对于基于体验事件类的架构，当您希望触发的事件不是基于规则的事件时，请添加“编排事件 ID 字段组”
 * 对于基于个人用户档案类的架构，添加“用户档案测试详细信息”字段组，以便能够加载测试用户档案以与 Journey Optimizer 一起使用
 
-第三方消息传送应用程序
+第三方消息传递应用程序
 
 * 必须支持 REST API 调用以发送事务负载
 
@@ -52,7 +52,7 @@ Adobe Experience Platform
 * 批次区段 - 需要确保您了解合格用户的每日流量，并确保目标系统能够处理每个历程以及所有历程中的突发吞吐量
 * 流式区段 - 需要确保可以处理用户档案资格的初始突发量，以及每个历程和所有历程的每日合格流传输流量
 * 不支持的决策管理
-* 出站集成到第三方系统
+* 到第三方系统的出站集成
    * 不支持单个静态 IP，因为我们的基础架构是多租户的（必须允许列出所有数据中心 IP）
    * 自定义操作仅支持 POST 和 PUT 方法
    * 身份验证支持：令牌 | 密码 | OAuth2
@@ -60,7 +60,7 @@ Adobe Experience Platform
 
 <br>
 
-第三方消息系统
+第三方消息传递系统
 
 * 需要了解系统可支持哪些负载进行事务 API 调用
    * 每秒允许的调用数
@@ -69,7 +69,7 @@ Adobe Experience Platform
    * 身份验证类型：令牌 | 密码 | 通过 Journey Optimizer 支持 OAuth2
    * 身份验证缓存持续时间：令牌有效时间有多长？
 * 如果仅支持批次摄入，则需要流传输到云存储引擎，如 Amazon Kinesis 或 Azure Event Grid 1st
-   * 这些云存储引擎的数据可以打包并传输到第三方
+   * 这些云存储引擎的数据可以经过批处理并传输到第三方
    * 客户或第三方将负责提供所需的任何中间件
 
 <br>
@@ -85,7 +85,7 @@ Adobe Experience Platform
 1. 在 Experience Platform 中为数据集[添加数据使用标签](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=zh-Hans)以便进行治理。
 1. [创建对目标实施治理的策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=zh-Hans)。
 
-#### 配置文件/标识
+#### 用户档案/身份
 
 1. [创建任何客户特定的命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
 1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
@@ -103,13 +103,13 @@ Adobe Experience Platform
 1. 配置外部数据源
 1. 为第三方应用程序配置自定义操作
 
-### 移动设备推送配置（可选，因为第三方可能会收集令牌）
+### 移动推送配置（可选，因为第三方可能会收集令牌）
 
 1. 实施 Experience Platform Mobile SDK 以收集推送令牌和登录信息，从而关联回已知的客户用户档案
 1. 利用 Adobe 标记并创建具有以下扩展的移动资产：
    * Adobe Journey Optimizer
    * Adobe Experience Platform Edge 网络
-   * 身份    （边缘网络）
+   * 身份     （边缘网络）
    * 移动核心
 1. 确保您拥有专用数据流，用于移动应用程序部署与 Web 部署
 1. 有关更多信息，请参阅 [Adobe Journey Optimizer 移动指南](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
