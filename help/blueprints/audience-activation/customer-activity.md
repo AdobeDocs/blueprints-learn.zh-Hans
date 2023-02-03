@@ -1,19 +1,19 @@
 ---
-title: 客户活动中心蓝图
+title: 客户活动中心 Blueprint
 description: “[!UICONTROL 实时用户档案]查询可提供座席协助支持和销售的背景信息。”
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# 客户活动中心蓝图
+# 客户活动中心 Blueprint
 
-Customer Activity Hub Blueprint显示外部应用程序如何访问Adobe Experience Platform [!UICONTROL 实时客户资料].
+客户活动中心 Blueprint 显示外部应用程序如何访问 Adobe Experience Platform 的[!UICONTROL 实时客户档案]。
 
 外部应用程序可以使用 API GET 请求来访问用户档案。然后，存储在用户档案中的属性、事件、区段成员和模型驱动功能就可以用于这些外部非 Adobe 应用程序。
 
@@ -37,7 +37,7 @@ Customer Activity Hub Blueprint显示外部应用程序如何访问Adobe Experie
 
 ## 实施步骤
 
-1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)
+1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=zh-Hans)
 1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
 1. 在架构上[配置正确的身份和身份命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)，以确保摄入的数据可以拼接到统一的用户档案中。
 1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
