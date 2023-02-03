@@ -1,16 +1,16 @@
 ---
-title: 中心Blueprint上的决策管理
+title: 中心决策管理 Blueprint
 description: 跨渠道向消费者投放个性化优惠，包括自助终端、座席协助体验、电子邮件以及其他推拨投放。
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '906'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# 中心Blueprint上的决策管理
+# 中心决策管理 Blueprint
 
 要了解有关决策管理的更多信息，请参阅[此处](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans)的产品文档和[此处](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=zh-Hans)的决策管理概述
 
@@ -26,7 +26,7 @@ Journey Optimizer 用于跨所有接触点在适当的时间为客户提供最�
 
 要了解有关边缘决策管理的更多信息，请参阅[边缘决策管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=zh-Hans) Blueprint。
 
-## 中心上的决策管理用例
+## 中心决策管理用例
 
 * 自助终端和店内体验中的个性化优惠。
 * 通过座席辅助体验提供的个性化优惠，例如用于呼叫中心或销售互动。
@@ -61,7 +61,7 @@ Adobe Experience Platform
 * 访问完整的实时客户档案，包括受众会员资格、属性和体验事件。
 
 
-### 数据摄取护栏
+### 数据摄入护栏
 
 <img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform 数据流" style="border:1px solid #4a4a4a" width="85%" />
 
@@ -92,7 +92,7 @@ Adobe Experience Platform
 1. 在 Experience Platform 中为数据集[添加数据使用标签](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=zh-Hans)以便进行治理。
 1. [创建对目标实施治理的策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=zh-Hans)。
 
-#### 配置文件/标识
+#### 用户档案/身份
 
 1. [创建任何客户特定的命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
 1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
