@@ -1,12 +1,12 @@
 ---
-title: Journey Optimizer带有Adobe Campaign v7 blueprint
+title: Journey Optimizer 与 Adobe Campaign v7 Blueprint
 description: 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合使用，通过 Campaign 中的实时消息传送服务器在本地发送消息
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 6d9bc65c-cca0-453f-8106-d2895d005ada
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '975'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 97%
 
 [Journey Optimizer 护栏产品链接](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=zh-Hans)
 
-### 其他Journey Optimizer护栏
+### 其他 Journey Optimizer 护栏
 
 * 现在可通过 API 设置封顶，以确保目标系统不会因饱和而达到故障点。这意味着超过上限的消息会被彻底丢弃，永不发送。不支持限流。
    * 最大连接数：目标可处理的 http/s 连接的最大数
@@ -58,7 +58,7 @@ ht-degree: 97%
 * 流式区段 - 需要确保可以处理用户档案资格的初始突发量，以及每个历程和所有历程的每日合格流传输流量
 * 不支持的决策管理
 * 不支持业务事件
-* 出站集成到第三方系统
+* 到第三方系统的出站集成
    * 不支持单个静态 IP，因为我们的基础架构是多租户的（必须允许列出所有数据中心 IP）
    * 自定义操作仅支持 POST 和 PUT 方法
    * 身份验证支持：令牌 | 密码 | OAuth2
@@ -92,7 +92,7 @@ ht-degree: 97%
 1. 在 Experience Platform 中为数据集[添加数据使用标签](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=zh-Hans)以便进行治理。
 1. [创建对目标实施治理的策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=zh-Hans)。
 
-#### 配置文件/标识
+#### 用户档案/身份
 
 1. [创建任何客户特定的命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
 1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
@@ -121,7 +121,7 @@ ht-degree: 97%
 1. 利用 Adobe 标记并创建具有以下扩展的移动资产：
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
    * Adobe Experience Platform Edge 网络
-   * 身份    （边缘网络）
+   * 身份     （边缘网络）
    * 移动核心
 1. 确保您拥有专用数据流，用于移动应用程序部署与 Web 部署
 1. 有关更多信息，请参阅 [Adobe Journey Optimizer 移动指南](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
