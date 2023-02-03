@@ -4,15 +4,15 @@ description: 了解 Adobe Experience Platform (AEP) 的[!UICONTROL 区段匹配]
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1766'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # 区段匹配 Blueprint
 
-“区段匹配”允许合作伙伴品牌在各自的Experience Platform环境中共享受众。 品牌的关键在于根据从与消费者的直接关系中收集的数据，与客户建立联系。通过更好的治理、权限和首选项管理系统，营销人员可以通过关键合作伙伴进一步增强其经过身份验证的第一方受众。
+区段匹配允许合作伙伴品牌在其各自的 Experience Platform 环境中共享受众。品牌的关键在于根据从与消费者的直接关系中收集的数据，与客户建立联系。通过更好的治理、权限和首选项管理系统，营销人员可以通过关键合作伙伴进一步增强其经过身份验证的第一方受众。
 
 [!UICONTROL 区段匹配]是一项数据协作服务，允许 Experience Platform (AEP) 客户（称为 _合作伙伴_）以安全、受管理且对隐私友好的方式，基于通用行业标识符交换区段数据。
 
