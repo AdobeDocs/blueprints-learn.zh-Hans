@@ -7,7 +7,7 @@ exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 84%
+ht-degree: 97%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 84%
 
 必须解决这一限制，才能对希望在当前状态 7 天等待期之前添加线路的用户进行更及时的跟进。
 
-## Adobe方法
+## Adobe 方法
 
 * Adobe Analytics 数据可标识未能转化为添加新线路的用户，该数据将作为数据源供 Adobe Journey Optimizer 使用。
-* Adobe Journey Optimizer会使用规则来指定客户何时收到自定义的“放弃”消息，该消息旨在通过向其帐户中添加新行来鼓励客户进行转化。
+* Adobe Journey Optimizer 会使用规则来指定客户何时收到自定义的“放弃”消息，该消息旨在鼓励客户通过为其帐户添加新线路来实现转化。
 
 
-## 业务价值
+## 提供的商业价值
 
 | 目标 | 战术 | 解锁的价值 |
 |---|---|---|
@@ -35,10 +35,10 @@ ht-degree: 84%
 
 <ul><li>将 Adobe Experience Platform 用作流式数据、客户档案和分段的中心枢纽，通过 Journey Orchestration 进行流式历程编排和消息投放，执行触发式和流式消息递送</li></ul>
 
-### Experience Cloud应用程序
+### Experience Cloud 应用程序
 
 <ul><li>Adobe Journey Optimizer</li></ul>
 
-### Blueprint架构
+### Blueprint 架构
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=zh-Hans"><img alt="电信业务的缩略图可实时提供量身定制的交易，同时高效完成客户注册，以提升长期忠诚度。" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>

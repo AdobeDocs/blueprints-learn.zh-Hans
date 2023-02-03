@@ -1,5 +1,5 @@
 ---
-title: 特定于应用程序的SDK部署架构图
+title: 特定于应用程序的 SDK 部署架构图
 description: 此 Blueprint 显示了架构和通过特定于应用程序的 SDK 进行的摄入
 solution: Experience Platform,Data Collection
 kt: null
@@ -8,7 +8,7 @@ exl-id: 05bf0a34-e5c7-498c-8d5d-1d549c00e070
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 86%
+ht-degree: 94%
 
 ---
 

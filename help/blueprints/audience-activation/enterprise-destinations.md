@@ -1,5 +1,5 @@
 ---
-title: 对文件和企业流目标Blueprint的受众和配置文件激活
+title: 受众和用户档案激活到文件和企业流传输目标 Blueprint
 description: 受众和用户档案激活到企业目的地
 solution: Real-Time Customer Data Platform
 kt: 7475
@@ -7,11 +7,11 @@ exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 66%
+ht-degree: 73%
 
 ---
 
-# 对文件和企业流目标Blueprint的受众和配置文件激活
+# 受众和用户档案激活到文件和企业流传输目标 Blueprint
 
 以流式处理或批量处理方式共享配置文件和受众更改及事件 [!UICONTROL Real-time Customer Data Platform] 到企业数据存储和应用程序。 这些用户档案和受众事件可用于向客户发起销售或支持行动，例如跟踪放弃的应用程序流程或网络研讨会注册，或使用最新的客户属性和信息更新企业应用程序 [!UICONTROL Real-time Customer Data Platform].
 
@@ -21,7 +21,7 @@ ht-degree: 66%
 
 ## 应用程序
 
-* Adobe Experience Platform  Activation
+* Adobe Experience Platform   Activation
 
 ## 架构
 

@@ -1,5 +1,5 @@
 ---
-title: 使用Experience Cloud应用程序Blueprint激活受众和配置文件
+title: 使用 Experience Cloud 应用程序的受众和用户档案激活 Blueprint
 description: 在 Experience Platform 中管理用户档案和受众，并将其与 Experience Cloud 应用程序共享。
 solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
@@ -7,15 +7,15 @@ exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 75%
+ht-degree: 81%
 
 ---
 
-# 使用Experience Cloud应用程序Blueprint激活受众和配置文件
+# 使用 Experience Cloud 应用程序的受众和用户档案激活 Blueprint
 
 在 Experience Platform 中管理用户档案和受众，并将其与 Experience Cloud 应用程序共享。在 Experience Platform 中建立并共享丰富的客户区段和洞察，将其与 Experience Cloud 应用程序共享。
 
-Experience Cloud应用程序激活与 [已知的客户激活蓝图](known.md).
+使用 Experience Cloud 应用程序的激活与[已知客户激活 Blueprint](known.md) 保持一致。
 
 ## 用例
 
@@ -25,7 +25,7 @@ Experience Cloud应用程序激活与 [已知的客户激活蓝图](known.md).
 
 ## 应用程序
 
-* Adobe Experience Platform  
+* Adobe Experience Platform   
 * [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform Activation
 * Experience Cloud 应用程序
@@ -41,14 +41,14 @@ Experience Cloud应用程序激活与 [已知的客户激活蓝图](known.md).
 
 请参阅 [Experience Platform 和应用程序架构的相关章节](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=zh-Hans)，以了解有关 Experience Platform 与 Experience Cloud 应用程序集成的其他架构图。
 
-### 使用Experience Cloud应用程序激活受众和配置文件
+### 使用 Experience Cloud 应用程序的受众和用户档案激活
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="使用Experience Cloud应用程序激活受众和配置文件的参考架构" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="使用 Experience Cloud 应用程序的受众和用户档案激活的参考架构" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## 护栏
 
-请参阅[“受众和用户档案激活概述”页上的护栏](overview.md) 和[部署护栏](../experience-platform/deployment/guardrails.md)页面。
+请参阅[“受众和用户档案激活概述”页上的护栏](overview.md)  和[部署护栏](../experience-platform/deployment/guardrails.md)页面。
 
 ## 实施注意事项
 

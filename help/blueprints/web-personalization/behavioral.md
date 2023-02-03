@@ -1,5 +1,5 @@
 ---
-title: 行为Web个性化蓝图
+title: 行为 Web 个性化 Blueprint
 description: 了解如何根据线上行为和受众数据来个性化内容。
 landing-page-description: 了解如何根据线上行为和受众数据进行个性化。
 solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
@@ -8,11 +8,11 @@ exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
-# 行为Web/移动个性化蓝图
+# 行为 Web/移动个性化 Blueprint
 
 根据线上行为和受众数据进行个性化。
 
@@ -45,7 +45,7 @@ Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 
 1. 为您的 Web 或移动应用程序[实施 Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=zh-Hans)。
 
-### 实施步骤 — Audience Manager或Adobe Analytics
+### 实施步骤 - Audience Manager 或 Adobe Analytics
 
 1. [实施 Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=zh-Hans)
 1. [实施 Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=zh-Hans)

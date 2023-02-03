@@ -7,24 +7,24 @@ exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
-# 旅游和服务业业务挑战
+# 旅游和服务行业业务挑战
 
 美国一家赌场和娱乐公司希望彻底改变其利用数据建立实时个性化连接的能力。随着 COVID-19 爆发改变了客户与旅游和酒店业务的互动方式，这一愿景变得更加重要。
 
 利用 Adobe 技术和服务，本组织现在已准备好实现其目标，并准备好面对疫情爆发后的未来。
 
-## Adobe方法
+## Adobe 方法
 
 * 将 Adobe Experience Platform 集成到其现有技术堆栈中，以提供跨解决方案的客户交互。
 * 激活了Real-time Customer Data Platform和Customer Journey Analytics，以提供持续分析和个性化的客户用户档案。
 * 开发了客户历程的整体视图，以支持有效的营销归因和资源分配。
 * 对 COVID-19 的应对措施是制定了一个战略，在为业务做准备的同时，继续吸引客户。
 
-## 业务价值
+## 提供的商业价值
 
 | 目标 | 战术 | 解锁的价值 |
 |---|---|---|
@@ -36,10 +36,10 @@ ht-degree: 89%
 
 <ul><li>激活到基于用户档案的已知目的地（如电子邮件提供商、社交网络和广告目的地）。</li><li>将线下属性和事件（如线下订单、交易、CRM 或忠诚度数据）与线上行为结合使用，实现线上定位和个性化。</li></li></ul>
 
-### Experience Cloud应用程序
+### Experience Cloud 应用程序
 
 <ul><li>Adobe Experience Platform  </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
 
-### Blueprint架构
+### Blueprint 架构
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans"><img alt="旅游和酒店业务的缩略图，通过统一的视图了解不同渠道的客户行为，从而做出实时决策。" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/known_activation.svg"/></a>

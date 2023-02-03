@@ -7,17 +7,17 @@ exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 71%
+ht-degree: 83%
 
 ---
 
-# 已知的客户激活蓝图
+# 已知客户激活 Blueprint
 
 将线下属性和事件（如线下订单、交易、CRM 或忠诚度数据）与线上行为结合使用，实现线上定位和个性化。
 
 通过内置管理控制扩展的标识符为与已知客户沟通提供了更多机会。将受众激活到基于用户档案的已知目的地（如电子邮件提供商、社交网络和广告目的地）。
 
-在 [使用Experience Cloud应用程序Blueprint激活受众和配置文件](platform-and-applications.md) 特定于Experience Platform和Experience Cloud应用程序之间的集成。
+[使用 Experience Cloud 应用程序的受众和用户档案激活 Blueprint](platform-and-applications.md) 中提供了更多详细信息，该 Blueprint 特定于 Experience Platform 和 Experience Cloud 应用程序之间的集成。
 
 ## 用例
 
@@ -34,12 +34,12 @@ ht-degree: 71%
 
 ### 已知客户通过Real-time Customer Data Platform激活
 
-<img src="assets/known_activation.svg" alt="已知客户激活蓝图的参考架构" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="已知客户激活 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
-### 通过基于Audience Manager的目标激活已知客户
+### 通过 Audience Manager 基于人员的目标的已知客户激活
 
-<img src="assets/AAM_PBD.svg" alt="已知客户激活蓝图的参考架构" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="已知客户激活 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## 护栏
@@ -63,7 +63,7 @@ ht-degree: 71%
 
 * 请参阅 [使用Experience Cloud应用程序Blueprint激活受众和配置文件](platform-and-applications.md) 有关将受众从Real-time Customer Data Platform共享到Audience Manager、Analytics、Target、Campaign和Journey Optimizer的其他详细信息。
 
-## Audience Manager基于人员的目标的实施步骤
+## Audience Manager 基于人员的目标的实施步骤
 
 * 有关实施 Audience Manager 的详细信息，请参阅以下[文档](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=zh-Hans)。
 

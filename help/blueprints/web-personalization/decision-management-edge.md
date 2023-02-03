@@ -6,11 +6,11 @@ exl-id: f2a6e7fd-c8bb-4356-8ca1-96956662ecf5
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer - Edge Blueprint上的决策管理
+# Journey Optimizer - 边缘决策管理 Blueprint
 
 Adobe Journey Optimizer 决策管理可用于在网站、移动设备应用程序、自助终端等集客渠道以及跨其他客户接触点个性化和投放优惠。
 

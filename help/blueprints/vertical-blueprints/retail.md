@@ -7,20 +7,20 @@ exl-id: a675bc81-e76c-491a-8718-359867d63351
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
-# 零售业业务挑战
+# 零售行业业务挑战
 
 综合体验业务旨在个性化整个客户历程，以提高忠诚度、向现有客户追加销售，并优化整个营销活动的营销支出。实现目标的战略是扩展其数字功能，以包括线下客户数据和交易数据，从而推动增长。
 
-## Adobe方法
+## Adobe 方法
 
 * 生成统一的客户档案，其中包含可实时激活的所有相关线上/线下数据
 * 跨 Web、媒体和推送渠道编排客户互动，以推动首次或第二次购买行为。
 
-## 业务价值
+## 提供的商业价值
 
 | 目标 | 战术 | 解锁的价值 |
 |---|---|---|
@@ -32,10 +32,10 @@ ht-degree: 92%
 
 <ul><li>在 Experience Platform 中管理用户档案和受众，并将其与 Experience Cloud 应用程序共享。</li><li>在 Experience Platform 中建立并共享丰富的客户区段和洞察，将其与 Experience Cloud 应用程序共享。</li></ul>
 
-### Experience Cloud应用程序
+### Experience Cloud 应用程序
 
 <ul><li>Adobe Experience Platform  </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud 应用程序</li></ul>
 
-### Blueprint架构
+### Blueprint 架构
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans"><img alt="跨数字媒体、电子邮件、推送和 Web 渠道提供实时客户体验的零售企业缩略图" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>

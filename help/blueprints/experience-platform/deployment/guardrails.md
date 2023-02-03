@@ -7,7 +7,7 @@ exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 ## Adobe Experience Platform 和应用程序的护栏
 
-[数据摄取护栏](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hans)
+[数据摄入护栏](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hans)
 
 [边缘网络 API 护栏](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=zh-Hans)
 
@@ -36,7 +36,7 @@ ht-degree: 93%
 
 ## 端到端延迟图
 
-### 数据摄取
+### 数据摄入
 
 <img src="../assets/aep_data_flow_guardrails.svg" alt="Experience Platform 数据流" style="border:1px solid #4a4a4a" width="85%" />
 

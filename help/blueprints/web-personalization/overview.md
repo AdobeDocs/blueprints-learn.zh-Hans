@@ -1,5 +1,5 @@
 ---
-title: Web和移动个性化蓝图
+title: Web 和移动个性化 Blueprint
 description: 通过[!UICONTROL 实时客户档案]提供个性化的 Web 和移动内容。
 solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
@@ -8,11 +8,11 @@ exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
-# Web 和移动个性化 蓝图
+# Web 和移动个性化 Blueprint
 
 Web 和移动个性化解决了跨多个应用程序使用用户档案和受众分段来个性化和优化客户体验的问题。可以利用客户行为、人口统计、忠诚度级别和过往交易记录来个性化布局、行动号召和内容。
 

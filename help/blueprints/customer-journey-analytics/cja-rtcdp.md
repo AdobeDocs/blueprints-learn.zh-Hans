@@ -8,7 +8,7 @@ exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -16,21 +16,21 @@ ht-degree: 83%
 
 创建在 Customer Journey Analytics (CJA) 中识别的受众并将其发布到 Adobe Experience Platform 中的实时客户档案，以用于客户定位和个性化。非常适用于使用历史数据创建受众，或通过 Customer Journey Analytics 中的精细筛选和计算字段得出更细化的受众。
 
-## Customer Journey AnalyticsAudience Publishing指南
+## Customer Journey Analytics 受众发布指南
 
 有关从Customer Journey Analytics到Real-time Customer Data Platform的受众发布的实施和配置的指导，请参阅以下文档。 [文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hans)
 
-## Customer Journey Analytics蓝图的体系结构
+## Customer Journey Analytics 的架构 Blueprint
 
 ![架构图](assets/CJA_RTCDP.svg)
 
-## Customer Journey Analytics蓝图护栏图
+## Customer Journey Analytics 护栏图 Blueprint
 
 * 有关详细的护栏和端到端延迟，请参阅[部署护栏文档](../experience-platform/deployment/guardrails.md)
 
 ![护栏图](../experience-platform/assets/CJA_guardrails.svg)
 
-## 常见问题解答
+## 常见问题
 
 * 如果 CJA 发送的 RTCDP 中不存在相应的用户档案，是会创建新用户档案，还是仅从 CJA 为已存在的用户档案记录受众？是，将创建新用户档案。因此，如果 RTCDP 实施仅面向已知客户，则应编写 CJA 受众规则以仅筛选具有已知身份的用户档案。这将确保在不需要时，RTCDP 用户档案计数不会因匿名用户档案而增加。
 

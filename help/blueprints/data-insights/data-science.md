@@ -1,5 +1,5 @@
 ---
-title: 用于用户档案扩充蓝图的自定义数据科学
+title: 用户档案扩充的自定义数据科学 Blueprint
 description: 此 Blueprint 显示如何将基于数据科学的分析摄入 Experience Platform 以丰富实时客户档案。
 solution: Data Collection
 kt: 7203
@@ -7,11 +7,11 @@ exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
-# 用于用户档案扩充蓝图的自定义数据科学
+# 用户档案扩充的自定义数据科学 Blueprint
 
 用于用户档案扩充蓝图的自定义数据科学展示了如何使用数据来训练、部署和评分模型，以便通过数据科学和机器学习工具对Experience Platform和Real-time Customer Data Platform提供机器学习分析。 可以将模型化的洞察摄入 Experience Platform，以丰富实时客户档案。机器学习洞察的示例包括存留期值评分、产品和类别亲和力、转化倾向或客户流失倾向。
 
