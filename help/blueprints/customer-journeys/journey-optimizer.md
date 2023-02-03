@@ -4,13 +4,13 @@ description: 使用 Adobe Experience Platform 作为流式传输数据、客户�
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer 蓝图
+# Journey Optimizer Blueprint
 
 Adobe Journey Optimizer 是专门为营销团队打造的系统，可实时响应客户行为并在其所处场景中与之交流。数据管理功能已迁移至 Adobe Experience Platform，以便营销团队能够专注于自己最擅长的工作：创造世界一流的客户历程和个性化的对话。此 Blueprint 概述了该应用程序的技术功能，并深入介绍了组成 Adobe Journey Optimizer 的各种架构组件。
 
@@ -33,11 +33,11 @@ Adobe Journey Optimizer 是专门为营销团队打造的系统，可实时响�
 
 <br>
 
-## Blueprint方案
+## Blueprint 场景
 
 | 场景 | 描述 | 功能 |
 | :-- | :--- | :--- |
-| [第三方消息传送](3rd-party-messaging.md) | 演示如何结合使用 Adobe Journey Optimizer 与第三方消息传递系统来编排和发送个性化通信 | 在客户与您的品牌或公司进行互动时，向客户提供一对一的即时个性化通信<br><br>注意事项：<br><ul><li>第三方系统必须支持用于身份验证的持有者令牌</li><li>由于是多租户架构，不支持静态 IP</li><li>当涉及每秒 API 调用数时，请注意第三方系统存在的架构性限制。客户可能需要从第三方供应商购买额外的量，以支持来自 Journey Optimizer 的量</li><li>消息或有效负载中不支持决策管理</li></ul> |
+| [第三方消息传递](3rd-party-messaging.md) | 演示如何结合使用 Adobe Journey Optimizer 与第三方消息传递系统来编排和发送个性化通信 | 在客户与您的品牌或公司进行互动时，向客户提供一对一的即时个性化通信<br><br>注意事项：<br><ul><li>第三方系统必须支持用于身份验证的持有者令牌</li><li>由于是多租户架构，不支持静态 IP</li><li>当涉及每秒 API 调用数时，请注意第三方系统存在的架构性限制。客户可能需要从第三方供应商购买额外的量，以支持来自 Journey Optimizer 的量</li><li>消息或有效负载中不支持决策管理</li></ul> |
 
 <br>
 
@@ -83,13 +83,13 @@ Adobe Experience Platform
    * 电子邮件
    * 推送 (FCM / APNS)
    * 自定义操作（通过 Rest API）
-* 出站集成到第三方系统
+* 到第三方系统的出站集成
    * 不支持单个静态 IP，因为我们的基础架构是多租户的（必须允许列出所有数据中心 IP）
    * 自定义操作仅支持 POST 和 PUT 方法
    * 通过用户/通行证或授权令牌进行身份验证
 * 无法打包 Adobe Experience Platform 或 Journey Optimizer 的各个组件，并在各个沙盒之间移动它们。必须在新环境中重新实施
 
-### 数据摄取护栏
+### 数据摄入护栏
 
 <img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform 数据流" style="border:1px solid #4a4a4a" width="85%" />
 
@@ -112,7 +112,7 @@ Adobe Experience Platform
 1. 在 Experience Platform 中为数据集[添加数据使用标签](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=zh-Hans)以便进行治理。
 1. [创建对目标实施治理的策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=zh-Hans)。
 
-#### 配置文件/标识
+#### 用户档案/身份
 
 1. [创建任何客户特定的命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
 1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
@@ -136,7 +136,7 @@ Adobe Experience Platform
 1. 利用 Adobe 标记并创建具有以下扩展的移动资产：
 1. Adobe Journey Optimizer
 1. Adobe Experience Platform Edge 网络
-1. 身份    （边缘网络）
+1. 身份     （边缘网络）
 1. 移动核心
 1. 确保您拥有专用数据流，用于移动应用程序部署与 Web 部署
 1. 有关更多信息，请参阅 [Adobe Journey Optimizer 移动指南](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
