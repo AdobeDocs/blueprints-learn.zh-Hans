@@ -1,18 +1,18 @@
 ---
-title: 决策管理蓝图
+title: 决策管理 Blueprint
 description: 跨客户历程提供个性化优惠。
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '757'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer — 决策管理蓝图
+# Journey Optimizer - 决策管理 Blueprint
 
-要详细了解决策管理，请参阅 [产品文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans)
+要了解有关决策管理的更多信息，请参阅此处的[产品文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans)
 
 Adobe 决策管理是作为 Adobe Journey Optimizer 的一部分提供的服务。此 Blueprint 概述了该应用程序的用例和技术功能，并深入介绍了构成决策管理的各种架构组件和注意事项。
 
@@ -25,7 +25,7 @@ Journey Optimizer 用于跨所有接触点在适当的时间为客户提供最�
 
 <img src="../assets/offers_overview.png" alt="决策管理" style="width:100%; border:1px solid #4a4a4a" />
 
-决策管理可通过以下两种方式部署：在边缘或中心。每种方法都有一系列用于操作服务的特定接口和协议，如下面引用的相应 Blueprint 中所述。其他详细信息也可在 [决策管理文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html?lang=zh-Hans).
+决策管理可通过以下两种方式部署：在边缘或中心。每种方法都有一系列用于操作服务的特定接口和协议，如下面引用的相应 Blueprint 中所述。此处的[决策管理文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html?lang=zh-Hans)中还提供了其他详细信息。
 
 ## 中心决策管理
 
@@ -33,7 +33,7 @@ Journey Optimizer 用于跨所有接触点在适当的时间为客户提供最�
 
 * 优惠资格可以针对完整的实时客户档案进行操作，包括所有属性和体验事件
 
-### 中心上的决策管理用例
+### 中心决策管理用例
 
 * 自助终端和店内体验中的个性化优惠。
 * 通过座席辅助体验提供的个性化优惠，例如用于呼叫中心或销售互动。
