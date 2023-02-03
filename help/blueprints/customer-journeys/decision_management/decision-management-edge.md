@@ -1,16 +1,16 @@
 ---
-title: Edge Blueprint上的决策管理
+title: 边缘决策管理 Blueprint
 description: 跨渠道向消费者提供个性化优惠，包括实时 Web 体验和移动体验。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer - Edge Blueprint上的决策管理
+# Journey Optimizer - 边缘决策管理 Blueprint
 
 要了解有关决策管理的更多信息，请参阅[此处](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans)的产品文档和[此处](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=zh-Hans)的决策管理概述
 
@@ -62,7 +62,7 @@ Adobe Experience Platform
 * 访问边缘实时用户档案。用户档案中只有边缘预测受众和用户档案属性可用。
 * 如果首次体验中需要个性化，则中心将是理想的选择，因为可以使用完整的用户档案。对于首次边缘体验，必须从中心同步边缘用户档案。因此，从边缘网站获得的首个体验将不包含以前上传到中心的用户档案数据。
 
-### 数据摄取护栏
+### 数据摄入护栏
 
 <img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform 数据流" style="border:1px solid #4a4a4a" width="85%" />
 
@@ -99,7 +99,7 @@ Adobe Experience Platform
 1. 在 Experience Platform 中为数据集[添加数据使用标签](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=zh-Hans)以便进行治理。
 1. [创建对目标实施治理的策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=zh-Hans)。
 
-#### 配置文件/标识
+#### 用户档案/身份
 
 1. [创建任何客户特定的命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
 1. [向模式添加身份](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)。
