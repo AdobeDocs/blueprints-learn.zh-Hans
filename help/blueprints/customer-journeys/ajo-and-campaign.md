@@ -1,12 +1,12 @@
 ---
-title: Journey Optimizer与Adobe Campaign Blueprint
+title: Journey Optimizer 与 Adobe Campaign Blueprint
 description: 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合使用，通过 Campaign 中的实时消息传送服务器在本地发送消息
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
