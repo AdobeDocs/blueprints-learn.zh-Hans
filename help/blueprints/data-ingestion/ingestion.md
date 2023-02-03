@@ -1,18 +1,18 @@
 ---
-title: 数据准备和摄取Blueprint
+title: 数据准备和摄入 Blueprint
 description: 此 Blueprint 展示了在 Adobe Experience Platform 中摄入和准备数据的所有方法。
 solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# 数据准备和摄取Blueprint
+# 数据准备和摄入 Blueprint
 
 数据准备和摄入 Blueprint 包含准备数据并将其摄入到 Adobe Experience Platform 的所有方法。
 
@@ -22,13 +22,13 @@ ht-degree: 96%
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="数据准备和摄入 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
-## 数据摄取护栏
+## 数据摄入护栏
 
 下图说明了将数据摄入到 Adobe Experience Platform 的平均性能护栏和延迟。
 
 <img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform 数据流" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" />
 
-## 数据获取方法
+## 数据摄入方法
 
 | 摄入方法 | 描述 |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
