@@ -1,14 +1,14 @@
 ---
 title: 受众和用户档案激活 Blueprint
 description: 通过Real-time Customer Data Platform提供激活的受众以及以用户档案为中心的客户体​验。
-solution: Real-Time Customer Data Platform
+solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 94%
 
 下图概述了 Experience Platform 实时客户档案的核心组件。
 
-<img src="assets/profile_architecture.jpg" alt="实时客户档案的参考架构" style="border:1px solid #4a4a4a" width="90%"/>
+<img src="assets/profile_architecture.jpg" alt="实时客户档案的参考架构" style="border:1px solid #4a4a4a" width="90%" zoomable="yes"/>
 
 首先，数据源被摄入 Experience Platform。如果已为数据源配置用户档案处理，则它将被馈送到实时客户档案中。会为每个数据源和为其配置的每个主 ID 记录创建一个单独的用户档案片段或文档。另外，当数据被摄入到用户档案时，身份服务也会对其进行处理。在身份服务中，如果来自数据源的任何记录在架构中标记了一个以上的身份，并在记录中填充了相应的值，则记录将被作为身份关系来处理。
 
@@ -42,7 +42,7 @@ ht-degree: 94%
 
 下图概述了各种分段方法以及各种用户档案和受众激活模式。
 
-<img src="assets/segmentation_destination_overview.png" alt="实时客户档案的参考架构" style="border:1px solid #4a4a4a" width="90%"/>
+<img src="assets/segmentation_destination_overview.png" alt="实时客户档案的参考架构" style="border:1px solid #4a4a4a" width="90%" zoomable="yes"/>
 
 ## 受众和用户档案激活护栏 Blueprint
 

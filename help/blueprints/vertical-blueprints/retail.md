@@ -1,13 +1,13 @@
 ---
 title: 零售行业 - 通过 Experience Cloud 应用程序激活
 description: 跨数字媒体、电子邮件、推送和 Web 渠道提供实时客户体验。
-solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

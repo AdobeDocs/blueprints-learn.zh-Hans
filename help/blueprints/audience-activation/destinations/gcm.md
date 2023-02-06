@@ -1,20 +1,20 @@
 ---
 title: 激活到 Google Customer Match
 description: 激活到 Google Customer Match。
-solution: Real-Time Customer Data Platform, Data Collection
+solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
 
 # 激活到 Google Customer Match
 
-从多个来源摄入客户数据以构建客户的单个用户档案视图，将这些用户档案分段以构建用于营销和个性化的受众，将这些受众共享到 Google Customer Match 等社交广告网络，以针对这些受众定位和个性化营销活动。Google Customer Match 可帮助您使用线上和线下数据，跨 Google 自有和运营的资产（例如：搜索、购物、Gmail 和 YouTube）触及客户并再次与其互动。
+从多个来源摄入客户数据以构建客户的单个用户档案视图，将这些用户档案分段以构建用于营销和个性化的受众，将这些受众共享到 Google Customer Match 等社交广告网络，以针对这些受众定位和个性化营销活动。Google客户匹配允许您使用在线和离线数据，跨Google自有和运营的资产访问客户并与其重新互动，例如：搜索、购物、Gmail和YouTube。
 
 ## 用例
 
@@ -27,7 +27,7 @@ ht-degree: 99%
 
 ## 架构
 
-<img src="../assets/gcm.svg" alt="Google Customer Match 激活的参考架构" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../assets/gcm.svg" alt="Google Customer Match 激活的参考架构" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## 实施步骤
 

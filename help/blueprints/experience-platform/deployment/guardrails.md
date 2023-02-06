@@ -1,13 +1,13 @@
 ---
 title: Experience Platform 和应用程序护栏
 description: 护栏定义了对 Adobe Experience Platform 和应用程序中组件和服务的性能期望和影响
-solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
+solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 96f0e4793884b4f77b22fe42a2671d1eda830e15
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

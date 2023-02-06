@@ -1,10 +1,10 @@
 ---
 title: B2B 受众和用户档案激活 Blueprint
 description: 通过Real-time Customer Data Platform提供基于帐户的受众以及以用户档案为中心的客户体​验。
-solution: Real-Time Customer Data Platform
+solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 80%

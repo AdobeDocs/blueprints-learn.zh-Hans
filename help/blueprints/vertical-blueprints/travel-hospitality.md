@@ -1,13 +1,13 @@
 ---
 title: 旅游与服务行业 - 利用线上和线下数据激活
 description: 对不同渠道客户行为有一个单一整合视图，以支持实时决策。
-solution: Real-Time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

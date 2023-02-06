@@ -1,12 +1,12 @@
 ---
 title: Real-Time CDP 与 Adobe Campaign v7 和 Campaign Standard 集成模式
 description: 显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign 结合使用来提供个性化对话。
-solution: Real-Time Customer Data Platform, Campaign
+solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
