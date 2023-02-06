@@ -4,10 +4,10 @@ description: 跨数字媒体、电子邮件、推送和 Web 渠道提供实时�
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 96%
+source-wordcount: '349'
+ht-degree: 91%
 
 ---
 
@@ -38,4 +38,4 @@ ht-degree: 96%
 
 ### Blueprint 架构
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans"><img alt="跨数字媒体、电子邮件、推送和 Web 渠道提供实时客户体验的零售企业缩略图" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en" class="modal-image" /></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans"><img alt="图像，用于通过数字媒体、电子邮件、推送和Web渠道提供实时客户体验的零售企业" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en" class="modal-image" /></a>

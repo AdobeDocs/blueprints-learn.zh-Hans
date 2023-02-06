@@ -2,7 +2,7 @@
 title: 数字体验 Blueprint 行业成功案例
 description: 数字体验 Blueprint 成功案例展示了各个行业如何使用基于 Adobe Experience Platform 的 Adobe Experience Cloud 应用程序实现业务价值。
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
@@ -18,17 +18,17 @@ ht-degree: 100%
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html?lang=zh-Hans"><img alt="使用受众激活、Customer Journey Analytics 和 Customer Journeys Blueprint 的服装行业缩略图" src="../experience-platform/assets/aep+apps_vertical.svg" class="modal-image" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html?lang=zh-Hans"><img alt="使用受众激活、Customer Journey Analytics 和 Customer Journeys Blueprint 的服装行业缩略图" src="../experience-platform/assets/aep+apps_vertical.svg" /></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html?lang=zh-Hans"><img alt="使用线上/线下数据激活和 Journey Optimizer Blueprint 的零售行业缩略图" src="../experience-platform/assets/aep+apps_vertical.svg" class="modal-image" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html?lang=zh-Hans"><img alt="使用线上/线下数据激活和 Journey Optimizer Blueprint 的零售行业缩略图" src="../experience-platform/assets/aep+apps_vertical.svg" /></a>
 
 </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/telecommunications.html?lang=zh-Hans"><img alt="Journey Optimizer Blueprint 的缩略图" src="../customer-journeys/assets/ajo-architecture.svg" class="modal-image" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/telecommunications.html?lang=zh-Hans"><img alt="Journey Optimizer Blueprint 的缩略图" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/travel-hospitality.html?lang=zh-Hans"><img alt="线上/线下数据激活 Blueprint 的缩略图" src="../audience-activation/assets/known_activation.svg" class="modal-image" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/travel-hospitality.html?lang=zh-Hans"><img alt="线上/线下数据激活 Blueprint 的缩略图" src="../audience-activation/assets/known_activation.svg" /></a>
   </td>
 </tr>
 <tr>

@@ -2,10 +2,10 @@
 title: 使用 Marketo 和 Workfront 的营销活动供应链 Blueprint
 description: 概述 - 使用 Marketo 和 Workfront 优化营销活动供应链 Blueprint
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 96%
+source-wordcount: '1778'
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 96%
 
 在下方，您可以看到电子邮件群发请求中营销活动开发流程的工作流程图。此外，您还可以看到 Workfront Fusion 如何在 Workfront 和 Marketo Engage 之间发挥作用，在整个营销活动开发周期中推动工作流和流程自动化。
 
-![](assets/overview-1.png)
+![要执行的营销活动计划 — 自动化用例](assets/overview-1.png){zoomable=&quot;yes&quot;}
 
 请注意营销活动开发过程中的不同阶段。
 
@@ -60,7 +60,7 @@ Adobe Workfront 使组织能够管理工作以提高执行效率。Workfront 内
 
 了解如何将业务流程映射到这些对象对于了解 Workfront 与 Marketo Engage 之间的关系非常重要。
 
-![](assets/overview-2.png)
+![了解营销活动在Workfront中的表现方式](assets/overview-2.png){zoomable=&quot;yes&quot;}
 
 ### Portfolio层级定义 {#portfolio-hierarchy-defined}
 
@@ -115,7 +115,7 @@ Zeplin 公司将发布其一款名为 Z11 的紧凑型实用拖拉机配件的�
 
 下面的层级显示此营销活动的战略、策略、任务和资产如何映射到 Workfront。
 
-![](assets/overview-3.png)
+![营销活动工作管理示例](assets/overview-3.png){zoomable=&quot;yes&quot;}
 
 ## 将 Workfront 映射到 Marketo {#mapping-workfront-to-marketo}
 
@@ -129,7 +129,7 @@ Zeplin 公司将发布其一款名为 Z11 的紧凑型实用拖拉机配件的�
 
 在下面，您可以看到一个示例，说明一个计划如何可以包含多个项目，以及这些 Workfront 项目如何映射到 Marketo Engage 中的计划。
 
-![](assets/overview-4.png)
+![将Workfront项目映射到Marketo Engage项目](assets/overview-4.png){zoomable=&quot;yes&quot;}
 
 您可能希望启动一个大型营销方案，该方案需要将多个 Workfront 项目放入 Workfront 计划中，或者您可能有一个一次性的网络研讨会或电子邮件请求，只需要创建一个 Workfront 项目。无论您有什么需求，借助 Workfront、Workfront Fusion 和 Marketo Engage，您的团队都可以灵活、无缝地集成从规划到执行的整个营销活动开发流程。
 

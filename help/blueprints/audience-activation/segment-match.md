@@ -3,10 +3,10 @@ title: 区段匹配 Blueprint
 description: 了解 Adobe Experience Platform (AEP) 的[!UICONTROL 区段匹配]。[!UICONTROL 区段匹配]是一项数据协作服务，允许您以安全、受管理且对隐私友好的方式，基于通用行业标识符交换区段数据。
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '1766'
-ht-degree: 100%
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+workflow-type: tm+mt
+source-wordcount: '1774'
+ht-degree: 99%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 ## 架构
 
-![区段匹配架构](assets/architecture-segment-match.png)
+![区段匹配架构](assets/architecture-segment-match.png){zoomable=&quot;yes&quot;}
 
 [!UICONTROL 区段匹配]不是可以购买数据的数据市场。它其实是一项 AEP 功能，可与选定的合作伙伴一起处理第一方数据，使用隐私和同意控制来帮助进行协作。[!UICONTROL 区段匹配]有助于集中精力改善客户关系和提升品牌。如果存在既有的品牌或合作伙伴关系，则此功能将非常有用。[!UICONTROL 区段匹配]体验易于管理、可扩展，并且允许管理员以支持选择加入且可控的方式共享区段。
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 
 管理合作伙伴的[!UICONTROL 区段匹配]流由 RBAC 保护。只有拥有适当权限的个人才能启动、接受或管理合作伙伴。这可以在产品配置文件的“数据摄入”部分中完成。需要以下权限：
 
-![受众共享连接](assets/data-ingestion.png)
+![受众共享连接](assets/data-ingestion.png){zoomable=&quot;yes&quot;}
 
 | 权限 | 描述 |
 |---|---|
@@ -140,13 +140,13 @@ ht-degree: 100%
 
 整个处理流程是：
 
-![区段共享](assets/segment-sharing.png)
+![区段共享](assets/segment-sharing.png){zoomable=&quot;yes&quot;}
 
 这些重叠估计数可提供关键的洞察、合作伙伴发现和数据来推动数据协作协议。在获取这些重叠估计数量度时，不会跨沙盒移动客户或区段数据。任何给定沙盒中由客户选择且经过预散列处理的适用身份将添加到可能性数据结构中，该数据结构允许 Adobe 在身份之间执行并集和交集操作。这些操作有助于[!UICONTROL 区段匹配]获取由来自两个不同沙盒的身份构成的两种数据结构的交集估计，而无需比较实际值
 
 身份重叠流程取决于发送方和接收方沙盒中的&#x200B;**每日完整用户档案导出**&#x200B;数据集，以识别属于共享区段的公共用户档案。重叠流程的详细处理流程如下所示：
 
-![身份重叠流程](assets/overlap-process.png)
+![身份重叠流程](assets/overlap-process.png){zoomable=&quot;yes&quot;}
 
 在从发送合作伙伴完成区段共享后，接收方会收到已共享区段馈送的通知。必须在接收方为用户档案启用此区段馈送，以便启动区段成员资格数据流。只有区段成员资格会被摄入到接收方 IMS 组织的重叠用户档案片段中，并且不会从发送方向接收方传输任何其他身份。
 

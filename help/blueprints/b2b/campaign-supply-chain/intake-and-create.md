@@ -2,10 +2,10 @@
 title: 接收和创建 Blueprint
 description: 接收和创建 — 利用 Marketo 和 Workfront 优化营销活动供应链
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 99%
+source-wordcount: '1331'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 99%
 
 通过 Marketo Engage，可使用令牌向营销活动资产中填充内容。例如，在从您的卓越中心克隆电子邮件模板后，Workfront Fusion 可以从 Workfront 中的营销活动请求中获取详细信息，并将其传递到 Marketo Engage 计划中的“我的令牌”。然后，可以直接将令牌值继承到电子邮件中，以构建电子邮件。
 
-![](assets/intake-and-create-2.png)
+![使用令牌填充内容图](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
 
 ### 从 AEM Assets 填充图像 {#populate-images-from-aem-assets}
 
@@ -149,7 +149,7 @@ ht-degree: 99%
 
 以下示例说明了如何使用预先构建的 [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=zh-Hans){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=zh-Hans){target="_blank"} 模块在 Fusion 中汇编工作流逻辑，使您能够更快地交付自动化。
 
-![](assets/intake-and-create-3.png)
+![进气和创建自动化流](assets/intake-and-create-3.png)使用令牌填充内容
 
 ## 资源 {#resources}
 
