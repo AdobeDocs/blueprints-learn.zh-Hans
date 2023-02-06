@@ -3,7 +3,7 @@ title: Real-Time CDP 与 Adobe Campaign v8 集成模式
 description: 显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign v8 结合使用来提供个性化对话。
 solution: Real-time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 90%
@@ -25,7 +25,7 @@ ht-degree: 90%
 
 ## 架构
 
-<img src="assets/rtcdp-campaignv8-architecture.svg" alt="批次消息和 Adobe Experience Platform 集成模式的参考架构" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaignv8-architecture.svg" alt="批次消息和 Adobe Experience Platform 集成模式的参考架构" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

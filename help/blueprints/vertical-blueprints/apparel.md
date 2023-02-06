@@ -4,10 +4,10 @@ description: 使用多个 Blueprint 来实现实时营销、跨渠道激活和�
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
-source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '336'
+ht-degree: 93%
 
 ---
 
@@ -46,4 +46,4 @@ ht-degree: 0%
 
 ### Blueprint 架构
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans"><img alt="使用受众激活、Customer Journey Analytics 和 Customer Journeys Blueprint 的服装公司缩略图" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans"><img alt="使用受众激活、Customer Journey Analytics 和 Customer Journeys Blueprint 的服装公司缩略图" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en" class="modal-image"/></a>

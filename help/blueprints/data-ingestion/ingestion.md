@@ -5,7 +5,7 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 100%
@@ -20,13 +20,13 @@ ht-degree: 100%
 
 ## 架构
 
-<img src="../experience-platform/assets/aep_data_flow.svg" alt="数据准备和摄入 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
+<img src="../experience-platform/assets/aep_data_flow.svg" alt="数据准备和摄入 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 ## 数据摄入护栏
 
 下图说明了将数据摄入到 Adobe Experience Platform 的平均性能护栏和延迟。
 
-<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform 数据流" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" />
+<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform 数据流" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" class="modal-image" />
 
 ## 数据摄入方法
 

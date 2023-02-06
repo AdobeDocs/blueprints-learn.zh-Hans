@@ -3,14 +3,14 @@ title: Journey Optimizer 与 Adobe Campaign v8 Blueprint
 description: 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合使用，通过 Campaign 中的实时消息传送服务器在本地发送消息
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Journey Optimizer 与 Adobe Campaign   v8 Blueprint
+# Journey Optimizer 与 Adobe Campaign    v8 blueprint
 
 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合使用，通过 Campaign 中的实时消息传送服务器在本地发送消息。
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 架构
 
-<img src="assets/ajo-campaign-architecture.svg" alt="参考架构 Journey Optimizer Blueprint" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/ajo-campaign-architecture.svg" alt="参考架构 Journey Optimizer Blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 >[!IMPORTANT]
 >可以同时使用 Journey Optimizer 和 Campaign 来彼此独立地发送消息，但需要考虑一些技术注意事项。如果您希望遵循此路线，请与售前企业架构师沟通，以确保您了解支持实施所需的条件。

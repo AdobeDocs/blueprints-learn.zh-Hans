@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 89%
+source-wordcount: '398'
+ht-degree: 88%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 89%
 
 ## Customer Journey Analytics 的架构 Blueprint
 
-![架构图](assets/CJA_RTCDP.svg)
+![架构图](assets/CJA_RTCDP.svg){zoomable=&quot;yes&quot;}
 
 ## Customer Journey Analytics 护栏图 Blueprint
 
 * 有关详细的护栏和端到端延迟，请参阅[部署护栏文档](../experience-platform/deployment/guardrails.md)
 
-![护栏图](../experience-platform/assets/CJA_guardrails.svg)
+![护栏图](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## 常见问题
 

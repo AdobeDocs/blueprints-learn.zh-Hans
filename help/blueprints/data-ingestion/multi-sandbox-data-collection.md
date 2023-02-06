@@ -4,8 +4,8 @@ description: 使用事件转发将 Experience Platform SDK 收集的数据流传
 solution: Data Collection
 kt: 7202
 exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ## 架构
 
-<img src="assets/multi-Sandbox-Data-Collection.svg" alt="多沙盒事件转发的参考架构" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/multi-Sandbox-Data-Collection.svg" alt="多沙盒事件转发的参考架构" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 1. 标记作者既定义了标记属性，又定义了事件转发属性。在此，作者将定义用于管理数据收集的数据元素、规则和操作。请记住，标记属性代码在客户端上运行，并由 CDN 主机分发。事件转发属性代码在 Adobe Edge 服务器上运行。
 

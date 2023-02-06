@@ -3,8 +3,8 @@ title: Journey Optimizer - 第三方消息传递 blueprint
 description: 演示如何将 Adobe Journey Optimizer 与第三方消息传递系统结合使用来编排和发送个性化通信。
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 架构
 
-<img src="assets/3rd-party-messaging-architecture.svg" alt="参考架构 Journey Optimizer Blueprint" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/3rd-party-messaging-architecture.svg" alt="参考架构 Journey Optimizer Blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

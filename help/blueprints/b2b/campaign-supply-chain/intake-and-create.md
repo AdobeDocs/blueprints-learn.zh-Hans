@@ -2,10 +2,10 @@
 title: 接收和创建 Blueprint
 description: 接收和创建 — 利用 Marketo 和 Workfront 优化营销活动供应链
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '1307'
-ht-degree: 100%
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 以下工作流展示了营销活动经理使用 Workfront 请求表单发起的网络研讨会请求。然后，请求中提交的详细信息会触发在 Marketo Engage 中为网络研讨会创建程序和电子邮件。此外，系统还会从请求表单中获取详细信息以填充电子邮件的内容。
 
-![](assets/intake-and-create-1.png)
+![摄取和创建Blueprint](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
 
 >[!TIP]
 >

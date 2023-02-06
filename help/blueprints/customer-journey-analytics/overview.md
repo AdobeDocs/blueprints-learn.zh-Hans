@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 95%
+source-wordcount: '406'
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ Customer Journey Analytics 用例的完整列表可在此处的客户历程分�
 
 ## Customer Journey Analytics 的架构
 
-![架构图](assets/CJA.svg)
+![架构图](assets/CJA.svg){zoomable=&quot;yes&quot;}
 
 主要用例示例包括以下内容。
 | Blueprint | 描述 | Experience Cloud 应用程序 |
@@ -44,7 +44,7 @@ Customer Journey Analytics 用例的完整列表可在此处的客户历程分�
 
 * 有关详细的护栏和端到端延迟，请参阅[部署护栏文档](../experience-platform/deployment/guardrails.md)
 
-![护栏图](../experience-platform/assets/CJA_guardrails.svg)
+![护栏图](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## 相关博客帖子
 

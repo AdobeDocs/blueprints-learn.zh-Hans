@@ -4,10 +4,10 @@ description: 对不同渠道客户行为有一个单一整合视图，以支持�
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '407'
+ht-degree: 92%
 
 ---
 
@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ### Blueprint 架构
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans"><img alt="旅游和酒店业务的缩略图，通过统一的视图了解不同渠道的客户行为，从而做出实时决策。" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/known_activation.svg"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans"><img alt="旅游和酒店业务的缩略图，通过统一的视图了解不同渠道的客户行为，从而做出实时决策。" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/known_activation.svg" class="modal-image" /></a>
