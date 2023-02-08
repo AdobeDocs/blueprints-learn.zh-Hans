@@ -4,10 +4,10 @@ description: 此 Blueprint 概述了通过 Adobe Experience Platform 和应用�
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 * [客户端标记](#client-side-tags-extensions)
 * [事件转发](#event-forwarding)
-* [Real-time Customer Data Platform目标](#RTCDP-destinations)
+* [Real-time Customer Data Platform 目标](#RTCDP-destinations)
 * [Journey Optimizer 自定义操作](#jo-custom-actions)
 
 ## 数据访问和导出概述架构
@@ -122,11 +122,11 @@ ht-degree: 98%
 * 当前不支持从边缘用户档案或其他数据源进行扩充。
 * 支持有限的数据筛选和简单的映射转换。
 
-### Real-time Customer Data Platform目标 {#RTCDP-destinations}
+### Real-time Customer Data Platform 目标 {#RTCDP-destinations}
 
 用户档案属性数据和受众成员资格数据可以激活到企业和广告目标。这意味着必须将导出的数据摄入到 Experience Platform 实时客户档案中。
 
-请参阅 [Real-time Customer Data Platform目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans) 文档以了解其他信息。
+请参阅 [Real-time Customer Data Platform 目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans)文档以了解其他信息。
 
 #### 用例
 

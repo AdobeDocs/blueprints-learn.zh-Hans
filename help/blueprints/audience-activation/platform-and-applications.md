@@ -4,10 +4,10 @@ description: 在 Experience Platform 中管理用户档案和受众，并将其�
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 81%
 
 * 要将用户档案数据共享到目的地，您需要在目的地有效负荷中包含目的地使用的特定身份值。任何目标目的地必需的身份都必须被摄入 Platform，并配置为[!UICONTROL 实时客户档案]的身份。
 
-### 受众从Real-time Customer Data Platform共享到Audience Manager
+### 从 Real-time Customer Data Platform 共享受众到 Audience Manager
 
 * 有关更多详细信息，请参阅以下文档。[与 Audience Manager 和其他 Experience Cloud 解决方案共享 Experience Platform 区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=zh-Hans).
 
@@ -65,25 +65,25 @@ ht-degree: 81%
 * 对于从 Experience Platform 共享受众到 Audience Manager 的激活方案，会自动共享以下身份：ECID、IDFA、GAID、散列电子邮件地址 (EMAIL_LC_SHA256)、AdCloud ID。当前，不共享客户命名空间。
 * 当所需目的地身份包括在[!UICONTROL 实时客户档案]中时，或者在[!UICONTROL 实时客户档案]中的身份可以与在 Audience Manager 中链接的所需目的地身份相关时，可以通过 Audience Manager 目的地共享来自 Experience Platform 的受众。
 
-### 受众从Real-time Customer Data Platform共享到Target
+### 从 Real-time Customer Data Platform 共享受众到 Target
 
-* 请参阅 [已知的客户个性化 — Target和RTCDP Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=zh-Hans) 有关将用户档案和受众从Real-time Customer Data Platform共享到Target的其他详细信息。
+* 请参阅[已知客户个性化 - Target 和 RTCDP Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=zh-Hans)，以了解有关将用户档案和受众从 Real-time Customer Data Platform 共享到 Target 的更多详细信息。
 
-### 受众从Real-time Customer Data Platform共享到Campaign和Journey Optimizer
+### 从 Real-time Customer Data Platform 共享受众到 Campaign 和 Journey Optimizer
 
-* 请参阅 [客户历程Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=zh-Hans) 有关将用户档案和受众从Real-time Customer Data Platform共享到Campaign和Journey Optimizer的其他详细信息。
+* 请参阅[客户历程 Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=zh-Hans)，以了解有关将用户档案和受众从 Real-time Customer Data Platform 共享到 Campaign 和 Journey Optimizer 的更多详细信息。
 
-### 受众从Real-time Customer Data Platform共享到Marketo Engage
+### 从 Real-time Customer Data Platform 共享受众到 Marketo Engage
 
-* 请参阅 [B2B Activation Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=zh-Hans) 有关将用户档案和受众从Real-time Customer Data Platform共享到Marketo Engage的其他详细信息。
+* 请参阅 [B2B 激活 Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=zh-Hans)，以了解有关将用户档案和受众从 Real-time Customer Data Platform 共享到 Marketo Engage 的其他详细信息。
 
-### 受众从Real-time Customer Data Platform共享到Customer Journey Analytics
+### 从 Real-time Customer Data Platform 共享受众到 Customer Journey Analytics
 
-* 请参阅 [与Customer Journey Analytics共享的RTCDP受众](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=zh-Hans) 有关将Real-time Customer Data Platform受众共享到Customer Journey Analytics的其他详细信息。
+* 请参阅[与 Customer Journey Analytics 共享 RTCDP 受众](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=zh-Hans)，以了解有关将 Real-time Customer Data Platform 受众共享到 Customer Journey Analytics 的其他详细信息。
 
 ## 相关文档
 
-* [[!UICONTROL Real-time Customer Data Platform] 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform.html)
+* [[!UICONTROL Real-time Customer Data Platform]产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform.html)
 * [用户档案和分段指南](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 * [分段文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans)
 * [目的地文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hans)
@@ -91,5 +91,5 @@ ht-degree: 81%
 ## 相关视频和教程
 
 * [[!UICONTROL Real-time Customer Data Platform] 概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hans)
-* [演示 [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=zh-Hans)
+* [[!UICONTROL Real-time Customer Data Platform] 演示](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=zh-Hans)
 * [创建区段](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=zh-Hans)

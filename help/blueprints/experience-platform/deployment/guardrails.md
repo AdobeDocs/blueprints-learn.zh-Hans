@@ -4,10 +4,10 @@ description: 护栏定义了对 Adobe Experience Platform 和应用程序中组�
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 96f0e4793884b4f77b22fe42a2671d1eda830e15
+source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '305'
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 <br>
 
-### Real-time Customer Data Platform和Adobe Target
+### Real-time Customer Data Platform 和 Adobe Target
 
 <img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP 和 Target 护栏" style="border:1px solid #4a4a4a" width="85%" />
 

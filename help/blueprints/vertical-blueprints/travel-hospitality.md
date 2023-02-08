@@ -4,10 +4,10 @@ description: 对不同渠道客户行为有一个单一整合视图，以支持�
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 ## Adobe 方法
 
 * 将 Adobe Experience Platform 集成到其现有技术堆栈中，以提供跨解决方案的客户交互。
-* 激活了Real-time Customer Data Platform和Customer Journey Analytics，以提供持续分析和个性化的客户用户档案。
+* 激活的 Real-time Customer Data Platform 和 Customer Journey Analytics，以提供持续分析和个性化的客户档案。
 * 开发了客户历程的整体视图，以支持有效的营销归因和资源分配。
 * 对 COVID-19 的应对措施是制定了一个战略，在为业务做准备的同时，继续吸引客户。
 
@@ -38,7 +38,7 @@ ht-degree: 92%
 
 ### Experience Cloud 应用程序
 
-<ul><li>Adobe Experience Platform  </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
+<ul><li>Adobe Experience Platform    </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
 
 ### Blueprint 架构
 
