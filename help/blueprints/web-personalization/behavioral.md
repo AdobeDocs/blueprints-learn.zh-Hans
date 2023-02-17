@@ -7,7 +7,7 @@ kt: 7085
 thumbnail: thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 
 1. 使用 [!UICONTROL Platform Web SDK] 或 [!UICONTROL Platform Mobile SDK] 和 [!UICONTROL Edge Network]。[请参阅 Experience Platform Web 和 Mobile SDK Blueprint](../experience-platform/deployment/websdk.md)
-1. 使用传统的特定于应用程序的 SDK（例如，AppMeasurement.js）.[请参阅特定于应用程序的 SDK Blueprint](../experience-platform/deployment/appsdk.md)
+1. 使用传统的特定于应用程序的 SDK（例如，AppMeasurement.js）. [请参阅特定于应用程序的 SDK Blueprint](../experience-platform/deployment/appsdk.md)
 
 ## 实施步骤
 
