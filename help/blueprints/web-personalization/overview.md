@@ -8,11 +8,11 @@ exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Web 和移动个性化 Blueprint
+# Web 和移动个性化Blueprint
 
 Web 和移动个性化解决了跨多个应用程序使用用户档案和受众分段来个性化和优化客户体验的问题。可以利用客户行为、人口统计、忠诚度级别和过往交易记录来个性化布局、行动号召和内容。
 
@@ -31,7 +31,7 @@ Web 和移动个性化解决了跨多个应用程序使用用户档案和受众�
 
 <br>
 
-### 已知的客户个性化护栏图
+### 已知客户个性化护栏图
 
 <img src="assets/personalization_guardrails.svg" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 

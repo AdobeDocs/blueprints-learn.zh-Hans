@@ -7,7 +7,7 @@ exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 93%
 |---|---|---|
 | **互联的跨渠道体验&#x200B;**<br></br>**促进互动和客户保留&#x200B;**<br></br>**数据大众化和洞察**</ul> | <ul><li>载入了多个企业数据集，以创建数千万个用户档案和数百个区段、多个目标以及报告仪表板</li><li>使用 Real-time Customer Data Platform 跨多个目标激活</li><li>客户历程分析解锁客户级别分析功能</li><li>用于通过 Adobe Journey Optimizer 实施的客户交互的自动事件触发器</li></ul> | <ul><li><strong> 客户档案：</strong>用于分段的全方位客户视图</li><li><strong>目标激活：</strong>付费媒体、电子邮件和社交平台上的激活</li><li><strong>客户分析和归因：</strong>跨渠道归因分析可随时提供，便于安排<li><strong>Journey Orchestration：</strong>利用实时背景信息，创建并操作触发式营销活动和计划式营销活动</li></ul> |
 
-## 主Blueprint:使用Experience Cloud应用程序激活和激活受众
+## 主要 blueprint：使用 Experience Cloud 应用程序的受众和激活
 
 ### 描述
 
@@ -42,7 +42,7 @@ ht-degree: 93%
 
 ### Experience Cloud 应用程序
 
-<ul><li>Adobe Experience Platform    </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud 应用程序</li></ul>
+<ul><li>Adobe Experience Platform  </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud 应用程序</li></ul>
 
 ### Blueprint 架构
 

@@ -8,11 +8,11 @@ exl-id: 05bf0a34-e5c7-498c-8d5d-1d549c00e070
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# 特定于应用程序的SDK部署架构图
+# 特定于应用程序的 SDK 部署架构图
 
 以下架构图说明了利用特定于应用程序的 SDK 进行实施的集成路径和数据收集。
 

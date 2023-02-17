@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ## 集成模式
 
-* B2B 数据源（Marketo、Salesforce 等） -> Real-time Customer Data Platform B2B 版 -> 目标
+* B2B 数据源（Marketo、Salesforce 等）-> Real-time Customer Data Platform B2B 版 -> 目标
 各种 B2B 数据源可用于将帐户、商机、机会和人员数据映射到 Real-time Customer Data Platform B2B 版。
 
 ## 架构

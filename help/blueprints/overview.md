@@ -1,18 +1,18 @@
 ---
-title: 数字体验蓝图
-description: 数字体验蓝图是可重复实施的，用于解决策略和解决已经存在的业务问题。 它们可加快实现价值的速度，并提供快速成功之路。
+title: 数字体验 blueprint
+description: 数字体验 blueprint 是可重复实施的产品，用于应对战略和解决既定的业务问题。它们可加快实现价值的速度，并提供快速成功之路。
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# 数字体验蓝图
+# 数字体验 blueprint
 
-数字体验蓝图是可重复实施的，可让您解决策略并快速解决已建立的业务问题。 每个 Blueprint 均会提供一系列工件，用于解释高价值业务问题、体系架构、实施步骤、技术注意事项以及指向相关文档的链接。
+数字体验 blueprint 是可重复实施的产品，可让您有效应对战略和快速解决既定业务问题。每个 Blueprint 均会提供一系列工件，用于解释高价值业务问题、体系架构、实施步骤、技术注意事项以及指向相关文档的链接。
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -23,7 +23,7 @@ ht-degree: 79%
 
 ## 新增功能
 
-* **[激活企业Blueprint的受众和配置文件](/help/blueprints/audience-activation/enterprise-destinations.md)**
+* **[受众和用户档案激活到企业目标 blueprint](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
    *使所有系统中的客户档案保持最新，以增强您的销售和支持团队的能力。*
 * **[客户活动中心 Blueprint](/help/blueprints/audience-activation/customer-activity.md)**
@@ -33,7 +33,7 @@ ht-degree: 79%
 
    *对数据湖中的数据执行探索性查询和分析。*
 
-## 特色蓝图
+## 特色 blueprint
 
 <table style="table-layout:fixed">
 <tr>
