@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 16ca42fdb944e658bfc1fb3e960e81cd67be049c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ## 应用程序
 
-* Adobe Experience Platform   
+* Adobe Experience Platform  
 * [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform Activation
 * Experience Cloud 应用程序
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 ## 护栏
 
-请参阅[“受众和用户档案激活概述”页上的护栏](overview.md)  和[部署护栏](../experience-platform/deployment/guardrails.md)页面。
+请参阅[“受众和用户档案激活概述”页上的护栏](overview.md) 和[部署护栏](../experience-platform/deployment/guardrails.md)页面。
 
 ## 实施注意事项
 
