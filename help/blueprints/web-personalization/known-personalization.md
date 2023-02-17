@@ -1,5 +1,5 @@
 ---
-title: Web/移动个性化概述     - Adobe Target 和 RTCDP
+title: Web/移动个性化概述    - Adobe Target 和 RTCDP
 description: 将 Web 个性化与电子邮件和其他已知和匿名渠道的个性化同步。
 landing-page-description: 将 Web 个性化与电子邮件和其他已知和匿名渠道的个性化同步。
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
@@ -7,14 +7,14 @@ kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1630'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# 使用已知客户数据的 Web/移动个性化 Blueprint
+# 使用已知客户数据的 Web/移动个性化Blueprint
 
 ## 用例
 
@@ -38,7 +38,7 @@ ht-degree: 97%
 | 通过 Edge 方案将来自 Real-time Customer Data Platform 的流传输受众和批次受众共享到 Target | <ul><li>通过 Edge 网络将来自 Real-time Customer Data Platform 的流传输受众和批次受众共享到 Target。实时评估的受众需要实施 WebSDK 和 Edge 网络。</li></ul> | <ul><li>将流传输和批次 RTCDP 受众共享到 Target 时，不需要 Web/Mobile SDK 或边缘 API Target 实施，不过实现上述的实时边缘区段评估需要它。</li><li>如果使用 AT.js，则仅支持针对 ECID 身份命名空间的用户档案集成。</li><li>对于 Edge 上的自定义身份命名空间查找，需要部署 WebSDK/Edge API，并且必须在身份映射中将每个身份设置为身份。</li><li>必须在 Real-time Customer Data Platform 目标中配置 Target 目标，仅支持 RTCDP 中的默认生产沙盒。</li><li>与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。</li></ul> |
 | 通过受众共享服务方案，将流传输和批次受众从 Real-time Customer Data Platform 共享到 Target 和 Audience Manager | <ul><li>当 Audience Manager 中需要通过第三方数据和受众进行额外扩充时，可以利用此集成模式。</li></ul> | <ul><li>将流传输受众和批次受众共享到 Target 时，不需要 Web/Mobile SDK，不过实现实时 Edge 区段评估需要它。</li><li>如果使用 AT.js，则仅支持针对 ECID 身份命名空间的用户档案集成。</li><li>对于 Edge 上的自定义身份命名空间查找，需要部署 WebSDK/Edge API，并且必须在身份映射中将每个身份设置为身份。</li><li>必须配置通过受众共享服务的受众映射。</li><li>与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。</li><li>只有默认生产沙盒中的受众支持受众共享核心服务。</li></ul> |
 
-## 将实时、流式和批量受众共享到Adobe Target
+## 将流传输和批次受众实时共享到 Adobe Target
 
 架构
 
@@ -56,14 +56,14 @@ ht-degree: 97%
 
 通过多种实施方案支持已知客户个性化。
 
-### 实施模式1 — 使用Web/Mobile SDK或边缘网络API的边缘网络（推荐方法）
+### 实施模式 1 - 使用 Web/Mobile SDK 或 Edge 网络 API 的 Edge 网络（推荐方法）
 
 * 将 Edge 网络与 Web/Mobile SDK 结合使用。实时 Edge 分段需要使用 Web/Mobile SDK 或 Edge API 实施方法。
-* [请参阅 Experience Platform Web 和 Mobile SDK Blueprint](../experience-platform/deployment/websdk.md)       以了解基于 SDK 的实施。
+* [请参阅 Experience Platform Web 和 Mobile SDK Blueprint](../experience-platform/deployment/websdk.md)      以了解基于 SDK 的实施。
 * 在 Mobile SDK 中使用 [Adobe Journey Optimizer - 决策扩展](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning)必须安装在 Mobile SDK 中。
 * 有关基于 API 的含边缘用户档案 Adobe Target 实施，[请参阅 Edge 网络服务器 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)。
 
-### 实施模式2 — 特定于应用程序的SDK
+### 实施模式 2 - 特定于应用程序的 SDK
 
 使用传统的特定于应用程序的 SDK（例如，AT.js 和 AppMeasurement.js）。使用此实施方案不支持实时 Edge 区段评估。但是，使用此实施方案支持从 Experience Platform 中心进行流传输和批次受众共享。
 
@@ -94,11 +94,11 @@ ht-degree: 97%
 * 在 Edge 网络和 WebSDK 中利用上述实施模式 1 时，可以利用任何主身份。首次登录个性化要求个性化请求集主身份与 Real-time Customer Data Platform 中用户档案的主身份匹配。匿名设备与已知客户之间的身份拼接会在中心处理，然后映射到边缘。
 * 请注意，在消费者访问或登录网站之前上传到中心的数据不会立即可用于个性化。要同步到中心数据，必须先存在活动的边缘用户档案。创建后，边缘用户档案将与中心用户档案异步同步，从而实现下一页个性化。
 * 如上文集成模式 2 和 3 中所述，在使用受众共享服务将受众从 Adobe Experience Platform 共享到 Adobe Target 时，需要使用 ECID 作为身份。
-* 替代身份也可用于通过Audience Manager将Experience Platform受众共享到Adobe Target。 Experience Platform通过以下受支持的命名空间激活受众以Audience Manager：IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。 请注意，Audience Manager 和 Target 通过 ECID 身份解析受众成员关系，因此要最终将受众共享到 Adobe Target，仍需要将 ECID 放在消费者的身份图中。
+* 替代身份也可用于通过Audience Manager将Experience Platform受众共享到Adobe Target。Experience Platform通过以下受支持的命名空间激活受众以Audience Manager：IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。请注意，Audience Manager 和 Target 通过 ECID 身份解析受众成员关系，因此要最终将受众共享到 Adobe Target，仍需要将 ECID 放在消费者的身份图中。
 
 ## 相关文档
 
-### SDK文档
+### SDK 文档
 
 * [Experience Platform Web SDK 文档](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)
 * [Experience Platform 标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
@@ -120,7 +120,7 @@ ht-degree: 97%
 
 ### 教程
 
-* [使用Real-Time CDP和Adobe Target进行下一次点击的个性化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=zh-Hans)
+* [使用 Real-Time CDP 和 Adobe Target 实现下一次点击的个性化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=zh-Hans)
 
 ### 相关博客帖子
 
