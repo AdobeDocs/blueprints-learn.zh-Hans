@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytic
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 |---|---|---|
 | **使每个体验都与该访客相关&#x200B;**<br></br>**通过仪表板实现业务就绪洞察和数据民主&#x200B;**<br></br>**组织和运营效率**</ul> | <ul><li>使用在线和离线数据建立统一的奖励计划访客档案以进行激活和测量</li><li>跨渠道实时激活（速度和规模）</li><li>客户历程分析解锁客户级别分析功能</li><li>开发智能，以便通过从历史点击流交互数据中学习来改善激活。</li><li>使用线上和线下数据统一客户视图，以获得跨客户历程和渠道的洞察。</li></ul> | <ul><li><strong>跨渠道激活：</strong>推动 3X 电子邮件互动、可寻址受众增长和展示增长，以及高度个性化的 Web 体验 </li><li><strong>情报：</strong>“访客奖励”计划开展激活营销活动以降低会员流失率</li><li><strong>报告：</strong>结合线上/线下数据与 AI/ML 学习，得到对公司友好的历程和归因仪表板，同时减少延迟（数天）</li><li><strong>经得起未来考验的技术堆栈：</strong>跨 7 个渠道的数千万个用户档案，可在交叉销售、追加销售和支出优化方案中执行</li></ul> |
 
-## 主Blueprint:使用在线和离线数据激活
+## 主要 blueprint：使用线上和线下数据激活
 
 ### 描述
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 
 ### Experience Cloud 应用程序
 
-<ul><li>Adobe Experience Platform    </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
+<ul><li>Adobe Experience Platform  </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
 
 ### Blueprint 架构
 
