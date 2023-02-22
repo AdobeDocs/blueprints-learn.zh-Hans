@@ -4,7 +4,7 @@ description: 实时为客户提供量身定制的交易，同时高效完成客�
 solution: Journey Optimizer
 kt: 9486
 exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: 1a0ce987fc615080bb78fb8ecf60c96e362a95c0
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 94%
@@ -41,4 +41,4 @@ ht-degree: 94%
 
 ### Blueprint 架构
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=zh-Hans"><img alt="电信业务的图像可实时提供量身定制的交易，同时高效的客户入门，以实现长期忠诚度。" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=zh-Hans"><img alt="电信业务的图像可实时提供量身定制的交易，同时高效的客户入门，以实现长期忠诚度。" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/ajo-architecture.svg"/></a>
