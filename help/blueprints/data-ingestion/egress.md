@@ -2,9 +2,9 @@
 title: 数据访问和导出 Blueprint
 description: 此 Blueprint 概述了通过 Adobe Experience Platform 和应用程序访问和导出数据的所有方法。
 product: adobe experience platform
-solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
+solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
+source-git-commit: 730b73e56391b8f5ec49a7f570ca32c5cbc65aec
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 100%
