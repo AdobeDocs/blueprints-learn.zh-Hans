@@ -2,8 +2,8 @@
 title: 数字体验 Blueprint 行业成功案例
 description: 数字体验 Blueprint 成功案例展示了各个行业如何使用基于 Adobe Experience Platform 的 Adobe Experience Cloud 应用程序实现业务价值。
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
-workflow-type: ht
+source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 
@@ -18,10 +18,10 @@ ht-degree: 100%
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html?lang=zh-Hans"><img alt="使用受众激活、Customer Journey Analytics 和 Customer Journeys Blueprint 的服装行业缩略图" src="../experience-platform/assets/aep+apps_vertical.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html?lang=zh-Hans"><img alt="使用受众激活、Customer Journey Analytics 和 Customer Journeys Blueprint 的服装行业缩略图" src="../experience-platform/assets/aep+apps.svg" /></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html?lang=zh-Hans"><img alt="使用线上/线下数据激活和 Journey Optimizer Blueprint 的零售行业缩略图" src="../experience-platform/assets/aep+apps_vertical.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html?lang=zh-Hans"><img alt="使用线上/线下数据激活和 Journey Optimizer Blueprint 的零售行业缩略图" src="../experience-platform/assets/aep+apps.svg" /></a>
 
 </td>
   <td>
