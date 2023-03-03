@@ -1,18 +1,18 @@
 ---
-title: Customer Journey AnalyticsBlueprint
+title: Customer Journey Analytics Blueprint
 description: 统一和分析整个客户历程中的数据和客户行为
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Customer Journey AnalyticsBlueprint
+# Customer Journey Analytics Blueprint
 
 Customer Journey Analytics 显示了各品牌如何统一来自各种互动渠道和来源的客户数据和行为，以创建包含所有客户互动的基于历程的视图。报告和分析可在 Customer Journey Analytics 应用程序服务中执行，以评估和了解客户互动和行为模式。
 
