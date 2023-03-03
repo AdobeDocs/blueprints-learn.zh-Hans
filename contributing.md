@@ -1,6 +1,6 @@
 ---
-source-git-commit: b8709e01d7771ac9002fbc286c2d9709ef3d0ca2
-workflow-type: ht
+source-git-commit: 139702439c38e3bafe1aa74a129934504aa95352
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -43,3 +43,4 @@ submitting a pull request!
 ## 安全性问题
 
 不应在此问题追踪程序上报告安全性问题，而是请[将安全性问题报告给我们的安全专家](https://helpx.adobe.com/cn/security/alertus.html)
+
