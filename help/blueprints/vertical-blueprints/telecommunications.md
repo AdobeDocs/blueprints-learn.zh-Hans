@@ -5,9 +5,9 @@ solution: Journey Optimizer
 kt: 9486
 exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
 source-git-commit: 1a0ce987fc615080bb78fb8ecf60c96e362a95c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -41,4 +41,4 @@ ht-degree: 94%
 
 ### Blueprint 架构
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=zh-Hans"><img alt="电信业务的图像可实时提供量身定制的交易，同时高效的客户入门，以实现长期忠诚度。" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/ajo-architecture.svg"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=zh-Hans"><img alt="可实时提供量身定制的交易，同时高效完成客户注册以提升长期忠诚度的电信公司图像。" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/ajo-architecture.svg"/></a>
