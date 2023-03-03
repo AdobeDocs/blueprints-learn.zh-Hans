@@ -1,16 +1,16 @@
 ---
-title: 区段匹配 Blueprint
+title: 区段匹配  Blueprint
 description: 了解 Adobe Experience Platform (AEP) 的[!UICONTROL 区段匹配]。[!UICONTROL 区段匹配]是一项数据协作服务，允许您以安全、受管理且对隐私友好的方式，基于通用行业标识符交换区段数据。
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1774'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 区段匹配 Blueprint
+# 区段匹配  Blueprint
 
 区段匹配允许合作伙伴品牌在其各自的 Experience Platform 环境中共享受众。品牌的关键在于根据从与消费者的直接关系中收集的数据，与客户建立联系。通过更好的治理、权限和首选项管理系统，营销人员可以通过关键合作伙伴进一步增强其经过身份验证的第一方受众。
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 该服务使客户能够以安全、中立的方式安全地识别匹配的 ID，而无需披露其整个数据库。对于重叠的 ID，合作伙伴仅会收到指定的属性（区段名称），从而能够以符合同意管理的可控方式更快、更轻松地共享。
 
-[!UICONTROL 区段匹配]使用 AEP 数据管理和同意框架作为其支柱。它可供所有B2C和B2P Real-time Customer Data Platform客户使用。 [!UICONTROL [!UICONTROL 区段匹配]]的主要功能包括：
+[!UICONTROL 区段匹配]使用 AEP 数据管理和同意框架作为其支柱。它可供所有 B2C 和 B2P Real-time Customer Data Platform 客户使用。[!UICONTROL [!UICONTROL 区段匹配]]的主要功能包括：
 
 * 重叠同意客户的区段共享
 * 预共享重叠报告以获取有关预计匹配量的洞察
