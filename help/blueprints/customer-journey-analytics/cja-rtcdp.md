@@ -1,18 +1,18 @@
 ---
-title: Customer Journey Analytics 与 Real-time Customer Data Platform Blueprint
+title: Customer Journey Analytics 与 Real-time Customer Data Platform  Blueprint
 description: 在 Customer Journey Analytics 中统一并分析整个客户历程中的数据和客户行为，将受众从 CJA 发布到 RTCDP
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
 source-git-commit: 2d7d2fff6c430b66e4a2935d4c68b5a8b9ecfae2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Customer Journey Analytics 与 Real-time Customer Data Platform Blueprint
+# Customer Journey Analytics 与 Real-time Customer Data Platform  Blueprint
 
 创建在 Customer Journey Analytics (CJA) 中识别的受众并将其发布到 Adobe Experience Platform 中的实时客户档案，以用于客户定位和个性化。非常适用于使用历史数据创建受众，或通过 Customer Journey Analytics 中的精细筛选和计算字段得出更细化的受众。
 
