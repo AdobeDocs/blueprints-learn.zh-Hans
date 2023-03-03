@@ -3,13 +3,13 @@ title: 接收和创建 Blueprint
 description: 接收和创建 — 利用 Marketo 和 Workfront 优化营销活动供应链
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1331'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 接收和创建 Blueprint {#intake-and-create}
+# 接收和创建  Blueprint {#intake-and-create}
 
 传送给营销运营团队以发起新营销活动的营销请求数量可能会将一个高效运转的团队转变为重复性任务的旋转门，导致倦怠和创新停滞。
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 以下工作流展示了营销活动经理使用 Workfront 请求表单发起的网络研讨会请求。然后，请求中提交的详细信息会触发在 Marketo Engage 中为网络研讨会创建程序和电子邮件。此外，系统还会从请求表单中获取详细信息以填充电子邮件的内容。
 
-![摄取和创建Blueprint](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
+![接收和创建 Blueprint](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
 
 >[!TIP]
 >
@@ -149,7 +149,7 @@ ht-degree: 98%
 
 以下示例说明了如何使用预先构建的 [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=zh-Hans){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=zh-Hans){target="_blank"} 模块在 Fusion 中汇编工作流逻辑，使您能够更快地交付自动化。
 
-![进气和创建自动化流](assets/intake-and-create-3.png)使用令牌填充内容
+![接收和创建自动化流](assets/intake-and-create-3.png)使用令牌填充内容
 
 ## 资源 {#resources}
 
