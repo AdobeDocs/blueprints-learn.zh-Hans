@@ -1,12 +1,12 @@
 ---
 title: Adobe Experience Cloud 架构图
 description: 此架构图展示了 Adobe Experience Cloud 应用程序、应用程序服务和 Adobe Experience Platform 是如何融入企业营销架构的。
-solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Commerce, Marketo Engage, Advertising Cloud, Experience Manager, Data Collection, Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
+solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Commerce, Marketo Engage, Advertising, Experience Manager, Data Collection, Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
-workflow-type: ht
+source-git-commit: bdc28a6a861a4d3ebc3cd50867cc8efa3bff747e
+workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 100%
 
