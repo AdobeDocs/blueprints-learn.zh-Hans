@@ -1,5 +1,5 @@
 ---
-title: Web/移动个性化概述    - Adobe Target 和 RTCDP
+title: Web/移动个性化概述     - Adobe Target 和 RTCDP
 description: 将 Web 个性化与电子邮件和其他已知和匿名渠道的个性化同步。
 landing-page-description: 将 Web 个性化与电子邮件和其他已知和匿名渠道的个性化同步。
 short-description: Synchronize web personalization with email and other known and anonymous channel personalization.
@@ -8,14 +8,14 @@ kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 3a6a98eded28baee2cbb44de2262bbd580fa0c94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1630'
 ht-degree: 100%
 
 ---
 
 
-# 使用已知客户数据的 Web/移动个性化Blueprint
+# 使用已知客户数据的 Web/移动个性化 Blueprint
 
 ## 用例
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 ### 实施模式 1 - 使用 Web/Mobile SDK 或 Edge 网络 API 的 Edge 网络（推荐方法）
 
 * 将 Edge 网络与 Web/Mobile SDK 结合使用。实时 Edge 分段需要使用 Web/Mobile SDK 或 Edge API 实施方法。
-* [请参阅 Experience Platform Web 和 Mobile SDK Blueprint](../experience-platform/deployment/websdk.md)      以了解基于 SDK 的实施。
+* [请参阅 Experience Platform Web 和 Mobile SDK Blueprint](../experience-platform/deployment/websdk.md)       以了解基于 SDK 的实施。
 * 在 Mobile SDK 中使用 [Adobe Journey Optimizer - 决策扩展](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning)必须安装在 Mobile SDK 中。
 * 有关基于 API 的含边缘用户档案 Adobe Target 实施，[请参阅 Edge 网络服务器 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)。
 
