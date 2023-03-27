@@ -10,7 +10,7 @@ ht-degree: 100%
 
 ---
 
-# Journey Optimizer 与 Adobe Campaign   Blueprint
+# Journey Optimizer 与 Adobe Campaign    Blueprint
 
 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合使用，通过 Campaign 中的实时消息传送服务器在本地发送消息。
 
