@@ -5,12 +5,12 @@ solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '1044'
 ht-degree: 100%
 
 ---
 
-# Journey Optimizer Blueprint
+# Journey Optimizer  Blueprint
 
 Adobe Journey Optimizer 是专门为营销团队打造的系统，可实时响应客户行为并在其所处场景中与之交流。数据管理功能已迁移至 Adobe Experience Platform，以便营销团队能够专注于自己最擅长的工作：创造世界一流的客户历程和个性化的对话。此 Blueprint 概述了该应用程序的技术功能，并深入介绍了组成 Adobe Journey Optimizer 的各种架构组件。
 
@@ -136,7 +136,7 @@ Adobe Experience Platform
 1. 利用 Adobe 标记并创建具有以下扩展的移动资产：
 1. Adobe Journey Optimizer
 1. Adobe Experience Platform Edge 网络
-1. 身份     （边缘网络）
+1. 身份       （边缘网络）
 1. 移动核心
 1. 确保您拥有专用数据流，用于移动应用程序部署与 Web 部署
 1. 有关更多信息，请参阅 [Adobe Journey Optimizer 移动指南](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
