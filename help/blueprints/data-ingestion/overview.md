@@ -6,13 +6,13 @@ kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 
 ---
 
-# 数据收集和准备Blueprint
+# 数据收集和准备 Blueprint
 
 数据收集和准备包含准备数据并将其摄入到 Adobe Experience Platform 的所有方法。此外，还能够收集数据到 Adobe Experience Platform 的 Edge Network，以及随后通过侧向转发将数据转发到企业目的地。
 
