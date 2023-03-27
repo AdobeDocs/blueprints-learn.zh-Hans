@@ -6,13 +6,13 @@ kt: 7198
 thumbnail: null
 exl-id: 5016f657-dd55-4ab7-859d-c97bc5edff76
 source-git-commit: 21b688109ee8c3d209f2cac5267eb95258851dae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# Adobe Experience Platform 数据流架构 图
+# Adobe Experience Platform 数据流架构  图
 
 ## 数据流图
 
@@ -22,9 +22,9 @@ ht-degree: 64%
 
 ## 数据入口和出口模式
 
-有关所有数据摄取、收集和进入模式的详细列表，请参阅 [数据准备和摄取Blueprint](../data-ingestion/ingestion.md).
+有关所有数据摄入、收集和入口模式的详细列表，请参阅[数据准备和摄入 Blueprint](../data-ingestion/ingestion.md)。
 
-有关所有数据出口和访问方的详细列表，请参阅 [数据访问和导出Blueprint](../data-ingestion/egress.md).
+有关所有数据出口和访问模式的详细列表，请参阅[数据访问和导出 Blueprint](../data-ingestion/egress.md)。
 
 ## 数据摄入护栏
 
