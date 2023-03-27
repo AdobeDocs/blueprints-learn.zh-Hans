@@ -9,7 +9,7 @@ ht-degree: 100%
 
 ---
 
-# 接收和创建  Blueprint {#intake-and-create}
+# 接收和创建   Blueprint {#intake-and-create}
 
 传送给营销运营团队以发起新营销活动的营销请求数量可能会将一个高效运转的团队转变为重复性任务的旋转门，导致倦怠和创新停滞。
 
