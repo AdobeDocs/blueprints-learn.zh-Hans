@@ -3,7 +3,7 @@ title: 使用 Marketo 和 Workfront 的营销活动供应链 Blueprint
 description: 概述 - 使用 Marketo 和 Workfront 优化营销活动供应链 Blueprint
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1778'
 ht-degree: 100%
 
