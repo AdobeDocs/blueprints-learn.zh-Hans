@@ -1,5 +1,5 @@
 ---
-title: Customer Journey Analytics 与 Journey Optimizer  Blueprint
+title: Customer Journey Analytics 与 Journey Optimizer   Blueprint
 description: 在 Customer Journey Analytics 中统一并分析整个客户历程中的数据和客户行为，包括来自 Journey Optimizer 的投放和交互数据。
 solution: Customer Journey Analytics
 kt: null
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Customer Journey Analytics 与 Journey Optimizer  Blueprint
+# Customer Journey Analytics 与 Journey Optimizer   Blueprint
 
 来自 Journey Optimizer 的数据将共享到 Experience Platform 的数据湖，并可在 Customer Journey Analytics 中用于摄入、分析和报告。在 Customer Journey Analytics 内可以分析和报告历程投放、互动和有效性。
 
