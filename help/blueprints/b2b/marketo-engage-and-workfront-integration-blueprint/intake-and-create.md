@@ -2,7 +2,7 @@
 title: 接收和创建 Blueprint
 description: 引入和创建 — Marketo Engage和Workfront集成Blueprint
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
+source-git-commit: c4ab702cafa0dcacc4b3919bf70af0c50fa6bea8
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 99%
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 >[!TIP]
 >
->要详细了解 Workfront 中用于组织营销活动工作的不同类型的对象，以及它如何映射到 Marketo Engage 计划，请查看 [Marketo 和 Workfront 概述](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}.
+>要详细了解 Workfront 中用于组织营销活动工作的不同类型的对象，以及它如何映射到 Marketo Engage 计划，请查看 [Marketo 和 Workfront 概述](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}.
 
 ## 准备营销活动开发流程以实现自动化 {#prepare-your-campaign-development-process-for-automation}
 
@@ -157,4 +157,4 @@ ht-degree: 99%
 
 * [Adobe Workfront 模块](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=zh-Hans){target="_blank"}
 
-* [Marketo 和 Workfront 概述](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}
+* [Marketo 和 Workfront 概述](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}
