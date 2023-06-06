@@ -4,10 +4,10 @@ description: 通过 Real-time Customer Data Platform 交付基于帐户的受众
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
-source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
-workflow-type: ht
-source-wordcount: '231'
-ht-degree: 100%
+source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 93%
 
 ---
 
@@ -21,5 +21,5 @@ B2B 受众和用户档案激活是在数据驱动营销世界中取得成功的�
 |---|---|---|
 | **[B2B 分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=zh-Hans)** | <ul><li>在客户历程分析中包含 B2B 帐户信息</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
 | **[B2B 受众激活](b2bactivation.md)** | <ul><li>跨 Web、电子邮件和广告渠道定位 B2B 受众</li></ul> | <ul><li>Adobe Real-time Customer Data Platform B2B 版</li></ul> |
-| **[营销活动供应链：概述](/help/blueprints/b2b/campaign-supply-chain/overview.md)** | <ul><li>优化 B2B 营销活动规划、开发和执行</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
-| **[营销活动供应链：接收和创建](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)** | <ul><li>自动接收 B2B 营销活动请求以执行营销活动开发</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
+| **[Marketo Engage和Workfront集成Blueprint：概述](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)** | <ul><li>优化 B2B 营销活动规划、开发和执行</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
+| **[Marketo Engage和Workfront集成Blueprint：引入和创建](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)** | <ul><li>自动接收 B2B 营销活动请求以执行营销活动开发</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |

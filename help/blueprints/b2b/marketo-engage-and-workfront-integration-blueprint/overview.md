@@ -2,9 +2,9 @@
 title: Marketo Engage和Workfront集成Blueprint概述
 description: 概述 — Marketo Engage和Workfront集成Blueprint概述
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
+source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1769'
 ht-degree: 96%
 
 ---
@@ -147,11 +147,9 @@ Workfront 项目可以模板化，以便能够在每次运行特定营销策略�
 
 ### Workfront Fusion、Workfront 和 Marketo Engage 集成快速入门 {#getting-started-with-workfront-fusion}
 
-* [接收和创建](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"} - 使用 Marketo Engage 和 Workfront 实现营销活动开发自动化
+* [接收和创建](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - 使用 Marketo Engage 和 Workfront 实现营销活动开发自动化
 
 * 验证和审批（即将推出）
-
-* 报告和审核（即将推出）
 
 ### 管理 Marketo Engage 营销活动名称及其关联 URL {#managing-marketo-engage-campaign-names}
 
