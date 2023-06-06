@@ -5,10 +5,10 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 079c2e6deeeea0ede0f71a8bdda7e9b9f4d9084c
+source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '255'
+ht-degree: 97%
 
 ---
 
@@ -43,10 +43,10 @@ ht-degree: 100%
 + B2B 激活与营销 {#b2b-activation}
    + [概述](/help/blueprints/b2b/overview.md)
    + [B2B 激活](/help/blueprints/b2b/b2bactivation.md)
-   + 营销活动供应链（包含 Marketo 和 Workfront） {#optimize-campaign-supply-chain-with-marketo-and-workfront}
-      + [概述](/help/blueprints/b2b/campaign-supply-chain/overview.md)
-      + [接收和创建](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
-      + [客户成功案例](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
+   + Marketo Engage和Workfront集成Blueprint{#marketo-engage-and-workfront-integration-blueprint}
+      + [概述](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
+      + [接收和创建](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
+      + [客户成功案例](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [概述](/help/blueprints/customer-journey-analytics/overview.md)
    + [将 CJA 受众共享到 RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
