@@ -1,17 +1,17 @@
 ---
-title: Marketo Engage和Workfront集成Blueprint概述
-description: 概述 — Marketo Engage和Workfront集成Blueprint概述
+title: Marketo Engage 和 Workfront 集成 Blueprint 概述
+description: 概述 - Marketo Engage 和 Workfront 集成 Blueprint 概述
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
 workflow-type: tm+mt
 source-wordcount: '1769'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Marketo Engage和Workfront集成Blueprint概述 {#overview}
+# Marketo Engage 和 Workfront 集成 Blueprint 概述 {#overview}
 
-## 利用Marketo Engage和Workfront加快上市时间 {#achieve-faster-time-to-market-with-marketo-engage-and-workfront}
+## 利用 Marketo Engage 和 Workfront 加快上市速度 {#achieve-faster-time-to-market-with-marketo-engage-and-workfront}
 
 营销工作不断增加，个性化日常沟通的新渠道和方式也在不断增加。营销团队需要寻找继续加强自动化和发展的方法，以支持全球不断变化的营销需求。
 
@@ -153,7 +153,7 @@ Workfront 项目可以模板化，以便能够在每次运行特定营销策略�
 
 ### 管理 Marketo Engage 营销活动名称及其关联 URL {#managing-marketo-engage-campaign-names}
 
-标准化促销活动和URL的命名惯例是Marketo Engage中准确进行项目管理的关键基础，有助于在整个促销活动开发生命周期内推动更一致的流程。 如果您要查找相关工具来帮助解决此问题，我们建议您查看 [Adobe 成功服务](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"}中的一些免费开源工具，这些工具可让您创建一致的方法来创建和管理 Marketo Engage 营销活动及其关联 URL。
+标准化营销活动和 URL 的命名约定是在 Marketo Engage 中准确管理计划的关键基础，有助于在整个营销活动开发生命周期中推动更一致的流程。如果您要查找相关工具来帮助解决此问题，我们建议您查看 [Adobe 成功服务](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"}中的一些免费开源工具，这些工具可让您创建一致的方法来创建和管理 Marketo Engage 营销活动及其关联 URL。
 
 ### 资源 {#resources}
 

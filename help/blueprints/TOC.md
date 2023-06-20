@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,10 +32,10 @@ ht-degree: 97%
       + [护栏](/help/blueprints/experience-platform/deployment/guardrails.md)
 + 受众和用户档案激活 {#audience-activation}
    + [概述](/help/blueprints/audience-activation/overview.md)
-   + [匿名受众激活          (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [匿名受众激活 (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + 已知客户激活 (RTCDP) {#known-customer-audience-activation}
       + [概述](/help/blueprints/audience-activation/known.md)
-      + [激活社交和广告渠道 ](/help/blueprints/audience-activation/advertising-activation.md)
+      + [激活社交和广告渠道](/help/blueprints/audience-activation/advertising-activation.md)
       + [激活到文件和企业流传输目标](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [客户活动中心](/help/blueprints/audience-activation/customer-activity.md)
       + [区段匹配](/help/blueprints/audience-activation/segment-match.md)
@@ -43,7 +43,7 @@ ht-degree: 97%
 + B2B 激活与营销 {#b2b-activation}
    + [概述](/help/blueprints/b2b/overview.md)
    + [B2B 激活](/help/blueprints/b2b/b2bactivation.md)
-   + Marketo Engage和Workfront集成Blueprint{#marketo-engage-and-workfront-integration-blueprint}
+   + Marketo Engage 和 Workfront 集成 Blueprint{#marketo-engage-and-workfront-integration-blueprint}
       + [概述](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
       + [接收和创建](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
       + [客户成功案例](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
@@ -70,7 +70,7 @@ ht-degree: 97%
       + [Journey Optimizer 与 Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP 与 Adobe Campaign        v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Real-Time CDP 与 Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer 与 Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + 数据收集、访问和导出 {#data-ingestion}
    + [概述](/help/blueprints/data-ingestion/overview.md)
@@ -84,6 +84,6 @@ ht-degree: 97%
    + [为用户档案扩充自定义数据科学](/help/blueprints/data-insights/data-science.md)
 + Web 和移动个性化 {#web-personalization}
    + [概述](/help/blueprints/web-personalization/overview.md)
-   + [行为个性化          - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [行为个性化 - Target](/help/blueprints/web-personalization/behavioral.md)
    + [已知的客户个性化 - Target 和 RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [决策管理](/help/blueprints/web-personalization/decision-management-edge.md)
