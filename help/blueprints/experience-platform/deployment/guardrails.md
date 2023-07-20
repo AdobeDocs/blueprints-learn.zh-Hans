@@ -4,10 +4,10 @@ description: 护栏定义了对 Adobe Experience Platform 和应用程序中组�
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: b3eddbfe943f45e1acbbb108652824df45c6c0e8
-workflow-type: ht
-source-wordcount: '340'
-ht-degree: 100%
+source-git-commit: 73815906905fbefa1402a78351076a7da7d4930c
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 护栏是建议的阈值，用于就数据和系统使用、优化性能提供指导，并避免在 Adobe Experience Platform 和应用程序中出现错误或意外结果。护栏旨在反映系统约束和性能预期，以促进客户架构和使用案例性能优化。护栏不是服务级别协议，有关产品特定的服务级别协议的信息，请参阅下面链接的产品描述文档。
 
 
-## Adobe Experience Platform 和应用程序的护栏
+## Adobe Experience Platform和应用程序的护栏参考文档
 
 [数据摄入护栏](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hans)
 
@@ -42,31 +42,31 @@ ht-degree: 100%
 
 ### 数据摄入
 
-<img src="../assets/aep_data_flow_guardrails.svg" alt="Experience Platform 数据流" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/aep_data_flow_guardrails.svg" alt="Experience Platform 数据流" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### 分段
 
-<img src="../assets/segmentation_guardrails.svg" alt="Experience Platform 分段护栏" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/segmentation_guardrails.svg" alt="Experience Platform 分段护栏" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Real-time Customer Data Platform 和 Adobe Target
 
-<img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP 和 Target 护栏" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/RTCDP_Target_guardrails.svg" alt="RTCDP 和 Target 护栏" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Customer Journey Analytics
 
-<img src="../assets/CJA_guardrails.svg" alt="CJA 护栏" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/CJA_guardrails.svg" alt="CJA 护栏" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Journey Optimizer
 
-<img src="../assets/AJO_guardrails.svg" alt="参考架构 Journey Optimizer Blueprint" style="width:85%; border:1px solid #4a4a4a" />
+<img src="assets/AJO_guardrails.svg" alt="参考架构 Journey Optimizer Blueprint" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
