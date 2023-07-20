@@ -1,12 +1,12 @@
 ---
 title: Adobe Experience Platform 和应用程序架构图
 description: 此架构图展示了 Adobe Experience Platform 与其他 Adobe Experience Cloud 应用程序和应用程序服务之间的关系。
-solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
+solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 478a9bf0449e7953d527b5a54580f8eec7a7c30f
-workflow-type: ht
+source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 100%
 
