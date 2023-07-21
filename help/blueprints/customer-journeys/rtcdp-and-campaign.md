@@ -1,9 +1,9 @@
 ---
 title: Real-Time CDP 与 Adobe Campaign v7 和 Campaign Standard 集成模式
 description: 显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign 结合使用来提供个性化对话。
-solution: Real-time Customer Data Platform, Campaign
+solution: Real-Time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 100%
@@ -116,8 +116,8 @@ ht-degree: 100%
    * 请按照 [Campaign SDK 文档]（Campaign Mobile SDK
 请按照此处概述的部署文档进行操作）
 
-   >[!IMPORTANT]
-   >如果您部署 Campaign SDK 并正在使用其他 Experience Cloud 应用程序，则需要使用 Experience Platform Mobile SDK 进行数据收集。这将在设备上创建重复的客户端调用。
+  >[!IMPORTANT]
+  >如果您部署 Campaign SDK 并正在使用其他 Experience Cloud 应用程序，则需要使用 Experience Platform Mobile SDK 进行数据收集。这将在设备上创建重复的客户端调用。
 
 ## 相关文档
 
