@@ -5,9 +5,9 @@ solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer 
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 护栏是建议的阈值，用于就数据和系统使用、优化性能提供指导，并避免在 Adobe Experience Platform 和应用程序中出现错误或意外结果。护栏旨在反映系统约束和性能预期，以促进客户架构和使用案例性能优化。护栏不是服务级别协议，有关产品特定的服务级别协议的信息，请参阅下面链接的产品描述文档。
 
 
-## Adobe Experience Platform和应用程序的护栏参考文档
+## Adobe Experience Platform 和应用程序的护栏参考文档
 
 [数据摄入护栏](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hans)
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 
 [身份护栏](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=zh-Hans)
 
-[Customer Journey Analytics受众共享护栏](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hans)
+[Customer Journey Analytics受众共享护栏](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hans#latency)
 
 [Customer Journey Analytics数据摄取护栏](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
 
