@@ -2,9 +2,9 @@
 title: 接收和创建 Blueprint
 description: 接收和创建 - Marketo Engage 和 Workfront 集成 Blueprint
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: c4ab702cafa0dcacc4b3919bf70af0c50fa6bea8
+source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1324'
 ht-degree: 100%
 
 ---
@@ -149,7 +149,7 @@ ht-degree: 100%
 
 以下示例说明了如何使用预先构建的 [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=zh-Hans){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=zh-Hans){target="_blank"} 模块在 Fusion 中汇编工作流逻辑，使您能够更快地交付自动化。
 
-![接收和创建自动化流](assets/intake-and-create-3.png)使用令牌填充内容
+![接收和创建自动化流](assets/intake-and-create-3.png)
 
 ## 资源 {#resources}
 
