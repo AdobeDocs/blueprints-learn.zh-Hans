@@ -1,9 +1,9 @@
 ---
 title: 审阅和批准Blueprint
 description: 审阅和批准Blueprint -Marketo Engage和Workfront集成Blueprint
-source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
+source-git-commit: 4c63a1e552c893a2b2ae753bd3eaccab5c673448
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,7 @@ ht-degree: 0%
 
 当我们考虑构建营销活动时，必须考虑多个系统支持涉及的不同步骤，包括：规划、构建、审核、反馈、批准和执行。 借助Workfront和Marketo Engage，各个团队拥有完成端到端流程所需的所有工具，进而规划和启动新的营销活动。 此外，团队可以进一步简化其审核和批准流程，以提高营销活动开发速度，同时确保准确性和合规性符合最高标准。
 
-![验证和审批流程图](assets/review-and-approve-blueprint-1.png){zoomable=&quot;yes&quot;}
-
-### 连接Workfront和Marketo Engage的用例 {#use-cases-for-connecting-workfront-and-marketo-engage}
+### 查看和批准使用Marketo Engage和Workfront解锁的用例 {#review-and-approve-use-cases-unlocked-with-marketo-engage-and-workfront}
 
 * 利用Workfront对Marketo Engage资源的注释和评论功能，消除不同的反馈并增加集中式协作。
 
@@ -63,7 +61,7 @@ ht-degree: 0%
 
 如果要启动新的电子邮件营销活动，您应该有一个项目模板，其中包括一项审查电子邮件的任务，以及一个审批流程，用于确保电子邮件在发送之前获得利益相关者的批准。
 
-![“任务”屏幕](assets/review-and-approve-blueprint-2.png){zoomable=&quot;yes&quot;}
+![“任务”屏幕](assets/review-and-approve-blueprint-1.png){zoomable=&quot;yes&quot;}
 
 ### 触发您的Marketo Engage电子邮件以通过任务状态更改同步到Workfront {#trigger-your-marketo-engage-email-to-sync-to-workfront}
 
@@ -71,13 +69,23 @@ ht-degree: 0%
 
 在Workfront项目中确立此状态后，您可以将Workfront Fusion方案配置为监听“准备审阅”任务以更新为“审阅Marketo电子邮件”。 更新后，您的方案可以检索作为HTML文件的Marketo Engage电子邮件，将其压缩，并在Workfront项目文档中保存一个副本以供审查。
 
-![准备好审查屏幕](assets/review-and-approve-blueprint-3.png){zoomable=&quot;yes&quot;}
+![准备好审查屏幕](assets/review-and-approve-blueprint-2.png){zoomable=&quot;yes&quot;}
 
 ### 在Workfront中将Marketo Engage电子邮件转换为可查看的校对 {#convert-your-marketo-engage-email-to-reviewable-proof-in-workfront}
 
 准备好审查任务移至“审查Marketo电子邮件”状态并将Marketo Engage电子邮件保存在Workfront中后，您可以配置Workfront Fusion方案以将电子邮件转换为Workfront Proof。
 
-![转换电子邮件屏幕](assets/review-and-approve-blueprint-4.png){zoomable=&quot;yes&quot;}
+### 使用Workfront校对通过注释和批注进行协作 {#use-workfront-proofing-to-collaborate}
+
+[Workfront校对](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} 利用功能，营销团队可获取新资产（如图像或电子邮件），并通过注释和批注进行协作。 一旦验证准备好上线，决策者就可以批准验证工具中的资产。
+
+![转换电子邮件屏幕](assets/review-and-approve-blueprint-3.png){zoomable=&quot;yes&quot;}
+
+### 批准Workfront Proof并在Marketo Engage中触发资源批准，将任务标记为完成 {#approve-workfront-proof-and-trigger-asset-approval-in-marketo-engage}
+
+Workfront Fusion可以检测电子邮件何时获得利益相关者的批准，并向Marketo Engage发送请求，以在Marketo中批准电子邮件。
+
+经过合适的团队成员审核/批准的电子邮件，即可在Marketo Engage中上线！
 
 ## Fusion场景模板 {#fusion-scenario-templates}
 
@@ -87,12 +95,12 @@ ht-degree: 0%
 
 以下融合场景将引导您完成审阅和批准流程的上半部分，在该流程中，可以从Marketo Engage中提取电子邮件草稿并将其另存到Workfront作为验证。 在将它另存为Workfront项目文档中的验证后，营销利益相关者可以对其进行审阅、评论，并在审阅过程中添加注释。
 
-![融合场景审查和批准流程](assets/review-and-approve-blueprint-5.png){zoomable=&quot;yes&quot;}
+![融合场景审查和批准流程](assets/review-and-approve-blueprint-4.png){zoomable=&quot;yes&quot;}
 
 ### 在Workfront中批准触发审批Marketo Engage中资源的电子邮件 {#approve-an-email-in-workfront-that-triggers-approval}
 
 以下融合场景可用于检测Workfront中的验证何时获得批准，并将该批准路由到Marketo Engage以更新电子邮件草稿，使其在Marketo Engage程序中实时并准备好使用。
 
-![融合场景验证审批](assets/review-and-approve-blueprint-6.png){zoomable=&quot;yes&quot;}
+![融合场景验证审批](assets/review-and-approve-blueprint-5.png){zoomable=&quot;yes&quot;}
 
 这两种情况加在一起，可用于创建一条双向路径，以将营销资源从Marketo Engage拉入Workfront强大的审核和批准工作流程，并将批准从Workfront推送回Marketo Engage。
