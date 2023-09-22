@@ -4,19 +4,23 @@ description: 护栏定义了对 Adobe Experience Platform 和应用程序中组�
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: df10f49b618804982dd5b72ab4061de619beb72f
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 72%
 
 ---
 
 # 护栏
 
-护栏是建议的阈值，用于就数据和系统使用、优化性能提供指导，并避免在 Adobe Experience Platform 和应用程序中出现错误或意外结果。护栏旨在反映系统约束和性能预期，以促进客户架构和使用案例性能优化。护栏不是服务级别协议，有关产品特定的服务级别协议的信息，请参阅下面链接的产品描述文档。
+护栏是建议的阈值，可为Adobe Experience Platform和应用程序中的数据使用和系统使用提供指导。 护栏反映了系统限制和性能期望，可优化客户架构和用例性能，并有助于避免错误或意外结果。 护栏不是用来作为服务级别协议的。
+
+有关应用程序和功能的特定服务级别协议的信息，请参阅本页底部的“应用程序和功能说明”。
 
 
 ## Adobe Experience Platform 和应用程序的护栏参考文档
+
+以下页面提供了有关Adobe Experience Platform功能、服务和应用程序的护栏的信息：
 
 [数据摄入护栏](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hans)
 
@@ -70,7 +74,9 @@ ht-degree: 100%
 
 <br>
 
-## 产品描述
+## 应用程序和功能描述
+
+有关特定于功能的服务级别协议的信息，请参阅下面的说明：
 
 [Experience Platform Collection Enterprise](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 
