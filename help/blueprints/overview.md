@@ -5,8 +5,8 @@ doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '254'
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,11 @@ ht-degree: 0%
 ## 新增功能
 
 * **[受众和用户档案激活到企业目标 blueprint](/help/blueprints/audience-activation/enterprise-destinations.md)**
-
-   *使所有系统中的客户档案保持最新，以增强您的销售和支持团队的能力。*
+  *使所有系统中的客户档案保持最新，以增强您的销售和支持团队的能力。*
 * **[客户活动中心 Blueprint](/help/blueprints/audience-activation/customer-activity.md)**
-
-   *提供座席协助支持和销售的背景信息。*
+  *提供座席协助支持和销售的背景信息。*
 * **[数据分析和智能 Blueprint](/help/blueprints/data-insights/analysis.md)**
-
-   *对数据湖中的数据执行探索性查询和分析。*
+  *对数据湖中的数据执行探索性查询和分析。*
 
 ## 特色 blueprint
 
