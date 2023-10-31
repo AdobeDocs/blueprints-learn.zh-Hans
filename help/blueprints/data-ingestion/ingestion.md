@@ -5,10 +5,10 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 70e7bfb3a6d7bad858bd72b6329602bdfb822505
+source-git-commit: 886cae3895f3adc85f516ab8b4241bfe1fa9a541
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 100%
+source-wordcount: '1099'
+ht-degree: 99%
 
 ---
 
@@ -268,7 +268,7 @@ ht-degree: 100%
 
 | 摄入方法 | 描述 |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Web/Mobile SDK | 延迟：<ul><li>实时 — 到 Edge 网络的同一页面集合</li><li>流式摄入到用户档案 ~1 分钟</li><li>流式摄入到数据湖（微批量 ~15 分钟）</ul>文档： <ul><li>[Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=zh-Hans)</li><li>[使用 Web SDK 实施 Adobe Experience Cloud 教程](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)</li><li>[在移动设备应用程序中实施 Adobe Experience Cloud 教程](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=zh-Hans)</li></ul> |
+| Web/Mobile SDK | 延迟：<ul><li>实时 — 到 Edge 网络的同一页面集合</li><li>在第95百分位处将摄取流式传输到配置文件&lt; 15分钟</li><li>流式摄入到数据湖（微批量 ~15 分钟）</ul>文档： <ul><li>[Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=zh-Hans)</li><li>[使用 Web SDK 实施 Adobe Experience Cloud 教程](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)</li><li>[在移动设备应用程序中实施 Adobe Experience Cloud 教程](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=zh-Hans)</li></ul> |
 | 流传输源 | [流传输源](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans#connectors)<br>延迟：<ul><li>实时 — 到 Edge 网络的同一页面集合</li><li>流式摄入到用户档案 ~1 分钟</li><li>流式摄入到数据湖（微批量 ~15 分钟）</li></ul> |
 | 流传输 API | [Edge 网络服务器 API（首选）](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans)- 支持边缘服务，包括边缘分段和<br>[数据收集核心服务 API](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=zh-Hans) - 不支持边缘服务，直接路由到中心。<br>延迟：<ul><li>实时 — 到 Edge 网络的同一页面集合</li><li>流式摄入到用户档案 ~1 分钟</li><li>流式摄入到数据湖（微批量 ~15 分钟）</li><li>7 GB/小时</li></ul>[文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans#what-can-you-do-with-streaming-ingestion%3F) |
 | ETL 工具 | 使用 ETL 工具在将企业数据摄入到 Experience Platform 之前对其进行修改和转换。<br><br>延迟：<ul><li>根据外部 ETL 工具的调度进行定时，然后根据摄入方法应用标准摄入护栏。</li></ul> |
