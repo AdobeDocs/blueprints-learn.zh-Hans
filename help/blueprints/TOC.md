@@ -5,10 +5,10 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
+source-git-commit: f98f1b6ca56ed1249e9c18ea04935808f4498ed5
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 98%
 
 ---
 
@@ -48,6 +48,8 @@ ht-degree: 100%
       + [接收和创建](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
       + [审查和批准](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
       + [客户成功案例](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
++ 内容和商务{#content-commerce}
+   + [Adobe Commerce和RTCDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [概述](/help/blueprints/customer-journey-analytics/overview.md)
    + [将 CJA 受众共享到 RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
