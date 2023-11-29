@@ -4,10 +4,10 @@ description: 护栏定义了对 Adobe Experience Platform 和应用程序中组�
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 4379f372241248ea6c70c766f13a182783fcac0c
+source-git-commit: 76ad3dceda37c5f991a43df5828a926f6dfc42a5
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 64%
+source-wordcount: '625'
+ht-degree: 41%
 
 ---
 
@@ -38,39 +38,37 @@ ht-degree: 64%
 * [查询服务护栏](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=zh-Hans)
 * [目标激活护栏](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=zh-Hans)
 
+## 端到端延迟图 {#end-to-end-latency}
 
+### 数据摄入 {#data-ingestion}
 
-## 端到端延迟图
+下图显示预期的数据摄取延迟值： [流式摄取](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) 和 [批量摄取](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=zh-Hans) 将数据引入Real-Time CDP时。 单击图像可查看高分辨率版本。
 
-### 数据摄入
+![摄取数据高级可视化概述。](/help/blueprints/experience-platform/deployment/assets/aep_data_flow_guardrails.svg "数据摄取高级可视化概述和延迟值"){width="1000" zoomable="yes"}
 
-<img src="assets/aep_data_flow_guardrails.svg" alt="Experience Platform 数据流" style="border:1px solid #4a4a4a" width="85%" />
+### 分段 {#segmentation}
 
-<br>
+下图显示了使用中的受众时的预期滞后时间值 [Real-Time CDP分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans). 单击图像可查看高分辨率版本。
 
-### 分段
+![分段高级视觉概述。](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "分段高级视觉概述和延迟值"){width="1000" zoomable="yes"}
 
-<img src="assets/segmentation_guardrails.svg" alt="Experience Platform 分段护栏" style="border:1px solid #4a4a4a" width="85%" />
+### Real-time Customer Data Platform 和 Adobe Target {#adobe-target-latency}
 
-<br>
+下图显示了将受众从Real-Time CDP导出到时的预期滞后时间值 [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans). 单击图像可查看高分辨率版本。
 
-### Real-time Customer Data Platform 和 Adobe Target
+![导出到Adobe Target高级可视化概述。](/help/blueprints/experience-platform/deployment/assets/RTCDP_Target_guardrails.svg "将受众导出到Adobe Target高级可视化概述和延迟值"){width="1000" zoomable="yes"}
 
-<img src="assets/RTCDP_Target_guardrails.svg" alt="RTCDP 和 Target 护栏" style="border:1px solid #4a4a4a" width="85%" />
+### Customer Journey Analytics   {#customer-journey-analytics}
 
-<br>
+下图显示了使用时的预期滞后时间值 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en). 单击图像可查看高分辨率版本。
 
-### Customer Journey Analytics
+![使用Customer Journey Analytics高级视觉概述。](/help/blueprints/experience-platform/deployment/assets/CJA_guardrails.svg "使用Customer Journey Analytics高级视觉概述和延迟值"){width="1000" zoomable="yes"}
 
-<img src="assets/CJA_guardrails.svg" alt="CJA 护栏" style="border:1px solid #4a4a4a" width="85%" />
+### Journey Optimizer   {#journey-optimizer}
 
-<br>
+下图显示了使用时的预期滞后时间值 [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en). 单击图像可查看高分辨率版本。
 
-### Journey Optimizer
-
-<img src="assets/AJO_guardrails.svg" alt="参考架构 Journey Optimizer Blueprint" style="width:85%; border:1px solid #4a4a4a" />
-
-<br>
+![使用Adobe Journey Optimizer高级可视化概述。](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "使用Adobe Journey Optimizer高级可视化概述和延迟值"){width="1000" zoomable="yes"}
 
 ## 应用程序和功能描述 {#application-feature-descriptions}
 
