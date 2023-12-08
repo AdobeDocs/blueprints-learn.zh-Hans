@@ -1,16 +1,16 @@
 ---
-title: 区段匹配   Blueprint
+title: 区段匹配Blueprint
 description: 了解 Adobe Experience Platform (AEP) 的[!UICONTROL 区段匹配]。[!UICONTROL 区段匹配]是一项数据协作服务，允许您以安全、受管理且对隐私友好的方式，基于通用行业标识符交换区段数据。
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
 source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 81%
+source-wordcount: '2126'
+ht-degree: 79%
 
 ---
 
-# 区段匹配   Blueprint
+# 区段匹配Blueprint
 
 区段匹配允许合作伙伴品牌在其各自的 Experience Platform 环境中共享受众。品牌的关键在于根据从与消费者的直接关系中收集的数据，与客户建立联系。通过更好的治理、权限和首选项管理系统，营销人员可以通过关键合作伙伴进一步增强其经过身份验证的第一方受众。
 
@@ -146,7 +146,7 @@ ht-degree: 81%
 
 身份重叠流程取决于发送方和接收方沙盒中的&#x200B;**每日完整用户档案导出**&#x200B;数据集，以识别属于共享区段的公共用户档案。重叠流程的详细处理流程如下所示：
 
-![身份重叠流程](assets/overlap-process.png){zoomable=&quot;yes&quot;}
+![身份重叠进程](assets/overlap-process.png){zoomable=&quot;yes&quot;}
 
 在从发送合作伙伴完成区段共享后，接收方会收到已共享区段馈送的通知。必须在接收方为用户档案启用此区段馈送，以便启动区段成员资格数据流。只有区段成员资格会被摄入到接收方 IMS 组织的重叠用户档案片段中，并且不会从发送方向接收方传输任何其他身份。
 
