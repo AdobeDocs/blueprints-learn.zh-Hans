@@ -1,17 +1,17 @@
 ---
-title: Experience Platform和应用护栏和端到端延迟
+title: Experience Platform 和应用程序护栏
 description: 护栏定义了对 Adobe Experience Platform 和应用程序中组件和服务的性能期望和影响
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: a16d7e925b7f5e9a379214d01280e4fef56344af
+source-git-commit: 4cc0eafda6e2670ac5b72b0a0ca59b84e1c0dba1
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 22%
+source-wordcount: '463'
+ht-degree: 24%
 
 ---
 
-# 护栏和端到端延迟
+# 护栏
 
 护栏是建议的阈值，可为Adobe Experience Platform和应用程序中的数据、观察到的延迟和系统使用情况提供指导。 护栏反映了系统限制和性能期望，可优化客户架构和用例性能，并有助于避免错误或意外结果。 护栏不是用来作为服务级别协议的。
 
