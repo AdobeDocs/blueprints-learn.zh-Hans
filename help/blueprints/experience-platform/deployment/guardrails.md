@@ -4,16 +4,16 @@ description: 护栏定义了对 Adobe Experience Platform 和应用程序中组�
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 94197d1b450694f96eb1ef17245c0353494859b1
+source-git-commit: a16d7e925b7f5e9a379214d01280e4fef56344af
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 25%
+source-wordcount: '473'
+ht-degree: 22%
 
 ---
 
-# 护栏
+# 护栏和端到端延迟
 
-护栏是建议的阈值，可为Adobe Experience Platform和应用程序中的数据使用和系统使用提供指导。 护栏反映了系统限制和性能期望，可优化客户架构和用例性能，并有助于避免错误或意外结果。 护栏不是用来作为服务级别协议的。
+护栏是建议的阈值，可为Adobe Experience Platform和应用程序中的数据、观察到的延迟和系统使用情况提供指导。 护栏反映了系统限制和性能期望，可优化客户架构和用例性能，并有助于避免错误或意外结果。 护栏不是用来作为服务级别协议的。
 
 有关应用程序和功能的特定服务级别协议的信息，请参阅 [应用程序和功能描述](#application-feature-descriptions) 部分。
 
@@ -25,15 +25,15 @@ ht-degree: 25%
 **Experience Platform应用程序**
 
 * [Real-Time CDP护栏概述](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
-* [Customer Journey Analytics受众共享护栏](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hans#latency)
-* [Customer Journey Analytics数据摄取护栏](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [Journey Optimizer护栏](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans)
+* [Customer Journey Analytics受众共享护栏](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
+* [Customer Journey Analytics数据摄取护栏](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Journey Optimizer护栏](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
 
 **Experience Platform服务**
 
-* [数据摄入护栏](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hans)
-* [边缘网络 API 护栏](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=zh-Hans)
-* [实时客户档案护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
+* [数据摄入护栏](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
+* [边缘网络 API 护栏](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [实时客户个人资料和分段护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 * [身份护栏](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=zh-Hans)
 * [查询服务护栏](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=zh-Hans)
 * [目标激活护栏](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=zh-Hans)
