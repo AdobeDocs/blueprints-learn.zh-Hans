@@ -4,18 +4,20 @@ description: 护栏定义了对 Adobe Experience Platform 和应用程序中组�
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 4cc0eafda6e2670ac5b72b0a0ca59b84e1c0dba1
+source-git-commit: 5a4827244b7d8414b1f1a0bf9b3cd8308bde8c60
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 24%
+source-wordcount: '630'
+ht-degree: 18%
 
 ---
 
 # 护栏
 
-护栏是建议的阈值，可为Adobe Experience Platform和应用程序中的数据、观察到的延迟和系统使用情况提供指导。 护栏反映了系统限制和性能期望，可优化客户架构和用例性能，并有助于避免错误或意外结果。 护栏不是用来作为服务级别协议的。
+护栏是建议的阈值，可为Adobe Experience Platform和应用程序中的数据、观察到的延迟和系统使用情况提供指导。 护栏反映了系统限制和性能期望，可优化客户架构和用例性能，并有助于避免错误或意外结果。 护栏不是服务级别协议，服务级别协议记录在以下链接的产品描述和客户许可协议中。 护栏旨在为特定客户用例的架构解决方案提供指导，以确保稳定性和执行。
 
 有关应用程序和功能的特定服务级别协议的信息，请参阅 [应用程序和功能描述](#application-feature-descriptions) 部分。
+
+请注意，对于任何具有严格延迟或数量要求的客户用例，Adobe建议与您的Adobe客户团队和实施合作伙伴一起详细审查您的用例。 在某些情况下，建议在用例的生产启动之前测试和观察给定用例实施，以观察和了解预期行为 — 由于每个客户实施具有不同的作用因素，包括数据摄取的性质和频率、正在构建的区段规则的具体性以及各种激活挑战和负载 — 每个用例实施将具有不同的观察性能。 因此，最好预先建立和测试预期性能，以确保根据用例的延迟和性能要求获得适当的架构和实施。
 
 
 ## Adobe Experience Platform 和应用程序的护栏参考文档
