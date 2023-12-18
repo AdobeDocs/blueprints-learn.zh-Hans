@@ -3,10 +3,10 @@ title: 中心决策管理 Blueprint
 description: 跨渠道向消费者投放个性化优惠，包括自助终端、座席协助体验、电子邮件以及其他推拨投放。
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
-workflow-type: ht
-source-wordcount: '906'
-ht-degree: 100%
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+workflow-type: tm+mt
+source-wordcount: '738'
+ht-degree: 98%
 
 ---
 
@@ -56,22 +56,8 @@ Adobe Experience Platform
 
 * 有关 Journey Optimizer 护栏，请参阅以下 [Journey Optimizer 护栏](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=zh-Hans)。
 * 有关决策管理护栏，请参阅以下[决策管理产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/offer-decisioning-app-service.html).
-* 每秒请求数= 2000。
-* 响应延迟小于 500 ms。
-* 访问完整的实时客户档案，包括受众会员资格、属性和体验事件。
 
-
-### 数据摄入护栏
-
-<img src="../../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Experience Platform 数据流" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
-
-<br>
-
-### 激活护栏
-
-<img src="../../experience-platform/deployment/assets/AJO_guardrails.svg" alt="参考架构 Journey Optimizer Blueprint" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
+[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## 实施模式
 

@@ -3,9 +3,9 @@ title: Real-Time CDP 与 Adobe Campaign v8 集成模式
 description: 显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign v8 结合使用来提供个性化对话。
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
@@ -54,12 +54,5 @@ ht-degree: 100%
 ### Experience Platform Real-time Customer Data Platform 区段共享
 
 * 请参阅 RTCDP Campaign 目标连接器 - [RTCDP Campaign 连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=zh-Hans)
-* 建议 50 区段限额
-* 请注意，对于批处理（每天 1 次）和流传输（约 5 分钟），AEP 中的区段成员身份实现都有延迟，且基于区段评估计划。
-* 激活延迟为最少 3 小时
-* 仅合并可用于激活的架构属性（不支持阵列/映射/体验事件）
-* 建议每个区段不超过 20 个属性
-* 所有具有“已实现”区段成员的用户档案每个区段有一个文件，或者如果已在文件中将区段成员作为属性添加，则包含“已实现”和“已退出”用户档案
-* 支持增量和完整的区段导出
-* 不支持文件加密
+
 * 请参阅 AEP 的用户档案和数据摄入护栏 - [链接](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)

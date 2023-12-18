@@ -3,9 +3,9 @@ title: Journey Optimizer - 触发式消息和 Adobe Experience Platform Blueprin
 description: 使用 Adobe Experience Platform 作为流式传输数据、客户档案和分段的中心枢纽，执行触发的消息和体验。
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 3102ab35e48fe51010185ea5a0352c77f068d0d4
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '563'
 ht-degree: 97%
 
 ---
@@ -74,22 +74,7 @@ Adobe Experience Platform
 
 [Journey Optimizer 护栏产品链接](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
-
-请注意以下其他注意事项：
-
-* 批次区段 - 需要确保您了解合格用户的每日流量，并确保目标系统能够处理每个历程以及所有历程中的突发吞吐量
-* 流式区段 - 需要确保可以处理用户档案资格的初始突发量，以及每个历程和所有历程的每日合格流传输流量
-* 仅消息中有对决策管理的原生支持（无自定义操作）
-* 支持的消息类型：
-   * 电子邮件
-   * 推送 (FCM / APNS)
-   * 自定义操作（通过 Rest API）
-* 到第三方系统的出站集成
-   * 不支持单个静态 IP，因为我们的基础架构是多租户的（必须允许列出所有数据中心 IP）
-   * 自定义操作仅支持 POST 和 PUT 方法
-   * 通过用户/通行证或授权令牌进行身份验证
-* 无法打包 Adobe Experience Platform 或 Journey Optimizer 的各个组件，并在各个沙盒之间移动它们。必须在新环境中重新实施
+[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## 相关文档
 

@@ -3,9 +3,9 @@ title: Real-Time CDP 与 Adobe Campaign v7 和 Campaign Standard 集成模式
 description: 显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign 结合使用来提供个性化对话。
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '663'
 ht-degree: 100%
 
 ---
@@ -46,15 +46,9 @@ ht-degree: 100%
 
 ### Experience Platform CDP 区段共享
 
-* 建议 20 区段限额
-* 激活限于每 24 小时
-* 仅合并可用于激活的架构属性（不支持阵列/映射/体验事件）
-* 建议每个区段不超过 20 个属性
-* 所有具有“已实现”区段成员的用户档案每个区段有一个文件，或者如果已在文件中将区段成员作为属性添加，则包含“已实现”和“已退出”用户档案
-* 支持增量和完整的区段导出
-* 不支持文件加密
+* 请参阅 RTCDP Campaign 目标连接器 - [RTCDP Campaign 连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=zh-Hans)
 
-<br>
+* 请参阅 AEP 的用户档案和数据摄入护栏 - [链接](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 
 ## 实施步骤
 

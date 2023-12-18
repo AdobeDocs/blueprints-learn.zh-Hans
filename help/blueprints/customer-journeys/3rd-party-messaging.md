@@ -3,10 +3,10 @@ title: Journey Optimizer - 第三方消息传递 blueprint
 description: 演示如何将 Adobe Journey Optimizer 与第三方消息传递系统结合使用来编排和发送个性化通信。
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: a1421a47da2c84635ef904096a6036cfe488d763
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 97%
 
 ---
 
@@ -40,39 +40,8 @@ Adobe Experience Platform
 
 [Journey Optimizer 护栏产品链接](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=zh-Hans)
 
-其他 Journey Optimizer 护栏：
+[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
-* 现在可通过 API 设置封顶，以确保目标系统不会因饱和而达到故障点。这意味着超过上限的消息会被彻底丢弃，永不发送。不支持限流。
-   * 最大连接数：目标可处理的 http/s 连接的最大数
-   * 最大调用数：periodInMs 参数中要进行的最大调用数
-   * periodInMs：时间（以毫秒为单位）
-* 区段成员资格发起的历程可以两种模式运行：
-   * 批次区段（每 24 小时刷新一次）
-   * 流传输区段（&lt;5 分钟资格）
-* 批次区段 - 需要确保您了解合格用户的每日流量，并确保目标系统能够处理每个历程以及所有历程中的突发吞吐量
-* 流式区段 - 需要确保可以处理用户档案资格的初始突发量，以及每个历程和所有历程的每日合格流传输流量
-* 不支持的决策管理
-* 到第三方系统的出站集成
-   * 不支持单个静态 IP，因为我们的基础架构是多租户的（必须允许列出所有数据中心 IP）
-   * 自定义操作仅支持 POST 和 PUT 方法
-   * 身份验证支持：令牌 | 密码 | OAuth2
-* 无法打包 Adobe Experience Platform 或 Journey Optimizer 的各个组件，并在各个沙盒之间移动它们。必须在新环境中重新实施
-
-<br>
-
-第三方消息传递系统
-
-* 需要了解系统可支持哪些负载进行事务 API 调用
-   * 每秒允许的调用数
-   * 连接数
-* 需要了解进行 API 调用所需的身份验证
-   * 身份验证类型：令牌 | 密码 | 通过 Journey Optimizer 支持 OAuth2
-   * 身份验证缓存持续时间：令牌有效时间有多长？
-* 如果仅支持批次摄入，则需要流传输到云存储引擎，如 Amazon Kinesis 或 Azure Event Grid 1st
-   * 这些云存储引擎的数据可以经过批处理并传输到第三方
-   * 客户或第三方将负责提供所需的任何中间件
-
-<br>
 
 ## 实施步骤
 
@@ -109,7 +78,7 @@ Adobe Experience Platform
 1. 利用 Adobe 标记并创建具有以下扩展的移动资产：
    * Adobe Journey Optimizer
    * Adobe Experience Platform Edge 网络
-   * 身份       （边缘网络）
+   * 边缘网络的标识
    * 移动核心
 1. 确保您拥有专用数据流，用于移动应用程序部署与 Web 部署
 1. 有关更多信息，请参阅 [Adobe Journey Optimizer 移动指南](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/)

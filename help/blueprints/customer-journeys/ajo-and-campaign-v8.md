@@ -3,14 +3,14 @@ title: Journey Optimizer 与 Adobe Campaign v8 Blueprint
 description: 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合使用，通过 Campaign 中的实时消息传送服务器在本地发送消息
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
-source-wordcount: '1028'
-ht-degree: 100%
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+workflow-type: tm+mt
+source-wordcount: '645'
+ht-degree: 98%
 
 ---
 
-# Journey Optimizer 与 Adobe Campaign     v8 blueprint
+# Journey Optimizer 与 Adobe Campaign v8 Blueprint
 
 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合使用，通过 Campaign 中的实时消息传送服务器在本地发送消息。
 
@@ -45,37 +45,7 @@ ht-degree: 100%
 
 [Journey Optimizer 护栏产品链接](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=zh-Hans)
 
-### 其他 Journey Optimizer 护栏
-
-* 现在可通过 API 设置封顶，以确保目标系统不会因饱和而达到故障点。这意味着超过上限的消息会被彻底丢弃，永不发送。不支持限流。
-   * 最大连接数：目标可处理的 http/s 连接的最大数
-   * 最大调用数：periodInMs 参数中要进行的最大调用数
-   * periodInMs：时间（以毫秒为单位）
-* 区段成员资格发起的历程可以两种模式运行：
-   * 批次区段（每 24 小时刷新一次）
-   * 流传输区段（&lt;5 分钟资格）
-* 批次区段 - 需要确保您了解合格用户的每日流量，并确保目标系统能够处理每个历程以及所有历程中的突发吞吐量
-* 流式区段 - 需要确保可以处理用户档案资格的初始突发量，以及每个历程和所有历程的每日合格流传输流量
-* 不支持的决策管理
-* 不支持业务事件
-* 到第三方系统的出站集成
-   * 不支持单个静态 IP，因为我们的基础架构是多租户的（必须允许列出所有数据中心 IP）
-   * 自定义操作仅支持 POST 和 PUT 方法
-   * 身份验证支持：令牌 | 密码 | OAuth2
-* 无法打包 Adobe Experience Platform 或 Journey Optimizer 的各个组件，并在各个沙盒之间移动它们。必须在新环境中重新实施
-
-<br>
-
-### Campaign (v8)
-
-* 消息中心的执行实例必须由 Adobe 托管云服务托管
-* 消息传递吞吐量
-   * AC (v8) 多达每小时 100 万（基于软件包）
-* AC (v8) 不支持消息中的决策管理
-* 对 Campaign 的出站 API 调用没有限流
-* 借助 Campaign v8.4，可以在 Experience Platform 中利用 Adobe Campaign Managed Services Source 连接器将投放和跟踪事件从 Campaign 同步到 Experience Platform 中。有关更多详细信息，请参阅源连接器文档。[链接](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)
-
-<br>
+[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## 实施步骤
 
@@ -119,7 +89,7 @@ ht-degree: 100%
 1. 利用 Adobe 标记并创建具有以下扩展的移动资产：
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
    * Adobe Experience Platform Edge 网络
-   * 身份       （边缘网络）
+   * 边缘网络的标识
    * 移动核心
 1. 确保您拥有专用数据流，用于移动应用程序部署与 Web 部署
 1. 有关更多信息，请参阅 [Adobe Journey Optimizer 移动指南](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)

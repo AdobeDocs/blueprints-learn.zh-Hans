@@ -3,10 +3,10 @@ title: 边缘决策管理 Blueprint
 description: 跨渠道向消费者提供个性化优惠，包括实时 Web 体验和移动体验。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
-workflow-type: ht
-source-wordcount: '856'
-ht-degree: 100%
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 98%
 
 ---
 
@@ -56,23 +56,11 @@ Adobe Experience Platform
 ## 护栏
 
 * 有关 Journey Optimizer 护栏，请参阅以下 [Journey Optimizer 护栏](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=zh-Hans)。
+
 * 有关决策管理护栏，请参阅以下[决策管理产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/offer-decisioning-app-service.html).
-* 每秒请求数= 5000。
-* 响应延迟小于 250 ms。
-* 访问边缘实时用户档案。用户档案中只有边缘预测受众和用户档案属性可用。
-* 如果首次体验中需要个性化，则中心将是理想的选择，因为可以使用完整的用户档案。对于首次边缘体验，必须从中心同步边缘用户档案。因此，从边缘网站获得的首个体验将不包含以前上传到中心的用户档案数据。
 
-### 数据摄入护栏
+[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
-<img src="../../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Experience Platform 数据流" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
-
-<br>
-
-### 激活护栏
-
-<img src="../../experience-platform/deployment/assets/AJO_guardrails.svg" alt="参考架构 Journey Optimizer Blueprint" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
 
 ## 实施模式
 
