@@ -3,10 +3,10 @@ title: 边缘决策管理 Blueprint
 description: 跨渠道向消费者提供个性化优惠，包括实时 Web 体验和移动体验。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 98%
+source-wordcount: '653'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,7 @@ Adobe 决策管理是作为 Adobe Journey Optimizer 的一部分提供的服务�
 
 ## 边缘决策管理用例
 
+* 个人资料上下文延迟严格低于15分钟延迟且决策管理执行为亚秒的流使用案例。
 * 通过 Web 或移动设备集客体验进行在线个性化。
 * 跨渠道历程执行 - 通过 Adobe Journey Optimizer 提供跨 Web、移动设备、电子邮件和其他交互渠道的一致性。
 

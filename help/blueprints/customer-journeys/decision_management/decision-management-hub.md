@@ -3,10 +3,10 @@ title: 中心决策管理 Blueprint
 description: 跨渠道向消费者投放个性化优惠，包括自助终端、座席协助体验、电子邮件以及其他推拨投放。
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 98%
+source-wordcount: '832'
+ht-degree: 87%
 
 ---
 
@@ -28,11 +28,16 @@ Journey Optimizer 用于跨所有接触点在适当的时间为客户提供最�
 
 ## 中心决策管理用例
 
+* 个人资料上下文延迟不严格的流用例 — 延迟为15分钟或更高。
 * 自助终端和店内体验中的个性化优惠。
 * 通过座席辅助体验提供的个性化优惠，例如用于呼叫中心或销售互动。
 * 电子邮件、短信、移动推送通知或其他推拨交互中包含的优惠。
 * 向外部 ESP 和消息递送系统提供优惠以供投放。
 * 跨渠道历程执行 - 通过 Adobe Journey Optimizer 提供跨 Web、移动设备、电子邮件和其他交互渠道的一致性。
+
+>[!IMPORTANT]
+>
+>适用于需要访问用户档案以获取其他信息和上下文的优惠和历程用例。 请务必考虑将数据摄取到中心服务器上关联的延迟，以确保在决策时可用。 对于上下文正在流式传输或摄取到用户档案，并且优惠或历程必须在优惠决策后的数秒或数分钟内提供该上下文的情况，最好通过Edge上的决策管理提供这些情况。
 
 <br>
 
