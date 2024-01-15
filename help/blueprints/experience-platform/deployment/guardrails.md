@@ -4,10 +4,10 @@ description: 护栏定义了对 Adobe Experience Platform 和应用程序中组�
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 5a4827244b7d8414b1f1a0bf9b3cd8308bde8c60
+source-git-commit: 2ff576ccb4ac3f9e2bdb690b6e9242d674214c33
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 18%
+source-wordcount: '688'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 18%
 
 有关应用程序和功能的特定服务级别协议的信息，请参阅 [应用程序和功能描述](#application-feature-descriptions) 部分。
 
-请注意，对于任何具有严格延迟或数量要求的客户用例，Adobe建议与您的Adobe客户团队和实施合作伙伴一起详细审查您的用例。 在某些情况下，建议在用例的生产启动之前测试和观察给定用例实施，以观察和了解预期行为 — 由于每个客户实施具有不同的作用因素，包括数据摄取的性质和频率、正在构建的区段规则的具体性以及各种激活挑战和负载 — 每个用例实施将具有不同的观察性能。 因此，最好预先建立和测试预期性能，以确保根据用例的延迟和性能要求获得适当的架构和实施。
+请注意，对于任何具有严格延迟或数量要求的客户用例，Adobe建议与您的Adobe客户团队和实施合作伙伴一起详细审查您的用例。 在某些情况下，建议在用例的生产启动之前测试和观察给定用例实施，以观察和了解预期行为 — 由于每个客户实施具有不同的作用因素，包括数据摄取的性质和频率、正在构建的区段规则的细节以及各种激活渠道和负载 — 每个用例实施将具有不同的观察性能。 因此，最好预先建立和测试预期性能，以确保根据用例的延迟和性能要求获得适当的架构和实施。
 
 
 ## Adobe Experience Platform 和应用程序的护栏参考文档
@@ -42,6 +42,12 @@ ht-degree: 18%
 
 ## 端到端延迟图 {#end-to-end-latency}
 
+### 观察到Experience Platform边缘网络和集线器主要延迟 {#edge-hub-latencies}
+
+下图描述了在Experience Platform和应用程序上构建用例时要注意的主要边缘和中心观察延迟。
+
+![Experience Platform边缘网络和集线器主要观察到的延迟。](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "观察到Experience Platform边缘网络和集线器主要延迟"){width="1000" zoomable="yes"}
+
 ### 数据摄入 {#data-ingestion}
 
 下图显示预期的数据摄取延迟值： [流式摄取](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) 和 [批量摄取](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=zh-Hans) 将数据引入Real-Time CDP时。 单击图像可查看高分辨率版本。
@@ -54,11 +60,11 @@ ht-degree: 18%
 
 ![分段高级视觉概述。](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "分段高级视觉概述和延迟值"){width="1000" zoomable="yes"}
 
-### Real-time Customer Data Platform 和 Adobe Target {#adobe-target-latency}
+### Real-time Customer Data Platform和边缘网络 {#adobe-edge-latency}
 
-下图显示了将受众从Real-Time CDP导出到时的预期滞后时间值 [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans). 单击图像可查看高分辨率版本。
+下图显示了利用边缘网络时的预期滞后时间值 — 例如，利用RTCDP受众访问 [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans). 单击图像可查看高分辨率版本。
 
-![导出到Adobe Target高级可视化概述。](/help/blueprints/experience-platform/deployment/assets/RTCDP_Target_guardrails.svg "将受众导出到Adobe Target高级可视化概述和延迟值"){width="1000" zoomable="yes"}
+![Adobe Edge网络和Experience Platform高级可视化概述。](/help/blueprints/experience-platform/deployment/assets/RTCDP_Edge_guardrails.svg "将受众导出到Adobe Target高级视觉概述和延迟"){width="1000" zoomable="yes"}
 
 ### Customer Journey Analytics   {#customer-journey-analytics}
 
