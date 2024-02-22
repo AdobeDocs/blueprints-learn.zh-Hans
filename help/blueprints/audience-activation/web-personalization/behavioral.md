@@ -7,7 +7,7 @@ solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data C
 kt: 7085
 thumbnail: thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 404c0d42fd29cb13f933bf74ad375476868a59ad
+source-git-commit: 47ae9808a53fd59583bd26b70e58c34a15e47493
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 98%
@@ -40,8 +40,8 @@ ht-degree: 98%
 
 Web/移动个性化 Blueprint 可以通过如下所述方法实现。
 
-1. 使用 [!UICONTROL Platform Web SDK] 或 [!UICONTROL Platform Mobile SDK] 和 [!UICONTROL Edge Network]。[请参阅 Experience Platform Web 和 Mobile SDK Blueprint](../experience-platform/deployment/websdk.md)
-1. 使用特定于应用程序的传统SDK(例如AppMeasurement.js)。 [请参阅特定于应用程序的 SDK Blueprint](../experience-platform/deployment/appsdk.md)
+1. 使用 [!UICONTROL Platform Web SDK] 或 [!UICONTROL Platform Mobile SDK] 和 [!UICONTROL Edge Network]。[请参阅 Experience Platform Web 和 Mobile SDK Blueprint](/experience-platform/deployment/websdk.md)
+1. 使用特定于应用程序的传统SDK(例如AppMeasurement.js)。 [请参阅特定于应用程序的 SDK Blueprint](/experience-platform/deployment/appsdk.md)
 
 ## 实施步骤
 
