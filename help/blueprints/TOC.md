@@ -5,7 +5,7 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: f98f1b6ca56ed1249e9c18ea04935808f4498ed5
+source-git-commit: 404c0d42fd29cb13f933bf74ad375476868a59ad
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 92%
@@ -40,6 +40,11 @@ ht-degree: 92%
       + [客户活动中心](/help/blueprints/audience-activation/customer-activity.md)
       + [区段匹配](/help/blueprints/audience-activation/segment-match.md)
    + [使用 Experience Cloud 应用程序激活](/help/blueprints/audience-activation/platform-and-applications.md)
+   + Web 和移动个性化 {#web-personalization}
+      + [概述](/help/blueprints/audience-activation/web-personalization/overview.md)
+      + [行为个性化 — Target](/help/blueprints//audience-activation/web-personalization/behavioral.md)
+      + [已知的客户个性化 - Target 和 RTCDP](/help/blueprints/audience-activation/web-personalization/known-personalization.md)
+      + [决策管理](/help/blueprints/audience-activation/web-personalization/decision-management-edge.md)
 + B2B 激活与营销 {#b2b-activation}
    + [概述](/help/blueprints/b2b/overview.md)
    + [B2B 激活](/help/blueprints/b2b/b2bactivation.md)
@@ -85,8 +90,3 @@ ht-degree: 92%
    + [概述](/help/blueprints/data-insights/overview.md)
    + [数据分析和智能](/help/blueprints/data-insights/analysis.md)
    + [为用户档案扩充自定义数据科学](/help/blueprints/data-insights/data-science.md)
-+ Web 和移动个性化 {#web-personalization}
-   + [概述](/help/blueprints/web-personalization/overview.md)
-   + [行为个性化 — Target](/help/blueprints/web-personalization/behavioral.md)
-   + [已知的客户个性化 - Target 和 RTCDP](/help/blueprints/web-personalization/known-personalization.md)
-   + [决策管理](/help/blueprints/web-personalization/decision-management-edge.md)
