@@ -4,10 +4,10 @@ description: 跨数字媒体、电子邮件、推送和 Web 渠道提供实时�
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 2dab717d638bdbc0a903861ec743a81f2aed986d
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 100%
+source-wordcount: '553'
+ht-degree: 99%
 
 ---
 
@@ -73,4 +73,4 @@ ht-degree: 100%
 | RTCDP + AEP | [线上/线下受众激活](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=zh-Hans) |
 | | [Experience Platform + 应用程序激活](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=zh-Hans) |
 | Marketo + AEP | [B2B 激活与营销](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/overview.html?lang=zh-Hans) | |
-| Target + AEP | [Adobe Target 用例 - 行为 Web/移动个性化](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=zh-Hans) | [使用已知客户数据的 Web/移动个性化](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=zh-Hans) | |
+| Target + AEP | [Adobe Target 用例 - 行为 Web/移动个性化](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/web-personalization/behavioral.html?lang=en) | [使用已知客户数据的 Web/移动个性化](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/web-personalization/known-personalization.html?lang=en) | |

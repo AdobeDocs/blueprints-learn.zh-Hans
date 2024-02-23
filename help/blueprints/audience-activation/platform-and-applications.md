@@ -4,10 +4,10 @@ description: 在 Experience Platform 中管理用户档案和受众，并将其�
 solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 2dab717d638bdbc0a903861ec743a81f2aed986d
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: '799'
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 ## 护栏
 
-请参阅[“受众和用户档案激活概述”页上的护栏](overview.md)  和[部署护栏](../experience-platform/deployment/guardrails.md)页面。
+请参阅 [Audience and Profile Activation概述页面上的护栏](overview.md) 和 [部署护栏](../experience-platform/deployment/guardrails.md) 页面。
 
 ## 实施注意事项
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 ### 从 Real-time Customer Data Platform 共享受众到 Target
 
-* 请参阅[已知客户个性化 - Target 和 RTCDP Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=zh-Hans)，以了解有关将用户档案和受众从 Real-time Customer Data Platform 共享到 Target 的更多详细信息。
+* 请参阅[已知客户个性化 - Target 和 RTCDP Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/web-personalization/known-personalization.html)，以了解有关将用户档案和受众从 Real-time Customer Data Platform 共享到 Target 的更多详细信息。
 
 ### 从 Real-time Customer Data Platform 共享受众到 Campaign 和 Journey Optimizer
 
