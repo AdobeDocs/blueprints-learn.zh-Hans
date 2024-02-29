@@ -5,7 +5,7 @@ solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Comme
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 655545ab9e1b173244a239967b6c173d66f74633
+source-git-commit: acbf600dbfb711c99eda2029bd48549e673f0361
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 79%
@@ -20,7 +20,7 @@ ht-degree: 79%
 
 下图展示了基于 Adobe Experience Platform 构建和集成的 Adobe Experience Cloud 组件，涵盖数据分析与受众、内容与商务、客户历程、营销工作流。
 
-<img src="assets/AEC.jpg" alt="Experience Cloud 概述" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
+<img src="assets/AEC.png" alt="Experience Cloud 概述" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 
 ## 数据与洞察、内容与商务和体验投放的集成架构
