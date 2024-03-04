@@ -5,9 +5,9 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 05bf0a34-e5c7-498c-8d5d-1d549c00e070
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
-workflow-type: ht
-source-wordcount: '91'
+source-git-commit: 00892a190ea2d214ddcbd083f2266d883ffe5861
+workflow-type: tm+mt
+source-wordcount: '74'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 以下架构图说明了利用特定于应用程序的 SDK 进行实施的集成路径和数据收集。
 
-<img src="assets/app_sdk_flow.svg" alt="使用特定于应用程序的 SDK 的实施参考架构" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.svg" alt="使用特定于应用程序的 SDK 的实施参考架构" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## 参考文档
 
