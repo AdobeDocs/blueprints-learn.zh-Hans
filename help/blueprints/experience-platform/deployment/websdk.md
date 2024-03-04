@@ -5,9 +5,9 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '254'
+source-git-commit: 3bd7a73786fee42ec14d98fc4362e7a9609f12a3
+workflow-type: tm+mt
+source-wordcount: '199'
 ht-degree: 100%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 100%
 
 以下架构图说明了利用 Experience Platform Web SDK 的部署和数据收集。
 
-<img src="assets/web_sdk_flow.svg" alt="使用 Experience Platform Web 和 Mobile SDK 实施的参考架构" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="使用 Experience Platform Web 和 Mobile SDK 实施的参考架构" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 Experience Edge、Experience Platform 服务和应用程序的序列图
 
-<img src="assets/web_sdk_sequence.svg" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_sequence.svg" alt="线上/线下 Web 个性化 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## 参考文档
 
