@@ -5,17 +5,17 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 404c0d42fd29cb13f933bf74ad375476868a59ad
+source-git-commit: 3cb8d1566e0ce1356c864e360f660a739d0a472a
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 92%
+source-wordcount: '252'
+ht-degree: 90%
 
 ---
 
 
 # 数字体验 Blueprint {#architecture}
 
-+ [概述](/help/blueprints/overview.md)
++ [数字体验Blueprint](/help/blueprints/overview.md)
 + 垂直行业 Blueprint {#vertical-blueprints}
    + [概述](/help/blueprints/vertical-blueprints/overview.md)
    + [服装](/help/blueprints/vertical-blueprints/apparel.md)
