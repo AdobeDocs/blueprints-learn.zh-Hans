@@ -1,5 +1,5 @@
 ---
-title: 行为 Web 个性化 Blueprint
+title: 行为Web个性化blueprint
 description: 了解如何根据线上行为和受众数据来个性化内容。
 landing-page-description: 了解如何根据线上行为和受众数据进行个性化。
 short-description: 了解如何根据线上行为和受众数据进行个性化。
@@ -7,14 +7,14 @@ solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data C
 kt: 7085
 thumbnail: thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 7d043f3245c131ee4dd6085dd4d15e38188a1884
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 98%
+source-wordcount: '443'
+ht-degree: 96%
 
 ---
 
-# 行为 Web/移动个性化 Blueprint
+# 行为Web和移动个性化Blueprint
 
 根据线上行为和受众数据进行个性化。
 

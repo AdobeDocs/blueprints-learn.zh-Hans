@@ -3,25 +3,21 @@ title: Real-Time CDP 与 Adobe Campaign v8 集成模式
 description: 显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign v8 结合使用来提供个性化对话。
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: a1f3aef5b508575019bd651b9706efc7d6db5306
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '218'
+ht-degree: 72%
 
 ---
 
-# Real-Time CDP 与 Adobe Campaign v8 集成模式
+# [!DNL Real-Time CDP] 带有Adobe [!DNL Campaign] v8集成模式
 
-显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign 结合使用来提供个性化对话。
-
-<br>
+展示Adobe [!DNL Experience Platform] 以及其Real-time Customer Profile和集中式分段工具可与Adobe Campaign一起使用，以提供个性化的对话。
 
 ## 应用程序
 
-* Adobe Experience Platform Real-Time CDP
-* Adobe Campaign v8
-
-<br>
+* Adobe [!DNL Experience Platform Real-Time CDP]
+* Adobe [!DNL Campaign] v8
 
 ## 架构
 
@@ -32,10 +28,10 @@ ht-degree: 100%
 ## 先决条件
 
 * 对于 Experience Cloud，必须为客户配置有效的 IMS 组织
-* 建议在同一 IMS 组织中配置 Adobe Experience Platform 和 Campaign，以便只有一个登录 URL
-* 必须为客户配置 V8 Campaign 实例
+* Adobe Experience Platform和 [!DNL Campaign] 建议在同一IMS组织中为单个登录URL进行配置
+* 客户必须预配的V8实例 [!DNL Campaign]
 * 客户必须符合条件并有权访问 RTCDP、源、目标。
-* 必须存在 Adobe Campaign 产品上下文
+* Adobe [!DNL Campaign] 产品上下文必须存在
 <br>
 
 ## 实施步骤

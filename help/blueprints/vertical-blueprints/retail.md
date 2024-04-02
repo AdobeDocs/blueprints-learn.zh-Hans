@@ -1,13 +1,13 @@
 ---
-title: 零售行业 - 通过 Experience Cloud 应用程序激活
-description: 跨数字媒体、电子邮件、推送和 Web 渠道提供实时客户体验。
+title: 零售业 — 通过Experience Cloud应用程序激活
+description: 了解如何跨数字媒体、电子邮件、推送和Web渠道提供实时客户体验。
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: 2dab717d638bdbc0a903861ec743a81f2aed986d
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 99%
+source-wordcount: '556'
+ht-degree: 95%
 
 ---
 
@@ -61,8 +61,7 @@ ht-degree: 99%
 <img src="../vertical-blueprints/assets/retail-architecture.png" alt="零售参考架构" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 
-## 相关蓝图
-
+## 相关Blueprint
 
 | 用例/集成  | 链接 |
 |:----|:----|

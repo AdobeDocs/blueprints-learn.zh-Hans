@@ -3,10 +3,10 @@ title: 中心决策管理 Blueprint
 description: 跨渠道向消费者投放个性化优惠，包括自助终端、座席协助体验、电子邮件以及其他推拨投放。
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 87%
+source-wordcount: '831'
+ht-degree: 84%
 
 ---
 
@@ -20,7 +20,7 @@ Journey Optimizer 用于跨所有接触点在适当的时间为客户提供最�
 
 决策管理可以通过两种方式进行部署。第一种是通过 Adobe Experience Platform 中心，即采用中央数据中心架构。对于“中心”方法，执行、个性化和投放优惠的延迟在 500 毫秒以上。因此，中心架构最适合不需要亚秒级延迟的客户体验，例如，为自助终端、呼叫中心中的座席协助体验或者个人交互提供的优惠决策。插入到电子邮件和推拨营销活动中的优惠同样由中心方法提供支持。
 
-第二种方法是通过 Experience Edge 网络，它是分布在全球各地的基础架构，可提供快速的亚秒级和毫秒级体验。由最靠近消费者地理位置的边缘基础架构执行最终消费者体验，可最大程度地减少延迟。边缘决策管理旨在提供实时客户体验，例如 Web 或移动集客个性化请求。
+第二种方法是通过体验[！DNL [!DNL Edge Network]] ，它是一种分布在全球各地的基础架构，可提供快速的、次秒和毫秒级的体验。 由最靠近消费者地理位置的边缘基础架构执行最终消费者体验，可最大程度地减少延迟。边缘决策管理旨在提供实时客户体验，例如 Web 或移动集客个性化请求。
 
 此 Blueprint 将介绍中心决策管理的具体细节。
 

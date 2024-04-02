@@ -1,17 +1,17 @@
 ---
-title: 数字体验 Blueprint 行业成功案例
-description: 数字体验 Blueprint 成功案例展示了各个行业如何使用基于 Adobe Experience Platform 的 Adobe Experience Cloud 应用程序实现业务价值。
+title: 数字体验Blueprint — 行业成功案例
+description: 了解成功案例展示各个行业如何使用由Adobe Experience Platform提供支持的Experience Cloud应用程序来实现业务价值。
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
-workflow-type: ht
-source-wordcount: '255'
-ht-degree: 100%
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 78%
 
 ---
 
 # 使用数字体验 Blueprint 取得行业成功
 
-了解客户如何利用数字体验 Blueprint 构建出色的体验并取得成功。凭借这些经过验证的可重复实施，您能够明晰策略，快速解决既定的业务问题。
+了解客户如何通过数字体验Blueprint创造出色的体验并取得成功。 凭借这些经过验证的可重复实施，您能够明晰策略，快速解决既定的业务问题。
 
 ## 特色成功案例
 

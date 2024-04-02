@@ -1,21 +1,25 @@
 ---
 title: 数据访问和导出 Blueprint
-description: 此 Blueprint 概述了通过 Adobe Experience Platform 和应用程序访问和导出数据的所有方法。
+description: 了解从Adobe Experience Platform和应用程序访问和导出数据的方法。
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: 2b555728ddf570e236c0c54a8c17f85a6942618f
 workflow-type: tm+mt
-source-wordcount: '2052'
-ht-degree: 100%
+source-wordcount: '1838'
+ht-degree: 91%
 
 ---
 
 # 数据访问和导出 Blueprint
 
-数据访问和导出 Blueprint 概述了通过 Adobe Experience Platform 和应用程序访问或导出数据的所有可能方法。
+数据访问和导出Blueprint概述了从中访问或导出数据的所有可能方法 [!DNL Experience Platform] 和应用程序。
 
-该 Blueprint 分为两个类别，分别用于通过 Experience Platform 和应用程序访问数据。首先是通过 Experience Platform 和应用程序导出数据的方法；这被视为数据导出的推送类型方法。其次是通过 Experience Platform 和应用程序访问数据的方法；这被视为数据访问的拉取类型方法。
+Blueprint分为两个类别，以便从访问数据 [!DNL Experience Platform] 和应用程序。
+
+第一类包括从Experience Platform和应用中获取数据的方法。 这将被视为 _推送_ 数据出口的类型方法。
+
+第二类包括从Experience Platform和应用访问数据的方法。 这将被视为 _提取_ 数据访问的类型方法。
 
 数据访问方法：
 
@@ -408,7 +412,7 @@ ht-degree: 100%
 
 ### 事件转发 {#event-forwarding}
 
-数据收集请求会直接收集到 Adobe 的边缘网络。可以在边缘网络配置到外部 RESTful 端点的请求，从而将这些请求转发到外部目标。
+数据收集请求将直接收集到Adobe的 [!DNL Edge Network]. 从 [!DNL Edge Network] 对外部RESTful端点的请求可以配置为将这些请求转发到外部目标。
 
 请参阅以下[事件转发](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=zh-Hans)文档以了解其他信息。
 
@@ -418,7 +422,7 @@ ht-degree: 100%
 
 #### 注意事项
 
-* 要使用事件转发，必须使用 WebSDK 或 MobileSDK 将数据发送到边缘网络。
+* 要使用事件转发，数据必须发送到 [!DNL Edge Network] 使用Web SDK或Mobile SDK。
 * 事件转发方法可减少页面加载时间和页面权重，因为页面上添加了更多标记。
 * 当前不支持从边缘用户档案或其他数据源进行扩充。
 * 支持有限的数据筛选和简单的映射转换。

@@ -4,9 +4,9 @@ description: 护栏定义了对 Adobe Experience Platform 和应用程序中组�
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 2ff576ccb4ac3f9e2bdb690b6e9242d674214c33
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '680'
 ht-degree: 15%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 15%
 **Experience Platform服务**
 
 * [数据摄入护栏](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
-* [边缘网络 API 护栏](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [[!DNL Edge Network] API护栏](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
 * [实时客户个人资料和分段护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 * [身份护栏](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=zh-Hans)
 * [查询服务护栏](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=zh-Hans)
@@ -46,7 +46,7 @@ ht-degree: 15%
 
 下图描述了在Experience Platform和应用程序上构建用例时要注意的主要边缘和中心观察延迟。
 
-![Experience Platform边缘网络和集线器主要观察到的延迟。](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "观察到Experience Platform边缘网络和集线器主要延迟"){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network] 和集线器主要观测延迟。](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "观察到Experience Platform边缘网络和集线器主要延迟"){width="1000" zoomable="yes"}
 
 ### 数据摄入 {#data-ingestion}
 
@@ -60,9 +60,9 @@ ht-degree: 15%
 
 ![分段高级视觉概述。](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "分段高级视觉概述和延迟值"){width="1000" zoomable="yes"}
 
-### Real-time Customer Data Platform和边缘网络 {#adobe-edge-latency}
+### Real-time Customer Data Platform和 [!DNL Edge Network] {#adobe-edge-latency}
 
-下图显示了利用边缘网络时的预期滞后时间值 — 例如，利用RTCDP受众访问 [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans). 单击图像可查看高分辨率版本。
+下图显示了利用 [!DNL Edge Network]  — 例如，在中利用RTCDP受众 [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans). 单击图像可查看高分辨率版本。
 
 ![Adobe Edge网络和Experience Platform高级可视化概述。](/help/blueprints/experience-platform/deployment/assets/RTCDP_Edge_guardrails.svg "将受众导出到Adobe Target高级视觉概述和延迟"){width="1000" zoomable="yes"}
 

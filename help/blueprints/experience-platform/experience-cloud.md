@@ -5,10 +5,10 @@ solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Comme
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 20ec9197752bbafea6e601d7a36406b5786f372b
+source-git-commit: 48b34b05b83f693395b71bcabb16dffa548a1b00
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 79%
+ht-degree: 73%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 79%
 <img src="assets/AEC.jpg" alt="Experience Cloud 概述" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 
-## 数据与洞察、内容与商务和体验投放的集成架构
+## 数据和见解、内容和商务以及体验交付的集成架构
 
 以下架构图说明了 Adobe Experience Cloud 各个组件如何进行连接和集成，以便在数据、内容和体验投放中实现大规模个性化。
 

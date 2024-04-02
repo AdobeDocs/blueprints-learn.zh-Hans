@@ -3,22 +3,24 @@ title: 边缘决策管理 Blueprint
 description: 跨渠道向消费者提供个性化优惠，包括实时 Web 体验和移动体验。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 95%
+source-wordcount: '632'
+ht-degree: 80%
 
 ---
 
-# Journey Optimizer - 边缘决策管理 Blueprint
+# JOURNEY OPTIMIZER - [!DNL Decision Management] 在Edge Blueprint上
 
-要了解有关决策管理的更多信息，请参阅[此处](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans)的产品文档和[此处](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=zh-Hans)的决策管理概述
+[!DNL Decision Management] 是作为一部分提供的服务 [!DNL Journey Optimizer]. 此 Blueprint 概述了该应用程序的用例和技术功能，并深入介绍了构成决策管理的各种架构组件和注意事项。
 
-Adobe 决策管理是作为 Adobe Journey Optimizer 的一部分提供的服务。此 Blueprint 概述了该应用程序的用例和技术功能，并深入介绍了构成决策管理的各种架构组件和注意事项。
+>[!MORELIKETHIS]
+>
+>要了解有关 [!DNL Decision Management]，请参见 [Blueprint概述](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=zh-Hans) 或访问 [产品文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans).
 
-决策管理可以通过两种方式进行部署。第一种是通过 Adobe Experience Platform 中心，即采用单个数据中心架构。对于“中心”方法，执行、个性化和投放优惠的延迟为一秒左右。因此，中心架构最适合不需要亚秒级延迟的客户体验，例如，为自助终端、呼叫中心中的座席协助体验或者个人交互提供的优惠决策。
+[!DNL Decision Management] 可以通过以下两种方式之一进行部署。 第一个是通过 [!DNL Experience Platform] Hub，它是一个单一的数据中心架构。 对于“中心”方法，执行、个性化和投放优惠的延迟为一秒左右。因此，中心架构最适合不需要亚秒级延迟的客户体验，例如，为自助终端、呼叫中心中的座席协助体验或者个人交互提供的优惠决策。
 
-第二种方法是通过 Experience Edge 网络，它是分布在全球各地的基础架构，可提供快速的亚秒级和毫秒级体验。由最靠近消费者地理位置的边缘基础架构执行最终消费者体验，可最大程度地减少延迟。边缘决策管理旨在提供实时的消费者体验。这些体验包括 Web 或移动入站个性化请求等体验。
+第二种方法是通过Experience Platform [!DNL Edge Network]，它是一种全球分布的地理位置基础结构，可提供快速的次秒和毫秒级体验。 由距离使用者地理位置最近的边缘基础架构执行的最终使用者体验，可最大程度地减少延迟。 [!DNL Decision Management] on the Edge旨在提供实时消费者体验。 这些体验包括 Web 或移动入站个性化请求等体验。
 
 此 Blueprint 将介绍边缘决策管理的具体细节。
 

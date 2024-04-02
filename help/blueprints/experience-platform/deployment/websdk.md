@@ -1,25 +1,25 @@
 ---
-title: Web/Mobile SDK、Edge 网络部署架构 Blueprint
-description: 此 Blueprint 显示了架构和通过 Experience Platform Web 和 Mobile SDK 和 Edge 网络进行的摄入
+title: Web/移动SDK、 [!DNL Edge Network] 部署架构图
+description: 此Blueprint显示Experience PlatformWeb和移动SDK的架构和摄取，并且 [!DNL Edge Network]
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 3bd7a73786fee42ec14d98fc4362e7a9609f12a3
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '187'
+ht-degree: 69%
 
 ---
 
 
-# Experience Platform Web SDK 和 Edge 网络架构图
+# Experience PlatformWeb SDK和 [!DNL Edge Network] 架构图
 
-有关 Web 和 Mobile SDK 以及 Edge 网络服务器 API 的概述和详细信息，请参阅以下内容。
+有关Web和Mobile SDK以及 [!DNL Edge Network] 服务器API请参阅以下内容。
 
 * [Web SDK 概述](https://experienceleague.adobe.com/docs/web-sdk.html?lang=zh-Hans)
 * [Mobile SDK 概述](https://developer.adobe.com/client-sdks/documentation/)
-* [Edge 网络服务器 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)
+* [[!DNL Edge Network] 服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)
 
 有关 WebSDK 支持哪些应用程序功能的详细概述，请参阅以下文档。
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=zh-Hans)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html?lang=zh-Hans)
 
-## Experience Platform Web/Mobile SDK 或 Edge 网络服务器 API 部署
+## Experience PlatformWeb/Mobile SDK或 [!DNL Edge Network] 服务器API部署
 
 以下架构图说明了利用 Experience Platform Web SDK 的部署和数据收集。
 

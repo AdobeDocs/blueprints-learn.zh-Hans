@@ -1,20 +1,20 @@
 ---
 title: Campaign v7 Blueprint
-description: Adobe Campaign v7 是一款针对电子邮件和直邮等传统营销渠道而构建的活动工具。它提供了强大的 ETL 和数据管理功能，以帮助策划完美的营销活动。其编排引擎提供丰富的多接触点营销计划，其核心重点是基于批次的驱动历程。它还与实时消息服务器相配合，使营销团队能够根据来自任何 IT 系统的包含所有内容的有效负载发送预定义消息，以执行密码重置、订单确认、电子收据等操作。
+description: 了解Campaign v7的Blueprint，其中涵盖基于批次的消息传递计划、新用户引导和再营销活动、直邮广告和简单的事务型消息传递。
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
-source-wordcount: '1195'
-ht-degree: 100%
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+workflow-type: tm+mt
+source-wordcount: '1103'
+ht-degree: 94%
 
 ---
 
 # Campaign v7 Blueprint
 
-Adobe Campaign v7 是一款针对电子邮件和直邮等传统营销渠道而构建的活动工具。它提供了强大的 ETL 和数据管理功能，以帮助策划完美的营销活动。其编排引擎提供丰富的多接触点营销计划，其核心重点是基于批次的驱动历程。它还与实时消息服务器相配合，使营销团队能够根据来自任何 IT 系统的包含所有内容的有效负载发送预定义消息，以执行密码重置、订单确认、电子收据等操作。
+Adobe Campaign v7 是一款针对电子邮件和直邮等传统营销渠道而构建的活动工具。它提供了强大的 ETL 和数据管理功能，以帮助策划完美的营销活动。其编排引擎提供了丰富的多接触点营销计划，核心重点放在基于批次的驱动的历程。
 
-<br>
+它还与实时消息服务器相配合，使营销团队能够根据来自任何 IT 系统的包含所有内容的有效负载发送预定义消息，以执行密码重置、订单确认、电子收据等操作。
 
 ## 用例
 
@@ -23,13 +23,9 @@ Adobe Campaign v7 是一款针对电子邮件和直邮等传统营销渠道而�
 * 直邮广告、手册和杂志活动
 * 低流量的简单事务型消息传递（即密码重置、电子邮件接收、订单确认等）
 
-<br>
-
 ## 架构
 
 <img src="assets/campaign-v7-architecture.svg" alt="Campaign v7 Blueprint 的参考架构" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
 
 ## 集成模式
 
@@ -38,9 +34,9 @@ Adobe Campaign v7 是一款针对电子邮件和直邮等传统营销渠道而�
 | [Real-Time CDP 与 Adobe Campaign](rtcdp-and-campaign.md) | 显示如何将 Adobe Experience Platform 的 Real-Time CDP 及其集中化分段工具与 Adobe Campaign 结合使用来提供个性化对话 | <ul><li>使用云存储文件交换和 Adobe Campaign 摄入工作流，将受众从 Real-Time CDP 共享到 Adobe Campaign </li><li>将客户对话中的传送和交互数据轻松共享回 Adobe Campaign 的 Real-Time CDP，以增强实时客户档案并提供有关消息传递营销活动的跨渠道报告</li></ul> |
 | [Journey Optimizer 与 Adobe Campaign](ajo-and-campaign.md) | 显示如何使用 Adobe Journey Optimizer 利用实时客户档案编排 1:1 体验，并利用本机 Adobe Campaign 事务型消息传递系统来发送消息 | 利用实时客户档案和 Journey Optimizer 的强大功能编排即刻体验，同时利用 Adobe Campaign 的本机实时消息传递功能进行最后一英里通信<br><br>注意事项：<br><ul><li>可通过实时消息服务器每小时发送最多 5 万条消息<li>不会从 Journey Optimizer 执行限流，因此请确保售前企业架构师进行技术审查</li><li>Campaign v7 实时消息传递服务器的有效负载中不支持决策管理</li></ul> |
 
-<br>
-
 ## 先决条件
+
+请查看以下先决条件。
 
 ### 应用程序服务器和实时消息服务器
 
@@ -72,6 +68,8 @@ Adobe Campaign v7 是一款针对电子邮件和直邮等传统营销渠道而�
 <br>
 
 ## 护栏
+
+查看以下护栏。
 
 ### 应用程序服务器大小调整
 
@@ -113,14 +111,12 @@ Adobe Campaign v7 是一款针对电子邮件和直邮等传统营销渠道而�
    * 联系 Adobe 客户关怀以获取访问权限
    * 请按照 [Campaign SDK 文档](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=zh-Hans)了解如何安装和配置 SDK
 
-   >[!IMPORTANT]
-   >如果您部署 Campaign SDK 并正在使用其他 Experience Cloud 应用程序，则需要使用 Experience Platform Mobile SDK 进行数据收集。这是不同的 SDK，需要与 Campaign SDK 一起安装
-
-<br>
+  >[!IMPORTANT]
+  >如果您部署 Campaign SDK 并正在使用其他 Experience Cloud 应用程序，则需要使用 Experience Platform Mobile SDK 进行数据收集。这是不同的 SDK，需要与 Campaign SDK 一起安装
 
 ## 实施步骤
 
-请参阅[快速入门指南](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=zh-Hans)以实施 Adobe Campaign v7
+请参阅 [快速入门指南](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=zh-Hans) ，以了解如何实施Adobe Campaign v7。
 
 
 ## 相关文档

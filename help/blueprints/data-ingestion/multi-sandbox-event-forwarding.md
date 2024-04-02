@@ -4,10 +4,10 @@ description: 了解如何将使用 Experience Platform Web 和移动 SDK 收集�
 solution: Data Collection
 kt: 7202
 exl-id: ecc94fc8-9fad-4b88-a153-3d0fc00d8d58
-source-git-commit: 3d6a2416cdb9956e59be4b2918ba19f88cd2150b
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 100%
+source-wordcount: '769'
+ht-degree: 83%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 ### 不同的数据流和流传输端点
 
-在数据从 [!UICONTROL Platform Edge 网络]流经数据流的过程中，使用[!UICONTROL 事件转发]到另一个 AEP 沙盒时，一个要求是切勿使用与生成原始收集的数据流相同的数据流或流传输端点。这可能会对 AEP 实例造成不利影响，并可能触发 DoS 情况。
+当数据流从以下位置流经数据流时： [!DNL Platform Edge Network]，使用时 [!UICONTROL 事件转发] 对于另一个AEP沙盒，要求永远不要使用与制作原始收藏集的数据流相同的数据流或流端点。 这可能会对 AEP 实例造成不利影响，并可能触发 DoS 情况。
 
 ### 估计的流量
 
@@ -54,11 +54,11 @@ ht-degree: 100%
 
 ![多沙盒[!UICONTROL 事件转发]](assets/multi-sandbox-data-collection.png)
 
-1. 要使用[!UICONTROL 事件转发]，需要收集事件数据并将其发送到 [!UICONTROL Platform Edge 网络]。客户可以使用 Adobe 标记进行客户端收集，也可以使用 [!UICONTROL Platform Edge Network Server API] 进行服务器到服务器数据收集。[!UICONTROL Platform Edge Network API] 可提供服务器到服务器的收集功能。但是，这确实需要不同的编程模型来实施。请参阅 [Edge Network Server API 概述](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)。
+1. 收集事件数据并将其发送至 [!DNL Platform Edge Network] 是必需的，才可使用 [!UICONTROL 事件转发]. 客户可以使用客户端的Adobe标签或 [!DNL Platform Edge Network Server API] 用于服务器到服务器数据收集。 此 [!DNL Platform Edge Network API] 可提供服务器到服务器收集功能。 但是，这确实需要不同的编程模型来实施。请参阅 [Edge Network Server API 概述](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)。
 
-1. 收集的有效负载从标记实施发送到 [!UICONTROL Platform Edge 网络]，再到[!UICONTROL 事件转发]服务，并由其自己的[!UICONTROL 数据元素]、[!UICONTROL 规则]和[!UICONTROL 操作]进行处理。您可以详细了解[标记和[!UICONTROL 事件转发]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=zh-Hans#differences-from-tags)的差异。
+1. 收集的有效负载从标记实施发送到 [!DNL Platform Edge Network] 到 [!UICONTROL 事件转发] 服务并由其自身处理 [!UICONTROL 数据元素]， [!UICONTROL 规则] 和 [!UICONTROL 操作]. 您可以详细了解[标记和[!UICONTROL 事件转发]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=zh-Hans#differences-from-tags)的差异。
 
-1. 从 [!UICONTROL Platform Edge 网络]接收收集的事件数据还需要[!UICONTROL 事件转发]属性。事件数据是由部署的标记实施还是服务器到服务器收集功能发送到 Platform Edge 网络。作者定义用于在转发到第二个沙盒之前扩充事件数据的数据元素、规则和操作。考虑使用自定义代码 [!DNL JavaScript] 数据元素，以帮助构建用于沙盒摄入的数据。与 Platform 数据准备功能结合使用时，您有多种选择来管理数据结构。
+1. An [!UICONTROL 事件转发] 属性也需要才能接收从收集到的事件数据 [!DNL Platform Edge Network]. 该事件数据是否已发送到 [!DNL Platform Edge Network] 由已部署的标记实施或服务器到服务器集合执行。 作者定义用于在转发到第二个沙盒之前扩充事件数据的数据元素、规则和操作。考虑使用自定义代码 [!DNL JavaScript] 数据元素，以帮助构建用于沙盒摄入的数据。与 Platform 数据准备功能结合使用时，您有多种选择来管理数据结构。
 
 1. 目前，需要在[!UICONTROL 事件转发]属性内使用 Adobe [!UICONTROL Cloud Connector 扩展]。在规则处理或扩充事件数据后，可在为将有效负载发送到第二个沙盒的 POST 配置的获取调用中使用 Cloud Connector
 
