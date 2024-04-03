@@ -1,24 +1,24 @@
 ---
 title: 数据分析和智能 Blueprint
-description: 此 Blueprint 展示了 Adobe Experience Platform 内对数据湖中存在的数据执行探索性查询和分析的能力。
+description: 使用Adobe [!DNL Experience Platform] (AEM)对数据湖中存在的数据进行探索性查询和分析。
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 7f3bc307f74aa88a7a73f3e50cc48bd16f58b37f
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 59%
 
 ---
 
-# 数据分析和智能 Blueprint
+# 数据分析和智能Blueprint
 
-数据分析和智能包括 Adobe Experience Platform 内对数据湖中存在的数据执行探索性查询和分析的能力。
+数据分析和智能包括在 [!DNL Experience Platform] 探索性查询和分析存在于数据湖中的数据。
 
-Experience Platform 的[!UICONTROL 查询服务]允许对数据执行 SQL 查询。
+[!DNL Experience Platform]的 [!UICONTROL 查询服务] 允许对数据执行SQL查询。
 
-Experience Platform 允许与第三方 SQL 客户端、接口和 Business Intelligence (BI) 工具连接，以使用[!DNL PostgreSQL]协议直接连接、访问和查询 Experience Platform 内的数据。
+[!DNL Experience Platform] 允许与第三方SQL客户端、界面和Business Intelligence(BI)工具建立连接，以直接连接、访问和查询中的数据 [!DNL Experience Platform]，使用 [!DNL PostgreSQL] 协议。
 
 ## 用例
 
@@ -30,7 +30,7 @@ Experience Platform 允许与第三方 SQL 客户端、接口和 Business Intell
 
 ## 应用程序
 
-* Adobe Experience Platform  
+* Adobe [!DNL Experience Platform]
 
 ## 架构
 
@@ -45,11 +45,11 @@ Experience Platform 允许与第三方 SQL 客户端、接口和 Business Intell
 
 1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=zh-Hans)
 1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
-1. [将数据摄入](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans) Experience Platform。
+1. [引入数据](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans) 到 [!DNL Experience Platform].
 1. 确认数据可用于[[!UICONTROL 查询服务]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=zh-Hans)。
 1. [将 Business Intelligence 工具和 SQL 客户端连接到[!UICONTROL 查询服务]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=zh-Hans)，以实现可视化、数据查询和探索。
 
 ## 相关文档
 
-* [Adobe Experience Platform 智能产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Adobe [!DNL Experience Platform] Intelligence产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * [[!UICONTROL 查询服务]文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans)

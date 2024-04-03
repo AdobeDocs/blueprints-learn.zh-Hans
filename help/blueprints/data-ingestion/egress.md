@@ -4,22 +4,22 @@ description: 了解从Adobe Experience Platform和应用程序访问和导出数
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 2b555728ddf570e236c0c54a8c17f85a6942618f
+source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1834'
 ht-degree: 91%
 
 ---
 
-# 数据访问和导出 Blueprint
+# 数据访问和导出Blueprint
 
 数据访问和导出Blueprint概述了从中访问或导出数据的所有可能方法 [!DNL Experience Platform] 和应用程序。
 
 Blueprint分为两个类别，以便从访问数据 [!DNL Experience Platform] 和应用程序。
 
-第一类包括从Experience Platform和应用中获取数据的方法。 这将被视为 _推送_ 数据出口的类型方法。
+第一类包括从以下位置提取数据的方法： [!DNL Experience Platform] 和应用程序。 这将被视为 _推送_ 数据出口的类型方法。
 
-第二类包括从Experience Platform和应用访问数据的方法。 这将被视为 _提取_ 数据访问的类型方法。
+第二类包括从访问数据的方法 [!DNL Experience Platform] 和应用程序。 这将被视为 _提取_ 数据访问的类型方法。
 
 数据访问方法：
 
