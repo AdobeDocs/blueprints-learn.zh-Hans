@@ -3,7 +3,7 @@ title: Adobe Commerce - RTCDP Blueprint
 description: Adobe Experience Platform与Adobe Commerce集成，以创建客户的单一视图，并在数字店面和各个渠道上智能地个性化体验。
 solution: Real-Time Customer Data Platform, Commerce
 exl-id: e2fc5e1c-c865-4c24-9b82-861a34aba487
-source-git-commit: 8a47b73065a5591673804301c61a73947346813c
+source-git-commit: 993836cda90ce169602cc6a4eec9a7477fc67172
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adobe Commerce和RTCDP
 
-此 [!DNL Data Connection] 扩展可帮助Adobe Commerce客户与Adobe Experience Platform无缝集成，以丰富客户配置文件并在数字店面和其他渠道中个性化体验。
+此 [!DNL Data Connection] 扩展可帮助Adobe Commerce客户与Adobe Experience Platform无缝集成，以丰富客户配置文件并个性化数字店面和其他渠道中的体验。
 
 ## 已启用技术功能
 
@@ -36,10 +36,10 @@ ht-degree: 0%
 
 * [安装](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/install.html) 该 [!DNL Data Connection] 扩展。
 * [登录](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) Adobe ，并查看以确认您的组织ID。 组织ID是与您配置的Experience Cloud公司关联的ID。 此ID是由24个字符组成的字母数字字符串，其后跟（且必须包括）@AdobeOrg。
-* [创建或更新](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/update-xdm.html) 您的XDM架构和特定于商务的字段组。
-* [创建数据集](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/experience-cloud/platform.html#create-a-dataset) 基于您创建或更新的架构。 此数据集将包含您发送的商务数据。
+* [创建或更新](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/update-xdm.html) 您的XDM架构和特定于Commerce的字段组。
+* [创建数据集](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/experience-cloud/platform.html#create-a-dataset) 基于您创建或更新的架构。 此数据集将包含您发送的Commerce数据。
 * [创建数据流](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) 并选择包含特定于Commerce的字段组的XDM架构。
-* [连接到Commerce Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
+* [连接到Commerce服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
 * [连接到Adobe Experience Platform](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html).
 
 ### 从Adobe Experience Platform连接到Commerce目标以进行受众共享
@@ -57,7 +57,7 @@ ht-degree: 0%
 * 后台活动
 * 历史订单数据
 
-有关支持的事件的完整列表，请参阅 [商务事件](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html)
+有关支持的事件的完整列表，请参阅 [Commerce事件](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html)
 
 ## 架构
 
@@ -68,5 +68,5 @@ ht-degree: 0%
 | 指南 | 链接 |
 |:----|:----|
 | 平台连接器 | [Adobe CommerceExperience Platform连接器概述](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html) |
-| 商务目标 | [RTCDP中的Adobe Commerce连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) |
+| Commerce目标 | [RTCDP中的Adobe Commerce连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) |
 | 边缘个性化 | [激活受众以边缘个性化目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) | |
