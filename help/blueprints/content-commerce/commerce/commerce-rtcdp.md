@@ -3,7 +3,7 @@ title: Adobe Commerce - RTCDP Blueprint
 description: Adobe Experience Platform与Adobe Commerce集成，以创建客户的单一视图，并在数字店面和各个渠道上智能地个性化体验。
 solution: Real-Time Customer Data Platform, Commerce
 exl-id: e2fc5e1c-c865-4c24-9b82-861a34aba487
-source-git-commit: 993836cda90ce169602cc6a4eec9a7477fc67172
+source-git-commit: 80a4716a7ed64ec30b9c60b3444affc5bd8984e4
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -69,4 +69,4 @@ ht-degree: 0%
 |:----|:----|
 | 平台连接器 | [Adobe CommerceExperience Platform连接器概述](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html) |
 | Commerce目标 | [RTCDP中的Adobe Commerce连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) |
-| 边缘个性化 | [激活受众以边缘个性化目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) | |
+| 边缘个性化 | [激活受众以边缘个性化目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) |
