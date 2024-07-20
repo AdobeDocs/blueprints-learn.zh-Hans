@@ -1,5 +1,5 @@
 ---
-title: Web/移动个性化概述 — Adobe Target和RTCDP
+title: Web/移动Personalization概述 — Adobe Target和RTCDP
 description: 将 Web 个性化与电子邮件和其他已知和匿名渠道的个性化同步。
 landing-page-description: 将 Web 个性化与电子邮件和其他已知和匿名渠道的个性化同步。
 short-description: 将 Web 个性化与电子邮件和其他已知和匿名渠道的个性化同步。
@@ -15,7 +15,7 @@ ht-degree: 79%
 ---
 
 
-# 使用已知客户数据Blueprint进行Web/移动个性化
+# 具有已知客户数据Blueprint的Web/移动Personalization
 
 ## 用例
 
@@ -42,8 +42,8 @@ ht-degree: 79%
 
 | 集成模式 | 功能 | 先决条件 |
 |---|---|---|
-| 将 Edge 上的实时区段评估从 Real-time Customer Data Platform 共享到 Target | <ul><li>在 Edge 上实时评估受众以进行同页或下一页个性化。</li><li>此外，任何以流式或批量方式评估的区段也将投影到 [!DNL Edge Network] 将包含在边缘区段评估和个性化中。</li></ul> | <ul><li>必须实施Web/Mobile SDK，或者 [!DNL Edge Network] 服务器API</li><li>必须在 Experience Edge 中配置数据流并启用 Target 和 Experience Platform 扩展。</li><li>必须在 Real-time Customer Data Platform 目标中配置 Target 目标。</li><li>与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。</li></ul> |
-| 通过 Edge 方案将来自 Real-time Customer Data Platform 的流传输受众和批次受众共享到 Target | <ul><li>通过以下方式将流受众和批量受众从Real-time Customer Data Platform共享到Target [!DNL Edge Network]. 实时评估的受众需要Web SDK和 [!DNL Edge Network] 实现。</li></ul> | <ul><li>将流传输和批次 RTCDP 受众共享到 Target 时，不需要 Web/Mobile SDK 或边缘 API Target 实施，不过实现上述的实时边缘区段评估需要它。</li><li>如果使用 AT.js，则仅支持针对 ECID 身份命名空间的用户档案集成。</li><li>对于 Edge 上的自定义身份命名空间查找，需要部署 WebSDK/Edge API，并且必须在身份映射中将每个身份设置为身份。</li><li>必须在 Real-time Customer Data Platform 目标中配置 Target 目标，仅支持 RTCDP 中的默认生产沙盒。</li><li>与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。</li></ul> |
+| 将 Edge 上的实时区段评估从 Real-time Customer Data Platform 共享到 Target | <ul><li>在 Edge 上实时评估受众以进行同页或下一页个性化。</li><li>此外，任何以流式或批处理方式评估的区段也将投影到[!DNL Edge Network]，以包含在边缘区段评估和个性化中。</li></ul> | <ul><li>必须实施Web/Mobile SDK或[!DNL Edge Network]服务器API</li><li>必须在 Experience Edge 中配置数据流并启用 Target 和 Experience Platform 扩展。</li><li>必须在 Real-time Customer Data Platform 目标中配置 Target 目标。</li><li>与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。</li></ul> |
+| 通过 Edge 方案将来自 Real-time Customer Data Platform 的流传输受众和批次受众共享到 Target | <ul><li>通过[!DNL Edge Network]共享从Real-time Customer Data Platform到Target的流受众和批量受众。 实时评估的受众需要Web SDK和[!DNL Edge Network]实施。</li></ul> | <ul><li>将流传输和批次 RTCDP 受众共享到 Target 时，不需要 Web/Mobile SDK 或边缘 API Target 实施，不过实现上述的实时边缘区段评估需要它。</li><li>如果使用 AT.js，则仅支持针对 ECID 身份命名空间的用户档案集成。</li><li>对于 Edge 上的自定义身份命名空间查找，需要部署 WebSDK/Edge API，并且必须在身份映射中将每个身份设置为身份。</li><li>必须在 Real-time Customer Data Platform 目标中配置 Target 目标，仅支持 RTCDP 中的默认生产沙盒。</li><li>与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。</li></ul> |
 | 通过受众共享服务方案，将流传输和批次受众从 Real-time Customer Data Platform 共享到 Target 和 Audience Manager | <ul><li>当 Audience Manager 中需要通过第三方数据和受众进行额外扩充时，可以利用此集成模式。</li></ul> | <ul><li>将流传输受众和批次受众共享到 Target 时，不需要 Web/Mobile SDK，不过实现实时 Edge 区段评估需要它。</li><li>如果使用 AT.js，则仅支持针对 ECID 身份命名空间的用户档案集成。</li><li>对于 Edge 上的自定义身份命名空间查找，需要部署 WebSDK/Edge API，并且必须在身份映射中将每个身份设置为身份。</li><li>必须配置通过受众共享服务的受众映射。</li><li>与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。</li><li>只有默认生产沙盒中的受众支持受众共享核心服务。</li></ul> |
 
 ## 将流传输和批次受众实时共享到 Adobe Target
@@ -64,12 +64,12 @@ ht-degree: 79%
 
 通过多种实施方案支持已知客户个性化。
 
-### 实施模式1 - [!DNL Edge Network] 使用Web/Mobile SDK或 [!DNL Edge Network] API（推荐方法）
+### 带有Web/Mobile SDK或[!DNL Edge Network] API的实施模式1 - [!DNL Edge Network]（推荐方法）
 
-* 使用 [!DNL Edge Network] 和Web/Mobile SDK一起使用。 实时 Edge 分段需要使用 Web/Mobile SDK 或 Edge API 实施方法。
-* [请参阅Experience PlatformWeb和移动SDK Blueprint](../../experience-platform/deployment/websdk.md) 用于基于SDK的实施。
+* 将[!DNL Edge Network]与Web/Mobile SDK结合使用。 实时 Edge 分段需要使用 Web/Mobile SDK 或 Edge API 实施方法。
+* [有关基于SDK的Experience Platform，请参阅Web和移动SDK Blueprint](../../experience-platform/deployment/websdk.md)。
 * 在 Mobile SDK 中使用 [Adobe Journey Optimizer - 决策扩展](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning)必须安装在 Mobile SDK 中。
-* [请参阅 [!DNL Edge Network] 服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans) 用于使用Edge Profile实施Adobe Target的基于API的实施。
+* [有关包含Edge配置文件的基于API的Adobe Target实现，请参阅 [!DNL Edge Network] 服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)。
 
 ### 实施模式 2 - 特定于应用程序的 SDK
 
@@ -82,7 +82,7 @@ ht-degree: 79%
 
 身份先决条件
 
-* 在使用上面概述的实现模式1时，可以利用任何主要身份 [!DNL Edge Network] 和Web SDK。 首次登录个性化要求个性化请求集主标识与Real-time Customer Data Platform中配置文件的主标识匹配。
+* 在将[!DNL Edge Network]和Web SDK结合使用上述实施模式1时，可以利用任何主要身份。 首次登录个性化要求个性化请求集主标识与Real-time Customer Data Platform中配置文件的主标识匹配。
 
 ## 相关文档
 

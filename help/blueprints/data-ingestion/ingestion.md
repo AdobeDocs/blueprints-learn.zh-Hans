@@ -1,6 +1,6 @@
 ---
 title: 数据准备和摄入 Blueprint
-description: 此Blueprint显示了可在Adobe中提取和准备数据的所有方法 [!DNL Experience Platform].
+description: 此Blueprint显示了可在Adobe [!DNL Experience Platform]中摄取和准备数据的所有方法。
 solution: Data Collection
 kt: 7204
 thumbnail: null
@@ -14,7 +14,7 @@ ht-degree: 73%
 
 # 数据准备和引入Blueprint
 
-数据准备和引入Blueprint涵盖了可用于准备数据并将其引入Adobe的所有方法 [!DNL Experience Platform].
+数据准备和引入Blueprint包含可用于准备数据并将其引入Adobe[!DNL Experience Platform]的所有方法。
 
 数据准备包括将源数据映射到体验数据模型 (XDM) 架构。它还包括对数据执行转换，包括日期格式、字段拆分/串联/转化，以及对记录进行连接/合并/重新设置键。数据准备有助于统一客户数据以提供汇总/筛选的分析，包括报告或准备数据以用于客户档案汇编/数据科学/激活。
 
@@ -24,7 +24,7 @@ ht-degree: 73%
 
 ## 数据摄入护栏
 
-下图说明了将数据摄取到Adobe中的平均性能护栏和延迟 [!DNL Experience Platform].
+下图说明了将数据摄取到Adobe[!DNL Experience Platform]中的平均性能护栏和延迟。
 
 <img src="../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="[!DNL Experience Platform] 数据流" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" class="modal-image" />
 
@@ -102,7 +102,7 @@ ht-degree: 73%
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">数据流通过 [!DNL Edge Network]. 支持边缘实时分段。 </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">数据通过[!DNL Edge Network]流式传输。 支持边缘实时分段。 </span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -268,10 +268,10 @@ ht-degree: 73%
 
 | 摄入方法 | 描述 |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Web/Mobile SDK | 延迟：<ul><li>实时 — 与相同的页面收藏集 [!DNL Edge Network]</li><li>在第95百分位处将摄取流式传输到配置文件&lt; 15分钟</li><li>流式摄入到数据湖（微批量 ~15 分钟）</ul>文档： <ul><li>[Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=zh-Hans)</li><li>[使用 Web SDK 实施 Adobe Experience Cloud 教程](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)</li><li>[在移动设备应用程序中实施 Adobe Experience Cloud 教程](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=zh-Hans)</li></ul> |
-| 流传输源 | [流传输源](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans#connectors)<br>延迟：<ul><li>实时 — 与相同的页面收藏集 [!DNL Edge Network]</li><li>流式摄入到用户档案 ~1 分钟</li><li>流式摄入到数据湖（微批量 ~15 分钟）</li></ul> |
-| 流传输 API | [[!DNL Edge Network] 服务器API（首选）](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans)  — 支持边缘服务，包括边缘分段和 <br>[数据收集核心服务API](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=zh-Hans)  — 不支持边缘服务，直接路由到中心。<br>延迟：<ul><li>实时 — 与相同的页面收藏集 [!DNL Edge Network]</li><li>流式摄入到用户档案 ~1 分钟</li><li>流式摄入到数据湖（微批量 ~15 分钟）</li><li>7 GB/小时</li></ul>[文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans#what-can-you-do-with-streaming-ingestion%3F) |
-| ETL 工具 | 使用ETL工具在引入之前修改和转换企业数据 [!DNL Experience Platform].<br><br>延迟：<ul><li>根据外部 ETL 工具的调度进行定时，然后根据摄入方法应用标准摄入护栏。</li></ul> |
+| Web/Mobile SDK | 延迟：<ul><li>实时 — 对[!DNL Edge Network]的相同页面集合</li><li>在第95百分位处将摄取流式传输到配置文件&lt; 15分钟</li><li>流式摄入到数据湖（微批量 ~15 分钟）</ul>文档： <ul><li>[Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=zh-Hans)</li><li>[使用 Web SDK 实施 Adobe Experience Cloud 教程](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)</li><li>[在移动设备应用程序中实施 Adobe Experience Cloud 教程](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=zh-Hans)</li></ul> |
+| 流传输源 | [流传输源](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans#connectors)<br>延迟：<ul><li>实时 — 对[!DNL Edge Network]的相同页面集合</li><li>流式摄入到用户档案 ~1 分钟</li><li>流式摄入到数据湖（微批量 ~15 分钟）</li></ul> |
+| 流传输 API | [[!DNL Edge Network] 服务器API（首选）](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans) — 支持Edge服务，包括Edge分段和<br>[数据收集核心服务API](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=zh-Hans) — 不支持Edge服务，直接路由到中心。<br>延迟：<ul><li>实时 — 对[!DNL Edge Network]的相同页面集合</li><li>流式摄入到用户档案 ~1 分钟</li><li>流式摄入到数据湖（微批量 ~15 分钟）</li><li>7 GB/小时</li></ul>[文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans#what-can-you-do-with-streaming-ingestion%3F) |
+| ETL 工具 | 使用ETL工具修改和转换企业数据，然后将其引入[!DNL Experience Platform]。<br><br>延迟：<ul><li>根据外部 ETL 工具的调度进行定时，然后根据摄入方法应用标准摄入护栏。</li></ul> |
 | 批次源 | 计划从源获取<br>延迟：~ 200 GB/小时文档视频<br><br>[文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans#connectors)<br>[视频教程](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=zh-Hans) |
 | 批处理 API | 延迟：<ul><li>根据大小和流量负载，批次摄入到用户档案需要约 45 分钟</li><li>根据大小和流量负载，批次摄入到数据湖</li></ul>[文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=zh-Hans#batch) |
 | Adobe 应用程序连接器 | 自动摄入来自 Adobe Experience Cloud 应用程序的数据<ul><li>Adobe Analytics：[文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans#connectors)和[视频教程](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html?lang=zh-Hans)</li><li>Audience Manager：[文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=zh-Hans#connectors)和[视频教程](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html?lang=zh-Hans)</li></ul> |
@@ -281,15 +281,15 @@ ht-degree: 73%
 
 | 数据准备方法 | 描述 |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 外部 ETL 工具（[!DNL Snaplogic]、[!DNL Mulesoft]、[!DNL Informatica]等） | 在ETL工具中执行复杂的转换并使用标准 [!DNL Experience Platform] [!UICONTROL 流程服务] 用于摄取生成数据的API或源连接器。 |
+| 外部 ETL 工具（[!DNL Snaplogic]、[!DNL Mulesoft]、[!DNL Informatica]等） | 在ETL工具中执行复杂的转换，并使用标准[!DNL Experience Platform] [!UICONTROL 流服务] API或源连接器摄取结果数据。 |
 | [!UICONTROL 查询服务] - 数据准备 | 将数据联接、拆分、合并、转换、查询和筛选到新数据集。使用 Create Table as Select (CTAS) <br>[文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans#sql) |
-| XDM 映射器和数据准备功能（流式和批次） | 在将CSV或JSON格式的源属性映射到XDM属性的过程中 [!DNL Experience Platform] 摄取。<br>在摄入数据时计算有关数据的函数；即数据格式化、拆分、串联等。<br>[文档](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hans) |
+| XDM 映射器和数据准备功能（流式和批次） | 在[!DNL Experience Platform]引入期间将CSV或JSON格式的源属性映射到XDM属性。<br>在摄入数据时计算有关数据的函数；即数据格式化、拆分、串联等。<br>[文档](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hans) |
 
 ## 相关博客帖子
 
 * [在Adobe中利用外部数据平台 [!DNL Experience Platform] [!DNL Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page)
 * [Iceberg 摄入高吞吐量](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page)
-* [Adobe中的查询服务技巧 [!DNL Experience Platform] （编写查询和存储派生的数据集）](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page)
-* [深入了解Adobe [!DNL Experience Platform]的Experience Data Model ，更全面地了解实时客户个人资料的强大功能](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page)
-* [Adobe探查性数据分析初探 [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page)
+* Adobe中的[查询服务技巧 [!DNL Experience Platform] （写入查询和存储派生的数据集）](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page)
+* [深入了解Adobe [!DNL Experience Platform]的体验数据模型，以更全面地了解实时客户个人资料的强大功能](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page)
+* [有关Adobe的探索性数据分析的介绍性介绍 [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page)
 * [在Adobe上大规模为数据科学建模XDM数据 [!DNL Experience Platform]](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page)

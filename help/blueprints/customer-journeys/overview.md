@@ -20,10 +20,10 @@ ht-degree: 67%
 
 目前，在需要客户历程解决方案时，有两种可供客户选择的Adobe选项：
 
-<ul><li>Adobe [!DNL Campaign] 托管Cloud Service</li><li>Adobe Journey Optimizer</li></ul>
+<ul><li>Adobe[!DNL Campaign]托管Cloud Service</li><li>Adobe Journey Optimizer</li></ul>
 
 | Blueprint | 描述 | 架构 |
 |---|---|---|
-| **[Journey Optimizer](journey-optimizer.md)** | 原生构建于 [!DNL Experience Platforms] 实时客户档案，使营销团队能够实时对不断变化的客户行为做出反应，并随时在客户所处的任意渠道中满足他们的需求 | <img src="assets/ajo-architecture.svg" alt="Journey Optimizer Blueprint 的参考架构" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Journey Optimizer](journey-optimizer.md)** | 本机构建于[!DNL Experience Platforms]实时客户资料之上，使营销团队能够实时对不断变化的客户行为做出反应，并随时在客户所处的任意渠道中满足他们的需求 | <img src="assets/ajo-architecture.svg" alt="Journey Optimizer Blueprint 的参考架构" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
 | **[Adobe [!DNL Campaign] v8](campaign-v8.md)** | 新一代活动工具，针对高度复杂的数据管理和营销活动流程进行了优化。使客户能够结合发现和创建丰富的营销活动通信 | <img src="assets/campaign-v8-architecture.svg" alt="Campaign v8 Blueprint 的参考架构" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
 | **[Adobe [!DNL Campaign] v7](campaign-v7.md)** | 传统的活动工具，专为跨渠道（如电子邮件、短信和直邮）的基于批次的营销活动而构建。使客户能够在一个位置编排和管理各种客户通信 | <img src="assets/campaign-v7-architecture.svg" alt="Campaign v7 Blueprint 的参考架构" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |

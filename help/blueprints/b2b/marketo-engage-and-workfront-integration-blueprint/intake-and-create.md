@@ -4,8 +4,8 @@ description: 接收和创建 - Marketo Engage 和 Workfront 集成 Blueprint
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 100%
+source-wordcount: '1282'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 以下工作流展示了营销活动经理使用 Workfront 请求表单发起的网络研讨会请求。然后，请求中提交的详细信息会触发在 Marketo Engage 中为网络研讨会创建程序和电子邮件。此外，系统还会从请求表单中获取详细信息以填充电子邮件的内容。
 
-![接收和创建 Blueprint](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
+![接收并创建Blueprint](assets/intake-and-create-1.png){zoomable="yes"}
 
 >[!TIP]
 >
@@ -101,7 +101,7 @@ ht-degree: 100%
 
 通过 Marketo Engage，可使用令牌向营销活动资产中填充内容。例如，在从您的卓越中心克隆电子邮件模板后，Workfront Fusion 可以从 Workfront 中的营销活动请求中获取详细信息，并将其传递到 Marketo Engage 计划中的“我的令牌”。然后，可以直接将令牌值继承到电子邮件中，以构建电子邮件。
 
-![使用令牌填充内容图](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
+![使用令牌填充内容图](assets/intake-and-create-2.png){zoomable="yes"}
 
 ### 从 AEM Assets 填充图像 {#populate-images-from-aem-assets}
 
@@ -147,7 +147,7 @@ ht-degree: 100%
 
 ## 接收和创建自动化流 {#intake-and-create-automation-flow}
 
-以下示例说明了如何使用预先构建的 [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=zh-Hans){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=zh-Hans){target="_blank"} 模块在 Fusion 中汇编工作流逻辑，使您能够更快地交付自动化。
+以下示例介绍了如何使用预生成的[Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=zh-Hans){target="_blank"}和[Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=zh-Hans){target="_blank"}模块在Fusion中组合工作流逻辑，这些模块使您能够更快地实现自动化。
 
 ![接收和创建自动化流](assets/intake-and-create-3.png)
 

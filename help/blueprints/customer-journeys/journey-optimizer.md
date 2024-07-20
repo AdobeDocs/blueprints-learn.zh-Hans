@@ -1,5 +1,5 @@
 ---
-title: '"[!DNL Journey Optimizer]  — 触发的消息处理和Adobe Experience Platform Blueprint”'
+title: '[!DNL Journey Optimizer] — 触发的消息处理和Adobe Experience Platform Blueprint'
 description: 使用 Adobe Experience Platform 作为流式传输数据、客户档案和分段的中心枢纽，执行触发的消息和体验。
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
@@ -10,11 +10,11 @@ ht-degree: 53%
 
 ---
 
-# [!DNL Journey Optimizer] 蓝图
+# [!DNL Journey Optimizer]蓝图
 
-Adobe [!DNL Journey Optimizer] 是一个专门构建的系统，营销团队可以实时对客户行为做出反应，并在客户所在的位置满足他们的要求。 数据管理功能已移至Adobe [!DNL Experience Platform] 让营销团队专注于他们擅长的事：打造世界一流的客户历程和个性化的对话。
+Adobe[!DNL Journey Optimizer]是一个专门构建的系统，供营销团队实时对客户行为做出反应并在他们所在的位置满足他们的要求。 数据管理功能已移至Adobe[!DNL Experience Platform]，使营销团队能够专注于他们擅长的工作：即创建世界一流的客户历程和个性化对话。
 
-此Blueprint概述了应用程序的技术功能，并深入研究了构成这些功能的各种架构组件 [!DNL Journey Optimizer].
+此Blueprint概述了应用程序的技术功能，并深入分析了构成[!DNL Journey Optimizer]的各种体系结构组件。
 
 ## 用例
 
@@ -33,7 +33,7 @@ Adobe [!DNL Journey Optimizer] 是一个专门构建的系统，营销团队可�
 
 | 场景 | 描述 | 功能 |
 | :-- | :--- | :--- |
-| [第三方消息传递](3rd-party-messaging.md) | 演示如何Adobe [!DNL Journey Optimizer] 可与第三方消息传递系统一起使用，以编排和发送个性化通信 | 在客户与您的品牌或公司进行互动时，向客户提供一对一的即时个性化通信<br><br>注意事项：<br><ul><li>第三方系统必须支持用于身份验证的持有者令牌</li><li>由于是多租户架构，不支持静态 IP</li><li>当涉及每秒 API 调用数时，请注意第三方系统存在的架构性限制。客户可能需要从第三方供应商购买额外的卷，以支持来自的卷 [!DNL Journey Optimizer]</li><li>消息或有效负载中不支持决策管理</li></ul> |
+| [第三方消息传递](3rd-party-messaging.md) | 演示如何将Adobe[!DNL Journey Optimizer]与第三方消息传递系统一起使用，以编排和发送个性化通信 | 在客户与您的品牌或公司进行互动时，向客户提供一对一的即时个性化通信<br><br>注意事项：<br><ul><li>第三方系统必须支持用于身份验证的持有者令牌</li><li>由于是多租户架构，不支持静态 IP</li><li>当涉及每秒 API 调用数时，请注意第三方系统存在的架构性限制。客户可能需要从第三方供应商购买额外的卷，以支持来自[!DNL Journey Optimizer]的卷</li><li>消息或有效负载中不支持决策管理</li></ul> |
 
 <br>
 
@@ -41,17 +41,17 @@ Adobe [!DNL Journey Optimizer] 是一个专门构建的系统，营销团队可�
 
 | 集成 | 描述 | 功能 |
 | :-- | :--- | :--- |
-| [[!DNL Journey Optimizer] 使用Adobe Campaign](ajo-and-campaign.md) | 显示如何使用Adobe [!DNL Journey Optimizer] 利用实时客户档案编排1:1体验，并利用本机Adobe Campaign事务性消息传递系统发送消息 | 利用的实时客户配置文件和功能 [!DNL Journey Optimizer] 在时刻体验中进行编排，同时利用Adobe Campaign的本机实时消息传送功能进行最后一英里通信<br><br>注意事项：<br><ul><li>Campaign 应用程序必须为 v7 版本 21.1 以上或 v8</li><li>消息传递吞吐量</li><ul><li>Campaign v7 - 多达每小时 5 万</li><li>Campaign v8 - 多达每小时 100 万</li><li>Campaign Standard - 多达每小时 5 万</li></ul><li>未执行限流，因此用例需要企业架构师的技术审查</li><li>不支持在 Campaign 发送的消息中利用决策管理</li></ul> |
+| 使用Adobe Campaign的[[!DNL Journey Optimizer] ](ajo-and-campaign.md) | 显示如何使用Adobe[!DNL Journey Optimizer]利用实时客户档案编排1:1体验，并利用本机Adobe Campaign事务性消息传递系统发送消息 | 利用[!DNL Journey Optimizer]的实时客户个人资料和强大功能来编排即时体验，同时利用Adobe Campaign的本机实时消息传送功能完成最后一英里通信<br><br>注意事项：<br><ul><li>Campaign 应用程序必须为 v7 版本 21.1 以上或 v8</li><li>消息传递吞吐量</li><ul><li>Campaign v7 - 多达每小时 5 万</li><li>Campaign v8 - 多达每小时 100 万</li><li>Campaign Standard - 多达每小时 5 万</li></ul><li>未执行限流，因此用例需要企业架构师的技术审查</li><li>不支持在 Campaign 发送的消息中利用决策管理</li></ul> |
 
 <br>
 
 ## 先决条件
 
-Adobe [!DNL Experience Platform]：
+Adobe[!DNL Experience Platform]：
 
-* 必须先在系统中配置架构和数据集，然后才能进行配置 [!DNL Journey Optimizer] 数据源
+* 必须先在系统中配置架构和数据集，然后才能配置[!DNL Journey Optimizer]数据源
 * 对于基于体验事件类的架构，当您希望触发的事件不是基于规则的事件时，请添加“编排事件 ID 字段组”
-* 对于基于单个用户档案类的架构，请添加“用户档案测试详细信息”字段组，以便能够加载测试用户档案以供使用 [!DNL Journey Optimizer]
+* 对于基于个人资料类的架构，请添加“个人资料测试详细信息”字段组，以便能够加载测试个人资料以用于[!DNL Journey Optimizer]
 
 电子邮件：
 

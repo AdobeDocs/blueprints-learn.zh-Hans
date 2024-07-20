@@ -10,14 +10,14 @@ ht-degree: 72%
 
 ---
 
-# [!DNL Real-Time CDP] 带有Adobe [!DNL Campaign] v8集成模式
+# 具有Adobe[!DNL Campaign] v8集成模式的[!DNL Real-Time CDP]
 
-展示Adobe [!DNL Experience Platform] 以及其Real-time Customer Profile和集中式分段工具可与Adobe Campaign一起使用，以提供个性化的对话。
+展示Adobe[!DNL Experience Platform]及其Real-time Customer Profile和集中式分段工具如何与Adobe Campaign一起使用，以提供个性化的对话。
 
 ## 应用程序
 
 * Adobe [!DNL Experience Platform Real-Time CDP]
-* Adobe [!DNL Campaign] v8
+* Adobe[!DNL Campaign] v8
 
 ## 架构
 
@@ -28,10 +28,10 @@ ht-degree: 72%
 ## 先决条件
 
 * 对于 Experience Cloud，必须为客户配置有效的 IMS 组织
-* Adobe Experience Platform和 [!DNL Campaign] 建议在同一IMS组织中为单个登录URL进行配置
-* 客户必须预配的V8实例 [!DNL Campaign]
+* 建议将Adobe Experience Platform和[!DNL Campaign]配置为使用同一个登录URL的IMS组织
+* 客户必须配置[!DNL Campaign]的V8实例
 * 客户必须符合条件并有权访问 RTCDP、源、目标。
-* Adobe [!DNL Campaign] 产品上下文必须存在
+* Adobe[!DNL Campaign]产品上下文必须存在
 <br>
 
 ## 实施步骤

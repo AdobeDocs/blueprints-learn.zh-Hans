@@ -12,7 +12,7 @@ ht-degree: 64%
 
 # Journey Optimizer 与 Adobe Campaign v8 Blueprint
 
-演示如何Adobe [!DNL Journey Optimizer] 可与Adobe一起使用 [!DNL Campaign] 利用中的实时消息服务器以本机方式发送消息 [!DNL Campaign].
+演示如何将Adobe[!DNL Journey Optimizer]与Adobe[!DNL Campaign]一起使用，以便利用[!DNL Campaign]中的实时消息服务器以本机方式发送消息。
 
 ## 架构
 
@@ -67,30 +67,30 @@ ht-degree: 64%
 
 #### 源/目标
 
-1. [将数据引入 [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans) 使用流API和源连接器。
+1. 使用流API和源连接器[将数据摄取到 [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans)。
 
 ### Journey Optimizer  
 
-1. 配置您的 [!DNL Experience Platform] 数据源并确定哪些字段应作为配置文件的一部分缓存必须先在Journey Optimizer中配置用于启动客户历程的流数据，才能获取编排ID。 然后，此编排 ID 将被提供给开发人员以在摄入时使用。
+1. 配置您的[!DNL Experience Platform]数据源，并确定应将哪些字段缓存为配置文件的一部分必须先在Journey Optimizer中配置用于启动客户历程的流数据，才能获取编排ID。 然后，此编排 ID 将被提供给开发人员以在摄入时使用。
 1. 配置外部数据源。
 1. 为Campaign实例配置自定义操作。
 
 ### Campaign v8
 
 * 需要为消息模板配置适当的个性化上下文。
-* 对象 [!DNL Campaign] standard：需要配置导出工作流，以将事务性消息传递日志导出回Experience Platform。 建议最多每四小时运行一次。
-* 对象 [!DNL Campaign] v8.4可以利用Adobe [!DNL Campaign] Experience Platform中的Managed Services源连接器，用于将投放和跟踪事件从Campaign同步到Experience Platform中。 请参阅 [源连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans) 文档以了解详细信息。
+* 对于[!DNL Campaign]标准：需要配置导出工作流，以将事务性消息传递日志导出回Experience Platform。 建议最多每四小时运行一次。
+* 对于[!DNL Campaign] v8.4，可以利用Experience Platform中的Adobe[!DNL Campaign] Managed Services Source Connector将投放和跟踪事件从Campaign同步到Experience Platform中。 有关详细信息，请参阅[Source连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)文档。
 
 ### 移动推送配置（可选）
 
-1. 实施 [!DNL Experience Platform] Mobile SDK，用于收集推送令牌和登录信息，以绑定回已知的客户个人资料。
+1. 实施[!DNL Experience Platform] Mobile SDK以收集推送令牌和登录信息以绑定回已知的客户配置文件。
 1. 利用 Adobe 标记并创建具有以下扩展的移动资产：
-   * Adobe [!DNL Journey Optimizer] | Adobe [!DNL Campaign Classic] | Adobe [!DNL Campaign Standard]
-   * Adobe [!DNL Experience Platform] [!DNL Edge Network]
-   * 以下对象的身份 [!DNL Edge Network]
+   * Adobe[!DNL Journey Optimizer] | Adobe[!DNL Campaign Classic] | Adobe[!DNL Campaign Standard]
+   * Adobe[!DNL Experience Platform] [!DNL Edge Network]
+   * [!DNL Edge Network]的身份
    * 移动核心
 1. 确保您拥有专用数据流用于移动应用程序部署而不是Web部署。
-1. 欲知更多信息，请参见 [Adobe Journey Optimizer Mobile指南](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
+1. 有关详细信息，请参阅[Adobe Journey Optimizer Mobile指南](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)。
 
    >[!IMPORTANT]
    >如果希望通过 Journey Optimizer 发送实时通信，并通过 Campaign 发送批量推送通知，则可能需要在 Journey Optimizer 和 Campaign 中收集移动令牌。Campaign v8 要求专门使用 Campaign SDK 来捕获推送令牌。

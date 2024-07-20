@@ -48,7 +48,7 @@ ht-degree: 97%
 
 ## 护栏
 
-请参阅 [Audience and Profile Activation概述页面上的护栏](overview.md) 和 [部署护栏](../experience-platform/deployment/guardrails.md) 页面。
+请参阅“受众和配置文件激活概述”页面](overview.md)上的[护栏和[部署护栏](../experience-platform/deployment/guardrails.md)页面。
 
 ## 实施注意事项
 

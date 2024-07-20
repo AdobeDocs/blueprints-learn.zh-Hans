@@ -1,6 +1,6 @@
 ---
 title: 多沙盒事件转发数据收集 Blueprint
-description: 流式传输收集的数据依据 [!DNL Experience Platform] (AEP)使用事件转发将SDK发送到多个沙盒
+description: 使用事件转发将 [!DNL Experience Platform]  (AEP) SDK收集的数据流式传输到多个沙盒
 solution: Data Collection
 kt: 7202
 exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
@@ -13,7 +13,7 @@ ht-degree: 60%
 
 # 多沙盒事件转发数据收集Blueprint
 
-多沙盒事件转发数据收集Blueprint显示如何使用Adobe收集数据 [!DNL Experience Platform] Web和Mobile SDK可以配置为收集单个事件并转发到多个 [!DNL Experience Platform] (AEP)沙盒。 此 Blueprint 是使用“Adobe 标记”的事件转发功能的特定用例。
+多沙盒事件转发数据收集Blueprint显示了如何将使用Adobe[!DNL Experience Platform] Web和Mobile SDK收集的数据配置为收集单个事件并转发到多个[!DNL Experience Platform] (AEP)沙盒。 此 Blueprint 是使用“Adobe 标记”的事件转发功能的特定用例。
 
 除了使用事件转发功能复制事件之外，您还可以添加、过滤或处理原始收集的数据，以满足其他沙箱的要求。例如，沙盒 A 需要接收所有事件数据元素，而沙盒 B 只应接收非 PII 数据。
 
@@ -28,17 +28,17 @@ ht-degree: 60%
 
 ## 应用程序
 
-* Adobe [!DNL Experience Platform] 数据收集
+* Adobe[!DNL Experience Platform]数据收集
 
 ## 架构
 
 <img src="assets/multi-Sandbox-Data-Collection.svg" alt="多沙盒事件转发的参考架构" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
-1. 标记作者既定义了标记属性，又定义了事件转发属性。在这里，作者定义了用于管理数据收集的数据元素、规则和操作。 请记住，标记属性代码在客户端上运行，并由 CDN 主机分发。此 [!UICONTROL 事件转发属性] 代码在Adobe上运行 [!DNL Edge Server].
+1. 标记作者既定义了标记属性，又定义了事件转发属性。在这里，作者定义了用于管理数据收集的数据元素、规则和操作。 请记住，标记属性代码在客户端上运行，并由 CDN 主机分发。[!UICONTROL 事件转发属性]代码在Adobe[!DNL Edge Server]上运行。
 
-1. 在客户端收集的数据将发送到 [!DNL Edge Network]. 客户还可以选择首先将数据发送到自己的服务器，作为服务器端收集的一种方法。 Web SDK 可以提供服务器到服务器收集功能。但是，这确实需要不同的编程模型来实施。请参阅文档 **[!DNL Edge Network]服务器API概述** 以下
+1. 在客户端上收集的数据将发送到[!DNL Edge Network]。 客户还可以选择首先将数据发送到自己的服务器，作为服务器端收集的一种方法。 Web SDK 可以提供服务器到服务器收集功能。但是，这确实需要不同的编程模型来实施。请参阅下面的文档&#x200B;**[!DNL Edge Network]服务器API概述**
 
-1. 平台 [!DNL Edge Network] 接收数据收集负载，并协调流向所需系统（如Target和Analytics）的数据流。
+1. 平台[!DNL Edge Network]接收数据收集负载，并协调到所需系统（如Target和Analytics）的数据流。
 
 1. 事件转发属性数据元素用于访问到达有效负载的事件数据。在转发之前，还可以根据需要使用规则来处理事件数据。例如，将数据格式化为流传输数据摄入所需的 XDM
 
@@ -56,11 +56,11 @@ ht-degree: 60%
 
 ## 相关博客帖子
 
-* [通过Adobe提升网站性能 [!DNL Experience Platform] Web SDK和 [!DNL Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
-* [用Adobe解决实施难题 [!DNL Experience Platform] Web SDK和 [!DNL Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
-* [Adobe [!DNL Experience Platform] 适用于受众管理的Web SDK](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
+* [使用Adobe [!DNL Experience Platform] Web SDK和 [!DNL Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)提升网站性能
+* [使用Adobe [!DNL Experience Platform] Web SDK和 [!DNL Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)解决实现难点
+* 用于Adobe管理的[受众 [!DNL Experience Platform] Web SDK](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
 * [Adobe [!DNL Experience Platform] Web SDK - Adobe Target](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
-* [Adobe [!DNL Experience Platform] 适用于Adobe Analytics的Web SDK迁移方案](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
-* [统一您的Adobe [!DNL Experience Platform] 带有Adobe的服务 [!DNL Experience Platform] Web SDK](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
-* [通过Adobe加快您的移动应用程序开发 [!DNL Experience Platform] Mobile SDK和Launch](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
+* Adobe Analytics的[Adobe [!DNL Experience Platform] Web SDK迁移方案](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
+* [将您的Adobe [!DNL Experience Platform] 服务与Adobe [!DNL Experience Platform] Web SDK](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)统一起来
+* 使用Adobe [!DNL Experience Platform] Mobile SDK和Launch[加速您的移动应用程序开发](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
 * [使用 Adobe Experience Platform Web SDK 简化客户工作流程](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)

@@ -12,6 +12,6 @@ ht-degree: 64%
 
 # Journey Optimizer - 边缘决策管理 Blueprint
 
-Adobe Journey Optimizer [!UICONTROL 决策管理] 可用于在入站渠道（如网站、移动应用程序、网亭和其他客户接触点）上个性化和提供优惠。
+Adobe Journey Optimizer [!UICONTROL 决策管理]可用于在入站渠道（如网站、移动应用程序、网亭和其他客户接触点）上个性化和提供优惠。
 
 使用决策管理进行 Web 和移动个性化的 Blueprint 位于[这里](../../customer-journeys/decision_management/decision-management-edge.md)的客户历程决策管理 Blueprint 部分。

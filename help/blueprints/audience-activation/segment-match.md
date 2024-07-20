@@ -5,8 +5,8 @@ solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
 source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
 workflow-type: tm+mt
-source-wordcount: '2126'
-ht-degree: 79%
+source-wordcount: '2118'
+ht-degree: 80%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 79%
 
 ## 架构
 
-![区段匹配架构](assets/architecture-segment-match.png){zoomable=&quot;yes&quot;}
+![区段匹配架构](assets/architecture-segment-match.png){zoomable="yes"}
 
 [!UICONTROL 区段匹配]不是可以购买数据的数据市场。它其实是一项 AEP 功能，可与选定的合作伙伴一起处理第一方数据，使用隐私和同意控制来帮助进行协作。[!UICONTROL 区段匹配]有助于集中精力改善客户关系和提升品牌。如果存在既有的品牌或合作伙伴关系，则此功能将非常有用。[!UICONTROL 区段匹配]体验易于管理、可扩展，并且允许管理员以支持选择加入且可控的方式共享区段。
 
@@ -77,7 +77,7 @@ ht-degree: 79%
 
 管理合作伙伴的[!UICONTROL 区段匹配]流由 RBAC 保护。只有拥有适当权限的个人才能启动、接受或管理合作伙伴。这可以在产品配置文件的“数据摄入”部分中完成。需要以下权限：
 
-![受众共享连接](assets/data-ingestion.png){zoomable=&quot;yes&quot;}
+![受众共享连接](assets/data-ingestion.png){zoomable="yes"}
 
 | 权限 | 描述 |
 |---|---|
@@ -140,13 +140,13 @@ ht-degree: 79%
 
 整个处理流程是：
 
-![区段共享](assets/segment-sharing.png){zoomable=&quot;yes&quot;}
+![区段共享](assets/segment-sharing.png){zoomable="yes"}
 
 这些重叠估计数可提供关键的洞察、合作伙伴发现和数据来推动数据协作协议。在获取这些重叠估计数量度时，不会跨沙盒移动客户或区段数据。任何给定沙盒中由客户选择且经过预散列处理的适用身份将添加到可能性数据结构中，该数据结构允许 Adobe 在身份之间执行并集和交集操作。这些操作有助于[!UICONTROL 区段匹配]获取由来自两个不同沙盒的身份构成的两种数据结构的交集估计，而无需比较实际值
 
 身份重叠流程取决于发送方和接收方沙盒中的&#x200B;**每日完整用户档案导出**&#x200B;数据集，以识别属于共享区段的公共用户档案。重叠流程的详细处理流程如下所示：
 
-![身份重叠进程](assets/overlap-process.png){zoomable=&quot;yes&quot;}
+![身份重叠流程](assets/overlap-process.png){zoomable="yes"}
 
 在从发送合作伙伴完成区段共享后，接收方会收到已共享区段馈送的通知。必须在接收方为用户档案启用此区段馈送，以便启动区段成员资格数据流。只有区段成员资格会被摄入到接收方 IMS 组织的重叠用户档案片段中，并且不会从发送方向接收方传输任何其他身份。
 
@@ -170,7 +170,7 @@ ht-degree: 79%
 
 您可以在以隐私为中心的受众协作中使用Adobe Experience Platform区段匹配，并增强广告商和出版商之间的编程式私人交易。 通过区段匹配，您可以：
 
-* Split **广告非法交易** 和 **受众** 工作流。
+* 拆分&#x200B;**广告跟踪**&#x200B;和&#x200B;**受众**&#x200B;工作流。
 * 允许合作伙伴品牌共享受众元数据，以便在征得同意的流程中使用持久标识符（例如哈希电子邮件和哈希电话号码）进行相互共享和同意身份标识。
 
 ### 用例
@@ -181,7 +181,7 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-**考虑以下品牌(Luma)和媒体网络(ACME)之间的示例工作流：**
+**请考虑以下品牌(Luma)和媒体网络(ACME)之间的示例工作流：**
 
 1. 品牌(Luma)通过区段匹配与媒体网络(ACME)进行受众匹配。
 2. ACME通过Adobe Real-Time CDP目标将受众推送到广告服务器或程序化SSP。

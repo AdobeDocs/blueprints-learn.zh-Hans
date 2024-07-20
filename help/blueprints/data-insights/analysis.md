@@ -1,6 +1,6 @@
 ---
 title: 数据分析和智能 Blueprint
-description: 使用Adobe [!DNL Experience Platform] (AEM)对数据湖中存在的数据进行探索性查询和分析。
+description: 使用Adobe [!DNL Experience Platform] (AEM)对数据湖中存在的数据执行探索性查询和分析。
 solution: Experience Platform
 kt: 7207
 thumbnail: null
@@ -14,11 +14,11 @@ ht-degree: 59%
 
 # 数据分析和智能Blueprint
 
-数据分析和智能包括在 [!DNL Experience Platform] 探索性查询和分析存在于数据湖中的数据。
+数据分析和智能包括在[!DNL Experience Platform]内对存在于数据湖中的数据执行探索性查询和分析的能力。
 
-[!DNL Experience Platform]的 [!UICONTROL 查询服务] 允许对数据执行SQL查询。
+[!DNL Experience Platform]的[!UICONTROL 查询服务]允许对数据执行SQL查询。
 
-[!DNL Experience Platform] 允许与第三方SQL客户端、界面和Business Intelligence(BI)工具建立连接，以直接连接、访问和查询中的数据 [!DNL Experience Platform]，使用 [!DNL PostgreSQL] 协议。
+[!DNL Experience Platform]允许与第三方SQL客户端、接口和Business Intelligence(BI)工具的连接使用[!DNL PostgreSQL]协议直接连接、访问和查询[!DNL Experience Platform]中的数据。
 
 ## 用例
 
@@ -45,11 +45,11 @@ ht-degree: 59%
 
 1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=zh-Hans)
 1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
-1. [引入数据](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans) 到 [!DNL Experience Platform].
+1. [将数据摄取](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans)到[!DNL Experience Platform]。
 1. 确认数据可用于[[!UICONTROL 查询服务]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=zh-Hans)。
 1. [将 Business Intelligence 工具和 SQL 客户端连接到[!UICONTROL 查询服务]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=zh-Hans)，以实现可视化、数据查询和探索。
 
 ## 相关文档
 
-* [Adobe [!DNL Experience Platform] Intelligence产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Adobe [!DNL Experience Platform] 智能产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * [[!UICONTROL 查询服务]文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans)

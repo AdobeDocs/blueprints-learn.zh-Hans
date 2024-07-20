@@ -27,7 +27,7 @@ ht-degree: 56%
    + [Experience Platform和应用程序](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platform数据流](/help/blueprints/experience-platform/platform-data-flow.md)
    + 部署 {#deployment}
-      + [Experience PlatformWeb SDK和 [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
+      + [Experience PlatformWeb SDK &amp; [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
       + [应用程序 SDK](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [护栏](/help/blueprints/experience-platform/deployment/guardrails.md)
 + 受众和用户档案激活 {#audience-activation}
@@ -71,15 +71,15 @@ ht-degree: 56%
       + [第三方报文传送](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign Standard {#campaign-standard}
       + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=zh-Hans){target="_blank"}
-      + [带有Adobe的Real-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=zh-Hans){target="_blank"}
+      + Adobe为 [!DNL Campaign Standard]的[Real-Time CDP](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=zh-Hans){target="_blank"}
    + Campaign v8 {#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
-      + [带有Adobe的Real-Time CDP [!DNL Campaign] v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
+      + [Adobe为 [!DNL Campaign] v8的Real-Time CDP](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
       + [Journey Optimizer 与 Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [带有Adobe的Real-Time CDP [!DNL Campaign] v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-      + [带有Adobe的Journey Optimizer [!DNL Campaign] v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
+      + [Adobe为 [!DNL Campaign] v7的Real-Time CDP](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Adobe为 [!DNL Campaign] v7的Journey Optimizer](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + 数据收集、访问和导出 {#data-ingestion}
    + [概述](/help/blueprints/data-ingestion/overview.md)
    + [多沙盒事件转发数据收集](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)

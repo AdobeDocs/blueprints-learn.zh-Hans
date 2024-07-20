@@ -4,7 +4,7 @@ description: 概述 - Marketo Engage 和 Workfront 集成 Blueprint 概述
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1737'
 ht-degree: 98%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 98%
 * 扩展营销活动运营以支持跨职能营销团队
 * 通过简化营销活动请求流程快速进入市场
 * 建立记录系统，以提高对营销活动利益相关者的可见性
-* 审查和审批营销活动资产（图像、电子邮件文案）
+* 审查和批准营销活动资产（图像、电子邮件文案）
 
 营销活动运营团队需要能够让他们高效地规划和执行营销活动的系统。无论是电子邮件、网络研讨会、活动、付费媒体、客户培养还是内容整合，营销团队都需要一个中央解决方案来组织营销活动参与者、可交付成果和执行。
 
@@ -40,13 +40,13 @@ ht-degree: 98%
 
 在下方，您可以看到电子邮件群发请求中营销活动开发流程的工作流程图。此外，您还可以看到 Workfront Fusion 如何在 Workfront 和 Marketo Engage 之间发挥作用，在整个营销活动开发周期中推动工作流和流程自动化。
 
-![营销活动规划到执行 - 自动化用例](assets/overview-1.png){zoomable=&quot;yes&quot;}
+![从营销活动计划到执行 — 自动化用例](assets/overview-1.png){zoomable="yes"}
 
 请注意营销活动开发过程中的不同阶段。
 
 1. 接收和创建：营销活动请求以编程方式组合营销活动资产。
 
-1. 审核和批准：营销活动完成后，利益相关者应该审核并签署营销活动资产，如电子邮件和登陆页面。
+1. 审查和批准：组合营销活动后，利益相关者便会审查和签核电子邮件和登录页面等营销活动资产。
 
 1. 报告和审计：将营销活动结果共享到 Workfront，以便更好地向跨职能的利益相关者展示。
 
@@ -60,7 +60,7 @@ Adobe Workfront 使组织能够管理工作以提高执行效率。Workfront 内
 
 了解如何将业务流程映射到这些对象对于了解 Workfront 与 Marketo Engage 之间的关系非常重要。
 
-![了解营销方案在 Workfront 中的呈现方式](assets/overview-2.png){zoomable=&quot;yes&quot;}
+![了解营销计划在Workfront中的呈现方式](assets/overview-2.png){zoomable="yes"}
 
 ### 项目组合层次定义 {#portfolio-hierarchy-defined}
 
@@ -115,7 +115,7 @@ Zeplin 公司将发布其一款名为 Z11 的紧凑型实用拖拉机配件的�
 
 下面的层级显示此营销活动的战略、策略、任务和资产如何映射到 Workfront。
 
-![营销方案工作管理示例](assets/overview-3.png){zoomable=&quot;yes&quot;}
+![营销计划工作管理示例](assets/overview-3.png){zoomable="yes"}
 
 ## 将 Workfront 映射到 Marketo {#mapping-workfront-to-marketo}
 
@@ -129,7 +129,7 @@ Zeplin 公司将发布其一款名为 Z11 的紧凑型实用拖拉机配件的�
 
 在下面，您可以看到一个示例，说明一个计划如何可以包含多个项目，以及这些 Workfront 项目如何映射到 Marketo Engage 中的计划。
 
-![将 Workfront 项目映射到 Marketo Engage 项目](assets/overview-4.png){zoomable=&quot;yes&quot;}
+![将Workfront项目映射到Marketo Engage项目](assets/overview-4.png){zoomable="yes"}
 
 您可能希望启动一个大型营销方案，该方案需要将多个 Workfront 项目放入 Workfront 计划中，或者您可能有一个一次性的网络研讨会或电子邮件请求，只需要创建一个 Workfront 项目。无论您有什么需求，借助 Workfront、Workfront Fusion 和 Marketo Engage，您的团队都可以灵活、无缝地集成从规划到执行的整个营销活动开发流程。
 
@@ -149,7 +149,7 @@ Workfront 项目可以模板化，以便能够在每次运行特定营销策略�
 
 * [接收和创建](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - 使用 Marketo Engage 和 Workfront 实现营销活动开发自动化
 
-* [审阅并批准](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md){target="_blank"}
+* [审查和批准](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md){target="_blank"}
 
 ### 管理 Marketo Engage 营销活动名称及其关联 URL {#managing-marketo-engage-campaign-names}
 

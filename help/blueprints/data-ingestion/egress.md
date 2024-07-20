@@ -13,13 +13,13 @@ ht-degree: 91%
 
 # 数据访问和导出Blueprint
 
-数据访问和导出Blueprint概述了从中访问或导出数据的所有可能方法 [!DNL Experience Platform] 和应用程序。
+数据访问和导出Blueprint概述了可从[!DNL Experience Platform]和应用程序访问或导出数据的所有可能方法。
 
-Blueprint分为两个类别，以便从访问数据 [!DNL Experience Platform] 和应用程序。
+Blueprint分为两个类别，分别用于从[!DNL Experience Platform]和应用程序访问数据。
 
-第一类包括从以下位置提取数据的方法： [!DNL Experience Platform] 和应用程序。 这将被视为 _推送_ 数据出口的类型方法。
+第一部分包括从[!DNL Experience Platform]和应用程序导出数据的方法。 这将被视为&#x200B;_推送_&#x200B;类型的数据出口方法。
 
-第二类包括从访问数据的方法 [!DNL Experience Platform] 和应用程序。 这将被视为 _提取_ 数据访问的类型方法。
+第二个包括从[!DNL Experience Platform]和应用程序访问数据的方法。 这将被认为是&#x200B;_拉取_&#x200B;类型的数据访问方法。
 
 数据访问方法：
 
@@ -412,7 +412,7 @@ Blueprint分为两个类别，以便从访问数据 [!DNL Experience Platform] �
 
 ### 事件转发 {#event-forwarding}
 
-数据收集请求将直接收集到Adobe的 [!DNL Edge Network]. 从 [!DNL Edge Network] 对外部RESTful端点的请求可以配置为将这些请求转发到外部目标。
+数据收集请求直接收集到Adobe的[!DNL Edge Network]。 可以将从[!DNL Edge Network]到外部RESTful端点的请求配置为将这些请求转发到外部目标。
 
 请参阅以下[事件转发](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=zh-Hans)文档以了解其他信息。
 
@@ -422,7 +422,7 @@ Blueprint分为两个类别，以便从访问数据 [!DNL Experience Platform] �
 
 #### 注意事项
 
-* 要使用事件转发，数据必须发送到 [!DNL Edge Network] 使用Web SDK或Mobile SDK。
+* 要使用事件转发，必须使用Web SDK或MobileSDK将数据发送到[!DNL Edge Network]。
 * 事件转发方法可减少页面加载时间和页面权重，因为页面上添加了更多标记。
 * 当前不支持从边缘用户档案或其他数据源进行扩充。
 * 支持有限的数据筛选和简单的映射转换。

@@ -14,11 +14,11 @@ ht-degree: 22%
 
 # 数据分析、智能和AI/ML蓝图
 
-数据分析、智能和AI/ML包含了Adobe中的功能 [!DNL Experience Platform] 探索性查询和分析存在于数据湖中的数据。
+数据分析、智能和AI/ML包括在Adobe[!DNL Experience Platform]内对存在于数据湖中的数据执行探索性查询和分析的能力。
 
-[!DNL Experience Platform]的 [!UICONTROL 查询服务] 允许对数据执行SQL查询。 另外， [!DNL Experience Platform] 允许与第三方SQL客户端、界面和Business Intelligence(BI)工具建立连接，以直接连接、访问和查询中的数据 [!DNL Experience Platform]，使用 [!DNL PostgreSQL] 协议。
+[!DNL Experience Platform]的[!UICONTROL 查询服务]允许对数据执行SQL查询。 此外，[!DNL Experience Platform]允许与第三方SQL客户端、接口和Business Intelligence(BI)工具的连接使用[!DNL PostgreSQL]协议直接连接、访问和查询[!DNL Experience Platform]中的数据。
 
 | Blueprint | 描述 | Experience Cloud 应用程序 |
 |---|---|---|
-| **[数据分析和智能](analysis.md)** | <ul><li>数据分析和智能Blueprint包含查询和分析数据以从中获得更深入见解的方法 [!DNL Experience Platform]</ul></li> | <ul><li> [!DNL Experience Platform] Intelligence</ul></li> |
-| **[用户档案扩充的自定义数据科学](data-science.md)** | <ul><li>通过训练、评分和操作模型，进一步丰富客户档案和行动模型驱动的客户洞察</li></ul> | <ul><li>[!DNL Experience Platform] Intelligence</li><li> [!UICONTROL Real-time Customer Data Platform]</li></ul> |
+| **[数据分析和智能](analysis.md)** | <ul><li>数据分析和智能Blueprint包含查询和分析数据以在[!DNL Experience Platform]内获得更深入洞察的方法</ul></li> | <ul><li> [!DNL Experience Platform]智能</ul></li> |
+| **[用户档案扩充的自定义数据科学](data-science.md)** | <ul><li>通过训练、评分和操作模型，进一步丰富客户档案和行动模型驱动的客户洞察</li></ul> | <ul><li>[!DNL Experience Platform]智能</li><li> [!UICONTROL Real-time Customer Data Platform]</li></ul> |

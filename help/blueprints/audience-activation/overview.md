@@ -35,7 +35,7 @@ Audience和Profile Activation中的Blueprint
 
 下图概述了 Experience Platform 实时客户档案的核心组件。
 
-有关配置文件、分段和激活相关的附加文档，请参阅 [RTCDP概述文档](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) 和 [Real-time Customer Profile概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) 页数。
+有关配置文件、分段和激活的其他文档，请参阅[RTCDP概述文档](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home)和[实时客户配置文件概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)页面。
 
 <img src="assets/profile_architecture.jpg" alt="实时客户档案的参考架构" style="border:1px solid #4a4a4a" width="90%"  class="modal-image"/>
 
