@@ -71,7 +71,7 @@ ht-degree: 56%
       + [第三方报文传送](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign Standard {#campaign-standard}
       + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=zh-Hans){target="_blank"}
-      + Adobe为 [!DNL Campaign Standard]的[Real-Time CDP](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=zh-Hans){target="_blank"}
+      + [Adobe为 [!DNL Campaign Standard]的Real-Time CDP](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=zh-Hans){target="_blank"}
    + Campaign v8 {#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
       + [Adobe为 [!DNL Campaign] v8的Real-Time CDP](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
