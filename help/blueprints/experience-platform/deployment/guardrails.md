@@ -4,7 +4,7 @@ description: 护栏定义了对 Adobe Experience Platform 和应用程序中组�
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 164793e15315d64cf38cb14928eac10cf6ae5c35
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 15%
@@ -46,7 +46,7 @@ ht-degree: 15%
 
 下图描述了在Experience Platform和应用程序上构建用例时要注意的主要边缘和中心观察延迟。
 
-![Experience Platform[!DNL Edge Network]和中心主观察到的延迟。](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Experience PlatformEdge Network和中心主观测延迟"){width="1000" zoomable="yes"}
+![Experience Platform[!DNL Edge Network]和中心主观察到的延迟。](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency_v1.svg "Experience PlatformEdge Network和中心主观测延迟"){width="1000" zoomable="yes"}
 
 ### 数据摄入 {#data-ingestion}
 
