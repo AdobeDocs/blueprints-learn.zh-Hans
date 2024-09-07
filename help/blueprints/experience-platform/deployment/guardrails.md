@@ -4,21 +4,30 @@ description: 护栏定义了对 Adobe Experience Platform 和应用程序中组�
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 164793e15315d64cf38cb14928eac10cf6ae5c35
+source-git-commit: 7ccabe2d11467b02d7fb5a2f920ebc5af8a17983
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 15%
+source-wordcount: '603'
+ht-degree: 10%
 
 ---
 
 # 护栏
+护栏反映了系统限制、预期延迟和性能期望，可优化客户架构和用例性能，并有助于确保稳定性、避免错误或意外结果。
 
-护栏是建议的阈值，可为Adobe Experience Platform和应用程序中的数据、观察到的延迟和系统使用情况提供指导。 护栏反映了系统限制和性能期望，可优化客户架构和用例性能，并有助于避免错误或意外结果。 护栏不是服务级别协议，服务级别协议记录在以下链接的产品描述和客户许可协议中。 护栏旨在为特定客户用例的架构解决方案提供指导，以确保稳定性和执行。
+## 护栏类型
 
-有关应用程序和功能的特定服务级别协议的信息，请参阅本页底部的[应用程序和功能说明](#application-feature-descriptions)部分。
+| 护栏类型 | 描述 |
+|---|---|
+| 性能护栏（软限制） | 性能护栏是与用例范围相关的使用限制，并概述了正常条件下的预期性能。 如果超过此值，您可能会遇到性能下降和延迟问题。 性能护栏记录在Experience League文档中，位于每个解决方案的护栏部分下，如下所述。 |
+| 静态限制（硬限制） | 这些是系统强制的限制，不能超过。 静态限制通常在客户合同和[产品描述](https://helpx.adobe.com/legal/product-descriptions.html)中约定并列出。 |
 
-请注意，对于任何具有严格延迟或数量要求的客户用例，Adobe建议与您的Adobe客户团队和实施合作伙伴一起详细审查您的用例。 在某些情况下，建议在用例的生产启动之前测试和观察给定用例实施，以观察和了解预期行为 — 由于每个客户实施具有不同的作用因素，包括数据摄取的性质和频率、正在构建的区段规则的细节以及各种激活渠道和负载 — 每个用例实施将具有不同的观察性能。 因此，最好预先建立和测试预期性能，以确保根据用例的延迟和性能要求获得适当的架构和实施。
+>[!NOTE]
+>
+> 护栏不是用来作为服务级别协议的，而是用于指导最佳配置和预期的系统行为。 任何属于系统或合同限制或服务级别协议的护栏都将在客户合同和产品描述中具体说明。 如果您有兴趣了解自定义限制，请联系您的客户关怀代表。
 
+>[!NOTE]
+>
+> 对于具有严格延迟或性能需求的用例，Adobe建议与您的Adobe客户团队和实施合作伙伴讨论详细信息。 每个客户设置可能会因数据摄取模式、区段规则和激活渠道而异。 在启动之前，请务必测试和审查您的用例，以了解其行为。
 
 ## Adobe Experience Platform 和应用程序的护栏参考文档
 
@@ -77,19 +86,3 @@ ht-degree: 15%
 下图显示了使用[Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en)时的预期滞后时间值。 单击图像可查看高分辨率版本。
 
 ![使用Adobe Journey Optimizer高级可视化概述。](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "使用Adobe Journey Optimizer高级可视化概览和延迟值"){width="1000" zoomable="yes"}
-
-## 应用程序和功能描述 {#application-feature-descriptions}
-
-有关特定于功能的服务级别协议的信息，请参阅下面的产品说明：
-
-* [Experience Platform Collection Enterprise](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
-* [Real-time Customer Data Platform](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform.html)
-* [B2B 客户数据平台](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-platform-b2b.html)
-* [Experience Platform Activation](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-platform0.html)
-* [Experience Platform 智能](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [智能服务](https://helpx.adobe.com/cn/legal/product-descriptions/intelligent-services.html)
-* [Data Distiller](https://helpx.adobe.com/cn/legal/product-descriptions/data-distiller.html)
-* [Customer Journey Analytics](https://helpx.adobe.com/cn/legal/product-descriptions/customer-journey-analytics.html)
-* [Journey Optimizer](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Journey Orchestration](https://helpx.adobe.com/cn/legal/product-descriptions/journey-orchestration.html)
-* [Offer Decisioning](https://helpx.adobe.com/cn/legal/product-descriptions/offer-decisioning-app-service.html)
