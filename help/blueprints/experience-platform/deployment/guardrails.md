@@ -4,9 +4,9 @@ description: 护栏定义了对 Adobe Experience Platform 和应用程序中组�
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 7e37677280c27302e650a96786035169573d9709
+source-git-commit: 8ab82995ad7762f8ed6f706aa4c4fe59d47abb20
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '612'
 ht-degree: 10%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
-> 对于具有严格延迟或性能需求的用例，Adobe建议与您的Adobe客户团队和实施合作伙伴讨论详细信息。 每个客户设置可能会因数据摄取模式、区段规则和激活渠道而异。 在启动之前，请务必测试和审查您的用例，以了解其行为。
+> 对于具有严格延迟或性能需求的用例，Adobe建议与您的Adobe客户团队和实施合作伙伴讨论详细信息。 每个客户设置可能会因数据摄取模式、用户档案计数和丰富度、区段规则和激活渠道而异。 因此，架构和测试用例以优化其性能并充分了解预期性能特征非常重要。
 
 ## Adobe Experience Platform 和应用程序的护栏参考文档
 
