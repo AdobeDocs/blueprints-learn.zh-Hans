@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: 70e7bfb3a6d7bad858bd72b6329602bdfb822505
+source-git-commit: 9fe44d93dcc05711c77ce1325b6549bb6c27a860
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '305'
 ht-degree: 94%
 
 ---
@@ -34,19 +34,8 @@ ht-degree: 94%
 
 * 如果 CJA 发送的 RTCDP 中不存在相应的用户档案，是会创建新用户档案，还是仅从 CJA 为已存在的用户档案记录受众？是，将创建新用户档案。因此，如果 RTCDP 实施仅面向已知客户，则应编写 CJA 受众规则以仅筛选具有已知身份的用户档案。这将确保在不需要时，RTCDP 用户档案计数不会因匿名用户档案而增加。
 
-* CJA 将受众数据作为管道事件发送，还是作为同样会发送到数据湖的平面文件发送？CJA 受众通过管道流传输到 RTCDP 用户档案服务，但数据也作为数据集存储在数据湖中。
-
 * CJA 会发送哪些标识？CJA 会发送在 CJA 配置期间已配置为“人员 ID”的标识。
 
 * 将什么设置为主标识？用户在将 CJA 设置为主“人员”ID 时选择的任何标识。
 
 * 标识服务是否也会处理 CJA 消息？例如，CJA 是否可以通过受众共享向用户档案标识图添加标识？不能，标识服务不处理 CJA 消息。
-
-## 相关博客帖子
-
-* [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
-* [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17)
-* [[!DNL Event-Based Triggering on Adobe Experience Platform Orchestration Service using Apache Airflow]](https://medium.com/adobetech/event-based-triggering-on-adobe-experience-platform-orchestration-service-using-apache-airflow-8607b28251f1)
-* [[!DNL Adobe Campaign Classic Integration with Journey Orchestration]](https://medium.com/adobetech/adobe-campaign-classic-integration-with-journey-orchestration-ae577653281)
-* [[!DNL Demonstrating the Power of Adobe's New Journey Orchestration Service to Build Personalized Omnichannel Experiences in Real-Time]](https://medium.com/adobetech/demonstrating-the-power-of-adobes-new-journey-orchestration-service-to-build-personalized-aa60d88cd34)
-* [[!DNL Journey Orchestration in an Omnichannel World]](https://medium.com/adobetech/journey-orchestration-in-an-omnichannel-world-3a2d32d556d9)
