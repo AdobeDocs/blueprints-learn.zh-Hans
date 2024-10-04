@@ -5,10 +5,10 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 5095a3aed75c727f0e28aaa07587994a23020448
+source-git-commit: 6a13de73d7f61295092faccfc21172f5e188331d
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 55%
+source-wordcount: '249'
+ht-degree: 54%
 
 ---
 
@@ -49,6 +49,7 @@ ht-degree: 55%
    + [概述](/help/blueprints/b2b/overview.md)
    + [B2B激活](/help/blueprints/b2b/b2bactivation.md)
    + [B2B帐户激活](/help/blueprints/b2b/b2b-account-activation.md)
+   + [购买基于群组的营销和历程管理](/help/blueprints/b2b/b2b-buying-group-journeys.md)
    + Marketo Engage 和 Workfront 集成 Blueprint{#marketo-engage-and-workfront-integration-blueprint}
       + [概述](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
       + [摄取和创建](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
