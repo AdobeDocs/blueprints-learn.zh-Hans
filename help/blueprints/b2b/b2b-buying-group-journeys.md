@@ -2,7 +2,8 @@
 title: 购买基于群组的营销和历程管理Blueprint
 description: 了解如何在Adobe Journey Optimizer B2B edition中构思、设计和构建符合潜在客户购买群体条件的历程。
 solution: Journey Optimizer B2B Edition
-source-git-commit: b514d7a639d4d624875552c892ae266fdfe089f3
+exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
+source-git-commit: b777ea5c301fb1fac39bc243b09a02a2f411f40e
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -26,7 +27,7 @@ ht-degree: 0%
 由于Journey Optimizer B2B edition提供的B2B增强功能，您现在可以解决以下挑战：
 
 * 缺少&#x200B;_客户优先_&#x200B;的营销活动。
-* Marketing Qualified lead (MQL)向Sales Qualified lead (SQL)的转化不一致，需要让计划与销售保持一致，以培养MQL
+* Marketing Qualified Lead (MQL)向Sales Qualified Lead (SQL)的转化不一致，需要让计划与销售保持一致，以培养MQL
 * 缺少可销售的机制来识别和定位&#x200B;_竞争_&#x200B;帐户。
 * 收入及管道集中风险。
 
