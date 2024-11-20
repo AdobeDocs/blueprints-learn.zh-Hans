@@ -3,10 +3,10 @@ title: 决策管理 Blueprint
 description: 跨客户历程提供个性化优惠。
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: f6c4a0f39acdc177ac23c4314d2f50f793cbf270
+source-git-commit: e6ac3607ea3909acf921125cc5f8fd44c0b3e0f6
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 94%
+source-wordcount: '650'
+ht-degree: 86%
 
 ---
 
@@ -31,7 +31,7 @@ Journey Optimizer 用于跨所有接触点在适当的时间为客户提供最�
 
 ## 中心决策管理
 
-第一种是通过 Adobe Experience Platform 中心，即采用中央数据中心架构。对于“中心”方法，执行、个性化和投放优惠的延迟在 500 毫秒以上。因此，中心架构最适合不需要亚秒级延迟的客户体验，例如，为自助终端、呼叫中心中的座席协助体验或者个人交互提供的优惠决策。插入到电子邮件、短信、推送通知和其他推拨营销活动中的优惠同样由中心方法提供支持。要了解有关中心决策管理的更多信息，请参阅[中心决策管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=zh-Hans) Blueprint。
+第一种是通过 Adobe Experience Platform 中心，即采用中央数据中心架构。中心体系结构最适合于不要求低延迟和高吞吐量，但需要更全面了解客户配置文件的客户体验，示例包括为网亭或座席辅助体验（如在呼叫中心或现场交互）提供的优惠决策。 插入到电子邮件、短信、推送通知和其他推拨营销活动中的优惠同样由中心方法提供支持。要了解有关中心决策管理的更多信息，请参阅[中心决策管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=zh-Hans) Blueprint。
 
 * 优惠资格可以针对完整的实时客户档案进行操作，包括所有属性和体验事件
 
