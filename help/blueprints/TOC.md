@@ -5,7 +5,7 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
+source-git-commit: ec6778d0b3cd37442be2731cafba26388e4355ea
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 53%
@@ -30,8 +30,8 @@ ht-degree: 53%
       + [激活社交和广告渠道](/help/blueprints/audience-activation/advertising-activation.md)
       + [激活文件和企业流目标](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [客户活动中心](/help/blueprints/audience-activation/customer-activity.md)
-      + [区段匹配](/help/blueprints/audience-activation/segment-match.md)
       + [Target和RTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
+      + [区段匹配](/help/blueprints/audience-activation/segment-match.md)
 + B2B 激活与营销 {#b2b-activation}
    + [概述](/help/blueprints/b2b/overview.md)
    + [B2B激活](/help/blueprints/b2b/b2bactivation.md)
