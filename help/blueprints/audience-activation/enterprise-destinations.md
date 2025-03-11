@@ -4,10 +4,10 @@ description: 受众和用户档案激活到企业目的地
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 98%
+source-wordcount: '308'
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 
 ## 护栏
 
-[请参阅“受众和用户档案激活概述”页上的护栏概述。](overview.md)
+[请参阅护栏页面上列出的护栏。](../experience-platform/deployment/guardrails.md)
 
 ## 实施步骤
 

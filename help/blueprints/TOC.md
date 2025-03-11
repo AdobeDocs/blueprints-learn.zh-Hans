@@ -5,7 +5,7 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 67c3debf5224cecf88d69ae1e2ba09765b8a575a
+source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 53%
@@ -25,13 +25,13 @@ ht-degree: 53%
       + [应用程序 SDK](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [护栏](/help/blueprints/experience-platform/deployment/guardrails.md)
 + 受众和用户档案激活 {#audience-activation}
-   + [Audience Manager](/help/blueprints/audience-activation/AAM.md)
+   + [Audience Manager](/help/blueprints/audience-activation/audience_manager.md)
    + Real-time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
       + [激活社交和广告渠道](/help/blueprints/audience-activation/advertising-activation.md)
       + [激活文件和企业流目标](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [客户活动中心](/help/blueprints/audience-activation/customer-activity.md)
       + [区段匹配](/help/blueprints/audience-activation/segment-match.md)
-      + [Target和RTCDP](/help/blueprints/audience-activation/RTCDP-Target.md)
+      + [Target和RTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
 + B2B 激活与营销 {#b2b-activation}
    + [概述](/help/blueprints/b2b/overview.md)
    + [B2B激活](/help/blueprints/b2b/b2bactivation.md)
