@@ -1,9 +1,10 @@
 ---
 title: Journey Optimizer 与 Adobe Campaign v8 Blueprint
 description: 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合使用，通过 Campaign 中的实时消息传送服务器在本地发送消息
-solution: Journey Optimizer, Campaign, Campaign v8 Client Console
+solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
+version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
+source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 64%
@@ -12,7 +13,7 @@ ht-degree: 64%
 
 # Journey Optimizer 与 Adobe Campaign v8 Blueprint
 
-演示如何将Adobe[!DNL Journey Optimizer]与Adobe[!DNL Campaign]一起使用，以便利用[!DNL Campaign]中的实时消息服务器以本机方式发送消息。
+演示如何将Adobe [!DNL Journey Optimizer]与Adobe [!DNL Campaign]结合使用，以便利用[!DNL Campaign]中的实时消息服务器以本机方式发送消息。
 
 ## 架构
 
@@ -79,14 +80,14 @@ ht-degree: 64%
 
 * 需要为消息模板配置适当的个性化上下文。
 * 对于[!DNL Campaign]标准：需要配置导出工作流，以将事务性消息传递日志导出回Experience Platform。 建议最多每四小时运行一次。
-* 对于[!DNL Campaign] v8.4，可以利用Experience Platform中的Adobe[!DNL Campaign] Managed Services Source Connector将投放和跟踪事件从Campaign同步到Experience Platform中。 有关详细信息，请参阅[Source连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)文档。
+* 对于[!DNL Campaign] v8.4，可以利用Experience Platform中的Adobe [!DNL Campaign] Managed Services Source Connector将投放和跟踪事件从Campaign同步到Experience Platform中。 有关详细信息，请参阅[Source连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)文档。
 
 ### 移动推送配置（可选）
 
 1. 实施[!DNL Experience Platform] Mobile SDK以收集推送令牌和登录信息以绑定回已知的客户配置文件。
 1. 利用 Adobe 标记并创建具有以下扩展的移动资产：
-   * Adobe[!DNL Journey Optimizer] | Adobe[!DNL Campaign Classic] | Adobe[!DNL Campaign Standard]
-   * Adobe[!DNL Experience Platform] [!DNL Edge Network]
+   * Adobe [!DNL Journey Optimizer] | Adobe [!DNL Campaign Classic] | Adobe [!DNL Campaign Standard]
+   * Adobe [!DNL Experience Platform] [!DNL Edge Network]
    * [!DNL Edge Network]的身份
    * 移动核心
 1. 确保您拥有专用数据流用于移动应用程序部署而不是Web部署。

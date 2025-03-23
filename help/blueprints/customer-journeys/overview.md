@@ -1,11 +1,9 @@
 ---
 title: 客户历程 Blueprint
 description: 跨屏幕提供个性化的即时客户体验。
-solution: Journey Optimizer, Campaign, Campaign v8 Client Console, Campaign v8 Web User Interface, Campaign Classic v7, Campaign Standard, Experience Platform
-kt: null
-thumbnail: null
+solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: a1f3aef5b508575019bd651b9706efc7d6db5306
+source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 67%
@@ -18,9 +16,9 @@ ht-degree: 67%
 
 编排工具也可以与其他交互渠道（如入站渠道）集成，通过与其他特定于渠道的决策引擎共享受众状态，实现 Web/移动个性化。在客户历程中应使用哪些应用程序和部署选项涉及诸多因素，但是可以总结为两种不同的方法：在某个客户互动时做出响应（触发），或在客户群组互动时做出响应（计划）。
 
-目前，在需要客户历程解决方案时，有两种可供客户选择的Adobe选项：
+目前，在需要客户历程解决方案时，Adobe提供两个选项供客户选择：
 
-<ul><li>Adobe[!DNL Campaign]托管Cloud Service</li><li>Adobe Journey Optimizer</li></ul>
+<ul><li>Adobe [!DNL Campaign]托管云服务</li><li>Adobe Journey Optimizer</li></ul>
 
 | Blueprint | 描述 | 架构 |
 |---|---|---|
