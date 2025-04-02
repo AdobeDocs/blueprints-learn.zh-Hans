@@ -4,10 +4,10 @@ description: 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合�
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
 version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
+source-git-commit: 7547cdc57e50d63f4a7949c00a77b82c86da831e
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 64%
+ht-degree: 63%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 64%
    * [!DNL Edge Network]的身份
    * 移动核心
 1. 确保您拥有专用数据流用于移动应用程序部署而不是Web部署。
-1. 有关详细信息，请参阅[Adobe Journey Optimizer Mobile指南](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)。
+1. 有关详细信息，请参阅[Adobe Journey Optimizer Mobile指南](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/)。
 
    >[!IMPORTANT]
    >如果希望通过 Journey Optimizer 发送实时通信，并通过 Campaign 发送批量推送通知，则可能需要在 Journey Optimizer 和 Campaign 中收集移动令牌。Campaign v8 要求专门使用 Campaign SDK 来捕获推送令牌。
