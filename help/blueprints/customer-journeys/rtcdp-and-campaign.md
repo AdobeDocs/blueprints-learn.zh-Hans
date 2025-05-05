@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * 请参阅RTCDP [!DNL Campaign]目标连接器 — [RTCDP营销活动连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=zh-Hans)
 
-* 查看 [!DNL Real-Time Customer Profile Data] 和分段](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)的[默认护栏
+* 查看 [!DNL Real-Time Customer Profile Data] 和分段[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)的默认护栏
 
 ## 实施步骤
 

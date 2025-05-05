@@ -68,11 +68,11 @@ B2B商机管理的重点是客户及其商机。 技术层旨在支持代表这�
 >
 >Journey Optimizer B2B edition的许可应包括以下项目：
 ><ul><li>连接到Experience PlatformB2B的Journey Optimizer B2B edition实例</li><li>同步到RTCDP的Marketo Engage实例</li></ul>
-&gt;<br/>
-&gt;对于现有Marketo Engage客户，建议连接到现有实例。
-&gt;<br/><br/>
-&gt;为增强用户档案丰富度，解决方案提供了其他扩展：
-&gt;<ul><li>RTCDP的其他来源以丰富用户档案</li><li>RTCDP目标到Marketo Engage</li></ul>
+>&gt;<br/>
+>&gt;对于现有Marketo Engage客户，建议连接到现有实例。
+>&gt;<br/><br/>
+>&gt;为增强用户档案丰富度，解决方案提供了其他扩展：
+>&gt;<ul><li>RTCDP的其他来源以丰富用户档案</li><li>RTCDP目标到Marketo Engage</li></ul>
 
 实施此解决方案还需要清楚地了解&#x200B;_帐户_&#x200B;和&#x200B;_购买群组_&#x200B;的概念，以及它们如何扩大和加快销售线索资格鉴定。 有了这种了解，您还必须确定所需的购买群组完整性分数。
 
