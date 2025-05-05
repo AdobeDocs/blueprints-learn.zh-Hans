@@ -78,7 +78,7 @@ ht-degree: 87%
 
 ### 使用Workfront校对通过注释和批注进行协作 {#use-workfront-proofing-to-collaborate}
 
-[Workfront的校对](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"}功能允许您的营销团队获取新资源（如图像或电子邮件），并通过评论和批注进行协作。 一旦验证准备好上线，决策者就可以批准验证工具中的资产。
+[Workfront的校对](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html?lang=zh-Hans){target="_blank"}功能允许您的营销团队获取新资源（如图像或电子邮件），并通过评论和批注进行协作。 一旦验证准备好上线，决策者就可以批准验证工具中的资产。
 
 ![转换电子邮件屏幕](assets/review-and-approve-blueprint-3.png){zoomable="yes"}
 

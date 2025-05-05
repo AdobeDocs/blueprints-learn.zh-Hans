@@ -21,7 +21,7 @@ ht-degree: 10%
 | 护栏类型 | 描述 |
 |---|---|
 | 性能护栏（软限制） | 性能护栏是与用例范围相关的使用限制，并概述了正常条件下的预期性能。 如果超过此值，您可能会遇到性能下降和延迟问题。 性能护栏记录在Experience League文档中，位于每个解决方案的护栏部分下，如下所述。 |
-| 静态限制（硬限制） | 这些是系统强制的限制，不能超过。 静态限制通常在客户合同和[产品描述](https://helpx.adobe.com/legal/product-descriptions.html)中约定并列出。 |
+| 静态限制（硬限制） | 这些是系统强制的限制，不能超过。 静态限制通常在客户合同和[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions.html)中约定并列出。 |
 
 >[!NOTE]
 >
@@ -37,15 +37,15 @@ ht-degree: 10%
 
 **Experience Platform应用程序**
 
-* [Real-Time CDP护栏概述](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
-* [Customer Journey Analytics受众共享护栏](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
-* [Customer Journey Analytics的数据摄取护栏](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [Journey Optimizer护栏](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
+* [Real-Time CDP护栏概述](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html?lang=zh-Hans)
+* [Customer Journey Analytics受众共享护栏](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hans#latency)
+* [Customer Journey Analytics的数据摄取护栏](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Journey Optimizer护栏](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans)
 
 **Experience Platform服务**
 
-* [数据摄入护栏](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
-* [[!DNL Edge Network] API护栏](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [数据摄入护栏](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hans)
+* [[!DNL Edge Network] API护栏](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=zh-Hans)
 * [实时客户个人资料和分段护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 * [身份护栏](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=zh-Hans)
 * [查询服务护栏](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=zh-Hans)
@@ -61,7 +61,7 @@ ht-degree: 10%
 
 ### 数据摄入 {#data-ingestion}
 
-下图显示了将数据引入Real-Time CDP时通过[流式引入](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)和[批量引入](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=zh-Hans)进行的预期数据引入延迟值。 单击图像可查看高分辨率版本。
+下图显示了将数据引入Real-Time CDP时通过[流式引入](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans)和[批量引入](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=zh-Hans)进行的预期数据引入延迟值。 单击图像可查看高分辨率版本。
 
 ![数据摄取高级可视化概述。](/help/blueprints/experience-platform/deployment/assets/aep_data_flow_guardrails.svg "数据摄取高级可视化概览和延迟值"){width="1000" zoomable="yes"}
 
@@ -79,12 +79,12 @@ ht-degree: 10%
 
 ### Customer Journey Analytics   {#customer-journey-analytics}
 
-下图显示了使用[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en)时的预期滞后时间值。 单击图像可查看高分辨率版本。
+下图显示了使用[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans)时的预期滞后时间值。 单击图像可查看高分辨率版本。
 
 ![使用Customer Journey Analytics高级视觉概述。](/help/blueprints/experience-platform/deployment/assets/CJA_guardrails.svg "使用Customer Journey Analytics高级视觉概览和延迟值"){width="1000" zoomable="yes"}
 
 ### Journey Optimizer   {#journey-optimizer}
 
-下图显示了使用[Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en)时的预期滞后时间值。 单击图像可查看高分辨率版本。
+下图显示了使用[Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=zh-Hans)时的预期滞后时间值。 单击图像可查看高分辨率版本。
 
 ![使用Adobe Journey Optimizer高级可视化概述。](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "使用Adobe Journey Optimizer高级可视化概览和延迟值"){width="1000" zoomable="yes"}

@@ -22,4 +22,4 @@ ht-degree: 60%
 
 ## 数据进出口
 
-有关所有数据摄取、收集、入口和出口模式的详细列表，请参阅[数据摄取文档](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home)。
+有关所有数据摄取、收集、入口和出口模式的详细列表，请参阅[数据摄取文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/home)。

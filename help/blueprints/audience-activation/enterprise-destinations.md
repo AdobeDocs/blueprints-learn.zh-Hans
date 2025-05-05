@@ -29,7 +29,7 @@ ht-degree: 80%
 
 ## 相关文档
 
-有关云存储和企业目标的配置的其他详细信息，请参阅[目标文档](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview)。
+有关云存储和企业目标的配置的其他详细信息，请参阅[目标文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/cloud-storage/overview)。
 
 ## 护栏
 

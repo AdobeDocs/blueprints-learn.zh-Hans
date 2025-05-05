@@ -43,9 +43,9 @@ ht-degree: 59%
 
 ## 实施步骤
 
-1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=zh-Hans)
+1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?lang=zh-hans&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=zh-Hans)
 1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
-1. [将数据摄取](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans)到[!DNL Experience Platform]。
+1. [将数据摄取](https://experienceleague.adobe.com/?lang=zh-hans&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans)到[!DNL Experience Platform]。
 1. 确认数据可用于[[!UICONTROL 查询服务]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=zh-Hans)。
 1. [将 Business Intelligence 工具和 SQL 客户端连接到[!UICONTROL 查询服务]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=zh-Hans)，以实现可视化、数据查询和探索。
 

@@ -55,14 +55,14 @@ ht-degree: 5%
    * 事件回顾时间最长为30天，不为事件谓词排序。
    * AND/OR受支持(因此您可以说“A和B必须发生”，  但是你不能说“A必须在B之前3天发生”)。
 * 对于云存储目标，导出计划支持“区段评估后”选项。
-* [B2B配置文件和分段护栏](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)。
+* [B2B配置文件和分段护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)。
 
 ## Real-time Customer Data Platform B2B版本、帐户受众创建和激活的实施步骤
 
-* 有关Real-time Customer Data Platform B2B版本的实施步骤，请参阅[Real-time Customer Data Platform B2B版本快速入门](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)文档。
-* 有关帐户受众创建步骤，请参阅[帐户受众](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences)文档。
-* 有关帐户Audience Activation步骤，请参阅[激活帐户受众](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences)文档。
-   * [（公司） LinkedIn所需的映射与受众目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings)匹配。
+* 有关Real-time Customer Data Platform B2B版本的实施步骤，请参阅[Real-time Customer Data Platform B2B版本快速入门](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)文档。
+* 有关帐户受众创建步骤，请参阅[帐户受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/account-audiences)文档。
+* 有关帐户Audience Activation步骤，请参阅[激活帐户受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-account-audiences)文档。
+   * [（公司） LinkedIn所需的映射与受众目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings)匹配。
 
 ## 实施注意事项
 
@@ -70,8 +70,8 @@ linkedIn匹配的受众有几项要求，包括最低受众规模为300个匹配
 
 ## 相关文档
 
-* [Real-time Customer Data Platform B2B 版](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
+* [Real-time Customer Data Platform B2B 版](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
 * [创建并激活帐户受众教程视频](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data)
-* [创建帐户受众](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences)
-* [激活帐户受众](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences)
-* [Adobe Experience Platform - LinkedIn目标连接器](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
+* [创建帐户受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/account-audiences)
+* [激活帐户受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-account-audiences)
+* [Adobe Experience Platform - LinkedIn目标连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/social/linkedin)

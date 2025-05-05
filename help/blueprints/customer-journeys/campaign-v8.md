@@ -28,7 +28,7 @@ Adobe Campaign v8 是一款针对电子邮件和直邮等传统营销渠道而�
 
 ## 架构图
 
-了解有关[Campaign v8部署模型](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}的更多信息。
+了解有关[Campaign v8部署模型](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=zh-Hans#ac-deployment){target="_blank"}的更多信息。
 
 ### Campaign企业(FFDA)部署
 
@@ -114,7 +114,7 @@ Adobe Campaign v8 是一款针对电子邮件和直邮等传统营销渠道而�
 
 ## 相关文档
 
-* [Campaign v8 文档](https://experienceleague.adobe.com/docs/campaign-v8.html)
+* [Campaign v8 文档](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=zh-Hans)
 * [Campaign v8 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-* [Experience Platform 标记文档](https://experienceleague.adobe.com/docs/launch.html)
-* [Experience Platform Mobile SDK 文档](https://experienceleague.adobe.com/docs/mobile.html)
+* [Experience Platform 标记文档](https://experienceleague.adobe.com/docs/launch.html?lang=zh-Hans)
+* [Experience Platform Mobile SDK 文档](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)

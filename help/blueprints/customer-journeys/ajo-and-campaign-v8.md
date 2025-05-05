@@ -40,9 +40,9 @@ ht-degree: 63%
 
 ## 护栏
 
-* [Journey Optimizer护栏产品限制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+* [Journey Optimizer护栏产品限制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/guardrails)
 
-* [护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+* [护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=zh-Hans)
 
 ## 实施步骤
 
@@ -52,7 +52,7 @@ ht-degree: 63%
 
 #### 架构/数据集
 
-1. 根据客户提供的数据在 Experience Platform 中[配置单个用户档案、体验事件和多实体模式。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=zh-Hans)
+1. 根据客户提供的数据在 Experience Platform 中[配置单个用户档案、体验事件和多实体模式。](https://experienceleague.adobe.com/?lang=zh-hans&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=zh-Hans)
 1. （可选）为Adobe Campaign broadLog、trackingLog和无法投放的地址表创建基于Experience Event类的架构。
 1. 为要摄入的数据在 Experience Platform 中[创建数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)。
 1. 在 Experience Platform 中为数据集[添加数据使用标签](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=zh-Hans)以便进行治理。
@@ -68,7 +68,7 @@ ht-degree: 63%
 
 #### 源/目标
 
-1. 使用流API和源连接器[将数据摄取到 [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans)。
+1. 使用流API和源连接器[将数据摄取到 [!DNL Experience Platform]](https://experienceleague.adobe.com/?lang=zh-hans&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans)。
 
 ### Journey Optimizer  
 

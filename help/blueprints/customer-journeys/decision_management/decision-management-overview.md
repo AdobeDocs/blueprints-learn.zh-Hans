@@ -14,7 +14,7 @@ ht-degree: 86%
 
 要了解有关决策管理的更多信息，请参阅此处的[产品文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans)
 
-有关与决策管理相关的防护，请参阅以下文档。 [决策管理护栏](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management)
+有关与决策管理相关的防护，请参阅以下文档。 [决策管理护栏](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/guardrails#decision-management)
 
 Adobe 决策管理是作为 Adobe Journey Optimizer 的一部分提供的服务。此 Blueprint 概述了该应用程序的用例和技术功能，并深入介绍了构成决策管理的各种架构组件和注意事项。
 
