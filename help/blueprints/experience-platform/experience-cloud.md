@@ -5,7 +5,7 @@ solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Comme
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 48b34b05b83f693395b71bcabb16dffa548a1b00
+source-git-commit: c967d4945774ca4580b60656bc051c479ce56389
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 73%
@@ -14,13 +14,13 @@ ht-degree: 73%
 
 # Adobe Experience Cloud 架构图
 
-这些图显示了Experience Cloud应用程序、应用程序服务和Experience Platform如何适应企业营销体系结构。
+这些图显示了Experience Cloud应用程序、应用程序服务和Experience Platform如何适应企业营销架构。
 
 ## Adobe Experience Cloud 营销架构
 
 下图展示了基于 Adobe Experience Platform 构建和集成的 Adobe Experience Cloud 组件，涵盖数据分析与受众、内容与商务、客户历程、营销工作流。
 
-<img src="assets/AEC.jpg" alt="Experience Cloud 概述" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
+<img src="assets/AEC.png" alt="Experience Cloud 概述" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 
 ## 数据和见解、内容和商务以及体验交付的集成架构
