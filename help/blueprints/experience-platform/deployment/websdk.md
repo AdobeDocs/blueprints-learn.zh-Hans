@@ -17,7 +17,7 @@ ht-degree: 68%
 
 有关Web和Mobile SDK以及[!DNL Edge Network]服务器API的概述和详细信息，请参阅以下内容。
 
-* [Web SDK 概述](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk)
+* [Web SDK 概述](https://experienceleague.adobe.com/zh-hans/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk)
 * [Mobile SDK 概述](https://developer.adobe.com/client-sdks/documentation/)
 * [[!DNL Edge Network] 服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)
 
