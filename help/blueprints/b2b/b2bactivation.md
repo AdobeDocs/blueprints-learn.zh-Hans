@@ -4,9 +4,9 @@ description: 通过 Real-time Customer Data Platform 交付基于帐户的受众
 solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 3dfdb1a237995e7f17e280e24f8865e992d9eb5f
+source-git-commit: 70816df06ec2dff5c3a4a94a8be701cb25e6f783
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '898'
 ht-degree: 52%
 
 ---
@@ -27,8 +27,8 @@ ht-degree: 52%
 
 ## 集成模式
 
-* B2B 数据源（Marketo、Salesforce 等）-> Real-time Customer Data Platform B2B版本 — >目标
-* 各种B2B数据源可用于将客户、商机、机会和人员数据映射到Real-time Customer Data Platform的B2B版本。
+* B2B数据源(Marketo、Salesforce等)->实时客户数据平台B2B edition ->目标
+* 各种B2B数据源可用于将客户、商机、机会和人员数据映射到实时客户数据平台的B2B edition。
 
 ## 架构
 
@@ -65,11 +65,11 @@ ht-degree: 52%
 #### Experience Platform - Marketo Engage 源连接器：
 
 * 历史回填可能需要最多 7 天才能完成，具体取决于数据量。
-* 来自Marketo的持续数据更新和更改通过流API发送到Experience Platform，其对于用户档案的延迟时间最长约为10分钟，对于数据湖，根据流量不同，延迟时间最长约为60分钟。
+* 来自Marketo的持续数据更新和更改通过流API发送到Experience Platform，其到用户档案的延迟时间最长约为10分钟，到数据湖的延迟时间最长约为60分钟，具体取决于流量。
 
 #### Experience Platform - Marketo 目标连接器：
 
-* 从Real-time Customer Data Platform到Marketo Engage的流区段共享最多可能需要花费15分钟。 首次激活前已在区段中存在的回填配置文件最长可能需要24小时。
+* 在区段评估后，从Real-time Customer Data Platform到Marketo Engage的流区段共享最长可能需要15分钟。 首次激活前已在区段中存在的回填配置文件最长可能需要24小时。
 * 根据 Experience Platform 分段计划，每天会共享一次批次分段。使用多实体关系的B2B区段（例如，在帐户和机会对象中使用数据的区段）始终以批处理模式执行。
 
 #### Marketo Engage 护栏：
@@ -93,14 +93,14 @@ ht-degree: 52%
 关于 Blueprint 的主要注意事项和配置的指导。
 
 * CRM与Marketo的集成，以及不与的集成：
-如果实施使用Marketo Engage作为源，并且Marketo Engage已连接到CRM，则CRM数据将自动通过同一连接流动，无需将CRM直接连接到Platform，除非存在未通过Marketo传递的其他CRM数据对象。 如果需要摄入其他表格，请使用 Experience Platform 源连接器。如果实施不将Marketo Engage用作源，请使用CRM源Experience Platform连接器直接将CRM源连接到Platform。
-* Platform的Marketo Engage目标连接器将受众推送到Marketo Engage以进行激活，并根据匹配的电子邮件地址和ECID共享受众成员。 如果联系人不存在，则可以选择创建新潜在客户。 创建新潜在客户时，Real-time Customer Data Platform中最多可以将50个配置文件属性（非数组或映射属性）映射到Marketo中的人员字段。
+如果实施使用Marketo Engage作为源，并且Marketo Engage已连接到CRM，则CRM数据将自动通过同一连接流动，无需将CRM直接连接到Platform，除非存在未通过Marketo传递的其他CRM数据对象。 如果需要摄入其他表格，请使用 Experience Platform 源连接器。如果实施不会使用Marketo Engage作为源，请使用CRM源Experience Platform连接器直接将CRM源连接到Platform。
+* 适用于Platform的Marketo Engage目标连接器将受众推送到Marketo Engage以进行激活，并根据匹配的电子邮件地址和ECID共享受众成员。 如果联系人不存在，则可以选择创建新潜在客户。 创建新潜在客户时，Real-time Customer Data Platform中最多可以将50个配置文件属性（非数组或映射属性）映射到Marketo中的人员字段。
 
 ## 相关文档
 
 * [Real-time Customer Data Platform B2B 版](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=zh-Hans)
-* [Real-time Customer Data Platform B2B版本入门](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
-* Real-time Customer Data Platform B2B版本的[护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
+* [Real-time Customer Data Platform B2B edition入门](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
+* Real-time Customer Data Platform B2B edition的[护栏](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=zh-Hans)
 * [Adobe Experience Platform - Marketo 源连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=zh-Hans)
