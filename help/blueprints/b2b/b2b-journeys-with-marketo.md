@@ -121,7 +121,7 @@ from
 >[!NOTE]
 >
 >数据集表marketo_person_ajo_b2b用于提供如何使用Marketo人员数据集的完整示例。
->>您可以在[数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide)工作区中找到沙盒的数据集。
+>&#x200B;>您可以在[数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide)工作区中找到沙盒的数据集。
 
 ```sql
 select
