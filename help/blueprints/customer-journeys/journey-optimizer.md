@@ -66,7 +66,7 @@ Adobe [!DNL Experience Platform]：
 
 ## 护栏
 
-[[!DNL Journey Optimizer] 护栏产品链接](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+[[!DNL Journey Optimizer] 护栏产品链接](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/guardrails)
 
 [护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
