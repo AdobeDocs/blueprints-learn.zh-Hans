@@ -3,7 +3,7 @@ title: 边缘决策管理 Blueprint
 description: 跨渠道向消费者提供个性化优惠，包括实时 Web 体验和移动体验。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: f6c4a0f39acdc177ac23c4314d2f50f793cbf270
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 68%
@@ -20,7 +20,7 @@ ht-degree: 68%
 
 [!DNL Decision Management]可通过两种方式之一进行部署。 第一个是通过[!DNL Experience Platform]中心，它是一个单一的数据中心架构。 对于“中心”方法，执行、个性化和投放优惠的延迟为一秒左右。因此，中心架构最适合不需要亚秒级延迟的客户体验，例如，为自助终端、呼叫中心中的座席协助体验或者个人交互提供的优惠决策。
 
-第二种方法是通过Experience Platform[!DNL Edge Network]，它是一种分布在全球的地理位置的基础架构，可提供快速的次秒和毫秒体验。 Edge基础架构正在执行的与消费者地理位置最接近的最终消费者体验，旨在最大程度地减少延迟。 Edge上的[!DNL Decision Management]旨在提供实时消费者体验。 这些体验包括 Web 或移动入站个性化请求等体验。
+第二种方法是通过Experience Platform [!DNL Edge Network]，它是一种分布在全球的地理位置的基础架构，可提供快速的次秒和毫秒体验。 Edge基础架构正在执行的与消费者地理位置最接近的最终消费者体验，旨在最大程度地减少延迟。 Edge上的[!DNL Decision Management]旨在提供实时消费者体验。 这些体验包括 Web 或移动入站个性化请求等体验。
 
 此 Blueprint 将介绍边缘决策管理的具体细节。
 
@@ -48,7 +48,7 @@ ht-degree: 68%
 
 * 有关决策管理护栏，请参阅以下[决策管理产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/offer-decisioning-app-service.html).
 
-[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=zh-Hans)
+[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## 相关文档
 

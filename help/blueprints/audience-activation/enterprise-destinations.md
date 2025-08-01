@@ -4,7 +4,7 @@ description: 受众和用户档案激活到企业目的地
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 495a2480828e2c6b4caa41226f4fe67437b081c1
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 80%
@@ -29,8 +29,8 @@ ht-degree: 80%
 
 ## 相关文档
 
-有关云存储和企业目标的配置的其他详细信息，请参阅[目标文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/cloud-storage/overview)。
+有关云存储和企业目标的配置的其他详细信息，请参阅[目标文档](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview)。
 
 ## 护栏
 
-[请参阅护栏页面上列出的护栏。](../experience-platform/deployment/guardrails.md)
+[请参阅护栏页面上列出的护栏。](../experience-platform/guardrails.md)

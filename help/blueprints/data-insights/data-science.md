@@ -4,10 +4,10 @@ description: 了解如何将基于数据科学的见解引入 [!DNL Experience P
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 7f3bc307f74aa88a7a73f3e50cc48bd16f58b37f
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 69%
+source-wordcount: '342'
+ht-degree: 63%
 
 ---
 
@@ -29,38 +29,21 @@ ht-degree: 69%
 
 ## 护栏
 
-* 有关将数据科学结果摄取到[!DNL Experience Platform]和实时客户个人资料的详细护栏和端到端延迟，请参阅[部署护栏文档](../experience-platform/deployment/guardrails.md)中引用的数据摄取护栏和延迟图。
-
-## 实施步骤
-
-1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?lang=zh-hans&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=zh-Hans)
-1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
-1. [将数据摄取](https://experienceleague.adobe.com/?lang=zh-hans&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=zh-Hans)到[!DNL Experience Platform]。
-
-要将模型结果摄入到实时客户档案中，请务必在摄入数据之前执行以下操作：
-
-1. 在架构上[配置正确的身份和身份命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)，以确保摄入的数据可以拼接到统一的用户档案中。
-1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
+* 有关将数据科学结果摄取到[!DNL Experience Platform]和实时客户个人资料的详细护栏和端到端延迟，请参阅[部署护栏文档](../experience-platform/guardrails.md)中引用的数据摄取护栏和延迟图。
 
 ## 实施注意事项
 
 * 在大多数情况下，模型结果应作为用户档案属性而不是体验事件进行摄入。模型结果可以是一个简单的属性字符串。如果要摄入多个模型结果，建议使用数组或映射类型字段。
 * 每日用户档案快照数据集是统一用户档案属性数据的每日导出数据，可用于在用户档案属性数据基础上训练模型。可以在[此处](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=zh-Hans#profile-attribute-datasets)访问用户档案快照数据集文档。
-* 要从[!DNL Experience Platform]提取数据，可以使用以下方法
-   * 数据访问 SDK
-      * 数据以原始文件形式提供
-      * 用户档案体验事件数据保持其不统一的原始状态。
-   * RTCDP 目标
-      * 可导出用户档案属性和区段会员资格。
 
 ## 相关文档
 
-* [Adobe [!DNL Experience Platform] 智能产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Adobe [!DNL Experience Platform] Intelligence产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * [Adobe [!DNL Experience Platform] 查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans)
 
 ## 相关博客帖子
 
 * [内容和商业 AI：通过内容智能个性化您与客户的互动](https://medium.com/adobetech/content-and-commerce-ai-personalizing-your-interactions-with-customers-through-content-intelligence-dc182601deab)
-* [有关Adobe的探索性数据分析的介绍性介绍 [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)
+* [在Adobe上初步了解探索数据分析 [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)
 * [借助机器学习打通 Adobe 体验产品以提升用户体验](https://medium.com/adobetech/cutting-across-adobe-experience-products-with-machine-learning-to-elevated-user-experience-7c85000510d1)
 * [Segmentation.AI：Adobe中的自动受众群集即服务 [!DNL Experience Platform]](https://medium.com/adobetech/segmentation-ai-automated-audience-clustering-as-a-service-in-adobe-experience-platform-261f4099462c)
