@@ -3,9 +3,9 @@ title: '[!DNL Journey Optimizer] - 历程Blueprint'
 description: 使用 Adobe Experience Platform 作为流式传输数据、客户档案和分段的中心枢纽，执行触发的消息和体验。
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+source-git-commit: e96b48e55c0fe2f48dc83f48ad41f5b686ec8dc1
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '640'
 ht-degree: 15%
 
 ---
@@ -21,7 +21,7 @@ Adobe [!DNL Journey Optimizer]是基于Adobe Experience Platform构建的云原�
 ## 用例
 
 >[!BEGINTABS]
->[!TAB 历程用例（事件驱动，实时）]
+>[!TAB 历程（事件驱动，实时）]
 
 - **放弃恢复：**&#x200B;当用户通过电子邮件、推送或应用程序内放弃购物车、表单或会话时，触发个性化消息。
 - **新用户注册：**&#x200B;新用户注册新帐户首选项、相关促销活动或权益后，立即与其接洽
@@ -29,7 +29,7 @@ Adobe [!DNL Journey Optimizer]是基于Adobe Experience Platform构建的云原�
 - **上下文定位：**&#x200B;根据用户的信号和位置与其即时通信，以帮助指导和引导其体验
 - **上下文追加销售/交叉销售：**&#x200B;根据实时配置文件属性和最近的交互提供个性化优惠。
 
->[!TAB 营销活动编排用例（已计划，品牌已启动）]
+>[!TAB 营销活动编排（已计划，品牌启动）]
 
 - **促销活动**：针对产品发布、季节性优惠或销售活动启动多步骤、多渠道的促销活动。
 - **生命周期营销**：自动执行生日消息、续订提醒或忠诚度里程碑等循环营销活动。
@@ -94,12 +94,12 @@ Adobe [!DNL Experience Platform]：
 
 [[!DNL Journey Optimizer] 护栏产品链接](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=zh-Hans)
+[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## 相关文档
 
 - [[!DNL Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
 - [[!DNL Experience Platform] 标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
-- [[!DNL Experience Platform Mobile SDK] 文档](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)
-- [[!DNL Journey Optimizer] 文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hans)
+- [[!DNL Experience Platform Mobile SDK] 文档](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer] 文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 - [[!DNL Journey Optimizer] 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)
