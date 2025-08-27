@@ -47,7 +47,7 @@ Adobe Campaign v8是新一代营销活动管理平台，专为电子邮件和直
 
 ## 架构图
 
-了解有关[Campaign v8部署模型](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}的更多信息。
+了解有关[Campaign v8部署模型](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=zh-Hans#ac-deployment){target="_blank"}的更多信息。
 
 ### Campaign企业(FFDA)部署
 
@@ -137,11 +137,11 @@ Adobe Campaign v8是新一代营销活动管理平台，专为电子邮件和直
 
 ## 实施步骤
 
-请参阅快速入门指南，以了解[实施 Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html)
+请参阅快速入门指南，以了解[实施 Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=zh-Hans)
 
 ## 相关文档
 
-- [Campaign v8 文档](https://experienceleague.adobe.com/docs/campaign-v8.html)
+- [Campaign v8 文档](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=zh-Hans)
 - [Campaign v8 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-- [Experience Platform 标记文档](https://experienceleague.adobe.com/docs/launch.html)
-- [Experience Platform Mobile SDK 文档](https://experienceleague.adobe.com/docs/mobile.html)
+- [Experience Platform 标记文档](https://experienceleague.adobe.com/docs/launch.html?lang=zh-Hans)
+- [Experience Platform Mobile SDK 文档](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)

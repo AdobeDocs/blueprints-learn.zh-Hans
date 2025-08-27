@@ -42,9 +42,9 @@ ht-degree: 52%
 
 ## 护栏
 
-* [Journey Optimizer护栏产品限制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+* [Journey Optimizer护栏产品限制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/guardrails)
 
-* [护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
+* [护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=zh-Hans)
 
 ## 实施步骤
 
