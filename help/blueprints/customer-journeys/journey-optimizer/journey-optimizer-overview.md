@@ -33,7 +33,7 @@ Adobe [!DNL Journey Optimizer]是基于Adobe Experience Platform构建的云原�
 
 - **促销活动**：针对产品发布、季节性优惠或销售活动启动多步骤、多渠道的促销活动。
 - **生命周期营销**：自动执行生日消息、续订提醒或忠诚度里程碑等循环营销活动。
-- **基于受众的漏斗推送**：根据业务逻辑或CRM属性将受众分段并推送至结构化营销活动。
+- **基于受众的Funnel推送**：根据业务逻辑或CRM属性将受众细分并推送至结构化营销活动。
 - **新闻稿和内容分发**：通过电子邮件和移动设备，为目标受众计划和提供个性化内容。
 - **重新参与营销活动**：识别休眠用户，并根据非活动阈值将其重新引入参与流程。
 
@@ -94,12 +94,12 @@ Adobe [!DNL Experience Platform]：
 
 [[!DNL Journey Optimizer] 护栏产品链接](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=zh-Hans)
+[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## 相关文档
 
 - [[!DNL Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
 - [[!DNL Experience Platform] 标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
-- [[!DNL Experience Platform Mobile SDK] 文档](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)
-- [[!DNL Journey Optimizer] 文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hans)
+- [[!DNL Experience Platform Mobile SDK] 文档](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer] 文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 - [[!DNL Journey Optimizer] 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)

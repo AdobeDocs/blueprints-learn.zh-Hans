@@ -44,4 +44,4 @@ Audience Manager 和 Real-time Customer Data Platform 均可用于提供现场�
 
 ## Real-time Customer Data Platform 的实施步骤
 
-* 有关 Real-time Customer Data Platform 的实施步骤，请参阅以下[文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home)。
+* 有关 Real-time Customer Data Platform 的实施步骤，请参阅以下[文档](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home)。

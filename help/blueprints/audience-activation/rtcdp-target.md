@@ -31,7 +31,7 @@ ht-degree: 32%
 
 ### 参考文档
 
-* [用于 Real-time Customer Data Platform 的 Adobe Target 连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans)
+* [用于 Real-time Customer Data Platform 的 Adobe Target 连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
 * [Edge 数据流配置](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=zh-Hans)
 
 ## 集成模式
@@ -71,13 +71,13 @@ ht-degree: 32%
 
 使用传统的特定于应用程序的 SDK（例如，AT.js 和 AppMeasurement.js）。使用此实施方案不支持实时 Edge 区段评估。但是，使用此实施方案支持从 Experience Platform 中心进行流传输和批次受众共享。
 
-[请参阅Adobe Target连接器文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[请参阅Adobe Target连接器文档](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
 [请参阅特定于应用程序的SDK Blueprint](../experience-platform/deployment/appsdk.md)
 
 ## 实施注意事项
 
 * 在将[!DNL Edge Network]和Web SDK结合使用上述实现模式1时，可以利用任何主要身份。
-* 使用先前引入RTCDP的已知客户数据进行首次登录个性化时，要求个性化请求具有与Real-time Customer Data Platform中的已知客户身份图匹配的主要身份。 如果主ID设置为ECID或尚未与已知客户个人资料进行拼合的身份，则在Edge上实现身份拼合以及边缘个性化包含之前摄取的已知客户数据需要几分钟时间。
+* 首次使用先前摄取到RTCDP中的已知客户数据进行登录个性化，要求个性化请求具有与Real-time Customer Data Platform中的已知客户身份图匹配的主要身份。 如果主ID设置为ECID或尚未与已知客户个人资料进行拼合的身份，则在Edge上实现身份拼合以及边缘个性化包含之前摄取的已知客户数据需要几分钟时间。
 * Edge用户档案当前具有14天TTL。 因此，如果用户未在边缘登录或处于活动状态14天，则边缘上的配置文件可能会过期，因此边缘必须从中心获取配置文件才能使用历史配置文件视图进行个性化，包括先前摄取的配置文件属性和区段，这将会导致个性化，即后续页面查看与首次登录时发生的配置文件的历史视图。
 
 ## 相关文档

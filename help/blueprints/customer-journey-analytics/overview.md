@@ -14,7 +14,7 @@ ht-degree: 85%
 
 # Customer Journey Analytics Blueprint
 
-Customer Journey Analytics 显示了各品牌如何统一来自各种互动渠道和来源的客户数据和行为，以创建包含所有客户互动的基于历程的视图。报告和分析可在 Customer Journey Analytics 应用程序服务中执行，以评估和了解客户互动和行为模式。
+Customer Journey Analytics 显示了各品牌如何统一来自各种互动渠道和来源的客户数据和行为，以创建包含所有客户互动的基于历程的视图。报告和分析可在 Customer Journey Analytics 应用程序服务中执行，以评估和洞察客户互动和行为模式。
 
 ## Customer Journey Analytics 用例
 
