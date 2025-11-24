@@ -4,8 +4,8 @@ breadcrumb-title: Blueprint
 user-guide-description: Blueprint 是可重复实施的产品，用于应对战略和解决既定的业务问题，并包含架构图、技术注意事项和相关文档链接。
 product: adobe experience platform
 mini-toc-levels: 3
-role: Architect, Developer, User
-source-git-commit: 003e8ebf32150cf6527ed588ff05f22ea8cfb209
+role: Developer, User
+source-git-commit: 3a3988e93dd9e92f4f564bfedfa314e8e2b5d9ba
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 41%
@@ -52,7 +52,7 @@ ht-degree: 41%
 + 客户历程{#customer-journeys}
    + [概述](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer  {#journey-optimizer}
-      + [Journey Optimizer  &#x200B;](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+      + [Journey Optimizer  ](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
       + [AJO历程](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
       + [AJO Campaigns](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
       + [第三方报文传送](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
@@ -66,8 +66,8 @@ ht-degree: 41%
       + [Journey Optimizer 与 Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + 已弃用的Blueprint{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/zh-hans/docs/campaign-standard){target="_blank"}
-         + [Real-Time CDP与Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/zh-hans/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Real-Time CDP与Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + 数据分析、智能和 AI/ML {#data-exploration}
