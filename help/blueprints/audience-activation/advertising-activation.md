@@ -1,17 +1,17 @@
 ---
-title: 从RTCDP激活社交和广告目标
+title: Audience Activation到Social和Advertising目标
 description: 了解如何从多个源摄取客户数据以构建客户的单个配置文件视图。
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 92%
+source-wordcount: '1128'
+ht-degree: 93%
 
 ---
 
-# 从RTCDP激活社交和广告目标
+# Audience Activation到Social和Advertising目标
 
 从多个来源摄取客户数据以构建客户的单个配置文件视图。 您可以按构建的受众细分这些配置文件以进行营销和个性化，并将这些受众共享到Facebook和Google等广告网络，以针对这些受众定位和个性化营销活动。
 

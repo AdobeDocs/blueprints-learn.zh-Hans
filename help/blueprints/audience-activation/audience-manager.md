@@ -1,5 +1,5 @@
 ---
-title: Audience Manager Blueprint
+title: Device Based — 使用Audience Manager进行匿名受众定位
 description: 了解如何基于匿名和行为客户数据跨网络和广告渠道定位受众。该功能支持跨设备的个性化、一致的实时客户体验。
 landing-page-description: 了解如何基于匿名和行为客户数据跨网络和广告渠道定位受众。
 short-description: 了解如何基于匿名和行为客户数据跨网络和广告渠道定位受众。
@@ -7,14 +7,14 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 495a2480828e2c6b4caa41226f4fe67437b081c1
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 93%
+source-wordcount: '246'
+ht-degree: 89%
 
 ---
 
-# Audience Manager Blueprint
+# Device Based — 使用Audience Manager进行匿名受众定位
 
 匿名受众激活是指根据匿名设备和行为数据，跨 Web、移动设备和广告渠道来定位和个性化受众的能力。
 
@@ -44,4 +44,4 @@ Audience Manager 和 Real-time Customer Data Platform 均可用于提供现场�
 
 ## Real-time Customer Data Platform 的实施步骤
 
-* 有关 Real-time Customer Data Platform 的实施步骤，请参阅以下[文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home)。
+* 有关 Real-time Customer Data Platform 的实施步骤，请参阅以下[文档](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home)。

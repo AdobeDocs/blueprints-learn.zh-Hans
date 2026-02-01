@@ -1,16 +1,16 @@
 ---
-title: 区段匹配Blueprint
+title: 具有区段匹配的受众Collaboration
 description: 了解 Adobe Experience Platform (AEP) 的[!UICONTROL 区段匹配]。[!UICONTROL 区段匹配]是一项数据协作服务，允许您以安全、受管理且对隐私友好的方式，基于通用行业标识符交换区段数据。
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2123'
 ht-degree: 80%
 
 ---
 
-# 区段匹配Blueprint
+# 具有区段匹配Blueprint的受众Collaboration
 
 区段匹配允许合作伙伴品牌在其各自的 Experience Platform 环境中共享受众。品牌的关键在于根据从与消费者的直接关系中收集的数据，与客户建立联系。通过更好的治理、权限和首选项管理系统，营销人员可以通过关键合作伙伴进一步增强其经过身份验证的第一方受众。
 
@@ -188,7 +188,7 @@ ht-degree: 80%
 3. ACME使用适用的定位标准（包括上一步中建立的受众）设置私有库存交易(ID)。 随后，私有库存交易ID将被推送到Luma的DSP。
 4. Luma开展私有库存交易和流量营销活动/广告创意。
 5. 然后，该营销活动会通过程序化的“私有库存交易”进行交付。
-6. 接下来，广告服务器或SSP提供符合既定定位标准的广告展示次数。 (其他定位标准，如频度上限，可通过广告服务器和/或DSP使用，具体取决于协议中是建立了保证交易还是首选交易)。
+6. 接下来，广告服务器或SSP提供符合既定定位标准的广告展示次数。 (其他定位标准，如频度上限，可通过广告服务器和/或DSP使用，具体取决于协议中是建立了保证交易还是优先交易)。
 7. 流量来自Luma的品牌资产。
 8. 然后，ACME通过“区段匹配”分享营销活动后的见解或受众，以便重新定位。
 
