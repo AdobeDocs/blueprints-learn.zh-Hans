@@ -21,7 +21,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->中心上的配置文件查找不适用于高吞吐量、低延迟的用例，如Web/移动入站个性化。 中心上的配置文件查找适用于延迟较低的情形，如代理辅助支持或销售互动。 对于低延迟、高吞吐量场景（如Web/移动个性化或实时优惠决策），应利用Edge用户档案。 Edge配置文件允许通过Real-time Customer Data Platform的[自定义Personalization连接](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)进行实时访问。
+>中心上的配置文件查找不适用于高吞吐量、低延迟的用例，如Web/移动入站个性化。 中心上的配置文件查找适用于延迟较低的情形，如代理辅助支持或销售互动。 对于低延迟、高吞吐量场景（如Web/移动个性化或实时优惠决策），应利用Edge用户档案。 Edge配置文件允许通过Real-time Customer Data Platform的[自定义Personalization连接](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/custom-personalization)进行实时访问。
 
 ## 用例
 
