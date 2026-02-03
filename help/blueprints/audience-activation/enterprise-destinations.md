@@ -1,17 +1,17 @@
 ---
-title: 将受众和配置文件激活到企业目标Blueprint
+title: 受众和用户档案激活到企业目的地
 description: 受众和用户档案激活到企业目的地
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
+source-git-commit: d5f3618fd811131e9d9c1fae16d7aab16aecc9e9
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 72%
+source-wordcount: '159'
+ht-degree: 82%
 
 ---
 
-# 将受众和配置文件激活到企业目标Blueprint
+# 受众和用户档案激活到企业目的地
 
 从[!UICONTROL Real-time Customer Data Platform]以流式或批次方式共享用户档案和受众更改与事件到企业数据存储和应用程序。这些用户档案和受众事件可用于向客户发起销售或支持行动，例如跟踪放弃的应用程序流程或网络研讨会注册，或使用[!UICONTROL Real-time Customer Data Platform]的最新客户属性和智能更新企业应用程序。
 
@@ -29,7 +29,7 @@ ht-degree: 72%
 
 ## 相关文档
 
-有关云存储和企业目标的配置的其他详细信息，请参阅[目标文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/cloud-storage/overview)。
+有关云存储和企业目标的配置的其他详细信息，请参阅[目标文档](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview)。
 
 ## 护栏
 

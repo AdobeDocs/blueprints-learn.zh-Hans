@@ -5,10 +5,10 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 0add2a504e6ab8b6bafac78a72fc47a805440869
+source-git-commit: d5f3618fd811131e9d9c1fae16d7aab16aecc9e9
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 35%
+source-wordcount: '230'
+ht-degree: 38%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 35%
    + [Device Based — 使用Audience Manager进行匿名受众定位](/help/blueprints/audience-activation/audience-manager.md)
    + Real-time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
       + [Audience Activation到Social和Advertising目标](/help/blueprints/audience-activation/advertising-activation.md)
-      + [将受众和配置文件激活到企业目标Blueprint](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [受众和用户档案激活到企业目的地](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [支持和销售方案的实时配置文件访问](/help/blueprints/audience-activation/customer-activity.md)
       + [适用于Web和移动Personalization的实时Edge配置文件访问](/help/blueprints/audience-activation/real-time-lookup.md)
       + [具有区段匹配的受众Collaboration](/help/blueprints/audience-activation/segment-match.md)
@@ -53,7 +53,7 @@ ht-degree: 35%
 + 客户历程{#customer-journeys}
    + [概述](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer  {#journey-optimizer}
-      + [Journey Optimizer  &#x200B;](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+      + [Journey Optimizer  ](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
       + [AJO历程](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
       + [AJO Campaigns](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
       + [第三方报文传送](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
@@ -67,8 +67,8 @@ ht-degree: 35%
       + [Journey Optimizer 与 Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + 已弃用的Blueprint{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/zh-hans/docs/campaign-standard){target="_blank"}
-         + [Real-Time CDP与Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/zh-hans/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Real-Time CDP与Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + 数据分析、智能和 AI/ML {#data-exploration}
