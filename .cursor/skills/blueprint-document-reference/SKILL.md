@@ -99,7 +99,7 @@ exl-id: [UUID - leave blank if new, this will be auto-generated as part of the E
 
 - **何时链接**：链接到Experience League，获取产品文档、API引用、护栏、教程和配置步骤。 不要重复冗长的过程；摘要和链接。
 - **URL格式**：使用完整的URL。 首选`https://experienceleague.adobe.com/docs/...`或`https://experienceleague.adobe.com/en/docs/...`。 对于开发人员文档，`https://developer.adobe.com/...`也有效。
-- **链接文本**：使用描述性文本（例如，“[创建架构](url)”，而不是“单击此处”）。 对于链接文本中的产品名称，请酌情使用`[!DNL Product Name]`。
+- **链接文本**：使用描述性文本（例如，“[创建架构] (url)”，而不是“单击此处”）。 对于链接文本中的产品名称，请酌情使用`[!DNL Product Name]`。
 - **相关文档部分**：使用“相关文档”部分结束Blueprint并按类别对链接进行分组(例如，目标配置、SDK文档、配置文件和分段、教程)。
 
 有关详细的URL模式、链接分组和示例，请参阅[reference.md](reference.md)。

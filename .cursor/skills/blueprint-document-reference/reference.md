@@ -15,7 +15,7 @@ ht-degree: 2%
 | **方案Blueprint** | 单一用例：架构、步骤、护栏 | 如`real-time-lookup.md`，`journey-optimizer-journeys.md` |
 | **目录** | 导航；请勿用作内容模板 | `help/blueprints/TOC.md` |
 
----
+&#x200B;---
 
 ## 完整部分引用
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 - **Blueprint方案**&#x200B;或&#x200B;**集成模式**：包含方案名称、简短描述和方案Blueprint链接的表。
 - **先决条件**，**护栏**，**相关文档**：与上述内容相同；请保持简洁。
 
----
+&#x200B;---
 
 ## Adobe Experience League — 代理指导
 
@@ -110,7 +110,7 @@ ht-degree: 2%
 * [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 ```
 
----
+&#x200B;---
 
 ## 存储库和目录
 
@@ -118,7 +118,7 @@ ht-degree: 2%
 - **Assets**：与Blueprint共同定位（例如`assets/`、`images/`）或在共享文件夹中（例如`experience-platform/assets/`）。
 - **目录**：添加、重命名或移动Blueprint页面时编辑`help/blueprints/TOC.md`。 保留frontmatter (`user-guide-title`， `breadcrumb-title`， `user-guide-description`， `product`， `mini-toc-levels`， `role`)和`+`层次结构。
 
----
+&#x200B;---
 
 ## 此存储库中的示例引用
 
