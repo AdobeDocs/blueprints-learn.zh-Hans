@@ -65,7 +65,7 @@ ht-degree: 2%
 | 内容类型 | 基本URL | 示例路径 |
 |--------------|----------|--------------|
 | Experience Platform文档 | `https://experienceleague.adobe.com/docs/experience-platform/` | `.../profile/home.html`，`.../destinations/catalog/...` |
-| Experience League (en) | `https://experienceleague.adobe.com/en/docs/` | 与`/en/`的上述结构相同。 |
+| Experience League (en) | `https://experienceleague.adobe.com/zh-hans/docs/` | 与`/en/`的上述结构相同。 |
 | Journey Optimizer | `https://experienceleague.adobe.com/docs/journey-optimizer/` | `.../using/get-started/guardrails.html` |
 | Web SDK | `https://experienceleague.adobe.com/docs/experience-platform/web-sdk/` | `.../home.html`，`.../commands/command-responses.html` |
 | Edge Network服务器API | `https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/` | `.../overview.html`，`.../guardrails.html` |
@@ -77,7 +77,7 @@ ht-degree: 2%
 
 ### Markdown中的链接格式
 
-- **描述性链接文本**： `[Create schemas](https://experienceleague.adobe.com/...)`不是“单击此处”。
+- **描述性链接文本**： `[Create schemas](https://experienceleague.adobe.com/zh-hans...)`不是“单击此处”。
 - **文本中的产品名称**：针对每个Adobe样式使用`[!DNL Product Name]`（例如`[!DNL Real-time Customer Profile]`）。
 - **外部链接**：仅在模板或管道需要时才添加`{target="_blank"}`（检查存储库中的现有Blueprint）。
 
@@ -98,16 +98,16 @@ ht-degree: 2%
 ## Related documentation
 
 ### Destination configurations
-* [Custom Personalization Connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
-* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
+* [Custom Personalization Connection](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
+* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
 
 ### SDK documentation
-* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)
-* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
+* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=zh-Hans)
+* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)
 
 ### Profile and segmentation
-* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
-* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)
+* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 ```
 
 &#x200B;---
