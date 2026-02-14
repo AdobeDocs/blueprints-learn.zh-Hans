@@ -19,8 +19,8 @@ ht-degree: 93%
 
 * Lumen（峰会分组讨论）：[Lumen 如何推动全渠道客户体验的敏捷性 - S710](https://business.adobe.com/cn/summit/2022/sessions/how-lumen-drives-agility-for-omnichannel-customer-s710.html){target="_blank"}
 
-* BNY Mellon（峰会分组讨论）：[BNY Mellon 如何通过人员、流程和 Adobe 技术改进营销活动执行 - S127](https://business.adobe.com/events/experience-makers-live/2022/sessions/how-bny-mellon-improved-campaign-execution-with-pe-s127.html){target="_blank"}
+* BNY Mellon（峰会分组讨论）：[BNY Mellon 如何通过人员、流程和 Adobe 技术改进营销活动执行 - S127](https://business.adobe.com/cn/events/experience-makers-live/2022/sessions/how-bny-mellon-improved-campaign-execution-with-pe-s127.html){target="_blank"}
 
 * Commvault（案例研究）：[Commvault 通过 Adobe Marketo Engage 创建营销卓越中心，每年开展 1,800 多场营销活动](https://business.adobe.com/cn/customer-success-stories/commvault-case-study){target="_blank"}
 
-* Poly（博客）：[Poly 如何通过 Adobe Experience Cloud 调整战略以吸引新的受众](https://business.adobe.com/blog/basics/how-poly-shifted-gears-reach-new-audiences-adobe-experience-cloud){target="_blank"}
+* Poly（博客）：[Poly 如何通过 Adobe Experience Cloud 调整战略以吸引新的受众](https://business.adobe.com/cn/blog/basics/how-poly-shifted-gears-reach-new-audiences-adobe-experience-cloud){target="_blank"}
