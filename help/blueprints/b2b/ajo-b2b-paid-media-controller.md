@@ -67,8 +67,8 @@ ht-degree: 0%
 
 ### 护栏
 
-- **Journey Optimizer B2B edition** — 有关历程限制、节点限制和目标支持，请参阅[产品描述](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html)。
-- **Real-Time CDP** — 有关分段和激活限制，请参阅[RTCDP护栏](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)。
+- **Journey Optimizer B2B edition** — 有关历程限制、节点限制和目标支持，请参阅[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html)。
+- **Real-Time CDP** — 有关分段和激活限制，请参阅[RTCDP护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/guardrails/overview)。
 
 ## 实施
 
@@ -121,6 +121,6 @@ ht-degree: 0%
 
 ## 相关文档
 
-- [购买基于群组的营销和历程管理Blueprint](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — 在AJO B2B中注册和购买群组的历程。
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — 产品文档。
+- [购买基于群组的营销和历程管理Blueprint](https://experienceleague.adobe.com/zh-hans/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — 在AJO B2B中注册和购买群组的历程。
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b) — 产品文档。
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) — 帐户受众和激活。
