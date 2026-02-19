@@ -1,10 +1,14 @@
 ---
-source-git-commit: 9d0eebd5d84671db1c86d73e7e0de50cb926235d
+title: AJO B2B付费媒体控制器
+description: 营销活动和将帐户激活到付费媒体目标的优先级
+solution: Journey Optimizer B2B Edition
+source-git-commit: dff5608af92fa1140419d6834d8374df75de98d3
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
+
 # 概述
 
 大规模运行B2B付费媒体的营销团队面临一个反复出现的问题：**帐户一次结束多个营销活动**（角色、类别意识、解决方案引导、追随），这会稀释消息传递，导致受众疲劳，并强制在LinkedIn帐户匹配（帐户目标）过程中执行手动列表工作 — 上传、排除和抑制。 如果没有&#x200B;**瀑布图优先顺序**&#x200B;和&#x200B;**自动营销活动分配**，则无法单独决定哪个帐户获取了哪个消息，并且操作无法缩放。
@@ -67,8 +71,8 @@ ht-degree: 0%
 
 ### 护栏
 
-- **Journey Optimizer B2B edition** — 有关历程限制、节点限制和目标支持，请参阅[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html)。
-- **Real-Time CDP** — 有关分段和激活限制，请参阅[RTCDP护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/guardrails/overview)。
+- **Journey Optimizer B2B edition** — 有关历程限制、节点限制和目标支持，请参阅[产品描述](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html)。
+- **Real-Time CDP** — 有关分段和激活限制，请参阅[RTCDP护栏](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)。
 
 ## 实施
 
@@ -121,6 +125,6 @@ ht-degree: 0%
 
 ## 相关文档
 
-- [购买基于群组的营销和历程管理Blueprint](https://experienceleague.adobe.com/zh-hans/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — 在AJO B2B中注册和购买群组的历程。
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b) — 产品文档。
+- [购买基于群组的营销和历程管理Blueprint](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — 在AJO B2B中注册和购买群组的历程。
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — 产品文档。
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) — 帐户受众和激活。
