@@ -3,14 +3,14 @@ title: 客户历程 Blueprint
 description: 跨屏幕提供个性化、及时和协调的客户体验。
 solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 8ee7fe8d38343a669f5ad57e69367fbe6a3e1024
+source-git-commit: 49251caac58cd8f62dff977f94ea6a716aa94250
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
-# 客户历程Blueprint
+# 客户历程 Blueprint
 
 现代营销团队需要同时支持反应参与（响应单个客户行为）和主动外联（启动引导受众进入转化漏斗的营销活动）的平台。 这些用例涵盖了电子邮件、短信、推送等渠道，并且越来越多地涵盖Web和应用程序内体验。
 
