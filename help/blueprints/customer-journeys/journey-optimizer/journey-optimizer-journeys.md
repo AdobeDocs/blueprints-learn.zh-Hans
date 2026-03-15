@@ -38,7 +38,7 @@ ht-degree: 12%
 
 [[!DNL Journey Optimizer]护栏产品链接](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=zh-Hans)
 
 <br>
 
@@ -46,6 +46,6 @@ ht-degree: 12%
 
 - [[!DNL Experience Platform]文档](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
 - [[!DNL Experience Platform]标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
-- [[!DNL Experience Platform Mobile SDK]文档](https://experienceleague.adobe.com/docs/mobile.html)
-- [[!DNL Journey Optimizer]文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+- [[!DNL Experience Platform Mobile SDK]文档](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)
+- [[!DNL Journey Optimizer]文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hans)
 - [[!DNL Journey Optimizer]产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)
