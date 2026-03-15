@@ -4,10 +4,10 @@ description: 了解Campaign v8的蓝图。
 solution: Campaign,Campaign v8
 version: Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 31%
+source-wordcount: '1045'
+ht-degree: 29%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Campaign v8是新一代营销活动管理平台，专为电子邮件和直
 
 ## 架构图
 
-了解有关[Campaign v8部署模型](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=zh-Hans#ac-deployment){target="_blank"}的更多信息。
+了解有关[Campaign v8部署模型](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}的更多信息。
 
 ### Campaign企业(FFDA)部署
 
@@ -65,7 +65,7 @@ Adobe Campaign v8是新一代营销活动管理平台，专为电子邮件和直
 
 | 场景 | 描述 | 技术注意事项 |
 | :-- | :--- | :--- |
-| 使用Adobe的[[!DNL Real-time Customer Data Platform]  [!DNL Campaign]](rtcdp-and-campaign-v8.md) | 展示Adobe Experience Platform及其Real-time Customer Profile和集中式分段工具如何与Adobe [!DNL Campaign]一起使用，以提供个性化的对话 | <ul><li>使用云存储文件交换和Adobe [!DNL Real-Time CDP]引入工作流从[!DNL Campaign]共享配置文件和受众到Adobe [!DNL Campaign] </li><li>从Adobe [!DNL Real-Time CDP]轻松地将客户对话中的投放和交互数据共享回[!DNL Campaign]，以增强实时客户配置文件并提供关于消息传递营销活动的跨渠道报告</li></ul> |
+| 使用Adobe的[[!DNL Real-time Customer Data Platform]  [!DNL Campaign]](rtcdp-and-campaign-v8.md) | 展示Adobe Experience Platform及其Real-time Customer Profile和集中式分段工具如何与Adobe [!DNL Campaign]一起使用，以提供个性化的对话 | <ul><li>使用云存储文件交换和Adobe [!DNL Campaign]引入工作流从[!DNL Real-Time CDP]共享配置文件和受众到Adobe [!DNL Campaign] </li><li>从Adobe [!DNL Campaign]轻松地将客户对话中的投放和交互数据共享回[!DNL Real-Time CDP]，以增强实时客户配置文件并提供关于消息传递营销活动的跨渠道报告</li></ul> |
 | 使用Adobe的[[!DNL Journey Optimizer]  [!DNL Campaign]](ajo-and-campaign-v8.md) | 显示如何使用Adobe Journey Optimizer利用实时客户配置文件编排1:1个体验，以及如何利用本机Adobe [!DNL Campaign]事务性消息传递系统发送消息 | <ul><li>可通过实时消息服务器每小时发送最多 100 万条消息<li>没有从[!DNL Journey Optimizer]执行限制，因此请确保由售前企业架构师进行技术审查</li><li>Campaign v8 的有效负载中不支持决策管理</li></ul> |
 
 <br>
@@ -76,14 +76,14 @@ Adobe Campaign v8是新一代营销活动管理平台，专为电子邮件和直
 
 ### 应用程序服务器和实时消息服务器
 
-- 需要Adobe [!DNL Campaign]客户端控制台才能交互和使用[!DNL Campaign] v8软件。 它是基于 Windows 的客户端，使用标准 Internet 协议（SOAP、HTTP 等）。确保您的组织中已启用分发、安装和运行软件的必要权限
+- 需要Adobe [!DNL Campaign]客户端控制台才能交互和使用[!DNL Campaign] v8软件。 它是基于 Windows 的客户端，使用标准 Internet 协议（SOAP、HTTP 等）。 确保您的组织中已启用分发、安装和运行软件的必要权限
 
 - IP地址允许列表：
    - 确定所有用户在访问客户端控制台期间利用的IP范围。
    - 标识允许哪些企业系统与Real-time Messaging Server通信，并确保它们具有可以列入允许列表的静态分配IP或范围。
    - 这可以通过 Campaign 控制面板进行设置和控制。
 - Sftp密钥管理：
-   - 具有可用于 Campaign 提供的 sFTP 的 SSH 公钥。这可以通过 Campaign 控制面板进行设置和控制。
+   - 具有可用于 Campaign 提供的 sFTP 的 SSH 公钥。 这可以通过 Campaign 控制面板进行设置和控制。
 
 ### 电子邮件
 
@@ -94,7 +94,7 @@ Adobe Campaign v8是新一代营销活动管理平台，专为电子邮件和直
 ### 移动推送
 
 - 让移动设备开发人员能够部署、配置和构建移动设备应用程序。
-- Adobe 仅提供一个 SDK，用于从 FCM (Android) 和 APNS (iOS) 收集必要信息，以将消息负载发送到其服务器。客户有责任对移动应用程序进行编码、部署、管理和调试。
+- Adobe 仅提供一个 SDK，用于从 FCM (Android) 和 APNS (iOS) 收集必要信息，以将消息负载发送到其服务器。 客户有责任对移动应用程序进行编码、部署、管理和调试。
 
 ### Web 应用程序（可选）
 
@@ -110,7 +110,7 @@ Adobe Campaign v8是新一代营销活动管理平台，专为电子邮件和直
 - 存储可以扩展到高达2亿个配置文件，并有可能扩展到高达10亿个配置文件。
 - 通过Adobe [!DNL Admin Console]设置并控制用户访问。
 - 应通过批处理文件将数据加载到[!DNL Campaign]：
-   - API 数据加载支持主要用于管理数据库中的用户档案或简单对象（即创建和更新）。它不适用于加载大量数据或批量操作。
+   - API 数据加载支持主要用于管理数据库中的用户档案或简单对象（即创建和更新）。 它不适用于加载大量数据或批量操作。
    - 不支持出于自定义应用程序目的使用 API 读取数据
    - 通过 API 加载的数据将在应用程序数据库中进行暂存，然后每小时向云数据库复制一次
 - 对API调用的限制适用。 请参阅[Adobe Campaign产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}以了解详情。
@@ -122,11 +122,11 @@ Adobe Campaign v8是新一代营销活动管理平台，专为电子邮件和直
 ### 实时消息服务器大小调整
 
 - 每小时最多可发送 100 万条消息
-- 默认情况下，配置两个实时消息服务器。能够扩展到最多 8 个实时消息服务器。
+- 默认情况下，配置两个实时消息服务器。 能够扩展到最多 8 个实时消息服务器。
 
 ### 短信配置
 
-- Campaign 提供与短信提供商集成的功能。提供商由客户采购，并与Campaign集成，用于发送基于短信的消息。
+- Campaign 提供与短信提供商集成的功能。 提供商由客户采购，并与Campaign集成，用于发送基于短信的消息。
 - 通过SMPP协议提供支持。
 - 有三 (3) 种不同类型的短信，它们都受 Adobe 支持：
    - SMS MT（已终止移动设备）：Adobe [!DNL Campaign]通过SMPP提供商向移动电话发出的短信。
@@ -137,11 +137,11 @@ Adobe Campaign v8是新一代营销活动管理平台，专为电子邮件和直
 
 ## 实施步骤
 
-请参阅快速入门指南，以了解[实施 Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=zh-Hans)
+请参阅快速入门指南，以了解[实施 Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html)
 
 ## 相关文档
 
-- [Campaign v8 文档](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=zh-Hans)
-- [Campaign v8 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-- [Experience Platform 标记文档](https://experienceleague.adobe.com/docs/launch.html?lang=zh-Hans)
-- [Experience Platform Mobile SDK 文档](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)
+- [Campaign v8文档](https://experienceleague.adobe.com/docs/campaign-v8.html)
+- [Campaign v8产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
+- [Experience Platform标记文档](https://experienceleague.adobe.com/docs/launch.html)
+- [Experience Platform Mobile SDK文档](https://experienceleague.adobe.com/docs/mobile.html)

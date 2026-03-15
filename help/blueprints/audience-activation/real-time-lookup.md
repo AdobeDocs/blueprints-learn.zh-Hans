@@ -3,10 +3,11 @@ title: 适用于Web和移动Personalization的实时Edge配置文件访问
 description: 在边缘位置[!UICONTROL 实时客户个人资料]访问，以提供实时Web和移动个性化的上下文。
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 719
-source-git-commit: 2fad3a8a9210d703130f251b0bd7cc4c0b7cbd32
+exl-id: 61b81d00-c4bd-41b2-8161-683814947b56
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 6%
+source-wordcount: '1936'
+ht-degree: 11%
 
 ---
 
@@ -24,8 +25,8 @@ ht-degree: 6%
 
 ## 应用程序
 
-* Real-time Customer Data Platform  
-* Adobe Experience Platform数据收集(Web SDK/移动SDK)
+* Real-time Customer Data Platform
+* Adobe Experience Platform数据收集（Web SDK/移动SDK）
 * Edge Network服务器API
 
 ## 用例
@@ -40,13 +41,13 @@ ht-degree: 6%
 
 如果您希望使用流数据实时更新用户档案，此Blueprint需要使用以下数据收集方法之一。 无需直接向Edge配置文件收集数据，即可实时访问Edge配置文件；可将数据收集到中心并投影到Edge配置文件。 请注意，收集到中心并随后预计到Edge的数据会增加延迟。
 
-* 如果要从您的网站收集数据，请使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=zh-Hans)。
+* 如果要从您的网站收集数据，请使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)。
 * 如果要从移动应用程序收集数据，请使用[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/)。
 * 如果您未使用Web SDK或Mobile SDK，或者正在实现更直接的服务器到服务器连接，请使用[Edge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)。
 
 >[!IMPORTANT]
 >
->在实施边缘个性化之前，请阅读有关如何[将受众数据激活到边缘个性化目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)的指南。 本指南将指导您跨多个Experience Platform组件完成相同页面和下一页面个性化用例所需的配置步骤。
+>在实施边缘个性化之前，请阅读有关如何[将受众数据激活到边缘个性化目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)的指南。 本指南将指导您跨多个Experience Platform组件完成相同页面和下一页面个性化用例所需的配置步骤。
 
 ## 架构图
 
@@ -54,14 +55,14 @@ ht-degree: 6%
 
 ## 护栏
 
-* [[!UICONTROL 实时客户档案]数据的护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
+* [[!UICONTROL 实时客户个人资料]数据的护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 * [Edge Network护栏](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
 * Edge用户档案具有14天的生存时间(TTL)。 如果用户在Edge上未活动14天，Edge配置文件可能会过期，需要从中心提取，这可能会影响第一页个性化。
 * Edge个性化支持对符合Edge分段标准的受众进行实时受众成员资格评估。 此外，通过相应的配置，还可在边缘位置获得来自中心的批量访问和流式访问受众。
 
 ## 实施模式
 
-可以使用Real-time Customer Data Platform中的[自定义Personalization连接](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/custom-personalization)目标实现Edge个性化。 此目标支持多种数据收集方法，具体取决于您的用例。
+可以使用Real-time Customer Data Platform中的[自定义Personalization连接](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)目标实现Edge个性化。 此目标支持多种数据收集方法，具体取决于您的用例。
 
 ### 模式1：使用Web SDK/Mobile SDK实现基于受众会员资格的个性化
 
@@ -93,15 +94,15 @@ ht-degree: 6%
 1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
 1. [将数据摄入](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=zh-Hans) Experience Platform。
 1. [设置合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=zh-Hans)以确保正确的身份拼接和配置文件合并。
-1. [在Experience Platform数据收集中配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans#)，并启用目标配置。 数据流确定在对页面的响应中将包含受众的数据收集数据流。
-1. 在Web和移动属性上实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=zh-Hans)或[移动SDK](https://developer.adobe.com/client-sdks/home/)以进行数据收集。
-1. 为需要实时评估的受众配置边缘分段。 [Edge分段文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=zh-Hans)。
-1. 在目标目录中，设置[自定义Personalization连接](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/custom-personalization)目标：
-1. [将受众激活到边缘个性化目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)。 选择要激活到目标的受众。
+1. [在Experience Platform数据收集中配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#)，并启用目标配置。 数据流确定在对页面的响应中将包含受众的数据收集数据流。
+1. 在Web和移动属性上实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)或[移动SDK](https://developer.adobe.com/client-sdks/home/)以进行数据收集。
+1. 为需要实时评估的受众配置边缘分段。[Edge分段文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=zh-Hans)。
+1. 在目标目录中，设置[自定义Personalization连接](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)目标：
+1. [将受众激活到边缘个性化目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)。 选择要激活到目标的受众。
 1. （基于属性的个性化是可选的）如果除了受众成员资格之外，您还需要根据配置文件属性进行个性化，请使用相同的数据流通过经过身份验证的服务器端集成实施[Edge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)。 这是&#x200B;**访问配置文件属性所必需的**。
 1. 在Web/移动应用程序中实施个性化逻辑以使用导出的受众数据和配置文件属性：
    * 如果使用Adobe Experience Platform中的标记，请使用[发送事件完成功能](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=zh-Hans)来访问具有导出数据的`event.destinations`变量。
-   * 如果不使用标记，请使用[命令响应](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html?lang=zh-Hans)从Adobe Experience Platform中解析JSON响应并检索受众ID和配置文件属性。
+   * 如果不使用标记，请使用[命令响应](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html)从Adobe Experience Platform中解析JSON响应并检索受众ID和配置文件属性。
 
 ## 实施注意事项
 
@@ -133,25 +134,25 @@ ht-degree: 6%
 
 ### 目标配置
 
-* [自定义Personalization连接](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/custom-personalization) — 主要实施指南
-* [Personalization目标概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/overview)
-* [将受众激活到边缘个性化目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
-* [实时查找边缘上的配置文件属性](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-edge-profile-lookup)
+* [自定义Personalization连接](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) — 主要实施指南
+* [Personalization目标概述](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/overview)
+* [激活受众以边缘个性化目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
+* [实时查找边缘上的配置文件属性](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-profile-lookup)
 
 ### SDK 文档
 
-* [Experience Platform Web SDK 文档](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=zh-Hans)
-* [Experience Platform Mobile SDK 文档](https://developer.adobe.com/client-sdks/home/)
+* [Experience Platform Web SDK文档](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)
+* [Experience Platform Mobile SDK文档](https://developer.adobe.com/client-sdks/home/)
 * [Edge Network服务器API文档](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)
-* [Experience Platform 标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
-* Web SDK中的[命令响应](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html?lang=zh-Hans)
+* [Experience Platform标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
+* [Web SDK中的命令响应](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html)
 
 ### 用户档案和分段文档
 
-* [[!UICONTROL 实时客户档案]文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)
-* [用户档案护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
+* [[!UICONTROL 实时客户个人资料]文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [轮廓护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 
 ### 教程
 
-* [使用 Real-Time CDP 和 Adobe Target 实现下一次点击的个性化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=zh-Hans)
-* [数据流配置](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans#)
+* [使用Real-Time CDP和Adobe Target进行下一次点击个性化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html)
+* [数据流配置](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#)

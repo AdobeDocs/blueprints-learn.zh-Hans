@@ -3,10 +3,10 @@ title: Journey Optimizer 与 Adobe Campaign v7 Blueprint
 description: 演示如何将 Adobe Journey Optimizer 与 Adobe Campaign 结合使用，通过 Campaign 中的实时消息传送服务器在本地发送消息
 solution: Journey Optimizer, Campaign, Campaign Classic v7, Campaign Standard
 exl-id: 6d9bc65c-cca0-453f-8106-d2895d005ada
-source-git-commit: b24b1200e605914c501c0f98562ca40beee1138e
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 97%
+source-wordcount: '760'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 <img src="assets/ajo-campaign-architecture.svg" alt="参考架构 Journey Optimizer Blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 >[!IMPORTANT]
->可以同时使用 Journey Optimizer 和 Campaign 来彼此独立地发送消息，但需要考虑一些技术注意事项。如果您希望遵循此路线，请与售前企业架构师沟通，以确保您了解支持实施所需的条件。
+>可以同时使用 Journey Optimizer 和 Campaign 来彼此独立地发送消息，但需要考虑一些技术注意事项。 如果您希望遵循此路线，请与售前企业架构师沟通，以确保您了解支持实施所需的条件。
 
 <br>
 
@@ -43,13 +43,13 @@ ht-degree: 97%
 
 ## 护栏
 
-[Journey Optimizer 护栏产品链接](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/guardrails)
+[Journey Optimizer护栏产品链接](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=zh-Hans)
+[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## 实施步骤
 
-### Adobe Experience Platform  
+### Adobe Experience Platform
 
 #### 架构/数据集
 
@@ -73,14 +73,14 @@ ht-degree: 97%
 
 ### Journey Optimizer
 
-1. 配置 Experience Platform 数据源并确定哪些字段应作为用户档案的一部分缓存。必须先在 Journey Optimizer 中配置用于启动客户历程的流数据，才能获取编排 ID。然后，此编排 ID 将被提供给开发人员以在摄入时使用。
+1. 配置 Experience Platform 数据源并确定哪些字段应作为用户档案的一部分缓存。必须先在 Journey Optimizer 中配置用于启动客户历程的流数据，才能获取编排 ID。 然后，此编排 ID 将被提供给开发人员以在摄入时使用。
 1. 配置外部数据源
 1. 为 Campaign 实例配置自定义操作
 
 ### Campaign v7
 
 * 需要使用相应的个性化上下文配置消息模板
-* 对于 Campaign v7 - 导出工作流需要配置为将事务性消息传递日志导出并发回 Experience Platform。建议最多每 4 小时运行一次。
+* 对于 Campaign v7 - 导出工作流需要配置为将事务性消息传递日志导出并发回 Experience Platform。 建议最多每 4 小时运行一次。
 
 ### 移动推送配置（可选）
 
@@ -94,12 +94,12 @@ ht-degree: 97%
 1. 有关更多信息，请参阅 [Adobe Journey Optimizer 移动指南](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/)
 
    >[!IMPORTANT]
-   >如果希望通过 Journey Optimizer 发送实时通信，并通过 Campaign 发送批量推送通知，则可能需要在 Journey Optimizer 和 Campaign 中收集移动令牌。Campaign v8 要求专门使用 Campaign SDK 来捕获推送令牌。
+   >如果希望通过 Journey Optimizer 发送实时通信，并通过 Campaign 发送批量推送通知，则可能需要在 Journey Optimizer 和 Campaign 中收集移动令牌。 Campaign v8 要求专门使用 Campaign SDK 来捕获推送令牌。
 
 <br>
 
 ## 相关文档
 
-* [Journey Optimizer 文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hans)
-* [Journey Optimizer 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Campaign v7 文档](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=zh-Hans)
+* [Journey Optimizer文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hans)
+* [Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Campaign v7文档](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=zh-Hans)

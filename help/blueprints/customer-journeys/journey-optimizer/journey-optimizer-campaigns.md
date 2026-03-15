@@ -2,16 +2,17 @@
 title: '[!DNL Journey Optimizer] — 营销活动编排'
 description: 允许营销人员跨出站消息传递渠道协调基于受众的计划多步营销通信。
 solution: Journey Optimizer
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+exl-id: a8ff16f8-146d-4e1f-9bd0-9eda6af0c69b
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 2%
+source-wordcount: '344'
+ht-degree: 6%
 
 ---
 
 # [!DNL Journey Optimizer] — 营销活动编排Blueprint
 
-AJO Campaign Orchestration允许营销人员跨出站渠道（如电子邮件、短信、推送和直邮）设计和执行基于受众的计划多步通信。 AJO历程使用实时客户资料中的实时数据对单个客户行为做出反应，与之不同的是，营销活动采用协调的营销方式，按计划时间间隔定位受众。 营销活动和历程结合起来提供了互补的方法 — 营销活动推动品牌参与策略，而历程提供个性化、响应式体验。
+AJO Campaign Orchestration允许营销人员跨出站渠道（如电子邮件、短信、推送和直邮）设计和执行基于受众的计划多步通信。 历程使用实时客户资料中的实时数据对单个客户行为做出反应，与之不同的是，营销活动采用协调的营销方式，按计划时间间隔定位受众。 营销活动和历程结合起来提供了互补的方法 — 营销活动推动品牌参与策略，而历程提供个性化、响应式体验。
 
 <br>
 
@@ -46,7 +47,7 @@ AJO Campaign Orchestration允许营销人员跨出站渠道（如电子邮件、
 
 ## 护栏
 
-[协调的营销活动产品链接](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/guardrails)
+[编排的营销活动产品链接](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/guardrails)
 
 [护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails)
 
@@ -54,9 +55,9 @@ AJO Campaign Orchestration允许营销人员跨出站渠道（如电子邮件、
 
 ## 相关文档
 
-- [[!DNL Journey Optimizer] 协调的营销活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/orchestrated-campaigns-landing-page.html)
-- [[!DNL Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
-- [[!DNL Experience Platform] 标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
-- [[!DNL Experience Platform Mobile SDK] 文档](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)
-- [[!DNL Journey Optimizer] 文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hans)
-- [[!DNL Journey Optimizer] 产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)
+- [[!DNL Journey Optimizer]个编排的营销活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/orchestrated-campaigns-landing-page.html)
+- [[!DNL Experience Platform]文档](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
+- [[!DNL Experience Platform]标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
+- [[!DNL Experience Platform Mobile SDK]文档](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer]文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+- [[!DNL Journey Optimizer]产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)

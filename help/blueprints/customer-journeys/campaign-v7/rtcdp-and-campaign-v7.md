@@ -3,14 +3,14 @@ title: Real-Time CDP与 [!DNL Campaign] v7和Campaign Standard集成模式
 description: 展示Adobe Experience Platform及其Real-time Customer Profile和集中式分段工具如何与Adobe [!DNL Campaign] 一起使用，以提供个性化的对话。
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: fa1f8799e774713a48fdd437a9325731aef1b6ab
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 42%
+source-wordcount: '811'
+ht-degree: 55%
 
 ---
 
-# 具有[!DNL Real-Time Customer Data Platform]集成模式的[!DNL Campaign]
+# 具有[!DNL Campaign]集成模式的[!DNL Real-Time Customer Data Platform]
 
 展示Adobe [!DNL Experience Platform]及其Real-time Customer Profile和集中式分段工具如何与Adobe [!DNL Campaign]一起使用，以提供个性化的对话。
 
@@ -42,13 +42,13 @@ ht-degree: 42%
 
 * 请参阅RTCDP [!DNL Campaign]目标连接器 — [RTCDP营销活动连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=zh-Hans)
 
-* 查看[和分段 [!DNL Real-Time Customer Profile Data] 的](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)默认护栏
+* 查看 [!DNL Real-Time Customer Profile Data] 和分段](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)的[默认护栏
 
 ## 实施步骤
 
 以下各节描述了每个应用程序的实施步骤。
 
-### Adobe Experience Platform  
+### Adobe Experience Platform
 
 #### 架构/数据集
 
@@ -111,7 +111,7 @@ ht-degree: 42%
 ## 相关文档
 
 * [Adobe [!DNL Experience Platform] 文档](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
-* [[!DNL Campaign Classic] 文档](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=zh-Hans)
-* [[!DNL Campaign Standard] 文档](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=zh-Hans)
+* [[!DNL Campaign Classic]文档](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=zh-Hans)
+* [[!DNL Campaign Standard]文档](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=zh-Hans)
 * [[!DNL Experience Platform] Launch文档](https://experienceleague.adobe.com/docs/launch.html?lang=zh-Hans)
 * [[!DNL Experience Platform] Mobile SDK文档](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)
