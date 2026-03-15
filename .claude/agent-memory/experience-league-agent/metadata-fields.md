@@ -9,7 +9,7 @@ ht-degree: 1%
 
 *源自Adobe ExL Authoring Guide （抓取日期：2026年2月） + blueprint-learn的repo分析。en*
 
----
+&#x200B;---
 
 ## 元数据层次结构
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 2. 用户指南中的TOC.md
 3. 存储库根中的metadata.md （最低优先级）
 
----
+&#x200B;---
 
 ## 文章级字段
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 |-------|-------------|----------------------|
 | `title` | SEO页面标题。 显示在搜索结果中。 | 最多~60个字符；标题大小写；将`[!DNL Product]`用于产品名称；除非有意，否则不要完全复制H1 |
 | `description` | 搜索引擎和ExL推荐的Meta描述。 | 150-160个字符；最好从“学习如何……”开始 或“了解……”；如果缺少/为空，验证将失败 |
-| `exl-id` | 系统分配的唯一标识符。 用于内容跟踪。 | UUID格式（例如`70573eb9-cd69-4fe6-b2ae-dae81665a308`）；复制文件时删除&#x200B;**2} — 将自动分配该文件；从不跨文件复制** |
+| `exl-id` | 系统分配的唯一标识符。 用于内容跟踪。 | UUID格式（例如`70573eb9-cd69-4fe6-b2ae-dae81665a308`）；复制文件时删除&#x200B;**2&rbrace; — 将自动分配该文件；从不跨文件复制** |
 
 ### 强烈建议
 
@@ -69,7 +69,7 @@ ht-degree: 1%
 | `source-git-url` | Source存储库URL。 | 完整的GitHub URL |
 | `cloud` | 文章级别的云类别覆盖。 | 标题大小写；必须匹配cloud.yml |
 
----
+&#x200B;---
 
 ## TOC.md字段
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 | `role` | 指南的默认受众角色。 | 与文章`role`的值相同；逗号分隔 |
 | `index` | 是否对指南编制索引。 | `yes`/`no` |
 
----
+&#x200B;---
 
 ## 存储库级别metadata.md字段
 
@@ -98,7 +98,7 @@ ht-degree: 1%
 | `git-repo` | GitHub存储库URL；启用“编辑此页面”和“日志问题”按钮 |
 | `index` | 默认索引设置 |
 
----
+&#x200B;---
 
 ## 有效的解决方案值（区分大小写）
 
@@ -123,7 +123,7 @@ ht-degree: 1%
 
 多个值：逗号分隔，如`Real-Time Customer Data Platform, Campaign`
 
----
+&#x200B;---
 
 ## 有效的产品值（针对`product`字段 — analytics跟踪）
 
@@ -137,7 +137,7 @@ ht-degree: 1%
 - `adobe campaign` / `campaign` / `ac`
 - `adobe target` / `target` / `at`
 
----
+&#x200B;---
 
 ## 有效的角色值
 
@@ -149,7 +149,7 @@ ht-degree: 1%
 - `Leader`
 - `User`
 
----
+&#x200B;---
 
 ## 关键验证规则
 

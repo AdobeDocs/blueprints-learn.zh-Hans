@@ -89,7 +89,7 @@ ht-degree: 2%
 * **为AJO B2B使用默认映射：**
    * 对Journey Optimizer B2B edition采用[标准字段映射](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/field-mapping)，以确保与购买组逻辑和Journey Orchestration兼容。
 * **阻止除电子邮件以外的所有字段的字段更新：**
-   * 在Marketo Engage中，为&#x200B;_电子邮件_&#x200B;以外的所有字段配置字段管理，以阻止从Adobe Experience Platform进行更新[](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field)。 这有助于保持数据完整性，同时仍支持身份解析。
+   * 在Marketo Engage中，为&#x200B;_电子邮件_&#x200B;以外的所有字段配置字段管理，以阻止从Adobe Experience Platform进行更新[&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field)。 这有助于保持数据完整性，同时仍支持身份解析。
 * **使用电子邮件作为唯一的身份命名空间来实施身份链接规则**
    * 将Adobe Experience Platform中的[身份图形链接规则](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview)配置为将&#x200B;_电子邮件_&#x200B;显式用作唯一的身份命名空间。 这些规则可确保跨存在&#x200B;_电子邮件_的数据源精确拼合用户档案，从而实现可靠的身份解析。 遵循Adobe的最佳实践，定义将电子邮件优先作为稳定且全球唯一的标识符的关联规则，以维护一致且符合隐私要求的身份图。
 这种设置可以在轻松部署和数据治理之间取得平衡，从而确保为编排B2B历程奠定可靠的基础。
