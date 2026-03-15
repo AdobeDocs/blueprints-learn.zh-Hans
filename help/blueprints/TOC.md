@@ -5,10 +5,10 @@ user-guide-description: Blueprint 是可重复实施的产品，用于应对战�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: fb814fe6f5e4e774a96cbe75fea2499d849716b4
+source-git-commit: ffef3a39ae84b85167a3b8b8a3622c76fb6cb251
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 30%
+source-wordcount: '276'
+ht-degree: 25%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 30%
    + [B2B帐户激活](/help/blueprints/b2b/b2b-account-activation.md)
    + [购买基于群组的营销和历程管理](/help/blueprints/b2b/b2b-buying-group-journeys.md)
    + [使用Marketo数据的B2B历程](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
+   + [B2B Customer Journey Analytics](/help/blueprints/customer-journey-analytics/b2b-cja.md)
    + [B2B付费媒体控制器](/help/blueprints/b2b/ajo-b2b-paid-media-controller.md)
    + Marketo Engage和Workfront集成Blueprint{#marketo-engage-and-workfront-integration-blueprint}
       + [概述](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
@@ -47,16 +48,17 @@ ht-degree: 30%
       + [客户成功案例](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
 + 内容和商务{#content-commerce}
    + [Adobe Commerce和Real-Time CDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
-+ Customer Journey Analytics  {#customer-journey-analytics}
++ Customer Journey Analytics{#customer-journey-analytics}
    + [概述](/help/blueprints/customer-journey-analytics/overview.md)
+   + [B2B Customer Journey Analytics](/help/blueprints/customer-journey-analytics/b2b-cja.md)
    + [将CJA受众共享到RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
    + [CJA 和 Journey Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
 + 客户历程{#customer-journeys}
    + [概述](/help/blueprints/customer-journeys/overview.md)
-   + Journey Optimizer  {#journey-optimizer}
-      + [Journey Optimizer  &#x200B;](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
-      + [AJO 历程](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
-      + [AJO 营销活动](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
+   + Journey Optimizer{#journey-optimizer}
+      + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+      + [AJO历程](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
+      + [AJO营销活动](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
       + [第三方报文传送](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
    + 决策管理{#decision-management}
       + [概述](/help/blueprints/customer-journeys/decision-management/decision-management-overview.md)
@@ -68,10 +70,10 @@ ht-degree: 30%
       + [Journey Optimizer 与 Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + 已弃用的Blueprint{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/zh-hans/docs/campaign-standard){target="_blank"}
-         + [Real-Time CDP与Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/zh-hans/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Real-Time CDP与Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
-+ 数据分析、智能和 AI/ML {#data-exploration}
++ 数据分析、智能和 AI/ML{#data-exploration}
    + [数据分析和智能](/help/blueprints/data-insights/analysis.md)
    + [用于扩充用户档案的自定义数据科学](/help/blueprints/data-insights/data-science.md)
