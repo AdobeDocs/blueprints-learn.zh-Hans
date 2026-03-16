@@ -99,9 +99,9 @@ ht-degree: 2%
 
 在此用例模式中使用以下应用程序。
 
-- **[!DNL Adobe Journey Optimizer](AJO)决策** — 选择策略、排名模型、项目目录和决策策略，用于评估行为信号并返回每个访客的最相关项目
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — 行为配置文件数据累积、推荐范围的受众评估以及行为亲和度评分的计算属性
-- **[!DNL Adobe Experience Platform](AEP)** — 通过[!DNL Web SDK]和[!DNL Mobile SDK]进行的行为事件摄取，[!DNL Edge Network]正在处理，事件和目录数据的XDM架构管理
+- **[!DNL Adobe Journey Optimizer] (AJO)决策** — 选择策略、排名模型、项目目录和决策策略，用于评估行为信号并返回每个访客的最相关项目
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — 行为配置文件数据累积、推荐范围的受众评估以及行为亲和度评分的计算属性
+- **[!DNL Adobe Experience Platform] (AEP)** — 通过[!DNL Web SDK]和[!DNL Mobile SDK]进行的行为事件摄取，[!DNL Edge Network]正在处理，事件和目录数据的XDM架构管理
 
 ## 基本函数
 

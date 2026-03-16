@@ -100,9 +100,9 @@ ht-degree: 1%
 
 在此用例模式中使用以下应用程序。
 
-- **[!DNL Adobe Journey Optimizer](AJO)** — Web渠道表面配置、内容创作（基于Web和代码的体验）、活动执行、内容试验（A/B测试）、决策（动态内容选择）和报表
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — 基于会话中行为信号的实时受众评估的Edge分段；匿名边缘配置文件管理
-- **[!DNL Adobe Experience Platform](AEP)** — [!DNL Web SDK]用于行为信号收集，[!DNL Edge Network]用于实时数据路由和个性化投放，数据流配置
+- **[!DNL Adobe Journey Optimizer] (AJO)** — Web渠道表面配置、内容创作（基于Web和代码的体验）、活动执行、内容试验（A/B测试）、决策（动态内容选择）和报表
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — 基于会话中行为信号的实时受众评估的Edge分段；匿名边缘配置文件管理
+- **[!DNL Adobe Experience Platform] (AEP)** — [!DNL Web SDK]用于行为信号收集，[!DNL Edge Network]用于实时数据路由和个性化投放，数据流配置
 
 ## 基本函数
 

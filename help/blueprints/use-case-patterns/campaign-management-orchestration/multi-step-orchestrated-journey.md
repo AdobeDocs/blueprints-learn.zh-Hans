@@ -96,9 +96,9 @@ ht-degree: 1%
 
 以下应用程序用于实现此用例模式。
 
-- **[!DNL Adobe Journey Optimizer](AJO)** —历程编排引擎、消息创作、渠道配置、内容试验、频度和冲突管理以及报告
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — 历程进入受众的受众评估和定义、个性化的配置文件数据和条件分支
-- **[!DNL Adobe Experience Platform](AEP)** — 配置文件存储、身份服务、事件数据摄取和基础数据基础架构
+- **[!DNL Adobe Journey Optimizer] (AJO)** —历程编排引擎、消息创作、渠道配置、内容试验、频度和冲突管理以及报告
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — 历程进入受众的受众评估和定义、个性化的配置文件数据和条件分支
+- **[!DNL Adobe Experience Platform] (AEP)** — 配置文件存储、身份服务、事件数据摄取和基础数据基础架构
 
 ## 基本函数
 

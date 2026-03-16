@@ -91,10 +91,10 @@ ht-degree: 2%
 
 以下应用程序用于实现此用例模式。
 
-- **[!DNL Adobe Journey Optimizer]([!DNL AJO])** —历程编排（多步骤画布设计、进入条件、等待、条件、退出条件）、跨渠道消息创作、渠道表面配置、冲突和优先级管理
+- **[!DNL Adobe Journey Optimizer] ([!DNL AJO])** —历程编排（多步骤画布设计、进入条件、等待、条件、退出条件）、跨渠道消息创作、渠道表面配置、冲突和优先级管理
 - **[!DNL Adobe Journey Optimizer]决策** — 优惠和内容项目管理、资格规则、排名策略（优先级、公式、AI）、决策策略、投放、后备优惠
-- **[!DNL Adobe Real-Time Customer Data Platform]([!DNL RT-CDP])** — 历程进入和优惠资格区段的受众评估，具有计算属性和倾向分数的配置文件扩充，同意和治理实施
-- **[!DNL Adobe Experience Platform]([!DNL AEP])** — 实时客户配置文件存储、跨渠道解析身份服务、数据建模和引入基础结构
+- **[!DNL Adobe Real-Time Customer Data Platform] ([!DNL RT-CDP])** — 历程进入和优惠资格区段的受众评估，具有计算属性和倾向分数的配置文件扩充，同意和治理实施
+- **[!DNL Adobe Experience Platform] ([!DNL AEP])** — 实时客户配置文件存储、跨渠道解析身份服务、数据建模和引入基础结构
 
 ## 基本函数
 
