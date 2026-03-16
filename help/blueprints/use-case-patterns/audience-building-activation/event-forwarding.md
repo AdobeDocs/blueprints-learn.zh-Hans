@@ -153,7 +153,7 @@ ht-degree: 0%
 
 **关键注意事项：**
 
-- 扩展可用性各不相同 — 在计划之前请检查[数据收集扩展目录](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
+- 扩展可用性各不相同 — 在计划之前请检查[数据收集扩展目录](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/overview)
 - 扩展由Adobe或合作伙伴维护；更新可能会引入重大更改，这些更改需要调整规则
 - 某些扩展仅支持特定的事件类型或需要特定的XDM字段映射
 - 扩展在其配置UI中处理身份验证和凭据管理
@@ -175,8 +175,8 @@ ht-degree: 0%
 
 **Experience League：**
 
-- [事件转发扩展目录](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [Meta Conversions API扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
+- [事件转发扩展目录](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/overview)
+- [Meta Conversions API扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/meta/overview)
 - [Google Cloud Platform扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
 - [AWS扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
 - [Snowflake扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)
@@ -219,7 +219,7 @@ ht-degree: 0%
 **Experience League：**
 
 - [Adobe云连接器扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [事件转发密钥](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
+- [事件转发密钥](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/secrets)
 
 ### 选项C：混合（扩展+自定义Webhook）
 
@@ -373,8 +373,8 @@ ht-degree: 0%
 **Experience League文档：**
 
 - [事件转发快速入门](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
-- [事件转发扩展目录](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [事件转发密钥](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
+- [事件转发扩展目录](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/overview)
+- [事件转发密钥](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/secrets)
 - [Adobe云连接器扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
 
 ### 阶段3：事件规则定义
@@ -608,13 +608,13 @@ ht-degree: 0%
 - [事件转发概述](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
 - [事件转发快速入门](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
 - [事件转发监测](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
-- [事件转发密钥](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
+- [事件转发密钥](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/secrets)
 
 **事件转发扩展**
 
-- [服务器端扩展目录](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
+- [服务器端扩展目录](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/overview)
 - [Adobe云连接器扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [Meta Conversions API扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
+- [Meta Conversions API扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/meta/overview)
 - [Google Cloud Platform扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
 - [AWS扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
 - [Snowflake扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)

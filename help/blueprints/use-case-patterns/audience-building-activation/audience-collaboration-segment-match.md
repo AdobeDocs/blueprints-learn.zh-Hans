@@ -98,10 +98,10 @@ ht-degree: 1%
 | 基本函数 | 状态 | 必须准备好的内容 | Experience League参考 |
 | --- | --- | --- | --- |
 | 管理和治理 | 必填 | 发件人和接收者组织都必须为沙盒设置适当的角色和权限。 管理[!DNL Segment Match]的用户必须具有查看和共享区段、配置连接和管理合作伙伴馈送的权限。 ABAC策略应配置为控制哪些用户可以启动和接受区段共享。 | [访问控制概述](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| 数据建模和准备 | 假设就位 | 用户档案和事件的XDM架构必须具有必需的字段组。 必须为[!DNL Real-Time Customer Profile]创建和启用配置文件和事件数据集。 数据模型必须支持用于区段匹配的身份命名空间（通常是经过哈希处理的电子邮件或手机）。 | [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
+| 数据建模和准备 | 假设就位 | 用户档案和事件的XDM架构必须具有必需的字段组。 必须为[!DNL Real-Time Customer Profile]创建和启用配置文件和事件数据集。 数据模型必须支持用于区段匹配的身份命名空间（通常是经过哈希处理的电子邮件或手机）。 | [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home) |
 | 数据源和收集 | 假设就位 | 客户数据必须通过配置的数据源（SDK、源连接器、批量摄取）主动流入[!DNL Experience Platform]。 必须使用用于[!DNL Segment Match]的标识类型（例如，经过哈希处理的电子邮件）填充配置文件。 | [源概述](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
 | 身份和配置文件配置 | 必填 | 必须为区段匹配中使用的标识符配置标识命名空间。 发送者和接收者必须使用兼容的标识命名空间。 必须配置合并策略以正确统一配置文件。 应建立身份关联规则，以确保准确的用户档案解析。 | [Identity Service概述](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
-| 受众定义和分段 | 必填 | 必须先定义和评估Source受众，然后才能通过[!DNL Segment Match]共享。 应使用[!DNL Segment Builder]或[!DNL Audience Composition]构建受众，并完成批次评估。 只有经过批次评估的受众才符合[!DNL Segment Match]共享的条件。 | [分段服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
+| 受众定义和分段 | 必填 | 必须先定义和评估Source受众，然后才能通过[!DNL Segment Match]共享。 应使用[!DNL Segment Builder]或[!DNL Audience Composition]构建受众，并完成批次评估。 只有经过批次评估的受众才符合[!DNL Segment Match]共享的条件。 | [分段服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home) |
 
 ## 支持功能
 
@@ -109,10 +109,10 @@ ht-degree: 1%
 
 | 支持功能 | 状态 | 为什么它很重要 | Experience League参考 |
 | --- | --- | --- | --- |
-| 计算/派生属性创建 | 推荐 | 计算属性（如生命周期购买值、参与度得分或产品亲和度）可以创建更精确的区段进行共享。 高质量的输入区段会带来更有价值的受众协作。 | [计算属性概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| 计算/派生属性创建 | 推荐 | 计算属性（如生命周期购买值、参与度得分或产品亲和度）可以创建更精确的区段进行共享。 高质量的输入区段会带来更有价值的受众协作。 | [计算属性概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview) |
 | 数据生命周期管理 | 推荐 | 同意和数据保留策略可确保共享区段遵守隐私法规。 数据集到期策略有助于管理接收受众数据的生命周期。 同意实施阻止共享已选择退出的配置文件。 | [高级数据生命周期管理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
 | 数据使用标签和执行 | 已包含 | 在共享区段之前，必须评估数据治理策略以确保法规遵从性。 身份字段和配置文件属性的标签决定了可以共享的内容。 实施管治可防止将未经授权的数据纳入区段股份。 | [数据治理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| 监视和可观察性 | 推荐 | 监控[!DNL Segment Match]共享进程、重叠估计作业和激活数据流有助于及早检测故障。 可以针对共享故障或意外低匹配率配置警报。 | [可观察性分析概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| 监视和可观察性 | 推荐 | 监控[!DNL Segment Match]共享进程、重叠估计作业和激活数据流有助于及早检测故障。 可以针对共享故障或意外低匹配率配置警报。 | [可观察性分析概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/home) |
 | 报告和分析 | 推荐 | 衡量使用匹配受众的营销活动效果可验证协作的价值。[!DNL Customer Journey Analytics] 分析可以比较匹配的受众促销活动与控制组的效果。 | [CJA概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## 应用程序功能
@@ -180,7 +180,7 @@ ht-degree: 1%
 **Experience League：**
 
 - [区段匹配概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [区段匹配疑难解答](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
+- [区段匹配疑难解答](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### 选项B：多合作伙伴区段分发（一对多）
 
@@ -499,7 +499,7 @@ ht-degree: 1%
 **Experience League文档：**
 
 - [区段匹配概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [区段匹配疑难解答](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
+- [区段匹配疑难解答](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### 阶段5：激活匹配的受众
 
@@ -631,11 +631,11 @@ ht-degree: 1%
 ### [!DNL Segment Match]
 
 - [区段匹配概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [区段匹配疑难解答](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
+- [区段匹配疑难解答](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### 分段和受众
 
-- [分段服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [分段服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home)
 - [区段生成器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
 - [受众构成概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
 - [Profile Query Language参考](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
@@ -665,7 +665,7 @@ ht-degree: 1%
 
 ### 数据建模和模式
 
-- [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)
 - [架构组合基础](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 ### 管理和访问控制
@@ -676,7 +676,7 @@ ht-degree: 1%
 ### 监控和可观察性
 
 - [警报概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [可观察性分析概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [可观察性分析概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/home)
 
 ### 护栏
 
