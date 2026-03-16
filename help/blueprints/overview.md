@@ -3,10 +3,10 @@ title: 客户体验编排Blueprint
 description: 客户体验编排Blueprint是可重复的实施，可用于满足战略需求和解决已确定的业务问题。 它们可加快实现价值的速度，并提供快速成功之路。
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 478f2a44974ba36d87300486337b669fa38989f3
+source-git-commit: cf76bfcb0a6d3f2a23f42494f3944934954cac89
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 7%
+source-wordcount: '168'
+ht-degree: 9%
 
 ---
 
@@ -51,4 +51,26 @@ ht-degree: 7%
 </tr>
 </table>
 
-</div>
+## 按行业浏览
+
+查找针对您的行业量身定制的使用案例，每个案例均对应到实施模式和业务目标。
+
+<table>
+<tr>
+  <td><a href="industry-use-cases/retail/retail-overview.md"><strong>零售</strong></a></td>
+  <td><a href="industry-use-cases/financial-services/financial-services-overview.md"><strong>金融服务</strong></a></td>
+  <td><a href="industry-use-cases/healthcare/healthcare-overview.md"><strong>医疗保健</strong></a></td>
+</tr>
+<tr>
+  <td><a href="industry-use-cases/automotive/automotive-overview.md"><strong>汽车</strong></a></td>
+  <td><a href="industry-use-cases/travel-hospitality/travel-hospitality-overview.md"><strong>旅游和酒店业</strong></a></td>
+  <td><a href="industry-use-cases/telecommunications/telecommunications-overview.md"><strong>电信</strong></a></td>
+</tr>
+<tr>
+  <td><a href="industry-use-cases/media-entertainment/media-entertainment-overview.md"><strong>媒体和娱乐</strong></a></td>
+  <td><a href="industry-use-cases/insurance/insurance-overview.md"><strong>保险</strong></a></td>
+  <td><a href="industry-use-cases/b2b/b2b-overview.md"><strong>B2B</strong></a></td>
+</tr>
+</table>
+
+[查看所有行业用例](industry-use-cases/overview.md)

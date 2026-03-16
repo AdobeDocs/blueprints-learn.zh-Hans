@@ -1,7 +1,7 @@
 ---
 name: blueprint-document-reference
 description: 有关创建和编辑Adobe Digital Experience Blueprint文档的参考。 在创建新Blueprint、添加Blueprint页面，或用户询问Blueprint结构、区域、模板或引用Adobe Experience League时使用。
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
 title: [Short descriptive title]
 description: "[One sentence: what this blueprint shows and why it matters.]"
 solution: [Product name, e.g. Real-Time Customer Data Platform, Journey Optimizer]
-exl-id: [UUID - leave blank if new, this will be auto-generated as part of the Experience League publishing flow]
+exl-id: [UUID - if this is already popultated keep it as is. Disregard and remove this field if it is a new blueprint as blank values will be rejected by the publishing flow. If the field and value are not present, it will be auto-generated as part of the Experience League publishing flow]
 ---
 # [H1 - same as title or expanded]
 
@@ -98,8 +98,8 @@ exl-id: [UUID - leave blank if new, this will be auto-generated as part of the E
 ## 引用Adobe Experience League
 
 - **何时链接**：链接到Experience League，获取产品文档、API引用、护栏、教程和配置步骤。 不要重复冗长的过程；摘要和链接。
-- **URL格式**：使用完整的URL。 首选`https://experienceleague.adobe.com/docs/?lang=zh-Hans...`或`https://experienceleague.adobe.com/zh-hans/docs/...`。 对于开发人员文档，`https://developer.adobe.com/...`也有效。
-- **链接文本**：使用描述性文本（例如，“[创建架构] (url)”，而不是“单击此处”）。 对于链接文本中的产品名称，请酌情使用`[!DNL Product Name]`。
+- **URL格式**：使用完整的URL。 首选`https://experienceleague.adobe.com/docs/...`或`https://experienceleague.adobe.com/en/docs/...`。 对于开发人员文档，`https://developer.adobe.com/...`也有效。
+- **链接文本**：使用描述性文本（例如，“[创建架构](url)”，而不是“单击此处”）。 对于链接文本中的产品名称，请酌情使用`[!DNL Product Name]`。
 - **相关文档部分**：使用“相关文档”部分结束Blueprint并按类别对链接进行分组（例如，目标配置、SDK文档、配置文件和分段、教程）。
 
 有关详细的URL模式、链接分组和示例，请参阅[reference.md](reference.md)。
