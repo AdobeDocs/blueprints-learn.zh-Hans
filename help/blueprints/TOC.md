@@ -1,14 +1,14 @@
 ---
-user-guide-title: 客户体验编排Blueprint
-breadcrumb-title: 蓝图
-user-guide-description: Blueprint 是可重复实施的产品，用于应对战略和解决既定的业务问题，并包含架构图、技术注意事项和相关文档链接。
+user-guide-title: 客户体验编排业务目标、用例、体系结构图和Blueprint
+breadcrumb-title: 用例和Blueprint
+user-guide-description: 探索Adobe Experience Platform和应用程序的关键业务目标、用例模式以及行业用例。 可视化架构图和Blueprint为系统集成、数据流和解决方案设计提供了技术参考 — 将业务价值与实施联系起来。
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 021e6b48e09ce2d3da80ffe7ca1b7f4ce4a4a3a4
+source-git-commit: 6bf36e8e5d797eef5b2dfe86e4e75d36b0c026d4
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 17%
+source-wordcount: '474'
+ht-degree: 12%
 
 ---
 
@@ -132,7 +132,7 @@ ht-degree: 17%
          + [Journey Optimizer 与 Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
       + 已弃用的Blueprint{#deprecated-blueprints}
          + Campaign Standard{#campaign-standard}
-            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/zh-hans/docs/campaign-standard){target="_blank"}
-            + [Real-Time CDP与Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/zh-hans/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+            + [Real-Time CDP与Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
          + Campaign v7{#campaign-v7}
             + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
