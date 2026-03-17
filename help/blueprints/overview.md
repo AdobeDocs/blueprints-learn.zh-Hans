@@ -3,14 +3,14 @@ title: Customer Experience Orchestration用例、体系结构图和Blueprint
 description: 探索Adobe Experience Platform和应用程序的关键业务目标、用例模式以及行业用例。 可视化架构图和Blueprint为系统集成、数据流和解决方案设计提供了技术参考 — 将业务价值与实施联系起来。
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: cb112d3fe3c6a95437de69815efb50492c9bf13b
+source-git-commit: 62c69ab5ba773172b5b3b55a6c3766c58331135c
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '328'
 ht-degree: 2%
 
 ---
 
-# 客户体验编排Blueprint
+# 客户体验编排业务目标、用例和架构图
 
 此网站包含&#x200B;**关键业务目标**，其中概述了可使用Adobe Experience Platform和应用程序实现的示例主要业务价值和目标。**用例模式**&#x200B;用可重复的实施方法描述了常见的平台和应用程序功能。**行业用例**&#x200B;将模式应用于特定于垂直行业的业务方案。**架构图和Blueprint**&#x200B;是可视化架构和数据流参考图，它们说明了系统集成点、数据和内容流以及操作顺序，为解决方案设计提供了技术参考。 这些层共同将业务价值与实施依赖项和体系结构联系起来。
 
