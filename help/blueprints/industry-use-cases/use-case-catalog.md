@@ -3,9 +3,9 @@ title: 用例目录
 description: 按垂直方向浏览行业用例，以找到适合您的Adobe Experience Platform历程的起点，并提供指向实施模式和业务目标的链接。
 doc-type: overview-page
 exl-id: 38593314-b8c9-49f6-85db-a4345ec444e7
-source-git-commit: b0fe19570fb5b649b063d0ba7d99e77ab166983d
+source-git-commit: 9d1ba8ce3fed83b1bd2b2615309ae7e3683e14f1
 workflow-type: tm+mt
-source-wordcount: '2377'
+source-wordcount: '2379'
 ht-degree: 1%
 
 ---
@@ -122,7 +122,7 @@ Industry Use Case → Use Case Pattern → Key Business Objective
 | | [风险评估与预防](insurance/insurance-overview.md#risk-assessment-and-prevention) | 提供个性化的风险评估信息和预防提示 | [!BADGE 新兴]{type=Informative} | [多步骤编排历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
 | | [健康和预防计划](insurance/insurance-overview.md#wellness-and-prevention-programs) | 为保险客户提供个性化的健康计划沟通和奖励 | [!BADGE 新兴]{type=Informative} | [多步骤编排历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
 | <img src="assets/use-case-icons/insurance/icon-cross-sell.png" alt="交叉销售" width="40"> | [交叉销售产品推荐](insurance/insurance-overview.md#cross-sell-product-recommendations) | 根据现有保单和寿险阶段建议额外的保险产品 | [!BADGE 高级]{type=Caution} | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
-| | [基于生命周期阶段的产品优惠](insurance/insurance-overview.md#life-stage-based-product-offers) | 识别进入新寿险阶段的客户并提供相关保险产品 | [!BADGE 高级]{type=Caution} | 使用Decisioning [跨渠道历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
+| <img src="assets/use-case-icons/insurance/icon-life-stage-based-product-offers.png" alt="生命阶段" width="40"> | [基于生命周期阶段的产品优惠](insurance/insurance-overview.md#life-stage-based-product-offers) | 识别进入新寿险阶段的客户并提供相关保险产品 | [!BADGE 高级]{type=Caution} | 使用Decisioning [跨渠道历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
 | | [折扣和节省机会](insurance/insurance-overview.md#discount-and-savings-opportunities) | 识别并传递个性化的折扣机会 | [!BADGE 高级]{type=Caution} | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
 
 >[!TAB 媒体和娱乐]
