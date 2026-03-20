@@ -157,7 +157,7 @@ ht-degree: 0%
 
 5. **Frontmatter完整性** — 模式文件在其YAML frontmatter中包含标题、描述、解决方案和exl-id。
 
-6. **Experience League链接** — 抽查所有Experience League URL是否合理（以`https://experienceleague.adobe.com/`开头）。
+6. **Experience League链接** — 抽查所有Experience League URL是否合理（以`https://experienceleague.adobe.com/zh-hans`开头）。
 
 向用户报告任何验证失败，并在考虑任务完成之前修复它们。
 
