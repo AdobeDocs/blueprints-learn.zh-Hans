@@ -106,10 +106,10 @@ ht-degree: 1%
 
 | 基本函数 | 状态 | 必须准备好的内容 | Experience League参考 |
 | --- | --- | --- | --- |
-| 管理和治理 | 假设就位 | 具有历程创建和发布权限的AJO沙盒。 必须配置历程中使用的所有渠道的渠道平面。 用户必须具有适当的角色（营销人员、历程管理员），并具有历程和营销活动权限。 | [沙盒概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home)，[访问控制概述](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| 数据建模和准备 | 必填 | XDM配置文件架构具有用于跨多条消息进行条件分支和个性化的属性（例如，忠诚度级别、产品兴趣、参与度分数）。 用于促进退出标准和条件评估的转化事件的体验事件架构（例如，购买事件、表单提交）。 | [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)，[架构组合基础](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
-| 数据源和收集 | 假设就位 | 如果退出标准或条件取决于实时事件（例如，退出历程的购买事件），则事件流必须处于活动状态。 分支中使用的配置文件属性的批量摄取。 用于行为事件收集的Web SDK或服务器端API。 | [流式摄取概述](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview)，[源概述](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
-| 身份和配置文件配置 | 假设就位 | 用户档案必须在历程中使用的所有渠道（电子邮件、短信、推送）中可解析。 如果历程跨越Web和移动接触点，则必须配置跨设备身份。 必须为沙盒配置合并策略。 | [身份服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)，[合并策略概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
+| 管理和治理 | 假设就位 | 具有历程创建和发布权限的AJO沙盒。 必须配置历程中使用的所有渠道的渠道平面。 用户必须具有适当的角色（营销人员、历程管理员），并具有历程和营销活动权限。 | [沙盒概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home)，[访问控制概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home) |
+| 数据建模和准备 | 必填 | XDM配置文件架构具有用于跨多条消息进行条件分支和个性化的属性（例如，忠诚度级别、产品兴趣、参与度分数）。 用于促进退出标准和条件评估的转化事件的体验事件架构（例如，购买事件、表单提交）。 | [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)，[架构组合基础](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition) |
+| 数据源和收集 | 假设就位 | 如果退出标准或条件取决于实时事件（例如，退出历程的购买事件），则事件流必须处于活动状态。 分支中使用的配置文件属性的批量摄取。 用于行为事件收集的Web SDK或服务器端API。 | [流式摄取概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/streaming/overview)，[源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home) |
+| 身份和配置文件配置 | 假设就位 | 用户档案必须在历程中使用的所有渠道（电子邮件、短信、推送）中可解析。 如果历程跨越Web和移动接触点，则必须配置跨设备身份。 必须为沙盒配置合并策略。 | [身份服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)，[合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview) |
 | 受众定义和分段 | 必填 | 必须为受众读取的历程定义进入受众。 区段还可以在条件节点中使用以进行分支。 评估方法（批量或流）必须与历程进入要求匹配。 | [分段服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home)，[区段生成器UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## 支持功能
@@ -119,9 +119,9 @@ ht-degree: 1%
 | 支持功能 | 状态 | 为什么它很重要 | Experience League参考 |
 | --- | --- | --- | --- |
 | 计算/派生属性创建 | 推荐 | 计算属性（例如参与度分数、上次活动后间隔天数或生命周期购买值）改进了条件分支逻辑，从而实现更智能的历程路径决策。 | [计算属性概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview) |
-| 数据生命周期管理 | 推荐 | 历程事件数据保留应配置数据集过期策略，以管理存储并遵守数据保留法规。 同意执行可确保仅选择加入的用户档案在每个渠道接触点接收消息。 | [高级数据生命周期管理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)，[数据集过期时间](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
+| 数据生命周期管理 | 推荐 | 历程事件数据保留应配置数据集过期策略，以管理存储并遵守数据保留法规。 同意执行可确保仅选择加入的用户档案在每个渠道接触点接收消息。 | [高级数据生命周期管理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/home)，[数据集过期时间](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
 | 数据使用标签和执行 | 推荐 | 治理标签可确保跨多个消息接触点的合规性个性化，在历程使用PII或敏感数据实现跨渠道个性化时尤其重要。 | [数据管理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home)，[数据使用标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview) |
-| 监视和可观察性 | 已包含 | 历程执行监控有关处理失败、配置文件条目瓶颈和投放问题的警报。 对于延迟或故障会影响客户体验的生产历程至关重要。 | [警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview)，[可观察性分析概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| 监视和可观察性 | 已包含 | 历程执行监控有关处理失败、配置文件条目瓶颈和投放问题的警报。 对于延迟或故障会影响客户体验的生产历程至关重要。 | [警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview)，[可观察性分析概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/home) |
 | 报告和分析 | 已包含 | CJA funnel和整个历程的流失分析比单独的AJO本机报表提供更深入的insight。 支持分步转化分析、同类群组比较和历程优化。 | [CJA概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)，[Analysis Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home) |
 
 ## 应用程序功能

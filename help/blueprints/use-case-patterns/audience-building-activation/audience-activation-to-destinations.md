@@ -432,7 +432,7 @@ ht-degree: 1%
 - [将受众激活到批量配置文件导出目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
 - [将受众激活到流目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
 - [Destination SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/destination-sdk/overview)
-- [Destination SDK配置选项](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
+- [Destination SDK配置选项](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
 
 
 ### 阶段3：受众激活
@@ -538,7 +538,7 @@ ht-degree: 1%
 **Experience League文档：**
 
 - [数据治理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home)
-- [策略实施](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
+- [策略实施](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/enforcement/overview)
 - [数据使用标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview)
 - [同意和偏好设置](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 - [同意策略实施](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/policies/user-guide)
@@ -573,7 +573,7 @@ ht-degree: 1%
 
 ### 护栏和限制
 
-- **区段定义限制：**&#x200B;每个沙盒最多4,000个区段定义 — [分段护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- **区段定义限制：**&#x200B;每个沙盒最多4,000个区段定义 — [分段护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
 - **每个目标的数据流：**&#x200B;每个目标连接最多100个数据流 — [目标护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/guardrails)
 - **批量导出文件大小：**&#x200B;基于文件的目标具有最大导出文件大小限制；大型受众自动拆分为多个文件
 - **流式目标吞吐量：**&#x200B;每个目标合作伙伴都设置了每秒吞吐量限制；可能会限制大量受众更改
@@ -667,14 +667,14 @@ ht-degree: 1%
 - [流式客户细分](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation)
 - [边缘分段](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/edge-segmentation)
 - [受众构成概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-composition)
-- [分段护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [分段护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
 
 **身份和配置文件**
 
 - [Identity服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)
 - [身份命名空间概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces)
-- [身份标识图链接规则](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
-- [配置文件概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [身份标识图链接规则](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-linking-logic)
+- [配置文件概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/home)
 - [合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview)
 
 **数据建模和架构**
@@ -686,8 +686,8 @@ ht-degree: 1%
 
 - [数据治理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home)
 - [数据使用标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview)
-- [数据治理策略](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
-- [策略实施](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
+- [数据治理策略](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/policies/overview)
+- [策略实施](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/enforcement/overview)
 - [同意和偏好设置](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 
 **监视和可观察性**
@@ -700,23 +700,23 @@ ht-degree: 1%
 **计算属性**
 
 - [计算属性概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview)
-- [计算属性UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
+- [计算属性UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/ui)
 
 **数据收集和源**
 
 - [源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
 - [Web SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home)
-- [配置数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [配置数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)
 
 **管理**
 
 - [沙盒概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home)
 - [访问控制概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home)
-- [基于属性的访问控制](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview)
+- [基于属性的访问控制](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/overview)
 
 **护栏**
 
-- [Real-Time Customer Profile护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [Real-Time Customer Profile护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
 - [Identity服务护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/guardrails)
 - [激活护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/guardrails)
-- [摄取护栏](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- [摄取护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/guardrails)
