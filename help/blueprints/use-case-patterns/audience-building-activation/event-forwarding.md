@@ -105,7 +105,7 @@ ht-degree: 0%
 | 计算/派生属性创建 | 不适用 | 事件转发对原始事件数据而非配置文件级别的计算属性运行。 计算属性在事件转发上下文中不可用。 | |
 | 数据生命周期管理 | 推荐 | 如果事件数据也正在被摄取到AEP数据集（通过同一数据流），则应为这些数据集配置数据保留策略（过期），以管理存储成本和法规遵从性。 事件转发本身并不存储数据，但并行AEP摄取路径存储数据。 | [高级数据生命周期管理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
 | 数据使用标签和执行 | 推荐 | 虽然事件转发规则提供了字段级筛选（允许您从转发的有效负载中排除敏感数据），但若将相同的数据用于受众激活或个性化，则将数据使用标签应用于基础架构和数据集可确保实施治理策略。 | [数据治理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| 监视和可观察性 | 已包含 | 监控对于事件转发至关重要。 事件转发监视仪表板提供转发成功率、错误率和目标响应代码的可见性。 应针对目标故障配置警报。 | [事件转发监视](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring) |
+| 监视和可观察性 | 已包含 | 监控对于事件转发至关重要。 事件转发监视仪表板提供转发成功率、错误率和目标响应代码的可见性。 应针对目标故障配置警报。 | [事件转发监视](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/monitoring) |
 | 报告和分析 | 推荐 | 如果转发的事件馈送第三方分析平台，请考虑将相同的AEP事件数据集连接到CJA以实现统一的跨渠道视图。 这样即可在Adobe端和第三方分析之间进行比较。 | [CJA概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## 应用程序功能
@@ -253,7 +253,7 @@ ht-degree: 0%
 
 **Experience League：**
 
-- [事件转发概述](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [事件转发概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/overview)
 - [事件转发快速入门](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
 
 ### 选项比较
@@ -327,7 +327,7 @@ ht-degree: 0%
 
 - [配置数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 - [数据流概述](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
-- [事件转发概述](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [事件转发概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/overview)
 
 ### 阶段2：事件转发属性和扩展
 
@@ -448,7 +448,7 @@ ht-degree: 0%
 
 **Experience League文档：**
 
-- [事件转发规则](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [事件转发规则](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/overview)
 - [事件转发中的数据元素](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)
 - [数据收集中的规则](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules)
 - [Adobe云连接器扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
@@ -521,7 +521,7 @@ ht-degree: 0%
 
 **Experience League文档：**
 
-- [事件转发监测](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
+- [事件转发监测](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/monitoring)
 - [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home)
 - [警报概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
 
@@ -605,9 +605,9 @@ ht-degree: 0%
 
 **事件转发**
 
-- [事件转发概述](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [事件转发概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/overview)
 - [事件转发快速入门](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
-- [事件转发监测](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
+- [事件转发监测](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/monitoring)
 - [事件转发密钥](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
 
 **事件转发扩展**
