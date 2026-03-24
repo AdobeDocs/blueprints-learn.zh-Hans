@@ -101,8 +101,8 @@ ht-degree: 1%
 
 在此用例模式中使用以下应用程序。
 
-- **[!DNL Customer Journey Analytics](CJA)** — 连接、数据视图、工作区分析、引导式分析、计算指标、功能板、受众发布和内容分析
-- **[!DNL Adobe Experience Platform](AEP)** — 为CJA连接提供数据湖、数据集、XDM架构、配置文件和事件数据
+- **[!DNL Customer Journey Analytics] (CJA)** — 连接、数据视图、工作区分析、引导式分析、计算指标、功能板、受众发布和内容分析
+- **[!DNL Adobe Experience Platform] (AEP)** — 为CJA连接提供数据湖、数据集、XDM架构、配置文件和事件数据
 
 ## 基本函数
 

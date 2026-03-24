@@ -107,8 +107,8 @@ ht-degree: 0%
 以下应用程序用于实现此用例模式。
 
 - **[!DNL Brand Concierge]** — AI支持的对话体验应用程序提供代理orchestrator、Product Advisor Agent、Site Advisory Agent、品牌治理和对话分析
-- **[!DNL Adobe Experience Platform](AEP)** — 统一的数据基础，为对话信号提供XDM架构、身份解析、实时客户配置文件和数据收集基础架构
-- **[!DNL Real-Time CDP]([!DNL RT-CDP])** — 客户数据平台，提供个性化对话的实时配置文件查找、从对话信号中细分受众，以及包含意图和情绪数据的配置文件扩充
+- **[!DNL Adobe Experience Platform] (AEP)** — 统一的数据基础，为对话信号提供XDM架构、身份解析、实时客户配置文件和数据收集基础架构
+- **[!DNL Real-Time CDP] ([!DNL RT-CDP])** — 客户数据平台，提供个性化对话的实时配置文件查找、从对话信号中细分受众，以及包含意图和情绪数据的配置文件扩充
 
 ## 基本函数
 
