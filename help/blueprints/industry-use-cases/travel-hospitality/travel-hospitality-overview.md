@@ -2,13 +2,13 @@
 title: 旅游和酒店用例
 description: 了解旅游和酒店组织如何使用Adobe Experience Platform来个性化预订体验、恢复已放弃的预订以及建立访客忠诚度。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: fbdcc015-96a4-4015-93e2-3fc7db375c13
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '3648'
 ht-degree: 0%
 
 ---
-
 
 # 旅游和酒店用例
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-为新访客个性化主页通常通过提供符合访客位置和兴趣的旅行选项（而非通用内容）来提高15-20%的转化率。
+为新访客个性化主页通过提供符合访客位置和兴趣的旅行选项（而非通用内容），可以提高转化率。
 
 ### 实施方式
 
-使用[匿名访客Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md)模式。 这种方法会为尚未识别自己的访客提供量身定制的内容，并使用可用的信号（如地理位置、设备类型和反向链接来源）从第一页开始个性化体验。
+使用[匿名访客Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md)模式。 这种方法会为尚未识别自己的访客提供量身定制的内容，并使用可用的信号（如地理位置、设备类型和反向链接来源）从第一页开始个性化体验。 当访客尚未识别自我，并且个性化必须依赖可用的信号（例如地理位置、设备类型和反向链接来源）时，这是正确的模式；已知访客个性化需要尚不存在的已验证配置文件。
 
 ### 技术注意事项
 
@@ -40,11 +40,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-有效的预订回收方案实现了25%至35%的购物车回收率，并可根据预订量和平均行程价值，每月额外产生50,000至200,000美元的收入。
+有效的预订回收方案可实现有意义的购物车回收率，并可根据预订量和平均行程价值产生显着的递增收入。
 
 ### 实施方式
 
-使用[事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)模式。 此方法响应实时购物车放弃事件，在客户的旅行意向仍然很高时发送及时提醒。
+使用[事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)模式。 此方法响应实时购物车放弃事件，在客户的旅行意向仍然很高时发送及时提醒。 当触发因素是实时客户行为事件并且所需的响应是单个时间敏感型消息时，这是一种正确的模式，而不是根据客户响应而更改的多步培养序列或动态优惠选择。
 
 ### 技术注意事项
 
@@ -60,11 +60,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-以具有个性化优惠的高意图访客为目标，推动这些区段的转化率提高30%至40%，从而将营销投资集中在其带来最大回报的地方。
+通过个性化优惠定位意图强烈的访客，可推动这些区段的转化率提高，从而将营销投资集中到产生最大回报的地方。
 
 ### 实施方式
 
-使用[已知访客Web/应用程序Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)模式。 此方法使用实时用户档案数据和行为信号为已识别的访客个性化Web体验，提供与其购买准备程度相匹配的定制内容和选件。
+使用[已知访客Web/应用程序Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)模式。 此方法使用实时用户档案数据和行为信号为已识别的访客个性化Web体验，提供与其购买准备程度相匹配的定制内容和选件。 当个性化由已识别客户的配置文件属性和倾向分数而不是行为亲和度模型驱动，并且客户已经进行身份验证，使其区段成员资格和意图信号可用时，这是正确的模式。
 
 ### 技术注意事项
 
@@ -80,11 +80,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-预订后追加销售促销活动通常会使平均订单价值增加200至500美元，并使辅助收入增加15%至25%，从而使单次预订成为价值显着提升的交易。
+预订后追加销售促销活动可增加平均订单价值并提高附加收入，从而将单次预订转变为价值显着提升的交易。
 
 ### 实施方式
 
-使用[多步骤编排历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)模式。 此多步历程将指导已预订客户完成一系列时间的追加销售机会，根据访客已购买的内容以及他们对之前消息的参与情况调整优惠。
+使用[多步骤编排历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)模式。 此多步历程将指导已预订客户完成一系列时间的追加销售机会，根据访客已购买的内容以及他们对之前消息的参与情况调整优惠。 当用例需要基于参与事件和库存可用性的有条件分支的按顺序的多消息流时，这是一种正确的模式 — 单个触发的消息无法适应追加销售时刻或基于旅行日期邻近性的时间调整之间的依赖关系逻辑。
 
 ### 技术注意事项
 
@@ -100,11 +100,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-目标明确的回馈活动可在失效客户中实现10-15%的重新激活率，从而从原本可能永远不会回访的访客中恢复收入。
+目标明确的回馈活动可在失效客户中实现有意义的重新激活率，从而从原本可能永远不会回访的访客中恢复收入。
 
 ### 实施方式
 
-使用[多步骤编排历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)模式。 这一多步历程通过一系列渐进式消息让失效的客户重新参与进来，这些消息根据客户的响应从灵感演变到激励。
+使用[多步骤编排历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)模式。 这一多步历程通过一系列渐进式消息让失效的客户重新参与进来，这些消息根据客户的响应从灵感演变到激励。 当没有离散的触发事件且必须根据客户生命周期模型和季节性预订模式计算时间时，这是正确的模式 — 事件触发的消息传递无法处理渐进式升级逻辑或典型差旅计划窗口周围的时间选件需求。
 
 ### 技术注意事项
 
@@ -120,11 +120,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-个性化行程推荐使对行程页面的参与度提升了20%到30%，有助于客户更快地找到正确的行程，并减少旅行者为太多选项感到不知所措时的流失率。
+个性化的行程推荐可改善对行程页面的参与度，帮助客户更快地找到正确的行程，并减少当旅行者对太多选项感到不知所措时出现的流失。
 
 ### 实施方式
 
-使用[已知访客Web/应用程序Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)模式。 此方法可使用已识别访客的个人资料数据和行为历史记录来显示最相关的行程和目标，从而为这些访客个性化网站内容。
+使用[已知访客Web/应用程序Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)模式。 此方法可使用已识别访客的个人资料数据和行为历史记录来显示最相关的行程和目标，从而为这些访客个性化网站内容。 当个性化由用户档案属性和预订历史记录而不是行为亲和度模型驱动时，这是一个正确的模式 — 允许基于规则的逻辑将出发地和日期等旅游物流与客户偏好一起考虑在内。
 
 ### 技术注意事项
 
@@ -140,11 +140,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-在主页上显示最近浏览过的旅游产品，回访参与度可提高15-20%，从而帮助客户在离开时重新拾回原位，并缩短预订路径。
+在主页中显示最近浏览过的旅游产品会增加回访参与度，帮助客户从上次离开的地方重新开始，并缩短预订的路径。
 
 ### 实施方式
 
-使用[已知访客Web/应用程序Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)模式。 此方法使用访客存储的配置文件数据来呈现主页上以前查看过的项目，从而跨浏览会话创建连续性。
+使用[已知访客Web/应用程序Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)模式。 此方法使用访客存储的配置文件数据来呈现主页上以前查看过的项目，从而跨浏览会话创建连续性。 当个性化依赖于跨会话和设备的永久性配置文件数据而不是实时行为亲和力时，当相关性的规则基于时间（回访间隔）而不是算法排名时，这是一个正确的模式。
 
 ### 技术注意事项
 
@@ -160,11 +160,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-具有个性化旅行优惠的退出意向模式可在原本离开而不进行预订的访客中恢复5-10%的转化率，从而捕获将完全损失的收入。
+具有个性化旅行优惠的退出意向模型可在访客中恢复有意义的转化，这些访客如果没有预订就离开，并可捕获将完全丢失的收入。
 
 ### 实施方式
 
-使用[Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)模式。 此方法使用集中式决策逻辑来评估所有可用的优惠，并根据其会话行为和配置文件数据为即将离开的访客选择最相关的优惠。
+使用[Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)模式。 此方法使用集中式决策逻辑来评估所有可用的优惠，并根据其会话行为和配置文件数据为即将离开的访客选择最相关的优惠。 当优惠选择必须考虑忠诚度层资格以及围绕频率上限的业务限制时，这是一个正确的模式；这些限制需要可控决策逻辑，而不是简单的行为推荐或单个触发的消息。
 
 ### 技术注意事项
 
@@ -180,11 +180,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-基于分层的个性化推动忠诚会员的参与度提高了25%至35%，深化了关系，并加快了维持长期收入的盈利和赎回行为。
+基于分层的个性化推动忠诚会员提高参与度，深化关系，加速维持长期收入的盈利和赎回行为。
 
 ### 实施方式
 
-将[跨渠道历程与Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)模式一起使用。 此方法将Journey Orchestration与实时决策结合在一起，通过正确的渠道为每个忠诚度会员提供合适的优惠，适应其层级、偏好和最近的活动。
+将[跨渠道历程与Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)模式一起使用。 此方法将Journey Orchestration与实时决策结合在一起，通过正确的渠道为每个忠诚度会员提供合适的优惠，适应其层级、偏好和最近的活动。 当历程必须协调跨渠道的交付以防止重复优惠，并且优惠选择需要基于层的资格规则和赎回限制时，这是正确的模式 — 仅历程编排不提供所需的多渠道决策层。
 
 ### 技术注意事项
 
@@ -200,11 +200,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-多渠道预订提醒将预订完成率提高了20%至30%，从那些打算预订但在预订完成之前被排除在外的客户那里收回了大量收入。
+多渠道预订提醒提高了预订完成率，从那些打算预订但在预订完成之前被排除在外的客户那里收回了可观的收入。
 
 ### 实施方式
 
-使用[事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)模式。 在检测到不完整的预订事件时，此方法会自动触发提醒，从而通过客户的首选渠道及时发送消息。
+使用[事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)模式。 在检测到不完整的预订事件时，此方法会自动触发提醒，从而通过客户的首选渠道及时发送消息。 当触发因素是离散客户操作（开始预订），并且所需的响应是首选渠道中时效性强的投放时，这是一种正确的模式 — 而不是多步骤顺序，其中每条消息都取决于以前的参与或可用性更改。
 
 ### 技术注意事项
 
@@ -220,11 +220,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-季节性个性化的促销活动可将季节性预订转化提高15-25%，从而确保营销投资集中在最有可能引起每位客户共鸣的目标和旅游产品上。
+季节性个性化营销活动提升了季节性预订转化，确保营销投资集中在最有可能引起每位客户共鸣的目标和旅游产品上。
 
 ### 实施方式
 
-使用[批出站消息激活](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md)模式。 此方法可按计划向大型受众提供个性化的季节性活动消息，并按客户的季节性旅行模式和偏好对客户进行分段。
+使用[批出站消息激活](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md)模式。 此方法可按计划向大型受众提供个性化的季节性活动消息，并按客户的季节性旅行模式和偏好对客户进行分段。 当受众规模较大并且已由季节性预订历史记录预先定义、根据季节性计划窗口而不是事件驱动计划投放时间，并且无需实时分支或决策时，这是一个正确的模式。
 
 ### 技术注意事项
 
@@ -240,11 +240,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-主动组预订推荐会将每个预订的平均订单值增加1,000 - 3,000 USD，从而捕获在其他情况下可能拆分为多个单独预订的组差旅事务处理的全部价值。
+主动组预订推荐可提高每个预订的平均订单值，从而捕获组差旅事务处理的全部价值，否则这些差旅事务处理可能会拆分为多个单独预订。
 
 ### 实施方式
 
-使用[行为推荐](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)模式。 此方法使用AI驱动模型（从客户预订模式和行为中学习），为每个客户推荐最相关的团体旅行选项。
+使用[行为推荐](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)模式。 此方法使用AI驱动模型（从客户预订模式和行为中学习），为每个客户推荐最相关的团体旅行选项。 当项目集较大且不断变化（组包随定价和可用性而不断发展）并且选择受组预订历史记录的行为模式驱动，而不是受资格规则控制的有界优惠集时，这是正确的模式。
 
 ### 技术注意事项
 
@@ -252,3 +252,23 @@ ht-degree: 0%
 - 必须从预订系统中动态提取组包定价，因为组费率通常与单个费率不同，并且可能需要最小交易方规模或提前预订窗口。
 - 推荐内容应该满足团体组织者的独特需求，包括有关团体就餐选项、会议空间、团体预订折扣和团体游正常运行情况的信息。
 - [!DNL Real-Time Customer Data Platform]个人资料扩充应根据客户的预订模式将客户标记为组旅行组织者，在家庭团聚季节或公司静修时段等组计划高峰期启用有针对性的营销活动。
+
+
+## AI预订礼宾
+
+旅游和酒店组织提供复杂且高考量的购买旅程，客人必须在预订之前导航航班、房间、房间类别、辅助服务和忠诚度福利。 静态的浏览和过滤器界面会疲于制定决策，并增加流失率。 AI预订门房让客人参与自然对话，了解他们的旅行意图、聚会规模、偏好和预算，然后逐步指导他们完成行程计划、住宿选择和附加选项，同时提供与客人级别相关的忠诚度福利。
+
+### 商业影响
+
+对话式预订指导提高了行程完成率和辅助附件，同时减少了因其他原因致电阐明选项的访客的呼叫中心数量。
+
+### 实施方式
+
+使用[Brand Concierge对话体验](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md)模式。 这种方法会根据属性和行程目录部署Product Advisor Agent，并使用AEP Agent Orchestrator和实时客户档案数据，通过引导式多轮对话提供个性化选项和与忠诚度相关的推荐。 当目标为交互式、多轮次的对话发现时，这是正确的模式，该发现可构建为复杂的预订决策 — 不同于事件触发的消息传递，事件触发的消息传递通过单向外联对离散的旅行者行动做出反应，而是个性化Web体验，后者在不吸引访客参与对话的情况下被动显示推荐。 它需要AEP Agent Orchestrator和品牌治理配置。
+
+### 技术注意事项
+
+- 可用性数据和费率数据必须通过预订系统与Brand Concierge内容层之间的近乎实时的集成保持最新，因为推荐不可用的房间类型或对话中的不正确定价会立即削弱信任。
+- 实时客户个人资料查找必须显示忠诚度级别、停留历史记录和所述的首选项，以便工程师可以主动确认访客的状态并定制推荐，而无需访客在每次访问时重新解释其首选项。
+- 品牌治理必须定义代理如何处理费率匹配查询、竞争对手参考资料以及访客的首选日期或房间类型不可用的情况，从而确保代理在品牌声音中做出优雅的响应，而不是提供死胡同。
+- 对话意图信号（包括对话期间表达的目标兴趣、旅游方构成和辅助首选项）必须作为ExperienceEvent数据流回AEP，丰富访客配置文件以告知下游电子邮件、忠诚度和重新参与营销活动。

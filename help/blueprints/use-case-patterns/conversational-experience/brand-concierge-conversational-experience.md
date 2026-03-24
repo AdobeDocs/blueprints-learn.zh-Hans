@@ -2,13 +2,13 @@
 title: Brand Concierge对话体验
 description: 了解如何将数字资产转换为支持AI、品牌安全的对话体验，以指导客户发现。
 solution: Experience Platform, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: a9545328-316d-446a-9308-18af61c58d1c
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
 source-wordcount: '7239'
 ht-degree: 0%
 
 ---
-
 
 # Brand Concierge对话体验
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 通过有针对性的客户获取促销活动、相似受众和付费媒体优化来扩展客户群。
 
-**KPI：**&#x200B;追加销售/交叉销售%，增量收入，客户存留期值
+**KPI：**&#x200B;新客户、客户获取成本、潜在客户/潜在客户转化
 
 [了解有关获取新客户的更多信息](/help/blueprints/business-objectives/acquisition-growth/acquire-new-customers.md)
 
@@ -107,8 +107,8 @@ ht-degree: 0%
 以下应用程序用于实现此用例模式。
 
 - **[!DNL Brand Concierge]** — AI支持的对话体验应用程序提供代理orchestrator、Product Advisor Agent、Site Advisory Agent、品牌治理和对话分析
-- **[!DNL Adobe Experience Platform] (AEP)** — 统一的数据基础，为对话信号提供XDM架构、身份解析、实时客户配置文件和数据收集基础架构
-- **[!DNL Real-Time CDP] ([!DNL RT-CDP])** — 客户数据平台，提供个性化对话的实时配置文件查找、从对话信号中细分受众，以及包含意图和情绪数据的配置文件扩充
+- **[!DNL Adobe Experience Platform](AEP)** — 统一的数据基础，为对话信号提供XDM架构、身份解析、实时客户配置文件和数据收集基础架构
+- **[!DNL Real-Time CDP]([!DNL RT-CDP])** — 客户数据平台，提供个性化对话的实时配置文件查找、从对话信号中细分受众，以及包含意图和情绪数据的配置文件扩充
 
 ## 基本函数
 
@@ -116,11 +116,11 @@ ht-degree: 0%
 
 | 基本函数 | 状态 | 必须准备好的内容 | Experience League参考 |
 | --- | --- | --- | --- |
-| 管理和治理 | 必填 | 为沙盒配置启用了[!DNL Brand Concierge]权利；为对话体验管理员、内容管理员和Analytics用户配置角色；为包含PII或敏感客户信号的对话数据实施ABAC策略 | [访问控制概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home) |
-| 数据建模和准备 | 必填 | 用于对话事件的XDM架构（ExperienceEvent类，其中包含特定于对话的字段组，用于捕获意图、情绪、产品交互和切换事件）；使用对话首选项和意图属性扩展的配置文件架构；用于接地推荐的产品目录查找架构 | [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home) |
-| 数据源和收集 | 必填 | [!DNL Web SDK]或[!DNL Mobile SDK]配置了将对话事件数据路由到AEP数据集的数据流；用于在对话期间实时捕获事件的[!DNL Edge Network]集成；通过源连接器或批量摄取而摄取的产品目录数据 | [Web SDK 概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home) |
-| 身份和配置文件配置 | 必填 | 为访客识别配置的身份命名空间（匿名使用ECID，身份验证使用CRM ID或电子邮件）；为边缘激活配置的合并策略，用于在对话期间实时查找配置文件；跨设备对话持续性的身份链接规则 | [Identity Service概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home) |
-| 受众定义和分段 | 假设就位 | 核心对话部署不需要受众，但个性化对话策略需要受众（例如，高价值客户区段接收不同的对话流）；建议对实时对话个性化进行流式或边缘评估 | [分段服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home) |
+| 管理和治理 | 必填 | 为沙盒配置启用了[!DNL Brand Concierge]权利；为对话体验管理员、内容管理员和Analytics用户配置角色；为包含PII或敏感客户信号的对话数据实施ABAC策略 | [访问控制概述](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| 数据建模和准备 | 必填 | 用于对话事件的XDM架构（ExperienceEvent类，其中包含特定于对话的字段组，用于捕获意图、情绪、产品交互和切换事件）；使用对话首选项和意图属性扩展的配置文件架构；用于接地推荐的产品目录查找架构 | [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
+| 数据源和收集 | 必填 | [!DNL Web SDK]或[!DNL Mobile SDK]配置了将对话事件数据路由到AEP数据集的数据流；用于在对话期间实时捕获事件的[!DNL Edge Network]集成；通过源连接器或批量摄取而摄取的产品目录数据 | [Web SDK 概述](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) |
+| 身份和配置文件配置 | 必填 | 为访客识别配置的身份命名空间（匿名使用ECID，身份验证使用CRM ID或电子邮件）；为边缘激活配置的合并策略，用于在对话期间实时查找配置文件；跨设备对话持续性的身份链接规则 | [Identity Service概述](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
+| 受众定义和分段 | 假设就位 | 核心对话部署不需要受众，但个性化对话策略需要受众（例如，高价值客户区段接收不同的对话流）；建议对实时对话个性化进行流式或边缘评估 | [分段服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
 
 ## 支持功能
 
@@ -128,11 +128,11 @@ ht-degree: 0%
 
 | 支持功能 | 状态 | 为什么它很重要 | Experience League参考 |
 | --- | --- | --- | --- |
-| 计算/派生属性创建 | 推荐 | 将对话信号聚合到用户档案级别的属性中（例如，总对话、主导产品兴趣、平均情绪分数），以用于下游分段和个性化 | [计算属性概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview) |
-| 数据生命周期管理 | 推荐 | 为对话事件数据配置保留策略，管理对话记录和分析的同意，并支持对话记录的隐私删除请求 | [高级数据生命周期管理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/home) |
-| 数据使用标签和执行 | 推荐 | 为包含PII、情绪或意图信号的对话数据字段添加标签；实施治理策略，防止敏感对话数据到达未经授权的目的地 | [数据治理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home) |
-| 监视和可观察性 | 推荐 | 监测会话事件摄取管道，跟踪配置文件扩充成功率，并提醒可能会影响会话个性化质量的数据流失败 | [可观察性分析概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/home) |
-| 报告和分析 | 已包含 | 使用[!DNL Brand Concierge]内置分析和[!DNL CJA]分析对话性能、客户反馈、转化归因和代理效率，以进行跨渠道对话影响分析 | [CJA概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 计算/派生属性创建 | 推荐 | 将对话信号聚合到用户档案级别的属性中（例如，总对话、主导产品兴趣、平均情绪分数），以用于下游分段和个性化 | [计算属性概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| 数据生命周期管理 | 推荐 | 为对话事件数据配置保留策略，管理对话记录和分析的同意，并支持对话记录的隐私删除请求 | [高级数据生命周期管理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| 数据使用标签和执行 | 推荐 | 为包含PII、情绪或意图信号的对话数据字段添加标签；实施治理策略，防止敏感对话数据到达未经授权的目的地 | [数据治理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| 监视和可观察性 | 推荐 | 监测会话事件摄取管道，跟踪配置文件扩充成功率，并提醒可能会影响会话个性化质量的数据流失败 | [可观察性分析概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| 报告和分析 | 已包含 | 使用[!DNL Brand Concierge]内置分析和[!DNL CJA]分析对话性能、客户反馈、转化归因和代理效率，以进行跨渠道对话影响分析 | [CJA概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## 应用程序功能
 
@@ -165,16 +165,16 @@ ht-degree: 0%
 
 在实施开始之前，必须准备好以下项目。
 
-- 该组织的[!DNL Adobe Brand Concierge]权利有效
-- AEP和[!DNL RT-CDP]许可证已配置足够的配置文件和事件卷权限
-- 可用的品牌指南文档定义了语音、语调、批准的消息传递和禁止的主题
-- 为集成准备的产品目录或内容存储库（AEM资产、PIM数据或结构化产品信息源）
-- 为具有SDK集成技术访问权限的对话体验部署标识的Web资产
-- 如果需要进行切换，则可以使用实时代理基础架构（联系中心平台、CRM集成）
-- 为对话式数据捕获和分析而建立的同意管理框架
-- [!DNL Web SDK]或[!DNL Mobile SDK]已在目标属性上部署（或计划进行并发部署）
-- 利益相关者就对话范围进行协调（仅限产品咨询、站点导航或两者）
-- 为AI支持的对话数据捕获和使用完成隐私和法律审查
+- [ ] [!DNL Adobe Brand Concierge]权利对组织有效
+- [ ]个AEP和[!DNL RT-CDP]许可证已配置足够的配置文件和事件卷授权
+- [ ]品牌指南文档可用，用于定义语音、音调、批准的消息和禁止的主题
+- [ ]为集成准备的产品目录或内容存储库（AEM资产、PIM数据或结构化产品信息源）
+- [ ]个Web属性已确定用于对话式体验部署，具有SDK集成的技术访问权限
+- [ ]实时代理基础结构在需要切换时可用（联系中心平台、CRM集成）
+- [ ]已建立同意管理框架以进行对话式数据捕获和分析
+- [ ] [!DNL Web SDK]或[!DNL Mobile SDK]已在目标属性上部署（或计划进行并发部署）
+- [ ]利益相关者在对话范围上保持一致（仅限产品咨询、网站导航或两者）
+- [ ]已完成AI支持的对话数据捕获和使用的隐私和法律审查
 
 ## 实施选项
 
@@ -362,7 +362,7 @@ Product Advisor Agent和站点咨询代理均在[!DNL Brand Concierge] orchestra
 **Experience League文档：**
 
 - [Brand Concierge概述](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [AI Assistant概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)
+- [AI Assistant概述](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
 - [AEP Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
 
 ### 第2阶段：品牌治理设置
@@ -408,7 +408,7 @@ Product Advisor Agent和站点咨询代理均在[!DNL Brand Concierge] orchestra
 **Experience League文档：**
 
 - [Brand Concierge品牌治理](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [AI Assistant操作见解](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)
+- [AI Assistant操作见解](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
 
 ### 阶段3：内容集成
 
@@ -464,7 +464,7 @@ Product Advisor Agent和站点咨询代理均在[!DNL Brand Concierge] orchestra
 - [Brand Concierge内容配置](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
 - [Brand Concierge产品顾问](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/product-advisor)
 - [Brand Concierge站点顾问](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/site-advisor)
-- [源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+- [源概述](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 
 ### 第4阶段：对话体验部署
 
@@ -519,10 +519,10 @@ Product Advisor Agent和站点咨询代理均在[!DNL Brand Concierge] orchestra
 **Experience League文档：**
 
 - [Brand Concierge部署](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [Web SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home)
-- [Edge Network Server API概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/edge-network-server-api/overview)
-- [配置文件API实体端点](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/api/entities)
-- [Real-time Customer Profile概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/home)
+- [Web SDK概述](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [Edge Network Server API概述](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
+- [配置文件API实体端点](https://experienceleague.adobe.com/en/docs/experience-platform/profile/api/entities)
+- [Real-time Customer Profile概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
 
 ### 阶段5：配置文件扩充
 
@@ -564,11 +564,11 @@ Product Advisor Agent和站点咨询代理均在[!DNL Brand Concierge] orchestra
 
 **Experience League文档：**
 
-- [计算属性概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview)
-- [计算属性UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/ui)
-- [区段生成器UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder)
-- [流式客户细分](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Real-time Customer Profile概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/home)
+- [计算属性概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
+- [计算属性UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
+- [区段生成器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [流式客户细分](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Real-time Customer Profile概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
 
 ### 第6阶段：分析和优化
 
@@ -601,9 +601,9 @@ Product Advisor Agent和站点咨询代理均在[!DNL Brand Concierge] orchestra
 **Experience League文档：**
 
 - [Brand Concierge分析](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [CJA Analysis Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)
-- [创建或编辑CJA连接](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-connections/create-connection)
-- [创建或编辑CJA数据视图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [CJA Analysis Workspace概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
+- [创建或编辑CJA连接](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
+- [创建或编辑CJA数据视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
 
 ## 实施注意事项
 
@@ -612,11 +612,11 @@ Product Advisor Agent和站点咨询代理均在[!DNL Brand Concierge] orchestra
 ### 护栏和限制
 
 - [!DNL Brand Concierge]会话体验受人工智能响应生成速率限制的约束；并发会话容量取决于授权层
-- 对话期间的实时配置文件查找受每个沙盒的配置文件API速率限制的约束 — [实时客户配置文件护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
-- 对话事件数据摄取遵循标准AEP流摄取限制 — [摄取护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/guardrails)
+- 对话期间的实时配置文件查找受每个沙盒的配置文件API速率限制的约束 — [实时客户配置文件护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- 对话事件数据摄取遵循标准AEP流摄取限制 — [摄取护栏](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
 - 产品目录大小和内容索引卷受[!DNL Brand Concierge]内容集成限制的约束
-- 每个沙盒最多25个计算属性应用于对话信号聚合 — [计算属性护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview)
-- 每个沙盒最多4,000个区段定义适用于对话受众 — [分段护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
+- 每个沙盒最多25个计算属性应用于对话信号聚合 — [计算属性护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
+- 每个沙盒最多4,000个区段定义适用于对话受众 — [分段护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 
 ### 常见陷阱
 
@@ -684,57 +684,57 @@ Product Advisor Agent和站点咨询代理均在[!DNL Brand Concierge] orchestra
 - [Brand Concierge概述](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
 - [Brand Concierge产品顾问](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/product-advisor)
 - [Brand Concierge站点顾问](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/site-advisor)
-- [AI Assistant概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)
+- [AI Assistant概述](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
 
 **[!DNL Adobe Experience Platform]**
 
-- [AEP概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home)
-- [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)
-- [架构组合基础](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition)
-- [Real-time Customer Profile概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/home)
+- [AEP概述](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
+- [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [架构组合基础](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [Real-time Customer Profile概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
 
 **数据收集和集成**
 
-- [Web SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home)
+- [Web SDK概述](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
 - [移动SDK概述](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview)
-- [配置数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)
-- [Edge Network Server API概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/edge-network-server-api/overview)
-- [源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+- [配置数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [Edge Network Server API概述](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
+- [源概述](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 
 **身份和配置文件**
 
-- [Identity服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)
+- [Identity服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
 - [身份命名空间概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces)
-- [合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview)
-- [计算属性概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview)
+- [合并策略概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [计算属性概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
 
 **受众和分段**
 
-- [分段服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home)
-- [区段生成器UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder)
-- [流式客户细分](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [分段服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [区段生成器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [流式客户细分](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
 
 **数据治理和隐私**
 
-- [数据治理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home)
-- [同意和偏好设置字段组](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/consents)
-- [Privacy Service概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/home)
-- [高级数据生命周期管理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/home)
+- [数据治理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [同意和偏好设置字段组](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
+- [Privacy Service概述](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home)
+- [高级数据生命周期管理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
 
 **监视和可观察性**
 
-- [可观察性分析概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/home)
-- [警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview)
+- [可观察性分析概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [警报概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
 
 **分析和报告**
 
-- [CJA概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)
-- [CJA连接概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-connections/overview)
-- [CJA数据视图概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/data-views)
-- [Analysis Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)
+- [CJA概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
+- [CJA连接概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
+- [CJA数据视图概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
+- [Analysis Workspace概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
 
 **护栏**
 
-- [Real-Time Customer Profile护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
-- [摄取护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/guardrails)
-- [分段护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
+- [Real-Time Customer Profile护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [摄取护栏](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- [分段护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)

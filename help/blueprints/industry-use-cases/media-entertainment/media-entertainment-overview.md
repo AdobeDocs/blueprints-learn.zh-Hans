@@ -2,13 +2,13 @@
 title: 媒体和娱乐用例
 description: 了解媒体和娱乐组织如何使用Adobe Experience Platform实现内容发现个性化、减少订阅者流失以及提高受众参与度。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: cfcf689f-9579-447f-9ef9-72e0c80c1f27
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
-source-wordcount: '2644'
+source-wordcount: '3363'
 ht-degree: 0%
 
 ---
-
 
 # 媒体和娱乐用例
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-部署个性化内容推荐引擎的组织通常会看到内容参与度提高30-40%，并且每个用户的总观看或收听时间会有显着提升。
+部署个性化内容推荐引擎的组织可看到内容参与度提高，并且每个用户的总观看或收听时间有意义提升。
 
 ### 实施方式
 
-使用[行为推荐](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)模式。 此方法使用AI驱动的推荐模型，这些模型不断从受众交互中学习，从而为每一个人展示最相关的内容。
+使用[行为推荐](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)模式。 此方法使用AI驱动的推荐模型，这些模型不断从受众交互中学习，从而为每一个人展示最相关的内容。 当项目集很大并且不断变化（内容目录）并且选择由从查看历史记录中学习的行为亲和度驱动时，这是正确的模式，而不是由资格规则控制的有限优惠集。
 
 ### 技术注意事项
 
@@ -40,11 +40,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-有效的客户流失预防计划可将订阅者流失减少20-30%，从而保护经常性收入并提高长期受众生命周期价值。
+有效的客户流失预防计划显着减少了订阅者流失，保护了经常性收入，并提高了长期受众生命周期价值。
 
 ### 实施方式
 
-将[跨渠道历程与Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)模式一起使用。 这种方法将Journey Orchestration与实时决策结合起来，为各个渠道中的每个高风险订阅者选择最佳的保留选件或内容推荐。
+将[跨渠道历程与Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)模式一起使用。 这种方法将Journey Orchestration与实时决策结合起来，为各个渠道中的每个高风险订阅者选择最佳的保留选件或内容推荐。 当历程必须跨渠道协调投放以防止重复保留选件时，以及当选件选择需要基于订阅者值和风险级别的资格规则时，这是正确的模式 — 仅多步编排不提供所需的实时决策层。
 
 ### 技术注意事项
 
@@ -60,11 +60,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-个性化的发布通知通常会在发布的第一周内推动新内容参与度增加40%到50%，从而加快收视率并提升内容性能指标。
+个性化的发布通知在发布的第一周内提高了新内容的参与度，加快了观众人数并提高了内容性能指标。
 
 ### 实施方式
 
-使用[事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)模式。 此方法将响应内容发布事件，根据订阅者首选项配置文件匹配新标题，以及时发送相关通知。
+使用[事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)模式。 此方法将响应内容发布事件，根据订阅者首选项配置文件匹配新标题，以及时发送相关通知。 当触发因素是系统事件（内容发布）而不是客户行为，并且所需的沟通是即时和反应而不是持续的培养序列时，这是正确的模式。
 
 ### 技术注意事项
 
@@ -80,11 +80,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-个性化的主页体验促使主页参与度增加25%至35%，并显着改进了内容发现，尤其是对于具有大型且不断增长的内容库的平台。
+个性化的主页体验可推动提高主页参与度并显着改进内容发现，尤其是对于具有大型且不断增长的内容库的平台。
 
 ### 实施方式
 
-使用[行为推荐](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)模式。 此方法使用选择策略和排名模型，根据每位访客的个人资料和实时行为对内容行进行重新排序，并在主页上提供特定标题。
+使用[行为推荐](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)模式。 此方法使用选择策略和排名模型，根据每位访客的个人资料和实时行为对内容行进行重新排序，并在主页上提供特定标题。 当项目集很大并且不断变化时，这是正确的模式，并且选择由行为亲和度驱动以动态地对内容行排名，而不是静态策划集或简单的基于属性的个性化。
 
 ### 技术注意事项
 
@@ -100,11 +100,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-关注列表提醒计划通常可将关注列表完成率提高30-40%，从而将保存的意图转化为主动参与并提高整体平台使用率。
+关注列表提醒程序提高了关注列表的完成率，将保存的意图转化为主动参与并提高了总体平台使用率。
 
 ### 实施方式
 
-使用[事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)模式。 此方法会根据监视列表活动和非活动状态信号触发提醒，并在内容已保存但尚未开始时发送及时的提醒。
+使用[事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)模式。 此方法会根据监视列表活动和非活动状态信号触发提醒，并在内容已保存但尚未开始时发送及时的提醒。 当离散行为信号（watchlist不活动）是触发器，并且所需的响应是单个时效性消息时，这是一种正确的模式，而不是多步序列或连续推荐流。
 
 ### 技术注意事项
 
@@ -120,11 +120,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-经过精心设计的试用转换活动将试用到付费的转换率提高了25%到35%，从而直接提高了用户获取效率并降低了每次获取的成本。
+精心设计的试用转换活动在试用到付费转换率方面实现了有意义的改进，直接提高了订阅者获取效率并降低了每次获取的成本。
 
 ### 实施方式
 
-使用[多步骤编排历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)模式。 此多点接触培养历程通过一系列内容发现、价值展示和转化消息引导试用用户完成试用，并根据他们在整个试用的参与情况进行调整。
+使用[多步骤编排历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)模式。 此多点接触培养历程通过一系列内容发现、价值展示和转化消息引导试用用户完成试用，并根据他们在整个试用的参与情况进行调整。 当用例需要基于参与事件和剩余试用时间的有条件分支的经过数天的有序多消息流时，这是正确的模式 — 单个触发的消息无法适应步骤之间的依赖逻辑或节奏调整的需要。
 
 ### 技术注意事项
 
@@ -140,11 +140,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-个性化的实时活动提醒通常会推动实时活动收视率增加50-60%，从而最大化高价值实时节目的受众。
+个性化的直播提醒可推动提高直播收视率，最大化高价值实时节目的受众。
 
 ### 实施方式
 
-使用[事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)模式。 此方法根据事件计划数据触发通知，将即将发生的事件与订阅者兴趣配置文件进行匹配以及时发送提醒。
+使用[事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)模式。 此方法根据事件计划数据触发通知，将即将发生的事件与订阅者兴趣配置文件进行匹配以及时发送提醒。 当触发器是系统事件（事件计划）而不是客户行为，并且所需的通信是即时和有时限的，而不是持续的培养序列时，这是正确的模式。
 
 ### 技术注意事项
 
@@ -160,11 +160,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-个性化的播放列表生成促使播放列表参与度提高40-50%，并有效地延长了平均收听会话时长，强化了日常平台使用习惯。
+个性化的播放列表生成促进了播放列表参与，并有效地延长了平均收听会话时长，强化了日常平台使用习惯。
 
 ### 实施方式
 
-使用[行为推荐](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)模式。 此方法使用AI驱动模型，分析监听模式、跳过行为和上下文信号以生成并刷新为每个用户量身定制的播放列表。
+使用[行为推荐](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)模式。 此方法使用AI驱动模型，分析监听模式、跳过行为和上下文信号以生成并刷新为每个用户量身定制的播放列表。 当项目集很大并且不断变化，并且选择由聆听历史记录和情绪信号的行为亲和力驱动 — 而不是由编辑规则控制的有界播放列表集时，这是正确的模式。
 
 ### 技术注意事项
 
@@ -180,11 +180,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-跨平台内容同步使跨设备参与度提升了30-40%，并显着减少了用户在不同设备之间切换时可能导致会话放弃的摩擦。
+跨平台内容同步提高了跨设备参与度，并显着减少了用户在不同设备之间切换时可能导致会话放弃的摩擦。
 
 ### 实施方式
 
-使用[已知访客Web/应用程序Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)模式。 此方法可跨Web平台和应用程序平台为已识别的用户个性化体验，确保内容状态和推荐一致，而不管使用的是什么设备。
+使用[已知访客Web/应用程序Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)模式。 此方法可跨Web平台和应用程序平台为已识别的用户个性化体验，确保内容状态和推荐一致，而不管使用的是什么设备。 当个性化由配置文件属性（跨设备标识、观看进度状态）和区段成员资格而不是行为亲和度模型或历程编排序列驱动时，这是正确的模式。
 
 ### 技术注意事项
 
@@ -200,11 +200,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-个性化的社交共享提示通常可使社交共享率提高20%至30%，从而扩大有机覆盖范围并降低付费获取成本。
+个性化的社交共享可促进提高社交共享率、扩大内部覆盖范围并降低付费获取成本。
 
 ### 实施方式
 
-使用[已知访客Web/应用程序Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)模式。 此方法可个性化已识别用户的应用程序内共享体验，根据用户的偏好和参与模式显示与上下文相关的共享提示。
+使用[已知访客Web/应用程序Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)模式。 此方法可个性化已识别用户的应用程序内共享体验，根据用户的偏好和参与模式显示与上下文相关的共享提示。 当个性化由用户档案属性和已知参与上下文而不是行为亲和度模型驱动时，这是正确的模式，目标是增强即时体验，而无需编排历程序列。
 
 ### 技术注意事项
 
@@ -220,11 +220,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-个性化的高级追加销售活动推动高级功能采用率增长了15-25%，增加了每个用户的平均收入，同时提供了真正满足订阅者需求的功能。
+个性化的高级追加销售活动推动改进高级功能的采用，提高每个用户的平均收入，同时提供真正满足订阅者需求的功能。
 
 ### 实施方式
 
-使用[Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)模式。 这种方法使用集中式决策逻辑来评估每个订阅者的使用模式，并在适当的时候选择最相关的付费选件。
+使用[Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)模式。 这种方法使用集中式决策逻辑来评估每个订阅者的使用模式，并在适当的时候选择最相关的付费选件。 当选件选择必须考虑使用模式约束和高级层资格规则（需要控制的决策逻辑而不是单独的行为亲和度排名的约束）时，这是正确的模式。
 
 ### 技术注意事项
 
@@ -240,11 +240,11 @@ ht-degree: 0%
 
 ### 商业影响
 
-内容完成活动通常可将内容完成率提高35-45%，增加总参与时间并增强订阅者对平台价值的感知。
+内容完成活动提高了内容完成率，增加了总参与时间，并增强了订阅者对平台价值的感知。
 
 ### 实施方式
 
-使用[事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)模式。 这种方法会根据内容放弃事件触发提醒，当用户在标题中途暂停并且未在定义的窗口中返回时，会及时发送消息。
+使用[事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)模式。 这种方法会根据内容放弃事件触发提醒，当用户在标题中途暂停并且未在定义的窗口中返回时，会及时发送消息。 当离散行为信号（内容放弃）是触发器，并且所需的响应是包含上下文的单个时效性消息（而不是多步历程或动态选件选择）时，这是正确的模式。
 
 ### 技术注意事项
 
@@ -252,3 +252,23 @@ ht-degree: 0%
 - 提醒消息应包括特定内容标题、可视缩略图和直接深层链接，该链接可在用户完全停止播放时继续播放。
 - 频率上限必须防止向经常不整理就取样内容的用户发出过多提醒；对于用户选择放弃的内容反复进行推移可能会让人觉得受到干扰。
 - 内容可用性必须在发送时验证，因为标题可能会离开平台或在放弃事件和提醒投放之间更改可用性区域。
+
+
+## 订阅者流失驱动因素和内容参与度分析
+
+识别在订阅者取消之前的内容使用模式、参与频率变化和目录交互行为，并测量内容亲和度在订阅者区段和客户获取同类群组之间的变化。 无法将内容行为与流失结果联系起来的流媒体和发布企业根据汇总视图计数而不是保留影响做出内容投资决策。
+
+### 商业影响
+
+将内容参与模式与订阅者保留结果关联可为产品、内容策略和营销团队提供一个事实基础，以便根据实际维持订阅的行为确定目录投资的优先级和设计重新参与活动。
+
+### 实施方式
+
+使用[Customer Analytics和Insight生成](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md)模式。 这种方法将流事件数据、内容元数据、订阅生命周期记录和营销活动交互历史记录连接到Customer Journey Analytics，其中同类群组保留分析衡量内容亲和力与订阅者任期的关系，流失分析识别取消之前的参与流失模式。 当目标是理解流失和内容表现的行为驱动因素时，这是一种正确的模式，而不是触发回馈消息或激活流失风险受众以进行抑制。
+
+### 技术注意事项
+
+- 内容使用事件必须包括内容标识符和会话级元数据（开始、暂停、完成和跳过事件），以便能够在CJA中测量参与深度，而不是原始播放计数。
+- 订阅生命周期事件（包括试用开始、转化、支付失败、降级和取消）必须作为具有准确时间戳的离散事件引入，以便可以在CJA过滤器中精确定义取消前行为窗口。
+- 内容目录属性（例如，流派、格式、系列关联和发行回访间隔）必须作为查询数据集在CJA连接中可用，以便内容参与度分析可以按目录维度细分，而无需在单独的标题级别进行分析。
+- 同类群组分析按客户获取渠道和已查看的原始内容比较保留曲线，要求客户获取来源和首次查看的内容均作为用户档案或首次事件维度进行捕获，这可用于CJA中的同类群组定义。

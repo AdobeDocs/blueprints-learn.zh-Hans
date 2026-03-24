@@ -2,13 +2,13 @@
 title: 汽车用例
 description: 了解汽车行业组织如何使用Adobe Experience Platform使车辆购买历程个性化、提高服务保留率和建立所有者忠诚度。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: ee83c739-0907-481d-ba3f-358af4e03c67
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 0%
+source-wordcount: '1941'
+ht-degree: 4%
 
 ---
-
 
 # 汽车用例
 
@@ -18,18 +18,18 @@ ht-degree: 0%
 
 | 用例 | 描述 | 商业影响 | 实施模式 |
 | --- | --- | --- | --- |
-| [车辆购买Personalization](#vehicle-purchase-journey-personalization) | 利用相关的车辆推荐、融资选项和经销商信息，将车辆购买历程（从研究到购买）个性化。 当潜在买家在每个阶段都获得量身定制的指导时，他们会更快更自信地走过销售funnel。 | 从销售线索到购买的转化率提高20%至30%，销售渠道得到改善 | 使用Decisioning [跨渠道历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| [服务约会提醒](#service-appointment-reminders) | 根据车辆里程数、服务历史记录和客户偏好发送个性化服务提醒。 积极主动的外联活动保持车辆保持畅通，并确保客户返回经销商，而不是寻求第三方提供商。 | 40%至50%的服务任用率提高，服务收入增加 | [事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| [折价促销活动](#trade-in-value-campaigns) | 主动为准备好进行升级的客户提供以旧换新价值评估。 在车主拥有权周期的适当时刻与其接触，加速了购买新车的步伐。 | 贸易往来增加25%至35%，新车销售增加 | [多步骤编排历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| [部件和附件推荐](#parts-and-accessories-recommendations) | 根据车辆型号、所有权持续时间和客户偏好推荐相关部件、附件和升级。 个性化的售后推荐可带来递增收入，同时帮助所有者从自己的车辆中获得更多回报。 | 零部件/配件采购增加30%至40%，售后收入增加 | [行为推荐](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) |
-| [车辆召回通知](#vehicle-recall-notifications) | 发送带有服务计划选项和安全信息的个性化召回通知。 及时、清晰的召回沟通可保护客户安全，并表明品牌对负责任的所有权支持的承诺。 | 召回响应率提高60-70%，安全性合规性提高 | [事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| [新模型启动促销活动](#new-model-launch-campaigns) | 根据当前车辆、偏好和购买历史记录，定位可能对新车型发布感兴趣的客户。 有针对性的受众定位可最大程度地提高启动的影响力并形成早期订单势头。 | 启动促销活动参与度提高35-45%，增加了新型号的兴趣 | [批出站消息激活](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) |
-| [融资和保险优惠](#financing-and-insurance-offers) | 根据信用档案、车辆选择和购买时间表提供个性化的融资和保险优惠。 量身定制的金融产品消除了购买障碍，并帮助客户对自己的条款充满信心。 | 融资接纳率提高25%至35%，每次销售收入增加 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
-| [试用计划](#test-drive-scheduling) | 通过经销商推荐和车辆可用性，实现个性化的试驾计划。 让有兴趣的买家轻而易举地后退，加快了购买步伐。 | 试用完成率提高50-60%，销售转化率提高 | [事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
-| [所有者忠诚度计划](#owner-loyalty-programs) | 根据所有权历史记录和忠诚度级别，个性化忠诚度计划通信、奖励和独家优惠。 认识长期所有者会加强与品牌的情感联系。 | 忠诚度计划参与度提高40-50%，重复购买次数增加 | 使用Decisioning [跨渠道历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
-| [保修和延长服务计划](#warranty-and-extended-service-plans) | 根据车辆使用时间、里程和购买模式，在最佳时间建议保修和延长服务计划。 在工厂保修期到期之前，适时开展的外联活动可以捕捉到收入。 | 延长保修采用率增加20-30%，服务收入增加 | [多步骤编排历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| [连接的汽车功能激活](#connected-car-feature-activation) | 根据车辆功能和技术偏好提供个性化的联网汽车功能推荐。 帮助所有者发现未使用的功能可提高满意度并增强数字关系。 | 功能激活率提高35-45%，客户体验得到改善 | [多步骤编排历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
-| [经销商网络协调](#dealer-network-coordination) | 根据客户地点、偏好和经销商库存启用个性化的经销商推荐。 将客户与正确的经销商连接起来可改善购买和服务体验。 | 经销商参与率提高30-40%，销售协调得到改善 | [已知访客Web/应用程序Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) |
+| [车辆购买Personalization](#vehicle-purchase-journey-personalization) | 利用相关的车辆推荐、融资选项和经销商信息，将车辆购买历程（从研究到购买）个性化。 当潜在买家在每个阶段都获得量身定制的指导时，他们会更快更自信地走过销售funnel。 | 提高了从销售线索到购买的转化率，并增强了销售渠道 | 使用Decisioning [跨渠道历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
+| [服务约会提醒](#service-appointment-reminders) | 根据车辆里程数、服务历史记录和客户偏好发送个性化服务提醒。 积极主动的外联活动保持车辆保持畅通，并确保客户返回经销商，而不是寻求第三方提供商。 | 提高服务预约出勤率并增加服务收入 | [事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
+| [折价促销活动](#trade-in-value-campaigns) | 主动为准备好进行升级的客户提供以旧换新价值评估。 在车主拥有权周期的适当时刻与其接触，加速了购买新车的步伐。 | 提高以旧换新参与度和增加新车销售 | [多步骤编排历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
+| [部件和附件推荐](#parts-and-accessories-recommendations) | 根据车辆型号、所有权持续时间和客户偏好推荐相关部件、附件和升级。 个性化的售后推荐可带来递增收入，同时帮助所有者从自己的车辆中获得更多回报。 | 零件及配件采购率提升及售后收益增加 | [行为推荐](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) |
+| [车辆召回通知](#vehicle-recall-notifications) | 发送带有服务计划选项和安全信息的个性化召回通知。 及时、清晰的召回沟通可保护客户安全，并表明品牌对负责任的所有权支持的承诺。 | 提高了召回响应率和更强的安全合规性 | [事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
+| [新模型启动促销活动](#new-model-launch-campaigns) | 根据当前车辆、偏好和购买历史记录，定位可能对新车型发布感兴趣的客户。 有针对性的受众定位可最大程度地提高启动的影响力并形成早期订单势头。 | 改进了启动促销活动参与度，增加了新模型的兴趣 | [批出站消息激活](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) |
+| [融资和保险优惠](#financing-and-insurance-offers) | 根据信用档案、车辆选择和购买时间表提供个性化的融资和保险优惠。 量身定制的金融产品消除了购买障碍，并帮助客户对自己的条款充满信心。 | 提高融资接受率并增加每次销售收入 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
+| [试用计划](#test-drive-scheduling) | 通过经销商推荐和车辆可用性，实现个性化的试驾计划。 让有兴趣的买家轻而易举地后退，加快了购买步伐。 | 提高了试运行完成率和更强的销售转化率 | [事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
+| [所有者忠诚度计划](#owner-loyalty-programs) | 协调经销商、OEM数字和互联汽车渠道之间的忠诚度通信，应用基于分层的资格规则来控制哪些所有者获得独家优惠、提前车辆访问和合作伙伴奖励。 优惠仲裁可防止经销商和OEM渠道的相互冲突的促销活动同时到达同一个所有者。 | 提高了忠诚度计划参与度，增加了重复购买次数 | 使用Decisioning [跨渠道历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
+| [保修和延长服务计划](#warranty-and-extended-service-plans) | 根据车辆使用时间、里程和购买模式，在最佳时间建议保修和延长服务计划。 在工厂保修期到期之前，适时开展的外联活动可以捕捉到收入。 | 改进了延保采用率并增加了服务收入 | [多步骤编排历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
+| [连接的汽车功能激活](#connected-car-feature-activation) | 根据车辆功能和技术偏好提供个性化的联网汽车功能推荐。 帮助所有者发现未使用的功能可提高满意度并增强数字关系。 | 提高了功能激活率，改善了客户体验 | [多步骤编排历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
+| [经销商网络协调](#dealer-network-coordination) | 根据客户地点、偏好和经销商库存启用个性化的经销商推荐。 将客户与正确的经销商连接起来可改善购买和服务体验。 | 经销商参与率提高，销售协调性增强 | [已知访客Web/应用程序Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) |
 
 ## 用例的技术注意事项
 
@@ -92,6 +92,9 @@ ht-degree: 0%
 ### 所有者忠诚度计划
 
 - 忠诚度等级计算必须包含参与度的多个维度，包括服务访问、部件购买、反向链接和事件出席情况，而不仅仅是车辆购买历史记录。
+- 必须在[!DNL Journey Optimizer]决策中配置基于层的资格规则，以控制哪些所有者有资格获得独占优惠、对新车辆的提前访问揭示以及合作伙伴奖励赎回，确保仅符合条件的成员获得每个类别的福利。
+- 优惠仲裁逻辑必须在发送任何消息之前评估来自经销商和OEM渠道的待处理通信，抑制低优先级或冲突的促销以防止同一所有者同时接收冲突的优惠。
+- 跨渠道协调必须跨经销商CRM系统、OEM数字资产、连接的汽车通知渠道和服务接触点进行，以便无论所有者从事什么活动，忠诚度互动都是一致的。
 - 必须集成经销商和服务中心的奖励履行系统，以便在服务点可以无缝地兑现忠诚度福利。
 - 通信应根据所有权的生命周期阶段进行调整，在新所有者第一年为其提供不同的价值主张，而长期所有者则接近潜在升级。
 - [!DNL Journey Optimizer]历程逻辑应实时检测层变化，并在客户在不同忠诚度级别之间切换时触发祝贺或重新参与消息。

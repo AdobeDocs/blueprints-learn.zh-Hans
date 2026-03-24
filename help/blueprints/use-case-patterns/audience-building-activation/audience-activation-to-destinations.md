@@ -2,13 +2,13 @@
 title: Audience Activation到目标
 description: 了解如何使用Adobe Real-Time CDP评估受众区段并将其发布到外部目标以进行定位或抑制。
 solution: Real-Time Customer Data Platform, Experience Platform
-source-git-commit: b2e496eb521fc3dd3290fccdd9a8203384934b88
+exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
-source-wordcount: '7005'
+source-wordcount: '7043'
 ht-degree: 1%
 
 ---
-
 
 # Audience Activation到目标
 
@@ -26,9 +26,12 @@ ht-degree: 1%
 
 典型的利益相关者包括管理付费媒体的数字营销团队、充实仓库的数据团队、为营销活动准备联系人列表的CRM团队以及确保出站数据流符合治理要求的隐私团队。
 
+>[!NOTE]
+>如果您的组织使用[!DNL Real-Time CDP] B2B edition并激活到基于帐户的目标，请参阅[B2B受众激活](b2b-audience-activation.md)。 该模式共享相同的激活机制，但使用B2B帐户和人员数据模型，并需要B2B edition许可证。
+
 ## 主要业务目标
 
-此用例模式实现了以下业务目标。
+此用例模式支持以下业务目标。
 
 ### 获取新客户
 
@@ -67,7 +70,7 @@ ht-degree: 1%
 
 ## 关键绩效指标
 
-| KPI | 描述 | 测量制导 |
+| KPI | 描述 | 度量方法 |
 | --- | --- | --- |
 | 客户购置成本(CAC) | 通过激活的受众获取新客户的成本 | 归因于激活受众的总媒体支出/新客户 |
 | 受众匹配率 | 已成功匹配目标的激活配置文件的百分比 | 在目标匹配的用户档案/从RT-CDP导出的用户档案 |
@@ -93,11 +96,11 @@ ht-degree: 1%
 
 | 基本函数 | 状态 | 必须准备好的内容 | Experience League参考 |
 | --- | --- | --- | --- |
-| 管理和治理 | 假设就位 | 已配置和活动的RT-CDP沙盒。 分配给实施角色的目标管理和激活权限。 目标平台可用的目标帐户凭据。 | [沙盒概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home)，[访问控制概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home) |
-| 数据建模和准备 | 必填 | 配置文件架构必须包含将映射到目标字段的属性（例如，电子邮件、电话、哈希标识符、人口统计属性）。 架构必须启用配置文件，数据集才能主动接收数据。 | [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)，[架构组合基础](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition) |
-| 数据源和收集 | 假设就位 | 必须摄取且保持最新，才能为受众评估提供支持的个人资料数据。 批量和/或流式摄取管道可操作。 Web SDK、源连接器或批量摄取，可将数据传递到启用配置文件的数据集。 | [源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)，[Web SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home) |
-| 身份和配置文件配置 | 必填 | 必须配置用于目标匹配的身份命名空间（例如，Facebook自定义受众的哈希电子邮件、Google Ads客户匹配）。 合并策略必须生成具有激活所需所有属性的统一配置文件。 | [身份服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)，[合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview) |
-| 受众定义和分段 | 必填 | 使用区段生成器、受众组合或联合受众组合定义的目标受众。 根据激活延迟需求选择的评估方法（批量、流或边缘）。 此职能在本计划的第一阶段执行。 | [分段服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home)，[区段生成器UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder) |
+| 管理和治理 | 假设就位 | 已配置和活动的RT-CDP沙盒。 分配给实施角色的目标管理和激活权限。 目标平台可用的目标帐户凭据。 | [沙盒概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home)，[访问控制概述](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| 数据建模和准备 | 必填 | 配置文件架构必须包含将映射到目标字段的属性（例如，电子邮件、电话、哈希标识符、人口统计属性）。 架构必须启用配置文件，数据集才能主动接收数据。 | [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)，[架构组合基础](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
+| 数据源和收集 | 假设就位 | 必须摄取且保持最新，才能为受众评估提供支持的个人资料数据。 批量和/或流式摄取管道可操作。 Web SDK、源连接器或批量摄取，可将数据传递到启用配置文件的数据集。 | [源概述](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)，[Web SDK概述](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) |
+| 身份和配置文件配置 | 必填 | 必须配置用于目标匹配的身份命名空间（例如，Facebook自定义受众的哈希电子邮件、Google Ads客户匹配）。 合并策略必须生成具有激活所需所有属性的统一配置文件。 | [身份服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)，[合并策略概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
+| 受众定义和分段 | 必填 | 使用区段生成器、受众组合或联合受众组合定义的目标受众。 根据激活延迟需求选择的评估方法（批量、流或边缘）。 此职能在本计划的第一阶段执行。 | [分段服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)，[区段生成器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## 支持功能
 
@@ -105,11 +108,11 @@ ht-degree: 1%
 
 | 支持功能 | 状态 | 为什么它很重要 | Experience League参考 |
 | --- | --- | --- | --- |
-| 计算/派生属性创建 | 推荐 | 生命周期值、参与度得分或倾向得分等计算属性可提高受众精度并提供要映射到目标的扩充属性。 当目标从基于值或基于分数的受众分段中受益时，尤其有用。 | [计算属性概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview) |
-| 数据生命周期管理 | 推荐 | 数据集和配置文件过期策略可确保数据刷新和合规性。 同意模式配置可确保仅激活同意的用户档案。 在将数据导出到外部系统时，对于法规合规性至关重要。 | [高级数据生命周期管理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/home) |
-| 数据使用标签和执行 | 推荐 | 治理标签和策略阻止将受限数据激活到未经授权的目标（例如，将PII激活到广告平台，将敏感区段激活到数据合作伙伴）。 对于激活到外部第三方系统的受众尤为重要。 | [数据管理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home)，[数据使用标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview) |
-| 监视和可观察性 | 已包含 | 激活监控是功能链（第5阶段）的一部分。 涵盖数据流运行监控、投放状态警报、受众群体跟踪和许可证使用可见性。 | [监视目标数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dataflows/ui/monitor-destinations)，[警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview) |
-| 报告和分析 | 推荐 | 通过CJA分析受众激活效果，可以测量激活受众的性能（例如，来自抑制的转化提升、来自相似受众的ROAS）。 | [CJA概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 计算/派生属性创建 | 推荐 | 生命周期值、参与度得分或倾向得分等计算属性可提高受众精度并提供要映射到目标的扩充属性。 当目标从基于值或基于分数的受众分段中受益时，尤其有用。 | [计算属性概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| 数据生命周期管理 | 推荐 | 数据集和配置文件过期策略可确保数据刷新和合规性。 同意模式配置可确保仅激活同意的用户档案。 在将数据导出到外部系统时，对于法规合规性至关重要。 | [高级数据生命周期管理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| 数据使用标签和执行 | 推荐 | 治理标签和策略阻止将受限数据激活到未经授权的目标（例如，将PII激活到广告平台，将敏感区段激活到数据合作伙伴）。 对于激活到外部第三方系统的受众尤为重要。 | [数据管理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)，[数据使用标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview) |
+| 监视和可观察性 | 已包含 | 激活监控是功能链（第5阶段）的一部分。 涵盖数据流运行监控、投放状态警报、受众群体跟踪和许可证使用可见性。 | [监视目标数据流](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)，[警报概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
+| 报告和分析 | 推荐 | 通过CJA分析受众激活效果，可以测量激活受众的性能（例如，来自抑制的转化提升、来自相似受众的ROAS）。 | [CJA概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## 应用程序功能
 
@@ -176,8 +179,8 @@ ht-degree: 1%
 
 **Experience League：**
 
-- [将受众激活到流目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [流式目标目录](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/overview)
+- [将受众激活到流目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [流式目标目录](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
 
 ### 选项B：批量目标激活（文件导出）
 
@@ -215,7 +218,7 @@ ht-degree: 1%
 
 **Experience League：**
 
-- [将受众激活到批量配置文件导出目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [将受众激活到批量配置文件导出目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
 - [基于文件的目标目录](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage)
 
 ### 选项C：多目标激活
@@ -253,8 +256,8 @@ ht-degree: 1%
 
 **Experience League：**
 
-- [目的地概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home)
-- [目标目录](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/overview)
+- [目的地概述](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+- [目标目录](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
 
 ### 选项比较
 
@@ -349,13 +352,13 @@ ht-degree: 1%
 
 **Experience League文档：**
 
-- [分段服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home)
-- [区段生成器UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder)
-- [Profile Query Language参考](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/pql/overview)
-- [流式客户细分](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [边缘分段](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [受众构成概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-composition)
-- [评估方法](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home#evaluation-methods)
+- [分段服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [区段生成器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [Profile Query Language参考](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
+- [流式客户细分](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [边缘分段](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [受众构成概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
+- [评估方法](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home#evaluation-methods)
 
 
 ### 阶段2：目标配置
@@ -427,12 +430,12 @@ ht-degree: 1%
 
 **Experience League文档：**
 
-- [目标目录](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/overview)
-- [目的地概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home)
-- [将受众激活到批量配置文件导出目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [将受众激活到流目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Destination SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/destination-sdk/overview)
-- [Destination SDK配置选项](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
+- [目标目录](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [目的地概述](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+- [将受众激活到批量配置文件导出目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [将受众激活到流目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [Destination SDK概述](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/overview)
+- [Destination SDK配置选项](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
 
 
 ### 阶段3：受众激活
@@ -490,10 +493,10 @@ ht-degree: 1%
 
 **Experience League文档：**
 
-- [将受众激活到流目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [将受众激活到批量配置文件导出目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [将按需受众激活到批处理目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/api/ad-hoc-activation-api)
-- [监测目标的数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [将受众激活到流目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [将受众激活到批量配置文件导出目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [将按需受众激活到批处理目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/ad-hoc-activation-api)
+- [监测目标的数据流](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
 
 
 ### 第4阶段：治理验证
@@ -537,11 +540,11 @@ ht-degree: 1%
 
 **Experience League文档：**
 
-- [数据治理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home)
-- [策略实施](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/enforcement/overview)
+- [数据治理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [策略实施](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
 - [数据使用标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview)
 - [同意和偏好设置](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
-- [同意策略实施](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/policies/user-guide)
+- [同意策略实施](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide)
 
 
 ### 第5阶段：监测和验证
@@ -562,9 +565,9 @@ ht-degree: 1%
 
 **Experience League文档：**
 
-- [监测目标的数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview)
-- [可观察性分析概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/home)
+- [监测目标的数据流](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [警报概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
+- [可观察性分析概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
 - [许可证用量仪表板](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 ## 实施注意事项
@@ -573,15 +576,15 @@ ht-degree: 1%
 
 ### 护栏和限制
 
-- **区段定义限制：**&#x200B;每个沙盒最多4,000个区段定义 — [分段护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
-- **每个目标的数据流：**&#x200B;每个目标连接最多100个数据流 — [目标护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/guardrails)
+- **区段定义限制：**&#x200B;每个沙盒最多4,000个区段定义 — [分段护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- **每个目标的数据流：**&#x200B;每个目标连接最多100个数据流 — [目标护栏](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
 - **批量导出文件大小：**&#x200B;基于文件的目标具有最大导出文件大小限制；大型受众自动拆分为多个文件
 - **流式目标吞吐量：**&#x200B;每个目标合作伙伴都设置了每秒吞吐量限制；可能会限制大量受众更改
 - **批量评估容量：**&#x200B;默认情况下，每个区段评估作业最多有2400万个配置文件
 - **受众组合：**&#x200B;每个画布最多10个组合块；仅对组合的受众进行批量评估
-- **标识图形：**&#x200B;每个图形最多50个标识 — [标识服务护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/guardrails)
-- **计算属性：**&#x200B;每个沙盒最多25个计算属性 — [计算属性护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview#guardrails)
-- **激活护栏概述：** [激活护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/guardrails)
+- **标识图形：**&#x200B;每个图形最多50个标识 — [标识服务护栏](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
+- **计算属性：**&#x200B;每个沙盒最多25个计算属性 — [计算属性护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview#guardrails)
+- **激活护栏概述：** [激活护栏](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
 
 ### 常见陷阱
 
@@ -651,72 +654,72 @@ ht-degree: 1%
 
 **目标**
 
-- [目的地概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home)
-- [目标目录](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/overview)
-- [将受众激活到流目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [将受众激活到批量配置文件导出目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [将按需受众激活到批处理目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/api/ad-hoc-activation-api)
-- [目标护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/guardrails)
-- [Destination SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/destination-sdk/overview)
+- [目的地概述](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+- [目标目录](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [将受众激活到流目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [将受众激活到批量配置文件导出目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [将按需受众激活到批处理目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/ad-hoc-activation-api)
+- [目标护栏](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [Destination SDK概述](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/overview)
 
 **受众和分段**
 
-- [分段服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home)
-- [区段生成器UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder)
-- [Profile Query Language参考](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/pql/overview)
-- [流式客户细分](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [边缘分段](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [受众构成概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-composition)
-- [分段护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
+- [分段服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [区段生成器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [Profile Query Language参考](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
+- [流式客户细分](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [边缘分段](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [受众构成概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
+- [分段护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 
 **身份和配置文件**
 
-- [Identity服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)
+- [Identity服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
 - [身份命名空间概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces)
-- [身份标识图链接规则](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-linking-logic)
-- [配置文件概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/home)
-- [合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview)
+- [身份标识图链接规则](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
+- [配置文件概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [合并策略概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 
 **数据建模和架构**
 
-- [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)
-- [架构组合基础](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition)
+- [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [架构组合基础](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 **数据管理**
 
-- [数据治理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home)
+- [数据治理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
 - [数据使用标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview)
-- [数据治理策略](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/policies/overview)
-- [策略实施](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/enforcement/overview)
+- [数据治理策略](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
+- [策略实施](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
 - [同意和偏好设置](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 
 **监视和可观察性**
 
-- [监测目标的数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview)
-- [可观察性分析概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/home)
+- [监测目标的数据流](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [警报概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
+- [可观察性分析概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
 - [许可证用量仪表板](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 **计算属性**
 
-- [计算属性概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview)
-- [计算属性UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/ui)
+- [计算属性概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
+- [计算属性UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
 
 **数据收集和源**
 
-- [源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
-- [Web SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home)
-- [配置数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)
+- [源概述](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+- [Web SDK概述](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [配置数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 **管理**
 
 - [沙盒概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home)
-- [访问控制概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home)
-- [基于属性的访问控制](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/overview)
+- [访问控制概述](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
+- [基于属性的访问控制](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview)
 
 **护栏**
 
-- [Real-Time Customer Profile护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
-- [Identity服务护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/guardrails)
-- [激活护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/guardrails)
-- [摄取护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/guardrails)
+- [Real-Time Customer Profile护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [Identity服务护栏](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
+- [激活护栏](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [摄取护栏](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)

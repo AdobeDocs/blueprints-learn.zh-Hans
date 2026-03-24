@@ -2,13 +2,13 @@
 title: 事件转发
 description: 了解如何将通过Edge Network收集的实时事件数据转发到非Adobe目标以用于分析、存储或广告。
 solution: Experience Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 24964d27-db56-4fa4-a79f-1b6750564b34
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
 source-wordcount: '6342'
 ht-degree: 0%
 
 ---
-
 
 # 事件转发
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 在此用例模式中使用以下应用程序。
 
-- **[!DNL Adobe Experience Platform] (Edge Network)** — 通过配置的数据流从Web SDK、Mobile SDK或Server API接收实时事件数据并进行路由
+- **[!DNL Adobe Experience Platform](Edge Network)** — 通过配置的数据流从Web SDK、Mobile SDK或Server API接收实时事件数据并进行路由
 - **[!DNL Adobe Experience Platform]（事件转发）** — 提供服务器端规则引擎，用于评估、筛选、转换事件数据并将其转发到外部目标
 - **[!DNL Adobe Experience Platform]（标记/数据收集）** — 管理事件转发属性生命周期、扩展、规则和发布工作流
 
@@ -88,11 +88,11 @@ ht-degree: 0%
 
 必须具备以下基本功能才能使用此用例模式。 对于每个函数，状态都指示它通常是必需的、假定为预配置还是不适用。
 
-| 基本功能 | 状态 | 必须准备就绪 | Experience League参考 |
+| 基本函数 | 状态 | 必须准备好的内容 | Experience League参考 |
 | --- | --- | --- | --- |
 | 管理和治理 | 必填 | 沙盒必须处于活动状态并配置了相应的用户角色和权限。 管理事件转发的用户需要[!DNL Adobe Admin Console]中的数据收集权限，包括管理事件转发属性、扩展和规则的权限。 | [访问控制概述](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| 数据建模和准备 | 必填 | 必须为流经Edge Network的事件数据定义XDM架构。 数据流必须引用有效的XDM ExperienceEvent架构，以便事件转发规则可以访问用于筛选、转换和映射的结构化字段。 | [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home) |
-| 数据源和收集 | 必填 | 数据收集机制必须处于活动状态 — Web SDK、Mobile SDK或Edge Network Server API — 才能通过配置的数据流发送事件。 数据流是连接客户端集合与服务器端事件转发的基本路由层。 | [配置数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure) |
+| 数据建模和准备 | 必填 | 必须为流经Edge Network的事件数据定义XDM架构。 数据流必须引用有效的XDM ExperienceEvent架构，以便事件转发规则可以访问用于筛选、转换和映射的结构化字段。 | [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
+| 数据源和收集 | 必填 | 数据收集机制必须处于活动状态 — Web SDK、Mobile SDK或Edge Network Server API — 才能通过配置的数据流发送事件。 数据流是连接客户端集合与服务器端事件转发的基本路由层。 | [配置数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
 | 身份和配置文件配置 | 不适用 | 事件转发在身份解析或配置文件统一发生之前对Edge Network层的原始事件数据运行。 不需要身份命名空间和合并策略，除非转发的事件也需要贡献到Real-Time Customer Profile（这是一个单独的数据流服务配置，而不是事件转发问题）。 | |
 | 受众定义和分段 | 不适用 | 事件转发会实时处理单个事件，而不评估受众成员资格。 基于受众的筛选不是事件转发功能链的一部分。 如果需要基于受众的激活，请参阅Audience Activation目标参考计划。 | |
 
@@ -100,13 +100,13 @@ ht-degree: 0%
 
 以下功能增强此用例模式，但核心执行不需要这些功能。
 
-| 支持功能 | 状态 | 为什么这很重要 | Experience League参考 |
+| 支持功能 | 状态 | 为什么它很重要 | Experience League参考 |
 | --- | --- | --- | --- |
 | 计算/派生属性创建 | 不适用 | 事件转发对原始事件数据而非配置文件级别的计算属性运行。 计算属性在事件转发上下文中不可用。 | |
 | 数据生命周期管理 | 推荐 | 如果事件数据也正在被摄取到AEP数据集（通过同一数据流），则应为这些数据集配置数据保留策略（过期），以管理存储成本和法规遵从性。 事件转发本身并不存储数据，但并行AEP摄取路径存储数据。 | [高级数据生命周期管理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
 | 数据使用标签和执行 | 推荐 | 虽然事件转发规则提供了字段级筛选（允许您从转发的有效负载中排除敏感数据），但若将相同的数据用于受众激活或个性化，则将数据使用标签应用于基础架构和数据集可确保实施治理策略。 | [数据治理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| 监视和可观察性 | 已包含 | 监控对于事件转发至关重要。 事件转发监视仪表板提供转发成功率、错误率和目标响应代码的可见性。 应针对目标故障配置警报。 | [事件转发监视](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/monitoring) |
-| 报告和分析 | 推荐 | 如果转发的事件馈送第三方分析平台，请考虑将相同的AEP事件数据集连接到CJA以实现统一的跨渠道视图。 这样即可在Adobe端和第三方分析之间进行比较。 | [CJA概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 监视和可观察性 | 已包含 | 监控对于事件转发至关重要。 事件转发监视仪表板提供转发成功率、错误率和目标响应代码的可见性。 应针对目标故障配置警报。 | [事件转发监视](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring) |
+| 报告和分析 | 推荐 | 如果转发的事件馈送第三方分析平台，请考虑将相同的AEP事件数据集连接到CJA以实现统一的跨渠道视图。 这样即可在Adobe端和第三方分析之间进行比较。 | [CJA概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## 应用程序功能
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 **关键注意事项：**
 
-- 扩展可用性各不相同 — 在计划之前请检查[数据收集扩展目录](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/overview)
+- 扩展可用性各不相同 — 在计划之前请检查[数据收集扩展目录](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
 - 扩展由Adobe或合作伙伴维护；更新可能会引入重大更改，这些更改需要调整规则
 - 某些扩展仅支持特定的事件类型或需要特定的XDM字段映射
 - 扩展在其配置UI中处理身份验证和凭据管理
@@ -175,11 +175,11 @@ ht-degree: 0%
 
 **Experience League：**
 
-- [事件转发扩展目录](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/overview)
-- [Meta Conversions API扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/meta/overview)
-- [Google Cloud Platform扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
+- [事件转发扩展目录](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
+- [Meta Conversions API扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
+- [Google Cloud Platform扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
 - [AWS扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
-- [Snowflake扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/snowflake/overview)
+- [Snowflake扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)
 
 ### 选项B：自定义webhook（获取API）事件转发
 
@@ -218,8 +218,8 @@ ht-degree: 0%
 
 **Experience League：**
 
-- [Adobe云连接器扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [事件转发密钥](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/secrets)
+- [Adobe云连接器扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [事件转发密钥](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
 
 ### 选项C：混合（扩展+自定义Webhook）
 
@@ -253,8 +253,8 @@ ht-degree: 0%
 
 **Experience League：**
 
-- [事件转发概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/overview)
-- [事件转发快速入门](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/getting-started)
+- [事件转发概述](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [事件转发快速入门](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
 
 ### 选项比较
 
@@ -325,9 +325,9 @@ ht-degree: 0%
 
 **Experience League文档：**
 
-- [配置数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)
-- [数据流概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/overview)
-- [事件转发概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/overview)
+- [配置数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [数据流概述](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
+- [事件转发概述](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
 
 ### 阶段2：事件转发属性和扩展
 
@@ -372,10 +372,10 @@ ht-degree: 0%
 
 **Experience League文档：**
 
-- [事件转发快速入门](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/getting-started)
-- [事件转发扩展目录](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/overview)
-- [事件转发密钥](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/secrets)
-- [Adobe云连接器扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [事件转发快速入门](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
+- [事件转发扩展目录](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
+- [事件转发密钥](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
+- [Adobe云连接器扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
 
 ### 阶段3：事件规则定义
 
@@ -448,10 +448,10 @@ ht-degree: 0%
 
 **Experience League文档：**
 
-- [事件转发规则](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/overview)
-- [事件转发中的数据元素](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/ui/data-elements)
-- [数据收集中的规则](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/ui/rules)
-- [Adobe云连接器扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [事件转发规则](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [事件转发中的数据元素](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)
+- [数据收集中的规则](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules)
+- [Adobe云连接器扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
 
 ### 第4阶段：发布和激活
 
@@ -484,8 +484,8 @@ ht-degree: 0%
 
 **Experience League文档：**
 
-- [发布概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/overview)
-- [库](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/libraries)
+- [发布概述](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)
+- [库](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/libraries)
 - [环境](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments)
 - [内部版本](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/builds)
 
@@ -521,9 +521,9 @@ ht-degree: 0%
 
 **Experience League文档：**
 
-- [事件转发监测](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/monitoring)
+- [事件转发监测](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
 - [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home)
-- [警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview)
+- [警报概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
 
 ## 实施注意事项
 
@@ -605,26 +605,26 @@ ht-degree: 0%
 
 **事件转发**
 
-- [事件转发概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/overview)
-- [事件转发快速入门](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/getting-started)
-- [事件转发监测](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/monitoring)
-- [事件转发密钥](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/secrets)
+- [事件转发概述](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [事件转发快速入门](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
+- [事件转发监测](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
+- [事件转发密钥](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
 
 **事件转发扩展**
 
-- [服务器端扩展目录](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/overview)
-- [Adobe云连接器扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [Meta Conversions API扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/meta/overview)
-- [Google Cloud Platform扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
+- [服务器端扩展目录](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
+- [Adobe云连接器扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Meta Conversions API扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
+- [Google Cloud Platform扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
 - [AWS扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
-- [Snowflake扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/snowflake/overview)
+- [Snowflake扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)
 - [Google Ads增强型转化扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
 - [Mailchimp扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/mailchimp/overview)
 
 **数据收集和Edge Network**
 
-- [配置数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)
-- [数据流概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/overview)
+- [配置数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [数据流概述](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
 - [Web SDK概述](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Edge Network Server API概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/edge-network-server-api/overview)
-- [标记概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/home)
+- [Edge Network Server API概述](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
+- [标记概述](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)
