@@ -434,8 +434,8 @@ ht-degree: 1%
 - [目的地概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home)
 - [将受众激活到批量配置文件导出目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
 - [将受众激活到流目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Destination SDK概述](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/overview)
-- [Destination SDK配置选项](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
+- [Destination SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/destination-sdk/overview)
+- [Destination SDK配置选项](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
 
 
 ### 阶段3：受众激活
@@ -567,7 +567,7 @@ ht-degree: 1%
 
 - [监测目标的数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dataflows/ui/monitor-destinations)
 - [警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview)
-- [可观察性分析概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [可观察性分析概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/home)
 - [许可证用量仪表板](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 ## 实施注意事项
@@ -660,7 +660,7 @@ ht-degree: 1%
 - [将受众激活到批量配置文件导出目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
 - [将按需受众激活到批处理目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/api/ad-hoc-activation-api)
 - [目标护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/guardrails)
-- [Destination SDK概述](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/overview)
+- [Destination SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/destination-sdk/overview)
 
 **受众和分段**
 
@@ -689,7 +689,7 @@ ht-degree: 1%
 
 - [数据治理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home)
 - [数据使用标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview)
-- [数据治理策略](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
+- [数据治理策略](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/policies/overview)
 - [策略实施](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/enforcement/overview)
 - [同意和偏好设置](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 
@@ -697,29 +697,29 @@ ht-degree: 1%
 
 - [监测目标的数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dataflows/ui/monitor-destinations)
 - [警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview)
-- [可观察性分析概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [可观察性分析概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/home)
 - [许可证用量仪表板](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 **计算属性**
 
 - [计算属性概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview)
-- [计算属性UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
+- [计算属性UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/ui)
 
 **数据收集和源**
 
 - [源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
 - [Web SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home)
-- [配置数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [配置数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)
 
 **管理**
 
 - [沙盒概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home)
 - [访问控制概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home)
-- [基于属性的访问控制](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview)
+- [基于属性的访问控制](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/overview)
 
 **护栏**
 
 - [Real-Time Customer Profile护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
 - [Identity服务护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/guardrails)
 - [激活护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/guardrails)
-- [摄取护栏](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- [摄取护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/guardrails)
