@@ -3,7 +3,7 @@ title: '[!DNL Journey Optimizer] - 历程Blueprint'
 description: 使用 Adobe Experience Platform 作为流式传输数据、客户档案和分段的中心枢纽，执行触发的消息和体验。
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 1e1c30954a7f4b3eac0e63736ad804329d58f76b
+source-git-commit: 8ad1be5524ffd98f3728e4e65bc1b9d69efab2c2
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 16%
