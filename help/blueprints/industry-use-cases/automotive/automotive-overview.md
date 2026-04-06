@@ -3,9 +3,9 @@ title: 汽车用例
 description: 了解汽车行业组织如何使用Adobe Experience Platform使车辆购买历程个性化、提高服务保留率和建立所有者忠诚度。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: ee83c739-0907-481d-ba3f-358af4e03c67
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e5c88f240fe86bbc494402842a3d974f803aab03
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1802'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,6 @@ ht-degree: 4%
 | [部件和附件推荐](#parts-and-accessories-recommendations) | 根据车辆型号、所有权持续时间和客户偏好推荐相关部件、附件和升级。 个性化的售后推荐可带来递增收入，同时帮助所有者从自己的车辆中获得更多回报。 | 零件及配件采购率提升及售后收益增加 | [行为推荐](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) |
 | [车辆召回通知](#vehicle-recall-notifications) | 发送带有服务计划选项和安全信息的个性化召回通知。 及时、清晰的召回沟通可保护客户安全，并表明品牌对负责任的所有权支持的承诺。 | 提高了召回响应率和更强的安全合规性 | [事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
 | [新模型启动促销活动](#new-model-launch-campaigns) | 根据当前车辆、偏好和购买历史记录，定位可能对新车型发布感兴趣的客户。 有针对性的受众定位可最大程度地提高启动的影响力并形成早期订单势头。 | 改进了启动促销活动参与度，增加了新模型的兴趣 | [批出站消息激活](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) |
-| [融资和保险优惠](#financing-and-insurance-offers) | 根据信用档案、车辆选择和购买时间表提供个性化的融资和保险优惠。 量身定制的金融产品消除了购买障碍，并帮助客户对自己的条款充满信心。 | 提高融资接受率并增加每次销售收入 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
 | [试用计划](#test-drive-scheduling) | 通过经销商推荐和车辆可用性，实现个性化的试驾计划。 让有兴趣的买家轻而易举地后退，加快了购买步伐。 | 提高了试运行完成率和更强的销售转化率 | [事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
 | [所有者忠诚度计划](#owner-loyalty-programs) | 协调经销商、OEM数字和互联汽车渠道之间的忠诚度通信，应用基于分层的资格规则来控制哪些所有者获得独家优惠、提前车辆访问和合作伙伴奖励。 优惠仲裁可防止经销商和OEM渠道的相互冲突的促销活动同时到达同一个所有者。 | 提高了忠诚度计划参与度，增加了重复购买次数 | 使用Decisioning [跨渠道历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
 | [保修和延长服务计划](#warranty-and-extended-service-plans) | 根据车辆使用时间、里程和购买模式，在最佳时间建议保修和延长服务计划。 在工厂保修期到期之前，适时开展的外联活动可以捕捉到收入。 | 改进了延保采用率并增加了服务收入 | [多步骤编排历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
@@ -75,13 +74,6 @@ ht-degree: 4%
 - 促销活动时间必须与禁运日期和区域发布计划相协调，以确保客户在适当的时间收到与其市场相关的信息。
 - [!DNL Real-Time Customer Data Platform]受众激活应将启动区段同步到广告平台，以便在自有渠道外联之外提供协调的付费媒体支持。
 
-### 融资和保险优惠
-
-- 必须仔细配置金融优惠资格规则，以符合贷款法规，确保向客户提供的优惠符合他们实际可获得的资格。
-- 由于金融信息需要遵守更严格的隐私和监管要求，因此信用配置文件数据集成需要安全的处理和严格的访问控制。
-- 优惠呈报必须明确披露各适用市场遵守消费金融法规之条款、比率及条件。
-- [!DNL Journey Optimizer]决策规则应该将车辆价格、首付和贷款期限偏好设置考虑在内，以便根据相关性而不是简单地根据费率对优惠进行排名。
-
 ### 测试驱动器计划
 
 - 必须集成经销商库存系统，以确认客户感兴趣的特定车辆型号和配饰可在推荐的经销商处试运行。
@@ -119,3 +111,4 @@ ht-degree: 4%
 - 客户到经销商分配逻辑应考虑邻近性、经销商专业化、语言偏好和任何现有的经销商关系，以提供最佳匹配。
 - 潜在客户路由规则必须确保当客户在线表示购买兴趣时，查询会快速到达相应的经销商，并包含有关客户研究活动的完整上下文。
 - [!DNL Experience Platform]身份解析必须处理客户与多个经销商进行交互的情况，维护统一的用户档案，同时尊重每个经销商对其自身客户关系的看法。
+
