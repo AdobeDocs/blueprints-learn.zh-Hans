@@ -3,9 +3,9 @@ title: 医疗保健使用案例
 description: 了解医疗保健组织如何使用Adobe Experience Platform提高患者参与度、简化护理协调并推动更好的健康结果。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 8da82711-a783-488d-a0ed-070b33ecbbc4
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
 workflow-type: tm+mt
-source-wordcount: '3818'
+source-wordcount: '3589'
 ht-degree: 0%
 
 ---
@@ -95,26 +95,6 @@ ht-degree: 0%
 - 将数据使用标签应用于任何护理说明内容，以确保仅通过安全、经患者授权的渠道共享受保护的健康信息。
 - 配置与访问类型相关的计时规则 — 例如，手术后随访可能需要与常规检查调查不同的计时。
 - 包括到患者门户的安全链接，用于调查完成和预约安排，而不是通过不安全的渠道收集健康信息。
-
-
-## 慢性病管理方案
-
-根据每位患者的具体状况和治疗计划，个性化慢性疾病管理通信、教育内容和监测提醒。 持续、相关的参与有助于患者在一段时间内积极参与健康管理。
-
-### 商业影响
-
-个性化的慢性疾病管理项目提高了项目参与率，从而改善了疾病管理结果，降低了紧急护理的利用率。
-
-### 实施方式
-
-使用[多步骤编排历程](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)模式。 慢性疾病管理本质上是一种长期的多接触点体验，需要根据患者参与和健康里程碑提供自适应信息。 这是正确的模式，因为慢性疾病管理需要根据临床指标和参与模式进行长期适应性信息传递 — 事件触发的消息传递无法处理根据不断演变的健康数据调整干预措施所需的持续、动态的重新评估。
-
-### 技术注意事项
-
-- 设计历程分支逻辑，该逻辑根据特定条件的量度进行调整（例如，糖尿病管理的血糖趋势或高血压计划的血压读数）。
-- 使用[!DNL Adobe Experience Platform]数据使用标签实施严格的数据治理，以分类和保护整个历程中特定于条件的运行状况数据。
-- 与远程患者监控设备和患者报告的结果系统集成，将实时健康数据纳入历程决策点。
-- 在历程中建立护理团队提升路径，以便不参与或涉及健康趋势时触发警报给相应的临床员工。
 
 
 ## 新的患者入门历程
