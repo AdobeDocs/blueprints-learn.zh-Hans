@@ -2,13 +2,13 @@
 title: 改进潜在客户资格鉴定和转化
 description: 了解如何通过评分、培养和个性化的跟进来提高潜在客户质量并加快管道进度。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 4454b148-79f9-49f9-97ca-f305df00fe0b
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 4%
 
 ---
-
 
 # 改进潜在客户资格鉴定和转化
 
@@ -30,5 +30,5 @@ ht-degree: 4%
 
 | 图案 | 类别 | 它如何支持这一目标 |
 | --- | --- | --- |
-| [B2B 受众激活](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) | Audience Building &amp; Activation | 激活基于帐户的受众以用于目标潜在客户资格促销活动 |
-| [购买基于群组的营销和历程管理](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | 营销活动管理和编排 | 将潜在客户纳入购买群体，并协调多个利益相关者的培育，以加快管道开发 |
+| [B2B 受众激活](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) | Audience Building &amp; Activation | 激活基于帐户的受众以用于目标潜在客户资格促销活动 |
+| [购买基于群组的营销和历程管理](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) | 营销活动管理和编排 | 将潜在客户纳入购买群体，并协调多个利益相关者的培育，以加快管道开发 |

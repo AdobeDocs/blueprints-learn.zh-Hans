@@ -3,9 +3,9 @@ title: Audience Activation到目标
 description: 了解如何使用Adobe Real-Time CDP评估受众区段并将其发布到外部目标以进行定位或抑制。
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '7043'
+source-wordcount: '7080'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 典型的利益相关者包括管理付费媒体的数字营销团队、充实仓库的数据团队、为营销活动准备联系人列表的CRM团队以及确保出站数据流符合治理要求的隐私团队。
 
 >[!NOTE]
->如果您的组织使用[!DNL Real-Time CDP] B2B edition并激活到基于帐户的目标，请参阅[B2B受众激活](b2b-audience-activation.md)。 该模式共享相同的激活机制，但使用B2B帐户和人员数据模型，并需要B2B edition许可证。
+>如果您的组织使用[!DNL Real-Time CDP] B2B edition并激活到基于帐户的目标，请参阅[B2B受众激活](../b2b/account-audience-activation.md)。 该模式共享相同的激活机制，但使用B2B帐户和人员数据模型，并需要B2B edition许可证。
 
 ## 主要业务目标
 
@@ -89,6 +89,12 @@ ht-degree: 1%
 
 - **Adobe [!DNL Real-Time Customer Data Platform] (RT-CDP)** — 受众评估、目标管理、受众激活、同意和治理实施
 - **Adobe [!DNL Experience Platform] (AEP)** — 配置文件存储，身份服务，分段引擎，数据管理
+
+## 架构
+
+以下参考架构说明了受众和配置文件数据如何从Real-Time CDP流向企业目标，包括云存储、流式端点和SaaS应用程序。
+
+![受众和配置文件激活到企业目标的参考架构](/help/blueprints/audience-activation/assets/known_activation.svg)
 
 ## 基本函数
 
@@ -344,7 +350,7 @@ ht-degree: 1%
 选项A （流目标激活）的&#x200B;**：**
 受众必须使用流评估或边缘评估来提供实时成员资格更新。 验证区段规则表达式是否符合流式评估的条件 — 避免基于时间的聚合函数、多实体查询和`inSegment()`对仅批处理区段的引用。
 
-选项B的&#x200B;**（批处理目标激活）：**
+选项B （批量目标激活）的&#x200B;**：**
 任何评估方法都有效。 批处理评估是最常见的选择，因为导出本身按计划运行。 确认沙盒中存在批次评估计划，或创建一个批次评估计划。
 
 选项C （多目标激活）的&#x200B;**：**
@@ -422,7 +428,7 @@ ht-degree: 1%
 选项A （流目标激活）的&#x200B;**：**
 从目录（Advertising或Social类别）中选择流目标。 完成OAuth授权流程。 确认授权后，连接即可激活。
 
-选项B的&#x200B;**（批处理目标激活）：**
+选项B （批量目标激活）的&#x200B;**：**
 从目录（云存储类别）中选择基于文件的目标。 配置存储路径、文件格式、压缩、命名约定和导出计划。 通过验证对存储位置的写入权限来测试连接。
 
 选项C （多目标激活）的&#x200B;**：**
@@ -485,7 +491,7 @@ ht-degree: 1%
 选项A （流目标激活）的&#x200B;**：**
 选择受众并将身份命名空间映射到目标身份字段。 发布后立即开始激活 — 受众成员资格会将流近乎实时地更改为目标。 无需导出计划；激活是连续的。
 
-选项B的&#x200B;**（批处理目标激活）：**
+选项B （批量目标激活）的&#x200B;**：**
 选择受众、映射配置文件属性并配置导出计划。 在增量导出模式和完全导出模式之间进行选择。 （可选）触发临时导出，以便在常规计划之外立即发送。
 
 选项C （多目标激活）的&#x200B;**：**
@@ -707,7 +713,7 @@ ht-degree: 1%
 
 **数据收集和源**
 
-- [源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+- [来源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
 - [Web SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home)
 - [配置数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)
 

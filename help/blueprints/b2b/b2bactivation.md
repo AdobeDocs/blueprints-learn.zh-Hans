@@ -4,14 +4,29 @@ description: 通过 Real-time Customer Data Platform 交付基于帐户的受众
 solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 0509c5a8ce92c25040262130a5f583cdd7f08e59
+TQID: https://experienceleague.adobe.com/-YX20LT7VkWqGr4ciUM1iNYS9DnZAwj57K-bUy-zVsg
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: 1034
 ht-degree: 52%
 
 ---
 
 # B2B 受众和用户档案激活 Blueprint
+
+>[!TIP]
+>此Blueprint还作为B2B激活和营销下的[用例模式](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md)提供。
 
 使用与单个客户绑定的帐户、机会和商机信息，创建可操作的 B2B 用户档案，以改进跨渠道的个性化和定位。
 
@@ -27,7 +42,7 @@ ht-degree: 52%
 
 ## 集成模式
 
-* B2B数据源(Marketo、Salesforce等)->实时客户数据平台B2B edition ->目标
+* B2B数据源（Marketo、Salesforce等） -> Real-time Customer Data Platform B2B edition ->目标
 * 各种B2B数据源可用于将客户、商机、机会和人员数据映射到实时客户数据平台的B2B edition。
 
 ## 架构
@@ -59,7 +74,7 @@ ht-degree: 52%
 #### Experience Platform 用户档案和分段护栏：
 
 * 有关 Experience Platform - [用户档案和分段护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)，请参阅用户档案和分段护栏
-* B2B 区段包括帐户、商机、机会，使用多实体关系，这会导致区段评估成为批处理。对于仅限于人员和事件的区段，支持流传输分段。
+* B2B 区段包括帐户、商机、机会，使用多实体关系，这会导致区段评估成为批处理。 对于仅限于人员和事件的区段，支持流传输分段。
 * 包括批量B2B区段作为流区段或边缘区段的输入，以支持流B2B区段用例。 批处理客户细分会员资格基于最新的每日批处理客户细分评估结果。
 
 #### Experience Platform - Marketo Engage 源连接器：
@@ -70,7 +85,7 @@ ht-degree: 52%
 #### Experience Platform - Marketo 目标连接器：
 
 * 在区段评估后，从Real-time Customer Data Platform到Marketo Engage的流区段共享最长可能需要15分钟。 首次激活前已在区段中存在的回填配置文件最长可能需要24小时。
-* 根据 Experience Platform 分段计划，每天会共享一次批次分段。使用多实体关系的B2B区段（例如，在帐户和机会对象中使用数据的区段）始终以批处理模式执行。
+* 根据 Experience Platform 分段计划，每天会共享一次批次分段。 使用多实体关系的B2B区段（例如，在帐户和机会对象中使用数据的区段）始终以批处理模式执行。
 
 #### Marketo Engage 护栏：
 
@@ -79,29 +94,29 @@ ht-degree: 52%
 
 #### 目标护栏
 
-* 有关目标的具体指导，请参阅目标文档。[目标护栏](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=zh-Hans)
+* 有关目标的具体指导，请参阅目标文档。 [目标护栏](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=zh-Hans)
 
 
 ## 实施步骤
 
-有关如何实施和配置 Real-time Customer Data Platform B2B 版的指导，请参阅 Real-time Customer Data Platform B2B 版的文档。[Real-time Customer Data Platform B2B 版](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=zh-Hans)
+有关如何实施和配置 Real-time Customer Data Platform B2B 版的指导，请参阅 Real-time Customer Data Platform B2B 版的文档。 [Real-time Customer Data Platform B2B 版](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=zh-Hans)
 
-存在两种可能的实施模式。能够从 Marketo Engage 中摄入 B2B 数据和用户档案，或者能从其他 CRM 数据源中摄入 B2B 数据。
+存在两种可能的实施模式。 能够从 Marketo Engage 中摄入 B2B 数据和用户档案，或者能从其他 CRM 数据源中摄入 B2B 数据。
 
 ## 实施注意事项
 
 关于 Blueprint 的主要注意事项和配置的指导。
 
 * CRM与Marketo的集成，以及不与的集成：
-如果实施使用Marketo Engage作为源，并且Marketo Engage已连接到CRM，则CRM数据将自动通过同一连接流动，无需将CRM直接连接到Platform，除非存在未通过Marketo传递的其他CRM数据对象。 如果需要摄入其他表格，请使用 Experience Platform 源连接器。如果实施不会使用Marketo Engage作为源，请使用CRM源Experience Platform连接器直接将CRM源连接到Platform。
+如果实施使用Marketo Engage作为源，并且Marketo Engage已连接到CRM，则CRM数据将自动通过同一连接流动，无需将CRM直接连接到Platform，除非存在未通过Marketo传递的其他CRM数据对象。 如果需要摄入其他表格，请使用 Experience Platform 源连接器。 如果实施不会使用Marketo Engage作为源，请使用CRM源Experience Platform连接器直接将CRM源连接到Platform。
 * 适用于Platform的Marketo Engage目标连接器将受众推送到Marketo Engage以进行激活，并根据匹配的电子邮件地址和ECID共享受众成员。 如果联系人不存在，则可以选择创建新潜在客户。 创建新潜在客户时，Real-time Customer Data Platform中最多可以将50个配置文件属性（非数组或映射属性）映射到Marketo中的人员字段。
 
 ## 相关文档
 
-* [Real-time Customer Data Platform B2B 版](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=zh-Hans)
-* [Real-time Customer Data Platform B2B edition入门](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
-* Real-time Customer Data Platform B2B edition的[护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
+* [实时客户数据平台的B2B edition](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=zh-Hans)
+* [Real-time Customer Data Platform B2B edition快速入门](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
+* [Real-time Customer Data Platform B2B edition的护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=zh-Hans)
-* [Adobe Experience Platform - Marketo 源连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=zh-Hans)
-* [Adobe Experience Platform - Marketo 目标连接器](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-cloud-segment-to-a-marketo-static-list.html?lang=zh-Hans)
+* [Adobe Experience Platform - Marketo Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=zh-Hans)
+* [Adobe Experience Platform - Marketo目标连接器](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-cloud-segment-to-a-marketo-static-list.html?lang=zh-Hans)

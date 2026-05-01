@@ -3,7 +3,7 @@ title: B2B分析
 description: 了解如何在跨渠道客户历程分析中包含B2B帐户级别信息。
 solution: Customer Journey Analytics, Real-Time Customer Data Platform
 exl-id: 9d576e5c-cbd2-4c60-a6b0-88f8b8b963b4
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '7528'
 ht-degree: 1%
@@ -107,7 +107,7 @@ B2B Analytics通过利用[!DNL CJA] B2B edition创建以帐户为中心的分析
 | --- | --- | --- | --- |
 | 管理和治理 | 必填 | 沙盒配置了[!DNL CJA]个B2B edition和[!DNL RT-CDP]个B2B edition权限。 为有权访问[!DNL CJA]和B2B数据模型的数据工程师、分析师和营销运营用户设置的角色。 | [沙盒概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home) |
 | 数据建模和准备 | 必填 | 使用B2B类配置的B2B XDM架构：XDM业务帐户、XDM业务机会、XDM业务帐户人员关系、XDM业务机会人员关系和XDM业务营销列表成员。 必须定义客户属性、商机阶段和购买组角色的字段组。 为配置文件创建和启用数据集。 | [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)，[B2B edition架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/schemas/b2b) |
-| 数据源和收集 | 必填 | B2B数据源已连接，通常通过[!DNL Marketo Engage]源连接器或[!DNL Salesforce] CRM源连接器连接。 客户记录、机会记录、人员 — 客户关系和行为参与事件必须流入AEP数据集。[!DNL Web SDK] 或[!DNL Marketo]集成必须通过帐户关联捕获行为事件。 | [源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)，[Marketo Engage连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
+| 数据源和收集 | 必填 | B2B数据源已连接，通常通过[!DNL Marketo Engage]源连接器或[!DNL Salesforce] CRM源连接器连接。 客户记录、机会记录、人员 — 客户关系和行为参与事件必须流入AEP数据集。 [!DNL Web SDK]或[!DNL Marketo]集成必须捕获具有帐户关联的行为事件。 | [源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)，[Marketo Engage连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
 | 身份和配置文件配置 | 必填 | B2B身份解析配置为解析人员与帐户的关系。 必须关联帐户ID、人员ID （[!DNL Marketo]潜在客户ID或CRM联系人ID）和跨设备身份（ECID、电子邮件）。 身份图必须支持B2B数据模型中固有的多对多人员到帐户映射。 | [身份服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)，[B2B身份解析](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/schemas/b2b) |
 | 受众定义和分段 | 假设就位 | 如果将B2B区段从[!DNL CJA]发布回AEP以进行激活，则帐户级别的受众定义应该可用。 对于仅限Analytics的用例，这不是严格的先决条件，但建议对基于区段的分析执行此操作。 | [分段服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home) |
 
@@ -357,7 +357,7 @@ B2B Analytics通过利用[!DNL CJA] B2B edition创建以帐户为中心的分析
 选项A （以帐户为中心）的&#x200B;**：**
 将主要标识符设置为帐户ID。 添加帐户记录、商机、购买群和人员 — 帐户关系数据集。 使用“帐户ID”字段配置人员级别事件数据集，以进行跨数据集联接。
 
-选项B （以全局帐户为中心）的&#x200B;**：**
+选项B （以全球帐户为中心）的&#x200B;**：**
 将主要标识符设置为全局帐户ID。 确保帐户层次结构数据包含全局帐户ID字段。 所有数据集必须包含或可连接到全局帐户ID，才能进行正确汇总。
 
 选项C （混合）的&#x200B;**：**
@@ -428,7 +428,7 @@ B2B Analytics通过利用[!DNL CJA] B2B edition创建以帐户为中心的分析
 选项A （以帐户为中心）的&#x200B;**：**
 将帐户用作顶级容器来配置单个数据视图。 如果需要管道和购买组分析，则包括“机会”和“购买组”容器。
 
-选项B （以全局帐户为中心）的&#x200B;**：**
+选项B （以全球帐户为中心）的&#x200B;**：**
 将全局帐户配置为顶级容器。 包括帐户作为子容器，以启用全局分析和子容器分析。
 
 选项C （混合）的&#x200B;**：**
@@ -708,7 +708,7 @@ B2B Analytics通过利用[!DNL CJA] B2B edition创建以帐户为中心的分析
 **AEP数据基础**
 
 - [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)
-- [源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+- [来源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
 - [Marketo Engage连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
 - [Identity服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)
 - [沙盒概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home)

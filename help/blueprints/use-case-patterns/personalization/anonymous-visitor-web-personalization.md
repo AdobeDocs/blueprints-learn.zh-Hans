@@ -2,13 +2,13 @@
 title: 匿名访客Web Personalization
 description: 了解如何根据会话中行为信号向未识别的访客提供个性化的Web内容。
 solution: Journey Optimizer, Real-Time Customer Data Platform
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '8076'
+source-wordcount: '8109'
 ht-degree: 1%
 
 ---
-
 
 # 匿名访客Web个性化
 
@@ -104,13 +104,19 @@ ht-degree: 1%
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — 基于会话中行为信号的实时受众评估的Edge分段；匿名边缘配置文件管理
 - **[!DNL Adobe Experience Platform] (AEP)** — [!DNL Web SDK]用于行为信号收集，[!DNL Edge Network]用于实时数据路由和个性化投放，数据流配置
 
+## 架构
+
+以下参考架构说明了如何在边缘收集匿名访客信号、根据受众规则评估并使用这些信号提供个性化内容。
+
+![匿名受众激活和个性化的参考架构](/help/blueprints/audience-activation/assets/anonymous_activation.svg)
+
 ## 基本函数
 
 必须具备以下基本功能才能使用此用例模式。 对于每个函数，状态都指示它通常是必需的、假定为预配置还是不适用。
 
 | 基本函数 | 状态 | 必须准备好的内容 | Experience League参考 |
 | --- | --- | --- | --- |
-| 管理和治理 | 假设就位 | 配置了Web渠道权限的AJO沙盒。[!DNL Web SDK] 向实施团队授予实施权限和数据流访问权限。 为用户提供允许Web渠道配置、受众管理和活动执行的角色。 | [访问控制概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home) |
+| 管理和治理 | 假设就位 | 配置了Web渠道权限的AJO沙盒。 向实施团队授予[!DNL Web SDK]实施权限和数据流访问权限。 为用户提供允许Web渠道配置、受众管理和活动执行的角色。 | [访问控制概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home) |
 | 数据建模和准备 | 必填 | 体验事件架构捕获Web行为信号（页面查看次数、点击次数、滚动深度、引用数据、UTM参数）。 架构必须包含标准Web交互字段组，并启用边缘配置文件以支持实时评估。 必须创建对应的数据集并启用配置文件。 | [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home) |
 | 数据源和收集 | 必填 | 必须在配置了数据流以将数据路由到[!DNL AEP Edge Network]的所有目标Web属性上实施[!DNL Web SDK]。 数据流必须启用[!DNL Adobe Experience Platform]和[!DNL Adobe Journey Optimizer]服务。 这是一个关键依赖项 — 如果没有[!DNL Web SDK]，将无法进行行为信号收集或体验交付。 | [Web SDK 概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home) |
 | 身份和配置文件配置 | 必填 | ECID ([!DNL Experience Cloud ID])配置为匿名访客的主要身份命名空间。 必须使用`isActiveOnEdge: true`配置Edge合并策略，才能解析边缘上的匿名配置文件数据。 每个沙盒的Edge上只能有一个活动合并策略。 | [Identity Service概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home) |
@@ -409,10 +415,10 @@ ht-degree: 1%
 
 **选项差异的位置：**
 
-选项A的&#x200B;**（基于规则）：**
+选项A （基于规则）的&#x200B;**：**
 为每个内容变体创建不同的受众区段。 每个区段表示一个特定的行为条件（例如，“反向链接= Google和地域=美国”映射到内容变量A）。 受众数等于个性化规则数。
 
-选项B的&#x200B;**（试验）：**
+选项B（试验）的&#x200B;**：**
 受众定义是可选的。 如果试验面向所有访客，则不需要受众 — 流量拆分处理变量分配。 如果试验以特定子集为目标（例如，仅移动访客），请为试验资格定义单个定位受众。
 
 选项C （决策）的&#x200B;**：**
@@ -462,10 +468,10 @@ ht-degree: 1%
 
 **选项差异的位置：**
 
-选项A的&#x200B;**（基于规则）：**
+选项A （基于规则）的&#x200B;**：**
 为阶段2中定义的每个受众区段创作不同的内容变体。 使用营销活动配置中的条件内容规则将每个变体绑定到其目标受众。 确保存在与任何受众规则都不匹配的访客的默认内容变体。
 
-选项B的&#x200B;**（试验）：**
+选项B（试验）的&#x200B;**：**
 创作处理变量（A、B、C等） 用于试验。 在营销活动上启用内容实验，定义治疗变体的内容，设置流量分配百分比，并配置成功量度。
 
 - 定义具有不同内容的2-10个处理变量
@@ -531,10 +537,10 @@ ht-degree: 1%
 
 **选项差异的位置：**
 
-选项A的&#x200B;**（基于规则）：**
+选项A （基于规则）的&#x200B;**：**
 为每个个性化规则创建一个营销活动，每个营销活动均面向不同的边缘受众及其对应的内容变体。 或者，使用具有条件内容规则的单个营销活动，这些条件内容规则会将受众成员资格映射到一个营销活动中的内容变体。
 
-选项B的&#x200B;**（试验）：**
+选项B（试验）的&#x200B;**：**
 创建启用了内容实验的单个营销活动。 试验配置（变体、流量分配、成功量度）在阶段3中定义。 激活营销活动以开始试验。
 
 选项C （决策）的&#x200B;**：**
@@ -573,10 +579,10 @@ ht-degree: 1%
 
 **选项差异的位置：**
 
-选项A的&#x200B;**（基于规则）：**
+选项A （基于规则）的&#x200B;**：**
 查看每个受众区段的促销活动报表，以比较不同个性化内容变体的交付情况和参与量度。 使用CJA构建一个比较工作区，用于衡量个性化内容与默认内容的转化影响。
 
-选项B的&#x200B;**（试验）：**
+选项B（试验）的&#x200B;**：**
 查看试验报告以了解统计置信度、治疗提升度和入选者识别。 等待达到置信度阈值后，再声明入选者。 将入选内容作为永久变量应用（过渡到选项A以进行持续交付）。
 
 - **UI导航：**&#x200B;营销活动>内容试验>查看报告

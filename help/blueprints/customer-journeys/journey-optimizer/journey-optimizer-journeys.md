@@ -3,14 +3,32 @@ title: '[!DNL Journey Optimizer] — 触发的消息处理和Adobe Experience Pl
 description: 使用 Adobe Experience Platform 作为流式传输数据、客户档案和分段的中心枢纽，执行触发的消息和体验。
 solution: Journey Optimizer
 exl-id: 70573eb9-cd69-4fe6-b2ae-dae81665a308
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/MuodOvJ52G9lmUAmsuj06q1aTXkRg7W0Bj6nxLp96N8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: 357
 ht-degree: 12%
 
 ---
 
 # [!DNL Journey Optimizer] - 历程Blueprint
+
+>[!TIP]
+>此Blueprint还作为[用例模式](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)在Campaign Management &amp; Orchestration下提供。
 
 历程是实时的事件驱动工作流，可根据个别客户行为提供个性化的多步骤体验。 它们支持广泛的渠道，包括电子邮件、短信、推送通知、应用程序内消息传送、基于代码的体验以及基于自定义API的集成，从而让品牌商能够跨其首选接触点根据上下文吸引客户。
 

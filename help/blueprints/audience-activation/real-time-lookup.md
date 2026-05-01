@@ -4,14 +4,34 @@ description: 在边缘位置[!UICONTROL 实时客户个人资料]访问，以提
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 719
 exl-id: 61b81d00-c4bd-41b2-8161-683814947b56
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/H59c3UBbNCQFs3H0VL5iVDKKZ5D3CFt4ri2RVwNlq7s
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
-source-wordcount: '1936'
-ht-degree: 11%
+source-wordcount: 631
+ht-degree: 8%
 
 ---
 
 # 适用于Web和移动Personalization的实时Edge配置文件访问
+
+>[!TIP]
+>此Blueprint还作为Personalization下的[用例模式](/help/blueprints/use-case-patterns/personalization/edge-profile-access.md)提供。
 
 适用于Web和移动Personalization蓝图的实时Edge配置文件访问显示了Web和移动应用程序如何访问Adobe Experience Platform边缘的[!UICONTROL 实时客户配置文件]，以实现高吞吐量、低延迟的个性化。
 
@@ -37,18 +57,6 @@ ht-degree: 11%
 * 与个性化引擎、内容管理系统和外部应用程序集成，用于实时决策
 * 使用实时用户档案上下文进行测试和内容优化
 
-## 先决条件
-
-如果您希望使用流数据实时更新用户档案，此Blueprint需要使用以下数据收集方法之一。 无需直接向Edge配置文件收集数据，即可实时访问Edge配置文件；可将数据收集到中心并投影到Edge配置文件。 请注意，收集到中心并随后预计到Edge的数据会增加延迟。
-
-* 如果要从您的网站收集数据，请使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=zh-Hans)。
-* 如果要从移动应用程序收集数据，请使用[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/)。
-* 如果您未使用Web SDK或Mobile SDK，或者正在实现更直接的服务器到服务器连接，请使用[Edge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)。
-
->[!IMPORTANT]
->
->在实施边缘个性化之前，请阅读有关如何[将受众数据激活到边缘个性化目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)的指南。 本指南将指导您跨多个Experience Platform组件完成相同页面和下一页面个性化用例所需的配置步骤。
-
 ## 架构图
 
 <img src="assets/real-time-edge-lookup.svg" alt="适用于Web和移动Personalization的Edge配置文件访问参考架构" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
@@ -59,76 +67,6 @@ ht-degree: 11%
 * [Edge Network护栏](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
 * Edge用户档案具有14天的生存时间(TTL)。 如果用户在Edge上未活动14天，Edge配置文件可能会过期，需要从中心提取，这可能会影响第一页个性化。
 * Edge个性化支持对符合Edge分段标准的受众进行实时受众成员资格评估。 此外，通过相应的配置，还可在边缘位置获得来自中心的批量访问和流式访问受众。
-
-## 实施模式
-
-可以使用Real-time Customer Data Platform中的[自定义Personalization连接](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/custom-personalization)目标实现Edge个性化。 此目标支持多种数据收集方法，具体取决于您的用例。
-
-### 模式1：使用Web SDK/Mobile SDK实现基于受众会员资格的个性化
-
-* 将Adobe Experience Platform Web SDK或Mobile SDK与Edge Network结合使用，以实现基于受众成员资格的个性化。
-* 这种方法可为基于受众成员资格的边缘个性化提供低延迟和最佳性能。
-* 实时边缘分段需要Web/移动SDK实施。
-* 仅Web SDK和Mobile SDK **支持基于受众成员资格的个性化**。
-* [有关基于Experience Platform的实施，请参阅SDK Web和Mobile SDK Blueprint](../experience-platform/deployment/websdk.md)。
-* 对于移动SDK实施，必须在Mobile SDK中安装[Adobe Journey Optimizer - Decisioning扩展](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/)。
-
-### 模式2：使用Edge Network服务器API进行基于属性的个性化（配置文件属性必需）
-
->[!IMPORTANT]
->
->**基于属性的个性化要求：**&#x200B;如果您要基于配置文件属性（而不仅仅是受众成员资格）进行个性化，则&#x200B;**必须**&#x200B;使用具有经过身份验证的服务器端集成的[Edge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)，无论您同时使用Web SDK还是Mobile SDK进行数据收集。
-
-* 支持与第三方个性化引擎和基于CDN的个性化集成。
-* 需要&#x200B;**Edge Network服务器API**&#x200B;才能安全检索用于个性化的配置文件属性。
-* 您可以添加利用已用于Web或Mobile SDK实施的相同数据流的服务器端集成，以通过Edge Network服务器API检索配置文件属性。
-* 对配置文件属性的所有Edge Network服务器API调用都必须在经过身份验证的上下文中进行，以保护敏感数据。
-* 此模式同时支持基于受众成员资格的个性化和基于属性的个性化。
-* 适用于服务器端个性化用例、基于API的集成和需要配置文件属性访问权限的情景。
-
-## 实施步骤
-
-1. 为要摄入的数据[创建架构。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&lang=zh-Hans)
-1. 为要摄入的数据[创建数据集。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hans)
-1. [在架构上配置正确的身份和身份命名空间](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=zh-Hans)，以确保摄取的数据可以拼合到统一配置文件中。
-1. [为用户档案启用架构和数据集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=zh-Hans)。
-1. [将数据摄入](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=zh-Hans) Experience Platform。
-1. [设置合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=zh-Hans)以确保正确的身份拼接和配置文件合并。
-1. [在Experience Platform数据收集中配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans#)，并启用目标配置。 数据流确定在对页面的响应中将包含受众的数据收集数据流。
-1. 在Web和移动属性上实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=zh-Hans)或[移动SDK](https://developer.adobe.com/client-sdks/home/)以进行数据收集。
-1. 为需要实时评估的受众配置边缘分段。[Edge分段文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=zh-Hans)。
-1. 在目标目录中，设置[自定义Personalization连接](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/custom-personalization)目标：
-1. [将受众激活到边缘个性化目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)。 选择要激活到目标的受众。
-1. （基于属性的个性化是可选的）如果除了受众成员资格之外，您还需要根据配置文件属性进行个性化，请使用相同的数据流通过经过身份验证的服务器端集成实施[Edge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)。 这是&#x200B;**访问配置文件属性所必需的**。
-1. 在Web/移动应用程序中实施个性化逻辑以使用导出的受众数据和配置文件属性：
-   * 如果使用Adobe Experience Platform中的标记，请使用[发送事件完成功能](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=zh-Hans)来访问具有导出数据的`event.destinations`变量。
-   * 如果不使用标记，请使用[命令响应](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html?lang=zh-Hans)从Adobe Experience Platform中解析JSON响应并检索受众ID和配置文件属性。
-
-## 实施注意事项
-
-### 身份注意事项
-
-* 将Web SDK或Mobile SDK与Edge Network结合使用时，任何主要身份都可用于边缘个性化。
-* 对于使用已知客户数据进行首次登录个性化，个性化请求必须使用与Real-time Customer Data Platform中的已知客户身份匹配的主要身份。 如果主ID设置为ECID或尚未与已知客户个人资料进行拼接的匿名身份，则实现身份拼接将需要时间，这可能会影响个性化历史个人资料数据的可用性。
-* 必须先初始化Edge配置文件，然后才能将其用于个性化。 边缘配置文件已过期（14天TTL）的首次访客或回访访客可能会根据有限的配置文件数据体验初始个性化，直到边缘配置文件完全填充为止。
-
-### 基于属性的个性化
-
->[!IMPORTANT]
->
->配置文件属性可能包含敏感数据。 为了保护此数据，在为基于属性的个性化配置自定义Personalization目标时，您&#x200B;**必须**&#x200B;使用[Edge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)。 所有Edge Network服务器API调用都必须在经过身份验证的上下文中进行。
-
-* 对于使用配置文件属性的基于属性的个性化，您必须添加与Edge Network服务器API的服务器端集成，该集成利用您用于Web或Mobile SDK实施的相同数据流。
-* 您必须通过自定义Personalization连接目标配置来配置要包含在边缘投影中的配置文件属性。
-* **仅Web SDK和Mobile SDK支持基于受众成员资格进行个性化**。 需要&#x200B;**Edge Network服务器API**&#x200B;才能安全检索用于个性化的配置文件属性。
-* 如果您没有实施Edge Network服务器API以进行属性访问，则个性化将仅基于受众成员资格。
-* 除了受众区段之外，具有属性的自定义Personalization的API响应还包含`attributes`部分。
-
-### 受众注意事项
-
-* 通过中心上的流式或批量分段评估的受众将投影到边缘，并且可用于进行个性化。
-* 对于同一页面个性化，将在边缘实时评估符合边缘分段标准的受众。
-* 根据受众在实时个性化用例中的使用情况，为边缘评估配置相应的受众。
 
 ## 相关文档
 
