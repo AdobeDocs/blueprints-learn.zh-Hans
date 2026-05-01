@@ -1,16 +1,24 @@
 ---
 title: 具有区段匹配的受众Collaboration
-description: 了解Adobe Experience Platform (AEP)的[!UICONTROL 区段匹配]。[!UICONTROL 区段匹配]是一种数据协作服务，它允许您以安全、受管且对隐私友好的方式，基于通用行业标识符交换区段数据。
+description: 了解 Adobe Experience Platform (AEP) 的[!UICONTROL 区段匹配]。 [!UICONTROL 区段匹配]是一项数据协作服务，允许您以安全、受管理且对隐私友好的方式，基于通用行业标识符交换区段数据。
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/RnmmHdxJbt0Ljjovo0rYwGvYilcihcqeeI5KOkP4VmU
+product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: daec7ead-f475-492a-a3b3-02ae08565d6f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: beb7a3c1-66ab-4786-b879-7621375b3c40id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
-source-wordcount: '2235'
-ht-degree: 72%
+source-wordcount: 2249
+ht-degree: 80%
 
 ---
 
 # 具有区段匹配Blueprint的受众Collaboration
+
+>[!TIP]
+>此Blueprint还作为Audience Building &amp; Activation下的[用例模式](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md)提供。
 
 区段匹配允许合作伙伴品牌在其各自的 Experience Platform 环境中共享受众。 品牌的关键在于根据从与消费者的直接关系中收集的数据，与客户建立联系。 通过更好的治理、权限和首选项管理系统，营销人员可以通过关键合作伙伴进一步增强其经过身份验证的第一方受众。
 
@@ -30,7 +38,7 @@ ht-degree: 72%
 
 品牌到发布者：
 
-弃用第三方 Cookie 和移动设备广告 ID 数据对“发布者用例”的影响最大。 此用例对专注于将广告作为商业模式销售的媒体和娱乐行业产生了重大影响。[!UICONTROL 区段匹配]是一种路径，适用于具有大量第一方受众的发布者希望直接与其广告商协作。 广告商可以直接与发布者合作，针对发布者属性的匹配受众发布广告，以开展精细的定位或潜在客户营销活动。
+弃用第三方 Cookie 和移动设备广告 ID 数据对“发布者用例”的影响最大。 此用例对专注于以业务模式销售广告的媒体和娱乐行业有重大影响。 对于拥有大量第一方受众且希望直接与其广告商协作的发布者，[!UICONTROL 区段匹配]是一条适合的途径。 广告商可以直接与发布者合作，针对发布者属性的匹配受众发布广告，以开展精细的定位或潜在客户营销活动。
 
 ### 品牌到品牌
 
@@ -46,7 +54,7 @@ ht-degree: 72%
 
 ![区段匹配架构](assets/architecture-segment-match.png){zoomable="yes"}
 
-[!UICONTROL 区段匹配]不是可以购买数据的数据市场。 它是一项AEP功能，可与选定的合作伙伴配合使用第一方数据，使用隐私和同意控制帮助进行协作。[!UICONTROL 区段匹配]有助于将工作重点放在改善客户关系和发展品牌上。 当存在既有品牌或合作伙伴关系时，这是有益的。[!UICONTROL 区段匹配]体验易于管理、可扩展，并且允许管理员以选择加入和可控的方式共享区段。
+[!UICONTROL 区段匹配]不是可以购买数据的数据市场。 它其实是一项 AEP 功能，可与选定的合作伙伴一起处理第一方数据，使用隐私和同意控制来帮助进行协作。 [!UICONTROL 区段匹配]有助于集中精力改善客户关系和提升品牌。 如果存在既有的品牌或合作伙伴关系，则此功能将非常有用。 [!UICONTROL 区段匹配]体验易于管理、可扩展，并且允许管理员以支持选择加入且可控的方式共享区段。
 
 [!UICONTROL 区段匹配]支持：
 
@@ -104,7 +112,7 @@ ht-degree: 72%
 
 * 使用[同意和首选项字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans)设置特定于身份 (idSpecific) 的共享属性。
 
-  此字段组提供单个对象类型字段“同意”，以捕获同意和偏好设置信息。[!UICONTROL 区段匹配]默认将包含所有未明确选择退出的标识，例如：
+  此字段组提供单个对象类型字段“同意”以捕获同意和首选项信息。 [!UICONTROL 区段匹配]默认将包含所有尚未明确选择退出的身份，例如：
 
   ```
   "share": {

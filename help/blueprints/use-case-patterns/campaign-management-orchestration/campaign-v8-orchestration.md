@@ -3,24 +3,14 @@ title: Campaign v8 Blueprint、Campaign和平台
 description: 了解Campaign v8的蓝图。
 solution: Campaign,Campaign v8
 version: Campaign v8
-exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-TQID: https://experienceleague.adobe.com/1FmOmeJcV9zxUt6bXHYVV9z6qcQSIBkTHOcu5tJ8yJ0
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: afa4204e-6d08-4e29-bc35-26aafb656d48id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2: id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f529d0bd-1401-4c88-9833-43228cc1d40fid: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: 1059
+source-wordcount: '1045'
 ht-degree: 29%
 
 ---
 
 # Campaign v8 Blueprint
-
->[!TIP]
->此Blueprint还作为[用例模式](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md)在Campaign Management &amp; Orchestration下提供。
 
 Adobe Campaign v8是新一代营销活动管理平台，专为电子邮件和直邮等传统营销渠道而设计。 它提供强大的ETL和数据管理功能，以支持复杂的分段和受众定位，以及用于构建多触点、批量驱动营销计划的强大编排引擎。
 
@@ -60,13 +50,13 @@ Adobe Campaign v8是新一代营销活动管理平台，专为电子邮件和直
 
 ### Campaign企业(FFDA)部署
 
-<img src="images/campaign-v8-ffda.svg" alt="Campaign v8 (FFDA)部署蓝图的参考架构" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/customer-journeys/campaign-v8/images/campaign-v8-ffda.svg" alt="Campaign v8 (FFDA)部署蓝图的参考架构" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
 ### Campaign v8 FDA部署
 
-<img src="images/campaign-v8-fda.svg" alt="Campaign v8 (FDA) Blueprint的参考架构" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/customer-journeys/campaign-v8/images/campaign-v8-fda.svg" alt="Campaign v8 (FDA) Blueprint的参考架构" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -74,8 +64,8 @@ Adobe Campaign v8是新一代营销活动管理平台，专为电子邮件和直
 
 | 场景 | 描述 | 技术注意事项 |
 | :-- | :--- | :--- |
-| 使用Adobe的[[!DNL Real-time Customer Data Platform]  [!DNL Campaign]](rtcdp-and-campaign-v8.md) | 展示Adobe Experience Platform及其Real-time Customer Profile和集中式分段工具如何与Adobe [!DNL Campaign]一起使用，以提供个性化的对话 | <ul><li>使用云存储文件交换和Adobe [!DNL Campaign]引入工作流从[!DNL Real-Time CDP]共享配置文件和受众到Adobe [!DNL Campaign] </li><li>从Adobe [!DNL Campaign]轻松地将客户对话中的投放和交互数据共享回[!DNL Real-Time CDP]，以增强实时客户配置文件并提供关于消息传递营销活动的跨渠道报告</li></ul> |
-| 使用Adobe的[[!DNL Journey Optimizer]  [!DNL Campaign]](ajo-and-campaign-v8.md) | 显示如何使用Adobe Journey Optimizer利用实时客户配置文件编排1:1个体验，以及如何利用本机Adobe [!DNL Campaign]事务性消息传递系统发送消息 | <ul><li>可通过实时消息服务器每小时发送最多 100 万条消息<li>没有从[!DNL Journey Optimizer]执行限制，因此请确保由售前企业架构师进行技术审查</li><li>Campaign v8 的有效负载中不支持决策管理</li></ul> |
+| 使用Adobe的[[!DNL Real-time Customer Data Platform]  [!DNL Campaign]](/help/blueprints/customer-journeys/campaign-v8/rtcdp-and-campaign-v8.md) | 展示Adobe Experience Platform及其Real-time Customer Profile和集中式分段工具如何与Adobe [!DNL Campaign]一起使用，以提供个性化的对话 | <ul><li>使用云存储文件交换和Adobe [!DNL Campaign]引入工作流从[!DNL Real-Time CDP]共享配置文件和受众到Adobe [!DNL Campaign] </li><li>从Adobe [!DNL Campaign]轻松地将客户对话中的投放和交互数据共享回[!DNL Real-Time CDP]，以增强实时客户配置文件并提供关于消息传递营销活动的跨渠道报告</li></ul> |
+| 使用Adobe的[[!DNL Journey Optimizer]  [!DNL Campaign]](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md) | 显示如何使用Adobe Journey Optimizer利用实时客户配置文件编排1:1个体验，以及如何利用本机Adobe [!DNL Campaign]事务性消息传递系统发送消息 | <ul><li>可通过实时消息服务器每小时发送最多 100 万条消息<li>没有从[!DNL Journey Optimizer]执行限制，因此请确保由售前企业架构师进行技术审查</li><li>Campaign v8 的有效负载中不支持决策管理</li></ul> |
 
 <br>
 

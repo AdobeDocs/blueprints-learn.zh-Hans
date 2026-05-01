@@ -3,14 +3,23 @@ title: 边缘决策管理 Blueprint
 description: 跨渠道向消费者提供个性化优惠，包括实时 Web 体验和移动体验。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/SwjKOJIL5WidXtVuLCNbBpNz3mhe0EvD93IhMfxI1oY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: d998adac-2f81-400b-a669-d07bb196e4ebid: daec7ead-f475-492a-a3b3-02ae08565d6fid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5ae22e3-a3b0-46ed-804f-9abf1bbe3e74
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 69%
+source-wordcount: 492
+ht-degree: 67%
 
 ---
 
 # Journey Optimizer - Edge Blueprint上的[!DNL Decision Management]
+
+>[!TIP]
+>此Blueprint还作为Personalization下的[用例模式](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)提供。
 
 [!DNL Decision Management]是作为[!DNL Journey Optimizer]的一部分提供的服务。 此 Blueprint 概述了该应用程序的用例和技术功能，并深入介绍了构成决策管理的各种架构组件和注意事项。
 
@@ -20,7 +29,7 @@ ht-degree: 69%
 
 [!DNL Decision Management]可通过两种方式之一进行部署。 第一个是通过[!DNL Experience Platform]中心，它是一个单一的数据中心架构。 对于“中心”方法，执行、个性化和投放优惠的延迟为一秒左右。 因此，中心架构最适合不需要亚秒级延迟的客户体验，例如，为自助终端、呼叫中心中的座席协助体验或者个人交互提供的优惠决策。
 
-第二种方法是通过Experience Platform [!DNL Edge Network]，它是一种分布在全球的地理位置的基础架构，可提供快速的次秒和毫秒体验。 Edge基础架构正在执行的与消费者地理位置最接近的最终消费者体验，旨在最大程度地减少延迟。[!DNL Decision Management] 上的Edge旨在为实时消费者体验提供服务。 这些体验包括 Web 或移动入站个性化请求等体验。
+第二种方法是通过Experience Platform [!DNL Edge Network]，它是一种分布在全球的地理位置的基础架构，可提供快速的次秒和毫秒体验。 Edge基础架构正在执行的与消费者地理位置最接近的最终消费者体验，旨在最大程度地减少延迟。 Edge上的[!DNL Decision Management]旨在提供实时消费者体验。 这些体验包括 Web 或移动入站个性化请求等体验。
 
 此 Blueprint 将介绍边缘决策管理的具体细节。
 
@@ -48,7 +57,7 @@ ht-degree: 69%
 
 * 有关决策管理护栏，请参阅以下[决策管理产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/offer-decisioning-app-service.html).
 
-[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=zh-Hans)
+[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## 相关文档
 

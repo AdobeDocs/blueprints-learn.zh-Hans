@@ -2,13 +2,13 @@
 title: 启用数据驱动型决策
 description: 了解如何让团队拥有自助分析、实时客户洞察和AI支持的预测功能来指导策略。
 solution: Experience Platform, Customer Journey Analytics
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 0ff0e873-a95c-4286-9378-56db02d209a1
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
-
 
 # 支持数据驱动型决策
 
@@ -30,4 +30,4 @@ ht-degree: 2%
 | 图案 | 类别 | 它如何支持这一目标 |
 | --- | --- | --- |
 | [Customer Analytics和Insight生成](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | 分析 | 提供自助式分析工作区以及引导式分析工作流程，以实现数据驱动型洞察 |
-| [B2B分析](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md) | 分析 | 通过帐户级别分析和购买群组分析支持数据驱动的B2B决策 |
+| [B2B分析](/help/blueprints/use-case-patterns/b2b/account-analytics.md) | 分析 | 通过帐户级别分析和购买群组分析支持数据驱动的B2B决策 |

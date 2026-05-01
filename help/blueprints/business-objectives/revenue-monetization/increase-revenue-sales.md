@@ -2,13 +2,13 @@
 title: 增加收入和销售
 description: 了解如何通过优化的数字渠道、活动和客户历程推动总收入增长。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 080e49a7-f4fb-4ffd-96d5-cce6d018c4f7
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
-
 
 # 增加收入和销售
 
@@ -32,4 +32,4 @@ ht-degree: 2%
 | --- | --- | --- |
 | [批出站消息激活](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | 营销活动管理和编排 | 提供有针对性的批量活动，通过电子邮件、短信和推送渠道推动销售 |
 | [事件触发的消息传送](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | 营销活动管理和编排 | 通过实时行为响应消息捕获收入机会 |
-| [购买基于群组的营销和历程管理](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | 营销活动管理和编排 | 编排B2B购买团体历程以加快销售管道进度 |
+| [购买基于群组的营销和历程管理](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) | 营销活动管理和编排 | 编排B2B购买团体历程以加快销售管道进度 |

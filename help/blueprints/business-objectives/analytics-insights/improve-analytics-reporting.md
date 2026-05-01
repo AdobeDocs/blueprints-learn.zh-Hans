@@ -2,13 +2,13 @@
 title: 改进分析和报告
 description: 了解如何通过统一的功能板和自助服务工具增强报表功能，实现更快、更切实可行的营销见解。
 solution: Experience Platform, Customer Journey Analytics
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 9a663191-c89a-41f6-9a10-f99101880ac9
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
-
 
 # 改进分析和报告
 
@@ -30,4 +30,4 @@ ht-degree: 2%
 | 图案 | 类别 | 它如何支持这一目标 |
 | --- | --- | --- |
 | [Customer Analytics和Insight生成](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | 分析 | 构建跨渠道分析工作区、计算指标和仪表板，以便全面报告行为和性能 |
-| [B2B分析](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md) | 分析 | 提供帐户级别的报告和跨渠道B2B历程分析功能 |
+| [B2B分析](/help/blueprints/use-case-patterns/b2b/account-analytics.md) | 分析 | 提供帐户级别的报告和跨渠道B2B历程分析功能 |

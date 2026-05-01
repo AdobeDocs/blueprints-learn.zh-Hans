@@ -2,18 +2,14 @@
 title: AJO B2B付费媒体控制器
 description: 营销活动和将帐户激活到付费媒体目标的优先级
 solution: Journey Optimizer B2B Edition
-exl-id: a4f4982f-2b56-4ce2-9c16-abdf627f97de
 source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
 
 # AJO B2B — 帐户Journey Orchestration — 付费媒体控制者
-
->[!TIP]
->此Blueprint还作为B2B激活和营销下的[用例模式](/help/blueprints/use-case-patterns/b2b/paid-media-orchestration.md)提供。
 
 ## 概述
 
@@ -67,7 +63,7 @@ ht-degree: 0%
 
 ## 架构图
 
-<img src="assets/ajo-b2b-paid-media-activation-architecture.svg" alt="AJO B2B付费媒体控制器架构" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-activation-architecture.svg" alt="AJO B2B付费媒体控制器架构" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## B2B AEP中的数据建模
 
@@ -113,7 +109,7 @@ ht-degree: 0%
 
 ## 实施图
 
-<img src="assets/ajo-b2b-paid-media-controller-canvas.svg" alt="AJO B2B付费媒体控制器画布" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-controller-canvas.svg" alt="AJO B2B付费媒体控制器画布" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ### Audience Activation
 

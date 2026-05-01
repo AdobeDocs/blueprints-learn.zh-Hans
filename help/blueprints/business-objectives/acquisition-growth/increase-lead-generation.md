@@ -2,13 +2,13 @@
 title: 增加商机开发
 description: 了解如何通过表单、事件、内容和多渠道参与为销售渠道生成更多符合条件的潜在客户。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 3f1226b6-b6dc-4276-9843-c0657a1b7b4d
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
-
 
 # 增加商机开发
 
@@ -30,6 +30,6 @@ ht-degree: 3%
 
 | 图案 | 类别 | 它如何支持这一目标 |
 | --- | --- | --- |
-| [B2B 受众激活](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) | Audience Building &amp; Activation | 激活基于帐户的受众以从目标帐户生成潜在客户 |
-| [购买基于群组的营销和历程管理](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | 营销活动管理和编排 | 协调多个利益相关者针对购买群体开展的活动，以生成符合条件的B2B商机 |
+| [B2B 受众激活](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) | Audience Building &amp; Activation | 激活基于帐户的受众以从目标帐户生成潜在客户 |
+| [购买基于群组的营销和历程管理](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) | 营销活动管理和编排 | 协调多个利益相关者针对购买群体开展的活动，以生成符合条件的B2B商机 |
 | [批出站消息激活](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | 营销活动管理和编排 | 向潜在客户区段提供有针对性的批处理促销活动，以推动潜在客户捕获 |
