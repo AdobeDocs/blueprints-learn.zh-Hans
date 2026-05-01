@@ -72,25 +72,25 @@ ht-degree: 8%
 
 ### 目标配置
 
-* [自定义Personalization连接](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) — 主要实施指南
-* [Personalization目标概述](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/overview)
-* [激活受众以边缘个性化目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
-* [实时查找边缘上的配置文件属性](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-profile-lookup)
+* [自定义Personalization连接](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/custom-personalization) — 主要实施指南
+* [Personalization目标概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/overview)
+* [激活受众以边缘个性化目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
+* [实时查找边缘上的配置文件属性](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-edge-profile-lookup)
 
 ### SDK 文档
 
-* [Experience Platform Web SDK文档](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)
+* [Experience Platform Web SDK文档](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=zh-Hans)
 * [Experience Platform Mobile SDK文档](https://developer.adobe.com/client-sdks/home/)
 * [Edge Network服务器API文档](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)
 * [Experience Platform标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
-* [Web SDK中的命令响应](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html)
+* [Web SDK中的命令响应](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html?lang=zh-Hans)
 
 ### 用户档案和分段文档
 
-* [[!UICONTROL 实时客户个人资料]文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [[!UICONTROL 实时客户个人资料]文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)
 * [轮廓护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 
 ### 教程
 
-* [使用Real-Time CDP和Adobe Target进行下一次点击个性化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html)
-* [数据流配置](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#)
+* [使用Real-Time CDP和Adobe Target进行下一次点击个性化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=zh-Hans)
+* [数据流配置](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans#)
