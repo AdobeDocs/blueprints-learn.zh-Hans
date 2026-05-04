@@ -3,10 +3,19 @@ title: Real-Time CDP 与 Adobe Campaign v8 集成模式
 description: 显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign v8 结合使用来提供个性化对话。
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/LANKBKui1B5RfyNI8ufsgjrC98TXpAf74IB-alwDTnk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 64%
+source-wordcount: 264
+ht-degree: 76%
 
 ---
 
@@ -37,8 +46,8 @@ ht-degree: 64%
 
 ## 实施步骤
 
-请参阅以下文档，了解如何配置指向Adobe Experience Platform的Campaign v8源连接器和指向Campaign v8的Real-time Customer Data Platform目标连接器。
-[Campaign和AEP连接器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=zh-Hans)
+请参阅以下文档，了解如何配置到 Adobe Experience Platform 的 Campaign v8 源连接器和到 Campaign v8 的 Real-time Customer Data Platform 目标连接器。
+[Campaign 和 AEP 连接器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=zh-Hans)
 
 ## 护栏
 
