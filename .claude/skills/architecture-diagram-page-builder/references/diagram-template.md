@@ -9,7 +9,7 @@ ht-degree: 0%
 
 这是架构图页面的完整Markdown模板。 将每`{placeholder}`替换为在技能工作流的阶段1中收集的值。 移除任何不适用的可选部分（例如`>[!MORELIKETHIS]`块） — 不要在生成的文件中保留空占位符。
 
----
+&#x200B;---
 
 ```markdown
 ---
@@ -60,7 +60,7 @@ The architecture above supports the following use case patterns:
 - [{Article 3 title}]({Experience League URL 3})
 ```
 
----
+&#x200B;---
 
 ## Frontmatter规则
 
