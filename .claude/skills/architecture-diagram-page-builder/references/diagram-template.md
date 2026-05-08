@@ -75,7 +75,7 @@ The architecture above supports the following use case patterns:
 - **图像路径** — 始终为`assets/{filename}`（相对于页面的主题文件夹）。 请勿使用绝对路径。
 - **Adobe产品名称** — 在正文和项目符号中以`[!DNL ...]`换行。 示例： `[!DNL Real-Time CDP]`，`[!DNL Journey Optimizer]`，`[!DNL Experience Platform]`。
 - **用例模式链接** — 始终使用绝对`/help/blueprints/use-case-patterns/{category}/{file}.md`表单，以便该链接从任何可能包含此内容的页面中解析。
-- **Experience League链接** — 以`https://experienceleague.adobe.com/`开头的绝对URL。 与本地化的变体相比，更喜欢规范文档URL。
+- **Experience League链接** — 以`https://experienceleague.adobe.com/zh-hans`开头的绝对URL。 与本地化的变体相比，更喜欢规范文档URL。
 
 ## 章节排序
 

@@ -71,7 +71,7 @@ ht-degree: 2%
 
 8. **主要数据流/集成点** — 3-7项目符号，用于描述图中所示的关键流和集成边界（例如，`Real-time event ingestion from Web SDK to Edge Network`、`Profile synchronization between Experience Platform Hub and Edge`）。
 
-9. **Experience League链接** — 指向相关Experience League文档的3-6个链接以供进一步阅读。 每个都必须以`https://experienceleague.adobe.com/`开头。
+9. **Experience League链接** — 指向相关Experience League文档的3-6个链接以供进一步阅读。 每个都必须以`https://experienceleague.adobe.com/zh-hans`开头。
 
    **首先推荐候选人。** 基于Adobe解决方案和页面目的，提出4 - 8篇可信的Experience League文章（例如，每个指定解决方案的canonical登陆页面或概述页面、关键集成指南、部署参考）。 对于每项建议，请提交：
    - 文章标题
@@ -176,7 +176,7 @@ ht-degree: 2%
 
 2. **用例模式链接** — 文件中的每个模式链接都指向`/help/blueprints/use-case-patterns/`下的现有Markdown文件。 使用`Read`或glob确认每个目标都存在。
 
-3. **Experience League链接** — 抽查`## Further reading`部分中的每个URL是否都以`https://experienceleague.adobe.com/`开头。
+3. **Experience League链接** — 抽查`## Further reading`部分中的每个URL是否都以`https://experienceleague.adobe.com/zh-hans`开头。
 
 4. **目录条目位置** — 新条目位于正确的子部分内，使用4空格缩进，并且路径与生成的文件位置完全匹配。
 
