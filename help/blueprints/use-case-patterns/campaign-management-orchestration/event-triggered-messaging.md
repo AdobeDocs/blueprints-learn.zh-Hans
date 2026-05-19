@@ -6,7 +6,7 @@ exl-id: 75137990-9848-40c0-abf3-adbd21d2de52
 source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
 source-wordcount: '9040'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -206,7 +206,7 @@ ht-degree: 1%
 
 **Experience League：**
 
-- [创建旅程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [创建历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [一般事件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 
 ### 选项B：等待的条件性事件触发消息
@@ -245,7 +245,7 @@ ht-degree: 1%
 **Experience League：**
 
 - [等待活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [条件活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [条件活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [退出标准](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 
 ### 选项C：使用频率管理触发的事件
@@ -582,10 +582,10 @@ ht-degree: 1%
 
 **选项差异的位置：**
 
-选项A的&#x200B;**（简单事件触发）：**
+**对于选项A（简单事件触发）：**
 历程画布最小：事件条目>可选同意/资格条件>消息操作>结束。 无等待步骤或转换检查。 根据事件是否应在每次发生时生成消息设置重新进入规则。
 
-选项B的&#x200B;**条件（等待条件）：**
+选项B的&#x200B;**条件（带等待条件）：**
 在事件输入后添加等待节点。 等待后，添加条件节点以检查转化（例如，检查历程进入后是否发生了`commerce.purchases`事件）或使用退出条件自动删除转换后的配置文件。 分支到“未转换”路径上的消息操作以及“已转换”路径上的结束节点。
 
 选项C （频率管理）的&#x200B;**：**
@@ -593,12 +593,12 @@ ht-degree: 1%
 
 **Experience League文档：**
 
-- [创建旅程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [创建历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [历程属性](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [一般事件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
-- [条件活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [条件活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [等待活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [在历程中添加消息](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [在历程中添加消息](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [退出标准](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [历程条目管理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [频率规则](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/frequency-rules)
@@ -760,13 +760,13 @@ ht-degree: 1%
 ### 历程编排
 
 - [历程入门](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journey)
-- [创建旅程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [创建历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [历程属性](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [一般事件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 - [受众鉴定事件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
-- [条件活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [条件活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [等待活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [在历程中添加消息](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [在历程中添加消息](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [退出标准](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [历程条目管理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [测试您的历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
