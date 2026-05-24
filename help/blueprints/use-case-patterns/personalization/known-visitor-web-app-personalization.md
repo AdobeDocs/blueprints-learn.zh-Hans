@@ -3,7 +3,7 @@ title: 已知访客Web/应用程序Personalization
 description: 了解如何根据实时用户档案和区段会员资格向已识别的访客提供个性化内容、优惠或促销。
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 585adc0e-f528-4a09-b931-ef6b45fa8ec8
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7968'
 ht-degree: 2%
@@ -78,13 +78,13 @@ ht-degree: 2%
 
 ## 用例模式
 
-本节介绍核心模式及其功能链。
+本节介绍核心模式及其执行计划。
 
 **已知访客的Web/应用程序个性化**
 
 跨Web、移动应用程序内和内容卡表面根据实时配置文件和区段成员资格为已识别的访客提供个性化内容、优惠或促销。
 
-**函数链：**&#x200B;受众评估> Personalization Decisioning >界面/渠道配置>内容交付>展示跟踪>报表
+**执行计划：**&#x200B;受众评估> Personalization Decisioning >界面/渠道配置>内容交付>展示跟踪>报告
 
 ## 应用程序
 
@@ -94,9 +94,9 @@ ht-degree: 2%
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — 受众评估（边缘、流和批处理）、通过Edge Network进行实时配置文件查找、使用计算属性和倾向分数扩充配置文件
 - **[!DNL Adobe Experience Platform] (AEP)** — 配置文件存储，身份服务， Web SDK， Mobile SDK，数据流配置，边缘网络交付
 
-## 基本函数
+## 基本功能
 
-必须具备以下基本功能才能使用此用例模式。 对于每个函数，状态都指示它通常是必需的、假定为预配置还是不适用。
+必须具备以下基本功能才能使用此用例模式。 对于每个功能，状态会指示它通常是必需的、假定为预配置还是不适用。
 
 | 基本功能 | 状态 | 必须准备就绪 | Experience League参考 |
 | --- | --- | --- | --- |
@@ -116,15 +116,15 @@ ht-degree: 2%
 | 数据生命周期管理 | 推荐 | 用户档案和事件数据保留策略可确保全新的相关数据为个性化决策提供支持。 同意实施可确保个性化尊重用户偏好。 | [高级数据生命周期管理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/home)，[Journey Optimizer中的同意](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted) |
 | 数据使用标签和执行 | 推荐 | 用于个性化的配置文件属性（尤其是与PII相邻的属性，如购买历史记录、位置、财务数据）上的治理标签可确保遵守数据使用策略。 | [数据管理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home)，[数据使用标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview) |
 | 监视和可观察性 | 推荐 | Edge交付和个性化性能监控有助于检测会降低个性化体验的延迟问题、交付失败或数据刷新问题。 | [可观察性分析概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/home)，[警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview) |
-| 报告和分析 | 已包含 | Personalization性能报表是函数链步骤6的一部分。[!DNL Customer Journey Analytics] 通过分析可深入调查个性化对各个访客区段转化、参与和收入的影响。 | [CJA概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)，[AJO + CJA集成指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
+| 报告和分析 | 已包含 | Personalization性能报告是执行计划步骤6的一部分。 通过[!DNL Customer Journey Analytics]分析，可以深入调查个性化对访客区段之间的转化、参与和收入的影响。 | [CJA概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)，[AJO + CJA集成指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
 ## 应用程序功能
 
-此计划从“应用程序功能目录”中练习以下功能。 函数会映射到实施阶段而不是编号步骤。
+此计划练习应用程序功能目录中的以下功能。 功能会映射到实施阶段而不是编号步骤。
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| 函数 | 实施阶段 | 描述 |
+| 功能 | 实施阶段 | 描述 |
 | --- | --- | --- |
 | 渠道配置 | 表面和渠道配置 | 配置Web、应用程序内和内容卡渠道表面以进行个性化投放 |
 | 消息创作 | 内容创作 | 为每个表面使用动态内容、个性化表达式和条件块创作个性化内容变体 |
@@ -136,7 +136,7 @@ ht-degree: 2%
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| 函数 | 实施阶段 | 描述 |
+| 功能 | 实施阶段 | 描述 |
 | --- | --- | --- |
 | 受众评估 | 受众定义和评估 | 使用Edge或流式评估的用户档案属性、行为数据和计算属性定义和评估受众 |
 | 实时配置文件查找 | 内容交付（运行时） | 通过Edge Network访问实时配置文件属性和区段成员资格，以便做出次秒个性化决策 |
@@ -244,7 +244,7 @@ ht-degree: 2%
 
 **这与Offer Decisioning选项B有何不同：**
 
-基础架构是相同的 — 两者使用边缘位置的AJO Decisioning和Web SDK，并且采用边缘活动合并策略。 不同之处在于选择什么。 此选项管理选择标准为适合个性化的内容项目（区段成员资格、行为排名）。[Offer Decisioning](offer-decisioning.md)选项B管理可控的优惠目录，其中资格规则、上限限制和有效性窗口是业务要求。 如果您的项目集需要每个用户档案的展示次数上限、监管资格限制或优惠生命周期管理，请改用Offer Decisioning选项B。
+基础架构是相同的 — 两者使用边缘位置的AJO Decisioning和Web SDK，并且采用边缘活动合并策略。 不同之处在于选择什么。 此选项管理选择标准为适合个性化的内容项目（区段成员资格、行为排名）。 [Offer Decisioning](offer-decisioning.md)选项B管理受管辖的优惠目录，其中资格规则、上限限制和有效性窗口是业务要求。 如果您的项目集需要每个用户档案的展示次数上限、监管资格限制或优惠生命周期管理，请改用Offer Decisioning选项B。
 
 ### 选项C：多表面个性化（Web +应用程序内+内容卡）
 
@@ -321,7 +321,7 @@ ht-degree: 2%
 
 ### 阶段1：定义受众并配置评估
 
-**应用程序函数：** RT-CDP：受众评估
+**应用程序功能：** RT-CDP：受众评估
 
 **您将配置的内容：**&#x200B;定义推动个性化内容选择的受众。 这些受众表示将接收个性化体验的访客区段 — 忠诚度层、生命周期阶段、行为同类群组或产品亲和度组。
 
@@ -419,7 +419,7 @@ ht-degree: 2%
 
 ### 阶段3：配置表面和通道
 
-**应用程序函数：** AJO：渠道配置
+**应用程序功能：** AJO：渠道配置
 
 **您将配置的内容：**&#x200B;配置用于定义将投放个性化内容的位置的渠道界面。 每个表面类型（Web、应用程序内、内容卡）都需要其自己的配置，用于指定表面URI、内容格式和投放参数。
 
@@ -465,7 +465,7 @@ ht-degree: 2%
 
 ### 阶段4：创作内容
 
-**应用程序函数：** AJO：消息创作
+**应用程序功能：** AJO：消息创作
 
 **您将配置的内容：**&#x200B;为每个表面和区段或选件创作个性化内容变体。 这包括设计可视布局、添加引用配置文件属性的个性化表达式、配置条件内容块以及创建可重复使用的内容片段。
 
@@ -530,7 +530,7 @@ ht-degree: 2%
 
 ### 阶段5：设置和激活活动
 
-**应用程序函数：** AJO：营销活动执行
+**应用程序功能：** AJO：营销活动执行
 
 **您将配置的内容：**&#x200B;创建并激活将受众、表面和内容绑定在一起以进行投放的AJO营销活动。 对于Web个性化，营销活动通常配置为立即激活或持续激活，而不是一次性计划发送。
 
@@ -578,7 +578,7 @@ ht-degree: 2%
 
 ### 阶段6：跟踪展示次数并收集数据
 
-**应用程序函数：** AEP：数据源和集合
+**应用程序功能：** AEP：数据源和集合
 
 **您将配置的内容：**&#x200B;确保将来自个性化体验的展示次数、交互和转化跟踪回平台，以便进行报表、受众重新评估和决策优化。
 

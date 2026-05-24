@@ -3,10 +3,10 @@ title: 用例目录
 description: 按垂直方向浏览行业用例，以找到您的Adobe Experience Platform和应用程序历程的正确起点，并提供指向实施模式和业务目标的链接。
 doc-type: overview-page
 exl-id: 38593314-b8c9-49f6-85db-a4345ec444e7
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '4157'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 行业用例展示了特定行业中的公司如何应用Adobe Experience Platform和应用程序来实现可衡量的业务成果。 每个用例描述一个具体的业务场景、其预期影响，以及指向提供详细实施指导的[用例模式](/help/blueprints/use-case-patterns/overview.md)的链接。
 
-按行业浏览以查找与您的组织相关的用例，然后按照模式链接获取实施参考，包括决策指导、功能链和Experience League文档。
+按行业浏览以查找与您的组织相关的用例，然后按照模式链接查看实施参考，包括决策指导、执行计划和Experience League文档。
 
 | 行业 | 关键主题 |
 | --- | --- |
@@ -31,7 +31,7 @@ ht-degree: 31%
 
 ## 用例如何连接到实施指南
 
-每个用例都链接到&#x200B;**用例模式** — 一种可重复的实施方法，用于描述实现用例所需的功能链、决策点和配置步骤。 用例模式依次与[关键业务目标](/help/blueprints/business-objectives/overview.md)相关联，帮助您使实施工作与战略成果保持一致。
+每个用例都链接到&#x200B;**用例模式** — 一种可重复的实施方法，用于描述实现用例所需的执行计划、决策点和配置步骤。 用例模式依次与[关键业务目标](/help/blueprints/business-objectives/overview.md)相关联，帮助您使实施工作与战略成果保持一致。
 
 ```
 Industry Use Case → Use Case Pattern → Key Business Objective

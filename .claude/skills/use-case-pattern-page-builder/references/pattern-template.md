@@ -1,15 +1,15 @@
 ---
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 # 用例模式模板
 
 此文件包含用例模式页面的完整Markdown模板。 在生成新模式时，将所有`{{placeholder}}`值替换为实际内容。
 
----
+&#x200B;---
 
 ## 模板
 
@@ -82,7 +82,7 @@ The following scenarios illustrate how {{pattern name}} can be applied across di
 
 {{One-sentence description of what the pattern does.}}
 
-**Function Chain:** {{Step 1}} > {{Step 2}} > {{Step 3}} > {{Step 4}} > {{Step 5}}
+**Execution Plan:** {{Step 1}} > {{Step 2}} > {{Step 3}} > {{Step 4}} > {{Step 5}}
 
 ## Applications
 
@@ -92,44 +92,44 @@ The following Adobe applications are used in this use case pattern.
 - **[!DNL {{Application Name}}] ({{Abbreviation}})** -- {{Description of the application's role in this pattern}}
 - **[!DNL {{Application Name}}] ({{Abbreviation}})** -- {{Description of the application's role in this pattern}}
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be configured before implementing this pattern. Each function represents a prerequisite or assumed platform capability.
+The following foundational capabilities must be configured before implementing this pattern. Each capability represents a prerequisite or assumed platform capability.
 
-| Foundational Function | Status | What Must Be in Place | Experience League Reference |
+| Foundational Capability | Status | What Must Be in Place | Experience League Reference |
 | --- | --- | --- | --- |
-| {{Function name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description of what must be configured or available}} | [{{Link text}}]({{URL}}) |
-| {{Function name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
-| {{Function name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
-| {{Function name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
+| {{Capability name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description of what must be configured or available}} | [{{Link text}}]({{URL}}) |
+| {{Capability name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
+| {{Capability name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
+| {{Capability name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
 
-## Supporting functions
+## Supporting capabilities
 
 The following supporting capabilities enhance or extend the pattern but are not strictly required for a basic implementation.
 
-| Supporting Function | Status | Why It Matters | Experience League Reference |
+| Supporting Capability | Status | Why It Matters | Experience League Reference |
 | --- | --- | --- | --- |
-| {{Function name}} | {{Recommended / Included / Not Applicable}} | {{Description of why this function matters for this pattern}} | [{{Link text}}]({{URL}}) |
-| {{Function name}} | {{Recommended / Included / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
-| {{Function name}} | {{Recommended / Included / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
+| {{Capability name}} | {{Recommended / Included / Not Applicable}} | {{Description of why this capability matters for this pattern}} | [{{Link text}}]({{URL}}) |
+| {{Capability name}} | {{Recommended / Included / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
+| {{Capability name}} | {{Recommended / Included / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
 
-## Application functions
-
-### [!DNL {{Application Name}}] ({{Abbreviation}})
-
-| Function | Implementation Phase | Description |
-| --- | --- | --- |
-| {{Function name}} | {{Phase name (e.g., Setup, Configuration, Activation, Optimization)}} | {{Description of what this function does in context}} |
-| {{Function name}} | {{Phase name}} | {{Description}} |
-| {{Function name}} | {{Phase name}} | {{Description}} |
+## Application capabilities
 
 ### [!DNL {{Application Name}}] ({{Abbreviation}})
 
-| Function | Implementation Phase | Description |
+| Capability | Implementation Phase | Description |
 | --- | --- | --- |
-| {{Function name}} | {{Phase name}} | {{Description}} |
-| {{Function name}} | {{Phase name}} | {{Description}} |
-| {{Function name}} | {{Phase name}} | {{Description}} |
+| {{Capability name}} | {{Phase name (e.g., Setup, Configuration, Activation, Optimization)}} | {{Description of what this capability does in context}} |
+| {{Capability name}} | {{Phase name}} | {{Description}} |
+| {{Capability name}} | {{Phase name}} | {{Description}} |
+
+### [!DNL {{Application Name}}] ({{Abbreviation}})
+
+| Capability | Implementation Phase | Description |
+| --- | --- | --- |
+| {{Capability name}} | {{Phase name}} | {{Description}} |
+| {{Capability name}} | {{Phase name}} | {{Description}} |
+| {{Capability name}} | {{Phase name}} | {{Description}} |
 
 {{Repeat for each application listed in the Applications section.}}
 
@@ -227,7 +227,7 @@ Complete the following before beginning the implementation.
 | Scalability | {{description}} | {{description}} | {{description}} |
 ````
 
----
+&#x200B;---
 
 ## 关于使用此模板的注释
 
@@ -235,7 +235,7 @@ Complete the following before beginning the implementation.
 - **Adobe产品名称：**&#x200B;在正文和表中始终使用Adobe产品名称的`[!DNL ...]`语法（例如`[!DNL Journey Optimizer]`）。 这是一项阻止翻译产品名称的Experience League约定。
 - **业务目标链接：**&#x200B;使用从模式文件到业务目标目录： `../../business-objectives/{{category}}/{{filename}}.md`的相对路径。
 - **Kebab-case文件名：**&#x200B;模式文件名必须是派生自模式标题的kebab-case。 示例：“事件触发的消息传递”变为`event-triggered-messaging.md`。
-- **函数链：**&#x200B;使用` > ` （空格、大于空格、空格）作为两个步骤之间的分隔符。
-- **状态值：**&#x200B;基本函数使用：必需，已假定为已就绪，不适用。 支持函数使用：推荐、包含、不适用。
+- **执行计划：**&#x200B;使用` > `（空格、大于、空格）作为步骤之间的分隔符。
+- **状态值：**&#x200B;基本功能使用：必需，已假设就位，不适用。 使用的支持功能：推荐、包含、不适用。
 - **实施阶段：**&#x200B;常用阶段名称包括：设置、配置、激活、优化、监视。
 - **先决条件：**&#x200B;对每个项目使用`- [ ]`复选框语法。

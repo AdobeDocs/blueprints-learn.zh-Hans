@@ -3,7 +3,7 @@ title: Customer Analytics和Insight生成
 description: 了解如何构建跨渠道分析工作区、计算指标和仪表板，以进行行为和性能分析。
 solution: Customer Journey Analytics, Experience Platform
 exl-id: 235a4eb0-91ae-4030-b90e-7eda08c67ae1
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '8947'
 ht-degree: 1%
@@ -93,7 +93,7 @@ ht-degree: 1%
 
 构建跨渠道分析工作区、计算指标和仪表板，以了解客户行为和营销活动效果。
 
-**函数链：**&#x200B;数据连接>数据视图配置> Workspace Analysis >计算指标创建>功能板发布
+**执行计划：**&#x200B;数据连接>数据视图配置> Workspace Analysis >计算指标创建>功能板发布
 
 有关组合指导，请参阅[实施选项](#implementation-options)部分。
 
@@ -104,11 +104,11 @@ ht-degree: 1%
 - **[!DNL Customer Journey Analytics] (CJA)** — 连接、数据视图、工作区分析、引导式分析、计算指标、功能板、受众发布和内容分析
 - **[!DNL Adobe Experience Platform] (AEP)** — 为CJA连接提供数据湖、数据集、XDM架构、配置文件和事件数据
 
-## 基本函数
+## 基本功能
 
-必须具备以下基本功能才能使用此用例模式。 对于每个函数，状态都指示它通常是必需的、假定为预配置还是不适用。
+必须具备以下基本功能才能使用此用例模式。 对于每个功能，状态会指示它通常是必需的、假定为预配置还是不适用。
 
-| 基本函数 | 状态 | 必须准备好的内容 | Experience League参考 |
+| 基本功能 | 状态 | 必须准备好的内容 | Experience League参考 |
 | --- | --- | --- | --- |
 | 管理和治理 | 假设就位 | CJA产品配置文件配置了工作区创建和数据查看访问权限。 AEP数据集可供CJA连接访问。 分配给相应CJA角色的用户。 | [访问控制概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home) |
 | 数据建模和准备 | 必填 | 将连接到CJA的XDM架构和数据集必须存在于AEP中。 架构设计直接影响CJA数据视图中可用的维度和量度。 事件架构需要时间戳字段；查找架构需要关键字段。 | [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home) |
@@ -130,13 +130,13 @@ ht-degree: 1%
 
 ## 应用程序功能
 
-此计划从应用程序功能目录中练习以下功能。 函数会映射到实施阶段而不是编号步骤。
+此计划练习应用程序功能目录中的以下功能。 功能会映射到实施阶段而不是编号步骤。
 
 ### [!DNL Customer Journey Analytics] (CJA)
 
-下表列出了此模式中使用的CJA应用程序函数。
+下表列出了此模式中使用的CJA应用程序功能。
 
-| 函数 | 实施阶段 | 描述 |
+| 功能 | 实施阶段 | 描述 |
 | --- | --- | --- |
 | 数据连接 | 阶段1：数据连接 | 将AEP数据集绑定到CJA连接以进行跨渠道分析，并配置数据集类型和人员ID以进行跨数据集拼接 |
 | 数据视图配置 | 阶段2：数据视图配置 | 定义维度、量度、归因模型、持久性设置、会话参数以及影响分析透视图的派生字段 |
@@ -149,9 +149,9 @@ ht-degree: 1%
 
 ### [!DNL Adobe Experience Platform] (AEP)
 
-下表列出了此模式中使用的AEP应用程序函数。
+下表列出了此模式中使用的AEP应用程序功能。
 
-| 函数 | 实施阶段 | 描述 |
+| 功能 | 实施阶段 | 描述 |
 | --- | --- | --- |
 | 数据湖和数据集 | 先决条件(F2、F3) | 提供用于CJA连接的源事件、配置文件和查找数据集 |
 | 身份服务 | 先决条件(F4) | 在CJA连接中提供用于跨数据集拼合人员ID的标识命名空间配置 |
@@ -333,7 +333,7 @@ ht-degree: 1%
 | 关键可视化图表 | 自由格式表、摘要数字、趋势线 | 流量、流失、队列、归因 | 与A或B相同，外加受众发布 | funnel，趋势，维系，增长 |
 | 激活功能 | 否（仅报告） | 否（仅报告） | 是（将受众发布到AEP） | 否（仅报告） |
 | 需要受众 | 营销分析员、营销活动经理 | 数据分析师、历程架构师 | 分析员+激活团队 | 产品经理、增长分析师 |
-| 使用的CJA函数 | 连接、数据视图、Workspace、计算指标、功能板 | 连接、数据视图、Workspace、计算指标、功能板 | 与A或B相同，外加受众发布 | 连接、数据视图、引导式分析、功能板 |
+| 使用的CJA功能 | 连接、数据视图、Workspace、计算指标、功能板 | 连接、数据视图、Workspace、计算指标、功能板 | 与A或B相同，外加受众发布 | 连接、数据视图、引导式分析、功能板 |
 | 首次insight的时间 | 天 | 周 | 周 | 小时 — 天 |
 
 ### 选择正确的选项
@@ -356,7 +356,7 @@ ht-degree: 1%
 
 ### 阶段1：数据连接
 
-**应用程序函数：** CJA：数据连接
+**应用程序功能：** CJA：数据连接
 
 此阶段将配置一个CJA连接，以便将一个或多个AEP数据集绑定到CJA进行分析。 该连接定义哪些数据集流入CJA，如何通过人员ID跨数据集拼合事件，以及如何摄取历史数据和流式数据。 这是AEP的数据湖与CJA之间的基础链接。
 
@@ -439,7 +439,7 @@ ht-degree: 1%
 
 ### 阶段2：数据视图配置
 
-**应用程序函数：** CJA：数据视图配置
+**应用程序功能：** CJA：数据视图配置
 
 此阶段将配置定义连接数据在分析中的显示方式的数据视图。 数据视图确定哪些架构字段作为维度和量度显示、如何归因和保留值、如何定义会话以及哪些派生字段将原始数据转换为分析就绪组件。 对于不同的分析透视，可通过单个连接创建多个数据视图。
 
@@ -541,7 +541,7 @@ ht-degree: 1%
 
 ### 阶段3：分析和量度创建
 
-**应用程序函数：** CJA： Workspace Analysis， CJA：引导式分析， CJA：计算度量创建
+**应用程序功能：** CJA： Workspace Analysis， CJA：引导式分析， CJA：计算度量创建
 
 此阶段构建分析工作区（自由格式项目或引导式分析）、派生KPI的计算量度、分段分析的过滤器以及关键事件的注释。 这是实现分析价值的地方，即构建可解答业务问题的表格、可视化和量度。
 
@@ -652,7 +652,7 @@ ht-degree: 1%
 
 ### 第4阶段：功能板发布
 
-**应用程序功能：** CJA：功能板和记分卡发布
+**应用程序功能：** CJA：仪表板和记分卡发布
 
 此阶段将创建交互式功能板（Workspace项目）和移动记分卡，为利益相关者提供KPI可见性。 功能板通过汇总数字、趋势线、划分和批注提供执行和操作可见性。 移动记分卡通过[!DNL Adobe Analytics]功能板移动应用程序提供一目了然的性能数据。
 
@@ -722,7 +722,7 @@ ht-degree: 1%
 
 ### 阶段5：受众发布（仅限选项C）
 
-**应用程序函数：** CJA：受众发布
+**应用程序功能：** CJA：受众发布
 
 此阶段将配置CJA受众发布，以将分析发现的区段推送回AEP实时客户档案，以便在RT-CDP目标、AJO促销活动或AJO历程中进行下游激活。
 
@@ -957,7 +957,7 @@ ht-degree: 1%
 
 - [数据集概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/overview)
 - [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)
-- [源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+- [来源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
 - [Identity服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)
 - [受众门户概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal)
 

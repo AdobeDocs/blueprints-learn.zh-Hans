@@ -3,7 +3,7 @@ title: Audience Activation到目标
 description: 了解如何使用Adobe Real-Time CDP评估受众区段并将其发布到外部目标以进行定位或抑制。
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7080'
 ht-degree: 1%
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 **Audience Activation到目标** — 评估受众区段并将其发布到外部目标以进行定位或抑制。
 
-**函数链：**&#x200B;受众评估>目标配置> Audience Activation >监视
+**执行计划：**&#x200B;受众评估>目标配置> Audience Activation >监控
 
 ## 应用程序
 
@@ -96,17 +96,17 @@ ht-degree: 1%
 
 ![受众和配置文件激活到企业目标的参考架构](/help/blueprints/audience-activation/assets/known_activation.svg)
 
-## 基本函数
+## 基本功能
 
-必须具备以下基本功能才能使用此用例模式。 对于每个函数，状态都指示它通常是必需的、假定为预配置还是不适用。
+必须具备以下基本功能才能使用此用例模式。 对于每个功能，状态会指示它通常是必需的、假定为预配置还是不适用。
 
-| 基本函数 | 状态 | 必须准备好的内容 | Experience League参考 |
+| 基本功能 | 状态 | 必须准备好的内容 | Experience League参考 |
 | --- | --- | --- | --- |
 | 管理和治理 | 假设就位 | 已配置和活动的RT-CDP沙盒。 分配给实施角色的目标管理和激活权限。 目标平台可用的目标帐户凭据。 | [沙盒概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home)，[访问控制概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home) |
 | 数据建模和准备 | 必填 | 配置文件架构必须包含将映射到目标字段的属性（例如，电子邮件、电话、哈希标识符、人口统计属性）。 架构必须启用配置文件，数据集才能主动接收数据。 | [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)，[架构组合基础](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition) |
 | 数据源和收集 | 假设就位 | 必须摄取且保持最新，才能为受众评估提供支持的个人资料数据。 批量和/或流式摄取管道可操作。 Web SDK、源连接器或批量摄取，可将数据传递到启用配置文件的数据集。 | [源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)，[Web SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home) |
 | 身份和配置文件配置 | 必填 | 必须配置用于目标匹配的身份命名空间（例如，Facebook自定义受众的哈希电子邮件、Google Ads客户匹配）。 合并策略必须生成具有激活所需所有属性的统一配置文件。 | [身份服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)，[合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview) |
-| 受众定义和分段 | 必填 | 使用区段生成器、受众组合或联合受众组合定义的目标受众。 根据激活延迟需求选择的评估方法（批量、流或边缘）。 此职能在本计划的第一阶段执行。 | [分段服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home)，[区段生成器UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder) |
+| 受众定义和分段 | 必填 | 使用区段生成器、受众组合或联合受众组合定义的目标受众。 根据激活延迟需求选择的评估方法（批量、流或边缘）。 此功能在此计划的第一阶段中执行。 | [分段服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home)，[区段生成器UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## 支持功能
 
@@ -117,16 +117,16 @@ ht-degree: 1%
 | 计算/派生属性创建 | 推荐 | 生命周期值、参与度得分或倾向得分等计算属性可提高受众精度并提供要映射到目标的扩充属性。 当目标从基于值或基于分数的受众分段中受益时，尤其有用。 | [计算属性概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview) |
 | 数据生命周期管理 | 推荐 | 数据集和配置文件过期策略可确保数据刷新和合规性。 同意模式配置可确保仅激活同意的用户档案。 在将数据导出到外部系统时，对于法规合规性至关重要。 | [高级数据生命周期管理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/home) |
 | 数据使用标签和执行 | 推荐 | 治理标签和策略阻止将受限数据激活到未经授权的目标（例如，将PII激活到广告平台，将敏感区段激活到数据合作伙伴）。 对于激活到外部第三方系统的受众尤为重要。 | [数据管理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home)，[数据使用标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview) |
-| 监视和可观察性 | 已包含 | 激活监控是功能链（第5阶段）的一部分。 涵盖数据流运行监控、投放状态警报、受众群体跟踪和许可证使用可见性。 | [监视目标数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dataflows/ui/monitor-destinations)，[警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview) |
+| 监视和可观察性 | 已包含 | 激活监控是执行计划（第5阶段）的一部分。 涵盖数据流运行监控、投放状态警报、受众群体跟踪和许可证使用可见性。 | [监视目标数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dataflows/ui/monitor-destinations)，[警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview) |
 | 报告和分析 | 推荐 | 通过CJA分析受众激活效果，可以测量激活受众的性能（例如，来自抑制的转化提升、来自相似受众的ROAS）。 | [CJA概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## 应用程序功能
 
-此计划从“应用程序功能目录”中练习以下功能。 函数会映射到实施阶段而不是编号步骤。
+此计划练习应用程序功能目录中的以下功能。 功能会映射到实施阶段而不是编号步骤。
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| 函数 | 实施阶段 | 描述 |
+| 功能 | 实施阶段 | 描述 |
 | --- | --- | --- |
 | 受众评估 | 第1阶段：受众评估 | 定义受众规则，并使用批处理、流或边缘评估方法评估区段成员资格 |
 | 受众构成 | 第1阶段：受众评估 | （可选）通过针对复杂受众逻辑的扩充、排名、拆分、排除和连接操作来撰写派生受众 |
@@ -295,7 +295,7 @@ ht-degree: 1%
 
 ### 第1阶段：受众评估
 
-**应用程序函数：** RT-CDP：受众评估， RT-CDP：受众构成
+**应用程序功能：** RT-CDP：受众评估，RT-CDP：受众构成
 
 **您将配置的内容：**&#x200B;定义将激活到目标的目标受众。 这包括指定受众条件（哪些用户档案符合条件）、选择评估方法（成员资格更新的速度）以及验证受众群体。 这是所有激活的起点 — 如果没有已定义和已评估的受众，则没有任何要激活的内容。
 
@@ -369,7 +369,7 @@ ht-degree: 1%
 
 ### 阶段2：目标配置
 
-**应用程序函数：** RT-CDP：目标配置
+**应用程序功能：** RT-CDP：目标配置
 
 **您将配置的内容：**&#x200B;与将发布受众的外部目标建立经过身份验证的连接。 这包括从目录中选择目标、提供身份验证凭据以及配置特定于目标的参数，例如文件格式、存储位置和导出计划。 每个目标都需要自己的连接配置。
 
@@ -446,7 +446,7 @@ ht-degree: 1%
 
 ### 阶段3：受众激活
 
-**应用程序函数：** RT-CDP： Audience Activation
+**应用程序功能：** RT-CDP： Audience Activation
 
 **您将配置的内容：**&#x200B;通过创建激活数据流，将评估的受众发布到配置的目标。 这涉及选择要激活的受众、将配置文件属性映射到目标字段以及配置导出计划。 激活数据流将源受众连接到目标受众，并管理正在进行的数据交付。
 
@@ -589,7 +589,7 @@ ht-degree: 1%
 - **批量评估容量：**&#x200B;默认情况下，每个区段评估作业最多有2400万个配置文件
 - **受众组合：**&#x200B;每个画布最多10个组合块；仅对组合的受众进行批量评估
 - **标识图形：**&#x200B;每个图形最多50个标识 — [标识服务护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/guardrails)
-- **计算属性：**&#x200B;每个沙盒最多25个计算属性 — [计算属性护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview#guardrails)
+- **计算属性：**&#x200B;每个沙盒最多25个计算属性 — [计算属性护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview#guardrails)
 - **激活护栏概述：** [激活护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/guardrails)
 
 ### 常见陷阱

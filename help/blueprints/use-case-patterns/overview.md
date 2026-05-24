@@ -4,7 +4,7 @@ description: 了解用于实施Adobe Experience Platform和应用程序以实现
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
 exl-id: 58caa6ad-0d1c-4290-9614-c68c9c9028bb
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 用例模式
 
-用例模式定义了Adobe Experience Platform和应用程序的可重复实施方法。 每种模式都描述了特定的功能、提供该功能的功能链、涉及的应用程序以及它支持的[关键业务目标](/help/blueprints/business-objectives/overview.md)。
+用例模式定义了Adobe Experience Platform和应用程序的可重复实施方法。 每种模式都描述特定功能、提供该功能的执行计划、涉及的应用程序以及该模式支持的[关键业务目标](/help/blueprints/business-objectives/overview.md)。
 
 使用下表查找与您的实施需求相匹配的模式，然后按照指向完整实施参考的链接操作，包括选项、阶段、决策指导和Experience League文档。
 

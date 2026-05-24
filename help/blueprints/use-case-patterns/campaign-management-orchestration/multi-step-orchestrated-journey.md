@@ -3,10 +3,10 @@ title: 多步协调历程
 description: 了解如何在一段时间内通过分支的多点接触历程引导用户档案，其中包含等待、条件和多个消息操作。
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 5667b188-1b20-4a85-aebb-74efd5f771a1
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '8211'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 1%
 
 随时间推移通过含等待、条件和多个消息操作的分支、多触点历程引导用户档案。
 
-**函数链：**&#x200B;受众评估>历程执行（多节点）>条件分支>消息投放(xN) >退出条件>报表
+**执行计划：**&#x200B;受众评估>历程执行（多节点）>条件分支>消息投放(xN) >退出标准>报表
 
 ## 应用程序
 
@@ -105,11 +105,11 @@ ht-degree: 1%
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — 历程进入受众的受众评估和定义、个性化的配置文件数据和条件分支
 - **[!DNL Adobe Experience Platform] (AEP)** — 配置文件存储、身份服务、事件数据摄取和基础数据基础架构
 
-## 基本函数
+## 基本功能
 
-必须具备以下基本功能才能使用此用例模式。 对于每个函数，状态都指示它通常是必需的、假定为预配置还是不适用。
+必须具备以下基本功能才能使用此用例模式。 对于每个功能，状态会指示它通常是必需的、假定为预配置还是不适用。
 
-| 基本函数 | 状态 | 必须准备好的内容 | Experience League参考 |
+| 基本功能 | 状态 | 必须准备好的内容 | Experience League参考 |
 | --- | --- | --- | --- |
 | 管理和治理 | 假设就位 | 具有历程创建和发布权限的AJO沙盒。 必须配置历程中使用的所有渠道的渠道平面。 用户必须具有适当的角色（营销人员、历程管理员），并具有历程和营销活动权限。 | [沙盒概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home)，[访问控制概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home) |
 | 数据建模和准备 | 必填 | XDM配置文件架构具有用于跨多条消息进行条件分支和个性化的属性（例如，忠诚度级别、产品兴趣、参与度分数）。 用于促进退出标准和条件评估的转化事件的体验事件架构（例如，购买事件、表单提交）。 | [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)，[架构组合基础](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition) |
@@ -131,11 +131,11 @@ ht-degree: 1%
 
 ## 应用程序功能
 
-此计划从“应用程序功能目录”中练习以下功能。 函数会映射到实施阶段而不是编号步骤。
+此计划练习应用程序功能目录中的以下功能。 功能会映射到实施阶段而不是编号步骤。
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| 函数 | 实施阶段 | 描述 |
+| 功能 | 实施阶段 | 描述 |
 | --- | --- | --- |
 | 渠道配置 | 阶段1：通道设置 | 为历程中的每个消息传送接触点配置渠道界面（电子邮件、短信、推送） |
 | 消息创作 | 阶段2：创建消息内容 | 为每个历程操作节点使用个性化、动态内容和模板创作消息内容 |
@@ -147,7 +147,7 @@ ht-degree: 1%
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| 函数 | 实施阶段 | 描述 |
+| 功能 | 实施阶段 | 描述 |
 | --- | --- | --- |
 | 受众评估 | 阶段1：通道设置（先决条件） | 定义和评估受众读取历程的登入受众；定义分支的条件受众 |
 | 同意和治理实施 | 第4阶段：治理和优化 | 在历程消息操作中强制实施同意首选项和数据使用策略 |
@@ -205,7 +205,7 @@ ht-degree: 1%
 **Experience League：**
 
 - [读取受众活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
-- [创建旅程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [创建历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 
 ### 选项B：事件触发的编排历程
 
@@ -311,7 +311,7 @@ ht-degree: 1%
 
 ### 第1阶段：设置渠道并准备受众
 
-**应用程序函数：** AJO：渠道配置，RT-CDP：受众评估
+**应用程序功能：** AJO：渠道配置，RT-CDP：受众评估
 
 在设计历程之前，所有渠道表面都必须处于活动状态，并且必须定义和评估进入受众（适用于选项A）。 此阶段确保基础设施机构做好了消息传送的准备。
 
@@ -362,7 +362,7 @@ ht-degree: 1%
 
 #### 不同选项的位置
 
-选项A的&#x200B;**（受众读取）：**
+**对于选项A （受众 — 已读）：**
 定义和评估进入受众。 确认受众具有非零群体。 确定历程将使用一次性受众读取还是定期读取计划。
 
 选项B的&#x200B;**（事件触发）：**
@@ -383,7 +383,7 @@ ht-degree: 1%
 
 ### 阶段2：创建消息内容
 
-**应用程序函数：** AJO：消息创作
+**应用程序功能：** AJO：消息创作
 
 为历程中的每个接触点创作消息内容。 每个消息可能具有不同的内容、个性化深度和渠道。 此阶段将创建历程操作节点将引用的所有可交付结果内容。
 
@@ -448,7 +448,7 @@ ht-degree: 1%
 
 ### 阶段3：设计和激活历程
 
-**应用程序函数：** AJO： Journey Orchestration
+**应用程序功能：** AJO： Journey Orchestration
 
 设计包括进入节点、操作节点（消息）、条件节点（分支）、等待节点（时间延迟）和退出标准的多步旅程画布。 然后使用测试用户档案进行测试并发布。
 
@@ -558,13 +558,13 @@ ht-degree: 1%
 
 #### Experience League文档
 
-- [创建旅程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [创建历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [历程属性](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [读取受众活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
 - [一般事件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 - [受众鉴定事件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
-- [在历程中添加消息](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
-- [条件活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [在历程中添加消息](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [条件活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [等待活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
 - [退出标准](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [结束活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/end-activity)
@@ -575,7 +575,7 @@ ht-degree: 1%
 
 ### 阶段4：配置治理和优化
 
-**应用程序功能：** AJO：频率和业务规则，AJO：冲突和优先级管理，AJO：内容试验，RT-CDP：同意和治理实施
+**应用程序功能：** AJO：频率和业务规则，AJO：冲突和优先级管理，AJO：内容实验，RT-CDP：同意和治理实施
 
 应用频度上限以防止过度消息传送，分配用于解决与其他活动通信的冲突的优先级分数，可以选择在历程消息中配置A/B测试，以及验证同意实施。
 
@@ -774,7 +774,7 @@ ht-degree: 1%
 ### 历程
 
 - [历程入门](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journey)
-- [创建旅程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [创建历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [历程属性](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [发布历程](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/publishing-the-journey)
 - [测试您的历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
@@ -784,9 +784,9 @@ ht-degree: 1%
 - [读取受众活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
 - [一般事件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 - [受众鉴定事件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
-- [条件活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [条件活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [等待活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [在历程中添加消息](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [在历程中添加消息](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [结束活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/end-activity)
 - [配置自定义操作](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-custom-actions)
 

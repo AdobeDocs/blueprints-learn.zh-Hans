@@ -1,10 +1,10 @@
 ---
 name: use-case-pattern-page-builder
 description: 为Adobe Experience Platform Blueprint存储库创建新的用例模式内容指南。 在添加新用例模式、创建实施指导内容或用户提及向Blueprint站点添加模式时，请使用此技能。 处理完整的工作流程：收集模式信息，生成具有正确模板结构的Markdown文件，并更新所有交叉引用页面(TOC.md、overview.md)。
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '1097'
-ht-degree: 99%
+ht-degree: 88%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 99%
 
 4. **核心Adobe解决方案** — Adobe产品是此模式的中心。 根据需要从Journey Optimizer、Real-Time Customer Data Platform、Experience Platform、Customer Journey Analytics、Brand Concierge、Journey Optimizer B2B edition、Real-Time CDP B2B edition或其他中进行选择。
 
-5. **函数链步骤** — 描述模式执行流的3-6个顺序阶段，以`>`分隔。 示例：“Event Ingestion > Event Entry > Condition Evaluation > 历程投放>报告”。
+5. **执行计划步骤** — 描述模式执行流的3-6个顺序阶段，以`>`分隔。 示例：“Event Ingestion > Event Entry > Condition Evaluation > 历程投放>报告”。
 
 6. **支持的业务目标** — 来自`/help/blueprints/business-objectives/`下的现有集的一个或多个业务目标。 每个名称都应包括目标名称、类别子文件夹和文件名。 在生成内容之前，请验证引用的文件是否存在。
 
@@ -58,12 +58,12 @@ ht-degree: 99%
 
 - 用例概述段落（3-5段；如果未提供，则从其他信息中草稿）
 - 应用程序列表，其中包含每个Adobe应用程序的角色描述
-- 基础函数表（函数、状态、必须就地的内容、Experience League引用）
-- 支持函数表（“函数”、“状态”、“为何重要”、“Experience League参考”）
-- 应用程序函数表（每个应用程序一个，具有函数、实施阶段和说明）
+- 基本功能表（“功能”、“状态”、“必须就地做什么”、“Experience League参考”）
+- 支持功能表（“功能”、“状态”、“其重要性”、“Experience League参考”）
+- 应用程序功能表（每个应用程序一个，具有“功能”、“实施阶段”和“说明”）
 - 先决条件核对清单
 
-如果用户不提供可选项目，则根据模式类别、解决方案和功能链生成合理的默认值。
+如果用户不提供可选物料，则根据模式类别、解决方案和执行计划生成合理的默认值。
 
 ## 阶段2：内容生成
 
@@ -89,15 +89,15 @@ ht-degree: 99%
 
 6. **关键绩效指标** — 包含KPI、说明和度量列的表。
 
-7. **用例模式** — 描述段落和函数链。
+7. **用例模式** — 描述段落和执行计划。
 
 8. **应用程序** — 具有`[!DNL ...]`格式和描述的Adobe应用程序列表。
 
-9. **基础函数** — 包含列的表：基础函数、状态、必须就地的、Experience League引用。 状态值：必需，假定已就位，不适用。
+9. **基本功能** — 包含列的表：基本功能、状态、必须实施的项目、Experience League参考。 状态值：必需，假定已就位，不适用。
 
-10. **支持函数** — 带列的表：支持函数、状态、它的重要性原因、Experience League引用。 状态值：推荐、已包含、不适用。
+10. **支持功能** — 包含列的表：支持功能、状态、重要原因、Experience League参考。 状态值：推荐、已包含、不适用。
 
-11. **应用程序函数** — 每个应用程序有一个表，该表具有列：函数、实现阶段、描述。
+11. **应用程序功能** — 每个应用程序有一个表，该表具有列：功能、实现阶段、描述。
 
 12. **先决条件** — 使用`- [ ]`语法的清单。
 
