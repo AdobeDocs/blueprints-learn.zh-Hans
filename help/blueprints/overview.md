@@ -4,25 +4,20 @@ description: 探索Adobe Experience Platform和应用程序的关键业务目标
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 TQID: https://experienceleague.adobe.com/hScp-97-JZqFMfBJdM6820M95dVE7YoagKJYfruEdao
-product_v2:
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: daec7ead-f475-492a-a3b3-02ae08565d6f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: 328
+source-wordcount: 333
 ht-degree: 4%
 
 ---
 
-# 客户体验编排业务目标、用例和架构图
+# Customer Experience Orchestration用例和架构图
 
-此网站包含&#x200B;**关键业务目标**，其中概述了可使用Adobe Experience Platform和应用程序实现的示例主要业务价值和目标。 **用例模式**&#x200B;通过可重复的实施方法描述常见的平台和应用程序功能。 **行业用例**&#x200B;将模式应用于垂直特定的业务方案。 **架构图和Blueprint**&#x200B;是可视化架构和数据流参考图，说明系统集成点、数据和内容流以及操作顺序，为解决方案设计提供技术参考。 这些层共同将业务价值与实施依赖项和体系结构联系起来。
+此网站包含&#x200B;**关键业务目标**，其中概述了可使用Adobe Experience Platform和应用程序实现的示例主要业务价值和目标。 **用例模式**&#x200B;通过可重复的实施方法描述常见的平台和应用程序功能。 **行业用例示例**&#x200B;将模式应用于垂直特定的业务场景。 **架构图和Blueprint**&#x200B;是可视化架构和数据流参考图，说明系统集成点、数据和内容流以及操作顺序，为解决方案设计提供技术参考。 这些层共同将业务价值与实施依赖项和体系结构联系起来。
 
 ## 主要业务目标
 
@@ -45,7 +40,7 @@ ht-degree: 4%
 
 ## 用例模式
 
-可重复的实施方法，用于描述特定功能、提供这些功能的功能链以及所涉及的应用程序。
+可重复的实施方法，这些方法描述如何使用提供这些功能的相关功能和应用程序组件实现特定结果。
 
 <table>
 <tr>
@@ -62,7 +57,7 @@ ht-degree: 4%
 
 [查看所有用例模式](use-case-patterns/overview.md)
 
-## 按行业浏览
+## 按行业探索用例示例
 
 针对特定行业定制的使用案例，每个行业对应于实施模式和业务目标。
 

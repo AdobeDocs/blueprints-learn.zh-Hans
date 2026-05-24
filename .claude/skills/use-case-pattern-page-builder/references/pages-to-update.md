@@ -1,8 +1,8 @@
 ---
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 # 添加用例模式时要更新的页面
@@ -64,5 +64,5 @@ ht-degree: 100%
 - [ ]文件使用kebab大小写命名约定
 - [ ]所有Experience League链接都是有效的URL
 - [ ]个Adobe产品名称使用`[!DNL ...]`语法
-- [ ]函数链使用` > `分隔符格式
+- [ ]执行计划使用` > `分隔符格式
 - [ ]模式文件包含所有必需部分（请参阅pattern-template.md）

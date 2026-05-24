@@ -3,7 +3,7 @@ title: 事件触发的消息传递
 description: 了解如何响应行为或系统事件而交付情境式实时消息。
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 75137990-9848-40c0-abf3-adbd21d2de52
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '9040'
 ht-degree: 2%
@@ -94,33 +94,33 @@ ht-degree: 2%
 
 ## 用例模式
 
-本节介绍驱动事件触发式消息传递的核心模式和功能链。
+本节介绍驱动事件触发式消息传递的核心模式和执行计划。
 
 **事件触发的消息传送**
 
 监听实时行为或系统事件，然后将上下文消息交付给触发的用户档案。
 
-**函数链：**&#x200B;事件摄取>历程条目>条件评估>消息投放>报告
+**执行计划：**&#x200B;事件摄取>历程条目>条件评估>消息投放>报告
 
 ## 应用程序
 
 在此用例模式中使用以下Adobe应用程序。
 
-- **[!DNL Adobe Journey Optimizer] (AJO)** — 包含单一历程条目、条件评估、等待步骤、消息创作、渠道配置、频率管理和投放报告的事件编排
-- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — 历程中基于条件的筛选的受众评估、同意和治理实施、配置文件扩充
-- **[!DNL Adobe Experience Platform] (AEP)** — 通过Web SDK、Mobile SDK或服务器端API进行实时事件摄取；数据建模；身份解析；Edge Network
+- **[!DNL Adobe Journey Optimizer](AJO)** — 包含单一历程条目、条件评估、等待步骤、消息创作、渠道配置、频率管理和投放报告的事件编排
+- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — 历程中基于条件的筛选的受众评估、同意和治理实施、配置文件扩充
+- **[!DNL Adobe Experience Platform](AEP)** — 通过Web SDK、Mobile SDK或服务器端API进行实时事件摄取；数据建模；身份解析；Edge Network
 
-## 基本函数
+## 基本功能
 
-必须具备以下基本功能才能使用此用例模式。 对于每个函数，状态都指示它通常是必需的、假定为预配置还是不适用。
+必须具备以下基本功能才能使用此用例模式。 对于每个功能，状态会指示它通常是必需的、假定为预配置还是不适用。
 
 | 基本功能 | 状态 | 必须准备就绪 | Experience League参考 |
 | --- | --- | --- | --- |
-| 管理和治理 | 假设就位 | 使用活动渠道配置配置的AJO沙盒。 历程创建和发布权限分配给实施团队。 为历程管理、内容创作和渠道管理配置的用户角色。 | [沙盒概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home)，[访问控制概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home) |
-| 数据建模和准备 | 必填 | XDM ExperienceEvent架构必须使用条件评估和消息个性化所需的所有上下文字段捕获触发事件（例如，购物车事件、产品详细信息、购物车值的`commerce.productListAdds`）。 必须为实时客户配置文件启用架构。 必须创建对应的数据集并启用配置文件。 | [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)，[架构组合基础](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition) |
-| 数据源和收集 | 必填 | 必须配置实时事件流 — 用于Web事件的Web SDK、用于应用程序事件的Mobile SDK或用于系统事件的Edge Network Server API。 数据流必须在启用AEP和AJO服务的情况下进行配置，将事件路由到正确的数据集。 这是一个关键依赖关系，因为模式依赖于实时事件摄取。 | [Web SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home)，[配置数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure) |
-| 身份和配置文件配置 | 必填 | 触发事件必须与已知身份（电子邮件、CRM ID或经过身份验证的会话）关联，以便历程能够解析用户档案并投放消息。 对于触发事件使用的标识符，必须存在身份命名空间。 匿名事件需要在传递消息之前通过身份图进行身份拼接。 必须配置合并策略。 | [身份服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)，[合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview) |
-| 受众定义和分段 | 推荐 | 虽然对于事件触发的历程不是完全必需的（条目基于事件，而不是基于受众），但可以使用受众区段在历程中进行条件评估（例如，仅当配置文件位于“高价值客户”区段时发送，或者如果配置文件位于“最近联系”区段时禁止）。 建议对历程中的实时区段成员资格检查进行流式评估。 | [分段服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home)，[流式分段](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation) |
+| 管理和治理 | 假设就位 | 使用活动渠道配置配置的AJO沙盒。 历程创建和发布权限分配给实施团队。 为历程管理、内容创作和渠道管理配置的用户角色。 | [沙盒概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home)，[访问控制概述](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| 数据建模和准备 | 必填 | XDM ExperienceEvent架构必须使用条件评估和消息个性化所需的所有上下文字段捕获触发事件（例如，购物车事件、产品详细信息、购物车值的`commerce.productListAdds`）。 必须为实时客户配置文件启用架构。 必须创建对应的数据集并启用配置文件。 | [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)，[架构组合基础](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
+| 数据源和收集 | 必填 | 必须配置实时事件流 — 用于Web事件的Web SDK、用于应用程序事件的Mobile SDK或用于系统事件的Edge Network Server API。 数据流必须在启用AEP和AJO服务的情况下进行配置，将事件路由到正确的数据集。 这是一个关键依赖关系，因为模式依赖于实时事件摄取。 | [Web SDK概述](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)，[配置数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
+| 身份和配置文件配置 | 必填 | 触发事件必须与已知身份（电子邮件、CRM ID或经过身份验证的会话）关联，以便历程能够解析用户档案并投放消息。 对于触发事件使用的标识符，必须存在身份命名空间。 匿名事件需要在传递消息之前通过身份图进行身份拼接。 必须配置合并策略。 | [身份服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)，[合并策略概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
+| 受众定义和分段 | 推荐 | 虽然对于事件触发的历程不是完全必需的（条目基于事件，而不是基于受众），但可以使用受众区段在历程中进行条件评估（例如，仅当配置文件位于“高价值客户”区段时发送，或者如果配置文件位于“最近联系”区段时禁止）。 建议对历程中的实时区段成员资格检查进行流式评估。 | [分段服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)，[流式分段](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation) |
 
 ## 支持功能
 
@@ -128,19 +128,19 @@ ht-degree: 2%
 
 | 支持功能 | 状态 | 为什么这很重要 | Experience League参考 |
 | --- | --- | --- | --- |
-| 计算/派生属性创建 | 推荐 | 计算属性（例如购物车放弃计数、上次购买间隔天数、平均订单值和生命周期购买总计）可改进触发的历程中的条件评估和个性化。 这些行为聚合有助于做出更准确的定位决策（例如，区分首次放弃者和重复放弃者）。 | [计算属性概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview) |
-| 数据生命周期管理 | 推荐 | 应该为瞬态行为事件（页面查看、搜索、点击）配置事件数据过期时间，以管理存储成本和法规遵从性。 在消息投放期间必须存在同意架构字段，才能实施特定于渠道的选择加入/选择退出。 | [高级数据生命周期管理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/home)，[数据集过期时间](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
-| 数据使用标签和执行 | 推荐 | 事件和用户档案字段上的治理标签可确保合规的个性化。 如果触发的消息包括使用PII或行为数据的个性化内容，则应审查数据使用标签和治理策略，以防止在消息内容中使用未经授权的数据。 | [数据管理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home)，[数据使用标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview) |
-| 监视和可观察性 | 已包含 | 历程执行监控是报告阶段的一部分。 此外，为事件摄取失败或历程处理延迟配置警报，以检测会阻止发送触发消息的管道问题。 | [警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview)，[可观察性分析概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/home) |
-| 报告和分析 | 已包含 | 历程绩效报表包含在报表阶段。 要更深入地分析各个渠道以及随时间推移触发的消息传递有效性，请配置CJA连接和工作区以分析转化归因、转化时间和渠道性能。 | [CJA概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)，[AJO + CJA集成指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
+| 计算/派生属性创建 | 推荐 | 计算属性（例如购物车放弃计数、上次购买间隔天数、平均订单值和生命周期购买总计）可改进触发的历程中的条件评估和个性化。 这些行为聚合有助于做出更准确的定位决策（例如，区分首次放弃者和重复放弃者）。 | [计算属性概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| 数据生命周期管理 | 推荐 | 应该为瞬态行为事件（页面查看、搜索、点击）配置事件数据过期时间，以管理存储成本和法规遵从性。 在消息投放期间必须存在同意架构字段，才能实施特定于渠道的选择加入/选择退出。 | [高级数据生命周期管理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)，[数据集过期时间](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
+| 数据使用标签和执行 | 推荐 | 事件和用户档案字段上的治理标签可确保合规的个性化。 如果触发的消息包括使用PII或行为数据的个性化内容，则应审查数据使用标签和治理策略，以防止在消息内容中使用未经授权的数据。 | [数据管理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)，[数据使用标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview) |
+| 监视和可观察性 | 已包含 | 历程执行监控是报告阶段的一部分。 此外，为事件摄取失败或历程处理延迟配置警报，以检测会阻止发送触发消息的管道问题。 | [警报概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)，[可观察性分析概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| 报告和分析 | 已包含 | 历程绩效报表包含在报表阶段。 要更深入地分析各个渠道以及随时间推移触发的消息传递有效性，请配置CJA连接和工作区以分析转化归因、转化时间和渠道性能。 | [CJA概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[AJO + CJA集成指南](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
 ## 应用程序功能
 
-此计划从“应用程序功能目录”中练习以下功能。 函数会映射到实施阶段而不是编号步骤。
+此计划练习应用程序功能目录中的以下功能。 功能会映射到实施阶段而不是编号步骤。
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| 函数 | 实施阶段 | 描述 |
+| 功能 | 实施阶段 | 描述 |
 | --- | --- | --- |
 | Journey Orchestration | 历程创建和配置 | 创建具有单一事件条目的历程、配置符合条件的事件、添加条件节点、等待步骤、消息操作、退出标准和重新进入规则 |
 | 渠道配置 | 渠道界面设置 | 配置或验证渠道界面（电子邮件、短信、推送），包括子域委派、IP池、发件人设置和禁止列表管理 |
@@ -151,7 +151,7 @@ ht-degree: 2%
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| 函数 | 实施阶段 | 描述 |
+| 功能 | 实施阶段 | 描述 |
 | --- | --- | --- |
 | 受众评估 | 基础设置(F5) | 评估在历程中用于基于条件的过滤的受众区段（例如，高价值客户区段、禁止显示区段） |
 | 同意和治理实施 | 基本设置(S2/S3) | 在消息投放期间强制执行同意偏好设置和数据使用治理策略，以确保通信的合规性 |
@@ -207,7 +207,7 @@ ht-degree: 2%
 **Experience League：**
 
 - [创建历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
-- [一般事件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
+- [一般事件](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 
 ### 选项B：等待的条件性事件触发消息
 
@@ -244,7 +244,7 @@ ht-degree: 2%
 
 **Experience League：**
 
-- [等待活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
+- [等待活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
 - [条件活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [退出标准](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 
@@ -285,7 +285,7 @@ ht-degree: 2%
 
 - [频率规则](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/frequency-rules)
 - [业务规则概述](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/business-rules)
-- [优先级分数](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
+- [优先级分数](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
 - [历程条目管理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 
 ### 选项比较
@@ -322,7 +322,7 @@ ht-degree: 2%
 
 ### 阶段1：配置事件模式和数据收集
 
-**应用程序函数：** AEP：数据建模(F2)，AEP：数据源和集合(F3)
+**应用程序功能：** AEP：数据建模(F2)，AEP：数据源和收集(F3)
 
 **您将配置的内容：**&#x200B;捕获触发事件的XDM ExperienceEvent架构、存储这些事件的数据集以及将事件流式传输到AEP的实时数据收集管道（Web SDK、Mobile SDK或服务器API）。 此阶段建立了历程将侦听的数据基础。
 
@@ -366,15 +366,15 @@ ht-degree: 2%
 
 **Experience League文档：**
 
-- [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)
-- [配置数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)
-- [Web SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home)
-- [Edge Network Server API概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/edge-network-server-api/overview)
-- [流式摄取概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/streaming/overview)
+- [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [配置数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [Web SDK概述](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [Edge Network Server API概述](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
+- [流式摄取概述](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview)
 
 ### 阶段2：配置标识和配置文件
 
-**应用程序函数：** AEP：标识和配置文件配置(F4)
+**应用程序功能：** AEP：标识和配置文件配置(F4)
 
 **您将配置哪些内容：**&#x200B;触发事件上标识符的身份命名空间、事件架构上指定的主要身份、跨设备解析的身份链接规则以及配置文件统一的合并策略。 这可确保触发事件与统一的客户个人资料关联，以便历程能够解决联系人信息并投放消息。
 
@@ -404,12 +404,12 @@ ht-degree: 2%
 **Experience League文档：**
 
 - [身份命名空间概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces)
-- [身份标识图链接规则](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-linking-logic)
-- [合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview)
+- [身份标识图链接规则](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
+- [合并策略概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 
 ### 阶段3：设置渠道平面
 
-**应用程序函数：** AJO：渠道配置
+**应用程序功能：** AJO：渠道配置
 
 **您将配置的内容：**&#x200B;为触发的消息定义发送基础结构的渠道界面（预设） — 子域委派、IP池、发件人身份、回复地址、取消订阅处理和特定于渠道的凭据（SMS提供程序、推送证书）。 在创建消息内容或发布历程之前，必须存在有效的渠道平面。
 
@@ -451,16 +451,16 @@ ht-degree: 2%
 
 **Experience League文档：**
 
-- [电子邮件配置入门](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [电子邮件配置入门](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
 - [委派子域](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/delegate-subdomain)
 - [创建 IP 池](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-pools)
-- [设置渠道平面](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
-- [配置短信渠道](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
+- [设置渠道平面](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [配置短信渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [配置推送通知渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
 
 ### 阶段4：创建消息内容
 
-**应用程序函数：** AJO：消息创作
+**应用程序功能：** AJO：消息创作
 
 **您将配置的内容：**&#x200B;历程将投放的消息内容，包括布局设计、使用配置文件和事件属性的个性化令牌、条件内容块、可重用片段（页眉、页脚、法律免责声明）以及内容预览和测试。
 
@@ -507,9 +507,9 @@ ht-degree: 2%
 - [添加个性化](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
 - [Personalization语法](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalization-syntax)
 - [动态内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
-- [使用电子邮件模板](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-templates/content-templates)
+- [使用电子邮件模板](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [使用内容片段](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
-- [预览和测试内容](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/preview-test/preview-test)
+- [预览和测试内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/preview-test)
 
 ### 阶段5：创建和配置旅程
 
@@ -594,20 +594,20 @@ ht-degree: 2%
 **Experience League文档：**
 
 - [创建历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
-- [历程属性](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
-- [一般事件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
+- [历程属性](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
+- [一般事件](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 - [条件活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
-- [等待活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
+- [等待活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
 - [在历程中添加消息](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [退出标准](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [历程条目管理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [频率规则](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/frequency-rules)
-- [优先级分数](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
-- [识别潜在冲突](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/conflict-prioritization/conflicts)
+- [优先级分数](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
+- [识别潜在冲突](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/conflicts)
 
 ### 阶段6：测试和部署历程
 
-**应用程序函数：** AJO： Journey Orchestration
+**应用程序功能：** AJO： Journey Orchestration
 
 **您将配置的内容：**&#x200B;测试模式验证以验证历程在测试配置文件中的运行情况，然后发布历程以使其上线。
 
@@ -625,7 +625,7 @@ ht-degree: 2%
 
 **Experience League文档：**
 
-- [测试您的历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
+- [测试您的历程](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
 - [发布历程](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/publishing-the-journey)
 
 ### 阶段7：监控和报告性能
@@ -661,8 +661,8 @@ ht-degree: 2%
 - [历程实时报告](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-live-report)
 - [历程全局报告](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
 - [使用Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview)
-- [AJO + CJA集成指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [警报概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
+- [AJO + CJA集成指南](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 
 ## 实施注意事项
 
@@ -672,15 +672,15 @@ ht-degree: 2%
 
 以下平台护栏和限制适用于事件触发的消息传递实施。
 
-- **单一事件吞吐量：**&#x200B;单一事件历程的每个沙盒每秒最多5,000个事件 — [Journey Optimizer护栏](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/guardrails)
-- **实时历程限制：**&#x200B;每个沙盒最多500个实时历程 — [Journey Optimizer护栏](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/guardrails)
+- **单一事件吞吐量：**&#x200B;单一事件历程的每个沙盒每秒最多5,000个事件 — [Journey Optimizer护栏](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- **实时历程限制：**&#x200B;每个沙盒最多500个实时历程 — [Journey Optimizer护栏](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - **历程画布限制：**&#x200B;每个历程画布最多50个活动
 - **历程超时：**&#x200B;最长历程持续时间为91天（全局超时）
 - **重新进入冷却：**&#x200B;最小重新进入冷却为5分钟
 - **频率上限配置：**&#x200B;每个沙盒最多10个上限配置
 - **渠道表面：**&#x200B;每个沙盒每个渠道类型最多10个渠道表面
-- **流式引入：**&#x200B;每个HTTP连接每秒最多20,000条记录 — [引入护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/guardrails)
-- **计算属性：**&#x200B;每个沙盒最多25个计算属性 — [计算属性护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview#guardrails)
+- **流式引入：**&#x200B;每个HTTP连接每秒最多20,000条记录 — [引入护栏](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- **计算属性：**&#x200B;每个沙盒最多25个计算属性 — [计算属性护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview#guardrails)
 - **内容片段：**&#x200B;每条消息最多30个内容片段
 - **实时报告刷新：**&#x200B;实时报告每60秒刷新一次，并显示过去24小时的数据
 - **历史报告延迟：**&#x200B;执行结束后，可能需要长达2小时才能完全填充历史（所有时间）报告
@@ -759,43 +759,43 @@ ht-degree: 2%
 
 ### 历程编排
 
-- [历程入门](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [历程入门](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [创建历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
-- [历程属性](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
-- [一般事件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
-- [受众鉴定事件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
+- [历程属性](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
+- [一般事件](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
+- [受众鉴定事件](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
 - [条件活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
-- [等待活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
+- [等待活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
 - [在历程中添加消息](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [退出标准](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [历程条目管理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
-- [测试您的历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
+- [测试您的历程](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
 - [发布历程](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/publishing-the-journey)
 
 ### 渠道配置
 
-- [电子邮件配置入门](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [电子邮件配置入门](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
 - [委派子域](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/delegate-subdomain)
 - [创建 IP 池](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-pools)
 - [IP预热计划](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-warmup/ip-warmup-gs)
-- [电子邮件表面设置](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
-- [配置短信渠道](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
+- [电子邮件表面设置](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [配置短信渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [配置推送通知渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
-- [管理禁止列表](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
+- [管理禁止列表](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
 
 ### 消息创作和个性化
 
-- [创建电子邮件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/create-email)
+- [创建电子邮件](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/create-email)
 - [设计电子邮件内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/design-emails)
 - [添加个性化](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
 - [Personalization语法](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalization-syntax)
 - [辅助函数](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/functions/functions)
 - [动态内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
-- [使用电子邮件模板](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-templates/content-templates)
+- [使用电子邮件模板](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [使用内容片段](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
-- [预览和测试内容](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/preview-test/preview-test)
-- [创建短信消息](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/sms/create-sms)
-- [设计推送通知](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/push/design-push)
+- [预览和测试内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/preview-test)
+- [创建短信消息](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/create-sms)
+- [设计推送通知](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/design-push)
 
 ### 频率和业务规则
 
@@ -805,68 +805,68 @@ ht-degree: 2%
 
 ### 冲突和优先级管理
 
-- [冲突和优先级管理入门](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/conflict-prioritization/gs-conflict-prioritization)
-- [识别潜在冲突](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/conflict-prioritization/conflicts)
-- [优先级分数](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
-- [历程上限和仲裁](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
+- [冲突和优先级管理入门](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/gs-conflict-prioritization)
+- [识别潜在冲突](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/conflicts)
+- [优先级分数](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
+- [历程上限和仲裁](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
 
 ### 报告和性能
 
 - [历程实时报告](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-live-report)
 - [历程全局报告](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
-- [AJO + CJA集成指南](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [AJO + CJA集成指南](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 
 ### 数据收集和摄取
 
-- [Web SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home)
+- [Web SDK概述](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
 - [移动SDK概述](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview)
-- [Edge Network Server API概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/edge-network-server-api/overview)
-- [配置数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)
-- [流式摄取概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/streaming/overview)
+- [Edge Network Server API概述](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
+- [配置数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [流式摄取概述](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview)
 
 ### 数据建模和架构
 
-- [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)
-- [架构组合基础](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition)
+- [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [架构组合基础](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 ### 身份和配置文件
 
-- [Identity服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)
+- [Identity服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
 - [身份命名空间概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces)
-- [身份标识图链接规则](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-linking-logic)
-- [配置文件概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/home)
-- [合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview)
+- [身份标识图链接规则](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
+- [配置文件概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [合并策略概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 
 ### 分段和受众
 
-- [分段服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home)
-- [区段生成器UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder)
-- [流式客户细分](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [分段服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [区段生成器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [流式客户细分](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
 
 ### 数据治理和同意
 
-- [数据治理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home)
+- [数据治理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
 - [数据使用标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview)
-- [同意和偏好设置字段组](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/consents)
+- [同意和偏好设置字段组](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
 - [Journey Optimizer中的同意](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted)
 
 ### 计算属性
 
-- [计算属性概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview)
-- [计算属性UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/ui)
+- [计算属性概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
+- [计算属性UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
 
 ### 监控和可观察性
 
-- [警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview)
-- [可观察性分析概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/home)
+- [警报概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
+- [可观察性分析概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
 
 ### 护栏
 
-- [Journey Optimizer护栏](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/guardrails)
-- [Real-Time Customer Profile护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
-- [摄取护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/guardrails)
+- [Journey Optimizer护栏](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- [Real-Time Customer Profile护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [摄取护栏](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
 
 ### 教程和指南
 
 - [创建历程教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
-- [安装Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/install/overview)
+- [安装Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview)

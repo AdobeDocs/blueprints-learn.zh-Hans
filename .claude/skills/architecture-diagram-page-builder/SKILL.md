@@ -1,9 +1,9 @@
 ---
 name: architecture-diagram-page-builder
 description: 指导为Adobe Experience Platform Blueprint存储库创建新的架构图页面。 在添加新的顶级体系结构图、集成体系结构页面或应用程序体系结构概述时，请使用此技能。 架构页面涵盖顶级AEP和应用程序架构以及主要集成点 — 而不是深入用例（用例模式生成器中的用例）。 处理整个工作流：收集页面信息，生成Markdown文件，将其放在正确的主题文件夹中，以及更新TOC.md。
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1393'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 - 简要列出了主要数据流和集成点，并说明了它们
 - Experience League链接，以便进一步了解应用程序域
 
-它们&#x200B;**不是**&#x200B;用于深入用例内容的位置。 KPI、业务目标、战术用例示例、功能链和角色叙述属于用例模式页面 — 通过`use-case-pattern-builder`技能生成。 有关完整护栏，请参阅`references/scope-guardrails.md`。
+它们&#x200B;**不是**&#x200B;用于深入用例内容的位置。 KPI、业务目标、战术用例示例、功能和角色叙述属于用例模式页面 — 通过`use-case-pattern-builder`技能生成。 有关完整护栏，请参阅`references/scope-guardrails.md`。
 
 ## 开始前需要读取
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 8. **主要数据流/集成点** — 3-7项目符号，用于描述图中所示的关键流和集成边界（例如，`Real-time event ingestion from Web SDK to Edge Network`、`Profile synchronization between Experience Platform Hub and Edge`）。
 
-9. **Experience League链接** — 指向相关Experience League文档的3-6个链接以供进一步阅读。 每个都必须以`https://experienceleague.adobe.com/zh-hans`开头。
+9. **Experience League链接** — 指向相关Experience League文档的3-6个链接以供进一步阅读。 每个都必须以`https://experienceleague.adobe.com/`开头。
 
    **首先推荐候选人。** 基于Adobe解决方案和页面目的，提出4 - 8篇可信的Experience League文章（例如，每个指定解决方案的canonical登陆页面或概述页面、关键集成指南、部署参考）。 对于每项建议，请提交：
    - 文章标题
@@ -95,7 +95,7 @@ ht-degree: 2%
 - KPI或度量公式
 - 业务目标或业务影响说明
 - 战术用例示例（特定的个性化场景、活动示例等）
-- 函数链（`A > B > C > D`样式）
+- 功能（`A > B > C > D`样式）
 - 角色驱动的storytelling
 
 如果计划内容停留在体系结构页面范围内（顶层体系结构、系统数据流、集成点、部署拓扑、边缘与中心），请与用户确认并进入阶段3。
@@ -176,7 +176,7 @@ ht-degree: 2%
 
 2. **用例模式链接** — 文件中的每个模式链接都指向`/help/blueprints/use-case-patterns/`下的现有Markdown文件。 使用`Read`或glob确认每个目标都存在。
 
-3. **Experience League链接** — 抽查`## Further reading`部分中的每个URL是否都以`https://experienceleague.adobe.com/zh-hans`开头。
+3. **Experience League链接** — 抽查`## Further reading`部分中的每个URL是否都以`https://experienceleague.adobe.com/`开头。
 
 4. **目录条目位置** — 新条目位于正确的子部分内，使用4空格缩进，并且路径与生成的文件位置完全匹配。
 
@@ -192,4 +192,4 @@ ht-degree: 2%
 - 体系结构图通常是SVG（对于清晰度和缩放是首选），但PNG对于点阵源图稿是可接受的。
 - 需要`<img>`嵌入的内联样式字符串(`border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;`)和`class="modal-image"` — 它们启用Experience League模式缩放交互。
 - 如果用户正在为尚不存在的全新主题文件夹创建页面，请警告TOC.md在`+ Architecture Diagrams and Blueprints{#architecture-diagrams}`下需要新的顶级子部分。 将该步骤作为单独的步骤处理，需要用户明确批准。
-- 如果架构图详细记录了&#x200B;*单个用例的端到端*（包含KPI、业务目标、功能链），则将用户重定向到`use-case-pattern-builder` — 这不是架构页面。
+- 如果架构图详细记录了&#x200B;*单个用例的端到端*（包括KPI、业务目标、功能），则将用户重定向到`use-case-pattern-builder` — 这不是架构页面。

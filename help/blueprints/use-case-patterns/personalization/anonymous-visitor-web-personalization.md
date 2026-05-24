@@ -3,7 +3,7 @@ title: 匿名访客Web Personalization
 description: 了解如何根据会话中行为信号向未识别的访客提供个性化的Web内容。
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '8109'
 ht-degree: 1%
@@ -88,21 +88,21 @@ ht-degree: 1%
 
 ## 用例模式
 
-下面描述了此用例的核心模式和功能链。
+下面描述了此用例的核心模式和执行计划。
 
 **匿名访客Web Personalization**
 
 通过AJO Web渠道，根据会话中行为信号为未识别的访客提供个性化内容。
 
-**函数链：** Web表面配置>行为规则评估>内容交付>展示跟踪>报告
+**执行计划：** Web表面配置>行为规则评估>内容交付>展示跟踪>报告
 
 ## 应用程序
 
 在此用例模式中使用以下应用程序。
 
-- **[!DNL Adobe Journey Optimizer] (AJO)** — Web渠道表面配置、内容创作（基于Web和代码的体验）、活动执行、内容试验（A/B测试）、决策（动态内容选择）和报表
-- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — 基于会话中行为信号的实时受众评估的Edge分段；匿名边缘配置文件管理
-- **[!DNL Adobe Experience Platform] (AEP)** — [!DNL Web SDK]用于行为信号收集，[!DNL Edge Network]用于实时数据路由和个性化投放，数据流配置
+- **[!DNL Adobe Journey Optimizer](AJO)** — Web渠道表面配置、内容创作（基于Web和代码的体验）、活动执行、内容试验（A/B测试）、决策（动态内容选择）和报表
+- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — 基于会话中行为信号的实时受众评估的Edge分段；匿名边缘配置文件管理
+- **[!DNL Adobe Experience Platform](AEP)** — [!DNL Web SDK]用于行为信号收集，[!DNL Edge Network]用于实时数据路由和个性化投放，数据流配置
 
 ## 架构
 
@@ -110,17 +110,17 @@ ht-degree: 1%
 
 ![匿名受众激活和个性化的参考架构](/help/blueprints/audience-activation/assets/anonymous_activation.svg)
 
-## 基本函数
+## 基本功能
 
-必须具备以下基本功能才能使用此用例模式。 对于每个函数，状态都指示它通常是必需的、假定为预配置还是不适用。
+必须具备以下基本功能才能使用此用例模式。 对于每个功能，状态会指示它通常是必需的、假定为预配置还是不适用。
 
-| 基本函数 | 状态 | 必须准备好的内容 | Experience League参考 |
+| 基本功能 | 状态 | 必须准备好的内容 | Experience League参考 |
 | --- | --- | --- | --- |
-| 管理和治理 | 假设就位 | 配置了Web渠道权限的AJO沙盒。 向实施团队授予[!DNL Web SDK]实施权限和数据流访问权限。 为用户提供允许Web渠道配置、受众管理和活动执行的角色。 | [访问控制概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home) |
-| 数据建模和准备 | 必填 | 体验事件架构捕获Web行为信号（页面查看次数、点击次数、滚动深度、引用数据、UTM参数）。 架构必须包含标准Web交互字段组，并启用边缘配置文件以支持实时评估。 必须创建对应的数据集并启用配置文件。 | [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home) |
-| 数据源和收集 | 必填 | 必须在配置了数据流以将数据路由到[!DNL AEP Edge Network]的所有目标Web属性上实施[!DNL Web SDK]。 数据流必须启用[!DNL Adobe Experience Platform]和[!DNL Adobe Journey Optimizer]服务。 这是一个关键依赖项 — 如果没有[!DNL Web SDK]，将无法进行行为信号收集或体验交付。 | [Web SDK 概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home) |
-| 身份和配置文件配置 | 必填 | ECID ([!DNL Experience Cloud ID])配置为匿名访客的主要身份命名空间。 必须使用`isActiveOnEdge: true`配置Edge合并策略，才能解析边缘上的匿名配置文件数据。 每个沙盒的Edge上只能有一个活动合并策略。 | [Identity Service概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home) |
-| 受众定义和分段 | 必填 | 根据会话中行为信号定义的Edge评估的受众区段。 Edge分段对于次秒评估延迟是强制性的。 区段规则必须仅使用符合边缘条件的区段规则表达式（简单属性检查和区段成员资格 — 无时间序列查询或复杂聚合）。 | [Edge分段](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/edge-segmentation) |
+| 管理和治理 | 假设就位 | 配置了Web渠道权限的AJO沙盒。 向实施团队授予[!DNL Web SDK]实施权限和数据流访问权限。 为用户提供允许Web渠道配置、受众管理和活动执行的角色。 | [访问控制概述](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| 数据建模和准备 | 必填 | 体验事件架构捕获Web行为信号（页面查看次数、点击次数、滚动深度、引用数据、UTM参数）。 架构必须包含标准Web交互字段组，并启用边缘配置文件以支持实时评估。 必须创建对应的数据集并启用配置文件。 | [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
+| 数据源和收集 | 必填 | 必须在配置了数据流以将数据路由到[!DNL AEP Edge Network]的所有目标Web属性上实施[!DNL Web SDK]。 数据流必须启用[!DNL Adobe Experience Platform]和[!DNL Adobe Journey Optimizer]服务。 这是一个关键依赖项 — 如果没有[!DNL Web SDK]，将无法进行行为信号收集或体验交付。 | [Web SDK 概述](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) |
+| 身份和配置文件配置 | 必填 | ECID ([!DNL Experience Cloud ID])配置为匿名访客的主要身份命名空间。 必须使用`isActiveOnEdge: true`配置Edge合并策略，才能解析边缘上的匿名配置文件数据。 每个沙盒的Edge上只能有一个活动合并策略。 | [Identity Service概述](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
+| 受众定义和分段 | 必填 | 根据会话中行为信号定义的Edge评估的受众区段。 Edge分段对于次秒评估延迟是强制性的。 区段规则必须仅使用符合边缘条件的区段规则表达式（简单属性检查和区段成员资格 — 无时间序列查询或复杂聚合）。 | [Edge分段](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation) |
 
 ## 支持功能
 
@@ -128,19 +128,19 @@ ht-degree: 1%
 
 | 支持功能 | 状态 | 为什么它很重要 | Experience League参考 |
 | --- | --- | --- | --- |
-| 计算/派生属性创建 | 不适用 | 匿名访客的值有限，因为要聚合的历史配置文件数据最少。 如果Edge配置文件跨多个会话从先前的匿名访问中收集到有意义的行为数据，则可能会变得适用。 | [计算属性概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview) |
-| 数据生命周期管理 | 推荐 | 应为匿名边缘配置文件配置假名配置文件过期，以管理存储并遵守隐私要求。 仅限ECID的用户档案可设置为在14天到365天之间过期。 应为行为数据收集强制实施Cookie同意策略。 | [高级数据生命周期管理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/home) |
-| 数据使用标签和执行 | 推荐 | 行为数据上的治理标签可确保法规遵从性，尤其是对于地理定位（S2敏感地理标签）和基于设备的个性化。 标签可防止在未经授权的个性化上下文中使用受限制的行为数据。 | [数据治理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home) |
-| 监视和可观察性 | 推荐 | [!DNL Edge Network]和[!DNL Web SDK]数据流监视可帮助检测个性化投放问题。 为数据流失败、摄取错误和边缘投放异常配置警报。 对于个性化故障会降低访客体验的生产部署而言，这一点至关重要。 | [可观察性分析概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/home) |
-| 报告和分析 | 已包含 | Personalization性能报表是功能链（第5阶段）的一部分。 对匿名访客个性化有效性进行CJA分析后，可在AJO原生报表之外进行深入的funnel分析、同类群组比较和转化影响测量。 | [CJA概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 计算/派生属性创建 | 不适用 | 匿名访客的值有限，因为要聚合的历史配置文件数据最少。 如果Edge配置文件跨多个会话从先前的匿名访问中收集到有意义的行为数据，则可能会变得适用。 | [计算属性概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| 数据生命周期管理 | 推荐 | 应为匿名边缘配置文件配置假名配置文件过期，以管理存储并遵守隐私要求。 仅限ECID的用户档案可设置为在14天到365天之间过期。 应为行为数据收集强制实施Cookie同意策略。 | [高级数据生命周期管理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| 数据使用标签和执行 | 推荐 | 行为数据上的治理标签可确保法规遵从性，尤其是对于地理定位（S2敏感地理标签）和基于设备的个性化。 标签可防止在未经授权的个性化上下文中使用受限制的行为数据。 | [数据治理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| 监视和可观察性 | 推荐 | [!DNL Edge Network]和[!DNL Web SDK]数据流监视可帮助检测个性化投放问题。 为数据流失败、摄取错误和边缘投放异常配置警报。 对于个性化故障会降低访客体验的生产部署而言，这一点至关重要。 | [可观察性分析概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| 报告和分析 | 已包含 | Personalization绩效报告是执行计划（第5阶段）的一部分。 对匿名访客个性化有效性进行CJA分析后，可在AJO原生报表之外进行深入的funnel分析、同类群组比较和转化影响测量。 | [CJA概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## 应用程序功能
 
-此计划从“应用程序功能目录”中练习以下功能。 函数会映射到实施阶段而不是编号步骤。
+此计划练习应用程序功能目录中的以下功能。 功能会映射到实施阶段而不是编号步骤。
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| 函数 | 实施阶段 | 描述 |
+| 功能 | 实施阶段 | 描述 |
 | --- | --- | --- |
 | 渠道配置 | 阶段1：Web表面配置 | 配置Web渠道界面，定义将在目标Web属性上提供个性化内容的位置 |
 | 消息创作 | 阶段3：内容创作和变量创建 | 使用Web设计器、基于代码的体验编辑器或内容模板为Web界面创作个性化的内容变体 |
@@ -151,7 +151,7 @@ ht-degree: 1%
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| 函数 | 实施阶段 | 描述 |
+| 功能 | 实施阶段 | 描述 |
 | --- | --- | --- |
 | 受众评估 | 阶段2：行为受众定义 | 使用会话中行为信号定义和评估基于边缘的受众区段，以实现实时个性化定位 |
 
@@ -207,8 +207,8 @@ ht-degree: 1%
 
 **Experience League：**
 
-- [Web渠道入门](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/get-started-web)
-- [边缘分段](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [Web渠道入门](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/get-started-web)
+- [边缘分段](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
 
 ### 选项B：基于试验的Web个性化
 
@@ -248,7 +248,7 @@ ht-degree: 1%
 
 **Experience League：**
 
-- [内容体验入门](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
+- [内容体验入门](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
 - [创建内容试验](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/create-content-experiment)
 - [内容试验报告](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-report)
 
@@ -291,7 +291,7 @@ ht-degree: 1%
 **Experience League：**
 
 - [决策管理概述](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
-- [创建投放位置](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
+- [创建投放位置](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
 - [创建个性化优惠](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [创建决策](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-activities)
 
@@ -335,7 +335,7 @@ ht-degree: 1%
 
 ### 阶段1：配置Web界面
 
-**应用程序函数：** AJO：渠道配置
+**应用程序功能：** AJO：渠道配置
 
 定义Web渠道界面，用于指定在您的网站上交付个性化内容的位置。 Web表面标识特定页面URL或URL模式以及AJO可以插入或替换内容的页面位置（CSS选择器或基于代码的体验表面）。
 
@@ -370,14 +370,14 @@ ht-degree: 1%
 
 **Experience League文档：**
 
-- [Web渠道入门](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/get-started-web)
-- [创建Web体验](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/create-web)
+- [Web渠道入门](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/get-started-web)
+- [创建Web体验](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/create-web)
 - [基于代码的体验渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/get-started-code-based)
 - [基于代码的体验配置](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/code-based-configuration)
 
 ### 第2阶段：定义行为受众
 
-**应用程序函数：** RT-CDP：受众评估
+**应用程序功能：** RT-CDP：受众评估
 
 根据推动个性化定位的会话中行为信号定义边缘评估的受众区段。 这些受众可确定哪些访客符合每个个性化体验的资格。 Edge评估对于此模式是强制性的，因为必须在访客浏览网站时于次秒时间范围内做出个性化决策。
 
@@ -426,10 +426,10 @@ ht-degree: 1%
 
 **Experience League文档：**
 
-- [区段生成器UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder)
-- [边缘分段](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [Profile Query Language参考](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/pql/overview)
-- [流式客户细分](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [区段生成器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [边缘分段](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [Profile Query Language参考](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
+- [流式客户细分](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
 
 ### 阶段3：创作内容并创建变体
 
@@ -499,7 +499,7 @@ ht-degree: 1%
 
 **Experience League文档：**
 
-- [创建Web体验](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/create-web)
+- [创建Web体验](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/create-web)
 - [基于代码的体验渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/get-started-code-based)
 - [添加个性化](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
 - [动态内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
@@ -510,7 +510,7 @@ ht-degree: 1%
 
 ### 阶段4：配置活动和投放
 
-**应用程序函数：** AJO：营销活动执行
+**应用程序功能：** AJO：营销活动执行
 
 创建并激活AJO Web营销活动，该活动会将Web界面（阶段1）、受众定位或试验配置（阶段2-3）和内容变体（阶段3）绑定到可交付成果单元中。 营销活动控制向访客提供个性化内容的时间和方式。
 
@@ -549,12 +549,12 @@ ht-degree: 1%
 **Experience League文档：**
 
 - [创建营销活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
-- [开始使用营销活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
+- [开始使用营销活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
 - [在消息中投放优惠](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/deliver-offers/deliver-offers-in-messages)
 
 ### 阶段5：报告和分析性能
 
-**应用程序函数：** AJO：报表和性能分析
+**应用程序功能：** AJO： Reporting &amp; Performance Analysis
 
 使用AJO内置报告监控个性化性能，还可以选择使用CJA扩展分析，以更深入地了解跨渠道信息。 此阶段包括访问实时和历史活动报告、审查实验结果和构建自定义分析工作区。
 
@@ -596,7 +596,7 @@ ht-degree: 1%
 - [营销活动实时报告](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-live-report)
 - [营销活动全局报告](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-global-report-cja)
 - [使用Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [Analysis Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)
+- [Analysis Workspace概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
 - [内容试验中的统计计算](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-calculations)
 
 ## 实施注意事项
@@ -607,13 +607,13 @@ ht-degree: 1%
 
 在实施之前和期间查看以下护栏。
 
-- Edge区段仅限于简单属性检查和区段成员资格 — 无时间序列查询或复杂聚合 — [Edge分段资格](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/edge-segmentation)
-- 每个沙盒的Edge上只能有一个活动合并策略 — [配置文件护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
-- 每个沙盒最多4,000个区段定义 — [分段护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
-- 每个沙盒最多500个活动实时营销活动 — [Journey Optimizer护栏](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/guardrails)
-- 每个内容试验最多10个处理变体 — [内容试验限制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/guardrails)
-- 每个沙盒最多10,000个批准的个性化优惠（选项C） — [决策管理护栏](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/guardrails)
-- 每个决策最多30个投放位置（选项C） — [Journey Optimizer护栏](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/guardrails)
+- Edge区段仅限于简单属性检查和区段成员资格 — 无时间序列查询或复杂聚合 — [Edge分段资格](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
+- 每个沙盒的Edge上只能有一个活动合并策略 — [配置文件护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- 每个沙盒最多4,000个区段定义 — [分段护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- 每个沙盒最多500个活动实时营销活动 — [Journey Optimizer护栏](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- 每个内容试验最多10个处理变体 — [内容试验限制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- 每个沙盒最多10,000个批准的个性化优惠（选项C） — [决策管理护栏](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- 每个决策最多30个投放位置（选项C） — [Journey Optimizer护栏](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - 人工智能排名模型要求至少1,000个转化事件用于训练（选项C）
 - [!DNL Edge Network]响应时间SLA：对于边缘评估的区段，小于200毫秒
 - 假名配置文件过期：对于仅ECID配置文件可配置14天到365天
@@ -681,30 +681,30 @@ ht-degree: 1%
 
 **Web渠道体验和基于代码的体验**
 
-- [Web渠道入门](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/get-started-web)
-- [创建Web体验](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/create-web)
+- [Web渠道入门](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/get-started-web)
+- [创建Web体验](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/create-web)
 - [基于代码的体验渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/get-started-code-based)
 - [基于代码的体验配置](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/code-based-configuration)
 
 **受众和分段**
 
-- [分段服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home)
-- [区段生成器UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder)
-- [边缘分段](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [流式客户细分](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Profile Query Language参考](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/pql/overview)
+- [分段服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [区段生成器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [边缘分段](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [流式客户细分](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Profile Query Language参考](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
 
 **Personalization和内容**
 
 - [添加个性化](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
 - [Personalization语法](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalization-syntax)
 - [动态内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
-- [使用电子邮件模板](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-templates/content-templates)
+- [使用电子邮件模板](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [使用内容片段](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
 
 **内容试验**
 
-- [内容体验入门](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
+- [内容体验入门](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
 - [创建内容试验](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/create-content-experiment)
 - [内容试验报告](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-report)
 - [统计计算](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-calculations)
@@ -712,8 +712,8 @@ ht-degree: 1%
 **决策管理**
 
 - [决策管理概述](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
-- [创建投放位置](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [创建决策规则](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [创建投放位置](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
+- [创建决策规则](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [创建个性化优惠](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [创建后备产品建议](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [创建集合](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -723,44 +723,44 @@ ht-degree: 1%
 
 **营销活动**
 
-- [开始使用营销活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
+- [开始使用营销活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
 - [创建营销活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
 
 **[!DNL Web SDK]和数据收集**
 
-- [Web SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home)
-- [安装Web SDK](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/install/overview)
-- [配置数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)
-- [标记概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/home)
+- [Web SDK概述](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [安装Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview)
+- [配置数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [标记概述](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)
 
 **身份和配置文件**
 
-- [Identity服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)
+- [Identity服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
 - [身份命名空间概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces)
-- [合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview)
-- [Real-time Customer Profile概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/home)
+- [合并策略概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [Real-time Customer Profile概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
 
 **数据建模**
 
-- [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)
-- [架构组合基础](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition)
+- [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [架构组合基础](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 **报告和分析**
 
 - [营销活动实时报告](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-live-report)
 - [营销活动全局报告](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-global-report-cja)
 - [使用Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [Analysis Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)
-- [CJA概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Analysis Workspace概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
+- [CJA概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
 
 **数据治理和隐私**
 
-- [数据治理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home)
-- [高级数据生命周期管理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/home)
-- [同意和偏好设置字段组](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/consents)
+- [数据治理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [高级数据生命周期管理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
+- [同意和偏好设置字段组](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
 
 **护栏**
 
-- [Journey Optimizer护栏](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/guardrails)
-- [Real-Time Customer Profile护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
-- [Identity服务护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/guardrails)
+- [Journey Optimizer护栏](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- [Real-Time Customer Profile护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [Identity服务护栏](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
