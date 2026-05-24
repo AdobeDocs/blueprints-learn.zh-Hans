@@ -106,9 +106,9 @@ B2B Analytics通过利用[!DNL CJA] B2B edition创建以帐户为中心的分析
 | 基本功能 | 状态 | 必须准备好的内容 | Experience League参考 |
 | --- | --- | --- | --- |
 | 管理和治理 | 必填 | 沙盒配置了[!DNL CJA]个B2B edition和[!DNL RT-CDP]个B2B edition权限。 为有权访问[!DNL CJA]和B2B数据模型的数据工程师、分析师和营销运营用户设置的角色。 | [沙盒概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home) |
-| 数据建模和准备 | 必填 | 使用B2B类配置的B2B XDM架构：XDM业务帐户、XDM业务机会、XDM业务帐户人员关系、XDM业务机会人员关系和XDM业务营销列表成员。 必须定义客户属性、商机阶段和购买组角色的字段组。 为配置文件创建和启用数据集。 | [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)，[B2B edition架构](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) |
+| 数据建模和准备 | 必填 | 使用B2B类配置的B2B XDM架构：XDM业务帐户、XDM业务机会、XDM业务帐户人员关系、XDM业务机会人员关系和XDM业务营销列表成员。 必须定义客户属性、商机阶段和购买组角色的字段组。 为配置文件创建和启用数据集。 | [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)，[B2B edition架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/schemas/b2b) |
 | 数据源和收集 | 必填 | B2B数据源已连接，通常通过[!DNL Marketo Engage]源连接器或[!DNL Salesforce] CRM源连接器连接。 客户记录、机会记录、人员 — 客户关系和行为参与事件必须流入AEP数据集。 [!DNL Web SDK]或[!DNL Marketo]集成必须捕获具有帐户关联的行为事件。 | [源概述](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)，[Marketo Engage连接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
-| 身份和配置文件配置 | 必填 | B2B身份解析配置为解析人员与帐户的关系。 必须关联帐户ID、人员ID （[!DNL Marketo]潜在客户ID或CRM联系人ID）和跨设备身份（ECID、电子邮件）。 身份图必须支持B2B数据模型中固有的多对多人员到帐户映射。 | [身份服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)，[B2B身份解析](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) |
+| 身份和配置文件配置 | 必填 | B2B身份解析配置为解析人员与帐户的关系。 必须关联帐户ID、人员ID （[!DNL Marketo]潜在客户ID或CRM联系人ID）和跨设备身份（ECID、电子邮件）。 身份图必须支持B2B数据模型中固有的多对多人员到帐户映射。 | [身份服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)，[B2B身份解析](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/schemas/b2b) |
 | 受众定义和分段 | 假设就位 | 如果将B2B区段从[!DNL CJA]发布回AEP以进行激活，则帐户级别的受众定义应该可用。 对于仅限Analytics的用例，这不是严格的先决条件，但建议对基于区段的分析执行此操作。 | [分段服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
 
 ## 支持功能
@@ -121,7 +121,7 @@ B2B Analytics通过利用[!DNL CJA] B2B edition创建以帐户为中心的分析
 | 数据生命周期管理 | 推荐 | B2B数据集，尤其是来自[!DNL Marketo Engage]的行为事件数据，可能会快速增长。 数据集过期策略可帮助管理存储并确保遵守数据保留要求。 | [高级数据生命周期管理](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
 | 数据使用标签和执行 | 推荐 | B2B数据通常包含敏感的业务信息（合同价值、竞争情报）。 数据使用标签和治理策略可确保在Analytics和激活工作流中正确使用此数据。 | [数据治理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
 | 监视和可观察性 | 推荐 | B2B源连接器([!DNL Marketo]， [!DNL Salesforce])需要监视摄取运行状况。 [!DNL CJA]中的连接运行状况监视可确保分析的数据刷新。 引入失败的警报规则可防止功能板过时。 | [可观察性分析概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| 报告和分析 | 已包含 | 这种模式本身就是一种分析模式。 此功能本身包含在核心执行计划中，可提供报告和分析功能。 | [CJA概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 报告和分析 | 已包含 | 这种模式本身就是一种分析模式。 此功能本身包含在核心执行计划中，可提供报告和分析功能。 | [CJA概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## 应用程序功能
 
@@ -210,7 +210,7 @@ B2B Analytics通过利用[!DNL CJA] B2B edition创建以帐户为中心的分析
 **Experience League：**
 
 - [CJA B2B edition概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
-- [B2B edition架构](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
+- [B2B edition架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/schemas/b2b)
 
 ### 选项B：以全球帐户为中心的分析
 
@@ -439,7 +439,7 @@ B2B Analytics通过利用[!DNL CJA] B2B edition创建以帐户为中心的分析
 - [数据视图概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
 - [创建或编辑数据视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
 - [组件设置概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
-- [持久性设置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
+- [持久性设置](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
 - [归因设置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
 - [派生字段](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields)
 - [会话设置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/session-settings)
@@ -638,7 +638,7 @@ B2B Analytics通过利用[!DNL CJA] B2B edition创建以帐户为中心的分析
 **[!DNL CJA]B2B edition**
 
 - [CJA B2B edition概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
-- [CJA概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
+- [CJA概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)
 - [CJA护栏](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
 
 **连接**
@@ -652,7 +652,7 @@ B2B Analytics通过利用[!DNL CJA] B2B edition创建以帐户为中心的分析
 - [数据视图概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
 - [创建或编辑数据视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
 - [组件设置概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
-- [持久性设置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
+- [持久性设置](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
 - [归因设置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
 - [格式设置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/format)
 - [派生字段](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields)
@@ -702,7 +702,7 @@ B2B Analytics通过利用[!DNL CJA] B2B edition创建以帐户为中心的分析
 **[!DNL RT-CDP]B2B edition**
 
 - [RT-CDP B2B edition概述](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#702702)
-- [B2B edition架构](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
+- [B2B edition架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/schemas/b2b)
 - [B2B源概述](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/sources/b2b)
 
 **AEP数据基础**
