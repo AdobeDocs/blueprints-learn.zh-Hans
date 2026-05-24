@@ -80,7 +80,7 @@ ht-degree: 0%
 
 在此用例模式中使用以下应用程序。
 
-- **[!DNL Adobe Experience Platform](Edge Network)** — 通过配置的数据流从Web SDK、Mobile SDK或Server API接收实时事件数据并进行路由
+- **[!DNL Adobe Experience Platform] (Edge Network)** — 通过配置的数据流从Web SDK、Mobile SDK或Server API接收实时事件数据并进行路由
 - **[!DNL Adobe Experience Platform]（事件转发）** — 提供服务器端规则引擎，用于评估、筛选、转换事件数据并将其转发到外部目标
 - **[!DNL Adobe Experience Platform]（标记/数据收集）** — 管理事件转发属性生命周期、扩展、规则和发布工作流
 
