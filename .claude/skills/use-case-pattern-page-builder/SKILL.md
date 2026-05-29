@@ -1,10 +1,10 @@
 ---
 name: use-case-pattern-page-builder
 description: 为Adobe Experience Platform Blueprint存储库创建新的用例模式内容指南。 在添加新用例模式、创建实施指导内容或用户提及向Blueprint站点添加模式时，请使用此技能。 处理完整的工作流程：收集模式信息，生成具有正确模板结构的Markdown文件，并更新所有交叉引用页面(TOC.md、overview.md)。
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 2577bb034012a78fd30a65b7b44196b91921923e
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 88%
+source-wordcount: '923'
+ht-degree: 94%
 
 ---
 
@@ -37,31 +37,18 @@ ht-degree: 88%
 
 4. **核心Adobe解决方案** — Adobe产品是此模式的中心。 根据需要从Journey Optimizer、Real-Time Customer Data Platform、Experience Platform、Customer Journey Analytics、Brand Concierge、Journey Optimizer B2B edition、Real-Time CDP B2B edition或其他中进行选择。
 
-5. **执行计划步骤** — 描述模式执行流的3-6个顺序阶段，以`>`分隔。 示例：“Event Ingestion > Event Entry > Condition Evaluation > 历程投放>报告”。
+5. **支持的业务目标** — 来自`/help/blueprints/business-objectives/`下的现有集的一个或多个业务目标。 每个名称都应包括目标名称、类别子文件夹和文件名。 在生成内容之前，请验证引用的文件是否存在。
 
-6. **支持的业务目标** — 来自`/help/blueprints/business-objectives/`下的现有集的一个或多个业务目标。 每个名称都应包括目标名称、类别子文件夹和文件名。 在生成内容之前，请验证引用的文件是否存在。
+6. **战术用例示例** — 6-10个项目符号场景，描述如何在不同业务环境中应用此模式。 每个模板都应该有一个粗体方案名称，后跟一个说明。
 
-7. **战术用例示例** — 6-10个项目符号场景，描述如何在不同业务环境中应用此模式。 每个模板都应该有一个粗体方案名称，后跟一个说明。
+7. **KPI** — 包含三列的表：KPI（名称）、描述（度量值）、度量（公式或方法）。
 
-8. **KPI** — 包含三列的表：KPI（名称）、描述（度量值）、度量（公式或方法）。
-
-9. **实施选项** — 2-4个实施选项。 对于每个选项，收集：
-   - 选项名称
-   - 最适合（何时使用此选项）
-   - 工作原理（2-4段）
-   - 关键注意事项（项目符号列表）
-   - 优势（项目符号列表）
-   - 限制（项目符号列表）
-   - Experience League链接（指向相关文档的URL）
+8. **引用链接** — 引用指向主要Experience League文档的链接，这些文档涵盖了用例模式的应用程序和功能。
 
 ### 可选，但推荐
 
 - 用例概述段落（3-5段；如果未提供，则从其他信息中草稿）
 - 应用程序列表，其中包含每个Adobe应用程序的角色描述
-- 基本功能表（“功能”、“状态”、“必须就地做什么”、“Experience League参考”）
-- 支持功能表（“功能”、“状态”、“其重要性”、“Experience League参考”）
-- 应用程序功能表（每个应用程序一个，具有“功能”、“实施阶段”和“说明”）
-- 先决条件核对清单
 
 如果用户不提供可选物料，则根据模式类别、解决方案和执行计划生成合理的默认值。
 
@@ -92,18 +79,6 @@ ht-degree: 88%
 7. **用例模式** — 描述段落和执行计划。
 
 8. **应用程序** — 具有`[!DNL ...]`格式和描述的Adobe应用程序列表。
-
-9. **基本功能** — 包含列的表：基本功能、状态、必须实施的项目、Experience League参考。 状态值：必需，假定已就位，不适用。
-
-10. **支持功能** — 包含列的表：支持功能、状态、重要原因、Experience League参考。 状态值：推荐、已包含、不适用。
-
-11. **应用程序功能** — 每个应用程序有一个表，该表具有列：功能、实现阶段、描述。
-
-12. **先决条件** — 使用`- [ ]`语法的清单。
-
-13. **实施选项** — 2-4个详细选项，每个选项都具有Best for、工作方式、关键注意事项、优势、限制和Experience League链接。
-
-14. **选项比较** — 末尾的摘要比较表。
 
 ## 阶段3：交叉引用更新
 
@@ -157,7 +132,7 @@ ht-degree: 88%
 
 5. **Frontmatter完整性** — 模式文件在其YAML frontmatter中包含标题、描述、解决方案和exl-id。
 
-6. **Experience League链接** — 抽查所有Experience League URL是否合理（以`https://experienceleague.adobe.com/zh-hans`开头）。
+6. **Experience League链接** — 抽查所有Experience League URL是否合理（以`https://experienceleague.adobe.com/`开头）。
 
 向用户报告任何验证失败，并在考虑任务完成之前修复它们。
 
