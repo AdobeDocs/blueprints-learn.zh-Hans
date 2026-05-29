@@ -3,7 +3,7 @@ title: 匿名访客Web Personalization
 description: 了解如何根据会话中行为信号向未识别的访客提供个性化的Web内容。
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '8109'
 ht-degree: 1%
@@ -108,7 +108,7 @@ ht-degree: 1%
 
 以下参考架构说明了如何在边缘收集匿名访客信号、根据受众规则评估并使用这些信号提供个性化内容。
 
-![匿名受众激活和个性化的参考架构](/help/blueprints/audience-activation/assets/anonymous_activation.svg)
+![匿名受众激活和个性化的参考架构](/help/blueprints/audience-activation/assets/anonymous_activation.png)
 
 ## 基本功能
 

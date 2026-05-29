@@ -3,7 +3,7 @@ title: Audience Activation到目标
 description: 了解如何使用Adobe Real-Time CDP评估受众区段并将其发布到外部目标以进行定位或抑制。
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '7080'
 ht-degree: 1%
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 以下参考架构说明了受众和配置文件数据如何从Real-Time CDP流向企业目标，包括云存储、流式端点和SaaS应用程序。
 
-![受众和配置文件激活到企业目标的参考架构](/help/blueprints/audience-activation/assets/known_activation.svg)
+![受众和配置文件激活到企业目标的参考架构](/help/blueprints/audience-activation/assets/known_activation.png)
 
 ## 基本功能
 
@@ -589,7 +589,7 @@ ht-degree: 1%
 - **批量评估容量：**&#x200B;默认情况下，每个区段评估作业最多有2400万个配置文件
 - **受众组合：**&#x200B;每个画布最多10个组合块；仅对组合的受众进行批量评估
 - **标识图形：**&#x200B;每个图形最多50个标识 — [标识服务护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/guardrails)
-- **计算属性：**&#x200B;每个沙盒最多25个计算属性 — [计算属性护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview#guardrails)
+- **计算属性：**&#x200B;每个沙盒最多25个计算属性 — [计算属性护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview#guardrails)
 - **激活护栏概述：** [激活护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/guardrails)
 
 ### 常见陷阱

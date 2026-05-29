@@ -19,9 +19,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
-source-wordcount: 2349
+source-wordcount: 2322
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 如下图所示，您可以在表单中或通过LinkedIn激活收集详细信息，并在与聊天机器人交互时确认解决方案意图。
 
-![购买团体历程](./assets/buying-group-journey-diagram.svg){zoomable="yes"}
+![购买团体历程](./assets/buying-group-journey-diagram.png){zoomable="yes"}
 
 当购买组完成百分比足够高时，您可以通过SQL或SOL将该组共享给Sales团队，以将帐户中的潜在客户转换为已完成销售。
 
