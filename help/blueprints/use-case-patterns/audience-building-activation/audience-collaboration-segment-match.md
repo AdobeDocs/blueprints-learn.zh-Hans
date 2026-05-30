@@ -95,61 +95,61 @@ ht-degree: 3%
 
 ### [!DNL Segment Match]
 
-- [区段匹配概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [区段匹配疑难解答](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
+- [区段匹配概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [区段匹配疑难解答](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### 分段和受众
 
-- [分段服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [区段生成器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [受众构成概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [Profile Query Language参考](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
-- [流式客户细分](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [边缘分段](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [分段服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home)
+- [区段生成器UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder)
+- [受众构成概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-composition)
+- [Profile Query Language参考](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/pql/overview)
+- [流式客户细分](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [边缘分段](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/edge-segmentation)
 
 ### 身份和配置文件
 
-- [Identity服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [Identity服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)
 - [身份命名空间概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces)
-- [合并策略概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
-- [Real-time Customer Profile概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview)
+- [Real-time Customer Profile概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/home)
 
 ### 数据治理和同意
 
-- [数据治理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [数据治理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home)
 - [数据使用标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview)
-- [策略实施](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
+- [策略实施](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/enforcement/overview)
 - [同意和偏好设置](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
-- [同意和偏好设置字段组](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
+- [同意和偏好设置字段组](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/consents)
 
 ### 目标和激活
 
-- [目的地概述](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [目标目录](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [监测目标的数据流](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [目的地概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home)
+- [目标目录](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/overview)
+- [监测目标的数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dataflows/ui/monitor-destinations)
 
 ### 数据建模和模式
 
-- [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [架构组合基础](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)
+- [架构组合基础](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition)
 
 ### 管理和访问控制
 
-- [访问控制概述](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
+- [访问控制概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home)
 - [沙盒概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home)
 
 ### 监控和可观察性
 
-- [警报概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [可观察性分析概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview)
+- [可观察性分析概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/home)
 
 ### 护栏
 
-- [Real-Time Customer Profile护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [Real-Time Customer Profile护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
 - [分段护栏](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/guardrails)
-- [激活护栏](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [激活护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/guardrails)
 
 ### 教程
 
 - [创建架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/union-schema)
-- [为配置文件启用数据集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile)
+- [为配置文件启用数据集](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/enable-for-profile)

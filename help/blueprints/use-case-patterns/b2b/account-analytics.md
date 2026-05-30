@@ -104,88 +104,88 @@ B2B Analytics通过利用[!DNL CJA] B2B edition创建以帐户为中心的分析
 **[!DNL CJA]B2B edition**
 
 - [CJA B2B edition概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
-- [CJA概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [CJA护栏](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
+- [CJA概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)
+- [CJA护栏](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-admin/guardrails)
 
 **连接**
 
-- [连接概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
-- [创建或编辑连接](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
-- [管理连接](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections)
+- [连接概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-connections/overview)
+- [创建或编辑连接](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-connections/create-connection)
+- [管理连接](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-connections/manage-connections)
 
 **数据视图**
 
-- [数据视图概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
-- [创建或编辑数据视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [组件设置概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
-- [持久性设置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
-- [归因设置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
-- [格式设置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/format)
-- [派生字段](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields)
-- [会话设置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/session-settings)
+- [数据视图概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/data-views)
+- [创建或编辑数据视图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [组件设置概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+- [持久性设置](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
+- [归因设置](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
+- [格式设置](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/component-settings/format)
+- [派生字段](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/derived-fields)
+- [会话设置](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/session-settings)
 
 **Workspace和分析**
 
-- [Workspace概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [创建项目](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
-- [自由格式表](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
-- [流量可视化](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
-- [流失可视化](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
-- [同类群组表](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
-- [“归因”面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)
-- [共享项目](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
-- [计划项目](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
+- [Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)
+- [创建项目](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
+- [自由格式表](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
+- [流量可视化](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
+- [流失可视化](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
+- [同类群组表](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
+- [“归因”面板](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/panels/attribution)
+- [共享项目](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
+- [计划项目](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
 - [划分维度](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/components/dimensions/t-breakdown-fa)
 
 **组件**
 
-- [过滤器概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
-- [创建过滤器](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
-- [计算量度概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
-- [创建计算量度](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
-- [批注概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/annotations/overview)
+- [过滤器概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
+- [创建过滤器](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
+- [计算量度概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
+- [创建计算量度](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
+- [批注概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/annotations/overview)
 - [日期范围](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/date-ranges/overview)
 
 **受众**
 
-- [受众概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
-- [创建并发布受众](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
-- [管理受众](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/manage)
+- [受众概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
+- [创建并发布受众](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/audiences/publish)
+- [管理受众](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/audiences/manage)
 
 **功能板和记分卡**
 
-- [创建移动记分卡](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/create-scorecard)
+- [创建移动记分卡](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dashboards/create-scorecard)
 - [配置和策划记分卡](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/curate)
-- [Adobe Analytics功能板 — 执行指南](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/set-up-execs)
+- [Adobe Analytics功能板 — 执行指南](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dashboards/set-up-execs)
 
 **引导式分析**
 
-- [指导分析概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview)
+- [指导分析概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/guided-analysis/overview)
 - [funnel视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/funnel)
-- [趋势视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/usage)
-- [“维系”视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
+- [趋势视图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/guided-analysis/trends/usage)
+- [“维系”视图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
 
 **[!DNL RT-CDP]B2B edition**
 
 - [RT-CDP B2B edition概述](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#702702)
-- [B2B edition架构](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [B2B源概述](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/sources/b2b)
+- [B2B edition架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/schemas/b2b)
+- [B2B源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/sources/b2b)
 
 **AEP数据基础**
 
-- [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [来源概述](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
-- [Marketo Engage连接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-- [Identity服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)
+- [来源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+- [Marketo Engage连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Identity服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)
 - [沙盒概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/home)
 
 **数据治理和生命周期**
 
-- [数据治理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [高级数据生命周期管理](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
+- [数据治理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home)
+- [高级数据生命周期管理](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/home)
 
 **教程和指南**
 
-- [架构组合基础](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
-- [计算属性概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
-- [可观察性分析概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [架构组合基础](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/schema/composition)
+- [计算属性概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/computed-attributes/overview)
+- [可观察性分析概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/home)

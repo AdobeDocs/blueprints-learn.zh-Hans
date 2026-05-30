@@ -88,26 +88,26 @@ ht-degree: 0%
 
 **事件转发**
 
-- [事件转发概述](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
-- [事件转发快速入门](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
-- [事件转发监测](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
-- [事件转发密钥](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
+- [事件转发概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/overview)
+- [事件转发快速入门](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/getting-started)
+- [事件转发监测](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/monitoring)
+- [事件转发密钥](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/event-forwarding/secrets)
 
 **事件转发扩展**
 
-- [服务器端扩展目录](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [Adobe云连接器扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [Meta Conversions API扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
-- [Google Cloud Platform扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
-- [AWS扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
-- [Snowflake扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)
-- [Google Ads增强型转化扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
-- [Mailchimp扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/mailchimp/overview)
+- [服务器端扩展目录](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/overview)
+- [Adobe云连接器扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Meta Conversions API扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/meta/overview)
+- [Google Cloud Platform扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
+- [AWS扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/aws/overview)
+- [Snowflake扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/snowflake/overview)
+- [Google Ads增强型转化扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
+- [Mailchimp扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/server/mailchimp/overview)
 
 **数据收集和Edge Network**
 
-- [配置数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [数据流概述](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
-- [Web SDK概述](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Edge Network Server API概述](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
-- [标记概述](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)
+- [配置数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure)
+- [数据流概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/overview)
+- [Web SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home)
+- [Edge Network Server API概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/edge-network-server-api/overview)
+- [标记概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/home)
