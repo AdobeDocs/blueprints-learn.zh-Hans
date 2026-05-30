@@ -3,9 +3,9 @@ title: B2B帐户激活到Advertising目标和文件目标
 description: 使用基于帐户的参与来创建受众并通过目标定位受众。
 solution: Real-Time Customer Data Platform
 exl-id: 578c0019-6133-4508-ae9d-8a8a463376f0
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+source-git-commit: b8b25146021472c6f513435df8e3be88254d9c3f
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '735'
 ht-degree: 4%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 4%
 * 帐户属性可用于导出。
 * 人们的事件。
    * 事件回顾时间最长为30天，不为事件谓词排序。
-   * AND/OR受支持(因此您可以说“A和B必须发生”，  但是你不能说“A必须在B之前3天发生”)。
+   * AND/OR受支持（因此您可以说“A和B必须发生”，但不能说“A必须在B之前3天发生”）。
 * 对于云存储目标，导出计划支持“区段评估后”选项。
 * [B2B配置文件和分段护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)。
 
@@ -71,6 +71,7 @@ LinkedIn匹配的受众有一些要求，包括最低受众规模（300个匹配
 
 ## 相关文档
 
+* [B2B Audience和Profile Activation Blueprint](b2bactivation.md) — 父Blueprint同时涵盖人员级别和帐户级别的B2B激活。
 * [实时客户数据平台的B2B edition](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
 * [创建和激活帐户受众教程视频](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data)
 * [创建帐户受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/account-audiences)

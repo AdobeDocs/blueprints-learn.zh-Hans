@@ -16,9 +16,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: b8b25146021472c6f513435df8e3be88254d9c3f
 workflow-type: tm+mt
-source-wordcount: 1034
+source-wordcount: 1036
 ht-degree: 52%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 52%
 
 * 创建人员受众，以便针对 B2B 数据（包括帐户、机会和商机）进行跨渠道定位和个性化。
 * 将受众激活到任何 Experience Platform 目标，以便进行定位和个性化。
-* 创建客户受众（例如公司列表）并通过LinkedIn之类的目的地定位这些公司，这些目的地接受公司列表作为输入或导出到云存储目的地以进行定位和销售推广。
+* 创建客户受众（例如公司列表）并通过LinkedIn或云存储等目标定位这些公司。 有关详细信息、要求和帐户受众护栏，请参阅[B2B帐户激活到Advertising目标和文件目标](b2b-account-activation.md)。
 
 ## 应用程序
 
