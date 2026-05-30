@@ -3,20 +3,26 @@ title: Brand Concierge对话体验
 description: 了解如何将数字资产转换为支持AI、品牌安全的对话体验，以指导客户发现。
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: a9545328-316d-446a-9308-18af61c58d1c
-source-git-commit: fe4353cfe34855ad91ccb5698e30030322246c08
+source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '961'
 ht-degree: 1%
 
 ---
 
 # Brand Concierge对话体验
 
-本指南为使用[!DNL Adobe Brand Concierge]并与[!DNL Adobe Experience Platform] (AEP)和[!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP])集成的AI支持的对话体验提供全面的实现参考。 它专为需要跨数字资产部署品牌安全的对话代理的解决方案架构师、营销技术人员和实施工程师而设计。
-
-它涵盖了部署对话体验的所有可行方法，从产品咨询聊天机器人到完整的网站导航助手，并提供了有关何时选择每个选项的指导。 该计划涉及代理配置、品牌治理、内容集成、部署策略、从对话信号扩充配置文件以及分析优化。
+本指南概述了使用[!DNL Adobe Brand Concierge]、与[!DNL Adobe Experience Platform] (AEP)和[!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP])集成的AI支持的对话体验。 它专为需要跨数字资产部署品牌安全的对话代理的解决方案架构师、营销技术人员和实施工程师而设计。
 
 [!DNL Brand Concierge]使品牌能够部署智能的对话代理，这些代理能够了解品牌声音、访问获得批准的产品目录和内容、根据实时配置文件数据提供个性化推荐，以及将意图和情绪信号捕获回统一客户配置文件。 这样产生的对话式体验既给人一种自然感，又符合品牌精神，同时还能丰富组织对每个客户的理解。
+
+## 用例模式
+
+**Brand Concierge对话体验**
+
+将数字资产转变为AI支持的品牌安全对话体验，通过自然对话引导客户发现，利用意图和情绪信号丰富用户档案，并提供个性化的产品推荐。
+
+**执行计划：**&#x200B;代理配置>品牌治理设置>内容集成>对话式体验部署>配置文件扩充>分析和优化
 
 ## 用例概述
 
@@ -94,22 +100,14 @@ ht-degree: 1%
 | 受对话影响的收入 | [!DNL Brand Concierge]对话在转化之前进行的购买所产生的收入 | 对话到购买的历程的归因分析 |
 | 解决时间 | 从对话开始到解决或移交的平均持续时间 | 跨对话事件的时间戳分析 |
 
-## 用例模式
-
-**Brand Concierge对话体验**
-
-将数字资产转变为AI支持的品牌安全对话体验，通过自然对话引导客户发现，利用意图和情绪信号丰富用户档案，并提供个性化的产品推荐。
-
-**函数链：**&#x200B;代理配置>品牌治理设置>内容集成>对话式体验部署>配置文件扩充>分析和优化
-
 ## 应用程序
 
 以下应用程序用于实现此用例模式。
 
 - **[!DNL Brand Concierge]** — AI支持的对话体验应用程序提供代理orchestrator、Product Advisor Agent、Site Advisory Agent、品牌治理和对话分析
-- **[!DNL Adobe Experience Platform] (AEP)** — 统一的数据基础，为对话信号提供XDM架构、身份解析、实时客户配置文件和数据收集基础架构
-- **[!DNL Real-Time CDP] ([!DNL RT-CDP])** — 客户数据平台，提供个性化对话的实时配置文件查找、从对话信号中细分受众，以及包含意图和情绪数据的配置文件扩充
+- **[!DNL Adobe Experience Platform](AEP)** — 统一的数据基础，为对话信号提供XDM架构、身份解析、实时客户配置文件和数据收集基础架构
+- **[!DNL Real-Time CDP]([!DNL RT-CDP])** — 客户数据平台，提供个性化对话的实时配置文件查找、从对话信号中细分受众，以及包含意图和情绪数据的配置文件扩充
 
 ## 相关文档
 
-有关实施指导和更多信息，请参阅Adobe Experience League上的[Brand Concierge概述](https://experienceleague.adobe.com/zh-hans/docs/brand-concierge/content/documentation/overview)。
+有关实施指导和更多信息，请参阅Adobe Experience League上的[Brand Concierge概述](https://experienceleague.adobe.com/en/docs/brand-concierge/content/documentation/overview)。

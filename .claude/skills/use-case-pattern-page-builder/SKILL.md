@@ -1,7 +1,7 @@
 ---
 name: use-case-pattern-page-builder
 description: 为Adobe Experience Platform Blueprint存储库创建新的用例模式内容指南。 在添加新用例模式、创建实施指导内容或用户提及向Blueprint站点添加模式时，请使用此技能。 处理完整的工作流程：收集模式信息，生成具有正确模板结构的Markdown文件，并更新所有交叉引用页面(TOC.md、overview.md)。
-source-git-commit: 2577bb034012a78fd30a65b7b44196b91921923e
+source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 94%
@@ -68,15 +68,15 @@ ht-degree: 94%
 
 2. **打开部分** — `# {Pattern name}`标题，后面是介绍性段落和“使用本指南了解……” 句子。
 
-3. **用例概述** — 3-5个段落，描述模式范围、适用时间、操作和不操作以及典型利益相关者是谁。
+3. **用例模式** — 描述段落和执行计划。
 
-4. **关键业务目标** — 每个目标都作为链接标题，带有简要说明和KPI摘要行。
+4. **用例概述** — 3-5个段落，描述模式范围、适用时间、操作和不操作以及典型利益相关者是谁。
 
-5. **战术用例示例** — 6-10个方案的项目符号列表。
+5. **关键业务目标** — 每个目标都作为链接标题，带有简要说明和KPI摘要行。
 
-6. **关键绩效指标** — 包含KPI、说明和度量列的表。
+6. **战术用例示例** — 6-10个方案的项目符号列表。
 
-7. **用例模式** — 描述段落和执行计划。
+7. **关键绩效指标** — 包含KPI、说明和度量列的表。
 
 8. **应用程序** — 具有`[!DNL ...]`格式和描述的Adobe应用程序列表。
 
@@ -132,7 +132,7 @@ ht-degree: 94%
 
 5. **Frontmatter完整性** — 模式文件在其YAML frontmatter中包含标题、描述、解决方案和exl-id。
 
-6. **Experience League链接** — 抽查所有Experience League URL是否合理（以`https://experienceleague.adobe.com/zh-hans`开头）。
+6. **Experience League链接** — 抽查所有Experience League URL是否合理（以`https://experienceleague.adobe.com/`开头）。
 
 向用户报告任何验证失败，并在考虑任务完成之前修复它们。
 

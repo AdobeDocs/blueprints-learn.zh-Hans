@@ -1,15 +1,15 @@
 ---
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 81%
+source-wordcount: '232'
+ht-degree: 48%
 
 ---
 # 用例模式模板
 
 此文件包含用例模式页面的完整Markdown模板。 在生成新模式时，将所有`{{placeholder}}`值替换为实际内容。
 
-&#x200B;---
+---
 
 ## 模板
 
@@ -22,11 +22,15 @@ exl-id: {{generate-uuid-placeholder}}
 ---
 # {{Pattern title}}
 
-This guide provides a comprehensive implementation blueprint for {{pattern name}} using {{solutions with [!DNL ...] formatting}}. It is designed for solution architects, marketing technologists, and implementation engineers who need to {{primary capability description}}.
+This guide provides an overview of {{pattern name}} using {{solutions with [!DNL ...] formatting}}. It is designed for solution architects, marketing technologists, and implementation engineers who need to {{primary capability description}}.
 
-Use this guide to understand what to configure, where implementation choices exist, and what trade-offs drive each decision.
+## Use case pattern
 
-{{Optional: 1-2 additional introductory sentences about what the guide covers.}}
+**{{Pattern Name}}**
+
+{{One-two sentence description of what the pattern does and enables.}}
+
+**Execution plan:** {{Step 1}} > {{Step 2}} > {{Step 3}} > {{Step 4}} > {{Step 5}}
 
 ## Use case overview
 
@@ -76,14 +80,6 @@ The following scenarios illustrate how {{pattern name}} can be applied across di
 | {{KPI Name}} | {{What it measures}} | {{Formula or measurement approach}} |
 | {{KPI Name}} | {{What it measures}} | {{Formula or measurement approach}} |
 
-## Use case pattern
-
-**{{Pattern Name}}**
-
-{{One-sentence description of what the pattern does.}}
-
-**Execution Plan:** {{Step 1}} > {{Step 2}} > {{Step 3}} > {{Step 4}} > {{Step 5}}
-
 ## Applications
 
 The following Adobe applications are used in this use case pattern.
@@ -92,150 +88,31 @@ The following Adobe applications are used in this use case pattern.
 - **[!DNL {{Application Name}}] ({{Abbreviation}})** -- {{Description of the application's role in this pattern}}
 - **[!DNL {{Application Name}}] ({{Abbreviation}})** -- {{Description of the application's role in this pattern}}
 
-## Foundational capabilities
+## Related documentation
 
-The following foundational capabilities must be configured before implementing this pattern. Each capability represents a prerequisite or assumed platform capability.
+The following resources provide additional detail on the capabilities used in this pattern. Group the reference links to primary Experience League documents under descriptive subheadings.
 
-| Foundational Capability | Status | What Must Be in Place | Experience League Reference |
-| --- | --- | --- | --- |
-| {{Capability name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description of what must be configured or available}} | [{{Link text}}]({{URL}}) |
-| {{Capability name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
-| {{Capability name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
-| {{Capability name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
-
-## Supporting capabilities
-
-The following supporting capabilities enhance or extend the pattern but are not strictly required for a basic implementation.
-
-| Supporting Capability | Status | Why It Matters | Experience League Reference |
-| --- | --- | --- | --- |
-| {{Capability name}} | {{Recommended / Included / Not Applicable}} | {{Description of why this capability matters for this pattern}} | [{{Link text}}]({{URL}}) |
-| {{Capability name}} | {{Recommended / Included / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
-| {{Capability name}} | {{Recommended / Included / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
-
-## Application capabilities
-
-### [!DNL {{Application Name}}] ({{Abbreviation}})
-
-| Capability | Implementation Phase | Description |
-| --- | --- | --- |
-| {{Capability name}} | {{Phase name (e.g., Setup, Configuration, Activation, Optimization)}} | {{Description of what this capability does in context}} |
-| {{Capability name}} | {{Phase name}} | {{Description}} |
-| {{Capability name}} | {{Phase name}} | {{Description}} |
-
-### [!DNL {{Application Name}}] ({{Abbreviation}})
-
-| Capability | Implementation Phase | Description |
-| --- | --- | --- |
-| {{Capability name}} | {{Phase name}} | {{Description}} |
-| {{Capability name}} | {{Phase name}} | {{Description}} |
-| {{Capability name}} | {{Phase name}} | {{Description}} |
-
-{{Repeat for each application listed in the Applications section.}}
-
-## Prerequisites
-
-Complete the following before beginning the implementation.
-
-- [ ] {{Prerequisite item -- e.g., "XDM schemas for behavioral and profile data are defined and deployed"}}
-- [ ] {{Prerequisite item -- e.g., "Datastreams are configured for web and/or mobile properties"}}
-- [ ] {{Prerequisite item -- e.g., "Identity namespaces are defined and identity resolution rules are configured"}}
-- [ ] {{Prerequisite item -- e.g., "Merge policies are configured for the target profile dataset"}}
-- [ ] {{Prerequisite item -- e.g., "Required Adobe product licenses are provisioned and sandbox access is granted"}}
-- [ ] {{Prerequisite item}}
-
-## Implementation options
-
-### Option A: {{Option name}}
-
-**Best for:** {{One-sentence description of when to use this option}}
-
-**How it works:**
-
-{{Paragraph 1: Describe the overall approach and architecture of this option.}}
-
-{{Paragraph 2: Describe the key configuration steps or workflow.}}
-
-{{Paragraph 3 (optional): Describe any runtime behavior or execution model.}}
-
-{{Paragraph 4 (optional): Describe monitoring, reporting, or optimization considerations.}}
-
-**Key considerations:**
-
-- {{Consideration about timing, latency, or throughput}}
-- {{Consideration about data requirements or dependencies}}
-- {{Consideration about channel support or limitations}}
-- {{Consideration about governance or compliance}}
-
-**Advantages:**
-
-- {{Advantage of this approach}}
-- {{Advantage of this approach}}
-- {{Advantage of this approach}}
-
-**Limitations:**
-
-- {{Limitation or trade-off}}
-- {{Limitation or trade-off}}
-- {{Limitation or trade-off}}
-
-**Experience League:**
+### {{Topic group}}
 
 - [{{Link text}}]({{URL}})
 - [{{Link text}}]({{URL}})
 
-### Option B: {{Option name}}
-
-**Best for:** {{One-sentence description of when to use this option}}
-
-**How it works:**
-
-{{Paragraph 1: Describe the overall approach and architecture of this option.}}
-
-{{Paragraph 2: Describe the key configuration steps or workflow.}}
-
-**Key considerations:**
-
-- {{Consideration}}
-- {{Consideration}}
-
-**Advantages:**
-
-- {{Advantage}}
-- {{Advantage}}
-
-**Limitations:**
-
-- {{Limitation}}
-- {{Limitation}}
-
-**Experience League:**
+### {{Topic group}}
 
 - [{{Link text}}]({{URL}})
-
-{{Repeat for Options C, D as needed. Include 2-4 options total.}}
-
-### Option comparison
-
-| Criteria | Option A | Option B | Option C |
-| --- | --- | --- | --- |
-| Best for | {{description}} | {{description}} | {{description}} |
-| Complexity | {{Low / Medium / High}} | {{Low / Medium / High}} | {{Low / Medium / High}} |
-| Time to value | {{Fast / Moderate / Slow}} | {{Fast / Moderate / Slow}} | {{Fast / Moderate / Slow}} |
-| Channel support | {{description}} | {{description}} | {{description}} |
-| Personalization depth | {{description}} | {{description}} | {{description}} |
-| Scalability | {{description}} | {{description}} | {{description}} |
+- [{{Link text}}]({{URL}})
 ````
 
-&#x200B;---
+---
 
 ## 关于使用此模板的注释
 
 - **YAML frontmatter：** `exl-id`应为占位符UUID（例如，`xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`）。 发布管道分配实际值。
+- **节顺序：** `Use case pattern`节紧跟在开始介绍之后，在`Use case overview`之前。 它给读者提供了一个清晰的单行定义和高级执行计划。
 - **Adobe产品名称：**&#x200B;在正文和表中始终使用Adobe产品名称的`[!DNL ...]`语法（例如`[!DNL Journey Optimizer]`）。 这是一项阻止翻译产品名称的Experience League约定。
 - **业务目标链接：**&#x200B;使用从模式文件到业务目标目录： `../../business-objectives/{{category}}/{{filename}}.md`的相对路径。
 - **Kebab-case文件名：**&#x200B;模式文件名必须是派生自模式标题的kebab-case。 示例：“事件触发的消息传递”变为`event-triggered-messaging.md`。
-- **执行计划：**&#x200B;使用` > `（空格、大于、空格）作为步骤之间的分隔符。
-- **状态值：**&#x200B;基本功能使用：必需，已假设就位，不适用。 使用的支持功能：推荐、包含、不适用。
-- **实施阶段：**&#x200B;常用阶段名称包括：设置、配置、激活、优化、监视。
-- **先决条件：**&#x200B;对每个项目使用`- [ ]`复选框语法。
+- **执行计划：**&#x200B;使用` > `（空格、大于、空格）作为步骤之间的分隔符。 保留标签恰好`**Execution plan:**`。
+- **相关文档：**&#x200B;描述性`###`子标题下的组引用链接（例如，按应用程序或功能区域）。 这些是Experience League对模式中使用的应用程序和功能的引用。
+- **架构（可选）：**&#x200B;如果模式从参考架构图中获益，则可以在`Applications`和`Related documentation`之间放置可选`## Architecture`部分。
+- **范围：**&#x200B;此模板刻意排除详细的实施部分（基础/支持/应用程序功能、先决条件、实施选项和分阶段实施步骤）。 这些详细信息位于从`Related documentation`链接的Experience League文档中。
