@@ -9,7 +9,7 @@ ht-degree: 48%
 
 此文件包含用例模式页面的完整Markdown模板。 在生成新模式时，将所有`{{placeholder}}`值替换为实际内容。
 
----
+&#x200B;---
 
 ## 模板
 
@@ -103,7 +103,7 @@ The following resources provide additional detail on the capabilities used in th
 - [{{Link text}}]({{URL}})
 ````
 
----
+&#x200B;---
 
 ## 关于使用此模板的注释
 
