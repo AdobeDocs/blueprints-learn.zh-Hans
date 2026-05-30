@@ -5,20 +5,13 @@ solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
 TQID: https://experienceleague.adobe.com/-YX20LT7VkWqGr4ciUM1iNYS9DnZAwj57K-bUy-zVsg
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b8b25146021472c6f513435df8e3be88254d9c3f
 workflow-type: tm+mt
-source-wordcount: 1034
+source-wordcount: 1036
 ht-degree: 52%
 
 ---
@@ -34,7 +27,7 @@ ht-degree: 52%
 
 * 创建人员受众，以便针对 B2B 数据（包括帐户、机会和商机）进行跨渠道定位和个性化。
 * 将受众激活到任何 Experience Platform 目标，以便进行定位和个性化。
-* 创建客户受众（例如公司列表）并通过LinkedIn之类的目的地定位这些公司，这些目的地接受公司列表作为输入或导出到云存储目的地以进行定位和销售推广。
+* 创建客户受众（例如公司列表）并通过LinkedIn或云存储等目标定位这些公司。 有关详细信息、要求和帐户受众护栏，请参阅[B2B帐户激活到Advertising目标和文件目标](b2b-account-activation.md)。
 
 ## 应用程序
 
@@ -114,8 +107,8 @@ ht-degree: 52%
 ## 相关文档
 
 * [实时客户数据平台的B2B edition](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=zh-Hans)
-* [Real-time Customer Data Platform B2B edition快速入门](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
-* [Real-time Customer Data Platform B2B edition的护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
+* [Real-time Customer Data Platform B2B edition快速入门](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
+* [Real-time Customer Data Platform B2B edition的护栏](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=zh-Hans)
 * [Adobe Experience Platform - Marketo Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=zh-Hans)
