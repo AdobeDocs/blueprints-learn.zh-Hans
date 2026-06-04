@@ -1,10 +1,10 @@
 ---
 name: architecture-diagram-page-builder
 description: 指导为Adobe Experience Platform Blueprint存储库创建新的架构图页面。 在添加新的顶级体系结构图、集成体系结构页面或应用程序体系结构概述时，请使用此技能。 架构页面涵盖顶级AEP和应用程序架构以及主要集成点 — 而不是深入用例（用例模式生成器中的用例）。 处理整个工作流：收集页面信息，生成Markdown文件，将其放在正确的主题文件夹中，以及更新TOC.md。
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 4d236750286c28a8b8eb53a5bdec0645cc0e3e91
 workflow-type: tm+mt
-source-wordcount: '1393'
-ht-degree: 2%
+source-wordcount: '1556'
+ht-degree: 1%
 
 ---
 
@@ -34,57 +34,53 @@ ht-degree: 2%
 
 ## 第1阶段：信息收集
 
-在生成任何文件之前询问用户以收集所有必需的信息。 在提供或显式延迟每个所需项目之前，不要继续生成内容。
+**使用表单，而不是线性面试。** 通过以逻辑批处理轮次呈现`AskUserQuestion`表单来收集所有必需的信息，而不是一次询问一个问题。 这使用户体验保持快速和可快速浏览。
 
-### 所需信息
+### AskUserQuestion约束
 
-1. **页面标题** — 人类可读的标题（如`Adobe Journey Optimizer architecture diagrams`）。
+- 每个`AskUserQuestion`调用最多&#x200B;**4个问题**。
+- 每个问题最多&#x200B;**4个选项**。
+- 如果一个问题有4个以上合理的选项，请将其拆分为两个调用（例如，询问前4个选项，然后在第5个选项中输入“是”/“否”）。
+- 对于应用多个答案的问题（解决方案、模式、数据流），请使用`multiSelect: true`。
 
-2. **主题文件夹** — 页面所在的位置。 请根据图表的主域选择一个：
-   - `experience-platform/` — 顶级AEP、多应用程序或平台级别图
-   - `customer-journeys/` — AJO， Campaign， journey orchestration
-   - `customer-journey-analytics/` — CJA体系结构
-   - `audience-activation/` — RTCDP、audience和profile activation
-   - `b2b/` — 特定于B2B的体系结构
+### 第1轮 — 核心页面信息（一个AskUserQuestion调用，最多4个问题）
 
-3. **文件名** — Kebab大小写，派生自页面标题（例如，`Journey Optimizer architecture` -> `journey-optimizer-architecture.md`）。 与用户确认。
+请以单个表单请求以下所有内容：
 
-4. **页面目的** — 1-2个句子，描述图共同说明的内容。 用于`description`前件字段和开头的段落。
+1. **页面标题** — 显示2-3个建议变体，这些变体派生自用户已告诉您的内容，另外还有“其他”转义剖面线。
+2. **主题文件夹** — 将5个有效的文件夹作为选项显示；根据用户的输入推荐最有可能的文件夹。
+3. **Adobe解决方案** — 多选；根据页面主题建议最可能的候选人。
+4. **图表计数** — 页面将包含多少图表(1 / 2 / 3 / 4+)。
 
-5. **Adobe解决方案** — 以逗号分隔的页面中间Adobe产品列表。 用于`solution`frontmatter字段。 示例： `Experience Platform, Journey Optimizer, Customer Journey Analytics`。
+### 第2轮 — 图表详细信息（一个AskUserQuestion调用，最多4个问题）
 
-6. **图** — 一个或多个图。 对于每个图表，收集：
-   - **图像文件名** （如`aep_data_flow.svg`）。 首选SVG ；可接受PNG。
-   - **节标题** — 成为关系图的H2标题（如`Data flow diagram`、`Detailed architecture diagram`）。
-   - **用途说明** — 1-2个描述图中所示内容的句子。
-   - **替换文本** — 可访问的简短说明。
+以一个形式询问每个图表的图像文件名和页面用途：
 
-7. **支持的用例模式** — 此架构支持2-5个现有模式。
+- 对于每个图表（单个表单轮中最多为2个），请将&#x200B;**图像文件名**&#x200B;作为问题来询问，其中包含2-3个建议文件名（派生自页面标题）以及“其他”选项。
+- 以2-3建议短语加上“其他”的问题形式询问&#x200B;**页面目的**（1-2句描述）。
+- 询问是否需要&#x200B;**`>[!MORELIKETHIS]`标注**（是/否）。 如果为“是”，则收集URL并在跟进消息中链接文本。
 
-   **首先推荐候选人。** 在要求用户提供模式之前，请扫描`/help/blueprints/use-case-patterns/`并根据上面收集的页面标题、页面目的和Adobe解决方案建议3-6个可能的匹配项。 对于每项建议，请提交：
-   - 模式名称（带有链接的路径）
-   - 为什么它适合这种架构，原因只有一句话
+> **节标题和替换文本：**&#x200B;当图像文件名是描述性的（例如，`fac-architecture.svg`、`fac-dataflow.svg`）时，从其中推断H2节标题和替换文本 — 无需询问用户。 使用带标题且人性化的文件名干作为节标题（例如，`Architecture diagram`、`Data flow diagram`）。 仅询问文件名是否模棱两可。
 
-   以编号短列表的形式提供建议，并要求用户(a)接受任何内容，(b)拒绝任何内容，并(c)添加您错过的模式。 仅生成指向真实文件的建议 — 在建议之前使用glob/read进行确认。 别让图案名称产生幻觉。
+### 第3轮 — 用例模式（扫描后的AskUserQuestion）
 
-   对于每个接受的模式，捕获类别和文件名。 在生成之前，验证`/help/blueprints/use-case-patterns/{category}/{pattern-file}.md`上存在的每个文件。
+在展示此表单之前，**glob`/help/blueprints/use-case-patterns/`**&#x200B;并根据页面标题、目的和解决方案识别3-5个可能的匹配模式。 在建议每个文件之前，先确认每个文件是否存在。
 
-8. **主要数据流/集成点** — 3-7项目符号，用于描述图中所示的关键流和集成边界（例如，`Real-time event ingestion from Web SDK to Edge Network`、`Profile synchronization between Experience Platform Hub and Edge`）。
+将前4名候选人作为`multiSelect`问题提出。 如果存在强有力的第五个候选人，则对该候选人另外提出一个“是”或“否”的问题。 还可以邀请用户命名您错过的任何模式。
 
-9. **Experience League链接** — 指向相关Experience League文档的3-6个链接以供进一步阅读。 每个都必须以`https://experienceleague.adobe.com/zh-hans`开头。
+仅包括已确认存在其文件的模式。 别让图案名称产生幻觉。
 
-   **首先推荐候选人。** 基于Adobe解决方案和页面目的，提出4 - 8篇可信的Experience League文章（例如，每个指定解决方案的canonical登陆页面或概述页面、关键集成指南、部署参考）。 对于每项建议，请提交：
-   - 文章标题
-   - URL
-   - 为什么它适合本页的一行逻辑
+### 第4轮 — 数据流和Experience League链接（一次AskUserQuestion调用）
 
-   将建议标记为&#x200B;**未验证**，除非您实际获取了URL — 用户必须先确认或替换每个URL，然后才能登陆生成的文件。 要求用户(a)接受、(b)将任何URL替换为其已拥有的已验证URL，以及(c)添加其自己的URL。 切勿发明您尚未看到的URL；如果您不确定，则建议使用文章标题，并让用户提供URL。
+**数据流：**&#x200B;建议3-5个预写的数据流项目符号作为`multiSelect`问题（派生自页面主题）。 用户选择适用的项。 将每个选项保留为一个简明的句子。 如果用户需要不在您的列表中的自定义流，他们可以在后续中提供这些流。
 
-### 可选
+**Experience League链接：**&#x200B;在表单之后，显示一个Markdown表，其中包含4-6个建议的链接，以及文章标题、URL和一行原理。 将每个URL标记为&#x200B;**未验证**。 要求用户(a)接受，(b)替换为验证的URL，或(c)添加他们自己的URL。 如果列表很长，请使用包含4个选项的跟进`AskUserQuestion`；否则，接受纯文本确认。
 
-- **相关内容标注** — 单个链接在页面顶部附近呈现为`>[!MORELIKETHIS]`块。 当Experience League上有读者应该注意的同级集成或配置指南时，此变量将非常有用。
+从不创建您尚未获取的URL。 如果不确定，则建议文章标题，并允许用户提供URL。
 
-如果用户没有提供所有必需的项目，请在继续之前询问缺少的项目。 请勿制作图、图案或链接。
+### 当所有倒圆角都完成时
+
+在生成任何文件之前，确认用户设置的完整信息。 如果仍然缺少任何必需项目或将其标记为“其他”但没有值，请在继续操作之前询问该项目。 请勿制作图、图案或链接。
 
 ## 阶段2：范围检查
 
@@ -167,6 +163,8 @@ ht-degree: 2%
 ```
 
 除非用户指定不同的位置，否则将新条目附加为匹配子部分中的最后一项。 保留精确的4空间缩进 — TOC解析取决于它。
+
+**在放置之前检查嵌套的子组。** 某些子部分（尤其是`Audience & Profile Activation`）包含嵌套分组（例如，`Real-Time Customer Data Platform (RTCDP) {#known-customer-audience-activation}`）。 在编辑之前，请阅读TOC.md中受影响的子部分。 新的顶级架构页面属于子节的4空格缩进级别 — **而非**&#x200B;位于嵌套子组（使用6空格缩进）内。 将新条目放在最后一个嵌套的子组条目的后面，并放在下一个顶级子节标题之前。
 
 ## 阶段5：验证
 
