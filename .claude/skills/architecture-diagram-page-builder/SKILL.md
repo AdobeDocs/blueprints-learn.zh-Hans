@@ -174,7 +174,7 @@ ht-degree: 1%
 
 2. **用例模式链接** — 文件中的每个模式链接都指向`/help/blueprints/use-case-patterns/`下的现有Markdown文件。 使用`Read`或glob确认每个目标都存在。
 
-3. **Experience League链接** — 抽查`## Further reading`部分中的每个URL是否都以`https://experienceleague.adobe.com/`开头。
+3. **Experience League链接** — 抽查`## Further reading`部分中的每个URL是否都以`https://experienceleague.adobe.com/zh-hans`开头。
 
 4. **目录条目位置** — 新条目位于正确的子部分内，使用4空格缩进，并且路径与生成的文件位置完全匹配。
 
