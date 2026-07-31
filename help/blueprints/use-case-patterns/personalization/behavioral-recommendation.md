@@ -3,9 +3,9 @@ title: 行为推荐
 description: 了解如何使用选择策略和排名模型生成项目和内容推荐。
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: db16e773-e0da-46c4-9fa5-d16f04feb46b
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: 9ea30e48ec0fade2f9a97b185e35fbfa93f49c43
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1652'
 ht-degree: 5%
 
 ---
@@ -36,19 +36,25 @@ ht-degree: 5%
 
 此用例模式支持以下业务目标。
 
-### [推动交叉销售和追加销售收入](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
+### 提高交叉销售和追加销售收入
+
+[提高交叉销售和追加销售收入](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
 
 根据行为和购买历史，向现有客户推广补充性和优质产品或服务。
 
 **KPI：**&#x200B;追加销售/交叉销售%，增量收入，客户存留期值
 
-### [提高转化率](../../business-objectives/revenue-monetization/increase-conversion-rates.md)
+### 提高转化率
+
+[提高转化率](../../business-objectives/revenue-monetization/increase-conversion-rates.md)
 
 提高完成所需操作（如购买、注册或表单提交）的访客和潜在客户的百分比。
 
 **KPI：**&#x200B;转化率、潜在客户转化、每个潜在客户的成本
 
-### [提供个性化的客户体验](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
+### 提供个性化的客户体验
+
+[提供个性化的客户体验](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
 
 根据个人偏好、行为和生命周期阶段定制内容、选件和消息。
 
