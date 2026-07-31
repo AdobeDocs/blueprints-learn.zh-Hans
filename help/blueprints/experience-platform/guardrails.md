@@ -5,22 +5,12 @@ solution: Experience Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 TQID: https://experienceleague.adobe.com/ZSHbFR3sEy4C-876IU3yN8U5vOUVvDWIP-O3l-wKm78
-product_v2:
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: a37e4ecd-c740-426a-addf-cb1b483c5c5a
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-subfeature_v2:
-  - id: d1823595-9241-4128-8a33-e4ac3bf08773
-  - id: e5ae22e3-a3b0-46ed-804f-9abf1bbe3e74
-  - id: ee602049-8a18-43df-9299-a689a025a371
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: a37e4ecd-c740-426a-addf-cb1b483c5c5aid: c132d929-fa62-4271-803e-b823be07b914id: daec7ead-f475-492a-a3b3-02ae08565d6f
+subfeature_v2: id: d1823595-9241-4128-8a33-e4ac3bf08773id: e5ae22e3-a3b0-46ed-804f-9abf1bbe3e74id: ee602049-8a18-43df-9299-a689a025a371
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 4134ba7db88206379e267841a4642c555a7e56d5
 workflow-type: tm+mt
 source-wordcount: 486
 ht-degree: 14%
@@ -36,7 +26,7 @@ ht-degree: 14%
 | 护栏类型 | 描述 |
 |---|---|
 | 性能护栏（软限制） | 性能护栏是与用例范围相关的使用限制，并概述了正常条件下的预期性能。 如果超过此值，您可能会遇到性能下降和延迟问题。 性能护栏记录在Experience League文档中，位于每个解决方案的护栏部分下，如下所述。 |
-| 静态限制（硬限制） | 这些是系统强制的限制，不能超过。 静态限制通常在客户合同和[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions.html)中约定并列出。 |
+| 静态限制（硬限制） | 这些是系统强制的限制，不能超过。 静态限制通常在客户合同和[产品描述](https://helpx.adobe.com/legal/product-descriptions.html)中约定并列出。 |
 
 >[!NOTE]
 >
@@ -52,14 +42,14 @@ ht-degree: 14%
 
 **Experience Platform应用程序**
 
-* [Real-Time CDP护栏概述](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html?lang=zh-Hans)
-* [Customer Journey Analytics受众共享护栏](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hans#latency)
-* [Customer Journey Analytics数据引入护栏](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [Journey Optimizer护栏](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans)
+* [Real-Time CDP护栏概述](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
+* [Customer Journey Analytics受众共享护栏](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
+* [Customer Journey Analytics数据引入护栏](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Journey Optimizer护栏](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
 
 **Experience Platform服务**
 
-* [数据摄取护栏](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hans)
+* [数据摄取护栏](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
 * [[!DNL Edge Network] API护栏](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
 * [实时客户个人资料和分段护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 * [身份护栏](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=zh-Hans)
@@ -72,4 +62,4 @@ ht-degree: 14%
 
 下图描述了在Experience Platform和应用程序上构建用例时要注意的主要边缘和中心观察延迟。
 
-![Experience Platform [!DNL Edge Network]和中心主观察到的延迟。](/help/blueprints/experience-platform/assets/aep_edge_hub_latency_v1.svg "Experience Platform Edge Network和中心主观测延迟"){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network]和中心主观察到的延迟。](/help/blueprints/experience-platform/assets/aep_edge_hub_latency_v1.png "Experience Platform Edge Network和中心主观测延迟"){width="1000" zoomable="yes"}
