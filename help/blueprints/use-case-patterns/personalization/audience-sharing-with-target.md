@@ -6,7 +6,7 @@ short-description: 将 RTCDP 轮廓和受众与 Adobe Target 集成。
 solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
-source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
+source-git-commit: 045fac8362795eefcac0ef5202fe7a90cb6875da
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 33%
@@ -45,11 +45,11 @@ ht-degree: 33%
 
 架构
 
-![在线/离线Web Personalization Blueprint的参考架构](/help/blueprints/audience-activation/assets/RTCDP+Target.png)
+![在线/离线Web Personalization Blueprint的参考架构](/help/blueprints/audience-activation/assets/RTCDP-Target.png)
 
 序列详细信息
 
-![在线/离线Web Personalization Blueprint的参考架构](/help/blueprints/audience-activation/assets/RTCDP+Target_flow.png)
+![在线/离线Web Personalization Blueprint的参考架构](/help/blueprints/audience-activation/assets/RTCDP-Target_flow.png)
 
 概述架构
 

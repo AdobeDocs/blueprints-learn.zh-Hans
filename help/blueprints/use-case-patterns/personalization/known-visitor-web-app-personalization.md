@@ -99,13 +99,13 @@ ht-degree: 4%
 ### Web渠道个性化
 
 - [Web渠道入门](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/get-started-web)
-- [创建Web体验](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/create-web)
+- [创建 Web 体验](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/create-web)
 - [Web渠道配置](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/web-configuration)
 
 ### 应用程序内和内容卡渠道
 
 - [应用程序内渠道概述](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/in-app/get-started-in-app)
-- [应用程序内渠道先决条件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/in-app/inapp-configuration)
+- [应用程序内渠道先决条件](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/in-app/inapp-configuration)
 - [创建应用程序内消息](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/in-app/create-in-app)
 - [内容卡渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/content-card/get-started-content-card)
 - [内容卡配置](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/content-card/content-card-configuration)
