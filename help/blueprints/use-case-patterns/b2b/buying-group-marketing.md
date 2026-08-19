@@ -101,68 +101,68 @@ B2B组织面临一个根本性的挑战：购买决策很少由一个人做出�
 
 ### [!DNL Journey Optimizer B2B Edition]
 
-- [Journey Optimizer B2B edition文档主页](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
-- [购买群组概述](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
-- [解决方案兴趣](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
-- [角色模板](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
-- [创建购买组](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)
-- [购买群组阶段](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
-- [帐户历程概述](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
-- [帐户历程节点](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
-- [销售警报电子邮件](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/sales-alert-email)
-- [CRM销售分析](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/incrm-insights)
+- [Journey Optimizer B2B edition文档主页](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/guide-overview)
+- [购买群组概述](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
+- [解决方案兴趣](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
+- [角色模板](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
+- [创建购买组](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)
+- [购买群组阶段](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
+- [帐户历程概述](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
+- [帐户历程节点](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
+- [销售警报电子邮件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/journey-content/email-channel/sales-alert-email)
+- [CRM销售分析](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/accounts/buying-groups/incrm-insights)
 
 ### B2B电子邮件和内容
 
-- [B2B电子邮件创作](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/email-authoring)
-- [B2B短信创作](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/sms-authoring)
-- [为电子邮件创作生成内容](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/ai-assistant-emails)
+- [B2B电子邮件创作](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/journey-content/email-channel/email-authoring)
+- [B2B短信创作](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/journey-content/sms-authoring)
+- [为电子邮件创作生成内容](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/journey-content/email-channel/ai-assistant-emails)
 
 ### B2B分析和功能板
 
-- [购买组仪表板](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
-- [参与仪表板](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
-- [智能仪表板](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
+- [购买组仪表板](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
+- [参与仪表板](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
+- [智能仪表板](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
 - [CJA B2B edition概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
 
 ### [!DNL RT-CDP B2B Edition]
 
 - [RT-CDP B2B edition概述](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)
-- [Real-Time CDP中的B2B架构](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [帐户受众](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)
-- [Marketo Engage源连接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Real-Time CDP中的B2B架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/schemas/b2b)
+- [帐户受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/types/account-audiences)
+- [Marketo Engage源连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
 
 ### 数据基础
 
-- [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [Identity服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
-- [来源概述](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
-- [分段服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)
+- [Identity服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)
+- [来源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
+- [分段服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home)
 
 ### 渠道配置
 
-- [电子邮件配置入门](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
-- [配置短信渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
+- [电子邮件配置入门](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [配置短信渠道](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 
 ### 数据治理和隐私
 
-- [数据治理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [高级数据生命周期管理](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
+- [数据治理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home)
+- [高级数据生命周期管理](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/home)
 
 ### 目标
 
-- [目的地概述](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [目标目录](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [LinkedIn匹配受众目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
+- [目的地概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home)
+- [目标目录](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/overview)
+- [LinkedIn匹配受众目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/social/linkedin)
 
 ### 护栏
 
-- [Real-Time Customer Profile护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [Real-Time Customer Profile护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
 - [分段护栏](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/guardrails)
-- [摄取护栏](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
-- [Journey Optimizer护栏](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- [摄取护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/guardrails)
+- [Journey Optimizer护栏](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/guardrails)
 
 ### 教程和快速入门
 
-- [AJO B2B edition快速入门](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
+- [AJO B2B edition快速入门](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/guide-overview)
 - [RT-CDP B2B edition教程](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-tutorial)
