@@ -2,9 +2,9 @@
 title: AJO B2B付费媒体控制器
 description: 营销活动和将帐户激活到付费媒体目标的优先级
 solution: Journey Optimizer B2B Edition
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 796e113c40b6b4e8b56e5fbbd22122c066c30c6f
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1544'
 ht-degree: 0%
 
 ---
@@ -67,14 +67,14 @@ ht-degree: 0%
 
 ## B2B AEP中的数据建模
 
-对于任何数据驱动编排，架构设计都非常重要。 AEP/RTCDP中的帐户和人员配置文件必须包含在&#x200B;**拆分路径条件**&#x200B;中使用的属性（例如，追求标志、解决方案兴趣、角色、意图类别、参与度分数）。 B2B架构（XDM业务帐户、XDM个人配置文件、关系型）应表示您的层次结构和数据源。 有关详细信息，请参阅[RTCDP B2B架构](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)和[AJO B2B文档](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/home)。
+对于任何数据驱动编排，架构设计都非常重要。 AEP/RTCDP中的帐户和人员配置文件必须包含在&#x200B;**拆分路径条件**&#x200B;中使用的属性（例如，追求标志、解决方案兴趣、角色、意图类别、参与度分数）。 B2B架构（XDM业务帐户、XDM个人配置文件、关系型）应表示您的层次结构和数据源。 有关详细信息，请参阅[RTCDP B2B架构](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)和[Journey Optimizer B2B edition文档](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)。
 
 **注意：**&#x200B;历程中的拆分路径逻辑使用个人资料和（如果支持）关系数据；请确保瀑布逻辑所需的字段在历程中可用。
 
 ### 护栏
 
-- **Journey Optimizer B2B edition** — 有关历程限制、节点限制和目标支持，请参阅[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html)。
-- **Real-Time CDP** — 有关分段和激活限制，请参阅[RTCDP护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/guardrails/overview)。
+- **Journey Optimizer B2B edition** — 有关历程限制、节点限制和目标支持，请参阅[产品描述](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html)。
+- **Real-Time CDP** — 有关分段和激活限制，请参阅[RTCDP护栏](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)。
 
 ## 实施
 
@@ -127,6 +127,6 @@ ht-degree: 0%
 
 ## 相关文档
 
-- [购买基于群组的营销和历程管理Blueprint](https://experienceleague.adobe.com/zh-hans/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — 在AJO B2B中注册和购买群组的历程。
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b) — 产品文档。
+- [购买基于群组的营销和历程管理Blueprint](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — 在AJO B2B中注册和购买群组的历程。
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — 产品文档。
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) — 帐户受众和激活。
