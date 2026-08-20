@@ -19,10 +19,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
+source-git-commit: b3bc4a99bf083cccc5cec076caf7faa2d8258501
 workflow-type: tm+mt
-source-wordcount: 2322
-ht-degree: 0%
+source-wordcount: 2351
+ht-degree: 1%
 
 ---
 
@@ -146,7 +146,7 @@ B2B商机管理的重点是客户及其商机。 技术层旨在支持代表这�
 
    第一步，您定义并创建一个体验架构，该架构旨在满足B2B用例需求并涵盖数据源（批量处理和实时处理）。 此设计应呈现企业思考客户实体和人员实体以及您希望支持的用例的方式。 若要将架构设为B2B架构，该架构应遵循[RTCDP B2B架构文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/tutorials/relationship-b2b)中提供的结构。
 
-   一个有用的做法是从图表中获取实体名称，并通过以相同的方式标记这些实体来识别架构中的这些实体。 请注意，某些架构需要特定键（如`sourceKey`）才能在RTCDP B2B中运行。 短期而言，Journey Optimizer B2B不支持通过帐户人员关系在帐户和人员之间建立&#x200B;_多对多_&#x200B;关系。 请使用加速器脚本以获得最佳起点：
+   一个有用的做法是从图表中获取实体名称，并通过以相同的方式标记这些实体来识别架构中的这些实体。 请注意，某些架构需要特定键（如`sourceKey`）才能在RTCDP B2B中运行。  请使用加速器脚本以获得最佳起点：
 
    * 使用[RTCDP B2B架构创建脚本](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility)生成初始架构
    * 将用例特定字段添加到生成的架构中，以完成架构以适合组织需求。
