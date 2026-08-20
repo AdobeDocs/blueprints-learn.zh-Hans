@@ -4,11 +4,21 @@ description: 了解如何在Adobe Journey Optimizer B2B edition中构思、设�
 solution: Journey Optimizer B2B Edition
 exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
 TQID: https://experienceleague.adobe.com/BTvNNRxxvsbjmuPyY0NjBrMJmiSJ3qkNnndd-y1VwVQ
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-subfeature_v2: id: ac532e39-bc90-4c8f-b14c-5730180e1f68id: d5e018de-9479-48a8-96a8-176c73166631id: e107d6b1-73fc-440f-ae3a-e96dccbaf602
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+subfeature_v2:
+  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+  - id: e107d6b1-73fc-440f-ae3a-e96dccbaf602
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: b3bc4a99bf083cccc5cec076caf7faa2d8258501
 workflow-type: tm+mt
 source-wordcount: 2351
@@ -77,11 +87,11 @@ B2B商机管理的重点是客户及其商机。 技术层旨在支持代表这�
 >
 >Journey Optimizer B2B edition的许可应包括以下项目：
 ><ul><li>连接到Journey Optimizer B2B的Experience Platform B2B edition实例</li><li>同步到RTCDP的Marketo Engage实例</li></ul>
-&gt;<br/>
-&gt;对于现有Marketo Engage客户，建议连接到现有实例。
-&gt;<br/><br/>
-&gt;为增强用户档案丰富度，解决方案提供了其他扩展：
-&gt;<ul><li>用于RTCDP以丰富用户档案的其他源</li><li>到Marketo Engage的RTCDP目标</li></ul>
+>&gt;<br/>
+>&gt;对于现有Marketo Engage客户，建议连接到现有实例。
+>&gt;<br/><br/>
+>&gt;为增强用户档案丰富度，解决方案提供了其他扩展：
+>&gt;<ul><li>用于RTCDP以丰富用户档案的其他源</li><li>到Marketo Engage的RTCDP目标</li></ul>
 
 实施此解决方案还需要清楚地了解&#x200B;_帐户_&#x200B;和&#x200B;_购买群组_&#x200B;的概念，以及它们如何扩大和加快销售线索资格鉴定。 有了这种了解，您还必须确定所需的购买群组完整性分数。
 
@@ -124,7 +134,7 @@ B2B商机管理的重点是客户及其商机。 技术层旨在支持代表这�
 
 * 所有实例都必须位于同一IMS组织中。
 * 只有一个Journey Optimizer B2B edition实例可以链接到一个Experience Platform沙盒。
-* 强烈建议实施到Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)的[Marketo Source Connector。
+* 强烈建议实施到Real-time Customer Data Platform[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)的Marketo Source Connector。
 
 ## 实施
 
