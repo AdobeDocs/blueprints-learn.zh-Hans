@@ -101,11 +101,11 @@ B2B商机管理的重点是客户及其商机。 技术层旨在支持代表这�
 
 ### 数据架构
 
-对于任何数据驱动营销自动化的实施，架构设计都是成功实施的关键所在。 在设计架构之前，请查看[B2B命名空间和架构](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces)，并确保您了解可用于在新的实施方案中生成新架构的自动生成实用程序。
+对于任何数据驱动营销自动化的实施，架构设计都是成功实施的关键所在。 在设计架构之前，请查看[B2B命名空间和架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces)，并确保您了解可用于在新的实施方案中生成新架构的自动生成实用程序。
 
 架构中特别丰富了B2B数据元素，以支持用户档案中的丰富关系，并通过`sourceKey`包含帐户透视，以将事件和用户档案关联到帐户架构。 架构代表了您的组织要求以及收集和分析的数据。 为了满足这些需求，B2B架构非常灵活，是所需B2B元素的扩展。
 
-在为贵组织设计数据架构时，最佳做法是使用高级实体来表示和标记ERD中的主要实体。 （请参阅[RTCDP B2B架构文档](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)中的第一个图表）。 此过程对于了解您需要在每个架构中定义的数据元素非常有用。
+在为贵组织设计数据架构时，最佳做法是使用高级实体来表示和标记ERD中的主要实体。 （请参阅[RTCDP B2B架构文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/tutorials/relationship-b2b)中的第一个图表）。 此过程对于了解您需要在每个架构中定义的数据元素非常有用。
 
 在此阶段，体验事件尚无法影响历程。 除了体验事件架构之外，还建议您将属性添加到帐户，这些属性代表基于用户活动的主要决策。 这些属性用于历程设计器中的拆分路径元素。
 
@@ -117,24 +117,24 @@ B2B商机管理的重点是客户及其商机。 技术层旨在支持代表这�
 
 要扩充帐户数据元素，您可以使用Marketo Engage及其B2B数据来扩充RTCDP和Journey Optimizer B2B edition帐户视图。 设置Marketo Engage Source Connector并将Marketo Engage数据映射到RTCDP架构属性后，数据可以从Marketo Engage流到RTCDP，如果指定，还可以流到用户档案。
 
-有关连接器配置和映射到架构的必填字段的详细信息，请参阅[Marketo Engage连接器文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)。
+有关连接器配置和映射到架构的必填字段的详细信息，请参阅[Marketo Engage连接器文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)。
 
 ### 护栏
 
-[产品描述页面](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html)中详细介绍了Journey Optimizer B2B edition护栏。
+[产品描述页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html)中详细介绍了Journey Optimizer B2B edition护栏。
 
 与实施相关的护栏
 
-* 在[B2B Audience和Profile Activation Blueprint](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2bactivation)中描述了所有B2B Audience护栏，这些护栏可直接转置为Journey Optimizer B2B edition的成功护栏。
-* 如果帐户历程中需要通过Marketo Engage渠道进行激活，或者使用CRM Sync扩充帐户，则相关[Marketo Engage相关护栏](https://helpx.adobe.com/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)。
+* 在[B2B Audience和Profile Activation Blueprint](https://experienceleague.adobe.com/zh-hans/docs/blueprints-learn/architecture/b2b-activation/b2bactivation)中描述了所有B2B Audience护栏，这些护栏可直接转置为Journey Optimizer B2B edition的成功护栏。
+* 如果帐户历程中需要通过Marketo Engage渠道进行激活，或者使用CRM Sync扩充帐户，则相关[Marketo Engage相关护栏](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)。
 
-有关Real-Time CDP护栏的其他详细信息，请参阅[RTCDP护栏文档](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)。
+有关Real-Time CDP护栏的其他详细信息，请参阅[RTCDP护栏文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/guardrails/overview)。
 
 ### 配置
 
 * 所有实例都必须位于同一IMS组织中。
 * 只有一个Journey Optimizer B2B edition实例可以链接到一个Experience Platform沙盒。
-* 强烈建议实施到Real-time Customer Data Platform[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)的Marketo Source Connector。
+* 强烈建议实施到Real-time Customer Data Platform[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)的Marketo Source Connector。
 
 ## 实施
 
@@ -144,7 +144,7 @@ B2B商机管理的重点是客户及其商机。 技术层旨在支持代表这�
 
 1. 定义将代表您帐户和潜在客户业务视图的XDM架构。
 
-   第一步，您定义并创建一个体验架构，该架构旨在满足B2B用例需求并涵盖数据源（批量处理和实时处理）。 此设计应呈现企业思考客户实体和人员实体以及您希望支持的用例的方式。 若要将架构设为B2B架构，该架构应遵循[RTCDP B2B架构文档](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)中提供的结构。
+   第一步，您定义并创建一个体验架构，该架构旨在满足B2B用例需求并涵盖数据源（批量处理和实时处理）。 此设计应呈现企业思考客户实体和人员实体以及您希望支持的用例的方式。 若要将架构设为B2B架构，该架构应遵循[RTCDP B2B架构文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/tutorials/relationship-b2b)中提供的结构。
 
    一个有用的做法是从图表中获取实体名称，并通过以相同的方式标记这些实体来识别架构中的这些实体。 请注意，某些架构需要特定键（如`sourceKey`）才能在RTCDP B2B中运行。  请使用加速器脚本以获得最佳起点：
 
@@ -155,7 +155,7 @@ B2B商机管理的重点是客户及其商机。 技术层旨在支持代表这�
 
 1. 配置Marketo Engage连接器，包括Marketo Engage到XDM结构的映射。
 
-   准备好XDM结构和字段后，继续使用连接器将Marketo Engage连接到RTCDP，连接器会向Marketo Engage和Journey Optimizer B2B提供数据。 首先，组织从Marketo Engage到RTCDP类的字段映射。 使用[连接器文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo#field-mapping-from-marketo-engage-to-xdm)中的信息来识别要包含在Marketo Engage实施中的字段。
+   准备好XDM结构和字段后，继续使用连接器将Marketo Engage连接到RTCDP，连接器会向Marketo Engage和Journey Optimizer B2B提供数据。 首先，组织从Marketo Engage到RTCDP类的字段映射。 使用[连接器文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo#field-mapping-from-marketo-engage-to-xdm)中的信息来识别要包含在Marketo Engage实施中的字段。
 
 ### 购买组配置
 
@@ -163,7 +163,7 @@ B2B商机管理的重点是客户及其商机。 技术层旨在支持代表这�
 
    启用“客户→受众→浏览”页面中的“计划所有受众”选项，以启用“帐户受众”。 （如果此方法不起作用，则必须创建一个客户配置文件区段，以便能够创建客户受众。）
 
-   要创建区段，请按照[帐户受众文档](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/account-audience-overview)中的步骤操作。 在定义受众时，关键活动是将区段生成器与您标识为帐户受众关键的数据字段结合使用。
+   要创建区段，请按照[帐户受众文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/account-audiences/account-audience-overview)中的步骤操作。 在定义受众时，关键活动是将区段生成器与您标识为帐户受众关键的数据字段结合使用。
 
    在此阶段，您知道帐户通过RTCDP吸引注意力，并用于购买组的构建块。
 
@@ -171,21 +171,21 @@ B2B商机管理的重点是客户及其商机。 技术层旨在支持代表这�
 
    在每个购买组中，确定代表个人在要处理的组中担任的角色的角色。 例如，您可以使用&#x200B;_决策者_、_影响者_&#x200B;和&#x200B;_冠军_。 还定义此角色在购买组中的权重和条件。
 
-   [角色模板文档](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)介绍了此过程以及如何定义特殊条件。
+   [角色模板文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)介绍了此过程以及如何定义特殊条件。
 
 1. 定义解决方案兴趣。
 
    对解决方案感兴趣是一种指示购买组关注您的营销活动和策略的方式。
 
-   要定义解决方案兴趣，请按照[解决方案兴趣文档](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)中的步骤操作。 请记住，您使用它来将购买组与组织中的销售计划相匹配。
+   要定义解决方案兴趣，请按照[解决方案兴趣文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)中的步骤操作。 请记住，您使用它来将购买组与组织中的销售计划相匹配。
 
 1. 配置购买组。
 
    准备好购买组的构建块后，为解决方案兴趣和帐户受众配置购买组，使其具有包含正确帐户成员的角色模板。 使用此配置，将解决方案兴趣分配给您标识的角色模板，并在特定产品的销售成功中为每个角色分配权重。
 
-   要构建购买群，请按照[购买群文档](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)中的步骤操作。
+   要构建购买群，请按照[购买群文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)中的步骤操作。
 
-   在此阶段，您已准备好[创建一个历程](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview#get-started-with-a-journey)并开始与客户受众合作，以建立购买群体，并让他们符合解决方案兴趣的条件。
+   在此阶段，您已准备好[创建一个历程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/account-journeys/journey-overview#get-started-with-a-journey)并开始与客户受众合作，以建立购买群体，并让他们符合解决方案兴趣的条件。
 
 ### Audience Activation
 
@@ -195,7 +195,7 @@ B2B商机管理的重点是客户及其商机。 技术层旨在支持代表这�
 
    除了电子邮件和表单填写活动之外，Journey Optimizer B2B edition还提供LinkedIn广告功能，以增加您帐户的广度，并通过扩展帐户潜在客户范围和增加营销活动的影响力来支持完成购买群的工作。
 
-   若要使用LinkedIn付费媒体与未完成或未充分参与购买组的帐户通信，请展开或与帐户受众互动，然后使用[LinkedIn帐户匹配受众功能](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences)通过帐户匹配受众生成LinkedIn广告受众。
+   若要使用LinkedIn付费媒体与未完成或未充分参与购买组的帐户通信，请展开或与帐户受众互动，然后使用[LinkedIn帐户匹配受众功能](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences)通过帐户匹配受众生成LinkedIn广告受众。
 
 1. 激活购买群组的受众。
 
