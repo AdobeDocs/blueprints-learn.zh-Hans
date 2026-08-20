@@ -1,11 +1,11 @@
 ---
 title: 购买基于群组的营销和历程管理
 description: 了解如何开发帐户级别的历程，使潜在客户有资格加入购买组，以提高B2B营销效率。
-solution: Journey Optimizer, Real-Time Customer Data Platform
+solution: Journey Optimizer B2B Edition, Real-Time Customer Data Platform
 exl-id: 2bf57f67-80c8-4368-98d2-05706427772d
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: c0a9cba3d6a55fae8f149f7ca479625458cd1b22
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1572'
 ht-degree: 1%
 
 ---
@@ -99,9 +99,9 @@ B2B组织面临一个根本性的挑战：购买决策很少由一个人做出�
 
 以下资源提供了有关本指南中引用的应用程序和功能的更多详细信息。
 
-### [!DNL AJO B2B Edition]
+### [!DNL Journey Optimizer B2B Edition]
 
-- [AJO B2B edition文档主页](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/guide-overview)
+- [Journey Optimizer B2B edition文档主页](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/guide-overview)
 - [购买群组概述](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
 - [解决方案兴趣](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
 - [角色模板](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
@@ -109,14 +109,14 @@ B2B组织面临一个根本性的挑战：购买决策很少由一个人做出�
 - [购买群组阶段](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
 - [帐户历程概述](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
 - [帐户历程节点](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
-- [销售警报电子邮件](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sales-alert-email)
-- [CRM销售分析](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/crm-sales-insights)
+- [销售警报电子邮件](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/journey-content/email-channel/sales-alert-email)
+- [CRM销售分析](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/accounts/buying-groups/incrm-insights)
 
 ### B2B电子邮件和内容
 
-- [B2B电子邮件创作](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/email-authoring)
-- [AJO B2B中的短信创作](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sms-authoring)
-- [用于电子邮件创作的AI助手](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/ai-assistant-emails)
+- [B2B电子邮件创作](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/journey-content/email-channel/email-authoring)
+- [B2B短信创作](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/journey-content/sms-authoring)
+- [为电子邮件创作生成内容](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/journey-content/email-channel/ai-assistant-emails)
 
 ### B2B分析和功能板
 
