@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 简介
 
-在本最终模块中，您将使用Adobe Journey Optimizer中的模拟工具通过&#x200B;**两个条件变体**测试电子邮件。
+在本最终模块中，您将使用Adobe Journey Optimizer中的模拟工具通过&#x200B;**两个条件变体**&#x200B;测试电子邮件。
 这样，您可以预览不同客户将会如何体验您的个性化消息，确保在启动营销活动之前保持准确性。
 
 您将使用工具包中的示例测试配置文件文件&#x200B;**sample.csv**。
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 在模拟面板中![上载输入数据按钮](assets/content-simulation-click-upload-input-data.png)
 
-3. 选择&#x200B;**sample.csv**&#x200B;并单击&#x200B;**继续**。
+&#x200B;3. 选择&#x200B;**sample.csv**&#x200B;并单击&#x200B;**继续**。
 
 ![选择sample.csv并单击“继续”](assets/content-simulation-choose-sample-csv-continue.png)
 
@@ -72,7 +72,7 @@ AJO会根据上传的用户档案并排显示这两个变体。
 
 如果向上滚动，您现在还会看到带有名称的个性化字段，如下所示。
 
-为变体1](assets/content-simulation-personalized-name-field-variant-1.png)中的Alex显示的![个性化名称字段
+为变体1![&#128279;](assets/content-simulation-personalized-name-field-variant-1.png)中的Alex显示的个性化名称字段
 
 - **Jason** →看到&#x200B;**变体2** （年龄低于40岁）
 
@@ -80,7 +80,7 @@ AJO会根据上传的用户档案并排显示这两个变体。
 
 还有杰森的全名。 太酷了！
 
-在变体2](assets/content-simulation-personalized-name-field-variant-2.png)中为Jason显示了![个性化全名字段
+在变体2![&#128279;](assets/content-simulation-personalized-name-field-variant-2.png)中为Jason显示了个性化全名字段
 
 
 

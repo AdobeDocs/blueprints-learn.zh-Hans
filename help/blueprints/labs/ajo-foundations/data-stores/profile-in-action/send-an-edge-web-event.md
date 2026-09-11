@@ -75,16 +75,16 @@ ht-degree: 0%
 
 Postman工具栏中的![请求中的变量选项](assets/send-an-edge-web-event-click-variables-in-request.png)
 
-2. 从页面上的第一步使用&#x200B;**数据流ID**&#x200B;更新&#x200B;**DATASTREAM_CONFIG** **值**。
+&#x200B;2. 从页面上的第一步使用&#x200B;**数据流ID**&#x200B;更新&#x200B;**DATASTREAM_CONFIG** **值**。
 
-使用数据流ID ](assets/send-an-edge-web-event-update-datastream-config-variable.png)更新了![DATASTREAM_CONFIG变量
+使用数据流ID ![&#128279;](assets/send-an-edge-web-event-update-datastream-config-variable.png)更新了DATASTREAM_CONFIG变量
 
-3. **保存**&#x200B;您的更新（ctrl+s或command+s）
-4. 单击环境侧栏右上角的“**X**”以关闭该侧栏
+&#x200B;3. **保存**&#x200B;您的更新（ctrl+s或command+s）
+&#x200B;4. 单击环境侧栏右上角的“**X**”以关闭该侧栏
 
 ![保存后关闭Postman环境侧栏](assets/send-an-edge-web-event-close-environment-sidebar.png)
 
-5. **创建Web事件**&#x200B;请求现已准备就绪，可以发送，因为所有变量现在均为蓝色且在环境中具有值。
+&#x200B;5. **创建Web事件**&#x200B;请求现已准备就绪，可以发送，因为所有变量现在均为蓝色且在环境中具有值。
 
 ![创建填充了所有变量的Web事件请求](assets/send-an-edge-web-event-request-ready-to-send.png)
 

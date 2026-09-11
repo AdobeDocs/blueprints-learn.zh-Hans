@@ -75,7 +75,7 @@ CLI将部署到您的环境文件指向的任何沙盒，因此必须在运行�
 | `SCOPES` | 必须包括Experience Platform API和Adobe Journey Optimizer API范围&#x200B;<br />*（例如cjm.suppression\_service.client.delete、cjm.suppression\_service.client.all、openid、session、AdobeID、read\_organizations、additional\_info.projectedProductContext）* |
 | `SANDBOX_NAME` | 您定位的沙盒 — 必须为空，且类型为`dev` |
 
-3. 保存并关闭文件
+&#x200B;3. 保存并关闭文件
 
 >[!NOTE]
 >
@@ -118,7 +118,6 @@ CLI将部署到您的环境文件指向的任何沙盒，因此必须在运行�
 >[!NOTE]
 >
 >使用步骤6，而不是分别运行步骤4和5 — 它一次执行相同的操作，为您处理传播等待。
-
 > [!NOTE]
 >
 >上述所有等待时间均由CLI自动检查。 如果您过早执行步骤，它会阻止您执行操作，并告诉您需要等待多长时间。

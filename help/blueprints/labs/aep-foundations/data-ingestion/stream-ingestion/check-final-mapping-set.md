@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 直通映射
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >在继续之前，请确保最终映射与下面显示的内容相匹配。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 | concat(date\_part(&quot;mm&quot;， date(birth\_Date， &quot;yyyy-M-d&quot;))。toString()， &quot;-&quot;， date\_part(&quot;dd&quot;， date(birth\_Date， &quot;yyyy-M-d&quot;))。toString()) | person.birthDayAndMonth |
 | date\_part(&quot;yyyy&quot;，date(birth\_Date，&quot;yyyy-M-d&quot;)) | person.birthYear |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >在继续之前，请确保最终映射与下面显示的内容匹配
 

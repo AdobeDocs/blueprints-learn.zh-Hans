@@ -41,7 +41,7 @@ ht-degree: 0%
 
 
 
-2. 将下面的文本复制并粘贴到短信消息正文中。
+&#x200B;2. 将下面的文本复制并粘贴到短信消息正文中。
 
 ```none
 Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrade to one of the new iPhone 17 models. Shop online or come into a store today to take advantage of this offer.
@@ -53,7 +53,7 @@ Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrad
 
 
 
-3. 使用左边栏中的&#x200B;**Target属性**&#x200B;选项，更新下面名为&#x200B;**phone\_make**&#x200B;和&#x200B;**phone\_model**&#x200B;的消息中的两个字段。  完成后，您的消息应与屏幕快照匹配。
+&#x200B;3. 使用左边栏中的&#x200B;**Target属性**&#x200B;选项，更新下面名为&#x200B;**phone\_make**&#x200B;和&#x200B;**phone\_model**&#x200B;的消息中的两个字段。  完成后，您的消息应与屏幕快照匹配。
 
 ![带有手机代号和型号的最终短信消息](assets/compose-the-sms-final-message-text.png)
 
@@ -63,13 +63,13 @@ Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrad
 
 
 
-4. 单击编辑器上的&#x200B;**验证**，确保没有验证错误，如果成功，请单击&#x200B;**保存**&#x200B;按钮
+&#x200B;4. 单击编辑器上的&#x200B;**验证**，确保没有验证错误，如果成功，请单击&#x200B;**保存**&#x200B;按钮
 
 ![消息编辑器中的“验证”和“保存”按钮](assets/compose-the-sms-validate-and-save.png)
 
 
 
-5. 完成返回到工作流画布后，单击&#x200B;**后退箭头(\&lt;-)**
+&#x200B;5. 完成返回到工作流画布后，单击&#x200B;**后退箭头(\&lt;-)**
 
 ![返回工作流画布的后退箭头](assets/compose-the-sms-return-to-canvas.png)
 

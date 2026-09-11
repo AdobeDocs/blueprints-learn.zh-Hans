@@ -63,7 +63,7 @@ ht-degree: 0%
 
 
 
-3. 按如下方式填写目标的配置详细信息：
+&#x200B;3. 按如下方式填写目标的配置详细信息：
 
 - **名称** -> `Streaming DEP Webhook - [Your Initials]`
 - **描述** -> `[your webhook endpoint you copied above]`

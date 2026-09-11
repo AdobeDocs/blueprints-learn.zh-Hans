@@ -47,7 +47,7 @@ ht-degree: 0%
 
 1. 此时应会显示一个新窗口，其中显示了文件夹中的所有API调用。 将&#x200B;**延迟**&#x200B;设置为&#x200B;**500毫秒**，然后单击&#x200B;**运行**&#x200B;按钮。
 
-在单击“运行”](assets/automate-with-apis-execute-automation-dialog.png "“执行自动化”")之前，![“执行自动化”对话框的延迟设置为500毫秒
+在单击“运行”![&#128279;](assets/automate-with-apis-execute-automation-dialog.png "“执行自动化”")之前，“执行自动化”对话框的延迟设置为500毫秒
 
 
 
@@ -65,6 +65,6 @@ ht-degree: 0%
 
 ![使用postman创建的两个数据集：前缀与自动架构匹配](assets/automate-with-apis-datasets-created-in-ui.png "自动化数据集")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >恭喜！  您刚刚自动部署身份命名空间、字段组、架构、身份/关系描述符，并为用户档案启用架构并利用架构生成数据集

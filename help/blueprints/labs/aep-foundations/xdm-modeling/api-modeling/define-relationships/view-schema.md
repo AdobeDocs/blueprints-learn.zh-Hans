@@ -32,15 +32,15 @@ ht-degree: 0%
 
 
 
-2. 在请求的URL中，将`<replace me>`替换为您在上一节[创建架构](../build-schema/create-schema.md)中保存的`$meta:altId`，如下所示
+&#x200B;2. 在请求的URL中，将`<replace me>`替换为您在上一节[创建架构](../build-schema/create-schema.md)中保存的`$meta:altId`，如下所示
 
 将带有meta:altId的![Step 4请求附加到URL](assets/view-schema-final-step-4-request.png "Final Step 4请求")
 
 
 
-3. 使用`Save`按钮保存请求
+&#x200B;3. 使用`Save`按钮保存请求
 
-4. 单击`Send`按钮执行请求
+&#x200B;4. 单击`Send`按钮执行请求
 
 您现在应该会看到`200 OK`响应，并且您应该能够浏览到您创建的架构的结尾，以通过XDM JSON结构的镜头查看身份
 

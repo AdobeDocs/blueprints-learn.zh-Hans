@@ -51,7 +51,7 @@ ht-degree: 0%
 1. 查找&#x200B;**dep： Orders (stream)**&#x200B;的记录，单击数据流链接
 1. 在右边栏中，复制&#x200B;**数据流ID**&#x200B;值并将其保存到以后可引用的位置
 
-> [!WARNING]
+&#x200B;> [!WARNING]
 >
 >单击行上的空格。  不要单击蓝色链接！
 
@@ -80,7 +80,7 @@ ht-degree: 0%
    - **绿色** —> `Dataflow ID`
      - 值类似于GUID（不以http开头）
 
-> [!CAUTION]
+&#x200B;> [!CAUTION]
 >
 >尚未执行！
 

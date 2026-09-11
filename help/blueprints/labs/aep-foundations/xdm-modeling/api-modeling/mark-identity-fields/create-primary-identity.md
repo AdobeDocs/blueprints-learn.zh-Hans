@@ -55,6 +55,6 @@ ht-degree: 0%
 
 ![201在成功创建主标识描述符后创建了响应](assets/create-primary-identity-201-created-response.png "已成功创建主标识描述符")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >恭喜！  您刚刚在架构中创建了一个主身份描述符

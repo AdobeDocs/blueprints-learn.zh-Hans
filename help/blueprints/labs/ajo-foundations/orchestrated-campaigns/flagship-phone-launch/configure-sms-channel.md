@@ -60,18 +60,18 @@ Twilio供应商的![SMS API凭据字段](assets/configure-sms-channel-enter-api-
 
 
 
-2. 单击&#x200B;**创建渠道配置**。
+&#x200B;2. 单击&#x200B;**创建渠道配置**。
 
 ![创建渠道配置按钮](assets/configure-sms-channel-click-create-configuration.png)
 
 
 
-3. 使用下列值填写短信渠道配置设置：
+&#x200B;3. 使用下列值填写短信渠道配置设置：
    - **名称：** `Relational-SMS-Multi-Entity`
    - **频道：** `Mobile Message`
    - **营销操作：** `SMS Targeting`
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >如果您收到错误消息表明用户没有权限，请忽略该权限并继续。
 
@@ -97,20 +97,20 @@ Twilio供应商的![SMS API凭据字段](assets/configure-sms-channel-enter-api-
 
 
 
-2. 确保选中&#x200B;**已启用**&#x200B;复选框
+&#x200B;2. 确保选中&#x200B;**已启用**&#x200B;复选框
 
 ![为编排的活动选中了](assets/configure-sms-channel-enabled-checkbox.png)启用复选框
 
 
 
-3. 在子部分&#x200B;**执行维度**&#x200B;下的下一个部分，请确保按如下方式设置以下内容：
+&#x200B;3. 在子部分&#x200B;**执行维度**&#x200B;下的下一个部分，请确保按如下方式设置以下内容：
    - **根据以下日期传递消息：** `Target + Secondary Dimension`
    - **配置文件目标Dimension：** `dep-rel: Customer Account - customer_id`
    - **辅助Dimension：** `Customer Line`
 
 ![具有目标和辅助维度的执行维度设置](assets/configure-sms-channel-execution-dimension-setup.png)
 
-在执行维度设置“次要Dimension”](assets/configure-sms-channel-secondary-dimension-detail.png "次要Dimension")中，将![次要Dimension设置为客户行
+在执行维度设置“次要Dimension”![&#128279;](assets/configure-sms-channel-secondary-dimension-detail.png "次要Dimension")中，将次要Dimension设置为客户行
 
 >[!NOTE]
 >
@@ -118,13 +118,13 @@ Twilio供应商的![SMS API凭据字段](assets/configure-sms-channel-enter-api-
 
 
 
-4. 在执行地址标题下，确保选择&#x200B;**辅助Dimension**&#x200B;的单选按钮，然后单击&#x200B;**短信执行字段**&#x200B;上的编辑按钮
+&#x200B;4. 在执行地址标题下，确保选择&#x200B;**辅助Dimension**&#x200B;的单选按钮，然后单击&#x200B;**短信执行字段**&#x200B;上的编辑按钮
 
 ![使用编辑字段将执行地址设置为辅助Dimension](assets/configure-sms-channel-execution-address-selection.png)
 
 
 
-5. 在弹出窗口中，单击架构&#x200B;**dep-rel： Customer Line**&#x200B;并选择&#x200B;**移动电话**。
+&#x200B;5. 在弹出窗口中，单击架构&#x200B;**dep-rel： Customer Line**&#x200B;并选择&#x200B;**移动电话**。
 
 dep-rel： Customer Line架构的![架构弹出窗口](assets/configure-sms-channel-customer-line-schema-popup.png)
 
@@ -132,7 +132,7 @@ dep-rel： Customer Line架构的![架构弹出窗口](assets/configure-sms-chan
 
 
 
-6. 确认最终执行详细信息部分与以下内容匹配
+&#x200B;6. 确认最终执行详细信息部分与以下内容匹配
 
 ![与所需设置匹配的最终执行详细信息配置](assets/configure-sms-channel-final-execution-details.png)
 
@@ -146,7 +146,7 @@ dep-rel： Customer Line架构的![架构弹出窗口](assets/configure-sms-chan
 
 
 
-2. 在渠道配置清单页面上，请确保状态显示为&#x200B;**活动**，然后再继续
+&#x200B;2. 在渠道配置清单页面上，请确保状态显示为&#x200B;**活动**，然后再继续
 
 ![渠道配置状态显示为“活动”](assets/configure-sms-channel-active-status.png)
 
@@ -156,7 +156,7 @@ dep-rel： Customer Line架构的![架构弹出窗口](assets/configure-sms-chan
 
 
 
-3. 当状态变为“活动”时，表示您已完成！
+&#x200B;3. 当状态变为“活动”时，表示您已完成！
 
 >[!TIP]
 >

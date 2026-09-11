@@ -61,13 +61,13 @@ ht-degree: 0%
 
 数据流配置屏幕上的![添加服务按钮](assets/create-datastream-add-service-button.png)
 
-2. 配置以下项目：
+&#x200B;2. 配置以下项目：
    - **服务** -> `Adobe Experience Platform`
    - **事件数据集** -> `dep: Web`
    - **配置文件数据集** -> `dep: Customer Account`
    - **选择复选框** -> `Offer Decisioning`
    - **选择复选框** -> `Adobe Journey Optimizer`
-3. 完成后，单击&#x200B;**保存**
+&#x200B;3. 完成后，单击&#x200B;**保存**
 
 ![带有事件和配置文件数据集字段的Adobe Experience Platform服务配置对话框](assets/create-datastream-configure-aep-service.png)
 

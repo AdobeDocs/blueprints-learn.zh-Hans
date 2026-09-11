@@ -26,7 +26,7 @@ ht-degree: 10%
 
 ![创建渠道配置](assets/configure-for-profile-create-configuration-button.png)
 
-3. 在创建向导中设置以下值：
+&#x200B;3. 在创建向导中设置以下值：
    - **名称：** `Relational-Email`
    - **频道：** `Email`
    - **营销操作：** `Email Targeting`
@@ -101,27 +101,27 @@ ht-degree: 10%
 
 ![配置编排的营销活动](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
 
-2. 在执行维下，配置以下内容：
+&#x200B;2. 在执行维下，配置以下内容：
    - **为每**&#x200B;发送一封邮件`Target Dimension `
    - **配置文件目标Dimension：** `dep-rel: Customer Account - customer_id`
 
 ![执行维度](assets/configure-for-relational-execution-dimension-target-settings.png)
 
-3. 在执行地址下，配置以下内容：
+&#x200B;3. 在执行地址下，配置以下内容：
    - **Source：** `Target Dimension`
    - **交货地址：** `click on the Edit button`
 
 ![定位Dimension](assets/configure-for-relational-execution-address-source-target-dimension.png)
 
-4. 在弹出窗口中，单击文件夹&#x200B;**dep-rel：客户帐户**
+&#x200B;4. 在弹出窗口中，单击文件夹&#x200B;**dep-rel：客户帐户**
 
 ![配置传递地址](assets/configure-for-relational-customer-account-folder.png)
 
-5. 选择&#x200B;**电子邮件**&#x200B;并单击&#x200B;**选择**&#x200B;按钮
+&#x200B;5. 选择&#x200B;**电子邮件**&#x200B;并单击&#x200B;**选择**&#x200B;按钮
 
 ![电子邮件作为传递地址](assets/configure-for-relational-select-email-as-delivery-address.png)
 
-6. 完成后，您的最终执行详细信息类似于下面的屏幕快照
+&#x200B;6. 完成后，您的最终执行详细信息类似于下面的屏幕快照
 
 ![执行维度已配置](assets/configure-for-relational-execution-details-final-result.png)
 

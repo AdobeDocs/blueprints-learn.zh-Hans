@@ -24,7 +24,7 @@ ht-degree: 0%
 1. 安装应用程序
 1. 首次启动时接受最终用户许可协议
 
-Azure Storage Explorer](assets/overview-end-user-license-agreement-screen.png "最终用户许可协议屏幕中的![最终用户许可协议屏幕")
+Azure Storage Explorer&rbrack;(assets/overview-end-user-license-agreement-screen.png "最终用户许可协议屏幕中的!&lbrack;最终用户许可协议屏幕")
 
 
 ## 使用Experience Platform配置Azure存储资源管理器
@@ -86,6 +86,6 @@ Azure Storage Explorer](assets/overview-end-user-license-agreement-screen.png "�
 
 ![Azure Storage Explorer显示成功连接的数据登录区帐户](assets/overview-successfully-connected-account.png)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >恭喜！  您已成功配置Azure存储资源管理器

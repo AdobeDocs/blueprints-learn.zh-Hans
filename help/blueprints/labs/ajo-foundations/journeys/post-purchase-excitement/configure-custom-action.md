@@ -35,7 +35,7 @@ ht-degree: 0%
 
 右上角的![创建操作按钮](assets/configure-custom-action-click-create-action-button.png)
 
-2. 在显示的配置面板中，更新以下基本值，如下所示：
+&#x200B;2. 在显示的配置面板中，更新以下基本值，如下所示：
    - **名称**： `GetShippingDetails`
    - **描述**： `Call third party to get Shipping ETA and Tracking Number`
    - **操作类型**： `Custom`
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 
 
-2. **复制并粘贴**&#x200B;以下有效负载到有效负载框中
+&#x200B;2. **复制并粘贴**&#x200B;以下有效负载到有效负载框中
 
 ```json
 {
@@ -94,7 +94,7 @@ ht-degree: 0%
 >这与上面的Mockaroo端点应返回的JSON结构相同：
 
 
-3. 将显示响应有效负载。 单击&#x200B;**保存**&#x200B;按钮。
+&#x200B;3. 将显示响应有效负载。 单击&#x200B;**保存**&#x200B;按钮。
 
 使用“保存”按钮显示的![响应有效负载](assets/configure-custom-action-save-response-payload.png)
 
@@ -112,13 +112,13 @@ ht-degree: 0%
 
 
 
-2. 单击&#x200B;**查询参数**&#x200B;选项卡并将`orderId`的值更新为&#x200B;**123**
+&#x200B;2. 单击&#x200B;**查询参数**&#x200B;选项卡并将`orderId`的值更新为&#x200B;**123**
 
 ![orderId值设置为123](assets/configure-custom-action-set-orderid-query-parameter.png)的查询参数选项卡
 
 
 
-3. 单击&#x200B;**发送按钮**，如果一切运行良好，您应该会看到响应代码200和有效负载预览，如下所示……
+&#x200B;3. 单击&#x200B;**发送按钮**，如果一切运行良好，您应该会看到响应代码200和有效负载预览，如下所示……
 
 发送测试请求后![响应代码200和有效负载预览](assets/configure-custom-action-response-200-preview.png)
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 
 
-4. 单击&#x200B;**取消**&#x200B;按钮以返回“操作”屏幕，然后在右上边栏中向上滚动并单击&#x200B;**保存**&#x200B;按钮
+&#x200B;4. 单击&#x200B;**取消**&#x200B;按钮以返回“操作”屏幕，然后在右上边栏中向上滚动并单击&#x200B;**保存**&#x200B;按钮
 
 >[!TIP]
 >

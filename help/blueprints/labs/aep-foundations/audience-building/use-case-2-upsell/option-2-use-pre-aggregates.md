@@ -37,15 +37,15 @@ ht-degree: 0%
 
 
 
-3. 在配置文件中搜索计划名称并将其添加(XDM Individual Profile > Devbc > Plan Details > Plan Name)。 选择不等于“Ultimate”
+&#x200B;3. 在配置文件中搜索计划名称并将其添加(XDM Individual Profile > Devbc > Plan Details > Plan Name)。 选择不等于“Ultimate”
 
 ![选择计划名称不等于Ultimate](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-4. 提供描述。  验证评估方法是流式的。
+&#x200B;4. 提供描述。  验证评估方法是流式的。
 
-5. 将受众另存为“*计费数据使用率高但无Ultimate计划(Agg)*”
+&#x200B;5. 将受众另存为“*计费数据使用率高但无Ultimate计划(Agg)*”
 
 >[!NOTE]
 >

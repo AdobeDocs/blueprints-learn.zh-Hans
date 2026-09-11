@@ -66,6 +66,6 @@ _dep.account.createDate. Details: Unable to convert
 Created on 2023-09-24T10:19:58Z to schema type DATE_TIME
 ```
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >此错误并不严重，因为此错误仅会导致映射期间出现警告。 数据流运行不会因此而失败，因此本实验不会修复此错误。

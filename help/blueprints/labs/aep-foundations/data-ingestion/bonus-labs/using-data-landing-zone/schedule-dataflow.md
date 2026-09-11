@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ![数据流屏幕显示具有无运行状态的新数据流](assets/schedule-dataflow-dataflows-screen-no-runs-status.png "数据流源屏幕")
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >您需要持续刷新页面才能看到状态更新，因为后端不会将更新推送到UI。
 
