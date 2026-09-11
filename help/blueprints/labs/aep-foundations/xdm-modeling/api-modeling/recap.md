@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459564/?quality=12&learn=on)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >首先恭喜你！ 通过API构建事物并不容易，但了解其工作方式将有助于您从总体上了解系统。 好极了！
 

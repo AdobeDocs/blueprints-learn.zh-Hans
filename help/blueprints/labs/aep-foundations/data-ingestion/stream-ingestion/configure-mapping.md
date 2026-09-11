@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 配置映射
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >仅当您成功完成批量摄取实验室时，才应遵循此部分。  否则，请按照在批处理摄取实验室中找到的[映射数据](../batch-ingestion/mapping-data/overview.md)步骤操作。
 

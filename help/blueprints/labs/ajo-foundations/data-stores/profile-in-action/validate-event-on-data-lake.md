@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 验证事件
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >最终，数据将显示在数据湖中。  **这可能需要60分钟**。  我们知道已为配置文件启用数据集，因此事件将创建配置文件片段。
 >
@@ -30,16 +30,16 @@ ht-degree: 0%
 
 ![在查询节中创建查询屏幕](assets/validate-event-on-data-lake-create-query.png)
 
-2. 复制此SQL并将其粘贴到查询中
+&#x200B;2. 复制此SQL并将其粘贴到查询中
 
 ```sql
 SELECT identityMap['email'][0].id, * FROM dep_web
 where identityMap['email'][0].id = 'henry.creel@emailsim.io'
 ```
 
-3. **运行**&#x200B;查询
+&#x200B;3. **运行**&#x200B;查询
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >**记住**：最终数据将显示在数据湖中。  **这可能需要60分钟**。
 >

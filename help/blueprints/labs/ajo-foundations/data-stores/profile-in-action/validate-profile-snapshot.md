@@ -24,9 +24,9 @@ ht-degree: 0%
 
 在“数据管理”部分中的![数据集浏览选项卡](assets/validate-profile-snapshot-datasets-browse-tab.png)
 
-2. 在&#x200B;**搜索框**&#x200B;中，键入`profile`，然后&#x200B;**单击标题为“Profile-Snapshot...”的行**。   在右边栏中&#x200B;**复制表名称**&#x200B;并将其粘贴到可在下一步中引用的位置。
+&#x200B;2. 在&#x200B;**搜索框**&#x200B;中，键入`profile`，然后&#x200B;**单击标题为“Profile-Snapshot...”的行**。   在右边栏中&#x200B;**复制表名称**&#x200B;并将其粘贴到可在下一步中引用的位置。
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >如果您没有看到“Profile-Snapshot...”，则可能必须清除任何筛选器 数据集。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 配置文件快照数据集的![搜索结果](assets/validate-profile-snapshot-dataset-search.png)
 
-3. 导航回查询编辑器，将以下SQL复制并粘贴到编辑器中
+&#x200B;3. 导航回查询编辑器，将以下SQL复制并粘贴到编辑器中
 
 ```sql
 select
@@ -59,15 +59,15 @@ from
   limit 50
 ```
 
-4. 更新表名和电子邮件地址，如下所述：
+&#x200B;4. 更新表名和电子邮件地址，如下所述：
    - **表名：**&#x200B;第14行复制并粘贴您在`from`和`where`之间的配置文件快照表的表名
    - **电子邮件地址：**&#x200B;现在，在第19行上键入您在网站事件中发送的相同电子邮件地址（除非您更改了此地址，否则我们使用henry.creel\@emailsim.io）。
      - 目前，我们已将此注释掉（请保持原样）。 当查询运行而你查找henry时，你找不到他。
 
 ![具有要更新的配置文件快照表名称和电子邮件地址的查询编辑器](assets/validate-profile-snapshot-update-query-table-name.png)
 
-5. 单击左上角的箭头&#x200B;**运行**&#x200B;查询
-6. 结果如下（但如果你找henry，你就找不到他）
+&#x200B;5. 单击左上角的箭头&#x200B;**运行**&#x200B;查询
+&#x200B;6. 结果如下（但如果你找henry，你就找不到他）
 
 ![查询结果显示快照中的流式处理配置文件不匹配](assets/validate-profile-snapshot-query-results-no-match.png)
 

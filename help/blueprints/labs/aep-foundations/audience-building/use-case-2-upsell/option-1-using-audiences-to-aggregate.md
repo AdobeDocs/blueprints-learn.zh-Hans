@@ -34,7 +34,7 @@ ht-degree: 0%
 
 
 
-2. 单击右下角规则中的“椭圆”，然后选择“聚合”。 单击“Select an Attribute（选择属性）”并键入“Usage（用法）”。 选择“计费数据使用情况”字段。
+&#x200B;2. 单击右下角规则中的“椭圆”，然后选择“聚合”。 单击“Select an Attribute（选择属性）”并键入“Usage（用法）”。 选择“计费数据使用情况”字段。
 
 
 
@@ -42,21 +42,21 @@ ht-degree: 0%
 
 
 
-在属性列表](assets/option-1-using-audiences-to-aggregate-select-billing-data-usage-field--2.png)中选择了![计费数据使用情况字段
+在属性列表![&#128279;](assets/option-1-using-audiences-to-aggregate-select-billing-data-usage-field--2.png)中选择了计费数据使用情况字段
 
 
 
-3. 将“等于”更改为“大于” ，并将值更改为140。
+&#x200B;3. 将“等于”更改为“大于” ，并将值更改为140。
 
-4. 将事件卡上方的时间从“任何时间”更改为“最近”，将值更改为6，并将天更改为月
+&#x200B;4. 将事件卡上方的时间从“任何时间”更改为“最近”，将值更改为6，并将天更改为月
 
 ![将事件时间窗口更改为过去6个月](assets/option-1-using-audiences-to-aggregate-change-time-to-last-6-months.png)
 
 
 
-5. 提供描述并保存。
+&#x200B;5. 提供描述并保存。
 
-6. 为受众指定名称“*计费使用总和> 140 GB（过去6个月）*”
+&#x200B;6. 为受众指定名称“*计费使用总和> 140 GB（过去6个月）*”
 
 >[!NOTE]
 >
@@ -83,13 +83,13 @@ ht-degree: 0%
 
 
 
-2. 单击副本并编辑它。  单击事件卡并将总和更改为平均值。 将大于更改为大于或等于，并将值更改为20。 将伪代码复制到描述中。
+&#x200B;2. 单击副本并编辑它。  单击事件卡并将总和更改为平均值。 将大于更改为大于或等于，并将值更改为20。 将伪代码复制到描述中。
 
 ![将伪代码复制到受众描述中](assets/option-1-using-audiences-to-aggregate-copy-pseudo-code-into-description.png)
 
 
 
-3. 为受众指定名称“*计费使用平均> 20 GB（过去6个月）*”
+&#x200B;3. 为受众指定名称“*计费使用平均> 20 GB（过去6个月）*”
 
 ## Audience #3 — 没有最终电话计划
 
@@ -108,15 +108,15 @@ ht-degree: 0%
 
 
 
-5. 单击“受众” — >“Experience Platform”。 将“计费使用总和”>“140 GB”和“计费使用平均”>= 20 GB拖动到“计划名称”旁边。
+&#x200B;5. 单击“受众” — >“Experience Platform”。 将“计费使用总和”>“140 GB”和“计费使用平均”>= 20 GB拖动到“计划名称”旁边。
 
 ![将计费使用情况受众拖动到计划名称旁边](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)
 
 
 
-6. 将伪代码复制到描述中
+&#x200B;6. 将伪代码复制到描述中
 
-7. 选中“可以流”。 **它不能是流式传输**。 进行一些更改：
+&#x200B;7. 选中“可以流”。 **它不能是流式传输**。 进行一些更改：
 
 >[!NOTE]
 >
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 
 
-8. 将&#x200B;**计划名称（计划名称）**&#x200B;替换为： XDM个人资料> Devbc >计划详细信息> **计划名称**
+&#x200B;8. 将&#x200B;**计划名称（计划名称）**&#x200B;替换为： XDM个人资料> Devbc >计划详细信息> **计划名称**
 
 ![将计划名称（计划名称）替换为非规范的计划名称字段](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
@@ -142,9 +142,9 @@ ht-degree: 0%
 
 
 
-9. 验证您现在是否可以将其另存为流式传输。 将受众另存为“计费数据使用率较高，但没有Ultimate计划&#x200B;*”*
+&#x200B;9. 验证您现在是否可以将其另存为流式传输。 将受众另存为“计费数据使用率较高，但没有Ultimate计划&#x200B;*”*
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >虽然此评估方法是流式的，但它基于两个批量受众进行受众资格鉴定。
 

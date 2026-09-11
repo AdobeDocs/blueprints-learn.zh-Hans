@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本实验结束后，您将能够安装Postman，配置基础工作区和环境，以便能够进行未来实验所需的后续api调用。
 
-> [!IMPORTANT]
+&#x200B;> [!IMPORTANT]
 >
 >本课程中的各个实验室均需要Postman。  即使您已安装Postman，也需要完成本实验以确保已安装并正确设置环境文件和API收集。
 

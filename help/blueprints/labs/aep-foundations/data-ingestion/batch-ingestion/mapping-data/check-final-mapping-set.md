@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 检查最终映射集
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >如果您来自流式摄取实验室，请单击以下链接以继续该实验室的下一步：
 >
@@ -51,7 +51,7 @@ ht-degree: 0%
 | shipping\_state | shippingAddress.state |
 | shipping\_street\_address | shippingAddress.street1 |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >在继续之前，请确保最终映射与下面显示的内容相匹配。
 
@@ -65,6 +65,6 @@ ht-degree: 0%
 | concat(date\_part(&quot;month&quot;， date(birth\_Date，&quot;M/d/yyyy&quot;))。toString()， &quot;-&quot;， date\_part(&quot;day&quot;， date(birth\_Date，&quot;M/d/yyyy&quot;))。toString()) | person.birthDayAndMonth |
 | date\_part(&quot;yyyy&quot;，date(birth\_Date，&quot;M/d/yyyy&quot;)) | person.birthYear |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >在继续之前，请确保最终映射与下面显示的内容匹配

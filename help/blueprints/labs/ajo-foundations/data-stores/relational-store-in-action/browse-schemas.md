@@ -44,20 +44,20 @@ ht-degree: 0%
 
 
 
-2. 单击&#x200B;**选择架构**
-3. 从弹出窗口中，选择`dep-rel: Customer Account`，然后单击&#x200B;**确认**
+&#x200B;2. 单击&#x200B;**选择架构**
+&#x200B;3. 从弹出窗口中，选择`dep-rel: Customer Account`，然后单击&#x200B;**确认**
 
 ![选择架构弹出窗口，相关说明：已选择客户帐户](assets/browse-schemas-select-schema-popup.png)
 
 
 
-4. 在ERD上，单击&#x200B;**3个点**&#x200B;并选择&#x200B;**显示相关实体**
+&#x200B;4. 在ERD上，单击&#x200B;**3个点**&#x200B;并选择&#x200B;**显示相关实体**
 
 ![在ERD上下文菜单中显示相关实体选项](assets/browse-schemas-show-related-entities.png)
 
 
 
-5. 查看ERD以及与dep-rel：客户帐户直接相关的所有表。 或者，您可以将ERD下载为PNG文件。
+&#x200B;5. 查看ERD以及与dep-rel：客户帐户直接相关的所有表。 或者，您可以将ERD下载为PNG文件。
 
 ![实体关系图显示与客户帐户相关的表](assets/browse-schemas-erd-diagram.png)
 

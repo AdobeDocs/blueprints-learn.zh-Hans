@@ -50,7 +50,7 @@ Adobe Journey Optimizer的&#x200B;**品牌**&#x200B;功能可帮助您在所有�
 
 ![从工具包文件夹中打开了Connection 5G品牌指南PDF](assets/brand-management-open-brand-guideline-pdf.png)
 
-2. 请查看文档以了解用于Connection 5G的内容：
+&#x200B;2. 请查看文档以了解用于Connection 5G的内容：
    - 语调
    - 颜色和视觉样式
    - 编写样式和消息传送示例
@@ -65,35 +65,35 @@ Adobe Journey Optimizer的&#x200B;**品牌**&#x200B;功能可帮助您在所有�
 
 “品牌”部分中的![创建品牌按钮](assets/brand-management-click-create-brand-button.png)
 
-3. 在&#x200B;**名称**&#x200B;字段中，输入`Connection 5G Brand Guidelines`
-4. 在上传区域中，拖放&#x200B;**Connection5g Brand Guidelines.pdf**&#x200B;文件（或单击&#x200B;**选择文件**&#x200B;并从您的计算机中选择它）。
+&#x200B;3. 在&#x200B;**名称**&#x200B;字段中，输入`Connection 5G Brand Guidelines`
+&#x200B;4. 在上传区域中，拖放&#x200B;**Connection5g Brand Guidelines.pdf**&#x200B;文件（或单击&#x200B;**选择文件**&#x200B;并从您的计算机中选择它）。
 
 ![将Connection5g Brand Guidelines PDF拖放到上载区域](assets/brand-management-upload-brand-guideline-pdf.png)
 
-5. 单击&#x200B;**创建品牌**&#x200B;开始提取。
+&#x200B;5. 单击&#x200B;**创建品牌**&#x200B;开始提取。
 
 AJO分析文件时会显示进度屏幕。 这可能需要几分钟的时间，具体取决于文档的大小。
 
 AJO分析品牌指南文件时显示的![进度屏幕](assets/brand-management-extraction-progress-screen.png)
 
-6. 提取完成后：
+&#x200B;6. 提取完成后：
    - 顶部将显示一个绿色的确认栏。
    - 系统会自动将您重定向到品牌配置屏幕。
    - 内容和可视化创建标准现在会根据上传的品牌指南文件自动填充。
 
 提取完成后填充了![品牌配置屏幕](assets/brand-management-brand-configuration-populated.png)
 
-7. 单击&#x200B;**发布**&#x200B;按钮发布品牌指南。
+&#x200B;7. 单击&#x200B;**发布**&#x200B;按钮发布品牌指南。
 
 品牌指南的![发布按钮](assets/brand-management-click-publish-button.png)
 
-8. 按“发布”按钮进行确认。
+&#x200B;8. 按“发布”按钮进行确认。
 
 ![确认品牌指南的“发布”对话框](assets/brand-management-confirm-publish-dialog.png)
 
 页面底部会显示一个绿色的确认栏，指示您的品牌已成功发布。
 
-9. 再次单击主品牌页面，此时您会看到您的品牌已上线（用绿色圆点显示，标签为&#x200B;**&quot;Live&quot;**）。
+&#x200B;9. 再次单击主品牌页面，此时您会看到您的品牌已上线（用绿色圆点显示，标签为&#x200B;**&quot;Live&quot;**）。
 
 ![品牌列表显示具有绿色实时状态标签的新品牌](assets/brand-management-brand-live-status-label.png)
 
@@ -154,19 +154,19 @@ AJO分析品牌指南文件时显示的![进度屏幕](assets/brand-management-e
 
 ![单击新创建的Connection 5G品牌卡](assets/brand-management-click-created-brand-card.png)
 
-2. 单击&#x200B;**编辑品牌**。 出现确认选项卡；再次单击&#x200B;**编辑品牌**&#x200B;以进行确认。
+&#x200B;2. 单击&#x200B;**编辑品牌**。 出现确认选项卡；再次单击&#x200B;**编辑品牌**&#x200B;以进行确认。
 
 ![编辑品牌按钮和确认选项卡](assets/brand-management-click-edit-brand-button.png)
 
-3. 转到&#x200B;**关于Brand**&#x200B;选项卡。
+&#x200B;3. 转到&#x200B;**关于Brand**&#x200B;选项卡。
 
 ![编辑时导航到“关于品牌”选项卡](assets/brand-management-about-the-brand-tab-edit.png)
 
-4. 找到&#x200B;**指导原则**、**愿景**&#x200B;或类似高级说明的部分。
+&#x200B;4. 找到&#x200B;**指导原则**、**愿景**&#x200B;或类似高级说明的部分。
 
 关于品牌选项卡![指导原则和愿景部分](assets/brand-management-guiding-principles-vision-section.png)
 
-5. 添加以下文本：
+&#x200B;5. 添加以下文本：
 
 **愿景：**
 
@@ -178,7 +178,7 @@ AJO分析品牌指南文件时显示的![进度屏幕](assets/brand-management-e
 
 ![愿景和市场定位文本已添加到品牌](assets/brand-management-vision-market-positioning-added.png)
 
-6. 单击&#x200B;**保存**。 （如果您没有看到&#x200B;**保存**&#x200B;按钮，请先单击&#x200B;**概述**&#x200B;选项卡，然后单击&#x200B;**保存**。）
+&#x200B;6. 单击&#x200B;**保存**。 （如果您没有看到&#x200B;**保存**&#x200B;按钮，请先单击&#x200B;**概述**&#x200B;选项卡，然后单击&#x200B;**保存**。）
 
 >[!TIP]
 >
@@ -193,15 +193,15 @@ AJO分析品牌指南文件时显示的![进度屏幕](assets/brand-management-e
 
 ![已打开“写入样式”选项卡以添加排除规则](assets/brand-management-writing-style-tab-exclusion.png)
 
-2. 确保您位于&#x200B;**品牌通信样式**&#x200B;部分。
+&#x200B;2. 确保您位于&#x200B;**品牌通信样式**&#x200B;部分。
 
 “写入样式”选项卡中的![品牌通信样式部分](assets/brand-management-brand-communication-style-section.png)
 
-3. 在&#x200B;**不要**&#x200B;区域下，单击&#x200B;**加号**&#x200B;图标以添加新规则。
+&#x200B;3. 在&#x200B;**不要**&#x200B;区域下，单击&#x200B;**加号**&#x200B;图标以添加新规则。
 
 在“不使用”区域下添加![加号图标以添加新规则](assets/brand-management-add-donts-rule-plus-icon.png)
 
-4. 按如下方式配置规则：
+&#x200B;4. 按如下方式配置规则：
    - **排除项：** `Be pushy`
 
 >[!NOTE]
@@ -212,15 +212,15 @@ AJO分析品牌指南文件时显示的![进度屏幕](assets/brand-management-e
 
 **元素：**&#x200B;按钮
 
-5. 单击&#x200B;**添加**。
+&#x200B;5. 单击&#x200B;**添加**。
 
 Be pushy排除规则的![添加按钮](assets/brand-management-click-add-rule-button.png)
 
-6. 确认新的Do not规则在列表中显示为`Be pushy`。
+&#x200B;6. 确认新的Do not规则在列表中显示为`Be pushy`。
 
 ![在规则列表中](assets/brand-management-be-pushy-dont-rule-confirmed.png)强调不要确认规则
 
-7. 单击&#x200B;**保存**。
+&#x200B;7. 单击&#x200B;**保存**。
 
 此规则适用于AI助手或作者处理电子邮件按钮复制的任何位置，可使CTA与Connection 5G色调保持一致。
 
@@ -241,13 +241,13 @@ Be pushy排除规则的![添加按钮](assets/brand-management-click-add-rule-bu
 
 右上角的![发布按钮](assets/brand-management-click-publish-top-right.png)
 
-3. 将显示一个确认对话框，说明您将要发布Connection 5G的更新品牌指南。 再次单击&#x200B;**发布**&#x200B;以确认。
+&#x200B;3. 将显示一个确认对话框，说明您将要发布Connection 5G的更新品牌指南。 再次单击&#x200B;**发布**&#x200B;以确认。
 
 ![用于发布更新后的品牌指南的确认对话框](assets/brand-management-confirm-publish-updated-guidelines.png)
 
-4. 等待绿色确认栏出现。
-5. 单击&#x200B;**上一步**&#x200B;以返回品牌列表。
-6. 验证&#x200B;**Connection 5G Brand Guidelines**&#x200B;的新信息卡是否显示，并且状态显示为“实时”且可用。
+&#x200B;4. 等待绿色确认栏出现。
+&#x200B;5. 单击&#x200B;**上一步**&#x200B;以返回品牌列表。
+&#x200B;6. 验证&#x200B;**Connection 5G Brand Guidelines**&#x200B;的新信息卡是否显示，并且状态显示为“实时”且可用。
 
 ![Connection 5G品牌指南卡显示实时状态](assets/brand-management-brand-guidelines-card-live-status.png)
 

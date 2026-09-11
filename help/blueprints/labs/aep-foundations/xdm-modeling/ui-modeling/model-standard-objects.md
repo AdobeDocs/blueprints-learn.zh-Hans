@@ -84,7 +84,7 @@ Adobe Experience Platform中有许多字段组作为标准XDM存在，可供您�
 
 
 
-3. **选中**&#x200B;字段组旁边的复选框，然后单击&#x200B;**添加字段组**&#x200B;按钮
+&#x200B;3. **选中**&#x200B;字段组旁边的复选框，然后单击&#x200B;**添加字段组**&#x200B;按钮
 
 ![选择“人口统计详细信息”字段组以将其添加到您的架构中](assets/model-standard-objects-select-demographic-details-field-group.png "选择“人口统计详细信息”字段组以将其添加到您的架构中")
 

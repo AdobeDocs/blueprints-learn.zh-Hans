@@ -132,10 +132,10 @@ ht-degree: 0%
 
 
 
-2. 使用以下信息更新请求正文
+&#x200B;2. 使用以下信息更新请求正文
 
 - **op** ->` add`
-- **路径** -> `path from previous step +`` the new field name`
+- **路径** -> `path from previous step +`&#x200B;` the new field name`
 - **值** ->
   - **标题** -> `Plan Description`
   - **类型** -> `string`
@@ -151,9 +151,9 @@ ht-degree: 0%
 
 
 
-3. 如果一切正常，请`Save`您的呼叫
+&#x200B;3. 如果一切正常，请`Save`您的呼叫
 
-4. `Execute`执行PATCH的调用
+&#x200B;4. `Execute`执行PATCH的调用
 
 您应会看到`200 OK `响应，现在应会看到字段组中的`planDescription`字段，如下所示：
 

@@ -28,19 +28,19 @@ ht-degree: 0%
 
 
 
-2. 在右边栏中，更新标签以声明以下内容： `Filter out opt'd out lines`
+&#x200B;2. 在右边栏中，更新标签以声明以下内容： `Filter out opt'd out lines`
 
 ![拆分活动标签设置为筛选退出选择退出行](assets/filter-the-lines-set-split-label.png)
 
 
 
-3. 在右边栏中，展开默认区段&#x200B;**子集**&#x200B;部分，然后单击&#x200B;**创建过滤器**&#x200B;按钮
+&#x200B;3. 在右边栏中，展开默认区段&#x200B;**子集**&#x200B;部分，然后单击&#x200B;**创建过滤器**&#x200B;按钮
 
 ![子集部分中的“创建过滤器”按钮](assets/filter-the-lines-create-filter-button.png)
 
 
 
-4. 添加条件以确保您删除所有选择禁用短信消息的客户行，然后单击&#x200B;**确认**。
+&#x200B;4. 添加条件以确保您删除所有选择禁用短信消息的客户行，然后单击&#x200B;**确认**。
 
 ![条件删除选择退出短信的客户行](assets/filter-the-lines-sms-optin-condition.png)
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 
 
-5. 单击右上角的“保存”按钮以保存您所做的工作。  你的画布现在看起来好像\...
+&#x200B;5. 单击右上角的“保存”按钮以保存您所做的工作。  你的画布现在看起来好像\...
 
 保存拆分活动后![工作流画布](assets/filter-the-lines-canvas-after-split-save.png)
 
@@ -66,13 +66,13 @@ ht-degree: 0%
 
 
 
-2. 在右边栏中，单击编辑短信按钮以开始配置短信消息
+&#x200B;2. 在右边栏中，单击编辑短信按钮以开始配置短信消息
 
 在右边栏中![编辑短信按钮](assets/filter-the-lines-edit-sms-button.png)
 
 
 
-3. 在顶部导航中，单击操作菜单项，然后从短信配置下拉列表中选择您之前创建的渠道。
+&#x200B;3. 在顶部导航中，单击操作菜单项，然后从短信配置下拉列表中选择您之前创建的渠道。
 
 ![短信配置下拉列表显示无结果错误](assets/filter-the-lines-sms-configuration-no-results.png)
 
@@ -112,13 +112,13 @@ ht-degree: 0%
 
 
 
-2. 在工作流画布上，单击筛选器和短信活动之间的&#x200B;**+** **图标**，然后选择&#x200B;**更改维度**。
+&#x200B;2. 在工作流画布上，单击筛选器和短信活动之间的&#x200B;**+** **图标**，然后选择&#x200B;**更改维度**。
 
 ![在筛选器和短信之间添加更改维度活动](assets/filter-the-lines-add-change-dimension.png)
 
 
 
-3. 在右侧，使用下列信息更新变更维度：
+&#x200B;3. 在右侧，使用下列信息更新变更维度：
    - **标签：** `Convert Line to Account`
    - **新目标维度：**`dep-rel: Customer Account`
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 
 
-4. 单击画布右上角的&#x200B;**保存**&#x200B;按钮以保存您所做的工作。 完成后，您的工作流现在将如下所示……
+&#x200B;4. 单击画布右上角的&#x200B;**保存**&#x200B;按钮以保存您所做的工作。 完成后，您的工作流现在将如下所示……
 
 添加更改维度后![工作流画布](assets/filter-the-lines-workflow-after-change-dimension.png)
 
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 
 
-2. 在顶部导航中，单击&#x200B;**操作**&#x200B;菜单项，然后从短信配置下拉列表中选择您之前创建的渠道。
+&#x200B;2. 在顶部导航中，单击&#x200B;**操作**&#x200B;菜单项，然后从短信配置下拉列表中选择您之前创建的渠道。
 
 ![短信配置已成功显示所选渠道](assets/filter-the-lines-sms-configuration-selected.png)
 

@@ -26,9 +26,9 @@ ht-degree: 0%
 
 下载文件 — [AJO Bootcamp (Labs)。postman_collection.json](assets/ajo-bootcamp-labs.postman_collection.json)
 
-2. 与以前一样，单击&#x200B;**导入**&#x200B;按钮。
-3. 将&#x200B;**AJO Bootcamp (Labs)。postman\_collection.json**&#x200B;文件的本地URL粘贴到导入模式文本框中，或将其拖放到导入对话框中。  这会触发自动导入。
-4. 导入过程完成后，单击左侧导航栏中的&#x200B;**收藏集**，展开&#x200B;**AJO Bootcamp (Labs)**&#x200B;文件夹，即可看到新导入的收藏集
+&#x200B;2. 与以前一样，单击&#x200B;**导入**&#x200B;按钮。
+&#x200B;3. 将&#x200B;**AJO Bootcamp (Labs)。postman\_collection.json**&#x200B;文件的本地URL粘贴到导入模式文本框中，或将其拖放到导入对话框中。  这会触发自动导入。
+&#x200B;4. 导入过程完成后，单击左侧导航栏中的&#x200B;**收藏集**，展开&#x200B;**AJO Bootcamp (Labs)**&#x200B;文件夹，即可看到新导入的收藏集
 
 ![验证postman集合导入](assets/import-api-collection-verify-collection-imported.png)
 
@@ -54,11 +54,11 @@ ht-degree: 0%
 
 ![Postman请求显示以红色突出显示的环境变量，因为未选择任何环境](assets/import-api-collection-environment-variables-shown-red.png "验证postman环境变量是否为红色")
 
-3. 单击右上角的&#x200B;**环境下拉列表**，然后选择&#x200B;**AJO引导营**&#x200B;环境。
+&#x200B;3. 单击右上角的&#x200B;**环境下拉列表**，然后选择&#x200B;**AJO引导营**&#x200B;环境。
 
 ![选择正确的Postman环境](assets/import-api-collection-select-postman-environment.png)
 
-4. 选择正确的环境后，您会看到EDGE\_REGION变量现在变为较浅的蓝色。 这表示变量现在具有选定环境的值。 DATASTREAM\_CONFIG变量保持红色，因为您尚未创建数据流，因此您还没有该环境变量的值。 将鼠标悬停在EDGE\_REGION上会显示环境值的值。
+&#x200B;4. 选择正确的环境后，您会看到EDGE\_REGION变量现在变为较浅的蓝色。 这表示变量现在具有选定环境的值。 DATASTREAM\_CONFIG变量保持红色，因为您尚未创建数据流，因此您还没有该环境变量的值。 将鼠标悬停在EDGE\_REGION上会显示环境值的值。
 
 ![Postman EDGE_REGION变量现已填充且不再显示为红色](assets/import-api-collection-environment-works-with-collection.png "验证Postman环境是否可与收藏集配合使用")
 

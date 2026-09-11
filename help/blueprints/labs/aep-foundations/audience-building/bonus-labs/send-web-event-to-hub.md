@@ -39,7 +39,7 @@ ht-degree: 0%
 1. 导航到左边栏中的&#x200B;**源**，然后单击顶部导航中的&#x200B;**帐户**
 1. 搜索&#x200B;**dep： HTTP API \[raw]**，突出显示该行并复制&#x200B;**流端点**&#x200B;的值并将其保存到以后可以引用的位置
 
-帐户并复制其流端点](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep： HTTP API \[raw]&quot;)
+帐户并复制其流端点&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep： HTTP API \[raw]&quot;)
 
 ## 查找Web数据流ID
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 完成后，您的最终API请求应该如下所示
 
-> [!CAUTION]
+&#x200B;> [!CAUTION]
 >
 >尚未执行！
 

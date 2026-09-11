@@ -25,9 +25,9 @@ ht-degree: 0%
 
 ![突出显示“新建属性”按钮的事件转发部分](assets/create-property-new-property-button.png "创建新的事件转发属性")
 
-3. 使用以下公式更新属性名称： `Event Forward Property SB + [sandbox number]`。 您的最终名称类似于：**事件转发属性SB01**
+&#x200B;3. 使用以下公式更新属性名称： `Event Forward Property SB + [sandbox number]`。 您的最终名称类似于：**事件转发属性SB01**
 
-4. 完成后单击&#x200B;**保存**
+&#x200B;4. 完成后单击&#x200B;**保存**
 
 ![事件转发属性名称字段已填写并突出显示“保存”按钮](assets/create-property-name-property-form.png)
 
@@ -39,17 +39,17 @@ ht-degree: 0%
 
 
 
-2. 您应该会看到如下所示的屏幕。  单击&#x200B;**扩展**。
+&#x200B;2. 您应该会看到如下所示的屏幕。  单击&#x200B;**扩展**。
 
 ![事件转发属性概述屏幕，突出显示“扩展”选项卡](assets/create-property-click-extensions-tab.png)
 
 
 
-3. 通过执行以下操作安装Adobe Cloud Connector扩展：
+&#x200B;3. 通过执行以下操作安装Adobe Cloud Connector扩展：
 
-4. 单击顶部导航中的&#x200B;**目录**
-5. 单击&#x200B;**Adobe Cloud Connector**&#x200B;卡
-6. 在右边栏中，单击&#x200B;**安装**&#x200B;按钮
+&#x200B;4. 单击顶部导航中的&#x200B;**目录**
+&#x200B;5. 单击&#x200B;**Adobe Cloud Connector**&#x200B;卡
+&#x200B;6. 在右边栏中，单击&#x200B;**安装**&#x200B;按钮
 
 ![带有Adobe Cloud Connector卡和安装按钮的扩展目录突出显示](assets/create-property-install-cloud-connector-extension.png)
 
@@ -73,13 +73,13 @@ ht-degree: 0%
 
 
 
-2. 单击&#x200B;**新建数据元素**&#x200B;按钮
+&#x200B;2. 单击&#x200B;**新建数据元素**&#x200B;按钮
 
 显示“创建新数据元素”按钮的![数据元素页面](assets/create-property-create-new-data-element-button.png "创建新数据元素")
 
 
 
-3. 使用以下信息配置新数据元素：
+&#x200B;3. 使用以下信息配置新数据元素：
 
 | 元素类型 | 要配置的值 |
 | ----------------- | ------------------ |
@@ -91,13 +91,13 @@ ht-degree: 0%
 
 
 
-4. 单击按钮&#x200B;**打开编辑器**&#x200B;以添加以下自定义代码：
+&#x200B;4. 单击按钮&#x200B;**打开编辑器**&#x200B;以添加以下自定义代码：
 
 ![自定义代码的“打开编辑器”按钮突出显示的数据元素设置](assets/create-property-open-custom-code-editor.png "打开编辑器")
 
 
 
-5. 将自定义代码添加到编辑器中（如这样）并保存
+&#x200B;5. 将自定义代码添加到编辑器中（如这样）并保存
 
 ```none
 var xdm = arc?.event || '';
@@ -114,7 +114,7 @@ return xdm;
 
 
 
-6. 单击&#x200B;**保存**&#x200B;按钮以保存数据元素。
+&#x200B;6. 单击&#x200B;**保存**&#x200B;按钮以保存数据元素。
 
 ![突出显示了“保存”按钮的数据元素编辑器](assets/create-property-save-data-element-button.png)
 
@@ -142,17 +142,17 @@ return xdm;
 
 
 
-2. 然后单击&#x200B;**创建新规则**
+&#x200B;2. 然后单击&#x200B;**创建新规则**
 
 显示“创建新规则”按钮的![规则页面](assets/create-property-new-rule-button.png)
 
 
 
-3. 使用以下公式更新规则名称： `"EF Rule SB" + [your sandbox number]` （即EF规则SB01）。 您可以在浏览器窗口的右上角找到沙盒编号，如下所示\...
+&#x200B;3. 使用以下公式更新规则名称： `"EF Rule SB" + [your sandbox number]` （即EF规则SB01）。 您可以在浏览器窗口的右上角找到沙盒编号，如下所示\...
 
 ![浏览器窗口右上角显示规则名称中使用的沙盒编号](assets/create-property-sandbox-number-location.png)
 
-4. 完成后单击&#x200B;**保存**
+&#x200B;4. 完成后单击&#x200B;**保存**
 
 >[!NOTE]
 >
@@ -162,7 +162,7 @@ return xdm;
 
 
 
-5. 通过单击(+)号向规则中添加操作以添加新操作
+&#x200B;5. 通过单击(+)号向规则中添加操作以添加新操作
 
 ![突出显示加号图标的规则编辑器以添加新操作](assets/create-property-add-action-button.png "添加操作")
 
@@ -181,7 +181,7 @@ return xdm;
 
 
 
-3. 使用以下信息配置您的操作：
+&#x200B;3. 使用以下信息配置您的操作：
 
 | 设置 | 值 |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -190,7 +190,7 @@ return xdm;
 | 方法 | 帖子 |
 | URL | 使用您在设置流目标时使用的相同webhook URL。 您可以在浏览器中打开新选项卡并导航到“目标” -> “浏览”找到它 |
 | 正文 | 原始 |
-| 正文数据 | \{ &quot;data&quot;： \{ &quot;event&quot;： &quot;\{\{数据对象\}\}&quot; } |
+| 正文数据 | \&lbrace; &quot;data&quot;： \{ &quot;event&quot;： &quot;\{\{数据对象\}\}&quot; } |
 
 >[!NOTE]
 >
@@ -208,7 +208,7 @@ return xdm;
 
 
 
-4. 完成后，您应该会看到您的操作已添加到规则中。 单击&#x200B;**保存**&#x200B;以继续。
+&#x200B;4. 完成后，您应该会看到您的操作已添加到规则中。 单击&#x200B;**保存**&#x200B;以继续。
 
 ![规则编辑器显示已配置的操作，并突出显示“保存”按钮](assets/create-property-save-rule-button.png "保存您的规则")
 
@@ -228,13 +228,13 @@ return xdm;
 
 
 
-2. 单击“添加库”按钮&#x200B;****
+&#x200B;2. 单击“添加库”按钮&#x200B;**&#x200B;**
 
 ![用“添加库”按钮突出显示的发布流页面](assets/create-property-add-library-button.png "添加库")
 
 
 
-3. 使用以下信息配置库：
+&#x200B;3. 使用以下信息配置库：
 
 - 名称 — > **EF库**
 - 环境 — > **开发**
@@ -247,6 +247,6 @@ return xdm;
 
 
 
-4. 然后，您应该会看到开发内部版本变为绿色，表明它已经可以使用
+&#x200B;4. 然后，您应该会看到开发内部版本变为绿色，表明它已经可以使用
 
 ![发布流显示开发生成状态已变为绿色并可以使用](assets/create-property-development-build-ready.png)

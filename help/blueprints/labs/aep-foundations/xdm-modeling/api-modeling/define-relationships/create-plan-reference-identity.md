@@ -24,7 +24,7 @@ ht-degree: 0%
 
 
 
-2. 在API调用的正文中更新以下属性。
+&#x200B;2. 在API调用的正文中更新以下属性。
 
 - 将`xdm:sourceSchema`属性的值更新为您从[创建架构](../build-schema/create-schema.md)步骤保存的`Customer Account`架构的`$id`
 - 从`Customer Account`架构中将`xdm:sourceProperty`的值更新为`planID`字段的路径
@@ -53,9 +53,9 @@ ht-degree: 0%
 
 
 
-3. 继续使用`Save`按钮之前保存您的请求
+&#x200B;3. 继续使用`Save`按钮之前保存您的请求
 
-4. 通过单击`Send`按钮执行API
+&#x200B;4. 通过单击`Send`按钮执行API
 
 您现在应会看到如下的`201 Created`响应
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Postman安装
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >本课程中的各个实验室均需要Postman。  即使您已安装Postman，也需要通过本实验来确保您已安装并正确设置环境文件和API收集。
 

@@ -28,14 +28,14 @@ ht-degree: 0%
 
 
 
-2. 在左侧导航边栏中，选择&#x200B;**营销活动**
-3. 然后单击右上角的按钮&#x200B;**创建营销活动**
+&#x200B;2. 在左侧导航边栏中，选择&#x200B;**营销活动**
+&#x200B;3. 然后单击右上角的按钮&#x200B;**创建营销活动**
 
 在营销活动导航中![创建营销活动按钮](assets/create-an-orchestrated-campaign-click-create-campaign.png)
 
 
 
-4. 在显示的模式窗口中，选择&#x200B;**Orchestration - Marketing**&#x200B;并单击&#x200B;**Confirm**
+&#x200B;4. 在显示的模式窗口中，选择&#x200B;**Orchestration - Marketing**&#x200B;并单击&#x200B;**Confirm**
 
 ![选择“编排 — 营销”并单击“确认”](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ![Campaign设置已填写名称和合并策略](assets/create-an-orchestrated-campaign-settings-filled.png)
 
-2. 单击&#x200B;**保存**&#x200B;按钮继续。
+&#x200B;2. 单击&#x200B;**保存**&#x200B;按钮继续。
 
 
 

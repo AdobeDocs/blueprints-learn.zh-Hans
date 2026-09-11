@@ -30,7 +30,7 @@ ht-degree: 0%
 
 
 
-2. 单击“受众成员资格”选项卡。  它将为&#x200B;**空白**。
+&#x200B;2. 单击“受众成员资格”选项卡。  它将为&#x200B;**空白**。
 
 Edge配置文件上的![空受众成员资格选项卡](assets/validate-profile-on-edge-empty-audience-membership-tab.png)
 

@@ -86,19 +86,19 @@ ht-degree: 0%
 
 左侧导航中包含Assets选项的![内容管理部分](assets/building-content-fragments-content-management-assets-nav.png)
 
-2. 单击“Assets管理”部分下的&#x200B;**Assets**。
+&#x200B;2. 单击“Assets管理”部分下的&#x200B;**Assets**。
 
 Assets管理部分下的![Assets选项](assets/building-content-fragments-assets-under-assets-management.png)
 
-3. 通过单击&#x200B;**“创建文件夹”**&#x200B;按钮创建文件夹。
+&#x200B;3. 通过单击&#x200B;**“创建文件夹”**&#x200B;按钮创建文件夹。
 
 在Assets区域中![创建文件夹按钮](assets/building-content-fragments-click-create-folder-button.png)
 
-4. 提供您的名字和姓氏之类的姓名。 例如 Nish\_Pithia\_LabAssets（您可以记住的某个内容）
+&#x200B;4. 提供您的名字和姓氏之类的姓名。 例如 Nish\_Pithia\_LabAssets（您可以记住的某个内容）
 
 ![用您的名字和姓氏命名新资源文件夹](assets/building-content-fragments-name-asset-folder.png)
 
-5. **创建新片段：**&#x200B;在“内容管理”下，单击&#x200B;**片段**&#x200B;并创建新片段。
+&#x200B;5. **创建新片段：**&#x200B;在“内容管理”下，单击&#x200B;**片段**&#x200B;并创建新片段。
 
    内容管理下的![片段选项用于创建新片段](assets/building-content-fragments-click-fragments-create-new.png)
 
@@ -112,35 +112,35 @@ Assets管理部分下的![Assets选项](assets/building-content-fragments-assets
 
    ![标头片段名称、描述和可视化片段类型字段](assets/building-content-fragments-fragment-name-type-details.png)
 
-6. 单击右上方的&#x200B;**创建按钮**。
+&#x200B;6. 单击右上方的&#x200B;**创建按钮**。
 
 新片段对话框右上角的![创建按钮](assets/building-content-fragments-click-create-button-top-right.png)
 
 这将打开一个空白片段创建者屏幕。
 
-7. 单击“结构”下的1:1列，然后拖到画布上，如下所示。 （请单击下面的图像查看动画图形）
+&#x200B;7. 单击“结构”下的1:1列，然后拖到画布上，如下所示。 （请单击下面的图像查看动画图形）
 
 ![将1:1列结构拖动到片段画布上的动画演示](assets/building-content-fragments-drag-1-1-columns-structure.gif)
 
-8. 接下来，将“**image**”拖动到刚刚添加的1:1行上
+&#x200B;8. 接下来，将“**image**”拖动到刚刚添加的1:1行上
 
 ![将图像组件拖动到1:1行](assets/building-content-fragments-drag-image-onto-row.png)
 
-9. 上传您提供的徽标图像。 单击&#x200B;**“导入媒体”按钮**
+&#x200B;9. 上传您提供的徽标图像。 单击&#x200B;**“导入媒体”按钮**
 
 ![导入媒体按钮以上传徽标图像](assets/building-content-fragments-click-import-media-button.png)
 
-10. **上传徽标：**&#x200B;从图像的Toolkit文件夹上传徽标(*C5G-Logo.png*)，然后单击“下一步”。
+&#x200B;10. **上传徽标：**&#x200B;从图像的Toolkit文件夹上传徽标(*C5G-Logo.png*)，然后单击“下一步”。
 
 ![从Toolkit文件夹中选择C5G-Logo.png以上传](assets/building-content-fragments-upload-logo-select-file.png)
 
 ![选择徽标上传后单击“下一步”](assets/building-content-fragments-upload-logo-click-next.png)
 
-11. 选择您已创建的&#x200B;**资产文件夹**，然后单击&#x200B;**导入**。 该文件将保存在您的文件夹中。
+&#x200B;11. 选择您已创建的&#x200B;**资产文件夹**，然后单击&#x200B;**导入**。 该文件将保存在您的文件夹中。
 
 ![选择已创建的资产文件夹并单击“导入”](assets/building-content-fragments-select-asset-folder-import.png)
 
-12. 徽标放置正确，但太大，需要调整大小。 要调整徽标的大小，请更新其属性。 单击&#x200B;**样式选项卡**&#x200B;并通过拖动滑块将宽度设置为40%，如下所示。
+&#x200B;12. 徽标放置正确，但太大，需要调整大小。 要调整徽标的大小，请更新其属性。 单击&#x200B;**样式选项卡**&#x200B;并通过拖动滑块将宽度设置为40%，如下所示。
 
 >[!NOTE]
 >
@@ -150,15 +150,15 @@ Assets管理部分下的![Assets选项](assets/building-content-fragments-assets
 
 ![样式选项卡宽度滑块设置为40%以调整徽标大小](assets/building-content-fragments-resize-logo-width-slider.png)
 
-13. 单击&#x200B;**“保存”**&#x200B;并保存您的片段。 在确认时，您会收到绿色条通知。
+&#x200B;13. 单击&#x200B;**“保存”**&#x200B;并保存您的片段。 在确认时，您会收到绿色条通知。
 
 保存片段后![绿色确认栏](assets/building-content-fragments-save-fragment-confirmation.png)
 
-14. 保存的片段处于草稿模式。 在使用它之前，您需要先发布它。 单击“**上一步**”按钮。
+&#x200B;14. 保存的片段处于草稿模式。 在使用它之前，您需要先发布它。 单击“**上一步**”按钮。
 
 ![“上一步”按钮以在发布前离开草稿片段](assets/building-content-fragments-click-back-button-draft.png)
 
-15. 单击“**发布**”按钮。 您会看到消息“正在发布片段，这可能需要一些时间。 我们会在完成后通知。” 确认时。 您的片段已准备好用于创建模板。
+&#x200B;15. 单击“**发布**”按钮。 您会看到消息“正在发布片段，这可能需要一些时间。 我们会在完成后通知。” 确认时。 您的片段已准备好用于创建模板。
 
 ![发布按钮和发布片段确认消息](assets/building-content-fragments-click-publish-fragment-button.png)
 

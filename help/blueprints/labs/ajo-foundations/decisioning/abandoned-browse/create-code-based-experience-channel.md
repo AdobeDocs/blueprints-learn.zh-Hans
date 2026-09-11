@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ![已选择JSON格式完成基于代码的体验渠道配置](assets/create-code-based-experience-channel-completed-config.png)
 
-9. 一切看起来正确后，单击右上角的蓝色&#x200B;**提交**&#x200B;按钮。
+&#x200B;9. 一切看起来正确后，单击右上角的蓝色&#x200B;**提交**&#x200B;按钮。
 
 >[!TIP]
 >

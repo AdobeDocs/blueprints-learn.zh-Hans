@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**尚未执行调用……1}**
+>**尚未执行调用……1&rbrace;**
 
 1. 单击`XDM Schema Lab -> Create Schema`文件夹中的`Step 4 - Create Customer Account Schema` API调用。
 
@@ -26,14 +26,14 @@ ht-degree: 0%
 
 
 
-2. 打开调用的正文并查看架构定义方式的结构。 请记住，架构始终仅由一(1)个类以及一个或多个字段组组成。
+&#x200B;2. 打开调用的正文并查看架构定义方式的结构。 请记住，架构始终仅由一(1)个类以及一个或多个字段组组成。
 
-3. 使用以下内容填充架构正文中的`title`和`description`字段：
+&#x200B;3. 使用以下内容填充架构正文中的`title`和`description`字段：
 
 - 标题 — > `Sample Customer Schema - <your sandbox number>`
 - 描述 — > `Sample Customer Schema - <your sandbox number>`
 
-4. 在`$ref`字段中填充您从之前完成的实验室部分保存的`$ids`：[创建自定义字段组](./create-custom-field-groups.md)和[获取配置文件类](./get-profile-class.md)。 您应该为以下每个项目都设置$id：
+&#x200B;4. 在`$ref`字段中填充您从之前完成的实验室部分保存的`$ids`：[创建自定义字段组](./create-custom-field-groups.md)和[获取配置文件类](./get-profile-class.md)。 您应该为以下每个项目都设置$id：
 
 - 类 — > XDM个人资料
 - 字段组 — >人口统计详细信息
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 
 
-5. 请查阅您的最终正文，并确保它类似于以下内容
+&#x200B;5. 请查阅您的最终正文，并确保它类似于以下内容
 
 ![已完成架构请求正文，并填充了标题、描述和所有$ref值](assets/create-schema-example-of-final-body-payload.png "最终正文有效负载示例")
 
