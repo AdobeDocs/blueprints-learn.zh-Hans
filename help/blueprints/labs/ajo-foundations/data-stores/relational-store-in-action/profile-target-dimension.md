@@ -4,7 +4,7 @@ description: 了解如何将关系架构字段标记为身份并创建配置文�
 doc-type: article
 solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 0%
@@ -34,23 +34,23 @@ ht-degree: 0%
 
 1. 单击&#x200B;**应用程序**&#x200B;图标并选择&#x200B;**Journey Optimizer**
 
-已选择Journey Optimizer的![应用图标菜单](assets/profile-target-dimension-navigate-to-journey-optimizer.png)
+   已选择Journey Optimizer的![应用图标菜单](assets/profile-target-dimension-navigate-to-journey-optimizer.png)
 
-&#x200B;2. 单击“数据管理”菜单下的&#x200B;**架构**，并确保已选择&#x200B;**浏览**&#x200B;选项卡。
-&#x200B;3. 搜索名为`dep-rel: Customer Account`的架构
+2. 单击“数据管理”菜单下的&#x200B;**架构**，并确保已选择&#x200B;**浏览**&#x200B;选项卡。
+3. 搜索名为`dep-rel: Customer Account`的架构
 
-![架构搜索dep-rel：客户帐户](assets/profile-target-dimension-search-schema.png)
+   ![架构搜索dep-rel：客户帐户](assets/profile-target-dimension-search-schema.png)
 
-&#x200B;4. 单击架构名称以将其打开，然后单击字段&#x200B;**customer\_id**
+4. 单击架构名称以将其打开，然后单击字段&#x200B;**customer\_id**
 
-已选择customer_id的![架构字段列表](assets/profile-target-dimension-select-customer-id-field.png)
+   已选择customer_id的![架构字段列表](assets/profile-target-dimension-select-customer-id-field.png)
 
-&#x200B;5. 在右边栏中，找到名为&#x200B;**Identity**&#x200B;的复选框，**选中复选框**&#x200B;并选择名为&#x200B;**customerID**&#x200B;的标识命名空间
+5. 在右边栏中，找到名为&#x200B;**Identity**&#x200B;的复选框，**选中复选框**&#x200B;并选择名为&#x200B;**customerID**&#x200B;的标识命名空间
 
-已选中customerID命名空间的![身份复选框](assets/profile-target-dimension-choose-identity-namespace.png)
+   已选中customerID命名空间的![身份复选框](assets/profile-target-dimension-choose-identity-namespace.png)
 
-&#x200B;6. 单击&#x200B;**保存**&#x200B;按钮以保存您的架构。 将显示一条确认消息
-&#x200B;7. 单击左侧边栏中的&#x200B;**取消**&#x200B;按钮或&#x200B;**架构**&#x200B;退出架构UI
+6. 单击&#x200B;**保存**&#x200B;按钮以保存您的架构。 将显示一条确认消息
+7. 单击左侧边栏中的&#x200B;**取消**&#x200B;按钮或&#x200B;**架构**&#x200B;退出架构UI
 
 >[!CAUTION]
 >
@@ -64,35 +64,35 @@ ht-degree: 0%
 
 1. 单击&#x200B;**管理**&#x200B;下的&#x200B;**配置**
 
-![管理菜单，已选择配置](assets/profile-target-dimension-configurations-menu.png)
+   ![管理菜单，已选择配置](assets/profile-target-dimension-configurations-menu.png)
 
-&#x200B;2. 选择&#x200B;**配置文件目标Dimension**&#x200B;并单击&#x200B;**管理**
+2. 选择&#x200B;**配置文件目标Dimension**&#x200B;并单击&#x200B;**管理**
 
-使用“管理”选项![配置Target Dimension配置](assets/profile-target-dimension-manage-configuration.png)
+   使用“管理”选项![配置Target Dimension配置](assets/profile-target-dimension-manage-configuration.png)
 
-&#x200B;3. 配置文件目标Dimension窗格打开，单击&#x200B;**创建**
+3. 配置文件目标Dimension窗格打开，单击&#x200B;**创建**
 
-使用“创建”按钮![配置目标Dimension窗格](assets/profile-target-dimension-create-button.png)
+   使用“创建”按钮![配置目标Dimension窗格](assets/profile-target-dimension-create-button.png)
 
-&#x200B;4. 从下拉列表中选择架构`dep-rel: Customer Account`。
+4. 从下拉列表中选择架构`dep-rel: Customer Account`。
 
->[!NOTE]
->
->标记身份后，架构可能需要几分钟才能显示在此屏幕中。 刷新页面并重复前两个步骤，直到出现方案。
+   >[!NOTE]
+   >
+   >标记身份后，架构可能需要几分钟才能显示在此屏幕中。 刷新页面并重复前两个步骤，直到出现方案。
 
-![使用架构下拉列表创建配置文件目标Dimension表单](assets/profile-target-dimension-select-schema-dropdown.png)
+   ![使用架构下拉列表创建配置文件目标Dimension表单](assets/profile-target-dimension-select-schema-dropdown.png)
 
-&#x200B;5. 对于&#x200B;**标识值**，选择`/customer_id`
+5. 对于&#x200B;**标识值**，选择`/customer_id`
 
-![已选择/customer_id的标识值下拉列表](assets/profile-target-dimension-select-identity-value.png)
+   ![已选择/customer_id的标识值下拉列表](assets/profile-target-dimension-select-identity-value.png)
 
->[!NOTE]
->
->关系架构可以有许多标记为身份的字段，因此这是一个列表框。
+   >[!NOTE]
+   >
+   >关系架构可以有许多标记为身份的字段，因此这是一个列表框。
 
 
 
-&#x200B;6. 单击&#x200B;**保存**&#x200B;按钮以创建配置文件目标Dimension。 然后您会看到该记录。
+6. 单击&#x200B;**保存**&#x200B;按钮以创建配置文件目标Dimension。 然后您会看到该记录。
 
 ![已保存配置文件目标Dimension在列表中的记录](assets/profile-target-dimension-saved-record.png)
 
@@ -108,4 +108,4 @@ ht-degree: 0%
 
 现在，您已看到在架构中导航、将属性标记为身份和创建Profile Target Dimension有多么简单。
 
-如有需要，您可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension)阅读更多内容。
+如有需要，您可以在[此处](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension)阅读更多内容。

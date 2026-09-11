@@ -4,7 +4,7 @@ description: 使用架构注册表API创建将客户帐户架构链接到查找�
 doc-type: article
 solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 1. 单击`XDM Schema Lab -> Create Relationship Descriptors`文件夹中的`Step 2 - Relationship Descriptor Customer Account To Plan` API请求
 
->[!CAUTION]
->
->尚未执行请求
+   >[!CAUTION]
+   >
+   >尚未执行请求
 
-![步骤2 — 规划API请求的关系描述符客户帐户](assets/create-schema-relationship-step-2-descriptor-request.png "步骤2 — 规划的关系描述符客户帐户")
+   ![步骤2 — 规划API请求的关系描述符客户帐户](assets/create-schema-relationship-step-2-descriptor-request.png "步骤2 — 规划的关系描述符客户帐户")
 
 
 
-&#x200B;2. 在API调用的正文中更新以下属性。
+2. 在API调用的正文中更新以下属性。
 
 - 将`xdm:sourceSchema`属性的值设置为您从[创建架构](../build-schema/create-schema.md)实验室步骤中保存的客户帐户架构的`$id`
 - 将`xdm:sourceProperty`的值设置为客户帐户架构中`planID`字段的路径。
@@ -57,9 +57,9 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 继续使用`Save`按钮之前保存您的请求
+3. 继续使用`Save`按钮之前保存您的请求
 
-&#x200B;4. 通过单击`Send`按钮执行API
+4. 通过单击`Send`按钮执行API
 
 您现在应会看到如下的`201 Created`响应
 

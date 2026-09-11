@@ -4,7 +4,7 @@ description: 标记主要和人员标识字段，构建架构关系，为实时�
 doc-type: article
 solution: Experience Platform
 exl-id: 52cfc0d2-ba8c-4f81-9e03-c5c2c5e276b7
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 0%
@@ -140,6 +140,7 @@ XDM个人资料类的![个人资料合并架构视图](assets/configure-for-prof
 >[!NOTE]
 >
 >请注意，显示的架构是沙盒中所有启用配置文件的架构的聚合合并视图。 层级XDM结构中的类似字段会合并在一起，而具有不同名称和/或层级的字段会添加到整体视图中。
-> [!NOTE]
+
+>[!NOTE]
 >
 >只有基于XDM个人资料的类才能在类似命名的字段之间执行合并。

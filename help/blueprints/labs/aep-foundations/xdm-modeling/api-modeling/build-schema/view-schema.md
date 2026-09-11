@@ -4,7 +4,7 @@ description: 在Experience Platform UI中以及通过获取架构API调用查看
 doc-type: article
 solution: Experience Platform
 exl-id: 29302546-46dc-4c97-8fd8-deab6977635c
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 1. 打开浏览器并导航回`Schema -> Browse`部分。
 
->[!NOTE]
->
->刷新UI以查看它，因为您刚刚创建了它，并且需要重新查询架构注册表
+   >[!NOTE]
+   >
+   >刷新UI以查看它，因为您刚刚创建了它，并且需要重新查询架构注册表
 
 2. 搜索架构`Sample Customer Schema - <your sandbox number>`
 

@@ -4,7 +4,7 @@ description: 了解如何在编排的营销活动中使用“构建受众”活�
 doc-type: article
 solution: Experience Platform
 exl-id: 697d3edb-2b63-4038-a934-3587495e17f7
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 0%
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 1. 在画布上单击&#x200B;**+符号**，然后选择&#x200B;**构建受众**&#x200B;活动以将其添加到工作流
 
-![将生成受众活动添加到工作流画布](assets/build-an-audience-add-activity.png)
+   ![将生成受众活动添加到工作流画布](assets/build-an-audience-add-activity.png)
 
 
 
-&#x200B;2. 在右边栏中，您可以看到构建受众属性。 更新标签以声明以下内容： `Active Lines with Apple`
+2. 在右边栏中，您可以看到构建受众属性。 更新标签以声明以下内容： `Active Lines with Apple`
 
 使用Apple将![生成受众标签设置为活动行](assets/build-an-audience-set-label.png)
 
@@ -39,9 +39,9 @@ ht-degree: 0%
 
 1. 单击“定位”维度框中的&#x200B;**搜索图标**
 
-“定位”维度框中的![搜索图标](assets/build-an-audience-search-targeting-dimension.png)
+   “定位”维度框中的![搜索图标](assets/build-an-audience-search-targeting-dimension.png)
 
-&#x200B;2. 在弹出窗口中，搜索并选择名为&#x200B;**dep-rel：客户行**&#x200B;的表，然后单击&#x200B;**确认**&#x200B;按钮。
+2. 在弹出窗口中，搜索并选择名为&#x200B;**dep-rel：客户行**&#x200B;的表，然后单击&#x200B;**确认**&#x200B;按钮。
 
 ![选择dep-rel： Customer Line表并单击“确认”](assets/build-an-audience-select-customer-line-table.png)
 
@@ -61,9 +61,9 @@ ht-degree: 0%
 
 1. 在右边栏中，单击&#x200B;**创建受众**&#x200B;按钮
 
-右边栏中的![创建受众按钮](assets/build-an-audience-click-create-audience.png)
+   右边栏中的![创建受众按钮](assets/build-an-audience-click-create-audience.png)
 
-&#x200B;2. 下一步单击&#x200B;**添加条件**&#x200B;按钮
+2. 下一步单击&#x200B;**添加条件**&#x200B;按钮
 
 ![添加受众定义的条件按钮](assets/build-an-audience-click-add-condition.png)
 
@@ -79,9 +79,9 @@ ht-degree: 0%
    - **属性**： `Active Line`
    - **值**： `true`
 
-![条件1设置为活动行等于true](assets/build-an-audience-condition-active-line-true.png)
+   ![条件1设置为活动行等于true](assets/build-an-audience-condition-active-line-true.png)
 
-&#x200B;2. 单击&#x200B;**刷新**&#x200B;图标以查看条件的合格计数。
+2. 单击&#x200B;**刷新**&#x200B;图标以查看条件的合格计数。
 
 ![刷新图标显示条件1](assets/build-an-audience-condition-1-refresh-count.png)的合格计数为241
 
@@ -95,31 +95,31 @@ ht-degree: 0%
 
 1. 单击&#x200B;**添加条件**&#x200B;按钮，然后单击&#x200B;**>**&#x200B;图标以选择&#x200B;**dep-rel：** **Product \[Lookup]**&#x200B;架构
 
-![通过单击>图标](assets/build-an-audience-select-product-lookup-schema.png)选择dep-rel：产品[查找]架构
+   ![通过单击>图标](assets/build-an-audience-select-product-lookup-schema.png)选择dep-rel：产品[查找]架构
 
 
-&#x200B;2. 查找名为&#x200B;**Make**&#x200B;的字段并单击三个点并选择&#x200B;**值分布**
+2. 查找名为&#x200B;**Make**&#x200B;的字段并单击三个点并选择&#x200B;**值分布**
 
-Make字段的![值分布选项](assets/build-an-audience-make-distribution-of-values.png)
-
-
-
-&#x200B;3. 请注意各种值。 您只想要`Apple`，幸好它没有100个不同的拼写。 单击&#x200B;**Apple字段**&#x200B;以将其选定，然后单击右上角的&#x200B;**选择属性和值按钮**。
-
-使用“选择属性和值”按钮选择的![Apple值](assets/build-an-audience-select-apple-attribute-value.png)
-
->[!NOTE]
->
->这是数据架构师应该使用枚举来设计架构的主要示例。  这样，营销人员就不必手动选择/键入值。  数据架构师的耻辱！
+   Make字段的![值分布选项](assets/build-an-audience-make-distribution-of-values.png)
 
 
 
-&#x200B;4. `Make`字段连同下面显示的条件一起自动添加。
+3. 请注意各种值。 您只想要`Apple`，幸好它没有100个不同的拼写。 单击&#x200B;**Apple字段**&#x200B;以将其选定，然后单击右上角的&#x200B;**选择属性和值按钮**。
+
+   使用“选择属性和值”按钮选择的![Apple值](assets/build-an-audience-select-apple-attribute-value.png)
+
+   >[!NOTE]
+   >
+   >这是数据架构师应该使用枚举来设计架构的主要示例。  这样，营销人员就不必手动选择/键入值。  数据架构师的耻辱！
+
+
+
+4. `Make`字段连同下面显示的条件一起自动添加。
    - **运算符：** `Equal to`
    - **值：** `Apple`
    - **区分大小写：** `Enabled`
 
-&#x200B;5. 单击&#x200B;**计算图标**，结果为85。
+5. 单击&#x200B;**计算图标**，结果为85。
 
 ![条件2计算计数85](assets/build-an-audience-condition-2-final-count.png)
 
@@ -133,15 +133,15 @@ Make字段的![值分布选项](assets/build-an-audience-make-distribution-of-va
 
 1. 单击在标题下的右边栏中找到的&#x200B;**计算图标**（目标配置文件）以获取受众规模的准确估计值。 您将&#x200B;**65**&#x200B;视为&#x200B;**最终计数**。
 
-![显示最终受众规模为65的“计算”图标](assets/build-an-audience-calculate-final-audience-size.png)
+   ![显示最终受众规模为65的“计算”图标](assets/build-an-audience-calculate-final-audience-size.png)
 
->[!NOTE]
->
->请注意每个单独条件如何返回不同的数字（条件#1 —> 241和条件#2 —> 85），但最终受众规模是两个条件中较小的。  这是因为AND运算符。
+   >[!NOTE]
+   >
+   >请注意每个单独条件如何返回不同的数字（条件#1 —> 241和条件#2 —> 85），但最终受众规模是两个条件中较小的。  这是因为AND运算符。
 
 
 
-&#x200B;2. 如果您看到&#x200B;**65**&#x200B;的最终计数，请单击屏幕右上方的&#x200B;**确认**&#x200B;按钮，然后单击右上方的&#x200B;**保存**&#x200B;按钮以保存您所做的工作。
+2. 如果您看到&#x200B;**65**&#x200B;的最终计数，请单击屏幕右上方的&#x200B;**确认**&#x200B;按钮，然后单击右上方的&#x200B;**保存**&#x200B;按钮以保存您所做的工作。
 
 
 

@@ -4,7 +4,7 @@ description: 将客户帐户架构的简单和计算字段映射与预期的最�
 doc-type: article
 solution: Experience Platform
 exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 检查最终映射集
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >如果您来自流式摄取实验室，请单击以下链接以继续该实验室的下一步：
 >
@@ -51,7 +51,7 @@ ht-degree: 0%
 | shipping\_state | shippingAddress.state |
 | shipping\_street\_address | shippingAddress.street1 |
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >在继续之前，请确保最终映射与下面显示的内容相匹配。
 
@@ -65,6 +65,6 @@ ht-degree: 0%
 | concat(date\_part(&quot;month&quot;， date(birth\_Date，&quot;M/d/yyyy&quot;))。toString()， &quot;-&quot;， date\_part(&quot;day&quot;， date(birth\_Date，&quot;M/d/yyyy&quot;))。toString()) | person.birthDayAndMonth |
 | date\_part(&quot;yyyy&quot;，date(birth\_Date，&quot;M/d/yyyy&quot;)) | person.birthYear |
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >在继续之前，请确保最终映射与下面显示的内容匹配

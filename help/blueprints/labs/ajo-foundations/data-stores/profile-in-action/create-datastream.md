@@ -4,7 +4,7 @@ description: 了解如何使用Adobe Experience Platform、Offer Decisioning和J
 doc-type: article
 solution: Experience Platform
 exl-id: 37873340-476a-4303-886d-de4835bba8df
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 0%
@@ -58,15 +58,15 @@ ht-degree: 0%
 
 1. 单击屏幕中间出现的蓝色&#x200B;**添加服务**&#x200B;按钮
 
-数据流配置屏幕上的![添加服务按钮](assets/create-datastream-add-service-button.png)
+   数据流配置屏幕上的![添加服务按钮](assets/create-datastream-add-service-button.png)
 
-&#x200B;2. 配置以下项目：
+2. 配置以下项目：
    - **服务** -> `Adobe Experience Platform`
    - **事件数据集** -> `dep: Web`
    - **配置文件数据集** -> `dep: Customer Account`
    - **选择复选框** -> `Offer Decisioning`
    - **选择复选框** -> `Adobe Journey Optimizer`
-&#x200B;3. 完成后，单击&#x200B;**保存**
+3. 完成后，单击&#x200B;**保存**
 
 ![带有事件和配置文件数据集字段的Adobe Experience Platform服务配置对话框](assets/create-datastream-configure-aep-service.png)
 

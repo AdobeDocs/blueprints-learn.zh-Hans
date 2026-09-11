@@ -4,7 +4,7 @@ description: 运行Postman收藏集，一次性自动创建架构、字段组、
 doc-type: article
 solution: Experience Platform
 exl-id: a490f93f-19da-4de3-81c8-4569c49c5354
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -30,29 +30,29 @@ ht-degree: 0%
 
 1. 在Postman中，导航到&#x200B;**XDM架构实验室**&#x200B;文件夹中的&#x200B;**使用API自动化**&#x200B;文件夹
 
-在Postman的XDM架构实验室文件夹内![使用API实现自动化](assets/automate-with-apis-postman-automation-folder.png)
+   在Postman的XDM架构实验室文件夹内![使用API实现自动化](assets/automate-with-apis-postman-automation-folder.png)
 
 
 
 1. 单击“**API自动化**”文件夹，然后在工作区中单击“**运行**”按钮
 
->[!NOTE]
->
->运行按钮位于Postman工作区的右上角
+   >[!NOTE]
+   >
+   >运行按钮位于Postman工作区的右上角
 
-![Postman工作区右上角的“运行”按钮用于“使用API自动处理”文件夹](assets/automate-with-apis-click-folder-run-button.png "单击“运行”文件夹")
+   ![Postman工作区右上角的“运行”按钮用于“使用API自动处理”文件夹](assets/automate-with-apis-click-folder-run-button.png "单击“运行”文件夹")
 
 
 
 1. 此时应会显示一个新窗口，其中显示了文件夹中的所有API调用。 将&#x200B;**延迟**&#x200B;设置为&#x200B;**500毫秒**，然后单击&#x200B;**运行**&#x200B;按钮。
 
-在单击“运行”![&#128279;](assets/automate-with-apis-execute-automation-dialog.png "“执行自动化”")之前，“执行自动化”对话框的延迟设置为500毫秒
+   在单击“运行”](assets/automate-with-apis-execute-automation-dialog.png "“执行自动化”")之前，![“执行自动化”对话框的延迟设置为500毫秒
 
 
 
 1. 您可以看到API调用开始按顺序执行，完成后，您应该会看到32个通过的测试。
 
-![自动运行成功，32个测试通过](assets/automate-with-apis-successful-automation-32-passed-tests.png "自动运行成功")
+   ![自动运行成功，32个测试通过](assets/automate-with-apis-successful-automation-32-passed-tests.png "自动运行成功")
 
 
 
@@ -64,6 +64,6 @@ ht-degree: 0%
 
 ![使用postman创建的两个数据集：前缀与自动架构匹配](assets/automate-with-apis-datasets-created-in-ui.png "自动化数据集")
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >恭喜！  您刚刚自动部署身份命名空间、字段组、架构、身份/关系描述符，并为用户档案启用架构并利用架构生成数据集

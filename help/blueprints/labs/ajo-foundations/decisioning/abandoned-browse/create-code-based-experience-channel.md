@@ -4,7 +4,7 @@ description: 在Adobe Journey Optimizer中配置基于代码的体验渠道，�
 doc-type: article
 solution: Experience Platform
 exl-id: c3353d3d-cd97-46b7-8ef8-c72fa9e7dfe5
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 0%
@@ -22,29 +22,29 @@ ht-degree: 0%
 2. 单击蓝色的&#x200B;**创建渠道配置**&#x200B;按钮
 3. 在“渠道配置详细信息”页面上，将渠道命名为&#x200B;**jsonOffer\_cbe**
 
->[!NOTE]
->
->由于CBE可由跨&#x200B;*N*&#x200B;个平台的任意数量的客户端调用，因此我们将为此CBE命名一些对位置通用的名称，具体取决于它是否以JSON格式返回选件。
+   >[!NOTE]
+   >
+   >由于CBE可由跨&#x200B;*N*&#x200B;个平台的任意数量的客户端调用，因此我们将为此CBE命名一些对位置通用的名称，具体取决于它是否以JSON格式返回选件。
 
 4. 将&#x200B;**选择渠道**&#x200B;下拉列表设置为&#x200B;**基于代码的体验。**
 
->[!WARNING]
->
->我们不会在本实验中设置营销操作，因为它会增加演示不必要的复杂性，但由于CBE可以由任意数量的系统访问，在实际用例中，您应该为此渠道设置所有可能的营销操作，以便实施DULE标签。
+   >[!WARNING]
+   >
+   >我们不会在本实验中设置营销操作，因为它会增加演示不必要的复杂性，但由于CBE可以由任意数量的系统访问，在实际用例中，您应该为此渠道设置所有可能的营销操作，以便实施DULE标签。
 
 5. 在“基于代码的体验设置”区域中勾选&#x200B;**Web**&#x200B;框，并保持选中&#x200B;**单页面**&#x200B;选项。
 6. 在&#x200B;**页面URL**&#x200B;文本框中，输入文本`https://connection5g.com/home`
 7. 在&#x200B;**页面**&#x200B;上的位置文本框中，输入文本&#x200B;**jsonOfferContainer**
 
->[!NOTE]
->
->并非每个发送到Edge的Experience Event都会触发个性化优惠请求。 您将在下一部分创建一个历程，其中将使用您刚刚配置的选择策略来配置此CBE。 “页面上的位置”设置是在Experience Events中传递的参数的名称，该参数告知Experience Edge返回分配给该CBE的任何选件。 它通常也称为表面。 无论是移动设备应用程序、网页还是其他物联网设备，如果jsonOfferContainer值通过体验事件与正确的eventType一起传递到Edge，则Edge将执行迄今为止在实验室中配置的逻辑并返回相应的选件。
+   >[!NOTE]
+   >
+   >并非每个发送到Edge的Experience Event都会触发个性化优惠请求。 您将在下一部分创建一个历程，其中将使用您刚刚配置的选择策略来配置此CBE。 “页面上的位置”设置是在Experience Events中传递的参数的名称，该参数告知Experience Edge返回分配给该CBE的任何选件。 它通常也称为表面。 无论是移动设备应用程序、网页还是其他物联网设备，如果jsonOfferContainer值通过体验事件与正确的eventType一起传递到Edge，则Edge将执行迄今为止在实验室中配置的逻辑并返回相应的选件。
 
 8. 单击“格式”部分中的&#x200B;**JSON**&#x200B;单选按钮。 完成后，您的CBE渠道配置应如下所示：
 
-![已选择JSON格式完成基于代码的体验渠道配置](assets/create-code-based-experience-channel-completed-config.png)
+   ![已选择JSON格式完成基于代码的体验渠道配置](assets/create-code-based-experience-channel-completed-config.png)
 
-&#x200B;9. 一切看起来正确后，单击右上角的蓝色&#x200B;**提交**&#x200B;按钮。
+9. 一切看起来正确后，单击右上角的蓝色&#x200B;**提交**&#x200B;按钮。
 
 >[!TIP]
 >

@@ -4,7 +4,7 @@ description: 调查架构字段以了解计费使用和计划名称，重点说�
 doc-type: article
 solution: Experience Platform
 exl-id: c26de19e-82da-4070-a918-2d2c8ef2c116
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -21,15 +21,15 @@ ht-degree: 0%
 1. 创建新受众
 1. 在“属性”中搜索“用法”。 单击“i”可查看说明（没有说明）。
 
-![在属性中搜索用法 — 未显示说明](assets/pre-work-search-usage-in-attributes.png)
+   ![在属性中搜索用法 — 未显示说明](assets/pre-work-search-usage-in-attributes.png)
 
 
 
-&#x200B;3. 在事件中搜索“使用情况”。  单击“i”可查看说明（没有说明）。
+3. 在事件中搜索“使用情况”。  单击“i”可查看说明（没有说明）。
 
 ![搜索事件中的用法 — 未显示说明](assets/pre-work-search-usage-in-events.png)
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >这两种方法都没有任何描述，因此营销人员可能会做出一些假设并猜测错误。
 >
@@ -40,7 +40,8 @@ ht-degree: 0%
 >- 在特定使用案例中推荐/首选？
 >
 >通过在描述中提供此信息，我们可以更好地指导他们。
-> [!NOTE]
+
+>[!NOTE]
 >
 >尝试搜索“帐单”。  请注意，它不会显示为“配置文件属性”。  它显示为事件类型卡片，以及“计费数据使用情况”字段。
 >

@@ -4,7 +4,7 @@ description: 了解如何查询用户档案快照数据集，并了解为什么�
 doc-type: article
 solution: Experience Platform
 exl-id: 1e7befcf-d952-47a2-86d9-33ef71eec57a
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -22,29 +22,29 @@ ht-degree: 0%
 
 1. 在左侧导航中，单击“数据管理”部分下的&#x200B;**数据集**，然后单击顶部边栏上的&#x200B;**浏览选项卡**
 
-在“数据管理”部分中的![数据集浏览选项卡](assets/validate-profile-snapshot-datasets-browse-tab.png)
+   在“数据管理”部分中的![数据集浏览选项卡](assets/validate-profile-snapshot-datasets-browse-tab.png)
 
-&#x200B;2. 在&#x200B;**搜索框**&#x200B;中，键入`profile`，然后&#x200B;**单击标题为“Profile-Snapshot...”的行**。   在右边栏中&#x200B;**复制表名称**&#x200B;并将其粘贴到可在下一步中引用的位置。
+2. 在&#x200B;**搜索框**&#x200B;中，键入`profile`，然后&#x200B;**单击标题为“Profile-Snapshot...”的行**。   在右边栏中&#x200B;**复制表名称**&#x200B;并将其粘贴到可在下一步中引用的位置。
 
-&#x200B;> [!NOTE]
->
->如果您没有看到“Profile-Snapshot...”，则可能必须清除任何筛选器 数据集。
+   >[!NOTE]
+   >
+   >如果您没有看到“Profile-Snapshot...”，则可能必须清除任何筛选器 数据集。
 
 
 
-配置文件快照数据集的![搜索结果](assets/validate-profile-snapshot-dataset-search.png)
+   配置文件快照数据集的![搜索结果](assets/validate-profile-snapshot-dataset-search.png)
 
-&#x200B;3. 导航回查询编辑器，将以下SQL复制并粘贴到编辑器中
+3. 导航回查询编辑器，将以下SQL复制并粘贴到编辑器中
 
-```sql
-select
-  identityMap,
-  segmentID,
-  segmentMembershipUps[segmentID] ['lastQualificationTime'],
-  segmentMembershipUps[segmentID] ['status'],
-  current_timestamp
-from
-  (
+   ```sql
+   select
+     identityMap,
+     segmentID,
+     segmentMembershipUps[segmentID] ['lastQualificationTime'],
+     segmentMembershipUps[segmentID] ['status'],
+     current_timestamp
+   from
+     (
     select
       identityMap,
       explode (map_keys (segmentMembership['ups'])) as segmentID,
@@ -54,20 +54,20 @@ from
     where
       map_keys (segmentMembership['ups']) is not null
     limit 100
-  )
-  --where identityMap['email'][0].id = 'henry.creel@emailsim.io'
-  limit 50
-```
+     )
+     --where identityMap['email'][0].id = 'henry.creel@emailsim.io'
+     limit 50
+   ```
 
-&#x200B;4. 更新表名和电子邮件地址，如下所述：
+4. 更新表名和电子邮件地址，如下所述：
    - **表名：**&#x200B;第14行复制并粘贴您在`from`和`where`之间的配置文件快照表的表名
    - **电子邮件地址：**&#x200B;现在，在第19行上键入您在网站事件中发送的相同电子邮件地址（除非您更改了此地址，否则我们使用henry.creel\@emailsim.io）。
      - 目前，我们已将此注释掉（请保持原样）。 当查询运行而你查找henry时，你找不到他。
 
-![具有要更新的配置文件快照表名称和电子邮件地址的查询编辑器](assets/validate-profile-snapshot-update-query-table-name.png)
+   ![具有要更新的配置文件快照表名称和电子邮件地址的查询编辑器](assets/validate-profile-snapshot-update-query-table-name.png)
 
-&#x200B;5. 单击左上角的箭头&#x200B;**运行**&#x200B;查询
-&#x200B;6. 结果如下（但如果你找henry，你就找不到他）
+5. 单击左上角的箭头&#x200B;**运行**&#x200B;查询
+6. 结果如下（但如果你找henry，你就找不到他）
 
 ![查询结果显示快照中的流式处理配置文件不匹配](assets/validate-profile-snapshot-query-results-no-match.png)
 

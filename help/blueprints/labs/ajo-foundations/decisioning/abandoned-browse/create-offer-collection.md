@@ -4,7 +4,7 @@ description: 使用基于属性的规则将相关选件项目分组到收藏集�
 doc-type: article
 solution: Experience Platform
 exl-id: 0a54f4dc-2112-474a-8383-9dd1497c3c74
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -23,31 +23,31 @@ ht-degree: 0%
 1. 如有必要，请在左边栏中展开&#x200B;**决策**，然后单击&#x200B;**目录**。 您会看到在上一节中创建的四个选件。
 2. 单击优惠名称左边的&#x200B;**收藏集**
 
-目录页面上的![收藏集选项卡](assets/create-offer-collection-collections-tab.png)
+   目录页面上的![收藏集选项卡](assets/create-offer-collection-collections-tab.png)
 
-&#x200B;3. 单击蓝色的&#x200B;**创建集合**&#x200B;以创建新集合。
-&#x200B;4. 将收藏集命名为&#x200B;**iPhone 17收藏集**
-&#x200B;5. 在“收藏集规则”部分中，单击包含文本的文本框&#x200B;**_单击以创建决策项_**。 单击后，将显示用于创建规则的选项。
+3. 单击蓝色的&#x200B;**创建集合**&#x200B;以创建新集合。
+4. 将收藏集命名为&#x200B;**iPhone 17收藏集**
+5. 在“收藏集规则”部分中，单击包含文本的文本框&#x200B;**_单击以创建决策项_**。 单击后，将显示用于创建规则的选项。
 
-打开![收藏集规则文本框以创建决策项](assets/create-offer-collection-create-decision-item.png)
+   打开![收藏集规则文本框以创建决策项](assets/create-offer-collection-create-decision-item.png)
 
-&#x200B;6. 单击&#x200B;**选择属性**&#x200B;按钮，然后单击&#x200B;**设备>制作**&#x200B;浏览选件项架构。 单击&#x200B;**保存，**，您会看到“Make”属性现在位于决策规则中。
+6. 单击&#x200B;**选择属性**&#x200B;按钮，然后单击&#x200B;**设备>制作**&#x200B;浏览选件项架构。 单击&#x200B;**保存，**，您会看到“Make”属性现在位于决策规则中。
 
-已将![Device Make属性添加到集合规则](assets/create-offer-collection-select-make-attribute.png)
+   已将![Device Make属性添加到集合规则](assets/create-offer-collection-select-make-attribute.png)
 
->[!NOTE]
->
->请注意，您可用的选项与在创建优惠项目时使用的可配置字段相同。 由于收藏集是优惠项目的分组，因此将它们分组的规则取决于其属性是有意义的。
+   >[!NOTE]
+   >
+   >请注意，您可用的选项与在创建优惠项目时使用的可配置字段相同。 由于收藏集是优惠项目的分组，因此将它们分组的规则取决于其属性是有意义的。
 
-&#x200B;7. 保留“等于”运算符并在值字段中输入文本&#x200B;**iPhone**，此时，您会看到项目数更改为4，这表示您的所有优惠项目都符合该条件
+7. 保留“等于”运算符并在值字段中输入文本&#x200B;**iPhone**，此时，您会看到项目数更改为4，这表示您的所有优惠项目都符合该条件
 
-![收藏集规则显示四个符合iPhone条件的选件项](assets/create-offer-collection-four-matching-offers.png)
+   ![收藏集规则显示四个符合iPhone条件的选件项](assets/create-offer-collection-four-matching-offers.png)
 
->[!NOTE]
->
->您还可以单击&#x200B;**预览收藏集**&#x200B;按钮并查看符合条件的选件项。
+   >[!NOTE]
+   >
+   >您还可以单击&#x200B;**预览收藏集**&#x200B;按钮并查看符合条件的选件项。
 
-&#x200B;8. 选择所有四个选件项后，单击蓝色的&#x200B;**创建**&#x200B;按钮。 这会将您引导至显示新创建收藏集的页面。
+8. 选择所有四个选件项后，单击蓝色的&#x200B;**创建**&#x200B;按钮。 这会将您引导至显示新创建收藏集的页面。
 
 ![新创建的iPhone 17收藏集页面](assets/create-offer-collection-created-collection-page.png)
 

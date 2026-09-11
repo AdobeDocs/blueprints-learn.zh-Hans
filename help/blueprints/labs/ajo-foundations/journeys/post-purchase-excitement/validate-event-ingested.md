@@ -4,7 +4,7 @@ description: 确认某个订单发运事件已摄取到配置文件中，并符�
 doc-type: article
 solution: Experience Platform
 exl-id: c04397dd-8b5c-48a8-82b5-78188b8374f1
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -25,20 +25,20 @@ ht-degree: 0%
    - **标识值** -> `henry.creel@emailsim.io`
 2. 单击&#x200B;**事件**&#x200B;选项卡。 查找`orders.shipped`事件。
 
-![orders.shipped事件显示在配置文件的“事件”选项卡上](assets/validate-event-ingested-orders-shipped-event.png)
+   ![orders.shipped事件显示在配置文件的“事件”选项卡上](assets/validate-event-ingested-orders-shipped-event.png)
 
->[!WARNING]
->
->您是否收到任何&#x200B;**message.feedback**&#x200B;事件。  这些规则来自历程，通常表示失败或排除。  单击这些图标并查看`reason`。
->
->您可能会在生产中遇到的一些示例可能是：
->
->- EmailNoAddressFoundInProfile（您尝试向没有电子邮件的用户档案发送电子邮件）
->- EmailNoConsent (您尝试向同意设置为no的用户档案发送电子邮件。
+   >[!WARNING]
+   >
+   >您是否收到任何&#x200B;**message.feedback**&#x200B;事件。  这些规则来自历程，通常表示失败或排除。  单击这些图标并查看`reason`。
+   >
+   >您可能会在生产中遇到的一些示例可能是：
+   >
+   >- EmailNoAddressFoundInProfile（您尝试向没有电子邮件的用户档案发送电子邮件）
+   >- EmailNoConsent (您尝试向同意设置为no的用户档案发送电子邮件。
 
 
 
-&#x200B;3. 验证配置文件是否符合&#x200B;**受众**&#x200B;的条件（可能需要几分钟）。
+3. 验证配置文件是否符合&#x200B;**受众**&#x200B;的条件（可能需要几分钟）。
    - 任何活动Edge（15分钟内）
    - 任何事件流（15分钟内）
 
@@ -53,10 +53,10 @@ ht-degree: 0%
 1. 返回Postman，查找&#x200B;**发货订单事件**
 2. 单击&#x200B;**正文**&#x200B;并将&#x200B;**电子邮件地址**&#x200B;更改为您的电子邮件地址。
 
-![在Postman请求正文中更改的电子邮件地址](assets/validate-event-ingested-change-email-in-postman-body.png)
+   ![在Postman请求正文中更改的电子邮件地址](assets/validate-event-ingested-change-email-in-postman-body.png)
 
-&#x200B;3. **保存**&#x200B;并点击&#x200B;**发送**。
-&#x200B;4. 返回步骤1-3并使用您的电子邮件地址进行验证。
+3. **保存**&#x200B;并点击&#x200B;**发送**。
+4. 返回步骤1-3并使用您的电子邮件地址进行验证。
 
 ## 回顾
 

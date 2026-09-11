@@ -4,7 +4,7 @@ description: 创建并配置单一的Order Shipped事件（包括身份命名空
 doc-type: article
 solution: Experience Platform
 exl-id: 4d1c1d4d-0dc6-4ea1-aa3c-f959bb3b9aa8
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
@@ -32,49 +32,49 @@ ht-degree: 0%
 
 1. 在左边栏中的“管理”菜单下，单击&#x200B;**配置**，然后在“事件”拼贴上单击&#x200B;**管理**&#x200B;按钮
 
-“配置”下的“事件”拼贴上的![管理按钮](assets/configure-event-open-events-manage.png)
+   “配置”下的“事件”拼贴上的![管理按钮](assets/configure-event-open-events-manage.png)
 
-&#x200B;2. 在右上角单击&#x200B;**创建事件**&#x200B;按钮
+2. 在右上角单击&#x200B;**创建事件**&#x200B;按钮
 
-右上角的![创建事件按钮](assets/configure-event-click-create-event-button.png)
+   右上角的![创建事件按钮](assets/configure-event-click-create-event-button.png)
 
-&#x200B;3. 更新事件的设置，如下所示：
+3. 更新事件的设置，如下所示：
    - **名称** = `orderShipped`
    - **类型** = `Unitary`
    - **事件ID类型** = `Rule based`
    - **架构** = `dep: Orders v.1`
 
-![orderShipped事件配置了Unitary类型和dep： Orders v.1架构](assets/configure-event-set-name-type-schema.png)
+   ![orderShipped事件配置了Unitary类型和dep： Orders v.1架构](assets/configure-event-set-name-type-schema.png)
 
-&#x200B;4. 在`Fields`输入框中，单击&#x200B;**铅笔图标**
+4. 在`Fields`输入框中，单击&#x200B;**铅笔图标**
 
-字段输入框中的![铅笔图标](assets/configure-event-click-fields-pencil-icon.png)
+   字段输入框中的![铅笔图标](assets/configure-event-click-fields-pencil-icon.png)
 
-&#x200B;5. 选择要添加到事件的以下字段，完成后，单击&#x200B;**确定**&#x200B;按钮
+5. 选择要添加到事件的以下字段，完成后，单击&#x200B;**确定**&#x200B;按钮
    - `Event Type (eventType)`
    - `Order ID (orderID)`
 
-![选择要添加到事件的事件类型和订单ID字段](assets/configure-event-select-eventtype-orderid-fields.png)
+   ![选择要添加到事件的事件类型和订单ID字段](assets/configure-event-select-eventtype-orderid-fields.png)
 
->[!NOTE]
->
->确保只选择订单ID字段，而不是订单😁中的所有字段
+   >[!NOTE]
+   >
+   >确保只选择订单ID字段，而不是订单😁中的所有字段
 
 
 
-&#x200B;6. 在`Event Id condition input`中，单击&#x200B;**铅笔图标**
+6. 在`Event Id condition input`中，单击&#x200B;**铅笔图标**
 
-事件ID条件输入中的![铅笔图标](assets/configure-event-click-event-id-condition-pencil.png)
+   事件ID条件输入中的![铅笔图标](assets/configure-event-click-event-id-condition-pencil.png)
 
-&#x200B;7. **将**&#x200B;字段拖到画布上`Event Type`
+7. **将**&#x200B;字段拖到画布上`Event Type`
 
-![将“事件类型”字段拖到条件画布上](assets/configure-event-drag-event-type-field-onto-canvas.png)
+   ![将“事件类型”字段拖到条件画布上](assets/configure-event-drag-event-type-field-onto-canvas.png)
 
-&#x200B;8. 在出现的选择框中查找并检查标题为&#x200B;**orders.shipped.**&#x200B;的值 然后单击&#x200B;**确定**&#x200B;按钮。
+8. 在出现的选择框中查找并检查标题为&#x200B;**orders.shipped.**&#x200B;的值 然后单击&#x200B;**确定**&#x200B;按钮。
 
-![在选择框中选中orders.shipped值](assets/configure-event-select-orders-shipped-value.png)
+   ![在选择框中选中orders.shipped值](assets/configure-event-select-orders-shipped-value.png)
 
-&#x200B;9. 接下来，使用下面显示的值更新命名空间和配置文件标识符的最后两个值：
+9. 接下来，使用下面显示的值更新命名空间和配置文件标识符的最后两个值：
    - **命名空间** —> `Email`
    - **配置文件标识符** —> `personalEmail`
 

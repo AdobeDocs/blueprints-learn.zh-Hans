@@ -4,7 +4,7 @@ description: 在UI中预览引入的数据集并运行SQL查询以验证批处�
 doc-type: article
 solution: Experience Platform
 exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -19,13 +19,13 @@ ht-degree: 0%
 1. 单击&#x200B;**数据集**
 1. **找到**&#x200B;并&#x200B;**单击**&#x200B;您创建的数据集名称。
 
-![在“数据集”窗格中查找并单击数据集名称](assets/verification-and-validation-access-dataset-in-datasets-pane.png "访问“数据集”窗格中的数据集")
+   ![在“数据集”窗格中查找并单击数据集名称](assets/verification-and-validation-access-dataset-in-datasets-pane.png "访问“数据集”窗格中的数据集")
 
 
 
 1. 单击右上角的&#x200B;**预览数据集**
 
-![预览数据集按钮位于数据集屏幕的右上角](assets/verification-and-validation-preview-dataset-button-location.png "预览数据集位于右上角")
+   ![预览数据集按钮位于数据集屏幕的右上角](assets/verification-and-validation-preview-dataset-button-location.png "预览数据集位于右上角")
 
 
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 1. **关闭**&#x200B;预览
 1. 在“数据集”屏幕中，单击&#x200B;**表名称**&#x200B;上的复制图标。 在下面的示例屏幕中，表名称为`customer_account_sm`
 
-在数据集屏幕中![复制表名旁边的图标](assets/verification-and-validation-copy-table-name.png "复制表名")
+   在数据集屏幕中![复制表名旁边的图标](assets/verification-and-validation-copy-table-name.png "复制表名")
 
 
 
@@ -52,21 +52,21 @@ ht-degree: 0%
 
 1. 单击&#x200B;**创建查询**
 
-在“查询”节中![创建查询按钮](assets/verification-and-validation-access-the-query-editor.png)
+   在“查询”节中![创建查询按钮](assets/verification-and-validation-access-the-query-editor.png)
 
 
 
 1. 在&#x200B;**编辑器**&#x200B;中复制并粘贴以下SQL查询。 请记得使用您在步骤6中获得的值替换`<table_name>`。
 
-```sql
-SELECT * FROM <table_name>
-```
+   ```sql
+   SELECT * FROM <table_name>
+   ```
 
 
 
 1. 按&#x200B;**播放**&#x200B;按钮。
 
-具有SQL查询和播放按钮的![查询编辑器接口](assets/verification-and-validation-query-editor-interface.png "查询编辑器接口")
+   具有SQL查询和播放按钮的![查询编辑器接口](assets/verification-and-validation-query-editor-interface.png "查询编辑器接口")
 
 
 

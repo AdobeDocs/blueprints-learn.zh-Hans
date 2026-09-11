@@ -4,7 +4,7 @@ description: 验证完整的订单映射集，预览输出，并计划数据流�
 doc-type: article
 solution: Experience Platform
 exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 7%
@@ -56,7 +56,7 @@ ht-degree: 7%
 
 1. 预览映射输出。 滚动浏览所有属性，确保右侧的任意属性旁边没有红色感叹号。
 
-![预览映射屏幕在任何映射属性上没有错误](assets/verify-and-schedule-dataflow-preview-mapping-screen.png "预览映射屏幕将如下所示")
+   ![预览映射屏幕在任何映射属性上没有错误](assets/verify-and-schedule-dataflow-preview-mapping-screen.png "预览映射屏幕将如下所示")
 
 1. 在“预览”的左侧导航中，选择&#x200B;**productListItems**&#x200B;对象数组。 右侧将更新为仅显示该对象数组中的属性。
 
@@ -68,11 +68,11 @@ ht-degree: 7%
 
 ## 计划运行
 
-1. 通过将频率设置为分钟和间隔设置为15，将计划设置为每15分钟运行&#x200B;**&#x200B;**。 查看流，然后单击“完成”。
+1. 通过将频率设置为分钟和间隔设置为15，将计划设置为每15分钟运行&#x200B;****。 查看流，然后单击“完成”。
 
->[!CAUTION]
->
->确保将计划设置为15分钟。 如果计划以&#x200B;**运行一次**&#x200B;运行，则即使稍后对映射进行了更改，也无法再次运行。
+   >[!CAUTION]
+   >
+   >确保将计划设置为15分钟。 如果计划以&#x200B;**运行一次**&#x200B;运行，则即使稍后对映射进行了更改，也无法再次运行。
 
 1. 数据流执行不会立即开始，并且需要几分钟的时间。 因此，上次数据流运行状态设置为&quot;*没有运行*&quot;。
 

@@ -4,7 +4,7 @@ description: 构建没有活动iPhone 14行的用户档案受众，然后使用�
 doc-type: article
 solution: Experience Platform
 exl-id: 5a598e9b-9969-4287-8bbd-9de8864b3025
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -89,80 +89,80 @@ ht-degree: 0%
 
 1. 打开“*拥有iPhone 14*”受众并将名称更改为“*拥有iPhone 14批次*”。
 
->[!WARNING]
->
->现在，我们无法更改UI中的评估方法。 还必须删除引用此受众的任何受众。 在决定您在区段中使用区段的构建策略时，请牢记这一点。
+   >[!WARNING]
+   >
+   >现在，我们无法更改UI中的评估方法。 还必须删除引用此受众的任何受众。 在决定您在区段中使用区段的构建策略时，请牢记这一点。
 
 
 
 2. 创建新受众。 将“拥有iPhone 14受众批次”受众添加到画布，然后单击转换为规则。
 
-![将所有者iPhone 14批次受众添加到画布并单击“转换为规则”](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules.png)
+   ![将所有者iPhone 14批次受众添加到画布并单击“转换为规则”](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules.png)
 
-![受众已转换为画布上的规则](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules-2.png)
-
-
-
-&#x200B;3. 将描述、名称和评估方法更新为右下角的流式传输，然后单击评估方法旁边的文件夹图标。 您应该会看到以下内容：
-
-单击文件夹图标后![评估方法设置为“流”](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
+   ![受众已转换为画布上的规则](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules-2.png)
 
 
 
-虽然不明显，但这是因为我们在查找架构上使用产品名称
+3. 将描述、名称和评估方法更新为右下角的流式传输，然后单击评估方法旁边的文件夹图标。 您应该会看到以下内容：
+
+   单击文件夹图标后![评估方法设置为“流”](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
+
+
+
+   虽然不明显，但这是因为我们在查找架构上使用产品名称
+
+   >[!NOTE]
+   >
+   >无论何时使用查找，我们的评估方法都强制为“批处理”。
+   >
+   >如果您查看路径并且路径中任何位置都有“属性”，则可以区分这一点
+   >
+   >![包含“属性”的路径强制评估方法为Batch](assets/build-audience-2-path-contains-properties-forces-batch.png)
+
+
+
+
+
+4. 将产品名称的现有值替换为“现在来自XDM个人用户档案”架构
+
+   替换以下路径：
+
+   - XDM个人资料>部门>活动产品>产品ID属性>产品名称
+
+   添加新路径：
+
+   - XDM个人资料>部门>活动产品>模型
+
+   ![将产品名称路径替换为XDM个人资料活动产品模型路径](assets/build-audience-2-replace-with-xdm-individual-profile-path.png)
+
+   ![已更新引用XDM个人资料模型路径的受众规则](assets/build-audience-2-replace-with-xdm-individual-profile-path--2.png)
+
+
+
+5. 将评估方法更改为流式传输，然后单击文件夹图标
+
+   ![将评估方法更改为“流式传输”，然后单击文件夹图标](assets/build-audience-2-change-evaluation-method-to-streaming.png)
+
+
+
+6. 对于新的符合流式处理条件的受众，请提供描述。
+
+   - 将受众保存为&quot;*拥有iPhone 14*&quot;受众。
+   - 单击蓝色按钮&#x200B;**将受众**&#x200B;激活到目标
+
+   ![单击“激活符合流式传输条件的受众的目标受众”](assets/build-audience-2-activate-audience-to-destination.png)
+
+
+
+7. 选择&#x200B;**流DEP Webhook**&#x200B;目标，然后单击&#x200B;**下一步**
+
+8. 单击&#x200B;**下一步**&#x200B;和&#x200B;**完成**
 
 >[!NOTE]
 >
->无论何时使用查找，我们的评估方法都强制为“批处理”。
->
->如果您查看路径并且路径中任何位置都有“属性”，则可以区分这一点
->
->![包含“属性”的路径强制评估方法为Batch](assets/build-audience-2-path-contains-properties-forces-batch.png)
-
-
-
-
-
-&#x200B;4. 将产品名称的现有值替换为“现在来自XDM个人用户档案”架构
-
-替换以下路径：
-
-- XDM个人资料>部门>活动产品>产品ID属性>产品名称
-
-添加新路径：
-
-- XDM个人资料>部门>活动产品>模型
-
-![将产品名称路径替换为XDM个人资料活动产品模型路径](assets/build-audience-2-replace-with-xdm-individual-profile-path.png)
-
-![已更新引用XDM个人资料模型路径的受众规则](assets/build-audience-2-replace-with-xdm-individual-profile-path--2.png)
-
-
-
-&#x200B;5. 将评估方法更改为流式传输，然后单击文件夹图标
-
-![将评估方法更改为“流式传输”，然后单击文件夹图标](assets/build-audience-2-change-evaluation-method-to-streaming.png)
-
-
-
-&#x200B;6. 对于新的符合流式处理条件的受众，请提供描述。
-
-- 将受众保存为&quot;*拥有iPhone 14*&quot;受众。
-- 单击蓝色按钮&#x200B;**将受众**&#x200B;激活到目标
-
-![单击“激活符合流式传输条件的受众的目标受众”](assets/build-audience-2-activate-audience-to-destination.png)
-
-
-
-&#x200B;7. 选择&#x200B;**流DEP Webhook**&#x200B;目标，然后单击&#x200B;**下一步**
-
-&#x200B;8. 单击&#x200B;**下一步**&#x200B;和&#x200B;**完成**
-
-&#x200B;> [!NOTE]
->
 >您想要选择批处理、流式处理或Edge的原因注意事项：
 >
->最新护栏： [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
+>最新护栏： [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 
 >[!TIP]
 >

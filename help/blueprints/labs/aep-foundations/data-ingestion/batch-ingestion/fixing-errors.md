@@ -4,7 +4,7 @@ description: 修复计算字段表达式以确定日期格式错误，然后使�
 doc-type: article
 solution: Experience Platform
 exl-id: 7a3d0c15-4d58-497e-bfa5-9421d5d2eea7
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -18,17 +18,17 @@ ht-degree: 0%
 
 1. 单击填充&#x200B;**person.birthDayAndMonth** XDM字段的计算字段旁边的箭头图标
 
-![birthDayAndMonth修复的计算字段表达式编辑器](assets/fixing-errors-update-the-calculated-expression.png)
+   ![birthDayAndMonth修复的计算字段表达式编辑器](assets/fixing-errors-update-the-calculated-expression.png)
 
 1. 使用以下计算字段代码更新表达式，然后单击&#x200B;**预览**
 
-```none
-concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("dd", date(birth_Date, "M/d/yyyy")).toString())
-```
+   ```none
+   concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("dd", date(birth_Date, "M/d/yyyy")).toString())
+   ```
 
->[!NOTE]
->
->数据应以2位数的月份和2位数的天显示（即4月27日显示为04-27）。 `mm`和`dd`参数添加0填充。
+   >[!NOTE]
+   >
+   >数据应以2位数的月份和2位数的天显示（即4月27日显示为04-27）。 `mm`和`dd`参数添加0填充。
 
 1. 如果一切正常，**保存**&#x200B;计算字段
 

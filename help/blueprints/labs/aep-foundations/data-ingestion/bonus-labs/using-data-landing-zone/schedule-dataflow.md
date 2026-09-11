@@ -4,7 +4,7 @@ description: 配置已启用回填的循环15分钟数据流计划，并了解UT
 doc-type: article
 solution: Experience Platform
 exl-id: 9865b1eb-0d98-4cae-a928-69ea897607ca
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ![数据流屏幕显示具有无运行状态的新数据流](assets/schedule-dataflow-dataflows-screen-no-runs-status.png "数据流源屏幕")
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >您需要持续刷新页面才能看到状态更新，因为后端不会将更新推送到UI。
 

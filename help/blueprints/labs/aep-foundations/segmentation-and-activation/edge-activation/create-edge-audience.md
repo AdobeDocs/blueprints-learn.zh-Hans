@@ -4,7 +4,7 @@ description: 构建并发布Edge评估的受众以及等效的批处理，以比
 doc-type: article
 solution: Experience Platform
 exl-id: 79265a8f-81dd-41a3-89c5-c6646e435328
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 1. 转到&#x200B;**受众**&#x200B;并单击&#x200B;**Experience Platform**&#x200B;文件夹
 1. 将名为&#x200B;**dep：任何事件流（在一小时内）**&#x200B;的受众拖放到画布上
 
-![将dep： Any Event Streaming（一小时内）受众拖到规则生成器画布上](assets/create-edge-audience-drag-audience-to-canvas.png)
+   ![将dep： Any Event Streaming（一小时内）受众拖到规则生成器画布上](assets/create-edge-audience-drag-audience-to-canvas.png)
 
 
 

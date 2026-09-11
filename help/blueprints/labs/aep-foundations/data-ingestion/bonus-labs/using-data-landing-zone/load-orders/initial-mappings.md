@@ -4,7 +4,7 @@ description: 使用计算字段表达式手动映射Experience Event数据集的
 doc-type: article
 solution: Experience Platform
 exl-id: 4052d104-bf0c-4b2d-a298-8075279aeaf8
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -30,23 +30,23 @@ ht-degree: 0%
 
 1. 要映射&#x200B;**\_id，**&#x200B;请编写以下计算字段表达式并单击“预览”
 
-```none
-concat(orderID, "-", lastOrderStatusUpdate)
-```
+   ```none
+   concat(orderID, "-", lastOrderStatusUpdate)
+   ```
 
-![映射_id的计算字段，准备保存](assets/initial-mappings-calculated-field-for-id-mapping.png "映射_id的计算字段将类似于此。 单击保存以保存计算字段")
+   ![映射_id的计算字段，准备保存](assets/initial-mappings-calculated-field-for-id-mapping.png "映射_id的计算字段将类似于此。 单击保存以保存计算字段")
 
-![将计算字段映射到_id属性](assets/initial-mappings-map-calculated-field-to-id.png "将计算字段映射到_id")
+   ![将计算字段映射到_id属性](assets/initial-mappings-map-calculated-field-to-id.png "将计算字段映射到_id")
 
 1. 确保目标架构中的&#x200B;**timestamp**&#x200B;字段映射到以下计算字段：
 
-```none
-lastOrderStatusUpdate
-```
+   ```none
+   lastOrderStatusUpdate
+   ```
 
-![时间戳映射的计算字段表达式预览](assets/initial-mappings-expression-preview.png "请编写以下表达式，然后单击“预览”。 请注意，此值区分大小写，必须按此方式完全写入")
+   ![时间戳映射的计算字段表达式预览](assets/initial-mappings-expression-preview.png "请编写以下表达式，然后单击“预览”。 请注意，此值区分大小写，必须按此方式完全写入")
 
-![将计算字段表达式“inStore”映射到order._devbc.acqSource](assets/initial-mappings-map-instore-expression-to-acqsource.png)
+   ![将计算字段表达式“inStore”映射到order._devbc.acqSource](assets/initial-mappings-map-instore-expression-to-acqsource.png)
 
 1. 将计算字段表达式&#x200B;**&quot;inStore&quot;**&#x200B;映射到&#x200B;**order.\_devbc.acqSource**
 
@@ -56,7 +56,7 @@ lastOrderStatusUpdate
 
 如果映射屏幕现在抱怨存在诸如&#x200B;**orderStatus**&#x200B;等映射到&#x200B;**order.\_devbc.acqSource，**&#x200B;的重复映射，请单击“ — ”图标以删除该映射。
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >请记住，多个输入字段无法映射到同一个输出字段，因为这会使映射变得不明确。 但是，一个输入字段可以映射到XDM架构中的多个输出字段。
 

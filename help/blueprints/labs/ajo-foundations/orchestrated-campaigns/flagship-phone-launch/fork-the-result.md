@@ -4,7 +4,7 @@ description: 了解如何向编排的活动添加分支活动，以分支保存�
 doc-type: article
 solution: Experience Platform
 exl-id: 8f1d0839-e4ca-4b7c-bc97-4e271a457296
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -27,29 +27,29 @@ ht-degree: 0%
 
 1. 在工作流画布上，在生成受众活动后单击&#x200B;**+** **图标**，然后选择&#x200B;**分支活动**
 
-![在生成受众活动后添加分支活动](assets/fork-the-result-add-fork-activity.png)
+   ![在生成受众活动后添加分支活动](assets/fork-the-result-add-fork-activity.png)
 
 
 
-&#x200B;2. 通过单击过渡并指定名称（如下所述），更新分支中每个过渡的名称：
+2. 通过单击过渡并指定名称（如下所述），更新分支中每个过渡的名称：
    - **前** —> `Save Audience`
    - **底部** —> `SMS`
 
-![已将分支过渡重命名为保存受众和短信](assets/fork-the-result-rename-transitions.png)
+   ![已将分支过渡重命名为保存受众和短信](assets/fork-the-result-rename-transitions.png)
 
 
 
-完成后，您的画布现在看起来应该像这样……
+   完成后，您的画布现在看起来应该像这样……
 
-添加分支活动后![工作流画布](assets/fork-the-result-final-canvas.png)
+   添加分支活动后![工作流画布](assets/fork-the-result-final-canvas.png)
 
->[!NOTE]
->
->实际上，分支活动只是将上一个活动的结果复制到两个独立的分支中
+   >[!NOTE]
+   >
+   >实际上，分支活动只是将上一个活动的结果复制到两个独立的分支中
 
 
 
-&#x200B;3. 单击工作流画布顶部的&#x200B;**保存**。
+3. 单击工作流画布顶部的&#x200B;**保存**。
 
 工作流画布工具栏上的![保存按钮](assets/fork-the-result-click-save.png)
 

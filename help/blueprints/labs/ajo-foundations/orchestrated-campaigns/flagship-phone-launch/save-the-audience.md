@@ -4,7 +4,7 @@ description: 了解如何从编排的活动工作流更改维度、删除重复�
 doc-type: article
 solution: Experience Platform
 exl-id: 6422ea8d-146b-4fc7-86e6-491f77590ca1
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -24,25 +24,25 @@ ht-degree: 0%
 
 1. 在工作流画布上，单击&#x200B;**保存受众**&#x200B;分支上的&#x200B;**+** **图标**，然后从活动列表中选择&#x200B;**更改维度**&#x200B;活动
 
-![在“保存受众”分支上添加“更改维度”活动](assets/save-the-audience-add-change-dimension.png)
+   ![在“保存受众”分支上添加“更改维度”活动](assets/save-the-audience-add-change-dimension.png)
 
 
 
-&#x200B;2. 更新更改维度的属性，如下所述：
+2. 更新更改维度的属性，如下所述：
    - **标签：** `Convert Line to Account`
    - **新目标维度：** `dep-rel: Customer Account`
 
-![更改维度标签和新目标维度字段](assets/save-the-audience-change-dimension-label.png)
+   ![更改维度标签和新目标维度字段](assets/save-the-audience-change-dimension-label.png)
 
-![客户帐户已选为新的目标维度](assets/save-the-audience-select-customer-account.png)
+   ![客户帐户已选为新的目标维度](assets/save-the-audience-select-customer-account.png)
 
->[!NOTE]
->
->**您问：**  请记住，要加入Real-time Customer Profile（这是您保存受众的位置），您必须使用您配置的配置文件目标映射，该映射仅来自部门：客户帐户架构的加入。
+   >[!NOTE]
+   >
+   >**您问：**  请记住，要加入Real-time Customer Profile（这是您保存受众的位置），您必须使用您配置的配置文件目标映射，该映射仅来自部门：客户帐户架构的加入。
 
 
 
-&#x200B;3. 完成后，这是您的画布的外观。  保存您所做的工作！
+3. 完成后，这是您的画布的外观。  保存您所做的工作！
 
 添加更改维度活动后![工作流画布](assets/save-the-audience-canvas-after-change-dimension.png)
 
@@ -52,37 +52,37 @@ ht-degree: 0%
 
 1. 在更改维度活动后单击&#x200B;**+** **图标**，然后从活动列表中选择&#x200B;**重复数据删除**&#x200B;活动
 
-![在更改维度后添加重复数据删除活动](assets/save-the-audience-add-deduplication-activity.png)
+   ![在更改维度后添加重复数据删除活动](assets/save-the-audience-add-deduplication-activity.png)
 
 
 
-&#x200B;2. 将重复数据删除活动的标签更新为`Dedup customer id`
+2. 将重复数据删除活动的标签更新为`Dedup customer id`
 
-![重复数据删除活动标签设置为重复数据删除客户ID](assets/save-the-audience-deduplication-label.png)
-
-
-
-&#x200B;3. 现在单击&#x200B;**+添加属性**&#x200B;按钮，并从标题为&#x200B;**客户ID**&#x200B;的架构中选择字段
-
-删除重复项活动![添加属性按钮](assets/save-the-audience-add-attribute-button.png)
-
-从架构中选择的![客户ID字段](assets/save-the-audience-select-customer-id-field.png)
+   ![重复数据删除活动标签设置为重复数据删除客户ID](assets/save-the-audience-deduplication-label.png)
 
 
 
-&#x200B;4. 在“重复数据删除”设置下，确保您具有以下设置：
+3. 现在单击&#x200B;**+添加属性**&#x200B;按钮，并从标题为&#x200B;**客户ID**&#x200B;的架构中选择字段
+
+   删除重复项活动![添加属性按钮](assets/save-the-audience-add-attribute-button.png)
+
+   从架构中选择的![客户ID字段](assets/save-the-audience-select-customer-id-field.png)
+
+
+
+4. 在“重复数据删除”设置下，确保您具有以下设置：
    - **要保留的重复项：** `1`
    - **重复数据删除方法：** `Random selection`
 
-![要保留的重复项删除重复项设置和方法](assets/save-the-audience-deduplication-settings.png)
+   ![要保留的重复项删除重复项设置和方法](assets/save-the-audience-deduplication-settings.png)
 
->[!NOTE]
->
->利用重复数据删除的其他选项，可指定您自己的自定义逻辑。  大多数情况下，如果您需要删除重复项，将使用表的主键进行删除。
+   >[!NOTE]
+   >
+   >利用重复数据删除的其他选项，可指定您自己的自定义逻辑。  大多数情况下，如果您需要删除重复项，将使用表的主键进行删除。
 
 
 
-&#x200B;5. 完成后，您的画布将如下所示。 在继续之前，单击右上角的&#x200B;**保存**&#x200B;按钮。
+5. 完成后，您的画布将如下所示。 在继续之前，单击右上角的&#x200B;**保存**&#x200B;按钮。
 
 ![已在画布上完全配置重复数据删除活动](assets/save-the-audience-deduplication-configured.png)
 
@@ -92,9 +92,9 @@ ht-degree: 0%
 
 1. 在重复数据删除活动后单击&#x200B;**+**&#x200B;图标，然后选择&#x200B;**保存受众**&#x200B;活动
 
-![在重复数据删除后添加保存受众活动](assets/save-the-audience-add-save-audience-activity.png)
+   ![在重复数据删除后添加保存受众活动](assets/save-the-audience-add-save-audience-activity.png)
 
-&#x200B;2. 在右边栏中，将活动的属性设置为以下内容：
+2. 在右边栏中，将活动的属性设置为以下内容：
    - **受众标签**： `Apple Upgrade Eligible Customer Accounts`
    - **配置文件映射字段**： `dep-rel: Customer Account - customer id`
 
@@ -125,15 +125,15 @@ ht-degree: 0%
 
 1. 将默认的“目标受众”字段重命名为&#x200B;**Customer\_ID**，如下所示：
 
-![目标受众字段已重命名为Customer_ID](assets/save-the-audience-field-renamed.png)
+   ![目标受众字段已重命名为Customer_ID](assets/save-the-audience-field-renamed.png)
 
->[!TIP]
->
->现在您有了人类可辨认的字段名称🎉
+   >[!TIP]
+   >
+   >现在您有了人类可辨认的字段名称🎉
 
 
 
-&#x200B;2. 单击&#x200B;**开始**&#x200B;按钮以运行工作流。 您的工作流现在看起来像这样，您会看到如下计数：
+2. 单击&#x200B;**开始**&#x200B;按钮以运行工作流。 您的工作流现在看起来像这样，您会看到如下计数：
    - 生成受众： `65`
    - 将行转换为帐户： `65`
    - 重复数据删除客户ID： `46`

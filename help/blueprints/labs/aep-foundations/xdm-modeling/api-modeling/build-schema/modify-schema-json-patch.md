@@ -4,7 +4,7 @@ description: 使用JSON PATCH API调用向现有租户字段组添加新字段�
 doc-type: article
 solution: Experience Platform
 exl-id: c0313594-d998-4525-a0a4-d9d844bed5ef
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 您可以通过以下链接了解有关JSON PATCH的更多信息，但在本实验中，假设您对这种做法的原理有一些概念😄
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
-- [Experience League API基础知识](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=zh-Hans#json-patch)
+- [Experience League API基础知识](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=en#json-patch)
 
 ![将缺少的planDescription字段修补到现有架构的图表](assets/modify-schema-json-patch-patching-missing-plan-description-field.png "在缺少的字段计划描述中修补")
 
@@ -47,11 +47,11 @@ ht-degree: 0%
 1. 选择位于`XDM Schema Lab -> Customize Schema`文件夹中的`Step 1 - Get Tenant Field groups` API调用
 1. 单击`Send`按钮执行请求
 
-![步骤1 — 获取租户字段组API请求](assets/modify-schema-json-patch-step-1-get-tenant-field-groups.png "步骤1 — 获取租户字段组")
+   ![步骤1 — 获取租户字段组API请求](assets/modify-schema-json-patch-step-1-get-tenant-field-groups.png "步骤1 — 获取租户字段组")
 
->[!NOTE]
->
->请记住，您在自定义字段组中创建了`plan`对象。 在XDM架构注册表中创建的自定义对象称为“租户”，因此使用`/schemaregistry/tenant/mixins/`路径的API调用也是如此。
+   >[!NOTE]
+   >
+   >请记住，您在自定义字段组中创建了`plan`对象。 在XDM架构注册表中创建的自定义对象称为“租户”，因此使用`/schemaregistry/tenant/mixins/`路径的API调用也是如此。
 
 
 
@@ -128,32 +128,32 @@ ht-degree: 0%
 
 1. 单击`XDM Schema Lab -> Customize Schema`文件夹中的`Step 3 - Modify Tenant Field group` API调用
 
-![步骤3 — 修改租户字段组API调用](assets/modify-schema-json-patch-step-3-modify-tenant-field-group.png "步骤3 — 修改租户字段组")
+   ![步骤3 — 修改租户字段组API调用](assets/modify-schema-json-patch-step-3-modify-tenant-field-group.png "步骤3 — 修改租户字段组")
 
 
 
-&#x200B;2. 使用以下信息更新请求正文
+2. 使用以下信息更新请求正文
 
-- **op** ->` add`
-- **路径** -> `path from previous step +`&#x200B;` the new field name`
-- **值** ->
-  - **标题** -> `Plan Description`
-  - **类型** -> `string`
-  - **描述** -> `High-level details about the plan`
+   - **op** ->` add`
+   - **路径** -> `path from previous step +`` the new field name`
+   - **值** ->
+     - **标题** -> `Plan Description`
+     - **类型** -> `string`
+     - **描述** -> `High-level details about the plan`
 
-完成后，您的API请求应当如下所示
+   完成后，您的API请求应当如下所示
 
-![已完成JSON PATCH请求正文添加planDescription字段](assets/modify-schema-json-patch-step-3-final-call-example.png "步骤3 — 最终调用示例")
+   ![已完成JSON PATCH请求正文添加planDescription字段](assets/modify-schema-json-patch-step-3-final-call-example.png "步骤3 — 最终调用示例")
 
->[!WARNING]
->
->确保在您的路径中包含新字段名&#x200B;**planDescription，**
+   >[!WARNING]
+   >
+   >确保在您的路径中包含新字段名&#x200B;**planDescription，**
 
 
 
-&#x200B;3. 如果一切正常，请`Save`您的呼叫
+3. 如果一切正常，请`Save`您的呼叫
 
-&#x200B;4. `Execute`执行PATCH的调用
+4. `Execute`执行PATCH的调用
 
 您应会看到`200 OK `响应，现在应会看到字段组中的`planDescription`字段，如下所示：
 

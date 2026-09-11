@@ -4,7 +4,7 @@ description: 了解如何通过导入HTML并插入之前创建的标头片段，
 doc-type: article
 solution: Experience Platform
 exl-id: e73f06b1-be8a-4096-949c-900db13db9f8
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 0%
@@ -52,16 +52,16 @@ ht-degree: 0%
 
 1. 转到&#x200B;**内容管理→内容模板**。
 
-![导航到内容管理，然后导航到内容模板](assets/building-content-template-navigate-content-templates.png)
+   ![导航到内容管理，然后导航到内容模板](assets/building-content-template-navigate-content-templates.png)
 
-&#x200B;2. 单击&#x200B;**创建模板**，然后填写以下内容：
+2. 单击&#x200B;**创建模板**，然后填写以下内容：
    - **名称：** `Promotional Template`
    - **描述：** `Promotional Template for phone products`
    - **频道：** `Email`
 
-![创建包含名称、说明和电子邮件渠道的模板表单](assets/building-content-template-create-template-form-fields.png)
+   ![创建包含名称、说明和电子邮件渠道的模板表单](assets/building-content-template-create-template-form-fields.png)
 
-&#x200B;3. 单击&#x200B;**创建**。
+3. 单击&#x200B;**创建**。
 
 ![创建按钮以完成创建促销模板](assets/building-content-template-click-create-button.png)
 
@@ -70,9 +70,9 @@ ht-degree: 0%
 
 1. 添加主题行： `Promotional Template`并单击电子邮件正文&#x200B;**上的**&#x200B;以打开它进行编辑
 
-![添加主题行并打开电子邮件正文进行编辑](assets/building-content-template-add-subject-line-open-editor.png)
+   ![添加主题行并打开电子邮件正文进行编辑](assets/building-content-template-add-subject-line-open-editor.png)
 
-&#x200B;2. 您会看到三个选项：
+2. 您会看到三个选项：
    1. 从头开始设计
    2. 自己编写代码
    3. 导入HTML
@@ -89,13 +89,13 @@ ht-degree: 0%
 
 1. 从工具包文件夹`promotional-template-final.html`上载模板html文件
 
-![正在从Toolkit文件夹上传promotival-template-final.html](assets/building-content-template-upload-html-template-file.png)
+   ![正在从Toolkit文件夹上传promotival-template-final.html](assets/building-content-template-upload-html-template-file.png)
 
-&#x200B;2. 单击“导入”按钮以&#x200B;**导入**&#x200B;模板。
+2. 单击“导入”按钮以&#x200B;**导入**&#x200B;模板。
 
-![“导入”按钮以导入上传的HTML模板](assets/building-content-template-click-import-button.png)
+   ![“导入”按钮以导入上传的HTML模板](assets/building-content-template-click-import-button.png)
 
-&#x200B;3. 等待渲染布局。 您会注意到图像链接断开和品牌缺失等问题。 （这是具有占位符资产的预期行为）
+3. 等待渲染布局。 您会注意到图像链接断开和品牌缺失等问题。 （这是具有占位符资产的预期行为）
 
 ![显示损坏的图像链接和缺少品牌占位符的渲染模板](assets/building-content-template-rendered-template-broken-images.png)
 
@@ -126,7 +126,7 @@ Adobe Journey Optimizer正文部分下方的“**设置**”和“**样式**”�
 
 ![在左侧边栏中显示的一个蓝点上线](assets/building-content-template-header-fragment-live-sidebar.png)
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >如果您在此处看不到您的片段，则意味着您未正确保存该片段，需要重新上传它。
 
@@ -138,25 +138,25 @@ Adobe Journey Optimizer正文部分下方的“**设置**”和“**样式**”�
 
 1. 将&#x200B;**1:1列**&#x200B;拖动到现有内容上方。
 
-![将1:1列拖动到现有模板内容上方](assets/building-content-template-drag-1-1-column-above-content.png)
+   ![将1:1列拖动到现有模板内容上方](assets/building-content-template-drag-1-1-column-above-content.png)
 
-你看到这样的东西。
+   你看到这样的东西。
 
-在内容上方添加新列后的![模板布局](assets/building-content-template-column-added-above-content.png)
+   在内容上方添加新列后的![模板布局](assets/building-content-template-column-added-above-content.png)
 
-&#x200B;2. 您的背景使用模板背景颜色，当前为黑色。 将其&#x200B;**背景颜色设置为白色。 单击右边栏上“样式”选项卡中的**，并使用拾色器中的白色。
+2. 您的背景使用模板背景颜色，当前为黑色。 将其&#x200B;**背景颜色设置为白色。 单击右边栏上“样式”选项卡中的**，并使用拾色器中的白色。
 
-![使用拾色器将列背景颜色设置为白色](assets/building-content-template-set-background-color-white.png)
+   ![使用拾色器将列背景颜色设置为白色](assets/building-content-template-set-background-color-white.png)
 
-&#x200B;3. 打开&#x200B;**片段**&#x200B;并拖入您的&#x200B;**标头**&#x200B;片段。
+3. 打开&#x200B;**片段**&#x200B;并拖入您的&#x200B;**标头**&#x200B;片段。
 
-![将标题片段从片段面板拖入模板](assets/building-content-template-drag-header-fragment-into-template.png)
+   ![将标题片段从片段面板拖入模板](assets/building-content-template-drag-header-fragment-into-template.png)
 
-&#x200B;4. 请注意，标题片段与您的模板整齐对齐，如下所示。
+4. 请注意，标题片段与您的模板整齐对齐，如下所示。
 
-![标题片段在模板中整齐对齐](assets/building-content-template-header-fragment-aligned-template.png)
+   ![标题片段在模板中整齐对齐](assets/building-content-template-header-fragment-aligned-template.png)
 
-&#x200B;5. 单击“保存”**&#x200B;**&#x200B;按钮保存模板，然后单击“上一步”**&#x200B;**。
+5. 单击“保存”****&#x200B;按钮保存模板，然后单击“上一步”****。
 
 ![保存按钮以在单击“返回”之前保存模板](assets/building-content-template-click-save-button-template.png)
 

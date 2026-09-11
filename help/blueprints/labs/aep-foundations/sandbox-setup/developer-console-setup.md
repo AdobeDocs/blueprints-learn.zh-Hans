@@ -4,7 +4,7 @@ description: 创建具有OAuth服务器到服务器凭据的Adobe Developer Cons
 doc-type: article
 solution: Experience Platform
 exl-id: 4a7c9e2b-1d3f-4a6e-8b9c-2d5e7f1a3c6b
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 开发人员控制台设置
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >只有在您按照自己的进度在实验室中工作时，才需要使用此功能。 如果您正在参加实时培训课程或活动，则已为您部署了沙盒。
 

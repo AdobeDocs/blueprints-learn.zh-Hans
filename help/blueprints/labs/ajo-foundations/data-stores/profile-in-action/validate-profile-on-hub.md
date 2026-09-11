@@ -4,9 +4,9 @@ description: 了解如何在Real-time Customer Profile Hub上查找用户档案�
 doc-type: article
 solution: Experience Platform
 exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -52,9 +52,9 @@ ht-degree: 0%
 
 1. 单击&#x200B;**属性**&#x200B;标题并查看&#x200B;**JSON**
 
-![显示segmentMembership的配置文件属性JSON视图](assets/validate-profile-on-hub-json-view.png)
+   ![显示segmentMembership的配置文件属性JSON视图](assets/validate-profile-on-hub-json-view.png)
 
-&#x200B;2. 查找&#x200B;**segmentMembership**。  它应如下所示（您的ID将不同）
+2. 查找&#x200B;**segmentMembership**。  它应如下所示（您的ID将不同）
 
 ```json
   "segmentMembership": {
@@ -74,7 +74,7 @@ ht-degree: 0%
 >
 >**如何读取segmentMembership？**
 >
->[https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups：**&#x200B;这是AEP支持的各种受众的映射键。  ups键包含规则生成器创建的受众。  其他受众将包含在其他键中（例如AAM）。
 >

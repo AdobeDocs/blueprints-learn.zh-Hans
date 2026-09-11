@@ -4,7 +4,7 @@ description: 使用架构注册表API为客户帐户架构创建主customerID身
 doc-type: article
 solution: Experience Platform
 exl-id: db690081-e857-4875-8bb9-7ac197d73cab
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 1. 单击`XDM Schema Lab -> Create Identity Descriptors`文件夹中的`Step 1 - Create Primary Identity for Customer Account Schema` API请求
 
-![步骤1 — 为客户帐户架构Postman请求创建主标识](assets/create-primary-identity-step-1-postman-request.jpeg "步骤1 — 为客户帐户架构创建主标识")
+   ![步骤1 — 为客户帐户架构Postman请求创建主标识](assets/create-primary-identity-step-1-postman-request.jpeg "步骤1 — 为客户帐户架构创建主标识")
 
->[!CAUTION]
->
->尚未执行请求
+   >[!CAUTION]
+   >
+   >尚未执行请求
 
 
 
@@ -28,23 +28,23 @@ ht-degree: 0%
 
 1. 将请求正文中的`xdm:isPrimary`值更新为`true`
 
-仅示例
+   仅示例
 
-```json
-{
-  "@type": "xdm:descriptorIdentity",
-  "xdm:sourceSchema": "https://ns.adobe.com/devbc/schemas/8415ac18dd8943e35d12caf0c24b57b4a5a9ab7fd637245e",
-  "xdm:sourceVersion": 1,
-  "xdm:sourceProperty": "/_devbc/customerID",
-  "xdm:namespace": "customerID",
-  "xdm:property": "xdm:code",
-  "xdm:isPrimary": true
-}
-```
+   ```json
+   {
+     "@type": "xdm:descriptorIdentity",
+     "xdm:sourceSchema": "https://ns.adobe.com/devbc/schemas/8415ac18dd8943e35d12caf0c24b57b4a5a9ab7fd637245e",
+     "xdm:sourceVersion": 1,
+     "xdm:sourceProperty": "/_devbc/customerID",
+     "xdm:namespace": "customerID",
+     "xdm:property": "xdm:code",
+     "xdm:isPrimary": true
+   }
+   ```
 
->[!NOTE]
->
->请记住使用您自己的名称更新上面的租户名称(\_devbc)
+   >[!NOTE]
+   >
+   >请记住使用您自己的名称更新上面的租户名称(\_devbc)
 
 
 
@@ -54,6 +54,6 @@ ht-degree: 0%
 
 ![201在成功创建主标识描述符后创建了响应](assets/create-primary-identity-201-created-response.png "已成功创建主标识描述符")
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >恭喜！  您刚刚在架构中创建了一个主身份描述符

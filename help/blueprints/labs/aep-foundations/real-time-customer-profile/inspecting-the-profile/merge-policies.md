@@ -4,7 +4,7 @@ description: 创建没有标识拼接的合并策略，并按电子邮件、客�
 doc-type: article
 solution: Experience Platform
 exl-id: ac7eb22f-141e-4cd8-9a2f-6a9687c3e839
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
    - 时间戳优先顺序 — 将所有数据集中的最新记录用作真值集，并让所有其他记录按从最近到最旧的顺序填充空隙
    - 数据集优先级 — 选择允许用于组成用户档案的XDM个人资料数据集以及它们的组合顺序
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >当选择了“数据集优先级”的合并方法时，您可以选择允许在配置文件生成中使用哪些XDM个人配置文件和XDM体验事件数据集。
 >
@@ -121,9 +121,9 @@ ht-degree: 0%
 1. 单击&#x200B;**查看**&#x200B;按钮查找配置文件
 1. 单击指向配置文件的&#x200B;**链接**&#x200B;以查看配置文件的详细信息
 
-![使用基于时间戳的默认合并策略通过电子邮件查找深度模式配置文件](assets/merge-policies-lookup-depeche-mode-default-merge-policy.png "使用基于时间的默认合并策略查找深度模式")
+   ![使用基于时间戳的默认合并策略通过电子邮件查找深度模式配置文件](assets/merge-policies-lookup-depeche-mode-default-merge-policy.png "使用基于时间的默认合并策略查找深度模式")
 
-再次搜索深度模式配置文件，但这次使用&#x200B;**无ID拼接**&#x200B;合并策略。
+   再次搜索深度模式配置文件，但这次使用&#x200B;**无ID拼接**&#x200B;合并策略。
 
 1. 在左边栏中右键单击&#x200B;**配置文件**，然后选择&#x200B;**在新选项卡中打开**
 1. 在顶部导航中选择&#x200B;**浏览**
@@ -197,7 +197,7 @@ ht-degree: 0%
 
 如果没有身份图，配置文件存储只能使用单个标识符（即主身份）检索配置文件片段
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**有额外的时间，想试一试……：**
 >

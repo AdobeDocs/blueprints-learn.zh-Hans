@@ -4,7 +4,7 @@ description: 了解如何在Adobe Journey Optimizer中发送和验证验证电�
 doc-type: article
 solution: Experience Platform
 exl-id: 1abab39e-811c-4010-a4f5-a7adc9e4e0a4
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -32,27 +32,27 @@ ht-degree: 0%
 1. 单击&#x200B;**模拟内容**。
 2. 选择&#x200B;**模拟内容变体**。
 
-![单击“模拟内容”并选择“模拟内容变化”](assets/content-simulation-click-simulate-content-variation.png)
+   ![单击“模拟内容”并选择“模拟内容变化”](assets/content-simulation-click-simulate-content-variation.png)
 
-此时将打开模拟面板。
+   此时将打开模拟面板。
 
-&#x200B;3. 单击&#x200B;**发送校样**。
+3. 单击&#x200B;**发送校样**。
 
-模拟面板中的![发送校样按钮](assets/test-the-email-click-send-proof-button.png)
+   模拟面板中的![发送校样按钮](assets/test-the-email-click-send-proof-button.png)
 
-&#x200B;4. 添加您自己的个人电子邮件地址。
+4. 添加您自己的个人电子邮件地址。
 
->[!NOTE]
->
->请注意，有时，您的公司电子邮件会阻止来自沙盒的电子邮件。 我建议您使用个人电子邮件。
+   >[!NOTE]
+   >
+   >请注意，有时，您的公司电子邮件会阻止来自沙盒的电子邮件。 我建议您使用个人电子邮件。
 
 
 
-&#x200B;5. 选择两个变体。
-&#x200B;6. 添加主题行前缀
+5. 选择两个变体。
+6. 添加主题行前缀
    1. 变体1:40以上
    2. 变体2:40以下
-&#x200B;7. 单击&#x200B;**发送校样**。 您收到绿色确认消息“**验证已成功发送**”
+7. 单击&#x200B;**发送校样**。 您收到绿色确认消息“**验证已成功发送**”
 
 ![绿色确认消息，显示证明已成功发送](assets/test-the-email-proofs-sent-successfully-confirmation.png)
 

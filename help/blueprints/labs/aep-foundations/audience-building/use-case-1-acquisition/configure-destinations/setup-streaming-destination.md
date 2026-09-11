@@ -4,7 +4,7 @@ description: 使用webhook端点、治理策略、受众和字段映射配置HTT
 doc-type: article
 solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
@@ -54,15 +54,15 @@ ht-degree: 0%
 1. 连接类型&#x200B;**无**
 1. 单击&#x200B;**连接到目标**
 
-![连接到目标](assets/setup-streaming-destination-connect-to-destination.png "连接到目标")
+   ![连接到目标](assets/setup-streaming-destination-connect-to-destination.png "连接到目标")
 
->[!NOTE]
->
->通常，我们将在此阶段添加任何身份验证凭据，但此webhook不需要任何凭据。
+   >[!NOTE]
+   >
+   >通常，我们将在此阶段添加任何身份验证凭据，但此webhook不需要任何凭据。
 
 
 
-&#x200B;3. 按如下方式填写目标的配置详细信息：
+3. 按如下方式填写目标的配置详细信息：
 
 - **名称** -> `Streaming DEP Webhook - [Your Initials]`
 - **描述** -> `[your webhook endpoint you copied above]`
@@ -91,7 +91,7 @@ ht-degree: 0%
 >
 >您可以详细了解Experience League中的治理策略
 >
->[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans#core-actions)
+>[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
 
 ## 选择受众
 

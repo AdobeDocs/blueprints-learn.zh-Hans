@@ -4,7 +4,7 @@ description: 在架构编辑器中构建自定义帐户、计划和customerID字
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -35,11 +35,11 @@ ht-degree: 0%
 
 1. 通过单击架构顶部的&#x200B;**+ （添加）**&#x200B;按钮添加新字段
 
-在架构顶部添加(+)按钮以添加自定义字段![&#128279;](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
+   在架构顶部添加(+)按钮以添加自定义字段](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)![
 
->[!NOTE]
->
->请注意，右侧边栏会打开，其中有一些字段可供您填写
+   >[!NOTE]
+   >
+   >请注意，右侧边栏会打开，其中有一些字段可供您填写
 
 
 
@@ -72,14 +72,14 @@ ht-degree: 0%
 
 1. 在刚刚创建的Account对象下添加以下字段。
 
-| 字段名称 | 显示名称 | 类型 |
-| ------------ | ------------- | ---------- |
-| *createDate* | *创建日期* | *日期时间* |
-| *endDate* | *结束日期* | *日期时间* |
+   | 字段名称 | 显示名称 | 类型 |
+   | ------------ | ------------- | ---------- |
+   | *createDate* | *创建日期* | *日期时间* |
+   | *endDate* | *结束日期* | *日期时间* |
 
->[!NOTE]
->
->您注意到添加新字段时，**分配给**&#x200B;选项已填写，并引用您用于帐户对象的字段组。
+   >[!NOTE]
+   >
+   >您注意到添加新字段时，**分配给**&#x200B;选项已填写，并引用您用于帐户对象的字段组。
 
 
 
@@ -87,28 +87,28 @@ ht-degree: 0%
 
 
 
-![添加了帐户对象和子字段的客户帐户架构](assets/model-custom-objects-account-object-with-child-fields.png)
+   ![添加了帐户对象和子字段的客户帐户架构](assets/model-custom-objects-account-object-with-child-fields.png)
 
 
 
 1. 向帐户对象添加多个自定义字段。 单击帐户对象旁边的&#x200B;**+ （添加）**&#x200B;按钮。  创建以下字段：
 
-| 字段名称 | 显示名称 | 类型 | 明细列表 |
-| ----------- | ----------------- | -------- | --------------------------------------- |
-| *acqSource* | *已获得Source* | *字符串* | *Web ：： Web *<br />*商店内：：商店内* |
+   | 字段名称 | 显示名称 | 类型 | 明细列表 |
+   | ----------- | ----------------- | -------- | --------------------------------------- |
+   | *acqSource* | *已获得Source* | *字符串* | *Web ：： Web *<br />*商店内：：商店内* |
 
-此字段需要标准化的值，因此在字段属性中使用&#x200B;**枚举和建议值**&#x200B;选项。 选择&#x200B;**枚举**&#x200B;单选按钮可在引入时为此字段添加验证以及友好标签。 添加枚举值，如下所示：
+   此字段需要标准化的值，因此在字段属性中使用&#x200B;**枚举和建议值**&#x200B;选项。 选择&#x200B;**枚举**&#x200B;单选按钮可在引入时为此字段添加验证以及友好标签。 添加枚举值，如下所示：
 
-- *Web ：： Web*
-- *inStore ：：商店中*
+   - *Web ：： Web*
+   - *inStore ：：商店中*
 
 
 
-![已为“客户获取”Source字段添加Web和inStore枚举值](assets/model-custom-objects-enum-values-for-acquisition-source-field.png)
+   ![已为“客户获取”Source字段添加Web和inStore枚举值](assets/model-custom-objects-enum-values-for-acquisition-source-field.png)
 
->[!NOTE]
->
->枚举和建议值的目标是使分段对于最终用户更容易。 枚举在数据摄取时强制进行验证，而建议值不强制验证。 要了解有关此功能的更多信息，请参阅此处的文档 — > [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=zh-Hans#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=zh-Hans#enums-and-suggested-values)
+   >[!NOTE]
+   >
+   >枚举和建议值的目标是使分段对于最终用户更容易。 枚举在数据摄取时强制进行验证，而建议值不强制验证。 要了解有关此功能的更多信息，请参阅此处的文档 — > [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
 
 
 
@@ -179,7 +179,7 @@ ht-degree: 0%
 
 完成后，您的最终结果应当类似于下面的屏幕截图
 
-在根![&#128279;](assets/model-custom-objects-customerid-field-added.png)中添加了具有customerID字段的客户帐户架构
+在根](assets/model-custom-objects-customerid-field-added.png)中添加了![具有customerID字段的客户帐户架构
 
 
 

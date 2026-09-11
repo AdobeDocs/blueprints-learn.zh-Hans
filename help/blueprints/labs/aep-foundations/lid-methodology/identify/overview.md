@@ -1,10 +1,10 @@
 ---
 title: 识别
-description: 了解LID方法的两部分标识步骤：标记其余的表类型和标识关键标识字段。
-doc-type: article
+description: 了解LID方法的两部分识别步骤 — 标记剩余的表类型和识别关键标识字段。
+doc-type: overview-page
 solution: Experience Platform
 exl-id: 83657cf0-db35-4d4d-8cfb-1934ff40baca
-source-git-commit: 8fba6e953de0e588af5398b21554ebad085899fd
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

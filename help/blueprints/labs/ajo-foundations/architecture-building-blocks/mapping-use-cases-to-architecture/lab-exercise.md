@@ -4,7 +4,7 @@ description: 通过一个可打印的工作簿，将三个Connection 5G用例映
 doc-type: article
 solution: Experience Platform
 exl-id: 9e8f24a4-f206-41fe-8107-7184c0761698
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 - 将用例映射到架构工作簿 — [打印下面的工作簿]
 - 笔、铅笔或荧光笔
 
-下载文件 — [将功能映射到体系结构练习.pdf](assets/lab-exercise-mapping-capabilities-to-architecture-exercise.pdf)
+下载文件 — [将功能映射到体系结构练习.pdf](assets/lab-exercise-mapping-capabilities-to-architecture.pdf)
 
 **对于三个Connection 5G使用案例中的每一个，您都将：**
 

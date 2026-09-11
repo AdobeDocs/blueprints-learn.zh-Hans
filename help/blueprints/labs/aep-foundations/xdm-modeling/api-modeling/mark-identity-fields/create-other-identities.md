@@ -4,7 +4,7 @@ description: 使用架构注册表API为客户帐户架构创建非主电子邮�
 doc-type: article
 solution: Experience Platform
 exl-id: 22c40299-fb93-4d41-a23b-f8629df3e7b9
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 1. 单击`XDM Schema Lab -> Create Identity Descriptors`文件夹中的`Step 2 - Create Email Address Identity for Customer Account Schema` API调用
 
->[!CAUTION]
->
->尚未执行请求
+   >[!CAUTION]
+   >
+   >尚未执行请求
 
-![步骤2 — 为客户帐户架构Postman请求创建电子邮件地址标识](assets/create-other-identities-step-2-postman-request.jpeg "步骤2 — 创建电子邮件地址标识描述符")
+   ![步骤2 — 为客户帐户架构Postman请求创建电子邮件地址标识](assets/create-other-identities-step-2-postman-request.jpeg "步骤2 — 创建电子邮件地址标识描述符")
 
 
 
@@ -28,23 +28,23 @@ ht-degree: 0%
 
 1. 将请求正文中的`xdm:isPrimary`值更新为`false`
 
-仅示例
+   仅示例
 
-```json
-{
-  "@type": "xdm:descriptorIdentity",
-  "xdm:sourceSchema": "https://ns.adobe.com/devbc/schemas/8415ac18dd8943e35d12caf0c24b57b4a5a9ab7fd637245e",
-  "xdm:sourceVersion": 1,
-  "xdm:sourceProperty": "/personalEmail/address",
-  "xdm:namespace": "Email",
-  "xdm:property": "xdm:code",
-  "xdm:isPrimary": false
-}
-```
+   ```json
+   {
+     "@type": "xdm:descriptorIdentity",
+     "xdm:sourceSchema": "https://ns.adobe.com/devbc/schemas/8415ac18dd8943e35d12caf0c24b57b4a5a9ab7fd637245e",
+     "xdm:sourceVersion": 1,
+     "xdm:sourceProperty": "/personalEmail/address",
+     "xdm:namespace": "Email",
+     "xdm:property": "xdm:code",
+     "xdm:isPrimary": false
+   }
+   ```
 
->[!NOTE]
->
->请记住使用您自己的名称更新上面的租户名称(\_devbc)
+   >[!NOTE]
+   >
+   >请记住使用您自己的名称更新上面的租户名称(\_devbc)
 
 
 

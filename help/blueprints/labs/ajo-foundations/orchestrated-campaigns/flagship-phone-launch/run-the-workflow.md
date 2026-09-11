@@ -4,7 +4,7 @@ description: 了解如何在测试模式下运行编排的活动工作流，并�
 doc-type: article
 solution: Experience Platform
 exl-id: c3b35b27-92ae-44ca-a5fb-3f76990f9db4
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -24,33 +24,33 @@ ht-degree: 0%
 
 1. 完成后，最终工作流将类似于以下内容。 仔细检查一切看起来正常。 您会看到：
 
-![已准备好测试的最终工作流画布](assets/run-the-workflow-final-workflow-canvas.png)
+   ![已准备好测试的最终工作流画布](assets/run-the-workflow-final-workflow-canvas.png)
 
-&#x200B;2. 如果您尚未停止工作流，请确保您现在通过单击右上角的&#x200B;**停止**&#x200B;按钮来停止工作流。
+2. 如果您尚未停止工作流，请确保您现在通过单击右上角的&#x200B;**停止**&#x200B;按钮来停止工作流。
 
-工作流右上角的![停止按钮](assets/run-the-workflow-click-stop-button.png)
+   工作流右上角的![停止按钮](assets/run-the-workflow-click-stop-button.png)
 
->[!NOTE]
->
->或者，您也可以尝试单击“重新启动”按钮，但您可能会看到错误，因为您在创建工作流后添加了活动，并且工作流缓存不再有效。
-
-
-
-&#x200B;3. 接下来，单击&#x200B;**开始**&#x200B;按钮以端到端地执行和测试工作流
-
-![用于执行工作流测试的“开始”按钮](assets/run-the-workflow-click-start-button.png)
+   >[!NOTE]
+   >
+   >或者，您也可以尝试单击“重新启动”按钮，但您可能会看到错误，因为您在创建工作流后添加了活动，并且工作流缓存不再有效。
 
 
 
-&#x200B;4. 通过单击&#x200B;**结果**（由于有两个结果，因此请使用下面所示的左边栏中的结果），然后在左边栏中单击&#x200B;**预览结果**&#x200B;按钮，查看进入短信活动的结果。
+3. 接下来，单击&#x200B;**开始**&#x200B;按钮以端到端地执行和测试工作流
 
-![在短信活动之前选择左边结果过渡](assets/run-the-workflow-select-result-transition.png)
-
-右边栏中的![预览结果按钮](assets/run-the-workflow-click-preview-results.png)
+   ![用于执行工作流测试的“开始”按钮](assets/run-the-workflow-click-start-button.png)
 
 
 
-&#x200B;5. 您看到了&#x200B;**33条记录**，并且定向维度与客户ID（如果要进行配置，为联接键）匹配
+4. 通过单击&#x200B;**结果**（由于有两个结果，因此请使用下面所示的左边栏中的结果），然后在左边栏中单击&#x200B;**预览结果**&#x200B;按钮，查看进入短信活动的结果。
+
+   ![在短信活动之前选择左边结果过渡](assets/run-the-workflow-select-result-transition.png)
+
+   右边栏中的![预览结果按钮](assets/run-the-workflow-click-preview-results.png)
+
+
+
+5. 您看到了&#x200B;**33条记录**，并且定向维度与客户ID（如果要进行配置，为联接键）匹配
 
 ![33条记录的定向维度与客户ID](assets/run-the-workflow-33-records-customer-id.png)匹配
 
@@ -60,37 +60,37 @@ ht-degree: 0%
 
 1. 关闭上一个窗口并单击&#x200B;**短信活动**，然后单击右边栏中的&#x200B;**运行测试**&#x200B;按钮
 
-![对短信活动运行测试按钮](assets/run-the-workflow-click-run-test-sms.png)
+   ![对短信活动运行测试按钮](assets/run-the-workflow-click-run-test-sms.png)
 
 
 
-&#x200B;2. 几乎立即会出现一个标记为&#x200B;**查看报告**&#x200B;的新按钮。  单击&#x200B;**查看报表**&#x200B;按钮以启动到报表屏幕中。
+2. 几乎立即会出现一个标记为&#x200B;**查看报告**&#x200B;的新按钮。  单击&#x200B;**查看报表**&#x200B;按钮以启动到报表屏幕中。
 
-![查看SMS活动测试的报告按钮](assets/run-the-workflow-click-view-report.png)
+   ![查看SMS活动测试的报告按钮](assets/run-the-workflow-click-view-report.png)
 
->[!NOTE]
->
->此屏幕最初不会填充，因为执行测试运行需要一些时间。 您可能需要刷新几次才能看到结果。
-
-
-
-&#x200B;3. 当您获得结果时，您会看到100%被定向！
-
-![SMS测试发送结果显示100%针对目标](assets/run-the-workflow-100-percent-targeted.png)
-
-*等待，一分钟……传入的结果是33条记录，那么4条记录指向何处？*
+   >[!NOTE]
+   >
+   >此屏幕最初不会填充，因为执行测试运行需要一些时间。 您可能需要刷新几次才能看到结果。
 
 
 
-&#x200B;4. 返回工作流画布并单击进入短信活动的过渡&#x200B;**结果**，然后单击右边栏中的&#x200B;**预览结果**。
+3. 当您获得结果时，您会看到100%被定向！
 
-![在短信测试后重新查看过渡结果](assets/run-the-workflow-recheck-transition-results.png)
+   ![SMS测试发送结果显示100%针对目标](assets/run-the-workflow-100-percent-targeted.png)
+
+   *等待，一分钟……传入的结果是33条记录，那么4条记录指向何处？*
 
 
 
-&#x200B;5. 在预览结果屏幕中一直滚动到表的底部，您注意到&#x200B;**4记录**&#x200B;具有&#x200B;**空白的定向维度**。
+4. 返回工作流画布并单击进入短信活动的过渡&#x200B;**结果**，然后单击右边栏中的&#x200B;**预览结果**。
 
-表![&#128279;](assets/run-the-workflow-4-records-missing-dimension.png)底部具有空白定向维度的4条记录
+   ![在短信测试后重新查看过渡结果](assets/run-the-workflow-recheck-transition-results.png)
+
+
+
+5. 在预览结果屏幕中一直滚动到表的底部，您注意到&#x200B;**4记录**&#x200B;具有&#x200B;**空白的定向维度**。
+
+表](assets/run-the-workflow-4-records-missing-dimension.png)底部具有空白定向维度的![4条记录
 
 
 

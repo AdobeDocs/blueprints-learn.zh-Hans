@@ -4,7 +4,7 @@ description: 练习构建HTTP API流数据流，以发送示例订单事件并�
 doc-type: article
 solution: Experience Platform
 exl-id: 558c21d1-f9b7-489b-9153-5f10d0b8448a
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -29,6 +29,6 @@ ht-degree: 0%
 1. 在Postman中，使用必要的信息填充&#x200B;**创建订单事件**，以便成功流式传输数据并将其附加到您之前创建的客户帐户记录
 1. 确认订单已链接到您的个人资料
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >祝你好运，祝愿Adobe Experience Platform诸神与你同在！

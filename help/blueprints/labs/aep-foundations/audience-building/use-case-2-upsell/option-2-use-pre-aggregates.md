@@ -4,7 +4,7 @@ description: 通过使用上游计算的预聚合使用量属性而不是聚合�
 doc-type: article
 solution: Experience Platform
 exl-id: fe6ee041-814f-41c1-91cf-c3473cbca0c2
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -32,19 +32,19 @@ ht-degree: 0%
 1. 创建新受众
 1. 在“Attributes not Event”（属性而非事件）选项卡上搜索“Agg”（聚合），并将两个“Aggregate”（聚合）拖到画布上。 为每个设置适当的运算符和值。
 
-![为每个聚合设置适当的运算符和值](assets/option-2-use-pre-aggregates-set-operators-and-values.png)
+   ![为每个聚合设置适当的运算符和值](assets/option-2-use-pre-aggregates-set-operators-and-values.png)
 
 
 
-&#x200B;3. 在配置文件中搜索计划名称并将其添加(XDM Individual Profile > Devbc > Plan Details > Plan Name)。 选择不等于“Ultimate”
+3. 在配置文件中搜索计划名称并将其添加(XDM Individual Profile > Devbc > Plan Details > Plan Name)。 选择不等于“Ultimate”
 
-![选择计划名称不等于Ultimate](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
+   ![选择计划名称不等于Ultimate](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-&#x200B;4. 提供描述。  验证评估方法是流式的。
+4. 提供描述。  验证评估方法是流式的。
 
-&#x200B;5. 将受众另存为“*计费数据使用率高但无Ultimate计划(Agg)*”
+5. 将受众另存为“*计费数据使用率高但无Ultimate计划(Agg)*”
 
 >[!NOTE]
 >

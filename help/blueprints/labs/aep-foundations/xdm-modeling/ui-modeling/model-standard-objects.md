@@ -4,7 +4,7 @@ description: 在UI中创建个人资料架构，并添加和修剪标准字段�
 doc-type: article
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. 单击左边栏中的&#x200B;**架构**&#x200B;选项卡
 
-左边栏导航中的![架构选项卡](assets/model-standard-objects-schemas-tab-left-rail.png "使用左边栏导航到架构")
+   左边栏导航中的![架构选项卡](assets/model-standard-objects-schemas-tab-left-rail.png "使用左边栏导航到架构")
 
 
 
@@ -35,13 +35,13 @@ ht-degree: 0%
 
 1. 单击&#x200B;**创建架构**&#x200B;开始
 
-![创建架构按钮](assets/model-standard-objects-create-schema-button.png "创建架构")
+   ![创建架构按钮](assets/model-standard-objects-create-schema-button.png "创建架构")
 
 
 
 1. 选择&#x200B;**手动**
 
-![选择“手动创建架构”选项](assets/model-standard-objects-select-manual-option.png "选择“手动”")
+   ![选择“手动创建架构”选项](assets/model-standard-objects-select-manual-option.png "选择“手动”")
 
 
 
@@ -67,24 +67,24 @@ Adobe Experience Platform中有许多字段组作为标准XDM存在，可供您�
 
 1. 单击字段组部分的左边栏上的&#x200B;**+ （添加）**。
 
-![在左边栏中添加字段组按钮](assets/model-standard-objects-add-field-group-button.png "添加字段组")
+   ![在左边栏中添加字段组按钮](assets/model-standard-objects-add-field-group-button.png "添加字段组")
 
 
 
 1. 搜索&#x200B;**人口统计详细信息**，或通过浏览列表找到它。
 
-- 找到字段组后，单击字段组右侧的放大镜以查看其结构。  这是一种预览要添加到架构中的内容而不实际添加该内容的有用方法。
-- 完成审阅时关闭预览
+   - 找到字段组后，单击字段组右侧的放大镜以查看其结构。  这是一种预览要添加到架构中的内容而不实际添加该内容的有用方法。
+   - 完成审阅时关闭预览
 
 
 
-![单击放大镜以预览字段组的结构](assets/model-standard-objects-click-magnify-glass-to-preview-field-group-structure.png "单击放大镜以预览字段组的结构")
+   ![单击放大镜以预览字段组的结构](assets/model-standard-objects-click-magnify-glass-to-preview-field-group-structure.png "单击放大镜以预览字段组的结构")
 
-![人口统计详细信息字段组结构预览](assets/model-standard-objects-demographic-details-structure-preview.png)
+   ![人口统计详细信息字段组结构预览](assets/model-standard-objects-demographic-details-structure-preview.png)
 
 
 
-&#x200B;3. **选中**&#x200B;字段组旁边的复选框，然后单击&#x200B;**添加字段组**&#x200B;按钮
+3. **选中**&#x200B;字段组旁边的复选框，然后单击&#x200B;**添加字段组**&#x200B;按钮
 
 ![选择“人口统计详细信息”字段组以将其添加到您的架构中](assets/model-standard-objects-select-demographic-details-field-group.png "选择“人口统计详细信息”字段组以将其添加到您的架构中")
 
@@ -125,24 +125,24 @@ Adobe Experience Platform中有许多字段组作为标准XDM存在，可供您�
 1. 选择架构中的&#x200B;**人员**&#x200B;对象
 1. 单击右边栏中的&#x200B;**管理相关字段**
 
-![管理人口统计详细信息字段组中人员对象的相关字段选项](assets/model-standard-objects-manage-related-fields-person-object.png "作为人口统计详细信息字段组的一部分管理人员对象的相关字段")
+   ![管理人口统计详细信息字段组中人员对象的相关字段选项](assets/model-standard-objects-manage-related-fields-person-object.png "作为人口统计详细信息字段组的一部分管理人员对象的相关字段")
 
 
 
 1. 单击人员左侧的V形标记可展开人员对象，单击姓名对象左侧的V形标记可展开全名对象。 仅保留以下字段：
 
-- person.name.firstname
-- person.name.lastName
-- person.birthDayAndMonth
-- person.birthYear
+   - person.name.firstname
+   - person.name.lastName
+   - person.birthDayAndMonth
+   - person.birthYear
 
-完成后，单击右上角的&#x200B;**确认**&#x200B;按钮。
+   完成后，单击右上角的&#x200B;**确认**&#x200B;按钮。
 
-![管理相关字段对话框显示选定的人口统计详细信息人员字段](assets/model-standard-objects-demographic-details-person-fields-dialog.png "管理人口统计详细信息人员对象的相关字段")
+   ![管理相关字段对话框显示选定的人口统计详细信息人员字段](assets/model-standard-objects-demographic-details-person-fields-dialog.png "管理人口统计详细信息人员对象的相关字段")
 
->[!NOTE]
->
->您可以单击&#x200B;**人口统计详细信息**&#x200B;的最顶部复选框以自动取消选择所有子对象，然后仅重新选择所需的子对象！
+   >[!NOTE]
+   >
+   >您可以单击&#x200B;**人口统计详细信息**&#x200B;的最顶部复选框以自动取消选择所有子对象，然后仅重新选择所需的子对象！
 
 
 

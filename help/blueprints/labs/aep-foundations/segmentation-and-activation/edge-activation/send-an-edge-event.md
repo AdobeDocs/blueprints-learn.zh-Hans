@@ -4,7 +4,7 @@ description: 通过Postman将未经身份验证的Web事件发送到Edge，并�
 doc-type: article
 solution: Experience Platform
 exl-id: 8d6e9552-1fa0-4f12-928c-03f836c1652e
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%
@@ -109,11 +109,11 @@ ht-degree: 0%
 1. 单击&#x200B;**查看**&#x200B;查找配置文件
 1. 单击&#x200B;**配置文件ID**&#x200B;以打开配置文件
 
-![使用查看链接浏览搜索结果以打开匹配的配置文件](assets/send-an-edge-event-lookup-profile.png "查找配置文件")
+   ![使用查看链接浏览搜索结果以打开匹配的配置文件](assets/send-an-edge-event-lookup-profile.png "查找配置文件")
 
 1. 单击顶部导航中的&#x200B;**事件**，您就可以看到刚刚发送的事件
 
-![显示刚发送到Edge的Experience事件的“配置文件事件”选项卡](assets/send-an-edge-event-view-profile-event.png "查看配置文件事件")
+   ![显示刚发送到Edge的Experience事件的“配置文件事件”选项卡](assets/send-an-edge-event-view-profile-event.png "查看配置文件事件")
 
 1. 通过查看顶部导航中的Audience Membership选项卡，验证配置文件是否符合受众条件。 您应会看到以下内容：
 

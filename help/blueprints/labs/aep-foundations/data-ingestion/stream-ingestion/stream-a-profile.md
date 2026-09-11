@@ -4,7 +4,7 @@ description: 使用Postman和流端点以及数据流ID，通过HTTP API将客�
 doc-type: article
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -78,18 +78,18 @@ curl --location '' \
 
 1. 复制&#x200B;**流式处理终结点**&#x200B;值并将其保存到本地计算机（假设您未离开上一部分的步骤）。 如果您已离开，则可以在“来源” — >“帐户”下找到它。
 
->[!NOTE]
->
->如果您确实离开了，则可以通过执行以下操作来访问此页面：
->
->- 单击左边栏中的&#x200B;**源**
->- 确保您位于&#x200B;**帐户**&#x200B;选项卡上，然后单击您创建的标题为&#x200B;**流式摄取 — \&lt;您的缩写>**&#x200B;的帐户
+   >[!NOTE]
+   >
+   >如果您确实离开了，则可以通过执行以下操作来访问此页面：
+   >
+   >- 单击左边栏中的&#x200B;**源**
+   >- 确保您位于&#x200B;**帐户**&#x200B;选项卡上，然后单击您创建的标题为&#x200B;**流式摄取 — \&lt;您的缩写>**&#x200B;的帐户
 
->[!NOTE]
->
->如果没有看到此值，请确保没有通过单击该行而选择数据流行。  不要单击蓝色链接
+   >[!NOTE]
+   >
+   >如果没有看到此值，请确保没有通过单击该行而选择数据流行。  不要单击蓝色链接
 
-![流终结点URL显示在帐户详细信息右侧](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
+   ![流终结点URL显示在帐户详细信息右侧](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
 
 
 
@@ -105,34 +105,34 @@ curl --location '' \
 
 1. 打开Postman并导航到&#x200B;**数据摄取实验室 — >创建客户帐户** API请求并打开它
 
-![在Postman中打开创建客户帐户API请求](assets/stream-a-profile-create-customer-account-api-request.png)
+   ![在Postman中打开创建客户帐户API请求](assets/stream-a-profile-create-customer-account-api-request.png)
 
 
 
 1. 将您之前保存的&#x200B;**流端点**&#x200B;值复制并粘贴到请求的URL中
 
-![流式处理终结点值粘贴到“创建客户帐户”请求URL](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)
+   ![流式处理终结点值粘贴到“创建客户帐户”请求URL](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)
 
 
 
 1. 将您之前保存的数据流ID值复制并粘贴到&#x200B;**x-adobe-flow-id**&#x200B;标头值中
 
-![数据流ID已粘贴到x-adobe-flow-id标头值中](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)
+   ![数据流ID已粘贴到x-adobe-flow-id标头值中](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)
 
 
 
 1. 在请求正文中，更新以下属性，如下所示：
 
-- **名字** ->您的名字
-- **姓氏** ->您的姓氏
-- **电子邮件** ->您的电子邮件地址
-- **出生日期** -> YYYY-MM-DD
+   - **名字** ->您的名字
+   - **姓氏** ->您的姓氏
+   - **电子邮件** ->您的电子邮件地址
+   - **出生日期** -> YYYY-MM-DD
 
-**5. 保存**&#x200B;您的请求
+   **5. 保存**&#x200B;您的请求
 
 1. 单击&#x200B;**发送**&#x200B;按钮以执行请求，以流式传输您的客户帐户配置文件
 
-![最终创建客户帐户请求已准备好在Postman中发送](assets/stream-a-profile-final-create-customer-account-request.png)
+   ![最终创建客户帐户请求已准备好在Postman中发送](assets/stream-a-profile-final-create-customer-account-request.png)
 
 
 

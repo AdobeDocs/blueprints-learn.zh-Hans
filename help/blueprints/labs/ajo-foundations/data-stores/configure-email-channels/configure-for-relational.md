@@ -4,7 +4,7 @@ description: 了解如何使用仅针对编排的营销活动使用关系模式�
 doc-type: article
 solution: Experience Platform
 exl-id: 6f299942-79a6-42c2-8a5b-dd4bccd6aad4
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 10%
@@ -23,9 +23,9 @@ ht-degree: 10%
 1. 导航到菜单&#x200B;**管理→渠道→常规设置**&#x200B;下找到的&#x200B;**渠道配置**
 2. 单击&#x200B;**创建配置**&#x200B;按钮
 
-![创建渠道配置](assets/configure-for-profile-create-configuration-button.png)
+   ![创建渠道配置](assets/configure-for-profile-create-configuration-button.png)
 
-&#x200B;3. 在创建向导中设置以下值：
+3. 在创建向导中设置以下值：
    - **名称：** `Relational-Email`
    - **频道：** `Email`
    - **营销操作：** `Email Targeting`
@@ -98,29 +98,29 @@ ht-degree: 10%
 
 1. 在“编排的营销活动”选项卡中，并&#x200B;**选中**&#x200B;启用复选框。
 
-![配置编排的营销活动](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
+   ![配置编排的营销活动](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
 
-&#x200B;2. 在执行维下，配置以下内容：
+2. 在执行维下，配置以下内容：
    - **为每**&#x200B;发送一封邮件`Target Dimension `
    - **配置文件目标Dimension：** `dep-rel: Customer Account - customer_id`
 
-![执行维度](assets/configure-for-relational-execution-dimension-target-settings.png)
+   ![执行维度](assets/configure-for-relational-execution-dimension-target-settings.png)
 
-&#x200B;3. 在执行地址下，配置以下内容：
+3. 在执行地址下，配置以下内容：
    - **Source：** `Target Dimension`
    - **交货地址：** `click on the Edit button`
 
-![定位Dimension](assets/configure-for-relational-execution-address-source-target-dimension.png)
+   ![定位Dimension](assets/configure-for-relational-execution-address-source-target-dimension.png)
 
-&#x200B;4. 在弹出窗口中，单击文件夹&#x200B;**dep-rel：客户帐户**
+4. 在弹出窗口中，单击文件夹&#x200B;**dep-rel：客户帐户**
 
-![配置传递地址](assets/configure-for-relational-customer-account-folder.png)
+   ![配置传递地址](assets/configure-for-relational-customer-account-folder.png)
 
-&#x200B;5. 选择&#x200B;**电子邮件**&#x200B;并单击&#x200B;**选择**&#x200B;按钮
+5. 选择&#x200B;**电子邮件**&#x200B;并单击&#x200B;**选择**&#x200B;按钮
 
-![电子邮件作为传递地址](assets/configure-for-relational-select-email-as-delivery-address.png)
+   ![电子邮件作为传递地址](assets/configure-for-relational-select-email-as-delivery-address.png)
 
-&#x200B;6. 完成后，您的最终执行详细信息类似于下面的屏幕快照
+6. 完成后，您的最终执行详细信息类似于下面的屏幕快照
 
 ![执行维度已配置](assets/configure-for-relational-execution-details-final-result.png)
 

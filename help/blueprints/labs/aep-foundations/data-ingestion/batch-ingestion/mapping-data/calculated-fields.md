@@ -4,7 +4,7 @@ description: 创建计算字段表达式以回填缺少的短信同意值，并�
 doc-type: article
 solution: Experience Platform
 exl-id: ea5d006b-11c5-439c-af01-bc00b919851f
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -26,17 +26,17 @@ sms\_optIn字段是客户帐户架构中的必填字段。 问题是，我们的
 
 1. 通过单击&#x200B;**新建字段类型**&#x200B;图标创建计算字段，然后选择&#x200B;**添加计算字段**。 对于所有缺少的值，假定未提供同意并标记为&#x200B;**&quot;n&quot;**。 请注意，计算字段显示在左列，因为通过计算字段的转换是此新映射的输入。
 
-![已选择“添加计算字段”选项的新字段类型图标菜单](assets/calculated-fields-add-a-calculated-field.png "添加计算字段")
+   ![已选择“添加计算字段”选项的新字段类型图标菜单](assets/calculated-fields-add-a-calculated-field.png "添加计算字段")
 
 
 
 1. 在“创建计算字段”对话框中，添加以下表达式，然后单击&#x200B;**预览**
 
-```none
-iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
-```
+   ```none
+   iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
+   ```
 
-![使用sms_optIn表达式和预览结果创建计算字段对话框](assets/calculated-fields-sms-optin-calculated-field.png "sms_optIn计算字段")
+   ![使用sms_optIn表达式和预览结果创建计算字段对话框](assets/calculated-fields-sms-optin-calculated-field.png "sms_optIn计算字段")
 
 
 
@@ -54,13 +54,13 @@ iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
 1. 在右侧窗格中，您现在会看到目标架构面板处于打开状态。 在搜索框中键入&#x200B;**短信**
 1. 选择&#x200B;**val**&#x200B;字段
 
-![为计算字段映射选择sms.val字段的目标架构面板](assets/calculated-fields-map-calculated-field-to-target-xdm-field.png)
+   ![为计算字段映射选择sms.val字段的目标架构面板](assets/calculated-fields-map-calculated-field-to-target-xdm-field.png)
 
 
 
-最终映射应当如下所示：
+   最终映射应当如下所示：
 
-![带有映射到目标架构的sms_optin计算字段的最终映射屏幕](assets/calculated-fields-final-mapping-screen.png)
+   ![带有映射到目标架构的sms_optin计算字段的最终映射屏幕](assets/calculated-fields-final-mapping-screen.png)
 
 
 
@@ -83,21 +83,21 @@ iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
 1. 添加新的计算字段以捕获用户档案的出生日期和月份
 1. 对计算字段使用以下代码：
 
->[!NOTE]
->
->尝试通过单独执行代码段来了解所发生的情况，而不是仅复制上述代码，因为不允许在一行中创建多行内容，从而了解其构成方式，以创建更复杂的计算字段。 尝试以下操作：
->
->1. `date(birth_Date,"M/d/yyyy")`
->2. `date_part("day", date(birth_Date,"M/d/yyyy")).toString()`
->3. `date_part("month", date(birth_Date,"M/d/yyyy")).toString()`
->4. `concat(date_part("month", date(birth_Date,"M/d/yyyy")).toString(),`
->   `"-", date_part("day", date(birth_Date,"M/d/yyyy")).toString())`
+   >[!NOTE]
+   >
+   >尝试通过单独执行代码段来了解所发生的情况，而不是仅复制上述代码，因为不允许在一行中创建多行内容，从而了解其构成方式，以创建更复杂的计算字段。 尝试以下操作：
+   >
+   >1. `date(birth_Date,"M/d/yyyy")`
+   >2. `date_part("day", date(birth_Date,"M/d/yyyy")).toString()`
+   >3. `date_part("month", date(birth_Date,"M/d/yyyy")).toString()`
+   >4. `concat(date_part("month", date(birth_Date,"M/d/yyyy")).toString(),`
+   >   `"-", date_part("day", date(birth_Date,"M/d/yyyy")).toString())`
 
 
 
 1. 单击预览，您应该会看到以下结果。 如果一切正常，请单击&#x200B;**保存**
 
-![出生日期和月份计算字段表达式的预览结果](assets/calculated-fields-birth-day-month-preview.png)
+   ![出生日期和月份计算字段表达式的预览结果](assets/calculated-fields-birth-day-month-preview.png)
 
 
 
@@ -111,9 +111,9 @@ iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
 
 1. 使用以下代码创建新的计算字段以捕获用户档案的出生年份
 
-```none
-date_part("yyyy",date(birth_Date,"M/d/yyyy"))
-```
+   ```none
+   date_part("yyyy",date(birth_Date,"M/d/yyyy"))
+   ```
 
 1. 将计算字段映射到&#x200B;**person.birthYear**&#x200B;的目标位置
 

@@ -4,7 +4,7 @@ description: 了解如何使用手机代号和关系存储中的模型属性，�
 doc-type: article
 solution: Experience Platform
 exl-id: 3deb822b-8374-4537-a260-f4f6f4d67569
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -32,43 +32,43 @@ ht-degree: 0%
 
 1. 单击&#x200B;**Personalization**&#x200B;按钮以创建您的消息。
 
-![用于创建短信消息的Personalization按钮](assets/compose-the-sms-click-personalization-button.png)
+   ![用于创建短信消息的Personalization按钮](assets/compose-the-sms-click-personalization-button.png)
 
->[!NOTE]
->
->“魔棒”选项使用人工智能帮助您编写消息。 如果你愿意，可以试试看，但我们不会在本实验室进行报道。
-
-
-
-&#x200B;2. 将下面的文本复制并粘贴到短信消息正文中。
-
-```none
-Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrade to one of the new iPhone 17 models. Shop online or come into a store today to take advantage of this offer.
-```
-
->[!NOTE]
->
->请确保在消息编辑器中将自动换行更改为&#x200B;**打开**。  您可以在窗口的右下窗格中找到。
+   >[!NOTE]
+   >
+   >“魔棒”选项使用人工智能帮助您编写消息。 如果你愿意，可以试试看，但我们不会在本实验室进行报道。
 
 
 
-&#x200B;3. 使用左边栏中的&#x200B;**Target属性**&#x200B;选项，更新下面名为&#x200B;**phone\_make**&#x200B;和&#x200B;**phone\_model**&#x200B;的消息中的两个字段。  完成后，您的消息应与屏幕快照匹配。
+2. 将下面的文本复制并粘贴到短信消息正文中。
 
-![带有手机代号和型号的最终短信消息](assets/compose-the-sms-final-message-text.png)
+   ```none
+   Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrade to one of the new iPhone 17 models. Shop online or come into a store today to take advantage of this offer.
+   ```
 
->[!NOTE]
->
->你为什么要这样做？  您想要使用客户手机代号和型号将消息个性化，并且此信息位于关系商店的Customer Line表中。  这演示了如何使用编排的营销活动中的数据来个性化消息。
-
-
-
-&#x200B;4. 单击编辑器上的&#x200B;**验证**，确保没有验证错误，如果成功，请单击&#x200B;**保存**&#x200B;按钮
-
-![消息编辑器中的“验证”和“保存”按钮](assets/compose-the-sms-validate-and-save.png)
+   >[!NOTE]
+   >
+   >请确保在消息编辑器中将自动换行更改为&#x200B;**打开**。  您可以在窗口的右下窗格中找到。
 
 
 
-&#x200B;5. 完成返回到工作流画布后，单击&#x200B;**后退箭头(\&lt;-)**
+3. 使用左边栏中的&#x200B;**Target属性**&#x200B;选项，更新下面名为&#x200B;**phone\_make**&#x200B;和&#x200B;**phone\_model**&#x200B;的消息中的两个字段。  完成后，您的消息应与屏幕快照匹配。
+
+   ![带有手机代号和型号的最终短信消息](assets/compose-the-sms-final-message-text.png)
+
+   >[!NOTE]
+   >
+   >你为什么要这样做？  您想要使用客户手机代号和型号将消息个性化，并且此信息位于关系商店的Customer Line表中。  这演示了如何使用编排的营销活动中的数据来个性化消息。
+
+
+
+4. 单击编辑器上的&#x200B;**验证**，确保没有验证错误，如果成功，请单击&#x200B;**保存**&#x200B;按钮
+
+   ![消息编辑器中的“验证”和“保存”按钮](assets/compose-the-sms-validate-and-save.png)
+
+
+
+5. 完成返回到工作流画布后，单击&#x200B;**后退箭头(\&lt;-)**
 
 ![返回工作流画布的后退箭头](assets/compose-the-sms-return-to-canvas.png)
 

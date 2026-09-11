@@ -4,7 +4,7 @@ description: 使用预览错误诊断程序来调查失败的数据流运行，�
 doc-type: article
 solution: Experience Platform
 exl-id: beee191b-a860-494c-873f-ab2e407ffbf5
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -65,6 +65,6 @@ _dep.account.createDate. Details: Unable to convert
 Created on 2023-09-24T10:19:58Z to schema type DATE_TIME
 ```
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >此错误并不严重，因为此错误仅会导致映射期间出现警告。 数据流运行不会因此而失败，因此本实验不会修复此错误。

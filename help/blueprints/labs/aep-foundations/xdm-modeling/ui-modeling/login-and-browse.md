@@ -4,7 +4,7 @@ description: 登录Adobe Experience Platform并导航到“架构”部分，以
 doc-type: article
 solution: Experience Platform
 exl-id: 35cac81f-4711-425e-8df1-b0c302eda562
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. 单击左边栏中的&#x200B;**架构**&#x200B;选项卡
 
-左边栏导航中的![架构选项卡](assets/login-and-browse-schemas-tab-left-rail.png "使用左边栏导航到架构")
+   左边栏导航中的![架构选项卡](assets/login-and-browse-schemas-tab-left-rail.png "使用左边栏导航到架构")
 
 1. 在顶部导航中，您将看到用于浏览现有架构以及查看当前位于XDM注册表中的字段组和数据类型的选项。
 

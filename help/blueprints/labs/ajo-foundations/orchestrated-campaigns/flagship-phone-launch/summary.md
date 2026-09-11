@@ -4,7 +4,7 @@ description: 回顾使用SMS渠道构建编排的营销活动，该渠道定位�
 doc-type: article
 solution: Experience Platform
 exl-id: 587758b6-b1c1-4ce3-bcc9-ad4f6640188d
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 1%
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**如果您正在阅读本文，则意味着您已经完成了实验。**
 >

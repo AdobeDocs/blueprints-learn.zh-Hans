@@ -4,7 +4,7 @@ description: 在Adobe Journey Optimizer中配置可重复使用的自定义操�
 doc-type: article
 solution: Experience Platform
 exl-id: f81cc8be-bc2a-43cb-a2d4-89834aa94dcb
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 1. 在右上角单击&#x200B;**创建操作**&#x200B;按钮
 
-右上角的![创建操作按钮](assets/configure-custom-action-click-create-action-button.png)
+   右上角的![创建操作按钮](assets/configure-custom-action-click-create-action-button.png)
 
-&#x200B;2. 在显示的配置面板中，更新以下基本值，如下所示：
+2. 在显示的配置面板中，更新以下基本值，如下所示：
    - **名称**： `GetShippingDetails`
    - **描述**： `Call third party to get Shipping ETA and Tracking Number`
    - **操作类型**： `Custom`
@@ -73,27 +73,27 @@ ht-degree: 0%
 
 1. 在“负载”区域中，单击&#x200B;**铅笔图标**&#x200B;以打开“字段配置”屏幕
 
-![铅笔图标，用于打开有效负载区域中的字段配置屏幕](assets/configure-custom-action-open-field-configuration.png)
+   ![铅笔图标，用于打开有效负载区域中的字段配置屏幕](assets/configure-custom-action-open-field-configuration.png)
 
-响应有效负载的![字段配置屏幕](assets/configure-custom-action-open-field-configuration--2.png)
+   响应有效负载的![字段配置屏幕](assets/configure-custom-action-open-field-configuration--2.png)
 
 
 
-&#x200B;2. **复制并粘贴**&#x200B;以下有效负载到有效负载框中
+2. **复制并粘贴**&#x200B;以下有效负载到有效负载框中
 
-```json
-{
+   ```json
+   {
     "eta": "11/19/2025",
     "tracking_number": "072000326"
-}
-```
+   }
+   ```
 
->[!NOTE]
->
->这与上面的Mockaroo端点应返回的JSON结构相同：
+   >[!NOTE]
+   >
+   >这与上面的Mockaroo端点应返回的JSON结构相同：
 
 
-&#x200B;3. 将显示响应有效负载。 单击&#x200B;**保存**&#x200B;按钮。
+3. 将显示响应有效负载。 单击&#x200B;**保存**&#x200B;按钮。
 
 使用“保存”按钮显示的![响应有效负载](assets/configure-custom-action-save-response-payload.png)
 
@@ -107,36 +107,36 @@ ht-degree: 0%
 
 1. 单击右下边栏中的&#x200B;**发送测试请求**&#x200B;按钮，验证您未损坏任何内容😀
 
-在右下边栏中![发送测试请求按钮](assets/configure-custom-action-click-send-test-request.png)
+   在右下边栏中![发送测试请求按钮](assets/configure-custom-action-click-send-test-request.png)
 
 
 
-&#x200B;2. 单击&#x200B;**查询参数**&#x200B;选项卡并将`orderId`的值更新为&#x200B;**123**
+2. 单击&#x200B;**查询参数**&#x200B;选项卡并将`orderId`的值更新为&#x200B;**123**
 
-![orderId值设置为123](assets/configure-custom-action-set-orderid-query-parameter.png)的查询参数选项卡
-
-
-
-&#x200B;3. 单击&#x200B;**发送按钮**，如果一切运行良好，您应该会看到响应代码200和有效负载预览，如下所示……
-
-发送测试请求后![响应代码200和有效负载预览](assets/configure-custom-action-response-200-preview.png)
-
-预览
-
-```json
-{
-  "eta": "12/26/2025",
-  "tracking_number": "063112249"
-}
-```
-
->[!WARNING]
->
->如果您没有看到200响应或预览操作，请不要继续。 提高您的✋以获取帮助。
+   ![orderId值设置为123](assets/configure-custom-action-set-orderid-query-parameter.png)的查询参数选项卡
 
 
 
-&#x200B;4. 单击&#x200B;**取消**&#x200B;按钮以返回“操作”屏幕，然后在右上边栏中向上滚动并单击&#x200B;**保存**&#x200B;按钮
+3. 单击&#x200B;**发送按钮**，如果一切运行良好，您应该会看到响应代码200和有效负载预览，如下所示……
+
+   发送测试请求后![响应代码200和有效负载预览](assets/configure-custom-action-response-200-preview.png)
+
+   预览
+
+   ```json
+   {
+     "eta": "12/26/2025",
+     "tracking_number": "063112249"
+   }
+   ```
+
+   >[!WARNING]
+   >
+   >如果您没有看到200响应或预览操作，请不要继续。 提高您的✋以获取帮助。
+
+
+
+4. 单击&#x200B;**取消**&#x200B;按钮以返回“操作”屏幕，然后在右上边栏中向上滚动并单击&#x200B;**保存**&#x200B;按钮
 
 >[!TIP]
 >

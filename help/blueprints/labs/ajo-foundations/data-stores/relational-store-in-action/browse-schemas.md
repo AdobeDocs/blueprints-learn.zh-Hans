@@ -4,7 +4,7 @@ description: 了解如何在Adobe Experience Platform中浏览关系架构和查
 doc-type: article
 solution: Experience Platform
 exl-id: ac0e6743-4a83-4a8b-9bc6-f012b636312e
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
@@ -40,24 +40,24 @@ ht-degree: 0%
 
 1. 单击&#x200B;**关系**&#x200B;选项卡，然后单击&#x200B;**查看关系图**&#x200B;按钮
 
-![带有“查看关系图”按钮的“关系”选项卡](assets/browse-schemas-relationships-tab.png)
+   ![带有“查看关系图”按钮的“关系”选项卡](assets/browse-schemas-relationships-tab.png)
 
 
 
-&#x200B;2. 单击&#x200B;**选择架构**
-&#x200B;3. 从弹出窗口中，选择`dep-rel: Customer Account`，然后单击&#x200B;**确认**
+2. 单击&#x200B;**选择架构**
+3. 从弹出窗口中，选择`dep-rel: Customer Account`，然后单击&#x200B;**确认**
 
-![选择架构弹出窗口，相关说明：已选择客户帐户](assets/browse-schemas-select-schema-popup.png)
-
-
-
-&#x200B;4. 在ERD上，单击&#x200B;**3个点**&#x200B;并选择&#x200B;**显示相关实体**
-
-![在ERD上下文菜单中显示相关实体选项](assets/browse-schemas-show-related-entities.png)
+   ![选择架构弹出窗口，相关说明：已选择客户帐户](assets/browse-schemas-select-schema-popup.png)
 
 
 
-&#x200B;5. 查看ERD以及与dep-rel：客户帐户直接相关的所有表。 或者，您可以将ERD下载为PNG文件。
+4. 在ERD上，单击&#x200B;**3个点**&#x200B;并选择&#x200B;**显示相关实体**
+
+   ![在ERD上下文菜单中显示相关实体选项](assets/browse-schemas-show-related-entities.png)
+
+
+
+5. 查看ERD以及与dep-rel：客户帐户直接相关的所有表。 或者，您可以将ERD下载为PNG文件。
 
 ![实体关系图显示与客户帐户相关的表](assets/browse-schemas-erd-diagram.png)
 
@@ -69,4 +69,4 @@ ht-degree: 0%
 
 您现在已了解在架构和关系UI中导航是多么容易。  您可以选择特定架构并导航以查看关系，帮助了解并在活动编排中使用数据。
 
-如有需要，您可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/data-management/get-started-schemas)阅读更多内容。
+如有需要，您可以在[此处](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/data-management/get-started-schemas)阅读更多内容。

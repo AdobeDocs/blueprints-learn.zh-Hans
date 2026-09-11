@@ -4,7 +4,7 @@ description: 通过UI和API查看架构的身份描述符，并对已解析架�
 doc-type: article
 solution: Experience Platform
 exl-id: 44eedb82-259f-4f7f-84fe-acc2b42376eb
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -27,13 +27,13 @@ ht-degree: 0%
 
 1. 通过单击`Step 3 - Get Customer Account Schema and its descriptors` API将其选中。
 
-![步骤3 — 使用描述符API请求获取客户帐户架构](assets/view-schema-step-3-get-customer-account-schema-w-descriptors.png "步骤3 — 使用描述符获取客户帐户架构")
+   ![步骤3 — 使用描述符API请求获取客户帐户架构](assets/view-schema-step-3-get-customer-account-schema-w-descriptors.png "步骤3 — 使用描述符获取客户帐户架构")
 
 
 
 1. 在请求的URL中，将`<replace me>`替换为您从上一部分（创建架构）保存到调用末尾的`$meta:altId`，如下所示
 
-![带有altId的最后步骤5请求附加到URL](assets/view-schema-final-step-5-request.png "最后步骤5请求")
+   ![带有altId的最后步骤5请求附加到URL](assets/view-schema-final-step-5-request.png "最后步骤5请求")
 
 
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以在此处阅读有关各种“接受”标头的更多信息 — > [Experience League架构API端点](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=zh-Hans#lookup)
+>您可以在此处阅读有关各种“接受”标头的更多信息 — > [Experience League架构API端点](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=en#lookup)
 
 
 

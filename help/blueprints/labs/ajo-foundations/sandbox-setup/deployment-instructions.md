@@ -4,7 +4,7 @@ description: 使用DEP CLI将AJO架构基础实验室包的架构、数据集、
 doc-type: article
 solution: Experience Platform
 exl-id: 3d6e9a1c-7b2f-4e8a-9d0c-1f5a8b6c2e3d
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 1%
@@ -66,15 +66,15 @@ CLI将部署到您的环境文件指向的任何沙盒，因此必须在运行�
 1. 复制`envFiles/sample-env.json`并为其提供一个新名称，如`my-env.json`
 2. 打开文件并使用[Developer Console设置](developer-console-setup.md)中的值填写以下字段：
 
-| **字段** | **值** |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `API_KEY` | 客户端ID |
-| `CLIENT_SECRET` | 客户端密码 |
-| `IMS_ORG` | 组织ID |
-| `SCOPES` | 必须包括Experience Platform API和Adobe Journey Optimizer API范围&#x200B;<br />*（例如cjm.suppression\_service.client.delete、cjm.suppression\_service.client.all、openid、session、AdobeID、read\_organizations、additional\_info.projectedProductContext）* |
-| `SANDBOX_NAME` | 您定位的沙盒 — 必须为空，且类型为`dev` |
+   | **字段** | **值** |
+   | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+   | `API_KEY` | 客户端ID |
+   | `CLIENT_SECRET` | 客户端密码 |
+   | `IMS_ORG` | 组织ID |
+   | `SCOPES` | 必须包括Experience Platform API和Adobe Journey Optimizer API范围&#x200B;<br />*（例如cjm.suppression\_service.client.delete、cjm.suppression\_service.client.all、openid、session、AdobeID、read\_organizations、additional\_info.projectedProductContext）* |
+   | `SANDBOX_NAME` | 您定位的沙盒 — 必须为空，且类型为`dev` |
 
-&#x200B;3. 保存并关闭文件
+3. 保存并关闭文件
 
 >[!NOTE]
 >
@@ -117,7 +117,8 @@ CLI将部署到您的环境文件指向的任何沙盒，因此必须在运行�
 >[!NOTE]
 >
 >使用步骤6，而不是分别运行步骤4和5 — 它一次执行相同的操作，为您处理传播等待。
-> [!NOTE]
+
+>[!NOTE]
 >
 >上述所有等待时间均由CLI自动检查。 如果您过早执行步骤，它会阻止您执行操作，并告诉您需要等待多长时间。
 

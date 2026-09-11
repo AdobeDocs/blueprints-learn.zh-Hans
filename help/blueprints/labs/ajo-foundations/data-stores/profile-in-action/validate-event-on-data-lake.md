@@ -4,7 +4,7 @@ description: 了解如何查询数据湖以验证流式传输Web事件是否已�
 doc-type: article
 solution: Experience Platform
 exl-id: 14445089-aa3c-4cce-9d33-80032b6f9868
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 验证事件
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >最终，数据将显示在数据湖中。  **这可能需要60分钟**。  我们知道已为配置文件启用数据集，因此事件将创建配置文件片段。
 >
@@ -28,18 +28,18 @@ ht-degree: 0%
 
 1. 转到&#x200B;**查询**&#x200B;和&#x200B;**创建查询**
 
-![在查询节中创建查询屏幕](assets/validate-event-on-data-lake-create-query.png)
+   ![在查询节中创建查询屏幕](assets/validate-event-on-data-lake-create-query.png)
 
-&#x200B;2. 复制此SQL并将其粘贴到查询中
+2. 复制此SQL并将其粘贴到查询中
 
-```sql
-SELECT identityMap['email'][0].id, * FROM dep_web
-where identityMap['email'][0].id = 'henry.creel@emailsim.io'
-```
+   ```sql
+   SELECT identityMap['email'][0].id, * FROM dep_web
+   where identityMap['email'][0].id = 'henry.creel@emailsim.io'
+   ```
 
-&#x200B;3. **运行**&#x200B;查询
+3. **运行**&#x200B;查询
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >**记住**：最终数据将显示在数据湖中。  **这可能需要60分钟**。
 >

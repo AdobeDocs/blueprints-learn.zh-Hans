@@ -4,7 +4,7 @@ description: 从批处理摄取实验室导入映射集，并更新计算日期�
 doc-type: article
 solution: Experience Platform
 exl-id: c05792af-5eab-4e62-a26e-a54478a988a8
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 配置映射
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >仅当您成功完成批量摄取实验室时，才应遵循此部分。  否则，请按照在批处理摄取实验室中找到的[映射数据](../batch-ingestion/mapping-data/overview.md)步骤操作。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 单击映射屏幕上的&#x200B;**导入映射**&#x200B;按钮
 
-映射屏幕上的![导入映射按钮](assets/configure-mapping-import-mapping-button.png)
+   映射屏幕上的![导入映射按钮](assets/configure-mapping-import-mapping-button.png)
 
 
 

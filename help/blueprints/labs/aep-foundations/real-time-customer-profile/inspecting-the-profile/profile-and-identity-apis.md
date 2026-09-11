@@ -4,7 +4,7 @@ description: 在Postman中使用配置文件实体API和身份服务集群API查
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 1%
@@ -79,17 +79,17 @@ ht-degree: 1%
 1. 单击&#x200B;**实体查找（属性）**&#x200B;请求以将其打开
 1. 通过单击&#x200B;**发送**&#x200B;按钮执行调用
 
-发送&rbrack;(assets/profile-and-identity-apis-entity-lookup-attributes-request.png "配置文件实体查找（属性） API之前，实体查找（属性）调用的!&lbrack;Postman请求窗格")
+   发送](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "配置文件实体查找（属性） API之前，实体查找（属性）调用的![Postman请求窗格")
 
-成功的请求应使用`200 OK`进行响应，您应会看到一个包含深度模式配置文件所有属性的结果。
+   成功的请求应使用`200 OK`进行响应，您应会看到一个包含深度模式配置文件所有属性的结果。
 
-![200 OK响应包含Depeche模式配置文件的所有属性](assets/profile-and-identity-apis-successful-attributes-api-response.png "成功的配置文件实体（属性） API响应")
+   ![200 OK响应包含Depeche模式配置文件的所有属性](assets/profile-and-identity-apis-successful-attributes-api-response.png "成功的配置文件实体（属性） API响应")
 
->[!NOTE]
->
->默认情况下，如果未在配置文件实体请求中指定合并策略，则它在沙盒中使用默认合并策略
+   >[!NOTE]
+   >
+   >默认情况下，如果未在配置文件实体请求中指定合并策略，则它在沙盒中使用默认合并策略
 
-使用实体API时，您可以使用许多查询参数来更改响应中返回的内容。
+   使用实体API时，您可以使用许多查询参数来更改响应中返回的内容。
 
 1. 在实体查找（属性）请求中，单击该请求的&#x200B;**参数**&#x200B;选项
 1. 选中名为&#x200B;**字段**&#x200B;的&#x200B;**键**&#x200B;旁边的框
@@ -105,7 +105,7 @@ ht-degree: 1%
 
 ![筛选的200 OK响应只显示“名字”、“姓氏”和“活动产品”字段](assets/profile-and-identity-apis-successful-filtered-attributes-response.png "启用筛选器的成功配置文件实体查找（属性） API响应")
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >恭喜！  您已成功利用配置文件实体API查找配置文件属性
 
