@@ -136,11 +136,11 @@ ht-degree: 0%
 
 ![选择徽标上传后单击“下一步”](assets/building-content-fragments-upload-logo-click-next.png)
 
-11. 选择您已创建的&#x200B;**资产文件夹**，然后单击&#x200B;**导入**。 该文件将保存在您的文件夹中。
+&#x200B;11. 选择您已创建的&#x200B;**资产文件夹**，然后单击&#x200B;**导入**。 该文件将保存在您的文件夹中。
 
 ![选择已创建的资产文件夹并单击“导入”](assets/building-content-fragments-select-asset-folder-import.png)
 
-12. 徽标放置正确，但太大，需要调整大小。 要调整徽标的大小，请更新其属性。 单击&#x200B;**样式选项卡**&#x200B;并通过拖动滑块将宽度设置为40%，如下所示。
+&#x200B;12. 徽标放置正确，但太大，需要调整大小。 要调整徽标的大小，请更新其属性。 单击&#x200B;**样式选项卡**&#x200B;并通过拖动滑块将宽度设置为40%，如下所示。
 
 >[!NOTE]
 >
@@ -150,15 +150,15 @@ ht-degree: 0%
 
 ![样式选项卡宽度滑块设置为40%以调整徽标大小](assets/building-content-fragments-resize-logo-width-slider.png)
 
-13. 单击&#x200B;**“保存”**&#x200B;并保存您的片段。 在确认时，您会收到绿色条通知。
+&#x200B;13. 单击&#x200B;**“保存”**&#x200B;并保存您的片段。 在确认时，您会收到绿色条通知。
 
 保存片段后![绿色确认栏](assets/building-content-fragments-save-fragment-confirmation.png)
 
-14. 保存的片段处于草稿模式。 在使用它之前，您需要先发布它。 单击“**上一步**”按钮。
+&#x200B;14. 保存的片段处于草稿模式。 在使用它之前，您需要先发布它。 单击“**上一步**”按钮。
 
 ![“上一步”按钮以在发布前离开草稿片段](assets/building-content-fragments-click-back-button-draft.png)
 
-15. 单击“**发布**”按钮。 您会看到消息“正在发布片段，这可能需要一些时间。 我们会在完成后通知。” 确认时。 您的片段已准备好用于创建模板。
+&#x200B;15. 单击“**发布**”按钮。 您会看到消息“正在发布片段，这可能需要一些时间。 我们会在完成后通知。” 确认时。 您的片段已准备好用于创建模板。
 
 ![发布按钮和发布片段确认消息](assets/building-content-fragments-click-publish-fragment-button.png)
 

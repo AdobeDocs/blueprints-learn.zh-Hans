@@ -76,7 +76,7 @@ ht-degree: 0%
 
 2. 从页面上的第一步使用&#x200B;**数据流ID**&#x200B;更新&#x200B;**DATASTREAM_CONFIG** **值**。
 
-   使用数据流ID ](assets/send-an-edge-web-event-update-datastream-config-variable.png)更新了![DATASTREAM_CONFIG变量
+   使用数据流ID ![&#128279;](assets/send-an-edge-web-event-update-datastream-config-variable.png)更新了DATASTREAM_CONFIG变量
 
 3. **保存**&#x200B;您的更新（ctrl+s或command+s）
 4. 单击环境侧栏右上角的“**X**”以关闭该侧栏

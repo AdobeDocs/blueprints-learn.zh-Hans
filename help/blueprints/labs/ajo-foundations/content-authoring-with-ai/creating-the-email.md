@@ -69,27 +69,27 @@ ht-degree: 0%
 
 ![编辑营销活动电子邮件活动的电子邮件选项](assets/creating-the-email-click-edit-email.png)
 
-11. 单击&#x200B;**操作选项卡**&#x200B;并选择&#x200B;**您的**&#x200B;电子邮件配置。 您的沙盒可能会将此内容显示为关系电子邮件。 （选择任意）
+&#x200B;11. 单击&#x200B;**操作选项卡**&#x200B;并选择&#x200B;**您的**&#x200B;电子邮件配置。 您的沙盒可能会将此内容显示为关系电子邮件。 （选择任意）
 
 选择电子邮件配置的![操作选项卡](assets/creating-the-email-action-tab-email-configuration.png)
 
-12. 单击&#x200B;**内容选项卡**
+&#x200B;12. 单击&#x200B;**内容选项卡**
 
 电子邮件编辑器中的![内容选项卡](assets/creating-the-email-click-content-tab.png)
 
-13. 单击&#x200B;**应用内容模板**
+&#x200B;13. 单击&#x200B;**应用内容模板**
 
 在电子邮件编辑器中![应用内容模板选项](assets/creating-the-email-click-apply-content-template.png)
 
-14. 选择您创建的模板&#x200B;**“促销模板”**，然后单击&#x200B;**确认**
+&#x200B;14. 选择您创建的模板&#x200B;**“促销模板”**，然后单击&#x200B;**确认**
 
 ![选择促销模板并单击“确认”](assets/creating-the-email-select-promotional-template-confirm.png)
 
-15. 单击&#x200B;**编辑电子邮件正文**
+&#x200B;15. 单击&#x200B;**编辑电子邮件正文**
 
 应用模板后![编辑电子邮件正文选项](assets/creating-the-email-click-edit-email-body.png)
 
-16. 确认新页眉、主页、页脚和内容块显示正确。
+&#x200B;16. 确认新页眉、主页、页脚和内容块显示正确。
 
 ![页眉、主页、页脚和内容块在电子邮件中正确显示](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 

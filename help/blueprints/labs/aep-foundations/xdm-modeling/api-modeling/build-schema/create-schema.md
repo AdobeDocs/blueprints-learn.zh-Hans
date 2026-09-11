@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**尚未执行调用……1}**
+>**尚未执行调用……1&rbrace;**
 
 1. 单击`XDM Schema Lab -> Create Schema`文件夹中的`Step 4 - Create Customer Account Schema` API调用。
 

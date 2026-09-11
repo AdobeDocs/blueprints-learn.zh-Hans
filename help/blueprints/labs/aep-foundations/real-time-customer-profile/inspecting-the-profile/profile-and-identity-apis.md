@@ -79,7 +79,7 @@ ht-degree: 1%
 1. 单击&#x200B;**实体查找（属性）**&#x200B;请求以将其打开
 1. 通过单击&#x200B;**发送**&#x200B;按钮执行调用
 
-   发送](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "配置文件实体查找（属性） API之前，实体查找（属性）调用的![Postman请求窗格")
+   发送&rbrack;(assets/profile-and-identity-apis-entity-lookup-attributes-request.png "配置文件实体查找（属性） API之前，实体查找（属性）调用的!&lbrack;Postman请求窗格")
 
    成功的请求应使用`200 OK`进行响应，您应会看到一个包含深度模式配置文件所有属性的结果。
 

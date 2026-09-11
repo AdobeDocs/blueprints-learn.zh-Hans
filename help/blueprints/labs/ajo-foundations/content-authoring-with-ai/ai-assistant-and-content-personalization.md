@@ -84,7 +84,7 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 
 4. 从下拉列表中选择&#x200B;**Connection 5G Brand Guidelines**。
 
-   在AI助手下拉列表](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)中选择了![连接5G品牌指南选项
+   在AI助手下拉列表![&#128279;](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)中选择了连接5G品牌指南选项
 
 5. 提示：
 

@@ -156,7 +156,7 @@ Adobe Journey Optimizer正文部分下方的“**设置**”和“**样式**”�
 
    ![标题片段在模板中整齐对齐](assets/building-content-template-header-fragment-aligned-template.png)
 
-5. 单击“保存”****&#x200B;按钮保存模板，然后单击“上一步”****。
+5. 单击“保存”**&#x200B;**&#x200B;按钮保存模板，然后单击“上一步”**&#x200B;**。
 
 ![保存按钮以在单击“返回”之前保存模板](assets/building-content-template-click-save-button-template.png)
 

@@ -42,7 +42,7 @@ ht-degree: 0%
 
 
 
-   在属性列表](assets/option-1-using-audiences-to-aggregate-select-billing-data-usage-field--2.png)中选择了![计费数据使用情况字段
+   在属性列表![&#128279;](assets/option-1-using-audiences-to-aggregate-select-billing-data-usage-field--2.png)中选择了计费数据使用情况字段
 
 
 
@@ -108,15 +108,15 @@ ht-degree: 0%
 
 
 
-5. 单击“受众” — >“Experience Platform”。 将“计费使用总和”>“140 GB”和“计费使用平均”>= 20 GB拖动到“计划名称”旁边。
+&#x200B;5. 单击“受众” — >“Experience Platform”。 将“计费使用总和”>“140 GB”和“计费使用平均”>= 20 GB拖动到“计划名称”旁边。
 
    ![将计费使用情况受众拖动到计划名称旁边](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)
 
 
 
-6. 将伪代码复制到描述中
+&#x200B;6. 将伪代码复制到描述中
 
-7. 选中“可以流”。 **它不能是流式传输**。 进行一些更改：
+&#x200B;7. 选中“可以流”。 **它不能是流式传输**。 进行一些更改：
 
    >[!NOTE]
    >
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 
 
-8. 将&#x200B;**计划名称（计划名称）**&#x200B;替换为： XDM个人资料> Devbc >计划详细信息> **计划名称**
+&#x200B;8. 将&#x200B;**计划名称（计划名称）**&#x200B;替换为： XDM个人资料> Devbc >计划详细信息> **计划名称**
 
    ![将计划名称（计划名称）替换为非规范的计划名称字段](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 
 
-9. 验证您现在是否可以将其另存为流式传输。 将受众另存为“计费数据使用率较高，但没有Ultimate计划&#x200B;*”*
+&#x200B;9. 验证您现在是否可以将其另存为流式传输。 将受众另存为“计费数据使用率较高，但没有Ultimate计划&#x200B;*”*
 
 >[!NOTE]
 >

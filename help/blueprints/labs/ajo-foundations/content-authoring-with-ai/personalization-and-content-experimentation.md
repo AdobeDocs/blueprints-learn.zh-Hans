@@ -48,7 +48,7 @@ Adobe Journey Optimizer中的Personalization允许您根据个人资料、行为
 
    电子邮件文本工具栏中的![个性化图标](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
-4. 搜索&#x200B;**第一个名称****1}。**
+4. 搜索&#x200B;**第一个名称**&#x200B;**1&rbrace;。**
 
    ![在个性化面板中搜索“名字”属性](assets/personalization-and-content-experimentation-search-first-name-field.png)
 

@@ -128,11 +128,11 @@ Orchestrated Campaign对所有活动使用关系架构。 使用读取受众活�
 
 从定向维度列中选择了![Source属性](assets/read-an-audience-select-source-attribute.png)
 
-11. Source列的不同值在下拉菜单中可用。 对于&#x200B;**自定义条件**，从下拉列表中选择&#x200B;**“商店中”**，然后单击&#x200B;**确认**&#x200B;退出
+&#x200B;11. Source列的不同值在下拉菜单中可用。 对于&#x200B;**自定义条件**，从下拉列表中选择&#x200B;**“商店中”**，然后单击&#x200B;**确认**&#x200B;退出
 
 ![自定义条件在商店中设置为](assets/read-an-audience-set-in-store-condition.png)
 
-12. 返回&#x200B;**拆分**&#x200B;活动的详细信息窗格，第一次拆分的设置已完成。 单击&#x200B;**将区段**&#x200B;添加到第二次拆分
+&#x200B;12. 返回&#x200B;**拆分**&#x200B;活动的详细信息窗格，第一次拆分的设置已完成。 单击&#x200B;**将区段**&#x200B;添加到第二次拆分
 
 ![在拆分活动详细信息窗格中添加区段按钮](assets/read-an-audience-add-segment-button.png)
 
@@ -140,33 +140,33 @@ Orchestrated Campaign对所有活动使用关系架构。 使用读取受众活�
 
 ![名为结果的新区段](assets/read-an-audience-new-result-segment.png)
 
-13. 将“**Result**”重命名为“**Not In Store**”，然后单击&#x200B;**创建筛选器**&#x200B;以设置筛选器条件
+&#x200B;13. 将“**Result**”重命名为“**Not In Store**”，然后单击&#x200B;**创建筛选器**&#x200B;以设置筛选器条件
 
-使用筛选器选项](assets/read-an-audience-rename-not-in-store-segment.png)将![区段重命名为“不在存储区中”
+使用筛选器选项![&#128279;](assets/read-an-audience-rename-not-in-store-segment.png)将区段重命名为“不在存储区中”
 
-14. 在&#x200B;**创建筛选器**&#x200B;窗格中，单击&#x200B;**添加条件**。 按照与上述相同的方法，通过单击&#x200B;**>**&#x200B;展开&#x200B;**定向维度**，然后从列表中选择`Source`并单击&#x200B;**确认**
+&#x200B;14. 在&#x200B;**创建筛选器**&#x200B;窗格中，单击&#x200B;**添加条件**。 按照与上述相同的方法，通过单击&#x200B;**>**&#x200B;展开&#x200B;**定向维度**，然后从列表中选择`Source`并单击&#x200B;**确认**
 
 ![目标维度已展开以显示关系存储列](assets/read-an-audience-expand-targeting-dimension.png)
 
 从定向维度列中选择了![Source属性](assets/read-an-audience-select-source-attribute.png)
 
-15. 对于&#x200B;**自定义条件**，请从下拉列表中选择&#x200B;**“商店中”**，对于运算符，请选择“**不等于**”。 单击&#x200B;**确认**&#x200B;退出
+&#x200B;15. 对于&#x200B;**自定义条件**，请从下拉列表中选择&#x200B;**“商店中”**，对于运算符，请选择“**不等于**”。 单击&#x200B;**确认**&#x200B;退出
 
 ![自定义条件设置为不等于In Store](assets/read-an-audience-set-not-in-store-condition.png)
 
-16. 返回&#x200B;**拆分**&#x200B;活动的详细信息窗格，两个拆分的设置已完成。 单击&#x200B;**开始**&#x200B;以在&#x200B;**测试模式**&#x200B;下运行营销活动
+&#x200B;16. 返回&#x200B;**拆分**&#x200B;活动的详细信息窗格，两个拆分的设置已完成。 单击&#x200B;**开始**&#x200B;以在&#x200B;**测试模式**&#x200B;下运行营销活动
 
 ![在配置拆分后以测试模式运行营销活动的“开始”按钮](assets/read-an-audience-start-test-mode-second-run.png)
 
-17. 测试执行开始，并在完成时显示结果。 由于在关系架构中只找到&#x200B;**7**&#x200B;个匹配的目标维度，因此在拆分操作（**7**&#x200B;和&#x200B;**0**）后也观察到相同的计数
+&#x200B;17. 测试执行开始，并在完成时显示结果。 由于在关系架构中只找到&#x200B;**7**&#x200B;个匹配的目标维度，因此在拆分操作（**7**&#x200B;和&#x200B;**0**）后也观察到相同的计数
 
 ![拆分活动结果显示7和0](assets/read-an-audience-verify-split-counts.png)计数
 
-18. 单击每个结果框并&#x200B;**预览结果**&#x200B;以查看结果
+&#x200B;18. 单击每个结果框并&#x200B;**预览结果**&#x200B;以查看结果
 
 ![每个拆分结果框的预览结果选项](assets/read-an-audience-preview-split-results.png)
 
-19. 单击&#x200B;**停止**&#x200B;以停止营销活动的&#x200B;**测试模式**
+&#x200B;19. 单击&#x200B;**停止**&#x200B;以停止营销活动的&#x200B;**测试模式**
 
 ![停止按钮以结束最终测试模式运行](assets/read-an-audience-stop-test-mode-final.png)
 

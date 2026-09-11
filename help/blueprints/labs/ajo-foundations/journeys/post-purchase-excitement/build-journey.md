@@ -155,7 +155,7 @@ ht-degree: 0%
 
    ![选择“上下文属性 — Journey Orchestration — 操作”下的GetShippingDetails](assets/build-journey-select-getshippingdetails-contextual-attribute.png)
 
-7. 现在，在电子邮件的主体中&#x200B;**将以下JSON复制并粘贴到** Personalization编辑器中&#x200B;****
+7. 现在，在电子邮件的主体中&#x200B;**将以下JSON复制并粘贴到** Personalization编辑器中&#x200B;**&#x200B;**
 
    ```json
    {{profile.person.name.firstName}}, your order has shipped
@@ -188,7 +188,7 @@ ht-degree: 0%
 
 ![保存按钮和左上角的向后箭头](assets/build-journey-save-and-back-arrow.png)
 
-12. 最后，单击左上角的&#x200B;**\&lt;返回图标**&#x200B;以返回历程画布
+&#x200B;12. 最后，单击左上角的&#x200B;**\&lt;返回图标**&#x200B;以返回历程画布
 
 左上角的![返回图标以返回历程画布](assets/build-journey-back-icon-to-journey-canvas.png)
 

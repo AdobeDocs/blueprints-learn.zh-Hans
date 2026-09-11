@@ -68,7 +68,7 @@ ht-degree: 0%
 
 
 
-2. 使用以下格式更新字段组的`title`和`description`： `Customer Account Details - Sandbox <your number here>`
+&#x200B;2. 使用以下格式更新字段组的`title`和`description`： `Customer Account Details - Sandbox <your number here>`
 
 
 
@@ -76,9 +76,9 @@ ht-degree: 0%
 
 
 
-3. 通过单击`Send`按钮执行。  您应该会看到类似于以下屏幕快照的响应。
+&#x200B;3. 通过单击`Send`按钮执行。  您应该会看到类似于以下屏幕快照的响应。
 
-4. 复制新创建的客户帐户详细信息字段组的`$id`值。
+&#x200B;4. 复制新创建的客户帐户详细信息字段组的`$id`值。
 
 创建自定义字段组后![成功的API响应](assets/create-custom-field-groups-step-2-create-custom-field-group-success.png "步骤2 — 创建自定义字段组成功")
 

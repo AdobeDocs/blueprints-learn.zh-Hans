@@ -108,7 +108,7 @@ Adobe Journey Optimizer包含&#x200B;**AI驱动的Brand Alignment分数**，该�
 
    用于应用建议修改的![AI建议图标](assets/brand-alignment-ai-suggestion-icon.png)
 
-4. 单击“使用AI修复”****&#x200B;按钮，如下所示。
+4. 单击“使用AI修复”**&#x200B;**&#x200B;按钮，如下所示。
 
    针对已标记的准则![使用AI修复按钮](assets/brand-alignment-fix-with-ai-button.png)
 

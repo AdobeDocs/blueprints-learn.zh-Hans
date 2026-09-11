@@ -90,7 +90,7 @@ ht-degree: 0%
 
 5. 在预览结果屏幕中一直滚动到表的底部，您注意到&#x200B;**4记录**&#x200B;具有&#x200B;**空白的定向维度**。
 
-表](assets/run-the-workflow-4-records-missing-dimension.png)底部具有空白定向维度的![4条记录
+表![&#128279;](assets/run-the-workflow-4-records-missing-dimension.png)底部具有空白定向维度的4条记录
 
 
 

@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ![带有“保存并关闭”按钮的确认对话框](assets/add-email-activities-save-and-close-dialog.png)
 
-11. 查看电子邮件属性和操作，包括添加到电子邮件正文的文本。 单击&#x200B;**向左箭头**&#x200B;以导航回促销活动画布
+&#x200B;11. 查看电子邮件属性和操作，包括添加到电子邮件正文的文本。 单击&#x200B;**向左箭头**&#x200B;以导航回促销活动画布
 
 ![导航回促销活动画布](assets/add-email-activities-back-to-campaign-canvas.png)
 

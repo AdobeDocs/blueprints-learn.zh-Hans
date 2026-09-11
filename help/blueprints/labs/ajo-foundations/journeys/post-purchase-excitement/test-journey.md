@@ -105,16 +105,16 @@ ht-degree: 0%
 
 
 
-8. **关闭**&#x200B;浏览器&#x200B;**选项卡**
-9. 右上角的&#x200B;**关闭测试模式**
+&#x200B;8. **关闭**&#x200B;浏览器&#x200B;**选项卡**
+&#x200B;9. 右上角的&#x200B;**关闭测试模式**
 
    右上角的![关闭测试模式按钮](assets/test-journey-close-test-mode.png)
 
-10. 单击右上方的&#x200B;**发布**&#x200B;历程
+&#x200B;10. 单击右上方的&#x200B;**发布**&#x200B;历程
 
 右上角的历程的![发布按钮](assets/test-journey-publish-journey.png)
 
-11. 单击左上角的\&lt; — 箭头&#x200B;**关闭****历程**
+&#x200B;11. 单击左上角的\&lt; — 箭头&#x200B;**关闭**&#x200B;**历程**
 
 ![左上角的向后箭头以关闭历程](assets/test-journey-close-journey-back-arrow.png)
 
