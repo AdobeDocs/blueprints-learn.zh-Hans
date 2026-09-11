@@ -167,4 +167,4 @@ Twilio供应商的![SMS API凭据字段](assets/configure-sms-channel-enter-api-
 
 您现在已了解如何成功配置短信渠道。  请注意，这是一个基于API的短信，因此根据您的提供商，他们可能会使用其他方法进行身份验证。
 
-如有需要，您可以在[此处](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)阅读更多内容。
+如有需要，您可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)阅读更多内容。
