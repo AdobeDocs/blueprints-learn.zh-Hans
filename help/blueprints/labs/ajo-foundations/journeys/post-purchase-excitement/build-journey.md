@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 构建历程
 description: 构建响应Order Shipped事件的单一历程，调用装运ETA的自定义操作，并发送个性化电子邮件。
 doc-type: article
 solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 0%
@@ -90,19 +89,19 @@ ht-degree: 0%
 
 ![将GetShippingDetails自定义操作拖到orderShipped事件之后的画布上](assets/build-journey-drag-getshippingdetails-action-onto-canvas.png)
 
-&#x200B;2. 在右边栏中的访问和隐私配置 — >营销操作下拉列表下，确保将该值设置为&#x200B;**无**
+2. 在右边栏中的访问和隐私配置 — >营销操作下拉列表下，确保将该值设置为&#x200B;**无**
 
 ![访问和隐私配置中的“营销操作”下拉列表设置为“无”](assets/build-journey-set-marketing-action-to-none.png)
 
-&#x200B;3. 在“端点配置” — >“查询参数”菜单下，单击orderid旁边的&#x200B;**铅笔图标**
+3. 在“端点配置” — >“查询参数”菜单下，单击orderid旁边的&#x200B;**铅笔图标**
 
 ![铅笔图标用于编辑终结点配置中的orderid查询参数](assets/build-journey-edit-orderid-query-parameter.png)
 
-&#x200B;4. 在出现的模式窗口中，展开&#x200B;**Context** -> **orderShipped** -> **Order**，然后选择&#x200B;**Order ID (orderID)**&#x200B;并单击&#x200B;**确定**
+4. 在出现的模式窗口中，展开&#x200B;**Context** -> **orderShipped** -> **Order**，然后选择&#x200B;**Order ID (orderID)**&#x200B;并单击&#x200B;**确定**
 
 ![从orderShipped订单上下文字段中选择订单ID (orderID)](assets/build-journey-select-order-id-context-field.png)
 
-&#x200B;5. 返回右边栏，确保“超时”或“错误”的选项为&#x200B;**取消选中**，然后单击&#x200B;**保存按钮**
+5. 返回右边栏，确保“超时”或“错误”的选项为&#x200B;**取消选中**，然后单击&#x200B;**保存按钮**
 
 取消选中![超时或错误选项，并突出显示“保存”按钮](assets/build-journey-uncheck-timeout-or-error.png)
 
@@ -114,15 +113,15 @@ ht-degree: 0%
 
 ![将“操作”节点拖到GetShippingDetails操作之后的画布上](assets/build-journey-drag-email-action-onto-canvas.png)
 
-&#x200B;2. 为营销操作选择&#x200B;**电子邮件**，然后选择&#x200B;**添加**。
+2. 为营销操作选择&#x200B;**电子邮件**，然后选择&#x200B;**添加**。
 
 ![选择电子邮件作为营销操作，然后单击“添加”](assets/build-journey-select-email-marketing-action.png)
 
-&#x200B;3. 在右边栏中，单击&#x200B;**配置操作**
+3. 在右边栏中，单击&#x200B;**配置操作**
 
 右边栏中的![配置操作按钮](assets/build-journey-click-configure-action.png)
 
-&#x200B;4. 将&#x200B;**电子邮件渠道配置**&#x200B;设置为`Profile-Email`，然后单击&#x200B;**编辑内容**
+4. 将&#x200B;**电子邮件渠道配置**&#x200B;设置为`Profile-Email`，然后单击&#x200B;**编辑内容**
 
 ![电子邮件渠道配置设置为使用编辑内容链接的个人资料电子邮件](assets/build-journey-set-profile-email-channel-configuration.png)
 
@@ -136,27 +135,27 @@ ht-degree: 0%
 
 ![主题行已更新为“已发送订单，并带有编辑电子邮件正文”按钮](assets/build-journey-update-subject-line-order-shipped.png)
 
-&#x200B;2. 在顶部栏中，单击&#x200B;**从头开始设计**&#x200B;内容块
+2. 在顶部栏中，单击&#x200B;**从头开始设计**&#x200B;内容块
 
 ![在顶部栏中从草稿设计内容块](assets/build-journey-click-design-from-scratch.png)
 
-&#x200B;3. 从结构容器下的左栏将&#x200B;**1:1列**&#x200B;拖放到画布上
+3. 从结构容器下的左栏将&#x200B;**1:1列**&#x200B;拖放到画布上
 
 ![将1:1列结构元素拖动到电子邮件画布上](assets/build-journey-drag-1-1-column-onto-canvas.png)
 
-&#x200B;4. 然后在“内容”容器下，将&#x200B;**Text**&#x200B;组件拖放到您的&#x200B;**1:1列**&#x200B;中
+4. 然后在“内容”容器下，将&#x200B;**Text**&#x200B;组件拖放到您的&#x200B;**1:1列**&#x200B;中
 
 ![将文本组件拖入1:1列](assets/build-journey-drag-text-component-into-column.png)
 
-&#x200B;5. 单击进入文本组件并&#x200B;**删除当前文本**，然后单击&#x200B;**添加Personalization**&#x200B;图标
+5. 单击进入文本组件并&#x200B;**删除当前文本**，然后单击&#x200B;**添加Personalization**&#x200B;图标
 
 删除默认文本后![添加Personalization图标](assets/build-journey-click-add-personalization-icon.png)
 
-&#x200B;6. 在左边栏中，单击&#x200B;**上下文属性**&#x200B;文件夹，然后导航到&#x200B;**Journey Orchestration** -> **操作**，并选择&#x200B;**GetShippingDetails**
+6. 在左边栏中，单击&#x200B;**上下文属性**&#x200B;文件夹，然后导航到&#x200B;**Journey Orchestration** -> **操作**，并选择&#x200B;**GetShippingDetails**
 
 ![选择“上下文属性 — Journey Orchestration — 操作”下的GetShippingDetails](assets/build-journey-select-getshippingdetails-contextual-attribute.png)
 
-&#x200B;7. 现在，在电子邮件的主体中&#x200B;**将以下JSON复制并粘贴到** Personalization编辑器中&#x200B;**&#x200B;**
+7. 现在，在电子邮件的主体中&#x200B;**将以下JSON复制并粘贴到** Personalization编辑器中&#x200B;****
 
 ```json
 {{profile.person.name.firstName}}, your order has shipped
@@ -164,7 +163,7 @@ ETA:
 Tracking Number: 
 ```
 
-&#x200B;8. 按如下方式添加个性化字段（**单击左边栏**&#x200B;上的字段旁边的加号“+”）：
+8. 按如下方式添加个性化字段（**单击左边栏**&#x200B;上的字段旁边的加号“+”）：
    - **ETA：** `eta`
    - **跟踪号：** `tracking_number`
 
@@ -180,16 +179,16 @@ Tracking Number:
 >
 >用于添加其他配置文件属性的![配置文件属性选项卡](assets/build-journey-profile-attributes-tab.png)
 
-&#x200B;9. 单击屏幕底部的&#x200B;**验证**&#x200B;按钮，并确保没有错误
+9. 单击屏幕底部的&#x200B;**验证**&#x200B;按钮，并确保没有错误
 
 ![验证按钮，屏幕底部未显示错误](assets/build-journey-click-validate-button.png)
 
-&#x200B;10. 如果一切正常，请单击右上方的&#x200B;**保存按钮**
-&#x200B;11. 然后，再次单击右上方的&#x200B;**保存**&#x200B;按钮，然后单击左上方的&#x200B;**\&lt; — 左箭头**
+10. 如果一切正常，请单击右上方的&#x200B;**保存按钮**
+11. 然后，再次单击右上方的&#x200B;**保存**&#x200B;按钮，然后单击左上方的&#x200B;**\&lt; — 左箭头**
 
 ![保存按钮和左上角的向后箭头](assets/build-journey-save-and-back-arrow.png)
 
-&#x200B;12. 最后，单击左上角的&#x200B;**\&lt;返回图标**&#x200B;以返回历程画布
+12. 最后，单击左上角的&#x200B;**\&lt;返回图标**&#x200B;以返回历程画布
 
 左上角的![返回图标以返回历程画布](assets/build-journey-back-icon-to-journey-canvas.png)
 
@@ -209,7 +208,7 @@ Tracking Number:
 
 电子邮件参数下的![启用参数覆盖图标](assets/build-journey-enable-parameter-override.png)
 
-&#x200B;2. 单击空文本框，然后在左边栏中向下展开至&#x200B;**Context** -> **orderShipped** -> **\_dep**，然后单击&#x200B;**personalEmail**&#x200B;字段。  然后单击&#x200B;**确定按钮**
+2. 单击空文本框，然后在左边栏中向下展开至&#x200B;**Context** -> **orderShipped** -> **\_dep**，然后单击&#x200B;**personalEmail**&#x200B;字段。  然后单击&#x200B;**确定按钮**
 
 ![选择orderShipped上下文下的personalEmail字段_dep](assets/build-journey-select-personalemail-context-field.png)
 
@@ -219,7 +218,7 @@ Tracking Number:
 
 
 
-&#x200B;3. 单击右上方的&#x200B;**保存按钮**，然后单击左上方的&#x200B;**上箭头** \&lt; — 以&#x200B;**关闭**&#x200B;历程
+3. 单击右上方的&#x200B;**保存按钮**，然后单击左上方的&#x200B;**上箭头** \&lt; — 以&#x200B;**关闭**&#x200B;历程
 
 ![保存按钮和后退箭头以关闭历程](assets/build-journey-save-and-close-journey.png)
 

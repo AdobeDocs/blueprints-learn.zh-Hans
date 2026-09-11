@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 正在运行的配置文件
 description: 大致了解如何模拟从Edge Network到Adobe Experience Platform的网页访问，包括创建数据流、发送测试事件以及验证配置文件和区段数据。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 46aaf0e5-2f03-4140-8456-22b4fd27d235
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 1%

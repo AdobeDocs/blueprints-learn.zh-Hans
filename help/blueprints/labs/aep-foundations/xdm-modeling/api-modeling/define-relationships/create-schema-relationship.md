@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 创建架构关系
 description: 使用架构注册表API创建将客户帐户架构链接到查找计划架构的一对一关系描述符。
 doc-type: article
 solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -25,7 +24,7 @@ ht-degree: 0%
 
 
 
-&#x200B;2. 在API调用的正文中更新以下属性。
+2. 在API调用的正文中更新以下属性。
 
 - 将`xdm:sourceSchema`属性的值设置为您从[创建架构](../build-schema/create-schema.md)实验室步骤中保存的客户帐户架构的`$id`
 - 将`xdm:sourceProperty`的值设置为客户帐户架构中`planID`字段的路径。
@@ -58,9 +57,9 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 继续使用`Save`按钮之前保存您的请求
+3. 继续使用`Save`按钮之前保存您的请求
 
-&#x200B;4. 通过单击`Send`按钮执行API
+4. 通过单击`Send`按钮执行API
 
 您现在应会看到如下的`201 Created`响应
 

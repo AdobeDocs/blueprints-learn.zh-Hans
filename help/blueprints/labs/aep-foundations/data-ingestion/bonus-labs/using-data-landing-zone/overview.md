@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 使用数据登陆区
 description: 安装和配置带有SAS URL的Azure Storage Explorer以连接到Adobe Experience Platform数据登陆区。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d61bef25-7039-450d-a8e7-01bb12e8df7c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -24,7 +23,7 @@ ht-degree: 0%
 1. 安装应用程序
 1. 首次启动时接受最终用户许可协议
 
-Azure Storage Explorer&rbrack;(assets/overview-end-user-license-agreement-screen.png "最终用户许可协议屏幕中的!&lbrack;最终用户许可协议屏幕")
+Azure Storage Explorer](assets/overview-end-user-license-agreement-screen.png "最终用户许可协议屏幕中的![最终用户许可协议屏幕")
 
 
 ## 使用Experience Platform配置Azure存储资源管理器
@@ -86,6 +85,6 @@ Azure Storage Explorer&rbrack;(assets/overview-end-user-license-agreement-screen
 
 ![Azure Storage Explorer显示成功连接的数据登录区帐户](assets/overview-successfully-connected-account.png)
 
-&#x200B;> [!TIP]
+> [!TIP]
 >
 >恭喜！  您已成功配置Azure存储资源管理器

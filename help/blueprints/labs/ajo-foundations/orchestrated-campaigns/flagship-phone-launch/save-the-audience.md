@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 保存受众
 description: 了解如何从编排的活动工作流更改维度、删除重复项并将受众保存到受众门户。
 doc-type: article
 solution: Experience Platform
 exl-id: 6422ea8d-146b-4fc7-86e6-491f77590ca1
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -29,7 +28,7 @@ ht-degree: 0%
 
 
 
-&#x200B;2. 更新更改维度的属性，如下所述：
+2. 更新更改维度的属性，如下所述：
    - **标签：** `Convert Line to Account`
    - **新目标维度：** `dep-rel: Customer Account`
 
@@ -43,7 +42,7 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 完成后，这是您的画布的外观。  保存您所做的工作！
+3. 完成后，这是您的画布的外观。  保存您所做的工作！
 
 添加更改维度活动后![工作流画布](assets/save-the-audience-canvas-after-change-dimension.png)
 
@@ -57,13 +56,13 @@ ht-degree: 0%
 
 
 
-&#x200B;2. 将重复数据删除活动的标签更新为`Dedup customer id`
+2. 将重复数据删除活动的标签更新为`Dedup customer id`
 
 ![重复数据删除活动标签设置为重复数据删除客户ID](assets/save-the-audience-deduplication-label.png)
 
 
 
-&#x200B;3. 现在单击&#x200B;**+添加属性**&#x200B;按钮，并从标题为&#x200B;**客户ID**&#x200B;的架构中选择字段
+3. 现在单击&#x200B;**+添加属性**&#x200B;按钮，并从标题为&#x200B;**客户ID**&#x200B;的架构中选择字段
 
 删除重复项活动![添加属性按钮](assets/save-the-audience-add-attribute-button.png)
 
@@ -71,7 +70,7 @@ ht-degree: 0%
 
 
 
-&#x200B;4. 在“重复数据删除”设置下，确保您具有以下设置：
+4. 在“重复数据删除”设置下，确保您具有以下设置：
    - **要保留的重复项：** `1`
    - **重复数据删除方法：** `Random selection`
 
@@ -83,7 +82,7 @@ ht-degree: 0%
 
 
 
-&#x200B;5. 完成后，您的画布将如下所示。 在继续之前，单击右上角的&#x200B;**保存**&#x200B;按钮。
+5. 完成后，您的画布将如下所示。 在继续之前，单击右上角的&#x200B;**保存**&#x200B;按钮。
 
 ![已在画布上完全配置重复数据删除活动](assets/save-the-audience-deduplication-configured.png)
 
@@ -95,7 +94,7 @@ ht-degree: 0%
 
 ![在重复数据删除后添加保存受众活动](assets/save-the-audience-add-save-audience-activity.png)
 
-&#x200B;2. 在右边栏中，将活动的属性设置为以下内容：
+2. 在右边栏中，将活动的属性设置为以下内容：
    - **受众标签**： `Apple Upgrade Eligible Customer Accounts`
    - **配置文件映射字段**： `dep-rel: Customer Account - customer id`
 
@@ -134,7 +133,7 @@ ht-degree: 0%
 
 
 
-&#x200B;2. 单击&#x200B;**开始**&#x200B;按钮以运行工作流。 您的工作流现在看起来像这样，您会看到如下计数：
+2. 单击&#x200B;**开始**&#x200B;按钮以运行工作流。 您的工作流现在看起来像这样，您会看到如下计数：
    - 生成受众： `65`
    - 将行转换为帐户： `65`
    - 重复数据删除客户ID： `46`

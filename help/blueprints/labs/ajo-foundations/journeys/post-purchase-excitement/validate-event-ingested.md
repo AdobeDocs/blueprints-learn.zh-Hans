@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 验证已摄取的事件
 description: 确认某个订单发运事件已摄取到配置文件中，并符合预期受众的条件。
 doc-type: article
 solution: Experience Platform
 exl-id: c04397dd-8b5c-48a8-82b5-78188b8374f1
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -39,7 +38,7 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 验证配置文件是否符合&#x200B;**受众**&#x200B;的条件（可能需要几分钟）。
+3. 验证配置文件是否符合&#x200B;**受众**&#x200B;的条件（可能需要几分钟）。
    - 任何活动Edge（15分钟内）
    - 任何事件流（15分钟内）
 
@@ -56,8 +55,8 @@ ht-degree: 0%
 
 ![在Postman请求正文中更改的电子邮件地址](assets/validate-event-ingested-change-email-in-postman-body.png)
 
-&#x200B;3. **保存**&#x200B;并点击&#x200B;**发送**。
-&#x200B;4. 返回步骤1-3并使用您的电子邮件地址进行验证。
+3. **保存**&#x200B;并点击&#x200B;**发送**。
+4. 返回步骤1-3并使用您的电子邮件地址进行验证。
 
 ## 回顾
 

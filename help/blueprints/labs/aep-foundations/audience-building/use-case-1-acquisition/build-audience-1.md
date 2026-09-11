@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 构建受众#1
 description: 构建一个流式受众，用于查找今天已下单iPhone 14的用户档案，探索事件源选择和数组容器。
 doc-type: article
 solution: Experience Platform
 exl-id: b8c1080e-b093-4d50-94da-5aced6bf0a08
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 0%
@@ -48,9 +47,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->&#x200B;* 订单“文件夹”中没有“i”。 即使已填充我们的描述，但没有该描述，这可能会让您的营销人员感到困惑，因为他们可能会尝试使用该描述或想知道它是什么。
->&#x200B;* 事件卡片的“i”仅重复该类型的内容，因为事件类型是一个字段，而不是多个字段。
->&#x200B;* 仅当值存在于超过2%的合并用户档案中时，才会显示摘要数据。 在对String进行筛选时，这也会推动任何自动完成。
+>* 订单“文件夹”中没有“i”。 即使已填充我们的描述，但没有该描述，这可能会让您的营销人员感到困惑，因为他们可能会尝试使用该描述或想知道它是什么。
+>* 事件卡片的“i”仅重复该类型的内容，因为事件类型是一个字段，而不是多个字段。
+>* 仅当值存在于超过2%的合并用户档案中时，才会显示摘要数据。 在对String进行筛选时，这也会推动任何自动完成。
 
 
 
@@ -58,7 +57,7 @@ ht-degree: 0%
 
 ![将“下订单”事件类型卡片拖到画布上](assets/build-audience-1-drag-order-placed-event-onto-canvas.png)
 
-&#x200B;> [!TIP]
+> [!TIP]
 >
 >**可选：**
 >
@@ -247,7 +246,7 @@ XDM体验事件 — >产品列表项文件夹
 >
 >容器是引用Event变量或Array元素的一种方法。 您可以在此博客中阅读更多有关其后果的信息，但为了简单起见，这允许您指定数组中的单个元素是否同时满足这两个条件，或者条件是否可以分布到两个元素中。
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=zh-Hans](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=zh-Hans)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780)
 
 >[!WARNING]
 >

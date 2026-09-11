@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 验证和计划数据流
 description: 验证完整的订单映射集，预览输出，并计划数据流每15分钟运行一次。
 doc-type: article
 solution: Experience Platform
 exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 7%
@@ -69,7 +68,7 @@ ht-degree: 7%
 
 ## 计划运行
 
-1. 通过将频率设置为分钟和间隔设置为15，将计划设置为每15分钟运行&#x200B;**&#x200B;**。 查看流，然后单击“完成”。
+1. 通过将频率设置为分钟和间隔设置为15，将计划设置为每15分钟运行&#x200B;****。 查看流，然后单击“完成”。
 
 >[!CAUTION]
 >

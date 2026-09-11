@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 查看架构
 description: 通过UI和API查看架构的身份描述符，并对已解析架构响应和未解析架构响应的“接受”标头选项进行比较。
 doc-type: article
 solution: Experience Platform
 exl-id: 44eedb82-259f-4f7f-84fe-acc2b42376eb
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -61,7 +60,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以在此处阅读有关各种“接受”标头的更多信息 — > [Experience League架构API端点](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=zh-Hans#lookup)
+>您可以在此处阅读有关各种“接受”标头的更多信息 — > [Experience League架构API端点](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=en#lookup)
 
 
 

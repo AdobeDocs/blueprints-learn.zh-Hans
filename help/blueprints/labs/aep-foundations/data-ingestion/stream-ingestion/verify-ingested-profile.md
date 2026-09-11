@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 验证已摄取的配置文件
 description: 在使用主要身份命名空间的用户档案浏览器中查找流式处理的用户档案，以确认摄取成功。
 doc-type: article
 solution: Experience Platform
 exl-id: d45d6baf-9597-4419-b838-03156ce8cc83
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%

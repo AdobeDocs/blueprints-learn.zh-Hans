@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 设置源
 description: 将示例客户帐户文件上传到数据登陆区，并配置新的云存储源数据流。
 doc-type: article
 solution: Experience Platform
 exl-id: 1c80e71b-19a7-45e9-9961-d72b3f03ecae
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -74,7 +73,7 @@ ht-degree: 0%
 1. 在数据流详细信息屏幕中，选择&#x200B;**新建数据集**。
 1. 将输出数据集命名为&#x200B;**客户帐户 — \&lt;您的首字母>**
 1. 从下拉列表中选择&#x200B;**dep： Customer Account**&#x200B;架构。
-1. 打开&#x200B;**配置文件数据集**&#x200B;切换框。
+1. 打开&#x200B;**配置文件数据集**切换框。
 （如果未打开此功能，则配置文件存储区将无法监视是否有新数据进入此数据集，因此不会将此数据摄取到配置文件中）
 1. 打开&#x200B;**启用部分摄取**。
 （如果不打开此功能，则当其中一个记录出错时，摄取可能会失败）

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: AI助手和内容个性化
 description: 使用Adobe Journey Optimizer的AI Assistant在电子邮件设计器中生成品牌内主题行、优化电子邮件副本和色调，以及创建Firefly生成的图像。
 doc-type: article
 solution: Experience Platform
 exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 5%
@@ -40,7 +39,7 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 
 在本练习中，您将改进使用AI助手创建的电子邮件。
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >AI Assistant是&#x200B;**非确定性的**，这意味着它每次使用时可能会生成稍有不同的内容。 您在练习过程中看到的内容可能与本指南中的屏幕截图或示例不完全相符。 没关系 — 专注于学习过程和概念，而不是期望得到相同的结果。
 
@@ -54,18 +53,18 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 
 主题行字段工具栏中的![AI助手图标](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
 
-&#x200B;6. 您注意到默认情况下会选中“品牌指南”。
-&#x200B;7. 输入提示：
+6. 您注意到默认情况下会选中“品牌指南”。
+7. 输入提示：
 
 >我们将推出iPhone 17，并希望主题行朗朗朗上口
 
-&#x200B;8. 按&#x200B;**生成**。
-&#x200B;9. 查看生成的四个变体。
-&#x200B;10. 选择具有最佳对齐分数的变体，然后单击&#x200B;**选择**。
+8. 按&#x200B;**生成**。
+9. 查看生成的四个变体。
+10. 选择具有最佳对齐分数的变体，然后单击&#x200B;**选择**。
 
 ![从AI助手中选择最匹配的主题行变量](assets/ai-assistant-and-content-personalization-select-subject-line-variant.png)
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >您的结果可能与实验指南完全不同，因此您无需担心。 选择您认为正确的标题，然后继续进行实验。
 
@@ -78,32 +77,32 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 
 ![在营销活动编辑器中编辑电子邮件正文按钮](assets/ai-assistant-and-content-personalization-edit-email-body-button.png)
 
-&#x200B;2. 单击&#x200B;**产品捕捉行**&#x200B;标题。
-&#x200B;3. 通过单击&#x200B;**生成并选择文本**&#x200B;打开AI助手
+2. 单击&#x200B;**产品捕捉行**&#x200B;标题。
+3. 通过单击&#x200B;**生成并选择文本**&#x200B;打开AI助手
 
 ![生成并选择文本选项以打开AI助手](assets/ai-assistant-and-content-personalization-generate-and-select-text.png)
 
-&#x200B;4. 从下拉列表中选择&#x200B;**Connection 5G Brand Guidelines**。
+4. 从下拉列表中选择&#x200B;**Connection 5G Brand Guidelines**。
 
-在AI助手下拉列表![&#128279;](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)中选择了连接5G品牌指南选项
+在AI助手下拉列表](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)中选择了![连接5G品牌指南选项
 
-&#x200B;5. 提示：
+5. 提示：
 
 >*为iPhone 17发布内容撰写一个大胆、引人关注的标题。 将其保留在10个字以内*
 
-&#x200B;6. 单击“文本设置”以更改音调和通信策略。 将沟通策略更改为&#x200B;**FOMO （害怕错过）**，语言更改为&#x200B;**英语**，音调更改为&#x200B;**激动人心**。 通过缩小拨号键使用较短的版本。
+6. 单击“文本设置”以更改音调和通信策略。 将沟通策略更改为&#x200B;**FOMO （害怕错过）**，语言更改为&#x200B;**英语**，音调更改为&#x200B;**激动人心**。 通过缩小拨号键使用较短的版本。
 
 ![已选择FOMO通信策略和激励音调的文本设置面板](assets/ai-assistant-and-content-personalization-text-settings-fomo-tone.png)
 
-&#x200B;7. 单击&#x200B;**生成**&#x200B;按钮
-&#x200B;8. 查看并选择最佳版本，
-&#x200B;9. 如果文本较长，则使用滑块指向&#x200B;**“较短文本”**&#x200B;并重新生成文本。
+7. 单击&#x200B;**生成**&#x200B;按钮
+8. 查看并选择最佳版本，
+9. 如果文本较长，则使用滑块指向&#x200B;**“较短文本”**&#x200B;并重新生成文本。
 
 
 
 ![用于重新生成较短标题的较短文本滑块](assets/ai-assistant-and-content-personalization-shorter-text-slider.png)
 
-&#x200B;10. 对文本感到满意后，单击&#x200B;**选择**
+10. 对文本感到满意后，单击&#x200B;**选择**
 
 ![选择生成的主页标题文本](assets/ai-assistant-and-content-personalization-select-generated-hero-text.png)
 
@@ -115,19 +114,19 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 
 ![为评估选择的模板化占位符文本](assets/ai-assistant-and-content-personalization-select-templated-text.png)
 
-&#x200B;2. 单击评估按钮，如下所示。
+2. 单击评估按钮，如下所示。
 
 ![AI助手文本面板中的“评估”按钮](assets/ai-assistant-and-content-personalization-click-evaluate-button.png)
 
-&#x200B;3. 系统会自动为您的品牌选择原始内容，如下面的步骤1和2所示。 单击&#x200B;**评估**&#x200B;按钮继续。
+3. 系统会自动为您的品牌选择原始内容，如下面的步骤1和2所示。 单击&#x200B;**评估**&#x200B;按钮继续。
 
 ![评估前自动使用品牌指南选择原始内容](assets/ai-assistant-and-content-personalization-evaluate-brand-alignment.png)
 
-&#x200B;4. 正如预期的那样，您会注意到许多违反品牌准则的错误。 虽然这些可以通过人工智能进行更正，但在这种情况下，您无需修订现有材料。 相反，您可以原样保留它们，并从头开始创建完全符合品牌标准的新内容。
+4. 正如预期的那样，您会注意到许多违反品牌准则的错误。 虽然这些可以通过人工智能进行更正，但在这种情况下，您无需修订现有材料。 相反，您可以原样保留它们，并从头开始创建完全符合品牌标准的新内容。
 
 ![AI助手评估结果显示违反品牌准则](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
 
-&#x200B;5. 使用带有以下提示的、使用AI为您生成的新段落。 您可以使用以下提示对描述文本使用相同的方法。
+5. 使用带有以下提示的、使用AI为您生成的新段落。 您可以使用以下提示对描述文本使用相同的方法。
 
 提示：
 
@@ -156,11 +155,11 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 
 ![将图像组件拖动到iPhone 17系列块下方](assets/ai-assistant-and-content-personalization-drag-image-component.png)
 
-&#x200B;2. 单击外部，然后选择图像占位符。 （确保单击图像，否则您将看不到Firefly选项。）
+2. 单击外部，然后选择图像占位符。 （确保单击图像，否则您将看不到Firefly选项。）
 
 ![选择图像占位符以访问Firefly选项](assets/ai-assistant-and-content-personalization-select-image-placeholder.png)
 
-&#x200B;3. 在&#x200B;**Firefly**&#x200B;下，单击&#x200B;**生成并选择图像**。
+3. 在&#x200B;**Firefly**&#x200B;下，单击&#x200B;**生成并选择图像**。
 
 ![在Firefly下生成并选择图像选项](assets/ai-assistant-and-content-personalization-firefly-generate-select-image.png)
 
@@ -171,15 +170,15 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 
 ![为图像引用样式选择了Connection 5G品牌准则](assets/ai-assistant-and-content-personalization-select-brand-guideline-reference.png)
 
-&#x200B;3. 单击上传图像
+3. 单击上传图像
 
 Firefly引用样式面板中的![上传图像按钮](assets/ai-assistant-and-content-personalization-click-upload-image.png)
 
-&#x200B;4. 从工具包文件夹中选择reference.jpg
+4. 从工具包文件夹中选择reference.jpg
 
 ![从工具包文件夹中选择reference.jpg](assets/ai-assistant-and-content-personalization-select-reference-jpg.png)
 
-&#x200B;5. 添加图像提示
+5. 添加图像提示
    `Portrait-oriented image of a confident man in his early to mid-40s, standing alone at night in a neon-lit urban street, focused on his smartphone. Cinematic cyberpunk-inspired city atmosphere with colorful LED signs, cool blue and warm orange lighting, shallow depth of field, soft bokeh lights in the background. Modern lifestyle, tech-savvy mood, realistic skin tones, high contrast, photorealistic, professional lighting, ultra-detailed`.
 
 ![已输入纵向描述的Firefly图像提示字段](assets/ai-assistant-and-content-personalization-firefly-image-prompt.png)
@@ -204,15 +203,15 @@ Firefly引用样式面板中的![上传图像按钮](assets/ai-assistant-and-con
 
 ![正在查看Firefly生成的图像结果](assets/ai-assistant-and-content-personalization-review-firefly-results.png)
 
-&#x200B;2. 单击所需所选图像的&#x200B;**选择**。
+2. 单击所需所选图像的&#x200B;**选择**。
 
 ![选择所需的生成Firefly图像](assets/ai-assistant-and-content-personalization-select-firefly-image.png)
 
-&#x200B;3. 如果出现上载模式提示，请单击&#x200B;**下一步**。
+3. 如果出现上载模式提示，请单击&#x200B;**下一步**。
 
 ![上传模式提示以单击“下一步”](assets/ai-assistant-and-content-personalization-upload-modal-next.png)
 
-&#x200B;4. 然后单击&#x200B;**导入**。
+4. 然后单击&#x200B;**导入**。
 
 ![用于插入选定图像的“导入”按钮](assets/ai-assistant-and-content-personalization-click-import-button.png)
 

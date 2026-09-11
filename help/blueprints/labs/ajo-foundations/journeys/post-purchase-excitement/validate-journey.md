@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 验证历程
 description: 通过登入和退出计数、电子邮件投放报告和步骤事件的查询服务数据验证历程执行。
 doc-type: article
 solution: Experience Platform
 exl-id: 2e6e73e5-6bd8-4dde-ba06-29b67f927131
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -26,8 +25,8 @@ ht-degree: 0%
 
 为历程显示的![个人资料输入计数](assets/validate-journey-profile-entered-count.png)
 
-&#x200B;3. 单击右上方的&#x200B;**查看报告** -> **最近24小时**。
-&#x200B;4. 默认情况下，您位于&#x200B;**历程**&#x200B;选项卡中（左边栏上）
+3. 单击右上方的&#x200B;**查看报告** -> **最近24小时**。
+4. 默认情况下，您位于&#x200B;**历程**&#x200B;选项卡中（左边栏上）
    - 您会看到一些进入和退出（数量将取决于您发送的事件数、任何测试、任何错误等）
 
 ![历程选项卡报告显示进入和退出](assets/validate-journey-journey-tab-enters-exits.png)
@@ -56,7 +55,7 @@ ht-degree: 0%
 
 3个外部事件
 
-&#x200B;5. 单击&#x200B;**电子邮件**&#x200B;选项卡（左边栏上）
+5. 单击&#x200B;**电子邮件**&#x200B;选项卡（左边栏上）
    - **电子邮件 — 发送性能**
      - 您看到了&#x200B;**Delivered**&#x200B;和&#x200B;**Sent**&#x200B;的一些值（计数将取决于您发送的事件数、任何错误等）
      - 希望您没有错误（除非您之前遇到一些问题）
@@ -65,10 +64,10 @@ ht-degree: 0%
 
 ![电子邮件选项卡，显示发送性能和统计数据](assets/validate-journey-email-tab-sending-performance.png)
 
-&#x200B;6. 请前往检查您的&#x200B;**电子邮件收件箱**，查看您是否收到电子邮件（如下所示）
+6. 请前往检查您的&#x200B;**电子邮件收件箱**，查看您是否收到电子邮件（如下所示）
    - *，*&#x200B;您的订单已发货ETA：*10/17/2026*&#x200B;跟踪号：*051009364*
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >检查AJO促销活动的Spam文件夹[ajo-campaigns@email.dep-labs.com](mailto:ajo-campaigns@email.dep-labs.com)
 
@@ -82,7 +81,7 @@ ht-degree: 0%
 
 
 
-&#x200B;7. *在30-60分钟之后*，您甚至可以通过以下方式在数据湖中检查您的数据集： **查询** -> **创建查询** -> **复制/粘贴SQL** -> **运行**
+7. *在30-60分钟之后*，您甚至可以通过以下方式在数据湖中检查您的数据集： **查询** -> **创建查询** -> **复制/粘贴SQL** -> **运行**
 
 >[!NOTE]
 >
@@ -120,7 +119,7 @@ limit 50
 
 >[!NOTE]
 >
->想知道每个字段的含义，请查看AJO架构词典，并将下拉列表更改为历程步骤事件架构：[https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
+>想知道每个字段的含义，请查看AJO架构词典，并将下拉列表更改为历程步骤事件架构：[https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en)
 
 
 

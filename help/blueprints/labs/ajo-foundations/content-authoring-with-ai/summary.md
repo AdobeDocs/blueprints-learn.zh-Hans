@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 概要
 description: 查看在Adobe Journey Optimizer中使用片段、AI工具和模拟构建个性化、品牌合规营销活动的主要内容和完成清单。
 doc-type: article
 solution: Experience Platform
 exl-id: 8c4d8a66-190d-4714-95a3-37955b1e1a8c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
@@ -36,7 +35,7 @@ ht-degree: 0%
 
 
 
-&#x200B;> [!TIP]
+> [!TIP]
 >
 >**如果您正在阅读本文，则意味着您已经完成了实验。**
 >

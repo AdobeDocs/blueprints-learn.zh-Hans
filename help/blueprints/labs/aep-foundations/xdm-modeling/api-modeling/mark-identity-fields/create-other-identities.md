@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 创建其他标识
 description: 使用架构注册表API为客户帐户架构创建非主电子邮件地址标识描述符。
 doc-type: article
 solution: Experience Platform
 exl-id: 22c40299-fb93-4d41-a23b-f8629df3e7b9
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%

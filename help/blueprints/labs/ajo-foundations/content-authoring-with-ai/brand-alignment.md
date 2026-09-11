@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 品牌一致性
 description: 了解如何使用AJO的AI驱动的品牌协调得分根据品牌准则评估电子邮件内容，并应用AI推荐改善合规性。
 doc-type: article
 solution: Experience Platform
 exl-id: 2385232e-9059-469a-975d-3c7ace146c29
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -48,9 +47,9 @@ Adobe Journey Optimizer包含&#x200B;**AI驱动的Brand Alignment分数**，该�
 
 侧栏中的![品牌对齐选项卡和百分比图标](assets/brand-alignment-open-panel-icon.png)
 
-&#x200B;4. 确保应用正确的品牌：
+4. 确保应用正确的品牌：
    - **连接5G** （默认）。
-&#x200B;5. 单击&#x200B;**评估得分**。
+5. 单击&#x200B;**评估得分**。
 
 **解释品牌得分和反馈：**&#x200B;稍后您将看到内容的品牌合规性得分。 此得分可以显示为评级（例如高、Medium或低）或百分比，以及颜色指示器（绿色、黄色、红色）和评估时间。 高分数表示您的内容与品牌指南高度一致，而中或低分数表示中度或不良一致。
 
@@ -105,21 +104,21 @@ Adobe Journey Optimizer包含&#x200B;**AI驱动的Brand Alignment分数**，该�
 
 ![粘贴的描述段落中的已标记文本块](assets/brand-alignment-flagged-text-block.png)
 
-&#x200B;3. 使用人工智能提供的建议修改。 单击图标，如下所示。
+3. 使用人工智能提供的建议修改。 单击图标，如下所示。
 
 用于应用建议修改的![AI建议图标](assets/brand-alignment-ai-suggestion-icon.png)
 
-&#x200B;4. 单击“使用AI修复”**&#x200B;**&#x200B;按钮，如下所示。
+4. 单击“使用AI修复”****&#x200B;按钮，如下所示。
 
 针对已标记的准则![使用AI修复按钮](assets/brand-alignment-fix-with-ai-button.png)
 
-&#x200B;5. 您会看到以绿色突出显示的建议更改，并删除了以红色显示的带删除线的文本，如下图所示。 您还会注意到分数已更新（在本例中为80%）。 单击“**应用**”按钮以使更改生效。
+5. 您会看到以绿色突出显示的建议更改，并删除了以红色显示的带删除线的文本，如下图所示。 您还会注意到分数已更新（在本例中为80%）。 单击“**应用**”按钮以使更改生效。
 
 ![以绿色突出显示的建议更改，删除的文本以红色点进](assets/brand-alignment-apply-suggested-changes.png)
 
-&#x200B;6. 更改会应用为新文本。
-&#x200B;7. 查看所有突出显示的区域并进行必要的更新以更正内容，既可使用人工智能，也可手动编辑。 在继续之前，请确保已完成所有必需的更改。
-&#x200B;8. 保存更改。
+6. 更改会应用为新文本。
+7. 查看所有突出显示的区域并进行必要的更新以更正内容，既可使用人工智能，也可手动编辑。 在继续之前，请确保已完成所有必需的更改。
+8. 保存更改。
 
 ![更正标记的内容后保存更改](assets/brand-alignment-save-changes.png)
 
@@ -140,7 +139,7 @@ Adobe Journey Optimizer包含&#x200B;**AI驱动的Brand Alignment分数**，该�
 
 这表示您的更新已成功使电子邮件与品牌标准保持一致。
 
-&#x200B;5. 单击&#x200B;**保存**&#x200B;以完成电子邮件。
+5. 单击&#x200B;**保存**&#x200B;以完成电子邮件。
 
 ![保存按钮以完成电子邮件](assets/brand-alignment-save-finalize-email.png)
 

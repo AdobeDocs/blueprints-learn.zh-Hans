@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 护栏、AI模型和决策
 description: 了解关键决策护栏、AI排名模型与公式有何不同以及决策的构建块如何端到端地连接。
 doc-type: article
 solution: Experience Platform
 exl-id: 90902f6e-ba3c-4852-ab82-ad852698b227
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%

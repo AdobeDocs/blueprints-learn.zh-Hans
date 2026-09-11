@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 开发人员控制台设置
 description: 创建具有OAuth服务器到服务器凭据的Adobe Developer Console项目，以便DEP CLI对您的沙盒进行身份验证。
 doc-type: article
 solution: Experience Platform
 exl-id: 4a7c9e2b-1d3f-4a6e-8b9c-2d5e7f1a3c6b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # 开发人员控制台设置
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >只有在您按照自己的进度在实验室中工作时，才需要使用此功能。 如果您正在参加实时培训课程或活动，则已为您部署了沙盒。
 

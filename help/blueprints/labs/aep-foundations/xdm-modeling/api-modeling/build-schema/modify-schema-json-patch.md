@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 修改架构 — JSON修补程序
 description: 使用JSON PATCH API调用向现有租户字段组添加新字段，并查看架构中反映的更改。
 doc-type: article
 solution: Experience Platform
 exl-id: c0313594-d998-4525-a0a4-d9d844bed5ef
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -22,7 +21,7 @@ ht-degree: 0%
 您可以通过以下链接了解有关JSON PATCH的更多信息，但在本实验中，假设您对这种做法的原理有一些概念😄
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
-- [Experience League API基础知识](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=zh-Hans#json-patch)
+- [Experience League API基础知识](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=en#json-patch)
 
 ![将缺少的planDescription字段修补到现有架构的图表](assets/modify-schema-json-patch-patching-missing-plan-description-field.png "在缺少的字段计划描述中修补")
 
@@ -133,10 +132,10 @@ ht-degree: 0%
 
 
 
-&#x200B;2. 使用以下信息更新请求正文
+2. 使用以下信息更新请求正文
 
 - **op** ->` add`
-- **路径** -> `path from previous step +`&#x200B;` the new field name`
+- **路径** -> `path from previous step +`` the new field name`
 - **值** ->
   - **标题** -> `Plan Description`
   - **类型** -> `string`
@@ -152,9 +151,9 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 如果一切正常，请`Save`您的呼叫
+3. 如果一切正常，请`Save`您的呼叫
 
-&#x200B;4. `Execute`执行PATCH的调用
+4. `Execute`执行PATCH的调用
 
 您应会看到`200 OK `响应，现在应会看到字段组中的`planDescription`字段，如下所示：
 

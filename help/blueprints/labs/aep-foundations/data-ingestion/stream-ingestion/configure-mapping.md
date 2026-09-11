@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 配置映射
 description: 从批处理摄取实验室导入映射集，并更新计算日期字段以匹配流源的日期格式。
 doc-type: article
 solution: Experience Platform
 exl-id: c05792af-5eab-4e62-a26e-a54478a988a8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # 配置映射
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >仅当您成功完成批量摄取实验室时，才应遵循此部分。  否则，请按照在批处理摄取实验室中找到的[映射数据](../batch-ingestion/mapping-data/overview.md)步骤操作。
 

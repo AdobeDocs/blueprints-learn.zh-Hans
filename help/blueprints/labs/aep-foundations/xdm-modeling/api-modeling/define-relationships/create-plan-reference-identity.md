@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 创建计划引用标识
 description: 使用架构注册表API在查找架构上创建引用身份描述符，以便将其用于批量分段。
 doc-type: article
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -25,7 +24,7 @@ ht-degree: 0%
 
 
 
-&#x200B;2. 在API调用的正文中更新以下属性。
+2. 在API调用的正文中更新以下属性。
 
 - 将`xdm:sourceSchema`属性的值更新为您从[创建架构](../build-schema/create-schema.md)步骤保存的`Customer Account`架构的`$id`
 - 从`Customer Account`架构中将`xdm:sourceProperty`的值更新为`planID`字段的路径
@@ -54,9 +53,9 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 继续使用`Save`按钮之前保存您的请求
+3. 继续使用`Save`按钮之前保存您的请求
 
-&#x200B;4. 通过单击`Send`按钮执行API
+4. 通过单击`Send`按钮执行API
 
 您现在应会看到如下的`201 Created`响应
 

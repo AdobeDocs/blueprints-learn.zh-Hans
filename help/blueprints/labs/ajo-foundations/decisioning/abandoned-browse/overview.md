@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 已放弃的浏览
 description: 了解如何构建端到端放弃的浏览决策工作流，该工作流跨渠道提供个性化、资格感知型电话优惠。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 37b8a0b3-2820-4303-81d2-19890a3c5782
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 创建决策规则
 description: 构建一个决策规则，将享受高级电话优惠的资格限制在较高层计划客户中。
 doc-type: article
 solution: Experience Platform
 exl-id: 1c1e2d82-ca09-4074-813d-3b29af77388b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -32,14 +31,14 @@ ht-degree: 0%
 
 使用“创建规则”按钮的![决策规则页面](assets/create-decision-rule-create-rule-button.png)
 
-&#x200B;4. 这将打开一个与区段生成器UI类似的屏幕。 通过单击&#x200B;**XDM Individual Profile > DEP > Plan Details**，然后将&#x200B;**Plan ID**&#x200B;属性拖到画布上，将Plan ID属性添加到规则画布中。
-&#x200B;5. 将下拉列表从equals更改为&#x200B;**contains.**
-&#x200B;6. 在框中输入文本&#x200B;**2**，按&#x200B;**Tab**&#x200B;键接受2值，然后输入&#x200B;**3，**&#x200B;再次按&#x200B;**Tab**，以便规则查找包含2或3的任何计划ID
-&#x200B;7. 使用右边栏中的&#x200B;**Name**&#x200B;文本框命名决策规则&#x200B;**上层计划**。 根据需要添加描述。 完成后，决策规则应如下所示：
+4. 这将打开一个与区段生成器UI类似的屏幕。 通过单击&#x200B;**XDM Individual Profile > DEP > Plan Details**，然后将&#x200B;**Plan ID**&#x200B;属性拖到画布上，将Plan ID属性添加到规则画布中。
+5. 将下拉列表从equals更改为&#x200B;**contains.**
+6. 在框中输入文本&#x200B;**2**，按&#x200B;**Tab**&#x200B;键接受2值，然后输入&#x200B;**3，**&#x200B;再次按&#x200B;**Tab**，以便规则查找包含2或3的任何计划ID
+7. 使用右边栏中的&#x200B;**Name**&#x200B;文本框命名决策规则&#x200B;**上层计划**。 根据需要添加描述。 完成后，决策规则应如下所示：
 
 ![计划ID包含2或3](assets/create-decision-rule-upper-tier-plans-finished.png "计划ID包含2或3")计划ID包含2或3已完成的上层计划决策规则
 
-&#x200B;8. 规则正确后，单击右上角的蓝色&#x200B;**创建**&#x200B;按钮，您将返回到“策略设置”页面，其中刚刚创建的决策规则被列为唯一决策规则。
+8. 规则正确后，单击右上角的蓝色&#x200B;**创建**&#x200B;按钮，您将返回到“策略设置”页面，其中刚刚创建的决策规则被列为唯一决策规则。
 
 >[!NOTE]
 >

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Personalization和内容试验
 description: 了解如何使用用户档案属性和Handlebars语法个性化电子邮件内容，并在Adobe Journey Optimizer中构建基于年龄的条件内容变体。
 doc-type: article
 solution: Experience Platform
 exl-id: b79327e0-dfc4-49bf-a112-3675c825c479
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 0%
@@ -49,23 +48,23 @@ Adobe Journey Optimizer中的Personalization允许您根据个人资料、行为
 
 电子邮件文本工具栏中的![个性化图标](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
-&#x200B;4. 搜索&#x200B;**第一个名称**&#x200B;**1&rbrace;。**
+4. 搜索&#x200B;**第一个名称****1}。**
 
 ![在个性化面板中搜索“名字”属性](assets/personalization-and-content-experimentation-search-first-name-field.png)
 
-&#x200B;5. 单击&#x200B;**+**&#x200B;将其添加到表达式区域。
-&#x200B;6. 在&#x200B;**名字**&#x200B;字段后添加&#x200B;**空格**。
+5. 单击&#x200B;**+**&#x200B;将其添加到表达式区域。
+6. 在&#x200B;**名字**&#x200B;字段后添加&#x200B;**空格**。
 
 ![在表达式区域的“名字”字段后添加空格](assets/personalization-and-content-experimentation-add-space-after-first-name.png)
 
-&#x200B;7. 重复上述过程，但这次搜索并添加&#x200B;**姓氏**。
+7. 重复上述过程，但这次搜索并添加&#x200B;**姓氏**。
 
 最终语法显示名字和姓氏变量之间的明确分隔。
 
 ![在表达式语法中明确定隔了名字和姓氏变量](assets/personalization-and-content-experimentation-first-last-name-syntax-separated.png)
 
-&#x200B;8. 验证片段。 请注意，有一个选项可将内容另存为片段。 如果您使用全名来创建其他电子邮件内容，那么这是一个很好的机会。 跳过此步骤并转到下一步。
-&#x200B;9. 单击&#x200B;**保存**
+8. 验证片段。 请注意，有一个选项可将内容另存为片段。 如果您使用全名来创建其他电子邮件内容，那么这是一个很好的机会。 跳过此步骤并转到下一步。
+9. 单击&#x200B;**保存**
 
 您的视图如下所示。 大括号由变量组成，每位用户都会收到一封包含其名称的电子邮件。
 
@@ -107,24 +106,24 @@ Adobe Journey Optimizer中的动态内容使您能够创建无缝适应受众的
 
 ![条件图像块上的“添加变体”按钮](assets/personalization-and-content-experimentation-click-add-variant-button.png)
 
-&#x200B;3. 将第一个变体重命名为&#x200B;**年龄大于40**。
+3. 将第一个变体重命名为&#x200B;**年龄大于40**。
 
 ![将第一个变体重命名为年龄超过40岁](assets/personalization-and-content-experimentation-rename-variant-age-above-40.png)
 
-&#x200B;4. 通过单击&#x200B;**“添加变体”**&#x200B;按钮创建新变体并将其重命名为&#x200B;**年龄小于40岁。**
+4. 通过单击&#x200B;**“添加变体”**&#x200B;按钮创建新变体并将其重命名为&#x200B;**年龄小于40岁。**
 
 ![正在创建新变体并将其重命名为年龄低于40岁的变体](assets/personalization-and-content-experimentation-create-variant-age-below-40.png)
 
-&#x200B;5. 您可以使用Firefly通过提示（如“20岁左右”）创建图像。 但是，为了节省时间，我们在工具包中已有一个名为“**variant-age-below-40.jpg**”的图像。
-&#x200B;6. 单击图像并导入介质。
+5. 您可以使用Firefly通过提示（如“20岁左右”）创建图像。 但是，为了节省时间，我们在工具包中已有一个名为“**variant-age-below-40.jpg**”的图像。
+6. 单击图像并导入介质。
 
 ![单击40以下变体的图像并导入媒体](assets/personalization-and-content-experimentation-click-image-import-media.png)
 
-&#x200B;7. 选择&#x200B;**variant-age-below-40.jpg**&#x200B;图像。 通过单击&#x200B;**下一步**&#x200B;导入它，最后再按文件夹中的&#x200B;**导入**（默认情况下，您应该已在文件夹中）。
+7. 选择&#x200B;**variant-age-below-40.jpg**&#x200B;图像。 通过单击&#x200B;**下一步**&#x200B;导入它，最后再按文件夹中的&#x200B;**导入**（默认情况下，您应该已在文件夹中）。
 
 ![选择并导入variant-age-below-40.jpg图像](assets/personalization-and-content-experimentation-select-below-40-image.png)
 
-&#x200B;8. 尝试在变体之间切换，您会看到应用了其他图像。
+8. 尝试在变体之间切换，您会看到应用了其他图像。
 
 到目前为止，您已构建设计，但尚未应用逻辑。 下一步应用逻辑。
 
@@ -142,20 +141,20 @@ Adobe Journey Optimizer中的动态内容使您能够创建无缝适应受众的
 
 40岁以上变体的![条件逻辑图标](assets/personalization-and-content-experimentation-click-conditional-logic-icon.png)
 
-&#x200B;3. 创建新条件。
+3. 创建新条件。
 
 ![为40岁以上的变体创建新条件](assets/personalization-and-content-experimentation-create-new-condition.png)
 
-&#x200B;4. 在属性列表中搜索&#x200B;**年**。
-&#x200B;5. 将&#x200B;**出生年份**&#x200B;拖到画布中。
-&#x200B;6. 将条件设置为：
+4. 在属性列表中搜索&#x200B;**年**。
+5. 将&#x200B;**出生年份**&#x200B;拖到画布中。
+6. 将条件设置为：
    - **birthYear \&lt; 1986**
 
 ![条件设置为birthYear小于1986](assets/personalization-and-content-experimentation-birthyear-lt-1986.png)
 
-&#x200B;7. 将条件命名为： **年龄大于40**
-&#x200B;8. 添加描述 — &quot;**40**&#x200B;以上人员的图像变体&quot;
-&#x200B;9. 单击&#x200B;**添加→选择**。
+7. 将条件命名为： **年龄大于40**
+8. 添加描述 — &quot;**40**&#x200B;以上人员的图像变体&quot;
+9. 单击&#x200B;**添加→选择**。
 
 ![单击“添加”，然后选择超过40岁的年龄条件](assets/personalization-and-content-experimentation-click-add-select-age-above-40.png)
 
@@ -168,9 +167,9 @@ Adobe Journey Optimizer中的动态内容使您能够创建无缝适应受众的
 
 ![条件更改为birthYear大于或等于1986](assets/personalization-and-content-experimentation-condition-birthyear-greater-1986.png)
 
-&#x200B;3. 将条件命名为： **年龄小于40**
-&#x200B;4. 添加描述。 “**适用于40**&#x200B;以下人员的图像变量”
-&#x200B;5. 单击&#x200B;**添加→选择**。
+3. 将条件命名为： **年龄小于40**
+4. 添加描述。 “**适用于40**&#x200B;以下人员的图像变量”
+5. 单击&#x200B;**添加→选择**。
 
 ![单击“添加”，然后选择40岁以下的年龄条件](assets/personalization-and-content-experimentation-click-add-select-age-below-40.png)
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 设置事件转发
 description: 了解事件转发如何使用属性、数据元素、规则和数据流将边缘事件转发到第三方端点。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: da3d1c7f-3642-4de7-a297-fc36d09e7336
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%

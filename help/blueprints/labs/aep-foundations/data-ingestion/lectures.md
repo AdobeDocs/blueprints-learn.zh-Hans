@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 讲座
 description: 观看有关Adobe Experience Platform的批量摄取和流式数据摄取架构、数据流框架以及复杂数据的数据准备的视频讲座。
 doc-type: article
 solution: Experience Platform
 exl-id: fabcd658-2a40-4014-8135-1a6ce5d76c13
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%

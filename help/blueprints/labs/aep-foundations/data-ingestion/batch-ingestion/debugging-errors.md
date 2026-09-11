@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 调试错误
 description: 使用预览错误诊断程序来调查失败的数据流运行，并将INGEST格式错误与MAPPER转换警告区分开来。
 doc-type: article
 solution: Experience Platform
 exl-id: beee191b-a860-494c-873f-ab2e407ffbf5
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -66,6 +65,6 @@ _dep.account.createDate. Details: Unable to convert
 Created on 2023-09-24T10:19:58Z to schema type DATE_TIME
 ```
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >此错误并不严重，因为此错误仅会导致映射期间出现警告。 数据流运行不会因此而失败，因此本实验不会修复此错误。

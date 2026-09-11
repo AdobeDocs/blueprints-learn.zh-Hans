@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 讲座
 description: 观看视频，说明Journey Orchestration构建基块如何与实时客户资料数据存储配合使用。
 doc-type: article
 solution: Experience Platform
 exl-id: 296aab72-d1e4-4d62-8757-ec175bc70ac4
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 0%

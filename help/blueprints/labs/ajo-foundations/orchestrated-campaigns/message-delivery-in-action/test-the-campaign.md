@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 测试活动
 description: 了解如何在测试模式下运行编排的营销活动，并解释为何基于AEP用户档案的电子邮件渠道会生成基于关系型渠道可避免的投放错误。
 doc-type: article
 solution: Experience Platform
 exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -31,7 +30,7 @@ ht-degree: 0%
 
 
 
-&#x200B;2. 此时将开始执行所有营销活动，并验证结果
+2. 此时将开始执行所有营销活动，并验证结果
 
 ![正在测试活动执行](assets/test-the-campaign-verify-execution-results.png)
 
@@ -43,11 +42,11 @@ ht-degree: 0%
 
 ![使用配置文件属性活动运行电子邮件测试](assets/test-the-campaign-run-test-profile-attribute.png)
 
-&#x200B;2. 等待确认消息，然后单击&#x200B;**查看报告**&#x200B;以查看电子邮件测试的详细信息
+2. 等待确认消息，然后单击&#x200B;**查看报告**&#x200B;以查看电子邮件测试的详细信息
 
 ![单击“查看报告”查看电子邮件测试详细信息](assets/test-the-campaign-view-report-1.png)
 
-&#x200B;3. 电子邮件报告页面会显示营销活动统计数据和执行状态。 电子邮件测试是对活动的验证，以确保没有错误并且不会发送电子邮件。 通常需要大约\~**5**&#x200B;分钟才能完成。
+3. 电子邮件报告页面会显示营销活动统计数据和执行状态。 电子邮件测试是对活动的验证，以确保没有错误并且不会发送电子邮件。 通常需要大约\~**5**&#x200B;分钟才能完成。
 
 带有营销活动统计数据的![电子邮件报告页面](assets/test-the-campaign-campaign-statistics-1.png)
 
@@ -57,11 +56,11 @@ ht-degree: 0%
 
 
 
-&#x200B;4. 电子邮件测试完成后，将显示结果。 存在一定比例的错误；单击&#x200B;**查看更多**&#x200B;以了解原因。
+4. 电子邮件测试完成后，将显示结果。 存在一定比例的错误；单击&#x200B;**查看更多**&#x200B;以了解原因。
 
 查看更多链接时出现![错误率](assets/test-the-campaign-error-rate-view-more.png)
 
-&#x200B;5. 原因状态为`Email address not found in profile`
+5. 原因状态为`Email address not found in profile`
 
 ![原因：在配置文件](assets/test-the-campaign-email-not-found-reason.png)中找不到电子邮件地址
 
@@ -81,11 +80,11 @@ ht-degree: 0%
 
 ![使用Target Dimension活动运行电子邮件测试](assets/test-the-campaign-run-test-target-dimension.png)
 
-&#x200B;2. 等待确认消息，然后单击&#x200B;**查看报告**&#x200B;以查看电子邮件测试的详细信息
+2. 等待确认消息，然后单击&#x200B;**查看报告**&#x200B;以查看电子邮件测试的详细信息
 
 ![单击“查看报告”查看电子邮件测试详细信息](assets/test-the-campaign-view-report-2.png)
 
-&#x200B;3. 电子邮件测试完成后，将显示结果。 在这种情况下，将不会出现错误
+3. 电子邮件测试完成后，将显示结果。 在这种情况下，将不会出现错误
 
 ![无错误的营销活动统计数据](assets/test-the-campaign-campaign-statistics-2.png)
 
@@ -111,4 +110,4 @@ ht-degree: 0%
 
 您现在已了解如何测试创建的营销活动以了解流量和行为。 在测试流执行期间，可以很好地理解为电子邮件渠道配置使用不同设置的细微差别。
 
-如果您有兴趣，可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)阅读有关营销活动测试模式的更多信息。
+如果您有兴趣，可以在[此处](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)阅读有关营销活动测试模式的更多信息。

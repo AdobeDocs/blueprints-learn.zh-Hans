@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 在Edge上验证配置文件
 description: 了解如何检查Edge配置文件存储区和“Audience Membership”选项卡，以确认配置文件在Edge网络上的状态。
 doc-type: article
 solution: Experience Platform
 exl-id: f82ceba7-6916-49ff-8776-2d0238560df8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -31,7 +30,7 @@ ht-degree: 0%
 
 
 
-&#x200B;2. 单击“受众成员资格”选项卡。  它将为&#x200B;**空白**。
+2. 单击“受众成员资格”选项卡。  它将为&#x200B;**空白**。
 
 Edge配置文件上的![空受众成员资格选项卡](assets/validate-profile-on-edge-empty-audience-membership-tab.png)
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 配置文件和标识API
 description: 在Postman中使用配置文件实体API和身份服务集群API查找配置文件属性、事件和关联的身份。
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 1%
@@ -80,7 +79,7 @@ ht-degree: 1%
 1. 单击&#x200B;**实体查找（属性）**&#x200B;请求以将其打开
 1. 通过单击&#x200B;**发送**&#x200B;按钮执行调用
 
-发送&rbrack;(assets/profile-and-identity-apis-entity-lookup-attributes-request.png "配置文件实体查找（属性） API之前，实体查找（属性）调用的!&lbrack;Postman请求窗格")
+发送](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "配置文件实体查找（属性） API之前，实体查找（属性）调用的![Postman请求窗格")
 
 成功的请求应使用`200 OK`进行响应，您应会看到一个包含深度模式配置文件所有属性的结果。
 
@@ -106,7 +105,7 @@ ht-degree: 1%
 
 ![筛选的200 OK响应只显示“名字”、“姓氏”和“活动产品”字段](assets/profile-and-identity-apis-successful-filtered-attributes-response.png "启用筛选器的成功配置文件实体查找（属性） API响应")
 
-&#x200B;> [!TIP]
+> [!TIP]
 >
 >恭喜！  您已成功利用配置文件实体API查找配置文件属性
 

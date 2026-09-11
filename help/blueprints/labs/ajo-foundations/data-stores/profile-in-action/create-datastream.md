@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 创建数据流
 description: 了解如何使用Adobe Experience Platform、Offer Decisioning和Journey Optimizer服务创建和配置数据流以启用Edge事件处理。
 doc-type: article
 solution: Experience Platform
 exl-id: 37873340-476a-4303-886d-de4835bba8df
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 0%
@@ -61,13 +60,13 @@ ht-degree: 0%
 
 数据流配置屏幕上的![添加服务按钮](assets/create-datastream-add-service-button.png)
 
-&#x200B;2. 配置以下项目：
+2. 配置以下项目：
    - **服务** -> `Adobe Experience Platform`
    - **事件数据集** -> `dep: Web`
    - **配置文件数据集** -> `dep: Customer Account`
    - **选择复选框** -> `Offer Decisioning`
    - **选择复选框** -> `Adobe Journey Optimizer`
-&#x200B;3. 完成后，单击&#x200B;**保存**
+3. 完成后，单击&#x200B;**保存**
 
 ![带有事件和配置文件数据集字段的Adobe Experience Platform服务配置对话框](assets/create-datastream-configure-aep-service.png)
 

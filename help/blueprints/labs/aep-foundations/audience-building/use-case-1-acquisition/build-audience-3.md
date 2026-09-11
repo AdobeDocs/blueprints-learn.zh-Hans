@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 构建受众#3
 description: 构建iPhone 14产品页面访客的受众，并使用受众组合将其与其他受众以启用流式激活。
 doc-type: article
 solution: Experience Platform
 exl-id: 999f9a20-1655-4eab-a796-a19d69a06879
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 0%
@@ -46,19 +45,19 @@ ht-degree: 0%
 
 
 
-&#x200B;2. 提供描述，并使其成为流式传输。
+2. 提供描述，并使其成为流式传输。
 
-&#x200B;3. 在所放置的事件上方，将“Any time”更改为“Today”
+3. 在所放置的事件上方，将“Any time”更改为“Today”
 
 ![将事件时间筛选器从“任何时间”更改为“今天”](assets/build-audience-1-change-any-time-to-today.png)
 
-&#x200B;4. 将此受众保存为“*已访问任何页面*”
+4. 将此受众保存为“*已访问任何页面*”
 
-&#x200B;5. 单击蓝色按钮&#x200B;**将受众**&#x200B;激活到目标
+5. 单击蓝色按钮&#x200B;**将受众**&#x200B;激活到目标
 
-&#x200B;6. 选择&#x200B;**流DEP Webhook**&#x200B;目标，然后单击“下一步”
+6. 选择&#x200B;**流DEP Webhook**&#x200B;目标，然后单击“下一步”
 
-&#x200B;7. 单击“下一步”和“完成”
+7. 单击“下一步”和“完成”
 
 ## 创建受众（已访问iPhone 14页面，但不拥有/订购该页面）
 
@@ -68,7 +67,7 @@ ht-degree: 0%
 
 
 
-&#x200B;2. 导航到页面名称所在的位置，并将页面名称字段添加到事件，以便我们对其进行过滤。
+2. 导航到页面名称所在的位置，并将页面名称字段添加到事件，以便我们对其进行过滤。
 
 - XDM ExperienceEvent —> Web —>网页详细信息 — >名称
 
@@ -76,11 +75,11 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 添加包含“iPhone 14”
+3. 添加包含“iPhone 14”
 
 ![为“iPhone 14”添加contains条件](assets/build-audience-3-add-contains-iphone-14.png)
 
-&#x200B;> [!TIP]
+> [!TIP]
 >
 >**正在搜索“页面”**
 >
@@ -98,7 +97,7 @@ ht-degree: 0%
 
 
 
-&#x200B;4. 在所放置的事件上方，将“Any time”更改为“Today”
+4. 在所放置的事件上方，将“Any time”更改为“Today”
 
 ![将事件时间筛选器从“任何时间”更改为“今天”](assets/build-audience-1-change-any-time-to-today.png)
 
@@ -108,19 +107,19 @@ ht-degree: 0%
 
 
 
-&#x200B;5. 验证是否为流式传输并提供描述。
+5. 验证是否为流式传输并提供描述。
 
-&#x200B;6. 将受众另存为“*访问的iPhone 14页面*”
+6. 将受众另存为“*访问的iPhone 14页面*”
 
 ![将受众另存为“已访问的iPhone 14页面”](assets/build-audience-3-save-audience-as-visited-iphone-14-page.png)
 
 
 
-&#x200B;7. 单击蓝色按钮&#x200B;**将受众**&#x200B;激活到目标
+7. 单击蓝色按钮&#x200B;**将受众**&#x200B;激活到目标
 
-&#x200B;8. 选择&#x200B;**流DEP Webhook**&#x200B;目标，然后单击“下一步”
+8. 选择&#x200B;**流DEP Webhook**&#x200B;目标，然后单击“下一步”
 
-&#x200B;9. 单击“下一步”和“完成”
+9. 单击“下一步”和“完成”
 
 
 
@@ -135,30 +134,31 @@ ht-degree: 0%
 
 
 
-&#x200B;5. 提供描述。
+5. 提供描述。
 
-&#x200B;6. 更改为流
+6. 更改为流
 
-&#x200B;7. 另存为“*已访问iPhone 14页面，但不拥有/订购该页面*”
+7. 另存为“*已访问iPhone 14页面，但不拥有/订购该页面*”
 
-&#x200B;8. 单击蓝色按钮&#x200B;**将受众**&#x200B;激活到目标
+8. 单击蓝色按钮&#x200B;**将受众**&#x200B;激活到目标
 
-&#x200B;9. 选择&#x200B;**流DEP Webhook**&#x200B;目标，然后单击“下一步”
+9. 选择&#x200B;**流DEP Webhook**&#x200B;目标，然后单击“下一步”
 
-&#x200B;10. 单击“下一步”和“完成”
+10. 单击“下一步”和“完成”
 
 >[!NOTE]
 >
 >**时间筛选器**
 >
 >这些要求没有时间限制，因此如果三年前有人来访，他们就有资格。 这取决于我们的用例，不一定有效。 这值得一问。 我们添加了一个，因为我们正在根据今天访问我们网站的人进行激活。  这可能不适用于所有用例。  如果添加时间过滤器，那么在Edge受众成为流受众甚至批处理受众之前，可以走多远？
+
 > [!NOTE]
 >
 >**拆分的后果**
 >
 >出于一些原因，我们已将简单的需求拆分为多个受众。 该要求适用于流式传输，但这两项要求将我们的受众转换为批处理。 有关流资格规则的更多详细信息，请参阅此处：
 >
->[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=zh-Hans)
+>[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html)
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ ht-degree: 0%
 >
 >我们需要了解，在受众中使用受众时，AEP将尝试在必要时进行序列化。 在一些极端情况下，这是不可能的，例如如果使用受众受众，则每24小时进行一次配置文件取消资格。
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=zh-Hans](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=zh-Hans)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535)
 
 
 

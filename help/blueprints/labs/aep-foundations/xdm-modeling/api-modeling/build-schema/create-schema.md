@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 创建架构
 description: 使用架构注册表API根据用户档案类以及标准和自定义字段组引用汇编客户架构。
 doc-type: article
 solution: Experience Platform
 exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**尚未执行调用……1&rbrace;**
+>**尚未执行调用……1}**
 
 1. 单击`XDM Schema Lab -> Create Schema`文件夹中的`Step 4 - Create Customer Account Schema` API调用。
 
@@ -27,14 +26,14 @@ ht-degree: 0%
 
 
 
-&#x200B;2. 打开调用的正文并查看架构定义方式的结构。 请记住，架构始终仅由一(1)个类以及一个或多个字段组组成。
+2. 打开调用的正文并查看架构定义方式的结构。 请记住，架构始终仅由一(1)个类以及一个或多个字段组组成。
 
-&#x200B;3. 使用以下内容填充架构正文中的`title`和`description`字段：
+3. 使用以下内容填充架构正文中的`title`和`description`字段：
 
 - 标题 — > `Sample Customer Schema - <your sandbox number>`
 - 描述 — > `Sample Customer Schema - <your sandbox number>`
 
-&#x200B;4. 在`$ref`字段中填充您从之前完成的实验室部分保存的`$ids`：[创建自定义字段组](./create-custom-field-groups.md)和[获取配置文件类](./get-profile-class.md)。 您应该为以下每个项目都设置$id：
+4. 在`$ref`字段中填充您从之前完成的实验室部分保存的`$ids`：[创建自定义字段组](./create-custom-field-groups.md)和[获取配置文件类](./get-profile-class.md)。 您应该为以下每个项目都设置$id：
 
 - 类 — > XDM个人资料
 - 字段组 — >人口统计详细信息
@@ -46,7 +45,7 @@ ht-degree: 0%
 
 
 
-&#x200B;5. 请查阅您的最终正文，并确保它类似于以下内容
+5. 请查阅您的最终正文，并确保它类似于以下内容
 
 ![已完成架构请求正文，并填充了标题、描述和所有$ref值](assets/create-schema-example-of-final-body-payload.png "最终正文有效负载示例")
 

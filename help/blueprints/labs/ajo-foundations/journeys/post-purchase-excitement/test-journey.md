@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 测试历程
 description: 使用历程测试模式模拟器来触发Order Shipped事件，并在发布之前确认触发器和操作逻辑正确运行。
 doc-type: article
 solution: Experience Platform
 exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
@@ -33,7 +32,7 @@ ht-degree: 0%
 >
 >指示电子邮件变体中缺少选择退出链接
 
-&#x200B;4. 单击&#x200B;**模拟**，然后在左侧选择&#x200B;**测试模式**
+4. 单击&#x200B;**模拟**，然后在左侧选择&#x200B;**测试模式**
 
 在左侧的“模拟”下选择了![测试模式](assets/test-journey-select-test-mode.png)
 
@@ -45,15 +44,15 @@ ht-degree: 0%
 
 
 
-&#x200B;5. 单击&#x200B;**触发事件**&#x200B;并填写以下属性：
+5. 单击&#x200B;**触发事件**&#x200B;并填写以下属性：
    - **事件类型**： `orders.shipped`
    - **个人电子邮件**： `henry.creel@emailsim.io`
    - **订单ID**： `123`
-&#x200B;6. 单击&#x200B;**发送**（请注意，单击发送后需要几秒钟才能做出响应）
+6. 单击&#x200B;**发送**（请注意，单击发送后需要几秒钟才能做出响应）
 
 ![触发填写的事件表单并单击发送](assets/test-journey-trigger-event-send.png)
 
-&#x200B;> [!WARNING]
+> [!WARNING]
 >
 >有些学生收到错误后需要发送此消息几次。 您可能需要多&#x200B;**次**&#x200B;执行此操作。
 >
@@ -65,11 +64,11 @@ ht-degree: 0%
 
 
 
-&#x200B;7. 在&#x200B;**结果** ->下，单击左侧的&#x200B;**显示日志**
+7. 在&#x200B;**结果** ->下，单击左侧的&#x200B;**显示日志**
 
 触发测试事件后![在“结果”下显示“日志”选项](assets/test-journey-show-log-results.png)
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >某些收到错误的学生有时会收到不同的日志，其中显示空实例数组`{"instances": []}`。 这不是阻断因素，请继续下一步骤。
 
@@ -106,16 +105,16 @@ ht-degree: 0%
 
 
 
-&#x200B;8. **关闭**&#x200B;浏览器&#x200B;**选项卡**
-&#x200B;9. 右上角的&#x200B;**关闭测试模式**
+8. **关闭**&#x200B;浏览器&#x200B;**选项卡**
+9. 右上角的&#x200B;**关闭测试模式**
 
 右上角的![关闭测试模式按钮](assets/test-journey-close-test-mode.png)
 
-&#x200B;10. 单击右上方的&#x200B;**发布**&#x200B;历程
+10. 单击右上方的&#x200B;**发布**&#x200B;历程
 
 右上角的历程的![发布按钮](assets/test-journey-publish-journey.png)
 
-&#x200B;11. 单击左上角的\&lt; — 箭头&#x200B;**关闭**&#x200B;**历程**
+11. 单击左上角的\&lt; — 箭头&#x200B;**关闭****历程**
 
 ![左上角的向后箭头以关闭历程](assets/test-journey-close-journey-back-arrow.png)
 

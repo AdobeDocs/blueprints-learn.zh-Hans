@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 验证中心上的配置文件
 description: 了解如何在Real-time Customer Profile Hub上查找用户档案，并在流式传输事件后验证其事件和区段成员资格。
 doc-type: article
 solution: Experience Platform
 exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -55,7 +54,7 @@ ht-degree: 0%
 
 ![显示segmentMembership的配置文件属性JSON视图](assets/validate-profile-on-hub-json-view.png)
 
-&#x200B;2. 查找&#x200B;**segmentMembership**。  它应如下所示（您的ID将不同）
+2. 查找&#x200B;**segmentMembership**。  它应如下所示（您的ID将不同）
 
 ```json
   "segmentMembership": {
@@ -75,7 +74,7 @@ ht-degree: 0%
 >
 >**如何读取segmentMembership？**
 >
->[https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups：**&#x200B;这是AEP支持的各种受众的映射键。  ups键包含规则生成器创建的受众。  其他受众将包含在其他键中（例如AAM）。
 >

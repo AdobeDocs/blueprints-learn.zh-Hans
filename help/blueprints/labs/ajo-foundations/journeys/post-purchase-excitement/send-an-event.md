@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 发送事件
 description: 使用Postman将模拟的Order Shipped事件直接流式传输到中心以触发历程，而不是将其发送到Edge。
 doc-type: article
 solution: Experience Platform
 exl-id: a0f75f5a-e3b3-42a2-8547-f075a7661a22
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -51,7 +50,7 @@ ht-degree: 0%
 1. 查找&#x200B;**dep： Orders (stream)**&#x200B;的记录，单击数据流链接
 1. 在右边栏中，复制&#x200B;**数据流ID**&#x200B;值并将其保存到以后可引用的位置
 
-&#x200B;> [!WARNING]
+> [!WARNING]
 >
 >单击行上的空格。  不要单击蓝色链接！
 
@@ -80,7 +79,7 @@ ht-degree: 0%
    - **绿色** —> `Dataflow ID`
      - 值类似于GUID（不以http开头）
 
-&#x200B;> [!CAUTION]
+> [!CAUTION]
 >
 >尚未执行！
 

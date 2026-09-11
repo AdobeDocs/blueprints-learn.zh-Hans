@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 定义关系
 description: 了解关系描述符如何通过API将客户模式链接到XDM模式注册表中的查找模式。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: be672c84-09ac-4941-b40e-da7bd3fd6704
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%

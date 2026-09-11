@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 为标准对象建模
 description: 在UI中创建个人资料架构，并添加和修剪标准字段组，如人口统计详细信息以及同意和偏好设置。
 doc-type: article
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 0%
@@ -85,7 +84,7 @@ Adobe Experience Platform中有许多字段组作为标准XDM存在，可供您�
 
 
 
-&#x200B;3. **选中**&#x200B;字段组旁边的复选框，然后单击&#x200B;**添加字段组**&#x200B;按钮
+3. **选中**&#x200B;字段组旁边的复选框，然后单击&#x200B;**添加字段组**&#x200B;按钮
 
 ![选择“人口统计详细信息”字段组以将其添加到您的架构中](assets/model-standard-objects-select-demographic-details-field-group.png "选择“人口统计详细信息”字段组以将其添加到您的架构中")
 

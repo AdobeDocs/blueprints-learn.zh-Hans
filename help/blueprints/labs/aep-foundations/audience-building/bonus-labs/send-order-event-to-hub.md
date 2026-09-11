@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 将订单事件发送到中心
 description: 了解如何通过API将订单事件流式传输到中心、构建流式订单区段、将其激活到目标以及验证配置文件结果。
 doc-type: article
 solution: Experience Platform
 exl-id: d5de39d7-7340-487a-86fa-504344daeab7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
@@ -93,7 +92,7 @@ ht-degree: 0%
 1. 导航到左边栏中的&#x200B;**源**，然后单击顶部导航中的&#x200B;**帐户**
 1. 搜索&#x200B;**dep： HTTP API \[raw]**，突出显示该行并复制&#x200B;**流端点**&#x200B;的值并将其保存到以后可以引用的位置
 
-帐户并复制其流端点&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep： HTTP API \[raw]&quot;)
+帐户并复制其流端点](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep： HTTP API \[raw]&quot;)
 
 ## 查找数据流ID
 
@@ -115,7 +114,7 @@ ht-degree: 0%
 
 完成后，您的最终API请求应该如下所示
 
-&#x200B;> [!CAUTION]
+> [!CAUTION]
 >
 >尚未执行！
 

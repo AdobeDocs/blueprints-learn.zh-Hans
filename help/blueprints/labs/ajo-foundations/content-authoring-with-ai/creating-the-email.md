@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 创建电子邮件
 description: 了解如何在Adobe Journey Optimizer中将品牌内容模板应用于营销活动电子邮件并替换主页和产品图像。
 doc-type: article
 solution: Experience Platform
 exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
@@ -41,56 +40,56 @@ ht-degree: 0%
 
 历程管理中的![创建营销活动按钮](assets/creating-the-email-click-create-campaign-button.png)
 
-&#x200B;3. 选择“**业务流程 — 营销**”并单击&#x200B;**确认**
+3. 选择“**业务流程 — 营销**”并单击&#x200B;**确认**
 
 ![选择编排 — 营销并单击确认](assets/creating-the-email-select-orchestration-marketing.png)
 
-&#x200B;4. 命名您的营销活动`Flagship Phone Launch Branded`。 按&#x200B;**保存**&#x200B;按钮。
+4. 命名您的营销活动`Flagship Phone Launch Branded`。 按&#x200B;**保存**&#x200B;按钮。
 
 ![将促销活动旗舰版电话启动项命名为“品牌”，然后单击“保存”](assets/creating-the-email-name-campaign-save.png)
 
-&#x200B;5. 单击&#x200B;**+符号**&#x200B;并选择&#x200B;**读取受众**&#x200B;活动
+5. 单击&#x200B;**+符号**&#x200B;并选择&#x200B;**读取受众**&#x200B;活动
 
 ![加号用于选择读取受众活动](assets/creating-the-email-click-plus-read-audience.png)
 
-&#x200B;6. 下一步是选择&#x200B;**“读取受众”**&#x200B;框并单击&#x200B;**受众文件夹图标**
+6. 下一步是选择&#x200B;**“读取受众”**&#x200B;框并单击&#x200B;**受众文件夹图标**
 
 ![读取受众框和受众文件夹图标](assets/creating-the-email-read-audience-folder-icon.png)
 
-&#x200B;7. 选择&#x200B;**dep：对iPhone 17**&#x200B;受众感兴趣，然后单击“**添加受众**”按钮
+7. 选择&#x200B;**dep：对iPhone 17**&#x200B;受众感兴趣，然后单击“**添加受众**”按钮
 
 ![选择对iPhone 17受众感兴趣并单击添加受众](assets/creating-the-email-select-audience-add-button.png)
 
-&#x200B;8. 选择实体 — **dep-rel：客户帐户 — customer\_id** （或任何与此部分无关的实体）
-&#x200B;9. 通过单击&#x200B;**+符号**&#x200B;添加&#x200B;**电子邮件活动**，然后从渠道活动中选择&#x200B;**电子邮件**。
+8. 选择实体 — **dep-rel：客户帐户 — customer\_id** （或任何与此部分无关的实体）
+9. 通过单击&#x200B;**+符号**&#x200B;添加&#x200B;**电子邮件活动**，然后从渠道活动中选择&#x200B;**电子邮件**。
 
 ![从渠道活动添加电子邮件活动](assets/creating-the-email-add-email-channel-activity.png)
 
-&#x200B;10. 单击&#x200B;**编辑电子邮件**。
+10. 单击&#x200B;**编辑电子邮件**。
 
 ![编辑营销活动电子邮件活动的电子邮件选项](assets/creating-the-email-click-edit-email.png)
 
-&#x200B;11. 单击&#x200B;**操作选项卡**&#x200B;并选择&#x200B;**您的**&#x200B;电子邮件配置。 您的沙盒可能会将此内容显示为关系电子邮件。 （选择任意）
+11. 单击&#x200B;**操作选项卡**&#x200B;并选择&#x200B;**您的**&#x200B;电子邮件配置。 您的沙盒可能会将此内容显示为关系电子邮件。 （选择任意）
 
 选择电子邮件配置的![操作选项卡](assets/creating-the-email-action-tab-email-configuration.png)
 
-&#x200B;12. 单击&#x200B;**内容选项卡**
+12. 单击&#x200B;**内容选项卡**
 
 电子邮件编辑器中的![内容选项卡](assets/creating-the-email-click-content-tab.png)
 
-&#x200B;13. 单击&#x200B;**应用内容模板**
+13. 单击&#x200B;**应用内容模板**
 
 在电子邮件编辑器中![应用内容模板选项](assets/creating-the-email-click-apply-content-template.png)
 
-&#x200B;14. 选择您创建的模板&#x200B;**“促销模板”**，然后单击&#x200B;**确认**
+14. 选择您创建的模板&#x200B;**“促销模板”**，然后单击&#x200B;**确认**
 
 ![选择促销模板并单击“确认”](assets/creating-the-email-select-promotional-template-confirm.png)
 
-&#x200B;15. 单击&#x200B;**编辑电子邮件正文**
+15. 单击&#x200B;**编辑电子邮件正文**
 
 应用模板后![编辑电子邮件正文选项](assets/creating-the-email-click-edit-email-body.png)
 
-&#x200B;16. 确认新页眉、主页、页脚和内容块显示正确。
+16. 确认新页眉、主页、页脚和内容块显示正确。
 
 ![页眉、主页、页脚和内容块在电子邮件中正确显示](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 
@@ -103,23 +102,23 @@ ht-degree: 0%
 
 ![单击占位符主页横幅图像](assets/creating-the-email-click-broken-hero-banner-image.png)
 
-&#x200B;2. 删除临时源URL。
+2. 删除临时源URL。
 
 ![正在从映像中删除临时源URL](assets/creating-the-email-remove-temporary-source-url.png)
 
-&#x200B;3. 单击&#x200B;**导入媒体**
+3. 单击&#x200B;**导入媒体**
 
 主页图像的![导入媒体按钮](assets/creating-the-email-click-import-media.png)
 
-&#x200B;4. 从您的工具包上传`hero.png`。 （您可以拖动文件）
+4. 从您的工具包上传`hero.png`。 （您可以拖动文件）
 
 ![正在从工具包文件夹上传hero.png](assets/creating-the-email-upload-hero-png-file.png)
 
-&#x200B;5. 单击&#x200B;**下一步，**&#x200B;选择&#x200B;**您的资产文件夹**，然后按&#x200B;**导入**
+5. 单击&#x200B;**下一步，**&#x200B;选择&#x200B;**您的资产文件夹**，然后按&#x200B;**导入**
 
 ![选择assets文件夹并单击主页图像的导入](assets/creating-the-email-select-folder-import-hero.png)
 
-&#x200B;6. 您的电子邮件模板即将正常显示。 它如下所示。 单击&#x200B;**“保存”**&#x200B;以保存您所做的工作。
+6. 您的电子邮件模板即将正常显示。 它如下所示。 单击&#x200B;**“保存”**&#x200B;以保存您所做的工作。
 
 ![在保存前用新的主页图像更新了电子邮件模板](assets/creating-the-email-save-updated-email-template.png)
 

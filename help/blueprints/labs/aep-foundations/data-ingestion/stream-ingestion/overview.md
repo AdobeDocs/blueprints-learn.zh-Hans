@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 流摄取
 description: 使用流式入口和REST API，通过流式源将客户帐户数据加载到Data Lake和用户档案中。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 973a9cac-dc9d-4c5f-87c3-16a55efd1314
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%

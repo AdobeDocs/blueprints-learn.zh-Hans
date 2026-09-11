@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 修复错误
 description: 修复计算字段表达式以确定日期格式错误，然后使用源、身份和配置文件监视指标确认成功。
 doc-type: article
 solution: Experience Platform
 exl-id: 7a3d0c15-4d58-497e-bfa5-9421d5d2eea7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%

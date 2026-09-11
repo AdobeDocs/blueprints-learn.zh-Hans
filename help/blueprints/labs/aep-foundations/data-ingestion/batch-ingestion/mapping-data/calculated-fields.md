@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 计算字段
 description: 创建计算字段表达式以回填缺少的短信同意值，并将出生日期拆分为天、月和年字段。
 doc-type: article
 solution: Experience Platform
 exl-id: ea5d006b-11c5-439c-af01-bc00b919851f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%

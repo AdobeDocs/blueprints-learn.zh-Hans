@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 流式传输用户档案
 description: 使用Postman和流端点以及数据流ID，通过HTTP API将客户个人资料记录发送到Adobe Experience Platform中。
 doc-type: article
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%

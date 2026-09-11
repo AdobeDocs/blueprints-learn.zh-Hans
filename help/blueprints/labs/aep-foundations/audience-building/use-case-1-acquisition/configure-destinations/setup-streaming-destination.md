@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 设置流目标
 description: 使用webhook端点、治理策略、受众和字段映射配置HTTP API流目标，以测试区段激活。
 doc-type: article
 solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
@@ -63,7 +62,7 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 按如下方式填写目标的配置详细信息：
+3. 按如下方式填写目标的配置详细信息：
 
 - **名称** -> `Streaming DEP Webhook - [Your Initials]`
 - **描述** -> `[your webhook endpoint you copied above]`
@@ -92,7 +91,7 @@ ht-degree: 0%
 >
 >您可以详细了解Experience League中的治理策略
 >
->[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans#core-actions)
+>[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
 
 ## 选择受众
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 测试电子邮件
 description: 了解如何在Adobe Journey Optimizer中发送和验证验证电子邮件，以在激活之前验证个性化内容和条件变体。
 doc-type: article
 solution: Experience Platform
 exl-id: 1abab39e-811c-4010-a4f5-a7adc9e4e0a4
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -37,11 +36,11 @@ ht-degree: 0%
 
 此时将打开模拟面板。
 
-&#x200B;3. 单击&#x200B;**发送校样**。
+3. 单击&#x200B;**发送校样**。
 
 模拟面板中的![发送校样按钮](assets/test-the-email-click-send-proof-button.png)
 
-&#x200B;4. 添加您自己的个人电子邮件地址。
+4. 添加您自己的个人电子邮件地址。
 
 >[!NOTE]
 >
@@ -49,11 +48,11 @@ ht-degree: 0%
 
 
 
-&#x200B;5. 选择两个变体。
-&#x200B;6. 添加主题行前缀
+5. 选择两个变体。
+6. 添加主题行前缀
    1. 变体1:40以上
    2. 变体2:40以下
-&#x200B;7. 单击&#x200B;**发送校样**。 您收到绿色确认消息“**验证已成功发送**”
+7. 单击&#x200B;**发送校样**。 您收到绿色确认消息“**验证已成功发送**”
 
 ![绿色确认消息，显示证明已成功发送](assets/test-the-email-proofs-sent-successfully-confirmation.png)
 

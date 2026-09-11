@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Postman安装
 description: 在以后的实验室中进行API调用之前，请安装Postman并熟悉其收藏集、环境和工作区界面。
 doc-type: article
 solution: Experience Platform
 exl-id: c277edb5-f758-4955-bcd7-b15a9b9ab949
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 本实验结束后，您将能够安装Postman，配置基础工作区和环境，以便能够进行未来实验所需的后续api调用。
 
-&#x200B;> [!IMPORTANT]
+> [!IMPORTANT]
 >
 >本课程中的各个实验室均需要Postman。  即使您已安装Postman，也需要完成本实验以确保已安装并正确设置环境文件和API收集。
 

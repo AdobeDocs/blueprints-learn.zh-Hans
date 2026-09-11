@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 发送Edge事件
 description: 通过Postman将未经身份验证的Web事件发送到Edge，并验证它是否通过事件转发、配置文件摄取和边缘受众资格进行传输。
 doc-type: article
 solution: Experience Platform
 exl-id: 8d6e9552-1fa0-4f12-928c-03f836c1652e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%

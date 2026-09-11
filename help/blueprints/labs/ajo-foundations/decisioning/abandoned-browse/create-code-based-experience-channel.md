@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 创建基于代码的体验渠道
 description: 在Adobe Journey Optimizer中配置基于代码的体验渠道，该渠道可将JSON选件数据返回到任何请求决策的网站、移动设备或物联网系统。
 doc-type: article
 solution: Experience Platform
 exl-id: c3353d3d-cd97-46b7-8ef8-c72fa9e7dfe5
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 0%
@@ -45,7 +44,7 @@ ht-degree: 0%
 
 ![已选择JSON格式完成基于代码的体验渠道配置](assets/create-code-based-experience-channel-completed-config.png)
 
-&#x200B;9. 一切看起来正确后，单击右上角的蓝色&#x200B;**提交**&#x200B;按钮。
+9. 一切看起来正确后，单击右上角的蓝色&#x200B;**提交**&#x200B;按钮。
 
 >[!TIP]
 >

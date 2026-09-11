@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 修复CreateDate的MAPPER错误
 description: 排除并解决因格式错误的createDate值转换为空字段而导致的MAPPER错误。
 doc-type: article
 solution: Experience Platform
 exl-id: e3f7ef23-6fd1-4f7a-8dc7-db82445322b0
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%

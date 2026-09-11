@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 环境文件
 description: 导入Postman环境文件，并填充其开发人员项目和bootcamp API调用所需的沙盒变量。
 doc-type: article
 solution: Experience Platform
 exl-id: 1461fac5-0714-44d4-b5c8-949df6bcff83
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 概要
 description: 回顾构建编排的营销活动，该活动以分叉受众的形式出现，并在基于用户档案的电子邮件渠道和基于关系的电子邮件渠道之间比较电子邮件投放结果。
 doc-type: article
 solution: Experience Platform
 exl-id: 11249940-469f-4ba6-bd36-1f2bb7b388a9
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 1%
@@ -26,7 +25,7 @@ ht-degree: 1%
 
 
 
-&#x200B;> [!TIP]
+> [!TIP]
 >
 >**如果您正在阅读本文，则意味着您已经完成了实验。**
 >

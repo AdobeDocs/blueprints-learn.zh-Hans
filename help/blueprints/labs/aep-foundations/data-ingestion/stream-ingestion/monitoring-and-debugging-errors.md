@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 监控和调试错误
 description: 使用流式端到端监视仪表板识别和解释流式数据流中的摄取、DCV和映射器错误。
 doc-type: article
 solution: Experience Platform
 exl-id: 268abf15-14ac-45e3-8cd7-8d180ee5b1e3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -65,7 +64,7 @@ ht-degree: 0%
 
 1. 若要从错误中恢复，您需要转到&#x200B;**源 — >数据流 — >数据流名称 — >更新数据流**&#x200B;并修复映射。
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >您需要重新上传JSON示例文件，方法是先删除该文件，然后再重新添加该文件，以便现在使用新副本刷新映射程序进行验证。
 

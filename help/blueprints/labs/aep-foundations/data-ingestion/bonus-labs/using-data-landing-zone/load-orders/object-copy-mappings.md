@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 对象复制映射
 description: 为产品阵列配置对象副本映射，然后在默认副本之上添加和删除字段级覆盖。
 doc-type: article
 solution: Experience Platform
 exl-id: 762d0e19-ed1c-4f4d-91ec-a962bd6277a7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%

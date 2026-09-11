@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 获取计划架构ID
 description: 查询租户架构注册表API以查找并保存计划查找架构的$id，以便在关系描述符中使用。
 doc-type: article
 solution: Experience Platform
 exl-id: f66e0483-b5b3-4493-b752-c4e00211a8bd
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%

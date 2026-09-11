@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 添加分支活动
 description: 了解如何向编排的营销活动添加分支活动，以创建两个相同的受众数据分支。
 doc-type: article
 solution: Experience Platform
 exl-id: f4055087-29ea-4277-b2eb-4b42cbb65c06
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 1%
@@ -33,4 +32,4 @@ ht-degree: 1%
 
 您现在已经看到，在营销活动画布中使用分支活动创建流入的相同数据的相同分支有多么简单。 下一步将使用“分支”活动的分支。
 
-如有需要，您可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork)阅读更多内容。
+如有需要，您可以在[此处](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork)阅读更多内容。

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 为自定义对象建模
 description: 在架构编辑器中构建自定义帐户、计划和customerID字段和对象（包括枚举值），以便在不对等的标准字段组的情况下对数据进行建模。
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -36,7 +35,7 @@ ht-degree: 0%
 
 1. 通过单击架构顶部的&#x200B;**+ （添加）**&#x200B;按钮添加新字段
 
-在架构顶部添加(+)按钮以添加自定义字段![&#128279;](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
+在架构顶部添加(+)按钮以添加自定义字段](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)![
 
 >[!NOTE]
 >
@@ -109,7 +108,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->枚举和建议值的目标是使分段对于最终用户更容易。 枚举在数据摄取时强制进行验证，而建议值不强制验证。 要了解有关此功能的更多信息，请参阅此处的文档 — > [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=zh-Hans#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=zh-Hans#enums-and-suggested-values)
+>枚举和建议值的目标是使分段对于最终用户更容易。 枚举在数据摄取时强制进行验证，而建议值不强制验证。 要了解有关此功能的更多信息，请参阅此处的文档 — > [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
 
 
 
@@ -180,7 +179,7 @@ ht-degree: 0%
 
 完成后，您的最终结果应当类似于下面的屏幕截图
 
-在根![&#128279;](assets/model-custom-objects-customerid-field-added.png)中添加了具有customerID字段的客户帐户架构
+在根](assets/model-custom-objects-customerid-field-added.png)中添加了![具有customerID字段的客户帐户架构
 
 
 

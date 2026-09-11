@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 初始映射
 description: 使用计算字段表达式手动映射Experience Event数据集的必需_id和时间戳字段。
 doc-type: article
 solution: Experience Platform
 exl-id: 4052d104-bf0c-4b2d-a298-8075279aeaf8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -57,7 +56,7 @@ lastOrderStatusUpdate
 
 如果映射屏幕现在抱怨存在诸如&#x200B;**orderStatus**&#x200B;等映射到&#x200B;**order.\_devbc.acqSource，**&#x200B;的重复映射，请单击“ — ”图标以删除该映射。
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >请记住，多个输入字段无法映射到同一个输出字段，因为这会使映射变得不明确。 但是，一个输入字段可以映射到XDM架构中的多个输出字段。
 

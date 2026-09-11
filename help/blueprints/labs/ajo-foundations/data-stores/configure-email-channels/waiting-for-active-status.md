@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 正在等待活动状态
 description: 在继续下一步实验之前，请确认您的两个电子邮件渠道配置均达到“活动”状态。
 doc-type: article
 solution: Experience Platform
 exl-id: 37a079c1-2d5f-4586-b3d1-a6402d8b795f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%

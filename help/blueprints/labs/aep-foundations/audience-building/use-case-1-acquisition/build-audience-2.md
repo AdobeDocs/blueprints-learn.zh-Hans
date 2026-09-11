@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 构建受众#2
 description: 构建没有活动iPhone 14行的用户档案受众，然后使用基于用户档案的字段将其从批次转换为流式评估。
 doc-type: article
 solution: Experience Platform
 exl-id: 5a598e9b-9969-4287-8bbd-9de8864b3025
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -104,7 +103,7 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 将描述、名称和评估方法更新为右下角的流式传输，然后单击评估方法旁边的文件夹图标。 您应该会看到以下内容：
+3. 将描述、名称和评估方法更新为右下角的流式传输，然后单击评估方法旁边的文件夹图标。 您应该会看到以下内容：
 
 单击文件夹图标后![评估方法设置为“流”](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
 
@@ -124,7 +123,7 @@ ht-degree: 0%
 
 
 
-&#x200B;4. 将产品名称的现有值替换为“现在来自XDM个人用户档案”架构
+4. 将产品名称的现有值替换为“现在来自XDM个人用户档案”架构
 
 替换以下路径：
 
@@ -140,13 +139,13 @@ ht-degree: 0%
 
 
 
-&#x200B;5. 将评估方法更改为流式传输，然后单击文件夹图标
+5. 将评估方法更改为流式传输，然后单击文件夹图标
 
 ![将评估方法更改为“流式传输”，然后单击文件夹图标](assets/build-audience-2-change-evaluation-method-to-streaming.png)
 
 
 
-&#x200B;6. 对于新的符合流式处理条件的受众，请提供描述。
+6. 对于新的符合流式处理条件的受众，请提供描述。
 
 - 将受众保存为&quot;*拥有iPhone 14*&quot;受众。
 - 单击蓝色按钮&#x200B;**将受众**&#x200B;激活到目标
@@ -155,15 +154,15 @@ ht-degree: 0%
 
 
 
-&#x200B;7. 选择&#x200B;**流DEP Webhook**&#x200B;目标，然后单击&#x200B;**下一步**
+7. 选择&#x200B;**流DEP Webhook**&#x200B;目标，然后单击&#x200B;**下一步**
 
-&#x200B;8. 单击&#x200B;**下一步**&#x200B;和&#x200B;**完成**
+8. 单击&#x200B;**下一步**&#x200B;和&#x200B;**完成**
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >您想要选择批处理、流式处理或Edge的原因注意事项：
 >
->最新护栏： [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
+>最新护栏： [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 
 >[!TIP]
 >

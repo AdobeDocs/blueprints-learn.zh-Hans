@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 用例#2 — 追加销售
 description: 定义一个追加销售用例，以没有最终电话计划的高数据使用率客户为目标，比较激活的受众聚合方法。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d0268de8-87eb-4dd9-b699-99d42716f20c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%

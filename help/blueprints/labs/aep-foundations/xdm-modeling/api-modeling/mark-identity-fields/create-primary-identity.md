@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 创建主要身份
 description: 使用架构注册表API为客户帐户架构创建主customerID身份描述符。
 doc-type: article
 solution: Experience Platform
 exl-id: db690081-e857-4875-8bb9-7ac197d73cab
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -55,6 +54,6 @@ ht-degree: 0%
 
 ![201在成功创建主标识描述符后创建了响应](assets/create-primary-identity-201-created-response.png "已成功创建主标识描述符")
 
-&#x200B;> [!TIP]
+> [!TIP]
 >
 >恭喜！  您刚刚在架构中创建了一个主身份描述符

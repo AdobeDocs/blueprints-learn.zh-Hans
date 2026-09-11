@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 决策项创建
 description: 了解决策项目属性与资格设置的不同之处，以及相对于决策事件的决策项目、展示次数和组织级别护栏。
 doc-type: article
 solution: Experience Platform
 exl-id: 28752ac1-118c-41d9-af6a-9907f854df1e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%

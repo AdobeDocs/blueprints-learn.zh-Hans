@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 回顾
 description: 查看API建模实验室步骤，包括通过JSON修补来创建客户帐户架构、标记身份以及建立查找关系。
 doc-type: article
 solution: Experience Platform
 exl-id: 0279cd68-af7b-43b4-8c6c-d8f8f96f0c0e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459564/?quality=12&learn=on)
 
-&#x200B;> [!TIP]
+> [!TIP]
 >
 >首先恭喜你！ 通过API构建事物并不容易，但了解其工作方式将有助于您从总体上了解系统。 好极了！
 

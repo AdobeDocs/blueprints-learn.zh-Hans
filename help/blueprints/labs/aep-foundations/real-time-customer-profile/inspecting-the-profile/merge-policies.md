@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 合并策略
 description: 创建没有标识拼接的合并策略，并按电子邮件、客户ID和GAID比较配置文件查找，以了解标识图如何影响配置文件程序集。
 doc-type: article
 solution: Experience Platform
 exl-id: ac7eb22f-141e-4cd8-9a2f-6a9687c3e839
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 0%
@@ -30,7 +29,7 @@ ht-degree: 0%
    - 时间戳优先顺序 — 将所有数据集中的最新记录用作真值集，并让所有其他记录按从最近到最旧的顺序填充空隙
    - 数据集优先级 — 选择允许用于组成用户档案的XDM个人资料数据集以及它们的组合顺序
 
-&#x200B;> [!NOTE]
+> [!NOTE]
 >
 >当选择了“数据集优先级”的合并方法时，您可以选择允许在配置文件生成中使用哪些XDM个人配置文件和XDM体验事件数据集。
 >
@@ -198,7 +197,7 @@ ht-degree: 0%
 
 如果没有身份图，配置文件存储只能使用单个标识符（即主身份）检索配置文件片段
 
-&#x200B;> [!TIP]
+> [!TIP]
 >
 >**有额外的时间，想试一试……：**
 >

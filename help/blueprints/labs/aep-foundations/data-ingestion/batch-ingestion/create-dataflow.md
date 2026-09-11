@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 创建数据流
 description: 使用新数据集配置批次源数据流，启用配置文件和部分摄取，并上传一个示例客户帐户CSV文件。
 doc-type: article
 solution: Experience Platform
 exl-id: 70145966-d6c0-4741-8216-903de0d61e1d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -30,7 +29,7 @@ ht-degree: 0%
 1. 在数据流详细信息屏幕中，选择&#x200B;**新建数据集**。
 1. 将输出数据集命名为&#x200B;**客户帐户 — \&lt;您的首字母>**
 1. 从下拉列表中选择&#x200B;**dep： Customer Account**&#x200B;架构。
-1. 打开&#x200B;**配置文件数据集**&#x200B;切换框。
+1. 打开&#x200B;**配置文件数据集**切换框。
 （如果未打开此功能，则配置文件存储区将无法监视是否有新数据进入此数据集，因此不会将此数据摄取到配置文件中）
 1. 打开&#x200B;**启用部分摄取**。
 （如果不打开此功能，则当只有一个记录出错时，整个摄取可能会失败）

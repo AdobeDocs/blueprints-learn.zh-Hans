@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 决策和CBE的实际操作
 description: 使用Postman发送测试用户档案的体验事件，并验证资格、排名和频率上限是否返回正确的选件。
 doc-type: article
 solution: Experience Platform
 exl-id: 540e50c9-bf39-49a4-ae63-c1d7b94f6b8c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '2147'
 ht-degree: 0%
@@ -44,7 +43,7 @@ ht-degree: 0%
 
 ## 发送体验事件
 
-&#x200B;> [!IMPORTANT]
+> [!IMPORTANT]
 >
 >请勿跳过此部分的开始文本说明！
 
@@ -71,25 +70,25 @@ Page Bottom数据收集调用纯粹是为了生成iPhone 17概述页面的页面
 
 ![Bob - Postman中的Page Bottom数据收集请求主体](assets/decisioning-and-cbes-in-action-bob-page-bottom-request.png)
 
-&#x200B;3. 单击右上角的&#x200B;**发送**&#x200B;以发送页面查看。 您收到的响应类似于以下内容
+3. 单击右上角的&#x200B;**发送**&#x200B;以发送页面查看。 您收到的响应类似于以下内容
 
 发送Bob的Page Bottom数据收集事件后收到![响应](assets/decisioning-and-cbes-in-action-bob-data-collection-response.png)
 
-&#x200B;4. 收到正确的响应后，再次单击&#x200B;**发送**&#x200B;以第二次重新发送相同的Page bottom事件。 等待几秒钟，然后为Bob配置文件发送第三次数据收集调用。 您共发送了3个页面底部调用。
+4. 收到正确的响应后，再次单击&#x200B;**发送**&#x200B;以第二次重新发送相同的Page bottom事件。 等待几秒钟，然后为Bob配置文件发送第三次数据收集调用。 您共发送了3个页面底部调用。
 
 此时，系统正在处理这些点击，并将Bob添加到“dep：对iPhone 17感兴趣”流区段。 完成此操作后，Bob将被放入历程。 进入历程后，只需几分钟即可将Bob进入历程和区段的过程投影到Bob的Edge Profile Store。
 
-&#x200B;5. 返回到AJO UI，单击左边栏中的&#x200B;**配置文件**，然后单击&#x200B;**浏览**&#x200B;选项卡。
-&#x200B;6. 使用值为&#x200B;**287415903**&#x200B;的&#x200B;**customerID**&#x200B;命名空间搜索Bob的配置文件。
+5. 返回到AJO UI，单击左边栏中的&#x200B;**配置文件**，然后单击&#x200B;**浏览**&#x200B;选项卡。
+6. 使用值为&#x200B;**287415903**&#x200B;的&#x200B;**customerID**&#x200B;命名空间搜索Bob的配置文件。
 
 ![使用customerID命名空间搜索Bob的配置文件](assets/decisioning-and-cbes-in-action-search-bob-profile.png)
 
-&#x200B;7. 单击&#x200B;**查看**&#x200B;以打开Bob的配置文件（Bob的配置文件颜色可能与屏幕快照中显示的颜色不同）。
+7. 单击&#x200B;**查看**&#x200B;以打开Bob的配置文件（Bob的配置文件颜色可能与屏幕快照中显示的颜色不同）。
 
 ![Bob的个人资料页面已在AJO中打开](assets/decisioning-and-cbes-in-action-bob-profile-opened.png)
 
-&#x200B;8. 在Bob的个人资料打开后，单击&#x200B;**受众成员资格**&#x200B;选项卡，您会看到Bob现在是“dep：对iPhone 17感兴趣”区段的成员，至少从AEP Hub的角度来说是这样。
-&#x200B;9. 单击&#x200B;**属性，**，然后选择&#x200B;**Edge**&#x200B;单选按钮以切换到Edge视图。
+8. 在Bob的个人资料打开后，单击&#x200B;**受众成员资格**&#x200B;选项卡，您会看到Bob现在是“dep：对iPhone 17感兴趣”区段的成员，至少从AEP Hub的角度来说是这样。
+9. 单击&#x200B;**属性，**，然后选择&#x200B;**Edge**&#x200B;单选按钮以切换到Edge视图。
 
 使用Edge单选按钮的![属性选项卡以切换配置文件视图](assets/decisioning-and-cbes-in-action-edge-view-toggle.png)
 
@@ -99,18 +98,18 @@ Page Bottom数据收集调用纯粹是为了生成iPhone 17概述页面的页面
 
 
 
-&#x200B;10. 再次单击&#x200B;**受众成员资格，**，如果您执行这些步骤的速度足够快，则会看到已选择Edge并显示Bob没有Audience成员资格
+10. 再次单击&#x200B;**受众成员资格，**，如果您执行这些步骤的速度足够快，则会看到已选择Edge并显示Bob没有Audience成员资格
 
 ![Bob个人资料的Edge视图尚未显示受众成员资格](assets/decisioning-and-cbes-in-action-edge-audience-membership-empty.png)
 
-&#x200B;11. 在新的浏览器选项卡中，导航到您创建的历程并单击进入该页面。 您会看到有一个配置文件已进入历程，现在位于CBE节点。
+11. 在新的浏览器选项卡中，导航到您创建的历程并单击进入该页面。 您会看到有一个配置文件已进入历程，现在位于CBE节点。
 
 ![历程画布显示Bob输入的配置文件和在CBE节点](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
 此时，Bob已进入历程，Edge投影当前正在汇编可更新Bob在Edge上的个人资料的投影。
 
-&#x200B;12. 切换回Postman并单击Bob的第二个Experience Event调用&#x200B;**Bob - Page Top Fetch。**
-&#x200B;13. 单击&#x200B;**发送**。 应该发生什么？
+12. 切换回Postman并单击Bob的第二个Experience Event调用&#x200B;**Bob - Page Top Fetch。**
+13. 单击&#x200B;**发送**。 应该发生什么？
     - 如果尚未更新Bob的Edge配置文件，则对于您从数据收集调用中获得的内容，您将获得非常相似的响应。 如果是这种情况，请再等待一两分钟，然后尝试再次发送Bob的Page Top Fetch调用。
     - 如果Bob的Edge配置文件已更新，您将会收到使用之前配置的JSON的响应，以及用于报表的其他信息。 但在继续之前，应该向Bob提供什么iPhone 17产品？
 
@@ -118,19 +117,19 @@ Page Bottom数据收集调用纯粹是为了生成iPhone 17概述页面的页面
 
 ![Postman响应显示为Bob返回的基本层选件](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)
 
-&#x200B;14. 请记住，此Postman请求会自动发送此选件的显示通知，因此AJO已为此选件至少记录了一个展示。 再次单击&#x200B;**发送**&#x200B;以发送第二次展示。 验证是否再次返回了基本选件。
-&#x200B;15. 回想一下，3次展示的频率上限适用于Base 、 Pro和Ultra层机型。 第三次单击&#x200B;**发送**&#x200B;以获取Base层的第三次响应并记录另一印象。
-&#x200B;16. 第四次单击&#x200B;**发送**&#x200B;会发生什么情况？ 基本层选件的频率上限已达到，您将收到响应中的通用选件：
+14. 请记住，此Postman请求会自动发送此选件的显示通知，因此AJO已为此选件至少记录了一个展示。 再次单击&#x200B;**发送**&#x200B;以发送第二次展示。 验证是否再次返回了基本选件。
+15. 回想一下，3次展示的频率上限适用于Base 、 Pro和Ultra层机型。 第三次单击&#x200B;**发送**&#x200B;以获取Base层的第三次响应并记录另一印象。
+16. 第四次单击&#x200B;**发送**&#x200B;会发生什么情况？ 基本层选件的频率上限已达到，您将收到响应中的通用选件：
 
 ![Postman响应显示在达到频率上限后返回的通用选件](assets/decisioning-and-cbes-in-action-bob-generic-offer-after-cap.png)
 
-&#x200B;17. 再次单击&#x200B;**发送**，您将看到通用层选件。 如果再单击100次“发送”，您将重新获得相同的选件，直到第二天重置频率上限为止。
+17. 再次单击&#x200B;**发送**，您将看到通用层选件。 如果再单击100次“发送”，您将重新获得相同的选件，直到第二天重置频率上限为止。
 
 >[!WARNING]
 >
 >请记住，在AJO，一天会在格林威治标准时间午夜重置。 如果您在GMT午夜后发送另一个Fetch调用，则会看到基础层选件返回。
 
-&#x200B;18. 返回Journey Orchestration UI并单击进入您创建的&#x200B;**iPhone 17放弃Browse**&#x200B;历程。 由于历程已上线并已发布，因此您会开始看到统计信息。 您会看到1个配置文件已进入历程且当前位于CBE节点。
+18. 返回Journey Orchestration UI并单击进入您创建的&#x200B;**iPhone 17放弃Browse**&#x200B;历程。 由于历程已上线并已发布，因此您会开始看到统计信息。 您会看到1个配置文件已进入历程且当前位于CBE节点。
 
 ![历程报表显示当前位于CBE节点的一个配置文件](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
@@ -155,7 +154,7 @@ Page Bottom数据收集调用纯粹是为了生成iPhone 17概述页面的页面
 | Peter | 专业 | Pro | 基础 | 通用 | 通用 |
 | Ursula | Ultimate | Ultra | Pro | 基础 | 通用 |
 
-&#x200B;5. 完成后，返回到历程。 您会看到所有3个配置文件均已进入历程并位于CBE节点。
+5. 完成后，返回到历程。 您会看到所有3个配置文件均已进入历程并位于CBE节点。
 
 >[!NOTE]
 >

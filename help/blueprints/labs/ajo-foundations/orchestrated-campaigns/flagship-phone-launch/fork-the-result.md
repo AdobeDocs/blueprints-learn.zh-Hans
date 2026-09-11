@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 创建结果分支
 description: 了解如何向编排的活动添加分支活动，以分支保存受众和发送短信消息的结果。
 doc-type: article
 solution: Experience Platform
 exl-id: 8f1d0839-e4ca-4b7c-bc97-4e271a457296
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -32,7 +31,7 @@ ht-degree: 0%
 
 
 
-&#x200B;2. 通过单击过渡并指定名称（如下所述），更新分支中每个过渡的名称：
+2. 通过单击过渡并指定名称（如下所述），更新分支中每个过渡的名称：
    - **前** —> `Save Audience`
    - **底部** —> `SMS`
 
@@ -50,7 +49,7 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 单击工作流画布顶部的&#x200B;**保存**。
+3. 单击工作流画布顶部的&#x200B;**保存**。
 
 工作流画布工具栏上的![保存按钮](assets/fork-the-result-click-save.png)
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 概要
 description: 回顾已完成的Adobe Journey Optimizer Decisioning实验室，该实验室涵盖了选件模式、资格、排名、选择策略和CBE测试。
 doc-type: article
 solution: Experience Platform
 exl-id: b7f1ca1b-6feb-4dde-9d08-ad811150443c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 1%
@@ -25,7 +24,7 @@ ht-degree: 1%
 
 
 
-&#x200B;> [!TIP]
+> [!TIP]
 >
 >**如果您正在阅读本文，则意味着您已经完成了实验。**
 >

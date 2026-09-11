@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 发送Edge Web事件
 description: 了解如何使用数据流ID通过Postman API调用将模拟Web事件发送到Adobe Edge Network。
 doc-type: article
 solution: Experience Platform
 exl-id: 0823bcf7-35d9-492e-ad8d-3e8327f77dd8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -75,16 +74,16 @@ ht-degree: 0%
 
 Postman工具栏中的![请求中的变量选项](assets/send-an-edge-web-event-click-variables-in-request.png)
 
-&#x200B;2. 从页面上的第一步使用&#x200B;**数据流ID**&#x200B;更新&#x200B;**DATASTREAM_CONFIG** **值**。
+2. 从页面上的第一步使用&#x200B;**数据流ID**&#x200B;更新&#x200B;**DATASTREAM_CONFIG** **值**。
 
-使用数据流ID ![&#128279;](assets/send-an-edge-web-event-update-datastream-config-variable.png)更新了DATASTREAM_CONFIG变量
+使用数据流ID ](assets/send-an-edge-web-event-update-datastream-config-variable.png)更新了![DATASTREAM_CONFIG变量
 
-&#x200B;3. **保存**&#x200B;您的更新（ctrl+s或command+s）
-&#x200B;4. 单击环境侧栏右上角的“**X**”以关闭该侧栏
+3. **保存**&#x200B;您的更新（ctrl+s或command+s）
+4. 单击环境侧栏右上角的“**X**”以关闭该侧栏
 
 ![保存后关闭Postman环境侧栏](assets/send-an-edge-web-event-close-environment-sidebar.png)
 
-&#x200B;5. **创建Web事件**&#x200B;请求现已准备就绪，可以发送，因为所有变量现在均为蓝色且在环境中具有值。
+5. **创建Web事件**&#x200B;请求现已准备就绪，可以发送，因为所有变量现在均为蓝色且在环境中具有值。
 
 ![创建填充了所有变量的Web事件请求](assets/send-an-edge-web-event-request-ready-to-send.png)
 
