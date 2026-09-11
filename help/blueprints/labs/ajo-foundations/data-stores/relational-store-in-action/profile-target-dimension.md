@@ -108,4 +108,4 @@ ht-degree: 0%
 
 现在，您已看到在架构中导航、将属性标记为身份和创建Profile Target Dimension有多么简单。
 
-如有需要，您可以在[此处](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension)阅读更多内容。
+如有需要，您可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension)阅读更多内容。

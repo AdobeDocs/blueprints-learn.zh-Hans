@@ -69,4 +69,4 @@ ht-degree: 0%
 
 您现在已了解在架构和关系UI中导航是多么容易。  您可以选择特定架构并导航以查看关系，帮助了解并在活动编排中使用数据。
 
-如有需要，您可以在[此处](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/data-management/get-started-schemas)阅读更多内容。
+如有需要，您可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/data-management/get-started-schemas)阅读更多内容。

@@ -108,7 +108,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->枚举和建议值的目标是使分段对于最终用户更容易。 枚举在数据摄取时强制进行验证，而建议值不强制验证。 要了解有关此功能的更多信息，请参阅此处的文档 — > [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
+>枚举和建议值的目标是使分段对于最终用户更容易。 枚举在数据摄取时强制进行验证，而建议值不强制验证。 要了解有关此功能的更多信息，请参阅此处的文档 — > [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=zh-Hans#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=zh-Hans#enums-and-suggested-values)
 
 
 

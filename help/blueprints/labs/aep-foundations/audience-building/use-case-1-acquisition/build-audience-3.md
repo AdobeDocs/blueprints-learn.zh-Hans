@@ -157,7 +157,7 @@ ht-degree: 0%
 >
 >出于一些原因，我们已将简单的需求拆分为多个受众。 该要求适用于流式传输，但这两项要求将我们的受众转换为批处理。 有关流资格规则的更多详细信息，请参阅此处：
 >
->[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html)
+>[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=zh-Hans)
 
 >[!NOTE]
 >
@@ -167,7 +167,7 @@ ht-degree: 0%
 >
 >我们需要了解，在受众中使用受众时，AEP将尝试在必要时进行序列化。 在一些极端情况下，这是不可能的，例如如果使用受众受众，则每24小时进行一次配置文件取消资格。
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=zh-Hans](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=zh-Hans)
 
 
 

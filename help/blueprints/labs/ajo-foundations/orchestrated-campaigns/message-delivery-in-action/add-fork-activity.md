@@ -32,4 +32,4 @@ ht-degree: 1%
 
 您现在已经看到，在营销活动画布中使用分支活动创建流入的相同数据的相同分支有多么简单。 下一步将使用“分支”活动的分支。
 
-如有需要，您可以在[此处](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork)阅读更多内容。
+如有需要，您可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork)阅读更多内容。

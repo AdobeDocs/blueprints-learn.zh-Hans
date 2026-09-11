@@ -60,7 +60,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以在此处阅读有关各种“接受”标头的更多信息 — > [Experience League架构API端点](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=en#lookup)
+>您可以在此处阅读有关各种“接受”标头的更多信息 — > [Experience League架构API端点](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=zh-Hans#lookup)
 
 
 

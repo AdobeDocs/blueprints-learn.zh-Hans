@@ -162,7 +162,7 @@ ht-degree: 0%
 >
 >您想要选择批处理、流式处理或Edge的原因注意事项：
 >
->最新护栏： [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
+>最新护栏： [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
 
 >[!TIP]
 >
