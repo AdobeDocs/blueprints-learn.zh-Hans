@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 设置自定义Personalization目标
 
-使用[自定义Personalization目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)是一种方法，使受众可在Edge上供第三方使用（通常使用Network Server API）以用于个性化。
+使用[自定义Personalization目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/custom-personalization)是一种方法，使受众可在Edge上供第三方使用（通常使用Network Server API）以用于个性化。
 
 本实验配置自定义Personalization目标，以便我们可以向Edge发送配置文件属性。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要使用Adobe Target进行个性化，我们将使用[Adobe Target目标。](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2) 该行为与自定义Personalization相同。
+>要使用Adobe Target进行个性化，我们将使用[Adobe Target目标。](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2) 该行为与自定义Personalization相同。
 
 1. 在左边栏中，单击&#x200B;**目标**
 1. 在顶部边栏中，单击&#x200B;**目录**
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->由于配置文件属性可能包含敏感数据，因此所有[Edge Network服务器API](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)调用都必须在经过身份验证的上下文中进行，以便在Edge上检索该属性。
+>由于配置文件属性可能包含敏感数据，因此所有[Edge Network服务器API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/edge-network-server-api/overview)调用都必须在经过身份验证的上下文中进行，以便在Edge上检索该属性。
 
 
 ### 审核
@@ -132,4 +132,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->这是[自动实施](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement)将针对您的[数据使用策略](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)检查的位置。 它会使用您创建的规则检查您的营销操作，并引发任何错误。
+>这是[自动实施](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/enforcement/auto-enforcement)将针对您的[数据使用策略](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/policies/overview)检查的位置。 它会使用您创建的规则检查您的营销操作，并引发任何错误。

@@ -81,4 +81,4 @@ ht-degree: 0%
 
 现在，您已经了解在营销策划中使用构建受众活动的难易程度，只需从关系架构中选择正确的定向维度即可。 然后，您添加了一个条件来优化受众构建标准，并使用刷新选项来检查预期的行数。
 
-如有需要，您可以在[此处](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience)阅读更多内容。
+如有需要，您可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience)阅读更多内容。

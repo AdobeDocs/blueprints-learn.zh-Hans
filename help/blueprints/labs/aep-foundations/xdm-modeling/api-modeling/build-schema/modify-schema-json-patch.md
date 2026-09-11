@@ -22,7 +22,7 @@ ht-degree: 0%
 您可以通过以下链接了解有关JSON PATCH的更多信息，但在本实验中，假设您对这种做法的原理有一些概念😄
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
-- [Experience League API基础知识](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=en#json-patch)
+- [Experience League API基础知识](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=zh-Hans#json-patch)
 
 ![将缺少的planDescription字段修补到现有架构的图表](assets/modify-schema-json-patch-patching-missing-plan-description-field.png "在缺少的字段计划描述中修补")
 

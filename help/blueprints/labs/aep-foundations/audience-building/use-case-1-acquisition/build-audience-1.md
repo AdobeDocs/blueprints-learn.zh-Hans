@@ -247,7 +247,7 @@ XDM体验事件 — >产品列表项文件夹
 >
 >容器是引用Event变量或Array元素的一种方法。 您可以在此博客中阅读更多有关其后果的信息，但为了简单起见，这允许您指定数组中的单个元素是否同时满足这两个条件，或者条件是否可以分布到两个元素中。
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=zh-Hans](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=zh-Hans)
 
 >[!WARNING]
 >

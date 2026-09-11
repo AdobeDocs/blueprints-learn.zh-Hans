@@ -185,4 +185,4 @@ Orchestrated Campaign对所有活动使用关系架构。 使用读取受众活�
 
 您现在已经了解了创建营销活动、执行读取受众活动以及使用Profile Target Dimension来利用关系架构有多么简单。 您使用了拆分活动根据条件拆分受众。 最后，该测试模式有助于理解，配置文件和关系模式之间的数据一致性很重要。
 
-如有需要，您可以在[此处](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience)阅读更多内容。
+如有需要，您可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience)阅读更多内容。
