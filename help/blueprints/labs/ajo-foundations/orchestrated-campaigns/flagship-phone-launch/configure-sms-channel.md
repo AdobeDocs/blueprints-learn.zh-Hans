@@ -4,19 +4,17 @@ description: 了解如何配置基于Twilio的短信渠道及其执行维度，�
 doc-type: article
 solution: Experience Platform
 exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '676'
 ht-degree: 0%
-
 ---
-
 
 # 配置短信渠道
 
 ## 目标
 
-在接下来的步骤中，您将配置短信渠道。 这是必需的，这样您以后在构建营销活动时，便可以向各个线路持有人发送消息。
+在接下来的步骤中，您将配置短信渠道。 此步骤是必需的，这样您以后在构建营销活动时，就可以向各个线路持有人发送消息。
 
 
 
@@ -32,7 +30,7 @@ ht-degree: 0%
 
 ## 定义SMS API凭据
 
-首先，创建AJO将用于发送出站SMS请求的API连接器。
+您首先要创建AJO用于发送出站SMS请求的API连接器。
 
 1. 在SMS供应商下，选择&#x200B;**Twilio**。
 1. 使用您自己的[Twilio试用帐户](https://www.twilio.com/try-twilio)输入以下API凭据详细信息：
@@ -43,7 +41,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在开始此步骤之前，您需要一个带已验证电话号码的免费Twilio试用帐户。 在[twilio.com/try-twilio](https://www.twilio.com/try-twilio)注册，然后在Twilio控制台功能板上找到您的帐户SID和身份验证令牌。
+>在开始此步骤之前，您需要一个带已验证电话号码的免费Twilio试用帐户。 在[twilio.com/try-twilio](https://www.twilio.com/try-twilio)注册，然后在Twilio控制台功能板上找到您的帐户SID和身份验证令牌。 有关完整演练，请参阅Twilio的[入门指南](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account)。
 
 Twilio供应商的![SMS API凭据字段](assets/configure-sms-channel-enter-api-credentials.png)
 
@@ -51,7 +49,7 @@ Twilio供应商的![SMS API凭据字段](assets/configure-sms-channel-enter-api-
 
 ## 创建短信渠道配置
 
-现在，您将将此API凭据映射到历程和营销活动可以使用的渠道配置。
+现在，您将此API凭据映射到历程和营销活动可以使用的渠道配置。
 
 1. 导航到&#x200B;**渠道** → **常规设置** → **渠道配置**。
 
@@ -113,7 +111,7 @@ Twilio供应商的![SMS API凭据字段](assets/configure-sms-channel-enter-api-
 
    >[!NOTE]
    >
-   >这告知编排的营销活动，当它发送消息时，应该为每个记录投放一条与Profile Target Dimension匹配的消息。
+   >此设置会告知协调的营销活动，当它发送消息时，应该为每个记录投放一条与用户档案Target Dimension匹配的消息。
 
 
 
@@ -139,7 +137,7 @@ Twilio供应商的![SMS API凭据字段](assets/configure-sms-channel-enter-api-
 
 ## 提交和审查
 
-1. 您可以单击&#x200B;**提交**&#x200B;按钮以完成配置并看到一条成功消息
+1. 单击&#x200B;**提交**&#x200B;按钮以完成配置并看到一条成功消息
 
    提交通道配置后![成功消息](assets/configure-sms-channel-submit-success-message.png)
 
@@ -151,7 +149,7 @@ Twilio供应商的![SMS API凭据字段](assets/configure-sms-channel-enter-api-
 
    >[!CAUTION]
    >
-   >等到状态变为&#x200B;**活动**&#x200B;为止，否则将来的实验室步骤将严重失败
+   >等待状态变为&#x200B;**活动**，否则将来的实验室步骤将失败
 
 
 
@@ -165,6 +163,6 @@ Twilio供应商的![SMS API凭据字段](assets/configure-sms-channel-enter-api-
 
 ## 回顾
 
-您现在已了解如何成功配置短信渠道。  请注意，这是一个基于API的短信，因此根据您的提供商，他们可能会使用其他方法进行身份验证。
+您现在已了解如何成功配置短信渠道。  请注意，此配置是一种基于API的短信，因此根据您的提供商，他们可能会使用其他方法进行身份验证。
 
 如有需要，您可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)阅读更多内容。

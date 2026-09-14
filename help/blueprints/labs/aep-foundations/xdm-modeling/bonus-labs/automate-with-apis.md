@@ -1,16 +1,14 @@
 ---
 title: 使用API实现自动化
-description: 运行Postman收藏集，一次性自动创建架构、字段组、身份和关系描述符以及数据集。
+description: 运行一个Postman收藏集，可在单次运行时自动创建架构、字段组、身份和关系描述符以及数据集。
 doc-type: article
 solution: Experience Platform
 exl-id: a490f93f-19da-4de3-81c8-4569c49c5354
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '303'
 ht-degree: 0%
-
 ---
-
 
 # 使用API实现自动化
 
@@ -44,19 +42,19 @@ ht-degree: 0%
 
 
 
-1. 此时应会显示一个新窗口，其中显示了文件夹中的所有API调用。 将&#x200B;**延迟**&#x200B;设置为&#x200B;**500毫秒**，然后单击&#x200B;**运行**&#x200B;按钮。
+1. 此时将显示一个新窗口，其中显示了文件夹中的所有API调用。 将&#x200B;**延迟**&#x200B;设置为&#x200B;**500毫秒**，然后单击&#x200B;**运行**&#x200B;按钮。
 
    在单击“运行”![&#128279;](assets/automate-with-apis-execute-automation-dialog.png "“执行自动化”")之前，“执行自动化”对话框的延迟设置为500毫秒
 
 
 
-1. 您可以看到API调用开始按顺序执行，完成后，您应该会看到32个通过的测试。
+1. 您可以看到API调用开始按顺序执行，完成后，您会看到32个通过的测试。
 
    ![自动运行成功，32个测试通过](assets/automate-with-apis-successful-automation-32-passed-tests.png "自动运行成功")
 
 
 
-1. 转到Experience Platform UI，您应该会看到为前缀为&#x200B;**postman：**&#x200B;的配置文件创建和启用的两个架构和两个数据集
+1. 转到Experience Platform UI，您会看到为前缀为&#x200B;**postman：**&#x200B;的配置文件创建和启用的两个架构和两个数据集
 
 ![为带有postman的配置文件创建和启用的两个架构：前缀](assets/automate-with-apis-schemas-created-in-ui.png "自动化架构")
 
@@ -64,6 +62,6 @@ ht-degree: 0%
 
 ![使用postman创建的两个数据集：前缀与自动架构匹配](assets/automate-with-apis-datasets-created-in-ui.png "自动化数据集")
 
->[!TIP]
+>[!SUCCESS]
 >
->恭喜！  您刚刚自动部署身份命名空间、字段组、架构、身份/关系描述符，并为用户档案启用架构并利用架构生成数据集
+>恭喜！  您可以自动部署身份命名空间、字段组、架构、身份/关系描述符，为用户档案启用了架构，并利用该架构生成了一个数据集

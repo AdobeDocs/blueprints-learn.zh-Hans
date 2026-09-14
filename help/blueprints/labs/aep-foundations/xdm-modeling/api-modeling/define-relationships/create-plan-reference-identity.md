@@ -4,13 +4,11 @@ description: 使用架构注册表API在查找架构上创建引用身份描述�
 doc-type: article
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 
 # 创建计划引用标识
 
@@ -57,7 +55,7 @@ ht-degree: 0%
 
 &#x200B;4. 通过单击`Send`按钮执行API
 
-您现在应会看到如下的`201 Created`响应
+您现在看到如下的`201 Created`响应
 
 ![201在创建dep：计划查找引用标识描述符之后创建了响应](assets/create-plan-reference-identity-dep-plan-descriptor-result.png "dep：计划查找引用标识描述符")
 
@@ -67,8 +65,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->从架构UI创建关系时，将在后端自动创建引用身份描述符。 **在使用API创建架构时，您只需要显式创建它们**
+>从架构UI创建关系时，将在服务器上自动创建引用身份描述符。 **在使用API创建架构时，您只需要显式创建它们**
 
->[!TIP]
+>[!SUCCESS]
 >
->太棒了！ 您刚刚创建了将`dep: Lookup Plan`架构与`Customer Account`架构关联的所有所需描述符，并允许在批处理分段期间引用这些描述符
+>太棒了！ 要将`dep: Lookup Plan`架构与`Customer Account`架构关联起来，并使其在批处理分段期间被引用，您创建了所有必需的描述符

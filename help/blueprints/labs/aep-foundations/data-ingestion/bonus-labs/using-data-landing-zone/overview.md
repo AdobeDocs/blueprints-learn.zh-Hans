@@ -4,31 +4,29 @@ description: 安装和配置带有SAS URL的Azure Storage Explorer以连接到Ad
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d61bef25-7039-450d-a8e7-01bb12e8df7c
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '410'
 ht-degree: 0%
-
 ---
-
 
 # 使用数据登陆区
 
 ## 先决条件
 
-如果您尚未下载Azure Storage Explorer，请立即下载，因为这是本实验的一项要求。  您可以通过以下链接找到下载内容：
+如果您尚未下载Azure Storage Explorer，请立即下载，因为这是本实验的一项要求。  通过以下链接查找下载内容：
 
 [下载Azure存储资源管理器](https://azure.microsoft.com/en-us/blog/microsoft-azure-data-lake-storage-adls-in-storage-explorer-public-preview/)
 
 1. 安装应用程序
-1. 首次启动时接受最终用户许可协议
+1. 第一次打开应用程序时，接受最终用户许可协议
 
 Azure Storage Explorer&rbrack;(assets/overview-end-user-license-agreement-screen.png "最终用户许可协议屏幕中的!&lbrack;最终用户许可协议屏幕")
 
 
 ## 使用Experience Platform配置Azure存储资源管理器
 
-1. 打开Azure Storage Explorer并单击&#x200B;**选择资源图标**，然后选择&#x200B;**ADLS Gen 2容器或目录**
+1. 打开Azure Storage Explorer并单击&#x200B;**选择资源图标**，然后选择&#x200B;**ADLS Gen2容器或目录**
 
    ![在Azure Storage Explorer中选择ADLS Gen2容器或目录作为资源](assets/overview-choose-the-resource-as-shown-above.png)
 
@@ -50,7 +48,7 @@ Azure Storage Explorer&rbrack;(assets/overview-end-user-license-agreement-screen
 
 
 
-1. 转到Adobe Experience Platform ，然后通过执行以下操作导航到数据登陆区：
+1. 通过执行以下操作，转到Adobe Experience Platform并导航到数据登陆区：
 
    - 导航到&#x200B;**源 — >目录**
    - 在源下选择&#x200B;**云存储**
@@ -85,6 +83,6 @@ Azure Storage Explorer&rbrack;(assets/overview-end-user-license-agreement-screen
 
 ![Azure Storage Explorer显示成功连接的数据登录区帐户](assets/overview-successfully-connected-account.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >恭喜！  您已成功配置Azure存储资源管理器

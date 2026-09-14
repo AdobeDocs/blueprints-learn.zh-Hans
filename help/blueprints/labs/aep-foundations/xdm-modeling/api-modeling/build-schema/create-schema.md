@@ -4,13 +4,11 @@ description: 使用架构注册表API根据用户档案类以及标准和自定�
 doc-type: article
 solution: Experience Platform
 exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '340'
 ht-degree: 0%
-
 ---
-
 
 # 创建架构
 
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**尚未执行调用……1&rbrace;**
+>**尚未执行调用**
 
 1. 单击`XDM Schema Lab -> Create Schema`文件夹中的`Step 4 - Create Customer Account Schema` API调用。
 
@@ -33,7 +31,7 @@ ht-degree: 0%
    - 标题 — > `Sample Customer Schema - <your sandbox number>`
    - 描述 — > `Sample Customer Schema - <your sandbox number>`
 
-4. 在`$ref`字段中填充您从之前完成的实验室部分保存的`$ids`：[创建自定义字段组](./create-custom-field-groups.md)和[获取配置文件类](./get-profile-class.md)。 您应该为以下每个项目都设置$id：
+4. 在`$ref`字段中填充您从之前完成的实验室部分保存的`$ids`：[创建自定义字段组](./create-custom-field-groups.md)和[获取配置文件类](./get-profile-class.md)。 您对以下每个项目都有$id：
 
    - 类 — > XDM个人资料
    - 字段组 — >人口统计详细信息
@@ -78,6 +76,6 @@ ht-degree: 0%
 >
 >在将`$id`和`$meta:altId`保存到某个位置之前，请勿继续。  在未来的实验步骤中需要用到它们
 
->[!TIP]
+>[!SUCCESS]
 >
->**恭喜！ 您刚刚仅使用API创建了架构**
+>**恭喜！ 您仅使用API创建了架构**

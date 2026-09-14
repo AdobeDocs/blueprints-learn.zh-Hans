@@ -4,13 +4,11 @@ description: 在旗舰手机发布后，获取构建针对客户持有人和单�
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 04c509f1-aa10-4d29-aa59-5e627b79e498
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '283'
 ht-degree: 0%
-
 ---
-
 
 # 旗舰手机发布
 
@@ -20,15 +18,20 @@ ht-degree: 0%
 >
 >必须先完成以下实验，然后才能开始本实验
 
+- **Postman安装程序** **—>** [Postman安装](../../postman-setup/postman-installation.md)
 - **数据存储 — 操作中的关系存储** **—>** [配置文件目标Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **数据存储 — 配置电子邮件渠道 — >** [为关系配置](../../data-stores/configure-email-channels/configure-for-relational.md)
   *（此设置步骤最多需要3小时才能完成）*
 
-如果您尚未完成这些实验，请先完成这些实验，然后再继续。
+如果您尚未完成这些实验，请立即完成后再继续。
+
+>[!CAUTION]
+>
+>本实验需要在沙盒中使用SMS凭据来完成配置SMS渠道步骤 — 不发送实际消息，但必须存在Twilio凭据。 如果您已自学，但尚未配置这些项，请参阅[设置](../../setup.md)。
 
 ## Lab概述
 
-在本视频中，您将了解旗舰手机发布用例如何映射到精心编排的营销活动，在构建面向客户所有者和个人营销活动之前，重述关键思维问题和架构。
+在此视频中，您将了解旗舰手机发布用例如何映射到编排的营销活动，在构建面向客户所有者和个人营销活动之前，重述关键思维问题和架构。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3486217/)
 
@@ -44,7 +47,7 @@ ht-degree: 0%
 
 ## 用例描述
 
-紧随制造商最新旗舰设备发布后，向帐户持有人和系列用户发送有针对性的消息，邀请他们升级并体验移动设备的未来。
+紧随制造商最新旗舰设备发布后，向帐户持有人和系列用户发送一条有针对性的消息，邀请他们升级到最新的移动技术。
 
 **键标注：**
 

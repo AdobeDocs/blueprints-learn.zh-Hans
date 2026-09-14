@@ -4,13 +4,11 @@ description: 导入Postman环境文件，并填充其开发人员项目和bootca
 doc-type: article
 solution: Experience Platform
 exl-id: 1461fac5-0714-44d4-b5c8-949df6bcff83
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '472'
 ht-degree: 0%
-
 ---
-
 
 # 环境文件
 
@@ -25,7 +23,7 @@ ht-degree: 0%
 1. 单击文件，在浏览器中打开上面的`Environment File`
 1. 将文件的URL复制到剪贴板
 1. 在本地计算机上启动Postman，然后单击工作区中的`Import`按钮
-1. 将`Environment File`的URL粘贴到叠加图的导入模式文本框中。  这应该会触发自动导入
+1. 将`Environment File`的URL粘贴到叠加图的导入模式文本框中。  此操作触发自动导入
 
 ![单击Postman工作区中的“导入”按钮以导入环境文件](assets/environment-file-click-import-button.png "导入按钮")
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
 
 
-导入后，您可以通过单击左侧边栏中的`Environments`选项卡来验证环境文件是否存在。  您应该会看到类似于下面的内容。
+导入后，单击左侧边栏中的`Environments`选项卡，验证您的环境文件是否存在。  您会看到类似于下面的内容。
 
 导入后![AEP Bootcamp环境列在“Postman环境”选项卡下](assets/environment-file-aep-bootcamp-environment-listed.png "AEP Bootcamp环境")
 
@@ -58,13 +56,13 @@ ht-degree: 0%
 
 1. 单击Postman左侧边栏中的`Environments`选项卡
 1. 下次单击`AEP Bootcamp`环境文件
-1. 为以下列出的变量更新`current values`：
+1. 为下列变量更新`current values`：
    - 客户端\_密码
    - CLIENT\_ID（也称为API密钥）
    - 技术\_帐户\_ID
    - IMS组织
 
-完成后，您的环境文件应类似于以下内容：
+完成后，您的环境文件应类似于以下图像：
 
 更新CLIENT_SECRET、CLIENT_ID、TECHNICAL_ACCOUNT_ID和IMS_ORG值后的![环境文件](assets/environment-file-with-developer-project-values.png "具有开发人员项目值的环境文件")
 
@@ -77,14 +75,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您按照自己的步调完成这些实验室（而不是参加具有sandbox-assignment.pdf的实时培训活动），您可以在从Adobe Experience Platform UI URL登录到沙盒时找到这两个值，例如：
+>如果您单独完成这些实验室，而不是在使用sandbox-assignment.pdf的实时培训活动中工作，请在从Adobe Experience Platform UI URL登录到沙盒时查找这两个值。 例如：
 >
 >`https://experience.adobe.com/#/@dep/sname:prod/platform/home`
 >
 >- `SANDBOX_NAME`是`sname:`之后的值 — 在此示例中，`prod`
 >- `TENANT_NAME`是`@`符号后的值，前缀为下划线 — 在此示例中，`_dep`
 
-1. 为以下列出的变量更新`current values`：
+1. 为下列变量更新`current values`：
    - 沙盒\_名称
    - 租户\_名称
 1. 单击环境工作区右上角的`Save`按钮保存您的更新
@@ -93,6 +91,6 @@ ht-degree: 0%
 
 更新SANDBOX_NAME和TENANT_NAME值后的![环境文件](assets/environment-file-with-sandbox-name-and-tenant-name.png "具有SANDBOX_NAME的环境文件")
 
->[!TIP]
+>[!SUCCESS]
 >
 >恭喜！ 您已完成Postman环境配置

@@ -4,19 +4,17 @@ description: 了解如何在测试模式下运行编排的营销活动，并解�
 doc-type: article
 solution: Experience Platform
 exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '660'
 ht-degree: 0%
-
 ---
-
 
 # 测试活动
 
 ## 目标
 
-在接下来的几步中，您将在测试模式下运行营销活动，以在发布营销活动之前确认营销活动可按预期运行。 在这种情况下，测试模式不会实际发送电子邮件，但有助于验证整个流量并提前识别问题。
+在接下来的几步中，您在测试模式下运行活动，以在发布活动之前确认活动可按预期运行。 在这种情况下，测试模式不会发送电子邮件，但有助于验证整个流量并尽早识别问题。
 
 ## 启动工作流
 
@@ -30,7 +28,7 @@ ht-degree: 0%
 
 
 
-2. 此时将开始执行所有营销活动，并验证结果
+2. 将开始测试执行所有营销活动。 验证结果
 
 ![正在测试活动执行](assets/test-the-campaign-verify-execution-results.png)
 
@@ -52,11 +50,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您可能需要刷新页面几次才能看到最终测试结果。
+   >请根据需要刷新该页面几次以查看最终测试结果。
 
 
 
-4. 电子邮件测试完成后，将显示结果。 存在一定比例的错误；单击&#x200B;**查看更多**&#x200B;以了解原因。
+4. 电子邮件测试完成后，将显示结果。 存在一定百分比的错误；请单击&#x200B;**查看更多**&#x200B;以了解原因。
 
    查看更多链接时出现![错误率](assets/test-the-campaign-error-rate-view-more.png)
 
@@ -84,7 +82,7 @@ ht-degree: 0%
 
    ![单击“查看报告”查看电子邮件测试详细信息](assets/test-the-campaign-view-report-2.png)
 
-3. 电子邮件测试完成后，将显示结果。 在这种情况下，将不会出现错误
+3. 电子邮件测试完成后，将显示结果。 在这种情况下，没有错误
 
 ![无错误的营销活动统计数据](assets/test-the-campaign-campaign-statistics-2.png)
 
@@ -98,9 +96,9 @@ ht-degree: 0%
 
 ## 停止工作流
 
-单击&#x200B;**停止**&#x200B;按钮以停止营销活动的&#x200B;**测试模式**
+要停止营销活动的&#x200B;**测试模式**，请单击&#x200B;**停止**&#x200B;按钮
 
->[!TIP]
+>[!SUCCESS]
 >
 >在同一营销活动中测试了这两种电子邮件渠道配置，并观察到了使用AEP配置文件属性与在电子邮件渠道配置中使用Target Dimension之间的差异。
 >
@@ -110,4 +108,4 @@ ht-degree: 0%
 
 您现在已了解如何测试创建的营销活动以了解流量和行为。 在测试流执行期间，可以很好地理解为电子邮件渠道配置使用不同设置的细微差别。
 
-如果您有兴趣，可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)阅读有关营销活动测试模式的更多信息。
+如果您有兴趣，请在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)阅读有关营销活动测试模式的更多信息。

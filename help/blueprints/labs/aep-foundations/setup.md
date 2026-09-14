@@ -4,13 +4,11 @@ description: 在启动Postman Foundationbootcamp实验室之前，完成所需�
 doc-type: article
 solution: Experience Platform
 exl-id: 2b6e8a4c-9d1f-4c7a-b3e6-8a2c5f9d1e7b
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '124'
 ht-degree: 1%
-
 ---
-
 
 # 设置
 
@@ -22,7 +20,7 @@ ht-degree: 1%
 >
 >如果您正在参加实时培训课程或活动，则已为您部署沙盒 — 请跳过此部分，直接转到下面的Postman设置。
 
-如果您正在按照自己的进度完成此引导营，并且还没有部署了实验室资产的工作沙盒，请先完成以下操作：
+如果您还没有部署了实验室资产的工作沙盒，请完成以下步骤：
 
 - [Developer Console设置](sandbox-setup/developer-console-setup.md)
 - [部署说明](sandbox-setup/deployment-instructions.md)

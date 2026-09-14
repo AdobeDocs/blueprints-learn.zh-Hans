@@ -4,19 +4,17 @@ description: 在Adobe Journey Optimizer中配置可重复使用的自定义操�
 doc-type: article
 solution: Experience Platform
 exl-id: f81cc8be-bc2a-43cb-a2d4-89834aa94dcb
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '492'
 ht-degree: 0%
-
 ---
-
 
 # 配置自定义操作
 
 ## 学习目标
 
-创建一个自定义操作，定义历程将与外部端点或服务通信的方式，以获取包到达时间的ETA。
+创建一个自定义操作，定义历程与外部端点或服务通信的方式，以获取包到达时的ETA。
 
 ## 导航到操作
 
@@ -57,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->变量允许我们在历程中传入值，而不是为所有历程传入静态值
+>变量允许您在历程期间传入值，而不是为所有历程使用静态值
 
 - **身份验证类型**： `No Authentication`
 
@@ -105,7 +103,7 @@ ht-degree: 0%
 
 ### 测试操作
 
-1. 单击右下边栏中的&#x200B;**发送测试请求**&#x200B;按钮，验证您未损坏任何内容😀
+1. 单击右下边栏中的&#x200B;**发送测试请求**&#x200B;按钮，确认配置是否正常工作
 
    在右下边栏中![发送测试请求按钮](assets/configure-custom-action-click-send-test-request.png)
 
@@ -132,13 +130,13 @@ ht-degree: 0%
 
    >[!WARNING]
    >
-   >如果您没有看到200响应或预览操作，请不要继续。 提高您的✋以获取帮助。
+   >如果您没有看到200响应或预览，请不要继续。 请咨询您的讲师以获取帮助。
 
 
 
 4. 单击&#x200B;**取消**&#x200B;按钮以返回“操作”屏幕，然后在右上边栏中向上滚动并单击&#x200B;**保存**&#x200B;按钮
 
->[!TIP]
+>[!SUCCESS]
 >
 >恭喜！ 得益于专家级别的Ctrl+C和Ctrl+V技能，您的自定义操作已上线。
 

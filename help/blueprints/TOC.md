@@ -2,17 +2,15 @@
 user-guide-title: 客户体验编排业务目标、用例、体系结构图和Blueprint
 breadcrumb-title: 用例和Blueprint
 user-guide-description: 探索Adobe Experience Platform和应用程序的关键业务目标、用例模式以及行业用例。 可视化架构图和Blueprint为系统集成、数据流和解决方案设计提供了技术参考 — 将业务价值与实施联系起来。
-product: adobe experience platform
+product: Adobe Experience Platform
 mini-toc-levels: 3
 role: Developer, User
 nudge: orange
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1169'
 ht-degree: 15%
-
 ---
-
 
 # 客户体验编排Blueprint {#architecture}
 
@@ -211,7 +209,6 @@ ht-degree: 15%
             + [查看架构](/help/blueprints/labs/aep-foundations/xdm-modeling/api-modeling/define-relationships/view-schema.md)
           + [回顾](/help/blueprints/labs/aep-foundations/xdm-modeling/api-modeling/recap.md)
         + 附加实验室{#aep-xdm-bonus}
-          + [概述](/help/blueprints/labs/aep-foundations/xdm-modeling/bonus-labs/overview.md)
           + [使用API实现自动化](/help/blueprints/labs/aep-foundations/xdm-modeling/bonus-labs/automate-with-apis.md)
       + 数据摄取{#aep-ingestion}
         + [讲座](/help/blueprints/labs/aep-foundations/data-ingestion/lectures.md)
@@ -240,7 +237,6 @@ ht-degree: 15%
           + [监控和调试错误](/help/blueprints/labs/aep-foundations/data-ingestion/stream-ingestion/monitoring-and-debugging-errors.md)
           + [验证和验证](/help/blueprints/labs/aep-foundations/data-ingestion/stream-ingestion/verification-and-validation.md)
         + 附加实验室{#aep-ingestion-bonus}
-          + [概述](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/overview.md)
           + [修复CreateDate的MAPPER错误](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/fix-mapper-errors-for-createdate.md)
           + [流式传输订单事件](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/stream-an-order-event.md)
           + 使用数据登陆区{#aep-ingestion-dlz}
@@ -287,7 +283,6 @@ ht-degree: 15%
           + [构建用例3](/help/blueprints/labs/aep-foundations/audience-building/use-case-3-outreach/build-use-case-3.md)
           + [批判性思维评论](/help/blueprints/labs/aep-foundations/audience-building/use-case-3-outreach/critical-thinking-review.md)
         + 附加实验室{#aep-audiences-bonus}
-          + [概述](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/overview.md)
           + [将订单事件发送到中心](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/send-order-event-to-hub.md)
           + [将Web事件发送到中心](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/send-web-event-to-hub.md)
           + [监控您的事件](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/monitor-your-event.md)

@@ -4,13 +4,11 @@ description: 了解如何在编排的营销活动中结合使用读取受众活�
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1264'
 ht-degree: 0%
-
 ---
-
 
 # 读取受众
 
@@ -172,16 +170,16 @@ Orchestrated Campaign对所有活动使用关系架构。 使用读取受众活�
 
 >[!NOTE]
 >
->“读取”受众显示&#x200B;**9**&#x200B;配置文件。 由于我们在Source上构建了一个过滤器，并且Source字段存在于关系存储中，因此我们必须从配置文件存储加入关系存储才能检查它。 当它通过Campaign Target Dimension与关系架构连接时，只匹配了&#x200B;**7**&#x200B;个配置文件。 这些&#x200B;**7**&#x200B;匹配的客户ID可用于以下尝试使用关系数据的活动。 所有&#x200B;**7**&#x200B;客户ID的`Source`均设置为&#x200B;**“商店中”**，这可以通过拆分流来证实。
+>读取受众显示了&#x200B;**9**&#x200B;配置文件。 由于您在Source上构建了一个过滤器，并且Source字段存在于关系存储中，因此您必须将配置文件存储与关系存储连接才能检查它。 当通过Campaign Target Dimension与关系架构连接时，只有&#x200B;**7**&#x200B;个配置文件匹配。 这些&#x200B;**7**&#x200B;匹配的客户ID可用于以下尝试使用关系数据的活动。 所有&#x200B;**7**&#x200B;客户ID的`Source`均设置为&#x200B;**“商店中”**，这可以通过拆分流来证实。
 >
 >因此，在使用AEP配置文件及其关系对应项进行扩充时，保持数据一致性至关重要。
 
->[!TIP]
+>[!SUCCESS]
 >
 >恭喜，本实验完成了将读取受众活动与关系架构结合使用。
 
 ## 回顾
 
-您现在已经了解了创建营销活动、执行读取受众活动以及使用Profile Target Dimension来利用关系架构有多么简单。 您使用了拆分活动根据条件拆分受众。 最后，该测试模式有助于理解，配置文件和关系模式之间的数据一致性很重要。
+您现在已经了解了创建营销活动、执行读取受众活动以及配置文件定位Dimension以使用关系架构有多么简单。 您使用了拆分活动根据条件拆分受众。 最后，该测试模式有助于理解，配置文件和关系模式之间的数据一致性很重要。
 
 如有需要，您可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience)阅读更多内容。
