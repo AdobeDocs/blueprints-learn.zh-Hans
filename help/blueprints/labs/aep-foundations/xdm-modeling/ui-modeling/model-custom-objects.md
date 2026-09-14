@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. 通过单击架构顶部的&#x200B;**+ （添加）**&#x200B;按钮添加新字段
 
-   在架构顶部添加(+)按钮以添加自定义字段](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)![
+   在架构顶部添加(+)按钮以添加自定义字段![&#128279;](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
 
    >[!NOTE]
    >
@@ -177,7 +177,7 @@ ht-degree: 0%
 
 完成后，您的最终结果看起来类似于下面的屏幕截图
 
-在根](assets/model-custom-objects-customerid-field-added.png)中添加了![具有customerID字段的客户帐户架构
+在根![&#128279;](assets/model-custom-objects-customerid-field-added.png)中添加了具有customerID字段的客户帐户架构
 
 
 

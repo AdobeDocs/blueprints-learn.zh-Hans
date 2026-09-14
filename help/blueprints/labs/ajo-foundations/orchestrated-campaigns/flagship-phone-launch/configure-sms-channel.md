@@ -107,7 +107,7 @@ Twilio供应商的![SMS API凭据字段](assets/configure-sms-channel-enter-api-
 
    ![具有目标和辅助维度的执行维度设置](assets/configure-sms-channel-execution-dimension-setup.png)
 
-   在执行维度设置“次要Dimension”](assets/configure-sms-channel-secondary-dimension-detail.png "次要Dimension")中，将![次要Dimension设置为客户行
+   在执行维度设置“次要Dimension”![&#128279;](assets/configure-sms-channel-secondary-dimension-detail.png "次要Dimension")中，将次要Dimension设置为客户行
 
    >[!NOTE]
    >
