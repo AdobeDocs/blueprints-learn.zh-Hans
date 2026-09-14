@@ -4,13 +4,11 @@ description: 了解如何构建事件驱动的购买后历程，该历程会从�
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 570dc378-e7a3-4895-8f14-89d420b6b340
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '326'
 ht-degree: 0%
-
 ---
-
 
 # 购买后兴奋
 
@@ -20,17 +18,20 @@ ht-degree: 0%
 >
 >必须先完成以下实验，然后才能开始本实验
 
-在开始本实验之前，必须完成以下实验：
-
+- **Postman安装程序** **—>** [Postman安装](../../postman-setup/postman-installation.md)
 - **数据存储 — 操作中的关系存储** **—>** [配置文件目标Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **数据存储 — 配置电子邮件渠道 — >** [配置配置文件](../../data-stores/configure-email-channels/configure-for-profile.md)
-  *（最多可能需要3小时才能完成）*
+  *（此步骤最多需要3小时才能完成）*
 
 如果您尚未这样做，请立即完成这些步骤
 
+>[!CAUTION]
+>
+>本实验需要在沙盒中向Adobe委派子域。 如果您是自学型的，还没有设置，请参阅[设置](../../setup.md)。
+
 ## Lab概述
 
-在此视频中，您将了解购买后兴奋的使用案例如何映射到历程，浏览批判性思维问题和用于在订单发货后发送个性化配送通知的架构。
+在本视频中，您将了解购买后兴奋的使用案例如何映射到历程，浏览批判性思维问题和用于在订单发货后发送个性化配送通知的架构。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491146/)
 
@@ -51,9 +52,9 @@ ht-degree: 0%
 
 **键标注：**
 
-- 由于用户不希望等待确认他们只是点了某样东西，因此最初下达的订单通常作为事务型消息实施。
+- 初始订单确认通常作为事务型消息实施，因为客户在下订单后不希望等待确认。
 - 订单配送通知也可以使用事务型消息传递来实施，但它可以在历程中构建，允许自定义操作检索配送信息并增强客户通信。
 
 >[!NOTE]
 >
->在本实验中，您只会构建“已发运订单”消息并跳过“订单确认”消息。
+>在本实验中，您仅构建“已发运订单”消息并跳过“订单确认”消息。

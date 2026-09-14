@@ -4,13 +4,11 @@ description: 在UI中预览引入的数据集并运行SQL查询以验证批处�
 doc-type: article
 solution: Experience Platform
 exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
-
 ---
-
 
 # 验证和验证
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**预览数据集**&#x200B;显示此数据集中最近成功的批处理。 您看不到以前的批次。 此外，复杂数据（如数组和映射）现在不可查看，并且显示为空列。 不要惊慌！ 要获得更全面的视图，您需要使用SQL来浏览数据集，如下所述。
+>**预览数据集**&#x200B;显示此数据集中最近成功的批处理。 您看不到以前的批次。 此外，复杂数据（如数组和映射）现在不可查看，并且显示为空列。 要获得更全面的视图，您需要使用SQL来浏览数据集，如下所述。
 
 
 
@@ -72,7 +70,7 @@ ht-degree: 0%
 
 1. **预览**&#x200B;结果
 
-1. 此外，执行以下SQL查询以检索XDM架构以及数据：
+1. 要检索XDM架构以及数据，请同时执行以下SQL查询：
 
 ```sql
 SELECT to_json(shippingAddress) FROM <table_name>
@@ -84,6 +82,6 @@ SELECT to_json(shippingAddress) FROM <table_name>
 SELECT shippingAddress.postalCode FROM <table_name>
 ```
 
->[!TIP]
+>[!SUCCESS]
 >
 >恭喜！  您已成功摄取并创建了一组实时客户配置文件示例

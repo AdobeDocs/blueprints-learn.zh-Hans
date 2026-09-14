@@ -4,23 +4,21 @@ description: 了解如何将关系架构字段标记为身份并创建配置文�
 doc-type: article
 solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '559'
 ht-degree: 0%
-
 ---
-
 
 # 配置文件Target Dimension
 
 ## 目标
 
-在接下来的步骤中，您将导航UI以查看架构并设置身份。 接下来，您将设置配置文件定位Dimension ，这是营销活动定位并与AEP配置文件进行协调以进行投放的实体类型。
+在接下来的步骤中，您将导航UI以查看架构并设置身份。 接下来，您设置配置文件定位Dimension，这是营销活动定位并与AEP配置文件进行协调以进行投放的实体类型。
 
-## 为什么这很重要
+## 为什么此配置很重要
 
-配置文件Target Dimension用于告知Adobe Journey Optimizer如何连接实时客户配置文件和关系存储之间的数据。 此配置的组成部分如下：
+配置文件Target Dimension用于告知Adobe Journey Optimizer如何连接实时客户配置文件和关系存储之间的数据。 此配置的组件如下：
 
 - 关系架构
 - 关系架构中的单个字段
@@ -28,7 +26,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->如果没有此配置，将无法读取或共享受众，也无法从编排的活动发送任何消息
+>在您可以读取或共享受众，或者从编排的营销活动发送消息之前，必须完成此配置
 
 ## 为身份添加标签
 
@@ -58,7 +56,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->保存后，需要几分钟（5分钟内），之后才会在下一步中显示在配置文件定位Dimension下拉菜单中。
+>保存后，它需要几分钟（5分钟以内），然后才能在下一步中显示在配置文件定位Dimension下拉列表中。
 
 ## 创建配置文件Target Dimension
 
@@ -100,7 +98,7 @@ ht-degree: 0%
 >
 >创建的记录的名称是架构名称&#x200B;*（dep-rel：客户帐户）*&#x200B;和标记为标识&#x200B;*(customer\_id)*&#x200B;的字段的串联
 
->[!TIP]
+>[!SUCCESS]
 >
 >恭喜！ 本实验中的配置文件Target Dimension创建步骤到此结束。
 
@@ -108,4 +106,4 @@ ht-degree: 0%
 
 现在，您已看到在架构中导航、将属性标记为身份和创建Profile Target Dimension有多么简单。
 
-如有需要，您可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension)阅读更多内容。
+如有需要，您可以在[此处](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension)阅读更多内容。

@@ -4,13 +4,11 @@ description: 在UI中创建个人资料架构，并添加和修剪标准字段�
 doc-type: article
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '990'
 ht-degree: 0%
-
 ---
-
 
 # 为标准对象建模
 
@@ -52,7 +50,7 @@ ht-degree: 0%
 
 ## 命名您的架构
 
-基于XDM Individual Profile类的架构允许您收集有关将拼合到配置文件的个人的属性。 类本身包含不可编辑的字段，如&#x200B;*modifiedByBatchID*、*PersonID*&#x200B;等。
+基于XDM Individual Profile类的架构允许您收集有关已拼合到配置文件的个人的属性。 类本身包含不可编辑的字段，如&#x200B;*modifiedByBatchID*、*PersonID*&#x200B;等。
 
 1. 为您的架构提供名称和描述。
    - **架构显示名称** —> *客户帐户 — \[您的首字母]*
@@ -63,7 +61,7 @@ ht-degree: 0%
 
 ## 添加人口统计详细信息字段组
 
-Adobe Experience Platform中有许多字段组作为标准XDM存在，可供您添加到架构中并进行自定义。
+Adobe Experience Platform中有许多字段组作为标准XDM存在，可供您添加到架构中并对其进行自定义。
 
 1. 单击字段组部分的左边栏上的&#x200B;**+ （添加）**。
 
@@ -73,7 +71,7 @@ Adobe Experience Platform中有许多字段组作为标准XDM存在，可供您�
 
 1. 搜索&#x200B;**人口统计详细信息**，或通过浏览列表找到它。
 
-   - 找到字段组后，单击字段组右侧的放大镜以查看其结构。  这是一种预览要添加到架构中的内容而不实际添加该内容的有用方法。
+   - 找到字段组后，单击字段组右侧的放大镜以查看其结构。  此步骤是一种预览要添加到架构中的内容而不进行添加的有效方法。
    - 完成审阅时关闭预览
 
 
@@ -84,7 +82,7 @@ Adobe Experience Platform中有许多字段组作为标准XDM存在，可供您�
 
 
 
-&#x200B;3. **选中**&#x200B;字段组旁边的复选框，然后单击&#x200B;**添加字段组**&#x200B;按钮
+3. **选中**&#x200B;字段组旁边的复选框，然后单击&#x200B;**添加字段组**&#x200B;按钮
 
 ![选择“人口统计详细信息”字段组以将其添加到您的架构中](assets/model-standard-objects-select-demographic-details-field-group.png "选择“人口统计详细信息”字段组以将其添加到您的架构中")
 
@@ -96,7 +94,7 @@ Adobe Experience Platform中有许多字段组作为标准XDM存在，可供您�
 - 个人联系人详细信息
 - 同意和偏好设置详细信息
 
-完成后，您的架构应与下图类似。 确保单击&#x200B;**保存**&#x200B;按钮并保存您所做的工作！
+完成后，您的架构将与下图类似。 确保单击&#x200B;**保存**&#x200B;按钮并保存您所做的工作！
 
 在添加人口统计详细信息、个人联系人详细信息以及同意和偏好设置详细信息字段组后![架构](assets/model-standard-objects-final-schema-after-adding-field-groups.png "保存")后的最终架构
 
@@ -120,7 +118,7 @@ Adobe Experience Platform中有许多字段组作为标准XDM存在，可供您�
 - person.birthDayAndMonth
 - person.birthYear
 
-要从任何Adobe标准字段组中删除字段，您可以使用&#x200B;**管理相关字段**&#x200B;选项。 管理相关字段允许您从架构中删除标准字段，因此您只剩下所需的字段。
+要从任何Adobe标准字段组中删除字段，请使用&#x200B;**管理相关字段**&#x200B;选项。 管理相关字段允许您从架构中删除标准字段，因此仅保留所需的字段。
 
 1. 选择架构中的&#x200B;**人员**&#x200B;对象
 1. 单击右边栏中的&#x200B;**管理相关字段**
@@ -146,7 +144,7 @@ Adobe Experience Platform中有许多字段组作为标准XDM存在，可供您�
 
 
 
-1. 完成后，您应该会在架构中看到人员对象，如下所示。 如果一切正常，请单击“**保存**”按钮保存您的架构。
+1. 完成后，您应该会在架构中看到人员对象，如下所示。 要保存架构，请单击&#x200B;**保存**&#x200B;按钮（如果一切正常）。
 
 ![仅具有必要字段的最终人口统计详细信息人员对象](assets/model-standard-objects-final-demographic-details-person-object.png "仅具有必要字段的最终人口统计详细信息字段组")
 
@@ -168,10 +166,10 @@ Adobe Experience Platform中有许多字段组作为标准XDM存在，可供您�
 
 
 
-完成后，您的最终架构现在应如下所示。  请确保单击&#x200B;**保存**&#x200B;再继续。
+完成后，您的最终架构现在将类似于此。 请确保单击&#x200B;**保存**&#x200B;再继续。
 
 ![管理同意和偏好设置字段组的相关字段后的架构](assets/model-standard-objects-final-consent-and-preferences-fields.png "管理同意和偏好设置字段组的相关字段")
 
->[!TIP]
+>[!SUCCESS]
 >
 >您现在已完成将标准组件添加到架构的过程。 做得好！ 接下来，为架构构建一些自定义属性。

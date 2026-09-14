@@ -4,19 +4,17 @@ description: 了解如何使用仅针对编排的营销活动使用关系模式�
 doc-type: article
 solution: Experience Platform
 exl-id: 6f299942-79a6-42c2-8a5b-dd4bccd6aad4
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 10%
-
+source-wordcount: '535'
+ht-degree: 3%
 ---
-
 
 # 为关系配置
 
 ## 目标
 
-在接下来的步骤中，您将使用关系架构`dep-rel: Customer Account`中的`email`属性创建一个电子邮件渠道配置，以便仅与编排的营销活动一起使用
+在接下来的步骤中，使用关系架构`dep-rel: Customer Account`中的`email`属性，创建一个仅用于编排营销活动的电子邮件渠道配置
 
 ## 创建渠道配置
 
@@ -52,6 +50,10 @@ ht-degree: 10%
 
 ![已选择email.dep-labs.com的子域下拉列表](assets/configure-for-profile-select-email-subdomain.png "配置子域")
 
+>[!NOTE]
+>
+>如果您是自控进度的，并且没有预配置的子域，请在此处选择您自己的委派给Adobe的子域，而不是`email.dep-labs.com`。 请参阅[设置](../../setup.md)以了解如何委派一个。
+
 ## 配置IP池详细信息
 
 从&#x200B;**IP池**&#x200B;下拉列表中，选择&#x200B;**营销**
@@ -80,11 +82,11 @@ ht-degree: 10%
 
 ## 配置密件抄送电子邮件
 
-将此留空
+将“密件抄送电子邮件”字段留空
 
 >[!NOTE]
 >
->您可以通过将电子邮件发送到密件抄送收件箱，保留所发送电子邮件的副本。 输入您选择的电子邮件地址，这样发送的每封电子邮件都会被密送至此密件抄送地址。 请注意，密件抄送地址域必须不同于委派给 Adobe 的任何子域。 此功能为可选项。 *如何对电子邮件使用密件抄送*
+>要保留已发送电子邮件的副本，请将其发送到密件抄送收件箱。 输入您选择的电子邮件地址，以便发送的每封电子邮件也发送到此密件抄送地址。 请注意，密件抄送地址域必须不同于委派给 Adobe 的任何子域。 此功能为可选项。 *如何对电子邮件使用密件抄送*
 
 ## 配置电子邮件重试参数
 
@@ -126,7 +128,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->对于编排的营销活动，您可以通过电子邮件定位客户帐户，因此您只需为每个Target Dimension发送一条消息。  您使用的执行地址来自Target Dimension本身（即&#x200B;**dep-rel： Customer Account**&#x200B;表中针对&#x200B;**电子邮件**&#x200B;地址存储的内容）
+>对于编排的营销活动，您可以通过电子邮件定位客户帐户，因此您只需为每个Target Dimension发送一条消息。  您使用的执行地址来自Target Dimension本身（即&#x200B;**dep-rel： Customer Account**&#x200B;表中存储的&#x200B;**电子邮件**&#x200B;地址的内容）
 
 
 ## 查看并保存

@@ -4,13 +4,11 @@ description: 在Postman中生成OAuth服务器到服务器访问令牌，并了�
 doc-type: article
 solution: Experience Platform
 exl-id: e38a1bd4-5a09-40c6-8303-c3770801c864
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '562'
 ht-degree: 0%
-
 ---
-
 
 # 访问令牌
 
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 
 
-要建立与Adobe产品的安全API连接，Adobe提供了OAuth服务器到服务器凭据的创建。 为此，您必须首先在Adobe Developer Console中创建开发人员项目。 要访问Developer Console，您必须已在Adobe Admin Console中分配了开发人员权限。 一旦您拥有这些权限，您就可以利用各种Adobe产品相关API来创建开发人员项目。 这就是OAuth服务器到服务器凭据发挥作用的地方。 要生成访问令牌，您必须将一组特定声明传递到Adobe的Identity Management服务(IMS)。 对于OAuth服务器到服务器凭据，调用示例如下所示：
+为了建立与Adobe产品的安全API连接，Adobe提供了OAuth服务器到服务器凭据的创建。 为此，您必须首先在Adobe Developer Console中创建开发人员项目。 要访问Developer Console，您必须已在Adobe Admin Console中分配了开发人员权限。 一旦您拥有这些权限，就可以创建利用各种Adobe产品相关API的开发人员项目。 此时请使用OAuth服务器到服务器凭据。 要生成访问令牌，您必须将一组特定声明传递到Adobe的Identity Management服务(IMS)。 对于OAuth服务器到服务器凭据，调用示例如下所示：
 
 ```curl
 curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3?client_id={CLIENT_ID}' \
@@ -28,13 +26,13 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3?client_id={CLIENT_ID}'
 
 >[!NOTE]
 >
->您可以在[此处](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens)了解有关使用OAuth服务器到服务器凭据创建开发人员项目的e2e进程的更多信息。 对于bootcamp，我们将“手动”处理序😄的此步骤
+>在[此处](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens)了解有关使用OAuth服务器到服务器凭据创建开发人员项目的e2e进程的更多信息。 对于引导营，此步骤刻意简化。
 
 
 
 ## Adobe Experience Platform + Adobe IMS
 
-对任何Adobe服务的每个请求都必须包含授权标头中的访问令牌以及在开发人员项目创建期间生成的客户端密钥。 此外，Experience Platform及其相关应用程序要求每个请求中另外存在两个标头参数。
+对任何Adobe服务的每个请求都必须包含授权标头中的访问令牌以及在开发人员项目创建期间生成的客户端密钥。 此外，Experience Platform及其关联的应用程序需要在每个请求上另外有两个标头参数。
 
 - `x-gw-ims-org-id` — 此参数指定请求所属的`IMS Org`，并确保请求的处理解析到适当的SaaS环境
 - `x-sandbox-name` — 此参数指定在Experience Platform中处理请求的沙盒
@@ -43,11 +41,11 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3?client_id={CLIENT_ID}'
 
 >[!CAUTION]
 >
->未指定`x-sandbox-name`参数不会像您预期的那样使请求失败。 相反，它默认将请求处理到自动为任何Experience Platform环境配置的`default`沙盒中
+>不指定`x-sandbox-name`参数不会使请求失败。 相反，它默认将请求处理到自动为任何Experience Platform环境配置的`default`沙盒中
 
 >[!NOTE]
 >
->在此引导营中，我们创建了一个开发人员项目，并向您提供了一个Postman环境文件，其中包含请求`access_token`的所有必要值。 这是您在本实验的前几个步骤中上传的内容
+>此引导营地包含一个开发人员项目和Postman环境文件，其中包含请求`access_token`的所有必要值。 此环境文件是您在本实验的前几个步骤中上传的文件
 
 ## 使用Postman进行身份验证
 
@@ -73,13 +71,13 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3?client_id={CLIENT_ID}'
 }
 ```
 
-`token_type` — 将始终为持有者类型
+`token_type` — 始终为持有者类型
 
-`access_token` — 验证所有API调用的授权标头中所需的授权和要求
+`access_token` — 证明授权，所有API调用的授权标头中都需要该授权
 
-`expires_in` — 访问令牌过期前的毫秒（今天的24小时过期时间）
+`expires_in` — 访问令牌过期前的毫秒（今天的24小时过期时段）
 
->[!TIP]
+>[!SUCCESS]
 >
 >恭喜！ 您已成功进行身份验证，您的access\_token现已保存到您的环境文件
 
@@ -89,7 +87,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3?client_id={CLIENT_ID}'
 
 ### 令牌无效
 
-当环境文件中的`private_key`格式不正确或不再有效时，会发生这种情况。 如果看到此消息，请确保已复制整个键，包括换行符
+当环境文件中的`private_key`格式不正确或不再有效时，会发生此错误。 如果看到此错误，请确保已复制整个键，包括换行符
 
 示例：
 
@@ -115,6 +113,6 @@ some uber long varchar set is here
 
 >[!NOTE]
 >
->执行API调用时，不要忘记设置您的postman环境
+>执行API调用时，不要忘记设置您的Postman环境
 >
 >![从AEP环境下拉列表中选择Postman Bootcamp环境](assets/access-token-set-postman-environment.png)

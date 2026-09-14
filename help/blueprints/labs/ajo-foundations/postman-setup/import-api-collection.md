@@ -4,19 +4,17 @@ description: 导入bootcamp的Postman API收藏集，并验证其环境变量能
 doc-type: article
 solution: Experience Platform
 exl-id: 7562c7f1-0d60-4a3a-8bce-fa42bda08962
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '424'
 ht-degree: 0%
-
 ---
-
 
 # 导入API收藏集
 
 ## 目标
 
-在此步骤中，您将导入API收藏集，其中包含您在整个引导营中需要发出的所有各种请求。  这些API请求依赖于您刚刚导入的环境文件。
+在此步骤中，您将导入API集合，其中包含您在整个引导营中需要发出的所有各种请求。  这些API请求依赖于您刚刚导入的环境文件。
 
 
 
@@ -32,7 +30,7 @@ ht-degree: 0%
 
 ![验证postman集合导入](assets/import-api-collection-verify-collection-imported.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >恭喜！  您已成功导入引导营的Postman收藏集
 
@@ -40,9 +38,9 @@ ht-degree: 0%
 
 ## 验证环境变量
 
-您导入的收藏集包含您在整个bootcamp中实验室所需的所有必要API调用。  每个实验室都组织到一个特定的文件夹中，其中包含它自己的一组请求。
+您导入的收藏集包含您在整个bootcamp中实验室所需的所有API调用。  每个实验室都组织到一个特定的文件夹中，其中包含它自己的一组请求。
 
-有关每个文件夹的详细信息，请参阅以下内容：
+有关每个文件夹的详细信息，如下所示：
 
 - **配置文件和历程实验室** — 包含用于发送Web事件的一组请求和模拟送货确认的事件。
 - **Decisioning Labs** — 包含针对3位访客的请求，这些请求模拟通常可在AEP Web SDK标记的网站上找到的顶部和底部页面调用。

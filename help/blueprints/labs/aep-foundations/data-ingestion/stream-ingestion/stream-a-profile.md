@@ -4,13 +4,11 @@ description: 使用Postman和流端点以及数据流ID，通过HTTP API将客�
 doc-type: article
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '620'
 ht-degree: 0%
-
 ---
-
 
 # 流式传输用户档案
 
@@ -72,7 +70,7 @@ curl --location '' \
 
 ## 收集所需的值
 
-在数据流中之前，您需要收集上面列出的几个必需值（特别是流端点URL和正文内容“标头”值）。
+在流入数据之前，请收集上面列出的所需值（具体而言，是流端点URL和正文内容“标头”值）。
 
 执行以下步骤：
 
@@ -101,7 +99,7 @@ curl --location '' \
 
 ## 更新您的API请求
 
-切换到您的Postman应用程序，使用您刚刚收集的信息更新“创建客户帐户”请求。
+切换到Postman应用程序，使用您收集的信息更新“创建客户帐户”请求。
 
 1. 打开Postman并导航到&#x200B;**数据摄取实验室 — >创建客户帐户** API请求并打开它
 
@@ -136,7 +134,7 @@ curl --location '' \
 
 
 
-1. 您应该会收到`200 OK`响应，表明Adobe Experience Platform已成功收到该响应
+1. 您收到了`200 OK`响应，表明Adobe Experience Platform已成功收到该响应
 
 200 OK响应示例
 
@@ -151,8 +149,8 @@ curl --location '' \
 
 >[!NOTE]
 >
->记下响应中的&#x200B;**xactionId**。  如果您遇到未看到摄取记录的错误，应始终将此记录作为客户支持工单的一部分提供，因为它是我们的支持团队用于调试任何环境问题的跟踪项目符号
+>记下响应中的&#x200B;**xactionId**。  如果发生错误，但您未看到摄取的记录，则应始终将此记录作为客户支持工单的一部分提供，因为它是我们的支持团队用于调试任何环境问题的关键参考
 
->[!TIP]
+>[!SUCCESS]
 >
 >恭喜！  您已成功将个人资料记录流式传输到Adobe Experience Platform

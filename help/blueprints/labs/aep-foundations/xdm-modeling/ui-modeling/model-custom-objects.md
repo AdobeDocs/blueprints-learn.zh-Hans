@@ -4,19 +4,17 @@ description: 在架构编辑器中构建自定义帐户、计划和customerID字
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '988'
 ht-degree: 0%
-
 ---
-
 
 # 为自定义对象建模
 
 ## 添加自定义字段
 
-如演讲中所述，没有开箱即用的标准字段组或数据类型来对客户帐户自定义字段建模。  以下字段当前被视为自定义字段，必须在XDM架构中建模。
+如演讲中所述，没有标准预建字段组或数据类型来模拟客户帐户自定义字段。  以下字段当前被视为自定义字段，必须在XDM架构中建模。
 
 - \_\&lt;租户名称>.account.createDate
 - \_\&lt;租户名称>.account.endDate
@@ -27,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->请注意，\&lt;tenant-name>将特定于您正在使用的环境
+>请注意\&lt;tenant-name>特定于您正在使用的环境
 
 
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
 1. 通过单击架构顶部的&#x200B;**+ （添加）**&#x200B;按钮添加新字段
 
-   在架构顶部添加(+)按钮以添加自定义字段![&#128279;](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
+   在架构顶部添加(+)按钮以添加自定义字段](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)![
 
    >[!NOTE]
    >
@@ -43,15 +41,15 @@ ht-degree: 0%
 
 
 
-1. 利用以下详细信息创建帐户对象。 完成后，单击右边栏中的&#x200B;**应用**&#x200B;按钮以查看架构工作区中的更改
+1. 使用以下详细信息创建帐户对象。 完成后，单击右边栏中的&#x200B;**应用**&#x200B;按钮以查看架构工作区中的更改
 
 | 字段名称 | 显示名称 | 类型 | 分配给新字段组 |
 | ---------- | ------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| *帐户* | *帐户* | *对象* | *客户帐户详细信息 — \[您的首字母]*<br />*（键入此名称并选择下拉列表或按Enter）* |
+| *帐户* | *帐户* | *对象* | *客户帐户详细信息 — \[您的缩写]*<br />*（键入此内容并选择下拉菜单或按Enter）* |
 
 >[!WARNING]
 >
->字段名称需要遵循特定大小写。 原因是我们已经预创建了您正在构建的相同架构。 如果关闭大小写，将导致与沙盒中预先存在架构的字段路径冲突
+>字段名称需要遵循特定大小写。 原因是您正在构建的同一架构已预先创建。 如果关闭大小写，则会导致与沙盒中预先存在架构的字段路径冲突
 
 ![添加帐户对象及其分配的字段组](assets/model-custom-objects-adding-the-account-object.png "添加帐户对象")
 
@@ -61,7 +59,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->请注意，您的新自定义字段组将显示在左边栏中的`Field groups`下方，并且不带锁图标。  这表示它是一个自定义创建的字段组。
+>请注意，您的新自定义字段组将显示在左边栏中的`Field groups`下方，并且不带锁图标。  此缺少锁图标表示它是一个自定义创建的字段组。
 
 >[!WARNING]
 >
@@ -70,7 +68,7 @@ ht-degree: 0%
 
 
 
-1. 在刚刚创建的Account对象下添加以下字段。
+1. 在刚刚创建的Account对象下添加以下所示字段。
 
    | 字段名称 | 显示名称 | 类型 |
    | ------------ | ------------- | ---------- |
@@ -83,7 +81,7 @@ ht-degree: 0%
 
 
 
-1. 完成后，架构帐户对象应如下所示。 **保存**&#x200B;您的架构！
+1. 完成后，架构的帐户对象将如下所示。 **保存**&#x200B;您的架构！
 
 
 
@@ -97,7 +95,7 @@ ht-degree: 0%
    | ----------- | ----------------- | -------- | --------------------------------------- |
    | *acqSource* | *已获得Source* | *字符串* | *Web ：： Web *<br />*商店内：：商店内* |
 
-   此字段需要标准化的值，因此在字段属性中使用&#x200B;**枚举和建议值**&#x200B;选项。 选择&#x200B;**枚举**&#x200B;单选按钮可在引入时为此字段添加验证以及友好标签。 添加枚举值，如下所示：
+   此字段需要标准化的值，因此请使用字段属性中的&#x200B;**枚举和建议值**&#x200B;选项。 选择&#x200B;**枚举**&#x200B;单选按钮可在引入时为此字段添加验证以及友好标签。 添加枚举值，如下所示：
 
    - *Web ：： Web*
    - *inStore ：：商店中*
@@ -108,7 +106,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >枚举和建议值的目标是使分段对于最终用户更容易。 枚举在数据摄取时强制进行验证，而建议值不强制验证。 要了解有关此功能的更多信息，请参阅此处的文档 — > [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=zh-Hans#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=zh-Hans#enums-and-suggested-values)
+   >枚举和建议值的目标是使分段对于最终用户更容易。 枚举在数据摄取时强制进行验证，而建议值不强制验证。 要了解有关此功能的更多信息，请参阅此处的文档 — > [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
 
 
 
@@ -116,7 +114,7 @@ ht-degree: 0%
 
 1. **保存**&#x200B;您的架构
 
->[!TIP]
+>[!SUCCESS]
 >
 >您已成功在XDM架构注册表中创建第一个自定义对象和字段！
 
@@ -161,9 +159,9 @@ ht-degree: 0%
 
 ## 客户ID字段创建
 
-将&#x200B;**customerID**&#x200B;字段添加为此字段非常关键，因为它将用作架构的主标识以及用于存放数据的常规字段。
+将&#x200B;**customerID**&#x200B;字段添加为此字段非常关键，因为该字段用作架构的主要标识以及保存数据的常规字段。
 
-执行与之前相同的步骤，并利用下表引用字段的元数据。
+执行与之前相同的步骤，并使用下表引用字段的元数据。
 
 | 字段名称 | 显示名称 | 类型 | 字段组 |
 | ------------ | ------------- | -------- | --------------------------------------------- |
@@ -171,15 +169,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->从分层的角度来看，`customerID`可以放在架构中的任何位置。 在本实验中，我们选择将其保留在根目录下，而不是嵌套在您之前创建的某个自定义对象中。  这就是数据架构有意见的地方
+>从分层的角度来看，`customerID`可以放在架构中的任何位置。 在本实验中， customerID字段位于根目录下，并且不会嵌套在您之前创建的某个自定义对象中。  在这个位置上，数据架构会有自己的意见
 >
 >😄
 
 
 
-完成后，您的最终结果应当类似于下面的屏幕截图
+完成后，您的最终结果看起来类似于下面的屏幕截图
 
-在根![&#128279;](assets/model-custom-objects-customerid-field-added.png)中添加了具有customerID字段的客户帐户架构
+在根](assets/model-custom-objects-customerid-field-added.png)中添加了![具有customerID字段的客户帐户架构
 
 
 
@@ -189,6 +187,6 @@ ht-degree: 0%
 
 ![添加了所有自定义对象和字段的最终架构](assets/model-custom-objects-final-schema-with-custom-objects.jpeg "添加了自定义对象的最终架构")
 
->[!TIP]
+>[!SUCCESS]
 >
 >您已构建您的第一个XDM架构！ 在下一部分中，您将配置架构以用于Real-Time Customer Profile。

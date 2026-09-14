@@ -4,24 +4,22 @@ description: 使用JSON PATCH API调用向现有租户字段组添加新字段�
 doc-type: article
 solution: Experience Platform
 exl-id: c0313594-d998-4525-a0a4-d9d844bed5ef
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '805'
 ht-degree: 0%
-
 ---
-
 
 # 修改架构 — JSON修补程序
 
 ## 概述
 
-假设在构建架构后，您需要返回并向`plan`对象（名为`planDescription`）添加一个附加字段，因为您在创建架构时忘记添加该字段，或者它是几个月后收到的请求。  要执行此任务，您只需执行`PATCH`操作即可使用新字段更新架构。
+假设在构建架构后，您需要向`plan`对象（名为`planDescription`）添加一个附加字段。 之所以会出现此需要，是因为您在创建架构时忘记添加它，或者是因为它是几个月后发送的请求。 要执行此任务，请运行使用新字段更新架构的`PATCH`操作。
 
-您可以通过以下链接了解有关JSON PATCH的更多信息，但在本实验中，假设您对这种做法的原理有一些概念😄
+请通过以下链接了解有关JSON PATCH的更多信息。 在本实验中，假设您已大致了解其工作方式。
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
-- [Experience League API基础知识](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=zh-Hans#json-patch)
+- [Experience League API基础知识](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=en#json-patch)
 
 ![将缺少的planDescription字段修补到现有架构的图表](assets/modify-schema-json-patch-patching-missing-plan-description-field.png "在缺少的字段计划描述中修补")
 
@@ -29,16 +27,16 @@ ht-degree: 0%
 >
 >请记住以下几点：
 >
->- 架构由一(1)个类和一(1)个或多个字段组组成
->- 如果不先添加到字段组，则无法将新字段直接添加到架构。 这确保在使用该字段组的任何架构中字段的重用性。
+>- 架构由一个类和一个或多个字段组组成
+>- 在将新字段添加到架构之前，必须先将其添加到字段组。 此限制确保字段在使用该字段组的任何架构中的可重复使用。
 
 
 
-要向架构添加新字段，您需要按顺序执行以下操作。  这是您在以下实验步骤中所执行的操作。
+要向架构添加新字段，您需要按顺序执行以下操作。 此过程就是您在以下实验步骤中所执行的操作。
 
 - 确定要在其中添加新资产的字段组
 - 构造JSON PATCH调用以更新字段组
-- 执行JSON PATCH调用以更新字段组（架构将继承该字段组）
+- 执行JSON PATCH调用以更新字段组（架构继承该字段组）
 
 
 
@@ -51,23 +49,23 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >请记住，您在自定义字段组中创建了`plan`对象。 在XDM架构注册表中创建的自定义对象称为“租户”，因此使用`/schemaregistry/tenant/mixins/`路径的API调用也是如此。
+   >请记住，您在自定义字段组中创建了`plan`对象。 在XDM架构注册表中自定义创建的对象称为“租户”，因此使用`/schemaregistry/tenant/mixins/`路径的API调用。
 
 
 
 1. 在响应中搜索您之前创建的标题为`Customer Account Details - Sandbox <your number here> `的自定义字段组的架构ID
 
-1. 复制`$meta:altId`并将其保存在安全的位置，因为下一步需要它
+1. 复制`$meta:altId`并将其保存到安全的位置，以便在下一步操作时根据需要进行
 
 ![在API响应中查找自定义客户帐户详细信息字段组](assets/modify-schema-json-patch-search-field-group-response.jpeg "搜索响应中的客户帐户详细信息字段组")
 
 >[!CAUTION]
 >
->请确保您选择了要复制的正确字段组！  有一个名称与`dep: Customer Account Details`类似，您应该&#x200B;**不应**&#x200B;使用的名称
+>请确保您选择了要复制的正确字段组！ 不要使用名为`dep: Customer Account Details`的名称相似的字段组
 
 >[!WARNING]
 >
->在将`$meta:altId `保存到某个位置之前，请勿继续。  在以后的实验步骤中需要它
+>您需要`$meta:altId`才能完成未来的实验步骤，因此请在继续操作之前将其保存在某个位置
 
 
 
@@ -135,7 +133,7 @@ ht-degree: 0%
 2. 使用以下信息更新请求正文
 
    - **op** ->` add`
-   - **路径** -> `path from previous step +`&#x200B;` the new field name`
+   - **路径** -> `path from previous step +`` the new field name`
    - **值** ->
      - **标题** -> `Plan Description`
      - **类型** -> `string`
@@ -155,11 +153,11 @@ ht-degree: 0%
 
 4. `Execute`执行PATCH的调用
 
-您应会看到`200 OK `响应，现在应会看到字段组中的`planDescription`字段，如下所示：
+您会在字段组中看到`200 OK`响应和`planDescription`字段，如下所示：
 
 使用planDescription成功修补字段组后![200 OK响应](assets/modify-schema-json-patch-step-3-200-ok-successful-patch.png "步骤3 - 200 OK成功PATCH")
 
->[!TIP]
+>[!SUCCESS]
 >
 >恭喜！ 您已成功使用JSON PATCH更新字段组/架构
 
@@ -167,6 +165,6 @@ ht-degree: 0%
 
 ## 在UI中查看更改
 
-通过UI浏览您的架构并查看新添加的字段。  很酷吧？
+通过UI浏览架构并查看新添加的字段。
 
 在Experience Platform UI中使用JSON修补程序后，架构中会显示![计划描述字段](assets/modify-schema-json-patch-plan-description-added-to-field-group.png "计划描述已添加到客户帐户详细信息 — 沙盒\&lt;您的编号>字段组中。 修改架构JSON")

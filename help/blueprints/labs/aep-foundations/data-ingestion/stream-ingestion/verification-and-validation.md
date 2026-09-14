@@ -4,13 +4,11 @@ description: 在UI中预览流式数据集，并运行SQL查询以验证摄取�
 doc-type: article
 solution: Experience Platform
 exl-id: fbdb0b6b-08b6-49b8-b6ab-d59d5941c678
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 
 # 验证和验证
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**预览数据集**&#x200B;将仅显示数据集的前几行。 数组对象不可查看。
+>**预览数据集**&#x200B;仅显示数据集的前几行。 数组对象不可查看。
 
 
 
@@ -56,7 +54,7 @@ ht-degree: 0%
 
 
 
-1. 打开&#x200B;**增强型查询编辑器**&#x200B;的切换开关
+1. 启用&#x200B;**增强型查询编辑器**&#x200B;切换
 
    ![已启用增强型查询编辑器切换的查询编辑器界面](assets/verification-and-validation-enhanced-query-editor-toggle.png "查询编辑器界面")
 
@@ -82,12 +80,12 @@ ht-degree: 0%
 
 
 
-1. 要访问`postalCode` **节点**&#x200B;中的数据，您可以键入：
+1. 键入以下内容以访问`postalCode` **节点**&#x200B;中的数据：
 
 ```sql
 SELECT shippingAddress.postalCode FROM <table_name>
 ```
 
->[!TIP]
+>[!SUCCESS]
 >
 >恭喜！  您已成功摄取并创建了一组实时客户配置文件示例

@@ -4,21 +4,19 @@ description: 在Postman中使用配置文件实体API和身份服务集群API查
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1143'
 ht-degree: 1%
-
 ---
-
 
 # 配置文件和标识API
 
 ## 配置文件实体API
 
-在使用Real-time Customer Profile时，了解如何利用配置文件API至关重要。 它解锁了快速分类与调试的能力，同时还为您提供了围绕从呼叫中心到网亭的系统集成的无限可能性。
+在使用Real-time Customer Profile时，了解如何利用配置文件API至关重要。 它解锁了快速分类与调试的能力，同时还向您展示了从呼叫中心到网亭等许多可能的系统集成。
 
-最重要的API之一是配置文件实体API。  此API允许您查找单个配置文件（就像在UI中看到的一样），但使用参数来指示您是要查看配置文件的属性还是事件。
+最重要的API之一是配置文件实体API。 此API允许您查找单个配置文件，就像在UI中看到的那样。 它使用参数来指示您是要查看配置文件的属性还是事件。
 
 以下是配置文件实体API的GET方法的整个规范
 
@@ -79,7 +77,7 @@ ht-degree: 1%
 1. 单击&#x200B;**实体查找（属性）**&#x200B;请求以将其打开
 1. 通过单击&#x200B;**发送**&#x200B;按钮执行调用
 
-   发送&rbrack;(assets/profile-and-identity-apis-entity-lookup-attributes-request.png "配置文件实体查找（属性） API之前，实体查找（属性）调用的!&lbrack;Postman请求窗格")
+   发送](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "配置文件实体查找（属性） API之前，实体查找（属性）调用的![Postman请求窗格")
 
    成功的请求应使用`200 OK`进行响应，您应会看到一个包含深度模式配置文件所有属性的结果。
 
@@ -89,7 +87,7 @@ ht-degree: 1%
    >
    >默认情况下，如果未在配置文件实体请求中指定合并策略，则它在沙盒中使用默认合并策略
 
-   使用实体API时，您可以使用许多查询参数来更改响应中返回的内容。
+   对于实体API，使用查询参数更改响应中返回的内容。
 
 1. 在实体查找（属性）请求中，单击该请求的&#x200B;**参数**&#x200B;选项
 1. 选中名为&#x200B;**字段**&#x200B;的&#x200B;**键**&#x200B;旁边的框
@@ -99,13 +97,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->请注意，还有一个用于指定`mergePolicyId`的参数。  您可以使用其他API或使用UI查找ID，找到其价值。
+>请注意，还有一个用于指定`mergePolicyId`的参数。 要查找其值，请使用其他API或使用UI查找ID。
 
 成功的请求应使用`200 OK`响应，并且您应该只看到在刚刚启用的参数过滤器中指定的字段：“名字”、“姓氏”和“活动产品”数组。
 
 ![筛选的200 OK响应只显示“名字”、“姓氏”和“活动产品”字段](assets/profile-and-identity-apis-successful-filtered-attributes-response.png "启用筛选器的成功配置文件实体查找（属性） API响应")
 
->[!TIP]
+>[!SUCCESS]
 >
 >恭喜！  您已成功利用配置文件实体API查找配置文件属性
 
@@ -124,25 +122,25 @@ ht-degree: 1%
 
 ![200 OK响应包含Depeche模式配置文件的所有事件](assets/profile-and-identity-apis-successful-events-api-response.png "成功的配置文件实体查找（事件） API响应")
 
-就像在查找配置文件属性时一样，实体API具有更多查询参数，可以利用这些参数更改响应中返回的内容。
+在查找配置文件属性时，实体API具有更多的查询参数，这些参数会更改响应中返回的内容。
 
-您可以通过在Params部分中启用它们并执行请求来尝试其中的一些方法。  试试看，看看它是如何运行的！
+请在Params部分中启用这些参数并执行请求，从而尝试其中的一些参数。 了解它的工作原理！
 
 ![实体查找（事件）请求，已在Params节](assets/profile-and-identity-apis-entity-lookup-events-query-params.png "体验事件的配置文件实体查找中启用其他查询参数")
 
 **示例查询参数定义**
 
 | 键 | 值 | 描述 |
-| ------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| mergePolicyId | \&lt;blank> | 如果提供，您可以切换用于执行查找的合并策略。 对于实验室，将其保留为空表示它将使用沙盒默认合并策略 |
-| 字段 | eventType，timestamp，identityMap | 仅显示每个事件中的这些字段，无论指定的字段是否具有值 |
-| 属性 | eventType=&quot;order.placed&quot; | 将配置文件事件筛选为仅包含“order.placed”类型的事件 |
-| orderby | +时间戳 | 按降序排列事件 |
+| ------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| mergePolicyId | \&lt;blank> | 切换用于查找的合并策略。 将其保留为空将使用沙盒的默认合并策略 |
+| 字段 | eventType，timestamp，identityMap | 仅显示每个事件中的这些字段，无论它们是否具有值 |
+| 属性 | eventType=&quot;order.placed&quot; | 将事件筛选为指定类型的事件 |
+| orderby | +时间戳 | 按升序排序事件 |
 | limit | 5 | 在响应中仅显示五个事件 |
 
 >[!NOTE]
 >
->您可以在此处了解有关所有查询参数选项的更多信息 — > [https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)
+>在此处了解有关所有查询参数选项的更多信息 — > [https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)
 
 
 
@@ -163,7 +161,7 @@ ht-degree: 1%
 
 在发送之前为List Linked Identities调用设置![Postman请求窗格](assets/profile-and-identity-apis-list-linked-identities-request.png "List Linked Identities API")
 
-成功的响应应类似于下面的屏幕截图
+成功的响应应类似于下面的屏幕快照
 
 
 

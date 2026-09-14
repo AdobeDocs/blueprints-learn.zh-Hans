@@ -4,19 +4,17 @@ description: 了解如何使用AEP Profile personalEmail.address属性为历程�
 doc-type: article
 solution: Experience Platform
 exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 8%
-
+source-wordcount: '656'
+ht-degree: 5%
 ---
-
 
 # 为配置文件配置
 
 ## 目标
 
-在接下来的步骤中，您将使用`personalEmail.address` AEP配置文件属性创建一个包含历程和编排营销活动的电子邮件渠道配置
+在接下来的步骤中，您将使用`personalEmail.address` AEP配置文件属性创建一个包含历程和协调营销活动的电子邮件渠道配置
 
 ## 创建渠道配置
 
@@ -48,6 +46,10 @@ ht-degree: 8%
 
 ![已选择email.dep-labs.com的子域下拉列表](assets/configure-for-profile-select-email-subdomain.png "配置子域")
 
+>[!NOTE]
+>
+>如果您是自控进度的，并且没有预配置的子域，请在此处选择您自己的委派给Adobe的子域，而不是`email.dep-labs.com`。 请参阅[设置](../../setup.md)以了解如何委派一个。
+
 ## 配置IP池详细信息
 
 从&#x200B;**IP池**&#x200B;下拉列表中，选择&#x200B;**营销**
@@ -76,11 +78,11 @@ ht-degree: 8%
 
 ## 配置密件抄送电子邮件
 
-将此留空
+将此字段留空
 
 >[!NOTE]
 >
->您可以通过将电子邮件发送到密件抄送收件箱，保留所发送电子邮件的副本。 输入您选择的电子邮件地址，这样发送的每封电子邮件都会被密送至此密件抄送地址。 请注意，密件抄送地址域必须不同于委派给 Adobe 的任何子域。 此功能为可选项。 *如何对电子邮件使用密件抄送*
+>您可以通过将电子邮件发送到密件抄送收件箱，保留所发送电子邮件的副本。 若要将每封发送的电子邮件复制到此密件抄送地址，请输入您选择的电子邮件地址。 请注意，密件抄送地址域必须不同于委派给 Adobe 的任何子域。 此功能为可选项。 *如何对电子邮件使用密件抄送*
 
 ## 配置电子邮件重试参数
 
@@ -138,7 +140,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->对于编排的营销活动，您可通过电子邮件定位客户帐户，因此您只需为每个用户档案&#x200B;*发送*&#x200B;封邮件。  您使用的执行地址来自配置文件本身（即存储在AEP配置文件的&#x200B;**personalEmail.address**&#x200B;属性下的内容）
+>对于编排的营销活动，您可通过电子邮件定位客户帐户，因此您只需为每个用户档案&#x200B;*发送*&#x200B;封邮件。  您使用的执行地址来自配置文件本身（具体而言，是存储在AEP配置文件的&#x200B;**personalEmail.address**&#x200B;属性下的内容）
 
 
 ## 查看并保存
@@ -148,7 +150,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->据观察，处理电子邮件渠道配置最多需要2小时！  天啊！
+>据观察，处理电子邮件渠道配置最多需要2小时！
 >
 >在等待处理此渠道配置期间，请继续进行下一个练习。
 

@@ -4,13 +4,11 @@ description: 使用架构注册表API为客户帐户架构创建主customerID身
 doc-type: article
 solution: Experience Platform
 exl-id: db690081-e857-4875-8bb9-7ac197d73cab
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '144'
 ht-degree: 0%
-
 ---
-
 
 # 创建主要身份
 
@@ -50,10 +48,10 @@ ht-degree: 0%
 
 1. 继续使用`Save`按钮之前保存您的请求
 
-1. 单击`Send`按钮执行API。 您现在应会看到如下的`201 Created`响应
+1. 单击`Send`按钮执行API。 您现在看到了`201 Created`响应，如下所示
 
 ![201在成功创建主标识描述符后创建了响应](assets/create-primary-identity-201-created-response.png "已成功创建主标识描述符")
 
->[!TIP]
+>[!SUCCESS]
 >
->恭喜！  您刚刚在架构中创建了一个主身份描述符
+>恭喜！  您在架构中创建了一个主标识描述符

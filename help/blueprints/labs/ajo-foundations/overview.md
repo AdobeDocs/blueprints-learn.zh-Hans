@@ -4,20 +4,18 @@ description: 通过动手实验探索Adobe Journey Optimizer的架构、Journey 
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 0b6c3ca7-3061-4d89-a6f8-f4c6a681706a
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '272'
 ht-degree: 1%
-
 ---
-
 
 # 概述
 
-## 您将学习的内容
+## 您学到的内容
 
 1. **Adobe Journey Optimizer架构和功能：**
-   - 了解如何在Adobe Experience Platform上原生构建AJO以及它在个性化栈栈中的位置
+   - 了解AJO如何原生构建于Adobe Experience Platform之上以及它在个性化工具中的位置
    - 探索支持编排的实时客户历程的核心功能
 1. **数据存储：**
    - 区分AJO中的实时客户配置文件和关系存储
@@ -51,8 +49,13 @@ ht-degree: 1%
 - 接触CDP、营销自动化或其他市场技术平台
 
 
+## 先决条件
+
+如果您按照自己的进度使用此引导营，则有两个实验室需要提前安排外部帐户：**配置电子邮件渠道**&#x200B;需要委派给Adobe的子域，**旗舰电话发布**&#x200B;需要短信凭据。 有关详细信息，请参阅[设置](setup.md)。
+
+
 ## 简介
 
-此视频介绍Adobe Journey Optimizer，说明大规模个性化意味着什么、为什么它难以实现，以及基于Adobe Experience Platform构建的AJO如何解决这些挑战。
+此视频介绍Adobe Journey Optimizer，说明大规模个性化的含义、为何难以实现以及AJO如何解决这些挑战。 AJO原生构建于Adobe Experience Platform之上。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3486223/)
