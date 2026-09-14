@@ -108,4 +108,4 @@ ht-degree: 0%
 
 您现在已了解如何测试创建的营销活动以了解流量和行为。 在测试流执行期间，可以很好地理解为电子邮件渠道配置使用不同设置的细微差别。
 
-如果您有兴趣，请在[此处](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)阅读有关营销活动测试模式的更多信息。
+如果您有兴趣，请在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)阅读有关营销活动测试模式的更多信息。
