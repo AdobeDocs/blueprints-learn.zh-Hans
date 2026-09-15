@@ -4,15 +4,17 @@ description: 了解如何通过API将订单事件流式传输到中心、构建�
 doc-type: article
 solution: Experience Platform
 exl-id: d5de39d7-7340-487a-86fa-504344daeab7
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '696'
 ht-degree: 0%
-
 ---
 
-
 # 将订单事件发送到中心
+
+>[!IMPORTANT]
+>
+>在启动本实验之前，请先完成[Postman设置](../../postman-setup/postman-installation.md)。 您还需要访问[webhook.site](https://webhook.site/)以及在[客户获取用例](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md)中创建的&#x200B;**流DEP Webhook**&#x200B;目标。
 
 ## 流式传输到中心与Edge
 
@@ -92,7 +94,7 @@ ht-degree: 0%
 1. 导航到左边栏中的&#x200B;**源**，然后单击顶部导航中的&#x200B;**帐户**
 1. 搜索&#x200B;**dep： HTTP API \[raw]**，突出显示该行并复制&#x200B;**流端点**&#x200B;的值并将其保存到以后可以引用的位置
 
-帐户并复制其流端点&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep： HTTP API \[raw]&quot;)
+帐户并复制其流端点](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep： HTTP API \[raw]&quot;)
 
 ## 查找数据流ID
 

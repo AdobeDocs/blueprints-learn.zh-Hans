@@ -4,15 +4,17 @@ description: 了解如何使用Postman将Web事件直接发送到中心，并验
 doc-type: article
 solution: Experience Platform
 exl-id: a8343499-b4d5-4540-8fe1-7497bc20e437
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '512'
 ht-degree: 0%
-
 ---
 
-
 # 将Web事件发送到中心
+
+>[!IMPORTANT]
+>
+>在启动本实验之前，请先完成[Postman设置](../../postman-setup/postman-installation.md)。 您还需要访问相关[外部目标激活工作流](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md)的[webhook.site](https://webhook.site/)。
 
 ## 打开Postman
 
@@ -39,7 +41,7 @@ ht-degree: 0%
 1. 导航到左边栏中的&#x200B;**源**，然后单击顶部导航中的&#x200B;**帐户**
 1. 搜索&#x200B;**dep： HTTP API \[raw]**，突出显示该行并复制&#x200B;**流端点**&#x200B;的值并将其保存到以后可以引用的位置
 
-帐户并复制其流端点&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep： HTTP API \[raw]&quot;)
+帐户并复制其流端点](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep： HTTP API \[raw]&quot;)
 
 ## 查找Web数据流ID
 
@@ -85,9 +87,8 @@ ht-degree: 0%
    1. 任何活动Edge（15分钟内）
       1. 请记住：当流数据传入时，所有通过Edge评估保存的受众也会在中心进行评估
    2. dep：任何事件流（一小时内）
-1. 如果没有新区段，您可能无法在webhook中看到任何内容。
-1. 事件转发不会发送任何内容。
-   1. 为什么？ 此事件转到中心而非Edge，因此，该事件不会显示为要发送的事件“转发”的任何内容，也不会显示在Assurance中。
+1. 此中心事件不会发送到您的webhook。
+   1. 事件转发会处理发送到Edge的事件，而不是直接发送到中心的事件。 使用[外部目标激活工作流](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md)捕获webhook.site上的事件。
 1. 在至少30分钟后，您甚至可以使用以下各项检查数据集：
    1. 将下面的表名称更改为沙盒中的表名称。  要查找该数据集，请转到您的数据集列表并在“`dest`”上筛选，打开该数据集并在右边栏上复制表名称。
 

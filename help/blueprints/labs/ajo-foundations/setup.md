@@ -5,9 +5,9 @@ doc-type: article
 
 solution: Experience Platform
 exl-id: 7c1a9e3d-5b8f-4a2e-9c6d-3f7b0e4a8c2d
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '357'
 ht-degree: 1%
 ---
 
@@ -34,13 +34,17 @@ ht-degree: 1%
 - [导入环境文件](postman-setup/import-environment-file.md)
 - [导入API收藏集](postman-setup/import-api-collection.md)
 
+## 按需准备工作
+
+在开始实验之前，请完成上面的Postman配置。 自学型学习者还需要一个委派的子域用于依赖电子邮件的实验室，并需要短信凭据用于旗舰版手机启动实验室。
+
 ## 渠道先决条件
 
 在本次训练营的后面两个实验室取决于外部帐户，只有自控进度的学习者才需要安排 — 如果您参加实时培训课程或活动，则这些已为您配置。
 
 ### 已委派的子域
 
-[配置电子邮件渠道](data-stores/configure-email-channels/overview.md)实验室 — 以及依赖它的所有内容（[正在运行的消息投放](orchestrated-campaigns/message-delivery-in-action/overview.md)、[购买后兴奋](journeys/post-purchase-excitement/overview.md)和[AJO Brands](content-authoring-with-ai/overview.md)） — 需要委派给Adobe的子域来发送电子邮件。 如果您还没有域，请向任何域注册机构（例如，Namecheap）注册一个域。 然后，要将其子域（例如`email.yourdomain.com`）委派给Adobe，请按照Adobe的[子域委派说明](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)操作。
+[配置电子邮件渠道](data-stores/configure-email-channels/overview.md)实验室 — 以及依赖它的所有内容（[正在运行的消息投放](orchestrated-campaigns/message-delivery-in-action/overview.md)、[购买后兴奋](journeys/post-purchase-excitement/overview.md)和[AJO Brands](content-authoring-with-ai/overview.md)） — 需要委派给Adobe的子域来发送电子邮件。 如果您还没有域，请向任何域注册机构（例如，Namecheap）注册一个域。 然后，要将其子域（例如`email.yourdomain.com`）委派给Adobe，请按照Adobe的[子域委派说明](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)操作。
 
 >[!NOTE]
 >
