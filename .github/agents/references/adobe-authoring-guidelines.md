@@ -13,7 +13,7 @@ ht-degree: 0%
 Source： https://experienceleague.adobe.com/en/docs/authoring-guide/using/home
 抓取：2026-03-15
 
----
+&#x200B;---
 
 ## &#x200B;1. 元数据/前置内容
 
@@ -52,7 +52,7 @@ Source： https://experienceleague.adobe.com/en/docs/authoring-guide/using/home
 ### 已弃用的字段
 seo-title， seo-description，受众，难度， uuid（来自迁移时代）
 
----
+&#x200B;---
 
 ## &#x200B;2. MARKDOWN语法（ADOBE风格）
 
@@ -118,10 +118,13 @@ seo-title， seo-description，受众，难度， uuid（来自迁移时代）
 
   ```
   ```javascript
+
   code here
+
   ```
 
   ```
+
   
   
 - 选项： `{line-numbers="true"}`、`{start-line="7"}`、`{highlight="11-13, 16"}`
@@ -138,7 +141,7 @@ seo-title， seo-description，受众，难度， uuid（来自迁移时代）
 - Markdown表布局选项：在带有空白行的表后面添加`{style="table-layout:auto"}`
 - 由于水平滚动条可见性问题，避免使用非常宽/高的表格
 
----
+&#x200B;---
 
 ## &#x200B;3. 特殊的ADOBE语法扩展
 
@@ -172,6 +175,7 @@ seo-title， seo-description，受众，难度， uuid（来自迁移时代）
 >[!ERROR]
 >[!SUCCESS]
 ```
+
 - 严重： `>`和`[!`之间没有空格 — 使用`>[!NOTE]`，而不是`> [!NOTE]`
 - 在`>[!NOTE]`和正文文本行之间添加空白行
 
@@ -196,6 +200,7 @@ Content here
 Content inside
 +++
 ```
+
 注意：不支持嵌套的可折叠部分。
 
 ### 阴影框
@@ -211,6 +216,7 @@ Content here
 ```
 >[!VIDEO](https://video.tv.adobe.com/v/ID/?quality=12&learn=on)
 ```
+
 为成绩单添加`{transcript=true}`。
 
 ### 更多此类内容
@@ -236,6 +242,7 @@ Content here
 ```
 [!BADGE Label]{type=Informative url="https://example.com" tooltip="text"}
 ```
+
 类型： `Informative` （蓝色）、`Positive` （绿色）、`Negative` （红色）、`Neutral` （灰色）、`Caution` （黄色）
 
 ### 文本突出显示（预览）
@@ -269,7 +276,7 @@ Content here
 - 水平线条
 - 嵌套的可折叠部分
 
----
+&#x200B;---
 
 ## &#x200B;4. 文件命名和文件夹结构
 
@@ -299,7 +306,7 @@ Content here
 - 目录元数据： `user-guide-description`，可选`breadcrumb-title`
 - `mini-toc-levels`：控制右侧导航标题显示（1-6，默认2）
 
----
+&#x200B;---
 
 ## &#x200B;5. 内容质量和编辑标准
 
@@ -345,7 +352,7 @@ Content here
 - 仅适用于`title`元数据字段的标题大小写
 - 专有名词始终大写
 
----
+&#x200B;---
 
 ## &#x200B;6. SEO最佳实践
 
@@ -362,7 +369,7 @@ Content here
 - 使用AnswerThePublic、Google Trends等工具研究关键词
 - 内容应显示E-E-A-T（经验、专业知识、权威性、可信度）
 
----
+&#x200B;---
 
 ## &#x200B;7. 本地化
 
@@ -382,7 +389,7 @@ Content here
 - `[!DNL ProductName]` — 阻止翻译产品/品牌名称
 - “不本地化”文件夹中的图像将从本地化中排除
 
----
+&#x200B;---
 
 ## &#x200B;8. 内容类型
 
@@ -393,7 +400,7 @@ Content here
 - **知识库文章**：简短、临时相关的故障排除内容
 - **登陆页面/主页**：单独管理(SCCM)
 
----
+&#x200B;---
 
 ## &#x200B;9. 要避免的常见验证错误
 
