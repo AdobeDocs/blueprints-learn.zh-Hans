@@ -44,7 +44,7 @@ ht-degree: 1%
 
 ### 已委派的子域
 
-[配置电子邮件渠道](data-stores/configure-email-channels/overview.md)实验室 — 以及依赖它的所有内容（[正在运行的消息投放](orchestrated-campaigns/message-delivery-in-action/overview.md)、[购买后兴奋](journeys/post-purchase-excitement/overview.md)和[AJO Brands](content-authoring-with-ai/overview.md)） — 需要委派给Adobe的子域来发送电子邮件。 如果您还没有域，请向任何域注册机构（例如，Namecheap）注册一个域。 然后，要将其子域（例如`email.yourdomain.com`）委派给Adobe，请按照Adobe的[子域委派说明](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)操作。
+[配置电子邮件渠道](data-stores/configure-email-channels/overview.md)实验室 — 以及依赖它的所有内容（[正在运行的消息投放](orchestrated-campaigns/message-delivery-in-action/overview.md)、[购买后兴奋](journeys/post-purchase-excitement/overview.md)和[AJO Brands](content-authoring-with-ai/overview.md)） — 需要委派给Adobe的子域来发送电子邮件。 如果您还没有域，请向任何域注册机构（例如，Namecheap）注册一个域。 然后，要将其子域（例如`email.yourdomain.com`）委派给Adobe，请按照Adobe的[子域委派说明](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)操作。
 
 >[!NOTE]
 >
