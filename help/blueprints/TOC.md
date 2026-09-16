@@ -6,9 +6,9 @@ product: Adobe Experience Platform
 mini-toc-levels: 3
 role: Developer, User
 nudge: orange
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 7f0b624616480cf563142c08eb0598d1dd55d551
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1174'
 ht-degree: 15%
 ---
 
@@ -111,6 +111,7 @@ ht-degree: 15%
   + B2B激活和营销{#b2b-activation}
     + [概述](/help/blueprints/b2b/overview.md)
     + [B2B激活](/help/blueprints/b2b/b2bactivation.md)
+    + [B2B Audience和Profile Activation](/help/blueprints/b2b/b2b-audience-profile-activation.md)
     + [B2B帐户激活](/help/blueprints/b2b/b2b-account-activation.md)
     + [购买基于群组的营销和历程管理](/help/blueprints/b2b/b2b-buying-group-journeys.md)
     + [使用Marketo数据的B2B历程](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
@@ -143,8 +144,8 @@ ht-degree: 15%
       + [Journey Optimizer 与 Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
     + 已弃用的Blueprint{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-        + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/zh-hans/docs/campaign-standard){target="_blank"}
-        + [Real-Time CDP与Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/zh-hans/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+        + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+        + [Real-Time CDP与Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
         + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 
