@@ -54,10 +54,10 @@ ht-degree: 5%
 
 在设计B2B受众和配置文件时，请参阅以下护栏和资格文档：
 
-- [Real-Time Customer Data Platform B2B edition的护栏](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
-- [Real-Time CDP B2B edition的分段用例](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b)
-- [个人资料和分段护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [流式分段资格标准更新](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/eligibility-criteria-update)
+- [Real-Time Customer Data Platform B2B edition的护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [Real-Time CDP B2B edition的分段用例](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/segmentation/b2b)
+- [个人资料和分段护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
+- [流式分段资格标准更新](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/eligibility-criteria-update)
 
 ### 多实例和IMS组织支持
 
@@ -76,33 +76,33 @@ ht-degree: 5%
 
 #### Experience Platform配置文件和分段护栏
 
-请在此处查看Experience Platform配置文件和分段护栏： [配置文件和分段护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)。
+请在此处查看Experience Platform配置文件和分段护栏： [配置文件和分段护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)。
 
 包含B2B实体（如帐户、潜在客户或商机）的区段依赖于多实体关系，并在&#x200B;**批次**&#x200B;中进行评估。 相反，对于仅限于不包含B2B实体的人员和事件的受众，支持&#x200B;**流式分段**。 对于近实时B2B激活场景，请考虑使用批量评估的B2B受众作为支持的流受众或边缘受众的输入。
 
 #### Experience Platform - Marketo Engage Source Connector
 
-- 请参阅文档[此处](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)。
+- 请参阅文档[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)。
 
 #### Experience Platform - Marketo目标连接器
 
-- 请参阅文档[此处](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/adobe/marketo-engage-connection)。
+- 请参阅文档[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/adobe/marketo-engage-connection)。
 
 #### 目标护栏
 
-- 请参阅目标文档，了解有关每个目标的特定指导： [目标护栏](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)。
+- 请参阅目标文档，了解有关每个目标的特定指导： [目标护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/guardrails)。
 - 对于广告目标，如Facebook、Google Customer Match &amp; DV360、Microsoft Bing、The Trade Desk、Amazon Ads、Bombora、Demandbase等，请确保您在架构和身份策略（电子邮件、移动广告ID、地址字段、帐户ID）中选择的标识符与这些目标的映射功能和支持的身份保持一致。
 
 ## 实施步骤
 
-有关如何实施和配置Real-Time Customer Data Platform的B2B edition的指导，请参阅Real-Time CDP B2B edition文档： [Real-Time Customer Data Platform的B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)。
+有关如何实施和配置Real-Time Customer Data Platform的B2B edition的指导，请参阅Real-Time CDP B2B edition文档： [Real-Time Customer Data Platform的B2B edition](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)。
 
 两种实施模式是通用的：
 
 - 将Marketo Engage（及其连接的CRM）中的B2B数据和配置文件摄取到RTCDP B2B edition。
 - 使用相关的源连接器将B2B数据直接从CRM或其他B2B系统摄取到RTCDP B2B edition中。
 
-在RTCDP B2B架构升级过程中，现已为B2B实体弃用以前使用的一些模式。 有关更详细的详细信息，请参阅详细文档[此处](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)。
+在RTCDP B2B架构升级过程中，现已为B2B实体弃用以前使用的一些模式。 有关更详细的详细信息，请参阅详细文档[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)。
 
 ## 实施注意事项
 
@@ -116,13 +116,13 @@ ht-degree: 5%
 
 ## 相关文档
 
-- [Real-Time Customer Data Platform的B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
-- [Real-Time Customer Data Platform B2B edition快速入门](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)
-- [Real-Time Customer Data Platform B2B edition的护栏](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
-- [Real-Time Customer Data Platform B2B edition中的架构](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [架构升级到Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
-- [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform)
-- [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/home)
-- [Adobe Experience Platform - Marketo Source Connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-- [Adobe Experience Platform - Marketo目标连接器](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-platform-segment-to-a-marketo-static-list)
-- [目标护栏](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [Real-Time Customer Data Platform的B2B edition](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
+- [Real-Time Customer Data Platform B2B edition快速入门](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)
+- [Real-Time Customer Data Platform B2B edition的护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [Real-Time Customer Data Platform B2B edition中的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/schemas/b2b)
+- [架构升级到Real-Time CDP B2B edition](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
+- [Adobe Experience Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform)
+- [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/home)
+- [Adobe Experience Platform - Marketo Source Connector](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Adobe Experience Platform - Marketo目标连接器](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-platform-segment-to-a-marketo-static-list)
+- [目标护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/guardrails)
