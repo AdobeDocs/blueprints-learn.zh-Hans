@@ -1,16 +1,14 @@
 ---
-title: 用例#1 — 客户获取
+title: 用例 #1 - Acquisition
 description: 定义一个客户获取用例，以针对尚未订购或拥有设备的iPhone 14页面访客，并规划受众构建方法。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: a85b1eb1-88f4-41b2-acce-2e34dbe6aff8
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 
 # 用例#1 — 客户获取
 
@@ -25,6 +23,10 @@ ht-degree: 0%
 **用例定义**
 
 激活所有访问了iPhone 14产品页面，但iPhone 14订单不存在或没有活动的iPhone 14的用户档案。
+
+>[!IMPORTANT]
+>
+>在启动本实验之前，请先完成[Postman设置](../../setup.md)。 您还需要访问[webhook.site](https://webhook.site/)以捕获激活的受众数据。
 
 
 

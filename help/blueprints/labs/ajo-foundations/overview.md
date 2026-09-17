@@ -4,9 +4,9 @@ description: 通过动手实验探索Adobe Journey Optimizer的架构、Journey 
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 0b6c3ca7-3061-4d89-a6f8-f4c6a681706a
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '274'
 ht-degree: 1%
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 ## 先决条件
 
-如果您按照自己的进度使用此引导营，则有两个实验室需要提前安排外部帐户：**配置电子邮件渠道**&#x200B;需要委派给Adobe的子域，**旗舰电话发布**&#x200B;需要短信凭据。 有关详细信息，请参阅[设置](setup.md)。
+如果您正在按照自己的进度完成此训练营，请先完成[Postman设置](setup.md#postman-setup)，然后再开始实验。 **配置电子邮件渠道**&#x200B;及其依赖的Labs需要委派给Adobe的子域，**旗舰版电话发布**&#x200B;需要SMS凭据。 有关详细信息，请参阅[设置](setup.md)。
 
 
 ## 简介

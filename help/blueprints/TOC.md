@@ -6,9 +6,9 @@ product: Adobe Experience Platform
 mini-toc-levels: 3
 role: Developer, User
 nudge: orange
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 7f0b624616480cf563142c08eb0598d1dd55d551
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1174'
 ht-degree: 15%
 ---
 
@@ -111,6 +111,7 @@ ht-degree: 15%
   + B2B激活和营销{#b2b-activation}
     + [概述](/help/blueprints/b2b/overview.md)
     + [B2B激活](/help/blueprints/b2b/b2bactivation.md)
+    + [B2B Audience和Profile Activation](/help/blueprints/b2b/b2b-audience-profile-activation.md)
     + [B2B帐户激活](/help/blueprints/b2b/b2b-account-activation.md)
     + [购买基于群组的营销和历程管理](/help/blueprints/b2b/b2b-buying-group-journeys.md)
     + [使用Marketo数据的B2B历程](/help/blueprints/b2b/b2b-journeys-with-marketo.md)

@@ -5,9 +5,9 @@ doc-type: article
 
 solution: Experience Platform
 exl-id: 7c1a9e3d-5b8f-4a2e-9c6d-3f7b0e4a8c2d
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '357'
 ht-degree: 1%
 ---
 
@@ -33,6 +33,10 @@ ht-degree: 1%
 - [Postman安装](postman-setup/postman-installation.md)
 - [导入环境文件](postman-setup/import-environment-file.md)
 - [导入API收藏集](postman-setup/import-api-collection.md)
+
+## 按需准备工作
+
+在开始实验之前，请完成上面的Postman配置。 自学型学习者还需要一个委派的子域用于依赖电子邮件的实验室，并需要短信凭据用于旗舰版手机启动实验室。
 
 ## 渠道先决条件
 
