@@ -3,14 +3,12 @@ title: 主要业务目标
 description: 了解Adobe Experience Platform用例模式可帮助组织实现的关键业务目标。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: ebebdf85-3ca0-4d8d-a14e-3808dfe43382
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 0%
-
 ---
-
-
 # 主要业务目标
 
 关键业务目标定义了组织寻求通过其数字体验计划实现的战略成果。 每个目标都映射到一个或多个[用例模式](/help/blueprints/use-case-patterns/overview.md)，这些用例模式描述如何实施Adobe Experience Platform和应用程序以交付这些结果。

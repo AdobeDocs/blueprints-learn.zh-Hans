@@ -2,14 +2,12 @@
 title: 恢复放弃的购物车和历程
 description: 了解如何通过及时的个性化跟进，重新吸引在购买、申请或注册流程中放弃的用户。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 4e0f84b4-1b2a-4728-a551-ef1b2bde99ba
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 2%
-
+ht-degree: 7%
 ---
-
-
 # 恢复放弃的购物车和历程
 
 通过及时、个性化的跟进，重新吸引在购买、申请或注册流程中放弃的用户。 该目标专注于通过实时检测遗弃事件并传递上下文消息解决障碍并鼓励完成，从而捕捉收入损失。

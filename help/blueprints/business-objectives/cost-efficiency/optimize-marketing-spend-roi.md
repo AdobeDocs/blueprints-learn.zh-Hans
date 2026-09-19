@@ -2,14 +2,12 @@
 title: 优化营销支出和ROI
 description: 了解如何通过更好的定位、归因、受众抑制和预算分配提高营销投资回报。
 solution: Experience Platform, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: c744898b-bcb1-4338-ab97-e2fe6d4883b8
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 2%
-
 ---
-
-
 # 优化营销支出和ROI
 
 通过更好的定位、归因、受众抑制和预算分配提高营销投资回报。 此目标涉及营销支出优化的整个周期，从受众精准度到性能测量以及持续重新分配到最高性能的渠道和策略。

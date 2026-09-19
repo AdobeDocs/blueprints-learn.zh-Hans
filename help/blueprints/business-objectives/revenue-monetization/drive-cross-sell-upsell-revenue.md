@@ -2,14 +2,12 @@
 title: 提高交叉销售和追加销售收入
 description: 了解如何根据行为和购买历史记录向现有客户推广补充性和优质产品或服务。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 35e136e8-8b66-4f4c-8e77-7466553fc4b7
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 3%
-
+ht-degree: 10%
 ---
-
-
 # 提高交叉销售和追加销售收入
 
 根据行为和购买历史，向现有客户推广补充性和优质产品或服务。 此目标侧重于通过个性化决策和多渠道参与，在正确的时间提供正确的产品推荐和优惠，从而提高客户价值。
