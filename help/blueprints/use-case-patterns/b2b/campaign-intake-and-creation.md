@@ -1,13 +1,11 @@
 ---
 title: 接收和创建 Blueprint
-description: 接收和创建 - Marketo Engage 和 Workfront 集成 Blueprint
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+description: 引入和创建 — Marketo Engage与Workfront集成
+source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1319'
 ht-degree: 86%
-
 ---
-
 # 接收和创建 Blueprint {#intake-and-create}
 
 传送给营销运营团队以发起新营销活动的营销请求数量可能会将一个高效运转的团队转变为重复性任务的旋转门，导致倦怠和创新停滞。
@@ -19,12 +17,6 @@ ht-degree: 86%
 要实现此集成，您需要使用 Workfront Fusion，即一个工作自动化层，允许您自动执行 Workfront 与其他系统之间的工作流。
 
 以下工作流展示了营销活动经理使用 Workfront 请求表单发起的网络研讨会请求。 然后，请求中提交的详细信息会触发在 Marketo Engage 中为网络研讨会创建程序和电子邮件。 此外，系统还会从请求表单中获取详细信息以填充电子邮件的内容。
-
-![接收并创建Blueprint](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-1.png){zoomable="yes"}
-
->[!TIP]
->
->要详细了解 Workfront 中用于组织营销活动工作的不同类型的对象，以及它如何映射到 Marketo Engage 计划，请查看 [Marketo 和 Workfront 概述](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}。
 
 ## 准备营销活动开发流程以实现自动化 {#prepare-your-campaign-development-process-for-automation}
 
@@ -100,8 +92,6 @@ ht-degree: 86%
 
 通过 Marketo Engage，可使用令牌向营销活动资产中填充内容。 例如，在从您的卓越中心克隆电子邮件模板后，Workfront Fusion 可以从 Workfront 中的营销活动请求中获取详细信息，并将其传递到 Marketo Engage 计划中的“我的令牌”。 然后，可以直接将令牌值继承到电子邮件中，以构建电子邮件。
 
-![使用令牌填充内容图](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-2.png){zoomable="yes"}
-
 ### 从 AEM Assets 填充图像 {#populate-images-from-aem-assets}
 
 您可以利用 Marketo Engage 令牌和指向 AEM Assets 中资产的链接，进一步自动化电子邮件和登录页面的开发。 营销活动请求者可以在请求过程中提交来自 AEM Assets 的已发布图像链接。 然后，Workfront Fusion 可以获取这些链接，并使用 Marketo Engage 令牌将其嵌入到电子邮件的 HTML 中。
@@ -148,12 +138,8 @@ ht-degree: 86%
 
 以下示例介绍了如何使用预构建的[Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=zh-Hans){target="_blank"}和[Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=zh-Hans){target="_blank"}模块在Fusion中组合工作流逻辑，这些模块使您能够更快地实现自动化。
 
-![接收和创建自动化流](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-3.png)
-
 ## 资源 {#resources}
 
 * [Adobe Marketo Engage模块](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=zh-Hans){target="_blank"}
 
 * [Adobe Workfront模块](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=zh-Hans){target="_blank"}
-
-* [Marketo和Workfront概述](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}

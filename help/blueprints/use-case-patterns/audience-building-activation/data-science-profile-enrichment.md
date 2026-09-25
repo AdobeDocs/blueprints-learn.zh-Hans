@@ -1,15 +1,13 @@
 ---
 title: 用户档案扩充的自定义数据科学 Blueprint
-description: 了解如何将基于数据科学的见解引入 [!DNL Experience Platform] 以丰富实时客户档案。
+description: 了解如何将基于数据科学的见解引入[!DNL Experience Platform]以丰富实时客户档案。
 solution: Data Collection
 kt: 7203
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 64%
-
+source-wordcount: '421'
+ht-degree: 63%
 ---
-
 # 用于丰富个人资料的自定义数据科学Blueprint
 
 用于丰富个人资料的自定义数据科学Blueprint说明了如何使用数据来训练、部署和评分模型，以便通过数据科学和机器学习工具提供对[!DNL Experience Platform]和[!DNL Real-Time Customer Data Platform]的机器学习见解。
@@ -22,13 +20,9 @@ ht-degree: 64%
 * 利用模型驱动的洞察和属性来丰富[!UICONTROL 实时客户档案]，以实现更精细的个性化并优化历程。
 * 对模型进行训练和评分，以确定客户洞察，如客户存留期值、转化或参与倾向、产品和内容关联，以及参与分数。
 
-## 架构
-
-<img src="/help/blueprints/audience-activation/assets/data_science.svg" alt="用户档案扩充的自定义数据科学 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a" />
-
 ## 护栏
 
-* 有关将数据科学结果摄取到[!DNL Experience Platform]和实时客户个人资料的详细护栏和端到端延迟，请参阅[部署护栏文档](/help/blueprints/experience-platform/guardrails.md)中引用的数据摄取护栏和延迟图。
+* 有关将数据科学结果摄取到[!DNL Experience Platform]和实时客户个人资料的详细护栏和端到端延迟，请参阅[部署护栏文档](/help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md)中引用的数据摄取护栏和延迟图。
 
 ## 实施注意事项
 

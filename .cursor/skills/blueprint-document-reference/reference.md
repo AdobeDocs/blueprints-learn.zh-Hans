@@ -1,9 +1,8 @@
 ---
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 1%
-
+source-wordcount: '630'
+ht-degree: 4%
 ---
 # Blueprint文档引用 — 详细指南
 
@@ -15,7 +14,7 @@ ht-degree: 1%
 | **方案Blueprint** | 单一用例：架构、步骤、护栏 | e.g. `real-time-lookup.md`, `journey-optimizer-journeys.md` |
 | **目录** | 导航；请勿用作内容模板 | `help/blueprints/TOC.md` |
 
-&#x200B;---
+---
 
 ## 完整部分引用
 
@@ -46,7 +45,7 @@ ht-degree: 1%
 - **Blueprint方案**&#x200B;或&#x200B;**集成模式**：包含方案名称、简短描述和方案Blueprint链接的表。
 - **先决条件**，**护栏**，**相关文档**：与上述内容相同；请保持简洁。
 
-&#x200B;---
+---
 
 ## Adobe Experience League — 代理指导
 
@@ -65,7 +64,7 @@ ht-degree: 1%
 | 内容类型 | 基本URL | 示例路径 |
 |--------------|----------|--------------|
 | Experience Platform文档 | `https://experienceleague.adobe.com/docs/experience-platform/` | `.../profile/home.html`, `.../destinations/catalog/...` |
-| Experience League (en) | `https://experienceleague.adobe.com/zh-hans/docs/` | 与`/en/`的上述结构相同。 |
+| Experience League (en) | `https://experienceleague.adobe.com/en/docs/` | 与`/en/`的上述结构相同。 |
 | Journey Optimizer | `https://experienceleague.adobe.com/docs/journey-optimizer/` | `.../using/get-started/guardrails.html` |
 | Web SDK | `https://experienceleague.adobe.com/docs/experience-platform/web-sdk/` | `.../home.html`, `.../commands/command-responses.html` |
 | Edge Network服务器API | `https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/` | `.../overview.html`, `.../guardrails.html` |
@@ -77,7 +76,7 @@ ht-degree: 1%
 
 ### Markdown中的链接格式
 
-- **描述性链接文本**： `[Create schemas](https://experienceleague.adobe.com/zh-hans...)`不是“单击此处”。
+- **描述性链接文本**： `[Create schemas](https://experienceleague.adobe.com/...)`不是“单击此处”。
 - **文本中的产品名称**：针对每个Adobe样式使用`[!DNL Product Name]`（例如`[!DNL Real-time Customer Profile]`）。
 - **外部链接**：仅在模板或管道需要时才添加`{target="_blank"}`（检查存储库中的现有Blueprint）。
 
@@ -98,19 +97,19 @@ ht-degree: 1%
 ## Related documentation
 
 ### Destination configurations
-* [Custom Personalization Connection](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
-* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
+* [Custom Personalization Connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
+* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
 
 ### SDK documentation
-* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=zh-Hans)
-* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)
+* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)
+* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
 ### Profile and segmentation
-* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)
-* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
+* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 ```
 
-&#x200B;---
+---
 
 ## 存储库和目录
 
@@ -118,13 +117,13 @@ ht-degree: 1%
 - **Assets**：与Blueprint共同定位（例如`assets/`、`images/`）或在共享文件夹中（例如`experience-platform/assets/`）。
 - **目录**：添加、重命名或移动Blueprint页面时编辑`help/blueprints/TOC.md`。 保留frontmatter (`user-guide-title`， `breadcrumb-title`， `user-guide-description`， `product`， `mini-toc-levels`， `role`)和`+`层次结构。
 
-&#x200B;---
+---
 
 ## 此存储库中的示例引用
 
-- **方案Blueprint（长格式）**： `help/blueprints/audience-activation/real-time-lookup.md`
-- **带选项卡和表的概述/中心**： `help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
-- **护栏聚焦**： `help/blueprints/experience-platform/guardrails.md`
+- **方案Blueprint（长格式）**： `help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md`
+- **带选项卡和表的概述/中心**： `help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
+- **护栏聚焦**： `help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md`
 - **导航**： `help/blueprints/TOC.md`，`help/blueprints/overview.md`
 
 将它们用作章节顺序、前沿内容、图表放置和Experience League链接使用的模式。

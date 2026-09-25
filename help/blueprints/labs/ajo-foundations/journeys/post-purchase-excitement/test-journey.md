@@ -4,13 +4,11 @@ description: 使用历程测试模式模拟器来触发Order Shipped事件，并
 doc-type: article
 solution: Experience Platform
 exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
-
 ---
-
 
 # 测试历程
 
@@ -105,16 +103,16 @@ ht-degree: 0%
 
 
 
-&#x200B;8. **关闭**&#x200B;浏览器&#x200B;**选项卡**
-&#x200B;9. 右上角的&#x200B;**关闭测试模式**
+1. **关闭**&#x200B;浏览器&#x200B;**选项卡**
+1. 右上角的&#x200B;**关闭测试模式**
 
    右上角的![关闭测试模式按钮](assets/test-journey-close-test-mode.png)
 
-&#x200B;10. 单击右上方的&#x200B;**发布**&#x200B;历程
+1. 单击右上方的&#x200B;**发布**&#x200B;历程
 
-右上角的历程的![发布按钮](assets/test-journey-publish-journey.png)
+   右上角的历程的![发布按钮](assets/test-journey-publish-journey.png)
 
-&#x200B;11. 单击左上角的\&lt; — 箭头&#x200B;**关闭**&#x200B;**历程**
+1. 单击左上角的\&lt; — 箭头&#x200B;**关闭****历程**
 
 ![左上角的向后箭头以关闭历程](assets/test-journey-close-journey-back-arrow.png)
 

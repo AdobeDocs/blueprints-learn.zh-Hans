@@ -1,9 +1,8 @@
 ---
-source-git-commit: 7511cc0e5c099d5d3ee1275a374cd9ffdc972335
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 0%
-
+source-wordcount: '690'
+ht-degree: 1%
 ---
 # Blueprint评估规则
 
@@ -21,7 +20,7 @@ ht-degree: 0%
 规范形状： `.claude/skills/use-case-pattern-builder/references/pattern-template.md`。
 - **架构图** — 表示系统功能的可视化图表
 集成和数据流。 最简单的叙述，图表是人造物品。
-规范示例： [platform-data-flow.md](../help/blueprints/experience-platform/platform-data-flow.md)。
+规范示例： [platform-data-flow.md](../help/blueprints/architecture-diagrams/architecture-overviews/platform-data-flow.md)。
 
 ## 得分
 
@@ -42,11 +41,11 @@ ht-degree: 0%
 
 ### 图表信号（每个= +1图表）
 
-&#x200B;6. **架构/数据流映像存在** — `.svg`、`.png`或`.jpg`显示系统拓扑，
+6. **架构/数据流映像存在** — `.svg`、`.png`或`.jpg`显示系统拓扑，
 数据流或集成箭头。
-&#x200B;7. **系统到系统集成拓扑、部署形状或护栏** — 说明如何
+7. **系统到系统集成拓扑、部署形状或护栏** — 说明如何
 组件连接，数据存留的地方、部署模型（边缘与中心）或容量限制。
-&#x200B;8. **受众是解决方案架构师** — 框架使用部署、SDK、edge、hub或类似项
+8. **受众是解决方案架构师** — 框架使用部署、SDK、edge、hub或类似项
 面向架构师的术语而不是面向营销人员的框架(营销活动、历程、
 受众)。
 
@@ -58,7 +57,7 @@ ht-degree: 0%
 
 1. **文件名为`overview.md`**，→推荐= `Navigation`。 被排除在迁移之外；
 页面是TOC样式的登陆页面，在子文件结算后将对其进行修订。
-2. **`help/blueprints/use-case-patterns/`**&#x200B;中已存在对等模式→
+2. **`help/blueprints/use-case-patterns/`**中已存在对等模式→
 推荐= `Duplicate`。 迁移操作是将Blueprint简化为纯粹的
 架构图并向现有模式添加“查看用例模式”交叉链接。
 在`duplicate_of`列中记录现有的模式路径。
@@ -89,7 +88,7 @@ ht-degree: 0%
      `audience-building-activation`, `personalization`, `campaign-management-orchestration`,
      `analysis`、`conversational-experience`或标记为`(new) <name>`的新类别。
    - `proposed_pattern_title` — 遵循现有模式的面向操作的简短标题
-命名样式。
+     命名样式。
 6. 对于`Diagram`和`Split`推荐，建议：
    - `proposed_diagram_title` — 通常将现有标题修剪为业务框架。
 7. 通过将Blueprint的作用域与现有模式目录进行比较，捕获发现的任何重复项

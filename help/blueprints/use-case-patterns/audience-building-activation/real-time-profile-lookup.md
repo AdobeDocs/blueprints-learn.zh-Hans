@@ -3,13 +3,11 @@ title: 支持和销售方案的实时配置文件访问
 description: '[!UICONTROL 实时用户档案]查询可提供座席协助支持和销售的背景信息。'
 solution: Data Collection
 kt: 7195
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 66%
-
+source-wordcount: '484'
+ht-degree: 65%
 ---
-
 # 支持和销售方案的实时配置文件访问
 
 支持和销售方案的实时配置文件访问蓝图显示了外部应用程序如何访问Adobe Experience Platform的[!UICONTROL 实时客户配置文件]。
@@ -20,15 +18,11 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->中心上的配置文件查找不适用于高吞吐量、低延迟的用例，如Web/移动入站个性化。 中心上的配置文件查找适用于延迟较低的情形，如代理辅助支持或销售互动。 对于低延迟、高吞吐量场景（如Web/移动个性化或实时优惠决策），应利用Edge用户档案。 Edge配置文件允许通过Real-time Customer Data Platform的[自定义Personalization连接](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/custom-personalization)进行实时访问。
+>中心上的配置文件查找不适用于高吞吐量、低延迟的用例，如Web/移动入站个性化。 中心上的配置文件查找适用于延迟较低的情形，如代理辅助支持或销售互动。 对于低延迟、高吞吐量场景（如Web/移动个性化或实时优惠决策），应利用Edge用户档案。 Edge配置文件允许通过Real-time Customer Data Platform的[自定义Personalization连接](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)进行实时访问。
 
 ## 用例
 
 * 为座席支持的交互（如支持和销售体验）提供更深入的消费者背景信息。 通过对 Experience Platform 用户档案的查找，座席可以接收更多有关消费者的背景信息，例如最近购买、活动交互、倾向、受众成员，以及存储在实时客户档案中的其他属性和洞察。
-
-## 架构
-
-<img src="/help/blueprints/audience-activation/assets/customer_activity_hub.svg" alt="客户活动中心 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## 护栏
 

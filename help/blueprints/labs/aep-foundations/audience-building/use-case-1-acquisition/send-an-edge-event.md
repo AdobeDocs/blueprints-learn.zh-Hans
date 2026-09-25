@@ -4,13 +4,11 @@ description: 通过Postman将未经身份验证的Web事件发送到Edge，并�
 doc-type: article
 solution: Experience Platform
 exl-id: 465d09da-e30f-404c-8778-5df06e5a199f
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 0%
-
 ---
-
 
 # 发送Edge活动
 
@@ -142,13 +140,13 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 单击顶部导航中的&#x200B;**事件**，您就可以看到刚刚发送的事件
+1. 单击顶部导航中的&#x200B;**事件**，您就可以看到刚刚发送的事件
 
    ![在配置文件的“事件”选项卡中查看事件](assets/send-an-edge-event-view-the-profile-event.png)
 
 
 
-&#x200B;4. 通过查看顶部导航中的Audience Membership选项卡，验证配置文件是否符合受众条件。  您应会看到以下内容：
+1. 通过查看顶部导航中的Audience Membership选项卡，验证配置文件是否符合受众条件。  您应会看到以下内容：
 
 - Edge的任何事件（在最近15分钟内）
 - 任何事件流（在过去一小时内）

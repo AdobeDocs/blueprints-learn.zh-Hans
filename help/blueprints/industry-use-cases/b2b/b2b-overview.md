@@ -3,20 +3,18 @@ title: B2B用例
 description: 了解B2B组织如何使用Adobe Experience Platform来加快产品线、提高潜在客户质量并促进客户扩展。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 6073bdc4-e148-455e-aa4e-3d5226d4b5a2
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
 source-wordcount: '3479'
 ht-degree: 0%
-
 ---
-
 # B2B用例
 
 企业对企业的组织使用Adobe Experience Platform来统一帐户级别和人员级别的数据，从而使营销和销售团队能够在购买历程的每个阶段提供协调的相关体验。 从管道加速到客户扩展，这些用例展示了B2B团队如何将复杂数据转化为可衡量的业务成果。
 
 >[!NOTE]
 >
->有关特定于B2B的架构Blueprint（包括基于帐户的激活和购买群组管理），请参阅[B2B激活和营销蓝图](/help/blueprints/b2b/overview.md)。
+>有关特定于B2B的架构Blueprint（包括基于帐户的激活和购买群组管理），请参阅[B2B激活和营销蓝图](/help/blueprints/architecture-diagrams/b2b-activation-marketing/overview.md)。
 
 ## Account-Based Marketing Personalization
 

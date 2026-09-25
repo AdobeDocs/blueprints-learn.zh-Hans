@@ -6,13 +6,11 @@ short-description: 将 RTCDP 轮廓和受众与 Adobe Target 集成。
 solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
-source-git-commit: 045fac8362795eefcac0ef5202fe7a90cb6875da
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 33%
-
+source-wordcount: '1045'
+ht-degree: 32%
 ---
-
 
 # 已知客户Personalization与Target
 
@@ -30,7 +28,7 @@ ht-degree: 33%
 
 ### 参考文档
 
-* [实时客户数据平台的Adobe Target连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans)
+* [实时客户数据平台的Adobe Target连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
 * [Edge数据流配置](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=zh-Hans)
 
 ## 集成模式
@@ -41,20 +39,6 @@ ht-degree: 33%
 | **通过Edge方法从Real-time Customer Data Platform流式传输和批量共享受众到Target** | - 通过 Edge 网络将来自 Real-time Customer Data Platform 的流传输受众和批次受众共享到 Target。 <br> — 实时评估的受众需要Web SDK和Edge Network实施。 |  — 将流和批量RTCDP受众共享到Target不需要Target的Web/Mobile SDK或Edge API实施，但需要启用实时边缘区段评估。 <br>- 如果使用 AT.js，则仅支持针对 ECID 身份命名空间的用户档案集成。 <br> — 对于Edge上的自定义身份命名空间查找，需要Web SDK/Edge API部署，并且必须在身份映射中将每个身份设置为身份。 <br> — 必须在Real-time Customer Data Platform目标中配置目标目标，仅支持RTCDP中的默认生产沙盒。 <br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。 |
 | **通过受众共享服务方法从Real-time Customer Data Platform流式传输和批量共享受众到Target和Audience Manager** |  — 当需要从Audience Manager中的第三方数据和受众进行额外扩充时，可以利用此集成模式。 |  — 将流式受众和批量受众共享到Target不需要Web/Mobile SDK，但是要启用实时边缘区段评估则需要Web/Mobile 。 <br>- 如果使用 AT.js，则仅支持针对 ECID 身份命名空间的用户档案集成。 <br> — 对于Edge上的自定义身份命名空间查找，需要Web SDK/Edge API部署，并且必须在身份映射中将每个身份设置为身份。 <br> — 必须配置通过受众共享服务的受众投影。 <br>- 与 Target 集成需要与 Experience Platform 实例具有相同的 IMS 组织。 <br> — 仅默认生产沙盒中的受众支持受众共享核心服务。 |
 
-## 将流传输和批次受众实时共享到 Adobe Target
-
-架构
-
-![在线/离线Web Personalization Blueprint的参考架构](/help/blueprints/audience-activation/assets/RTCDP-Target.png)
-
-序列详细信息
-
-![在线/离线Web Personalization Blueprint的参考架构](/help/blueprints/audience-activation/assets/RTCDP-Target_flow.png)
-
-概述架构
-
-![在线/离线Web Personalization Blueprint的参考架构](/help/blueprints/audience-activation/assets/personalization_with_apps.png)
-
 ## 实施模式
 
 通过多种实施方案支持已知客户个性化。
@@ -62,7 +46,7 @@ ht-degree: 33%
 ### 带有Web/移动SDK或[!DNL Edge Network] API的实施模式1 - [!DNL Edge Network]（推荐方法）
 
 * 在Web/移动SDK中使用[!DNL Edge Network]。 实时 Edge 分段需要使用 Web/Mobile SDK 或 Edge API 实施方法。
-* [有关基于Experience Platform的实施，请参阅SDK Web和移动SDK Blueprint](/help/blueprints/experience-platform/deployment/websdk.md)。
+* [有关基于Experience Platform的实施，请参阅SDK Web和移动SDK Blueprint](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)。
 * 要在Mobile SDK中使用，必须安装[Adobe Journey Optimizer - Decisioning扩展](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/)。
 * [有关包含Edge配置文件的基于API的Adobe Target实现，请参阅 [!DNL Edge Network] 服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)。
 
@@ -70,8 +54,8 @@ ht-degree: 33%
 
 使用传统的特定于应用程序的 SDK（例如，AT.js 和 AppMeasurement.js）。 使用此实施方案不支持实时 Edge 区段评估。 但是，使用此实施方案支持从 Experience Platform 中心进行流传输和批次受众共享。
 
-[请参阅Adobe Target连接器文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
-[请参阅特定于应用程序的SDK Blueprint](/help/blueprints/experience-platform/deployment/appsdk.md)
+[请参阅Adobe Target连接器文档](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[请参阅Experience Platform Web SDK Blueprint](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)
 
 ## 实施注意事项
 

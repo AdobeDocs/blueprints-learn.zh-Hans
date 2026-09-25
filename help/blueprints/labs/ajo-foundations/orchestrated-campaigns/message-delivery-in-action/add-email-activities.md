@@ -4,13 +4,11 @@ description: 了解如何在编排的活动中使用不同的电子邮件渠道�
 doc-type: article
 solution: Experience Platform
 exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
-
 ---
-
 
 # 添加电子邮件活动
 
@@ -72,7 +70,7 @@ ht-degree: 0%
 
 ![带有“保存并关闭”按钮的确认对话框](assets/add-email-activities-save-and-close-dialog.png)
 
-&#x200B;11. 查看电子邮件属性和操作，包括添加到电子邮件正文的文本。 单击&#x200B;**向左箭头**&#x200B;以导航回促销活动画布
+1. 查看电子邮件属性和操作，包括添加到电子邮件正文的文本。 单击&#x200B;**向左箭头**&#x200B;以导航回促销活动画布
 
 ![导航回促销活动画布](assets/add-email-activities-back-to-campaign-canvas.png)
 

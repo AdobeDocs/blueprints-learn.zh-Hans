@@ -1,13 +1,11 @@
 ---
 name: architecture-diagram-page-builder
 description: 指导为Adobe Experience Platform Blueprint存储库创建新的架构图页面。 在添加新的顶级体系结构图、集成体系结构页面或应用程序体系结构概述时，请使用此技能。 架构页面涵盖顶级AEP和应用程序架构以及主要集成点 — 而不是深入用例（用例模式生成器中的用例）。 处理整个工作流：收集页面信息，生成Markdown文件，将其放在正确的主题文件夹中，以及更新TOC.md。
-source-git-commit: 4d236750286c28a8b8eb53a5bdec0645cc0e3e91
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1562'
 ht-degree: 1%
-
 ---
-
 
 # 架构图页面生成器
 
@@ -149,12 +147,11 @@ ht-degree: 1%
 
 | 主题文件夹 | TOC子部分 |
 | --- | --- |
-| `experience-platform/` | `+ Architecture overviews{#architecture-overview}` |
-| `experience-platform/deployment/` | `+ Deployment{#deployment}` （架构概述的子部分） |
-| `audience-activation/` | `+ Audience & Profile Activation{#audience-activation}` |
-| `b2b/` | `+ B2B activation & marketing{#b2b-activation}` |
-| `customer-journey-analytics/` | `+ Customer Journey Analytics{#customer-journey-analytics}` |
-| `customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
+| `architecture-diagrams/architecture-overviews/` | `+ Architecture overviews{#architecture-overviews}` |
+| `architecture-diagrams/audience-profile-activation/` | `+ Audience & Profile Activation{#audience-profile-activation}` |
+| `architecture-diagrams/b2b-activation-marketing/` | `+ B2B activation & marketing{#b2b-activation-marketing}` |
+| `architecture-diagrams/customer-insights/` | `+ Customer Insights{#customer-insights}` |
+| `architecture-diagrams/customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
 
 条目格式（4空格缩进+ `+`）：
 
@@ -174,7 +171,7 @@ ht-degree: 1%
 
 2. **用例模式链接** — 文件中的每个模式链接都指向`/help/blueprints/use-case-patterns/`下的现有Markdown文件。 使用`Read`或glob确认每个目标都存在。
 
-3. **Experience League链接** — 抽查`## Further reading`部分中的每个URL是否都以`https://experienceleague.adobe.com/zh-hans`开头。
+3. **Experience League链接** — 抽查`## Further reading`部分中的每个URL是否都以`https://experienceleague.adobe.com/`开头。
 
 4. **目录条目位置** — 新条目位于正确的子部分内，使用4空格缩进，并且路径与生成的文件位置完全匹配。
 
@@ -189,5 +186,5 @@ ht-degree: 1%
 - 在正文和项目符号中始终使用Adobe产品名称的`[!DNL ...]`语法，遵循现有页面的惯例。
 - 体系结构图通常是SVG（对于清晰度和缩放是首选），但PNG对于点阵源图稿是可接受的。
 - 需要`<img>`嵌入的内联样式字符串(`border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;`)和`class="modal-image"` — 它们启用Experience League模式缩放交互。
-- 如果用户正在为尚不存在的全新主题文件夹创建页面，请警告TOC.md在`+ Architecture Diagrams and Blueprints{#architecture-diagrams}`下需要新的顶级子部分。 将该步骤作为单独的步骤处理，需要用户明确批准。
+- 如果用户为尚不存在的新主题文件夹创建页面，请停止并改用`architecture-diagram-category-builder`技能 — 它处理命名惯例的执行、TOC.md子部分的创建、类别`overview.md`和登录页卡网格。 不要从该技能中创建新主题文件夹。
 - 如果架构图详细记录了&#x200B;*单个用例的端到端*（包括KPI、业务目标、功能），则将用户重定向到`use-case-pattern-builder` — 这不是架构页面。
