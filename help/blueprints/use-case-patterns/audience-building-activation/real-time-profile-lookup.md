@@ -3,13 +3,11 @@ title: 支持和销售方案的实时配置文件访问
 description: '[!UICONTROL 实时用户档案]查询可提供座席协助支持和销售的背景信息。'
 solution: Data Collection
 kt: 7195
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 66%
-
+source-wordcount: '484'
+ht-degree: 65%
 ---
-
 # 支持和销售方案的实时配置文件访问
 
 支持和销售方案的实时配置文件访问蓝图显示了外部应用程序如何访问Adobe Experience Platform的[!UICONTROL 实时客户配置文件]。
@@ -25,10 +23,6 @@ ht-degree: 66%
 ## 用例
 
 * 为座席支持的交互（如支持和销售体验）提供更深入的消费者背景信息。 通过对 Experience Platform 用户档案的查找，座席可以接收更多有关消费者的背景信息，例如最近购买、活动交互、倾向、受众成员，以及存储在实时客户档案中的其他属性和洞察。
-
-## 架构
-
-<img src="/help/blueprints/audience-activation/assets/customer_activity_hub.svg" alt="客户活动中心 Blueprint 的参考架构" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## 护栏
 

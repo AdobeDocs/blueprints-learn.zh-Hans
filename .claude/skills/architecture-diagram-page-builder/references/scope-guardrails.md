@@ -1,13 +1,12 @@
 ---
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '665'
 ht-degree: 0%
-
 ---
 # 范围护栏：架构页面与用例模式页面
 
-Blueprint站点将&#x200B;**架构图页面**&#x200B;与&#x200B;**用例模式页面**&#x200B;分开，因为它们满足不同的读者需求。 本文档定义什么内容属于何处以及如何处理跨越边界的内容。
+此站点将&#x200B;**架构图页面**&#x200B;与&#x200B;**用例模式页面**&#x200B;分开，因为它们服务于不同的读者需求。 本文档定义什么内容属于何处以及如何处理跨越边界的内容。
 
 ## 核心区别
 
@@ -18,7 +17,7 @@ Blueprint站点将&#x200B;**架构图页面**&#x200B;与&#x200B;**用例模式�
 
 | 类别 | 示例 |
 | --- | --- |
-| 顶层体系结构 | AEP和应用程序、Experience Cloud营销结构、网络中心与边缘拓扑的概述图 |
+| 顶层体系结构 | AEP和应用程序、Experience Cloud Marketecture、中心与边缘拓扑的概述图 |
 | 系统数据流 | 实时与批量摄取路径，中心与边缘之间的配置文件同步，查找与激活流程 |
 | 集成点 | 其中AEP与AJO、CJA、Target、Campaign、Marketo、Workfront集成；SDK边界；API界面 |
 | 部署拓扑 | Web SDK与移动SDK部署、服务器端转发、边缘节点放置 |

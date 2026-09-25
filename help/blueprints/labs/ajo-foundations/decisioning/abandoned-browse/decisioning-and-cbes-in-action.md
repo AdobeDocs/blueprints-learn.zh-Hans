@@ -4,13 +4,11 @@ description: 使用Postman发送测试用户档案的体验事件，并验证资
 doc-type: article
 solution: Experience Platform
 exl-id: 540e50c9-bf39-49a4-ae63-c1d7b94f6b8c
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '2147'
 ht-degree: 0%
-
 ---
-
 
 # 决策和CBE的实际操作
 
@@ -102,34 +100,34 @@ Page Bottom数据收集调用纯粹是为了生成iPhone 17概述页面的页面
 
 ![Bob个人资料的Edge视图尚未显示受众成员资格](assets/decisioning-and-cbes-in-action-edge-audience-membership-empty.png)
 
-&#x200B;11. 在新的浏览器选项卡中，导航到您创建的历程并单击进入该页面。 您会看到有一个配置文件已进入历程，现在位于CBE节点。
+1. 在新的浏览器选项卡中，导航到您创建的历程并单击进入该页面。 您会看到有一个配置文件已进入历程，现在位于CBE节点。
 
-![历程画布显示Bob输入的配置文件和在CBE节点](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
+   ![历程画布显示Bob输入的配置文件和在CBE节点](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
-此时，Bob已进入历程，Edge投影当前正在汇编可更新Bob在Edge上的个人资料的投影。
+   此时，Bob已进入历程，Edge投影当前正在汇编可更新Bob在Edge上的个人资料的投影。
 
-&#x200B;12. 切换回Postman并单击Bob的第二个Experience Event调用&#x200B;**Bob - Page Top Fetch。**
-&#x200B;13. 单击&#x200B;**发送**。 应该发生什么？
-    - 如果尚未更新Bob的Edge配置文件，则对于您从数据收集调用中获得的内容，您将获得非常相似的响应。 如果是这种情况，请再等待一两分钟，然后尝试再次发送Bob的Page Top Fetch调用。
-    - 如果Bob的Edge配置文件已更新，您将会收到使用之前配置的JSON的响应，以及用于报表的其他信息。 但在继续之前，应该向Bob提供什么iPhone 17产品？
+1. 切换回Postman并单击Bob的第二个Experience Event调用&#x200B;**Bob - Page Top Fetch。**
+1. 单击&#x200B;**发送**。 应该发生什么？
+   - 如果尚未更新Bob的Edge配置文件，则对于您从数据收集调用中获得的内容，您将获得非常相似的响应。 如果是这种情况，请再等待一两分钟，然后尝试再次发送Bob的Page Top Fetch调用。
+   - 如果Bob的Edge配置文件已更新，您将会收到使用之前配置的JSON的响应，以及用于报表的其他信息。 但在继续之前，应该向Bob提供什么iPhone 17产品？
 
-      Bob出生于1974年，这比1966年还要大，所以他符合二级排名公式标准，他的Generic、Base和Pro优惠的优先级分数将乘以100，分别给出优惠得分100、200和300。 但是，Bob Basic有一个计划ID 1，因此由于决策规则，他没有资格获得Ultra或Pro层级优惠。 因此，将显示分数为200的基本层选件。 您可以在响应中看到以下内容（您可能需要向下滚动）：
+     Bob出生于1974年，这比1966年还要大，所以他符合二级排名公式标准，他的Generic、Base和Pro优惠的优先级分数将乘以100，分别给出优惠得分100、200和300。 但是，Bob Basic有一个计划ID 1，因此由于决策规则，他没有资格获得Ultra或Pro层级优惠。 因此，将显示分数为200的基本层选件。 您可以在响应中看到以下内容（您可能需要向下滚动）：
 
-![Postman响应显示为Bob返回的基本层选件](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)
+   ![Postman响应显示为Bob返回的基本层选件](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)
 
-&#x200B;14. 请记住，此Postman请求会自动发送此选件的显示通知，因此AJO已为此选件至少记录了一个展示。 再次单击&#x200B;**发送**&#x200B;以发送第二次展示。 验证是否再次返回了基本选件。
-&#x200B;15. 回想一下，3次展示的频率上限适用于Base 、 Pro和Ultra层机型。 第三次单击&#x200B;**发送**&#x200B;以获取Base层的第三次响应并记录另一印象。
-&#x200B;16. 第四次单击&#x200B;**发送**&#x200B;会发生什么情况？ 基本层选件的频率上限已达到，您将收到响应中的通用选件：
+1. 请记住，此Postman请求会自动发送此选件的显示通知，因此AJO已为此选件至少记录了一个展示。 再次单击&#x200B;**发送**&#x200B;以发送第二次展示。 验证是否再次返回了基本选件。
+1. 回想一下，3次展示的频率上限适用于Base 、 Pro和Ultra层机型。 第三次单击&#x200B;**发送**&#x200B;以获取Base层的第三次响应并记录另一印象。
+1. 第四次单击&#x200B;**发送**&#x200B;会发生什么情况？ 基本层选件的频率上限已达到，您将收到响应中的通用选件：
 
-![Postman响应显示在达到频率上限后返回的通用选件](assets/decisioning-and-cbes-in-action-bob-generic-offer-after-cap.png)
+   ![Postman响应显示在达到频率上限后返回的通用选件](assets/decisioning-and-cbes-in-action-bob-generic-offer-after-cap.png)
 
-&#x200B;17. 再次单击&#x200B;**发送**，您将看到通用层选件。 如果再单击100次“发送”，您将重新获得相同的选件，直到第二天重置频率上限为止。
+1. 再次单击&#x200B;**发送**，您将看到通用层选件。 如果再单击100次“发送”，您将重新获得相同的选件，直到第二天重置频率上限为止。
 
->[!WARNING]
->
->请记住，在AJO，一天会在格林威治标准时间午夜重置。 如果您在GMT午夜后发送另一个Fetch调用，则会看到基础层选件返回。
+   >[!WARNING]
+   >
+   >请记住，在AJO，一天会在格林威治标准时间午夜重置。 如果您在GMT午夜后发送另一个Fetch调用，则会看到基础层选件返回。
 
-&#x200B;18. 返回Journey Orchestration UI并单击进入您创建的&#x200B;**iPhone 17放弃Browse**&#x200B;历程。 由于历程已上线并已发布，因此您会开始看到统计信息。 您会看到1个配置文件已进入历程且当前位于CBE节点。
+1. 返回Journey Orchestration UI并单击进入您创建的&#x200B;**iPhone 17放弃Browse**&#x200B;历程。 由于历程已上线并已发布，因此您会开始看到统计信息。 您会看到1个配置文件已进入历程且当前位于CBE节点。
 
 ![历程报表显示当前位于CBE节点的一个配置文件](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 

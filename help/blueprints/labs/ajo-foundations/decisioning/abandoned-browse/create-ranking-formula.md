@@ -4,13 +4,11 @@ description: 构建一个排名公式，以根据用户档案属性（如年龄�
 doc-type: article
 solution: Experience Platform
 exl-id: 67aaca7f-366c-4db4-a5d5-017f52fbd15b
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 0%
-
 ---
-
 
 # 创建排名公式
 
@@ -144,7 +142,7 @@ ht-degree: 0%
 >- 1990年出生且计划ID = 1 **的用户将删除Ultra和Pro选件，即使它们排在最高位。**&#x200B;用户只能看到Base和Generic选件，因为Ultra和Pro层有一个附加条件：只有具有&#x200B;**计划ID 2或3**&#x200B;的用户才能看到它们。
 >- 由于通用选件没有频率上限规则，因此&#x200B;**1970**&#x200B;出生年份用户将永远不会看到Ultra选件，因为其优先级分数低于通用选件的提升分数。
 
-&#x200B;5. 设置好所有规则和默认优先级分数后，向后滚动到顶部，然后单击右上角的蓝色&#x200B;**创建**&#x200B;按钮。
+1. 设置好所有规则和默认优先级分数后，向后滚动到顶部，然后单击右上角的蓝色&#x200B;**创建**&#x200B;按钮。
 
 >[!TIP]
 >

@@ -1,16 +1,14 @@
 ---
-title: 构建受众#3
+title: 构建受众 #3
 description: 构建iPhone 14产品页面访客的受众，并使用受众组合将其与其他受众以启用流式激活。
 doc-type: article
 solution: Experience Platform
 exl-id: 999f9a20-1655-4eab-a796-a19d69a06879
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1061'
 ht-degree: 0%
-
 ---
-
 
 # 构建受众#3
 
@@ -134,17 +132,17 @@ ht-degree: 0%
 
 
 
-&#x200B;5. 提供描述。
+1. 提供描述。
 
-&#x200B;6. 更改为流
+1. 更改为流
 
-&#x200B;7. 另存为“*已访问iPhone 14页面，但不拥有/订购该页面*”
+1. 另存为“*已访问iPhone 14页面，但不拥有/订购该页面*”
 
-&#x200B;8. 单击蓝色按钮&#x200B;**将受众**&#x200B;激活到目标
+1. 单击蓝色按钮&#x200B;**将受众**&#x200B;激活到目标
 
-&#x200B;9. 选择&#x200B;**流DEP Webhook**&#x200B;目标，然后单击“下一步”
+1. 选择&#x200B;**流DEP Webhook**&#x200B;目标，然后单击“下一步”
 
-&#x200B;10. 单击“下一步”和“完成”
+1. 单击“下一步”和“完成”
 
 >[!NOTE]
 >

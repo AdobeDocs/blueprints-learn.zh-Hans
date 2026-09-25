@@ -4,13 +4,11 @@ description: 使用架构注册表API创建一个自定义客户帐户详细信�
 doc-type: article
 solution: Experience Platform
 exl-id: d3262db9-7c0b-476a-843f-1a2c224ee792
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 
 # 创建自定义字段组
 
@@ -68,7 +66,7 @@ ht-degree: 0%
 
 
 
-&#x200B;2. 使用以下格式更新字段组的`title`和`description`： `Customer Account Details - Sandbox <your number here>`
+1. 使用以下格式更新字段组的`title`和`description`： `Customer Account Details - Sandbox <your number here>`
 
 
 
@@ -76,9 +74,9 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 通过单击`Send`按钮执行。  您应该会看到类似于以下屏幕快照的响应。
+1. 通过单击`Send`按钮执行。  您应该会看到类似于以下屏幕快照的响应。
 
-&#x200B;4. 复制新创建的客户帐户详细信息字段组的`$id`值。
+1. 复制新创建的客户帐户详细信息字段组的`$id`值。
 
 创建自定义字段组后![成功的API响应](assets/create-custom-field-groups-step-2-create-custom-field-group-success.png "步骤2 — 创建自定义字段组成功")
 

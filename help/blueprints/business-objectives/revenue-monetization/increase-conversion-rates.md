@@ -2,14 +2,12 @@
 title: 提高转化率
 description: 了解如何提高完成所需操作（如购买、注册或表单提交）的访客和潜在客户的百分比。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 47cb89e4-28d7-402c-9015-9b1b1ec0641a
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 2%
-
+ht-degree: 8%
 ---
-
-
 # 提高转化率
 
 提高完成所需操作（如购买、注册或表单提交）的访客和潜在客户的百分比。 此目标侧重于优化客户历程中的每个接触点，通过个性化的体验和及时的消息传递减少摩擦并推动行动。

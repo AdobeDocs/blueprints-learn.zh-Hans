@@ -2,14 +2,12 @@
 title: 提高客户忠诚度和存留期值
 description: 了解如何通过忠诚度计划、奖励和个性化参与来深化客户关系并最大化长期价值。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 4054a964-652a-492a-adae-e6a9edaf9e8a
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 3%
-
+ht-degree: 9%
 ---
-
-
 # 提高客户忠诚度和存留期价值
 
 通过忠诚度计划、奖励和个性化参与，深化客户关系并最大化长期价值。 此目标侧重于通过始终如一的价值驱动型体验来建立持久的客户关系，从而推动重复购买、提高生命周期价值和品牌宣传。

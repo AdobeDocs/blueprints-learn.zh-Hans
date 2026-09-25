@@ -2,14 +2,12 @@
 title: 提高客户参与度
 description: 了解如何提高所有数字和物理接触点的交互频率和深度。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 9a2143c7-f962-4651-886a-a4be6ceff3fc
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 3%
-
+ht-degree: 10%
 ---
-
-
 # 提高客户参与度
 
 提高所有数字和物理接触点的交互频率和深度。 此目标侧重于提供相关、及时的互动，鼓励跨渠道加深与品牌的关系并更频繁地互动。

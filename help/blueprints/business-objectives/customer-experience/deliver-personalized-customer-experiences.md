@@ -2,14 +2,12 @@
 title: 提供个性化的客户体验
 description: 了解如何根据个人偏好、行为和生命周期阶段定制内容、选件和消息传送。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 442567ac-ee71-4907-841b-1fd06e1522ae
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 3%
-
+ht-degree: 12%
 ---
-
-
 # 提供个性化的客户体验
 
 根据个人偏好、行为和生命周期阶段定制内容、选件和消息。 此目标重点关注使用实时客户数据和决策来在客户历程中的每个渠道和接触点提供相关的情境式体验。

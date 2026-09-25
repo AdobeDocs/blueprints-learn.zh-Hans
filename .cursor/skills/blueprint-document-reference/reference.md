@@ -1,9 +1,8 @@
 ---
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 1%
-
+source-wordcount: '630'
+ht-degree: 4%
 ---
 # Blueprint文档引用 — 详细指南
 
@@ -122,9 +121,9 @@ ht-degree: 1%
 
 ## 此存储库中的示例引用
 
-- **方案Blueprint（长格式）**： `help/blueprints/audience-activation/real-time-lookup.md`
-- **带选项卡和表的概述/中心**： `help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
-- **护栏聚焦**： `help/blueprints/experience-platform/guardrails.md`
+- **方案Blueprint（长格式）**： `help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md`
+- **带选项卡和表的概述/中心**： `help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
+- **护栏聚焦**： `help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md`
 - **导航**： `help/blueprints/TOC.md`，`help/blueprints/overview.md`
 
 将它们用作章节顺序、前沿内容、图表放置和Experience League链接使用的模式。

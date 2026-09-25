@@ -3,13 +3,11 @@ title: Audience Activation到目标
 description: 了解如何使用Adobe Real-Time CDP评估受众区段并将其发布到外部目标以进行定位或抑制。
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1363'
 ht-degree: 4%
-
 ---
-
 # Audience Activation到目标
 
 本指南介绍受众激活到目标用例模式，该模式评估Adobe [!DNL Real-Time Customer Data Platform] (RT-CDP)中的受众区段，并将其发布到广告平台、云存储、CRM系统或数据合作伙伴，以进行定位、抑制、相似人群拓展建模或分析扩充。 它专为需要了解此模式的用途、支持的业务目标、支持的战术用例以及涉及的Adobe应用程序的解决方案架构师、营销技术人员和实施工程师而设计。
@@ -92,7 +90,7 @@ ht-degree: 4%
 
 以下参考架构说明了受众和配置文件数据如何从Real-Time CDP流向企业目标，包括云存储、流式端点和SaaS应用程序。
 
-![受众和配置文件激活到企业目标的参考架构](/help/blueprints/audience-activation/assets/known_activation.png)
+![Adobe Real-Time CDP激活的参考架构](/help/blueprints/architecture-diagrams/audience-profile-activation/assets/real_time_cdp_activation.png)
 
 ## 相关文档
 

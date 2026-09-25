@@ -4,13 +4,11 @@ description: 创建具有数据元素和规则的事件转发属性，以将传�
 doc-type: article
 solution: Experience Platform
 exl-id: eabd5f75-7706-4c96-982e-2512509bdc55
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 0%
-
 ---
-
 
 # 创建属性
 
@@ -208,7 +206,7 @@ ht-degree: 0%
 
 
 
-&#x200B;4. 完成后，您应该会看到您的操作已添加到规则中。 单击&#x200B;**保存**&#x200B;以继续。
+1. 完成后，您应该会看到您的操作已添加到规则中。 单击&#x200B;**保存**&#x200B;以继续。
 
 ![规则编辑器显示已配置的操作，并突出显示“保存”按钮](assets/create-property-save-rule-button.png "保存您的规则")
 

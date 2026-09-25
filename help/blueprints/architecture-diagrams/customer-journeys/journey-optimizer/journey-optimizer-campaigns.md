@@ -1,0 +1,87 @@
+---
+title: '[!DNL Journey Optimizer] — 营销活动编排'
+description: 允许营销人员跨出站消息传递渠道协调基于受众的计划多步营销通信。
+solution: Journey Optimizer
+exl-id: a8ff16f8-146d-4e1f-9bd0-9eda6af0c69b
+TQID: https://experienceleague.adobe.com/aPDagEC1zZdi-Bz29fFf6g5Uy8v4qMPhDA47Cdwl-Sw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+    internal-label: Journey Optimizer campaigns
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 6%
+---
+# [!DNL Journey Optimizer] — 营销活动编排
+
+>[!TIP]
+>此架构还被记录为Campaign Management &amp; Orchestration下的[用例模式](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md)。
+
+AJO Campaign Orchestration允许营销人员跨出站渠道（如电子邮件、短信、推送和直邮）设计和执行基于受众的计划多步通信。 历程使用实时客户资料中的实时数据对单个客户行为做出反应，与之不同的是，营销活动采用协调的营销方式，按计划时间间隔定位受众。 营销活动和历程相结合，提供了互补的方法 — “营销活动可推动品牌参与策略，而历程可提供个性化、响应式体验。
+
+<br>
+
+## 架构
+
+![参考架构Adobe Journey Optimizer营销活动编排](images/ajo-orchestrated-campaigns.png){width="1000" zoomable="yes"}
+
+<br>
+
+### 消息执行架构
+
+![参考架构Adobe Journey Optimizer营销活动编排](images/ajo-orchestrated-campaigns-message-sending.png){width="1000" zoomable="yes"}
+
+<br>
+
+### 关系存储 — 数据摄取延迟
+
+![参考架构Adobe Journey Optimizer营销活动编排](images/ajo-orchestrated-campaigns-data-ingestion.png){width="1000" zoomable="yes"}
+
+<br>
+
+## 营销活动的架构注意事项
+
+- **数据架构**： AJO Campaign Orchestration在下面使用关系数据库进行受众构建和编排
+- **受众门户集成**：与实时客户配置文件中的受众门户本机集成，以便在构建营销活动时从现有受众读取并将新受众保存到
+- **按需受众创建**：为紧急营销用例立即构建、评估和执行受众
+- **实时客户个人资料集成：**&#x200B;同意和通信历史事实来源；支持个性化的“瘦身个人资料”设计
+- **多实体消息发送：**&#x200B;能够在一次投放中为每个用户档案发送多条消息（例如，为每个预订向客户电子邮件地址发送一条消息）
+- **多实体分段**：开始从关系存储中的任何实体（即产品、库存、计划等）构建受众
+
+<br>
+
+## 护栏
+
+[编排的营销活动产品链接](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/guardrails)
+
+[护栏和端到端延迟指导](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails)
+
+<br>
+
+## 相关文档
+
+- [[!DNL Journey Optimizer]个编排的营销活动](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/orchestrated-campaigns-landing-page.html)
+- [[!DNL Experience Platform]文档](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
+- [[!DNL Experience Platform]标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
+- [[!DNL Experience Platform Mobile SDK]文档](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)
+- [[!DNL Journey Optimizer]文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hans)
+- [[!DNL Journey Optimizer]产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)

@@ -2,14 +2,12 @@
 title: 改进营销归因
 description: 了解如何准确衡量营销接触点、渠道和营销活动对转化和收入结果的影响。
 solution: Experience Platform, Customer Journey Analytics
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 67686f67-15ee-4beb-919e-36a0c0c371a3
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 3%
-
 ---
-
-
 # 改进营销归因
 
 准确衡量营销接触点、渠道和营销活动对转化和收入结果的影响。 此目标侧重于建立跨渠道归因模型，将营销活动与业务结果关联起来，以实现更好的预算分配和活动优化。

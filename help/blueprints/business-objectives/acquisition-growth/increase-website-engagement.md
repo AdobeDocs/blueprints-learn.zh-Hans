@@ -2,14 +2,12 @@
 title: 提高网站参与度
 description: 了解如何通过相关体验缩短网站访问时间、缩短每次会话页面访问时间以及改善与Web内容的交互。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 41d03772-678a-4039-b470-6053c39e53aa
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 4%
-
+ht-degree: 10%
 ---
-
-
 # 提高网站参与度
 
 通过相关体验，缩短网站停留时间、每次会话显示页面以及与Web内容的交互。 此目标的重心在于提供情境式和个性化的Web体验，让访客保持参与，并在内容和转化路径中取得进展。

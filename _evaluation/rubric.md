@@ -1,9 +1,8 @@
 ---
-source-git-commit: 7511cc0e5c099d5d3ee1275a374cd9ffdc972335
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 0%
-
+source-wordcount: '690'
+ht-degree: 1%
 ---
 # Blueprint评估规则
 
@@ -21,7 +20,7 @@ ht-degree: 0%
 规范形状： `.claude/skills/use-case-pattern-builder/references/pattern-template.md`。
 - **架构图** — 表示系统功能的可视化图表
 集成和数据流。 最简单的叙述，图表是人造物品。
-规范示例： [platform-data-flow.md](../help/blueprints/experience-platform/platform-data-flow.md)。
+规范示例： [platform-data-flow.md](../help/blueprints/architecture-diagrams/architecture-overviews/platform-data-flow.md)。
 
 ## 得分
 
@@ -89,7 +88,7 @@ ht-degree: 0%
      `audience-building-activation`, `personalization`, `campaign-management-orchestration`,
      `analysis`、`conversational-experience`或标记为`(new) <name>`的新类别。
    - `proposed_pattern_title` — 遵循现有模式的面向操作的简短标题
-命名样式。
+     命名样式。
 6. 对于`Diagram`和`Split`推荐，建议：
    - `proposed_diagram_title` — 通常将现有标题修剪为业务框架。
 7. 通过将Blueprint的作用域与现有模式目录进行比较，捕获发现的任何重复项

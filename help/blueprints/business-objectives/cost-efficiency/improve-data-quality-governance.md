@@ -2,14 +2,12 @@
 title: 提高数据质量和改善管理
 description: 了解如何确保数据干净、完整且合规，以实现准确定位、减少浪费和可靠分析。
 solution: Experience Platform, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: ecede85f-9af8-4d97-a33c-a14dfe1ed61c
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 2%
-
+ht-degree: 3%
 ---
-
-
 # 提高数据质量和改善管理
 
 确保数据干净、完整且合规，以实现准确定位、减少浪费和可靠的分析。 此目标侧重于为所有下游营销活动建立所需的数据基础，确保客户数据准确、一致、得到妥善管理并符合法规。

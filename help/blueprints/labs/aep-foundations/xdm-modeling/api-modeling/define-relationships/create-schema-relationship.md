@@ -4,13 +4,11 @@ description: 使用架构注册表API创建将客户帐户架构链接到查找�
 doc-type: article
 solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
-
 ---
-
 
 # 创建架构关系
 
@@ -57,9 +55,9 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 继续使用`Save`按钮之前保存您的请求
+1. 继续使用`Save`按钮之前保存您的请求
 
-&#x200B;4. 通过单击`Send`按钮执行API
+1. 通过单击`Send`按钮执行API
 
 您现在应会看到如下的`201 Created`响应
 

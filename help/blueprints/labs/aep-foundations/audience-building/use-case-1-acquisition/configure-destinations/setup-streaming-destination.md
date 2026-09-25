@@ -4,13 +4,11 @@ description: 使用webhook端点、治理策略、受众和字段映射配置HTT
 doc-type: article
 solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
-
 ---
-
 
 # 设置流目标
 
@@ -62,7 +60,7 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 按如下方式填写目标的配置详细信息：
+1. 按如下方式填写目标的配置详细信息：
 
 - **名称** -> `Streaming DEP Webhook - [Your Initials]`
 - **描述** -> `[your webhook endpoint you copied above]`

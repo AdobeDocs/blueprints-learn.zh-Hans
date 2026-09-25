@@ -4,7 +4,7 @@ description: 使用架构注册表API在查找架构上创建引用身份描述�
 doc-type: article
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -51,9 +51,9 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 继续使用`Save`按钮之前保存您的请求
+1. 继续使用`Save`按钮之前保存您的请求
 
-&#x200B;4. 通过单击`Send`按钮执行API
+1. 通过单击`Send`按钮执行API
 
 您现在看到如下的`201 Created`响应
 

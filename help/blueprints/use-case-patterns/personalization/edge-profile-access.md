@@ -3,13 +3,11 @@ title: 适用于Web和移动Personalization的实时Edge配置文件访问
 description: 在边缘位置[!UICONTROL 实时客户个人资料]访问，以提供实时Web和移动个性化的上下文。
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 719
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1933'
 ht-degree: 11%
-
 ---
-
 # 适用于Web和移动Personalization的实时Edge配置文件访问
 
 适用于Web和移动Personalization蓝图的实时Edge配置文件访问显示了Web和移动应用程序如何访问Adobe Experience Platform边缘的[!UICONTROL 实时客户配置文件]，以实现高吞吐量、低延迟的个性化。
@@ -50,7 +48,7 @@ ht-degree: 11%
 
 ## 架构图
 
-<img src="/help/blueprints/audience-activation/assets/real-time-edge-lookup.svg" alt="适用于Web和移动Personalization的Edge配置文件访问参考架构" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+<img src="/help/blueprints/architecture-diagrams/audience-profile-activation/assets/real_time_edge_profile_access.png" alt="实时访问Edge配置文件参考架构" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## 护栏
 
@@ -69,7 +67,7 @@ ht-degree: 11%
 * 这种方法可为基于受众成员资格的边缘个性化提供低延迟和最佳性能。
 * 实时边缘分段需要Web/移动SDK实施。
 * 仅Web SDK和Mobile SDK **支持基于受众成员资格的个性化**。
-* [有关基于Experience Platform的实施，请参阅SDK Web和Mobile SDK Blueprint](/help/blueprints/experience-platform/deployment/websdk.md)。
+* [有关基于Experience Platform的实施，请参阅SDK Web和Mobile SDK Blueprint](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)。
 * 对于移动SDK实施，必须在Mobile SDK中安装[Adobe Journey Optimizer - Decisioning扩展](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/)。
 
 ### 模式2：使用Edge Network服务器API进行基于属性的个性化（配置文件属性必需）

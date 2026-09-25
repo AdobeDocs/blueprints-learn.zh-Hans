@@ -1,0 +1,67 @@
+---
+title: Real-Time CDP 与 Adobe Campaign v8 集成模式
+description: 显示如何将 Adobe Experience Platform 及其实时客户档案和集中化分段工具与 Adobe Campaign v8 结合使用来提供个性化对话。
+solution: Real-Time Customer Data Platform, Campaign
+exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
+TQID: https://experienceleague.adobe.com/LANKBKui1B5RfyNI8ufsgjrC98TXpAf74IB-alwDTnk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 72%
+---
+# 具有Adobe [!DNL Campaign] v8集成模式的[!DNL Real-Time CDP]
+
+展示Adobe [!DNL Experience Platform]及其Real-time Customer Profile和集中式分段工具如何与Adobe Campaign一起使用，以提供个性化的对话。
+
+## 应用程序
+
+* Adobe [!DNL Experience Platform Real-Time CDP]
+* Adobe [!DNL Campaign] v8
+
+## 架构
+
+![批处理消息传递和Adobe Experience Platform集成模式的参考架构](images/campaign-v8-with-rtcdp.png){width="1000" zoomable="yes"}
+
+<br>
+
+## 先决条件
+
+* 对于 Experience Cloud，必须为客户配置有效的 IMS 组织
+* 建议将Adobe Experience Platform和[!DNL Campaign]配置为使用同一个登录URL的IMS组织
+* 客户必须配置[!DNL Campaign]的V8实例
+* 客户必须符合条件并有权访问 RTCDP、源、目标。
+* Adobe [!DNL Campaign]产品上下文必须存在
+
+<br>
+
+## 实施步骤
+
+请参阅以下文档，了解如何配置到 Adobe Experience Platform 的 Campaign v8 源连接器和到 Campaign v8 的 Real-time Customer Data Platform 目标连接器。
+[Campaign 和 AEP 连接器](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=zh-Hans)
+
+## 护栏
+
+### Adobe Campaign
+
+* 请参阅 Campaign 源连接器文档 - [Campaign 源连接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/campaign.html?lang=zh-Hans)
+* 仅支持 Adobe Campaign 单个组织单位部署
+
+
+### Experience Platform Real-time Customer Data Platform 区段共享
+
+* 请参阅 RTCDP Campaign 目标连接器 - [RTCDP Campaign 连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=zh-Hans)
+
+* 请参阅 AEP 的用户档案和数据摄入护栏 - [链接](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)

@@ -1,9 +1,8 @@
 ---
-source-git-commit: 7511cc0e5c099d5d3ee1275a374cd9ffdc972335
+source-git-commit: 2ed15399073fce5ebd1c2ba07b1cf70ec706452c
 workflow-type: tm+mt
-source-wordcount: '3505'
+source-wordcount: '3507'
 ht-degree: 6%
-
 ---
 # Blueprint审核和建议
 
@@ -16,6 +15,9 @@ ht-degree: 6%
 将在审查建议后作为一项单独的后续计划起草。
 
 ## 摘要
+
+决策管理和Campaign v7内容现已停用。 下面的历史行将保留为
+记录这些决策及其批准的重定向。
 
 **已审核的文档总数：** 43
 
@@ -51,7 +53,7 @@ ht-degree: 6%
 | `b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md` | **新作者** | `use-case-patterns/b2b/campaign-intake-and-creation.md` |
 | `b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md` | **新作者** | `use-case-patterns/b2b/campaign-review-and-approval.md` |
 
-> **初始过渡状态 — 编写器协调门。** 现有的“B2B激活和营销”> [TOC.md](../help/blueprints/TOC.md) （第95-106行） **的体系结构图区域中的子部分保持不变> 在过渡期间**。 每个Blueprint转换和现有模式重新定位都需要> 在迁移内容之前从所属编写器注销。 新的`b2b/`用例模式> 区域与现有Blueprint区域共存，而迁移逐页进行，使用> 它们之间的交叉链接。
+> **B2B处置已完成。** 审核建议用于保留受众/配置文件和帐户激活架构页面，停用剩余的B2B架构页面，并将停用的URL重定向到B2B类别概述。
 
 当重新定位和新模式都着陆时：
 
@@ -60,7 +62,7 @@ subsection（置入待定，供作者使用）。
 - [use-case-patterns/overview.md](../help/blueprints/use-case-patterns/overview.md)将获得B2B类别表。
 - 将从`audience-building-activation`中删除重新定位的模式，
   `campaign-management-orchestration`和`analysis`概述表；保留其旧URL
-在[migration-redirects.csv](migration-redirects.csv)中通过重定向处于活动状态。
+  在[migration-redirects.csv](migration-redirects.csv)中通过重定向处于活动状态。
 
 ### 已识别的重复项(9)
 
@@ -79,7 +81,10 @@ Blueprint范围已由现有用例模式涵盖。 迁移操作为
 | `customer-journeys/decision-management/decision-management-edge.md` | `use-case-patterns/personalization/offer-decisioning.md` |
 | `customer-journeys/decision-management/decision-management-hub.md` | `use-case-patterns/personalization/offer-decisioning.md` |
 
-> 注意： `decision-management-edge.md`和`decision-management-hub.md`都映射到同一个> 现有`offer-decisioning.md`模式。 考虑将两个Blueprint整合到一个> 部署 — 选项图，或通过edge-vs-hub部署来扩充现有模式> 变体。 标记写入程序审核。
+> 注意： `decision-management-edge.md`和`decision-management-hub.md`都映射到同一个
+> 现有`offer-decisioning.md`模式。 考虑将两个Blueprint整合到一个
+> 部署 — 选项图，或通过edge-vs-hub部署来扩充现有模式
+> 变体。 标记写入程序审核。
 
 ### 要编写的模式（8个新的+ 2个来自拆分=共10个）
 
@@ -123,20 +128,20 @@ B2B营销操作的实际应用。 新类别共汇总7个模式：3个已重新�
 ```
 # Pattern blueprints — if deleted, redirect to the new pattern URL
 # (slugs are placeholders; finalize when each pattern is authored)
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/customer-activity → use-case-patterns/audience-building-activation/<new-pattern-slug>
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/data-science → use-case-patterns/audience-building-activation/<new-pattern-slug>
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/real-time-lookup → use-case-patterns/personalization-patterns/<new-pattern-slug>
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/b2b-journeys-with-marketo → use-case-patterns/b2b-patterns/marketo-data-journeys
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/ajo-b2b-paid-media-controller → use-case-patterns/b2b-patterns/paid-media-orchestration
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/marketo-engage-and-workfront-integration-blueprint/intake-and-create → use-case-patterns/b2b-patterns/campaign-intake-and-creation
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint → use-case-patterns/b2b-patterns/campaign-review-and-approval
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/customer-activity → use-case-patterns/audience-building-activation/<new-pattern-slug>
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/data-science → use-case-patterns/audience-building-activation/<new-pattern-slug>
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/real-time-lookup → use-case-patterns/personalization-patterns/<new-pattern-slug>
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2b-journeys-with-marketo → use-case-patterns/b2b-patterns/marketo-data-journeys
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/ajo-b2b-paid-media-controller → use-case-patterns/b2b-patterns/paid-media-orchestration
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration-blueprint/intake-and-create → use-case-patterns/b2b-patterns/campaign-intake-and-creation
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint → use-case-patterns/b2b-patterns/campaign-review-and-approval
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/campaign-v8/campaign-v8-overview → use-case-patterns/campaign-orchestration-patterns/<new-pattern-slug>
 
 # Duplicate blueprints — if deleted, redirect to the existing pattern URL
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/advertising-activation → use-case-patterns/audience-building-activation/audience-activation-to-destinations
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/segment-match → use-case-patterns/audience-building-activation/audience-collaboration-segment-match
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/b2bactivation → use-case-patterns/b2b-patterns/account-audience-activation  (after b2b/ relocation)
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/b2b-buying-group-journeys → use-case-patterns/b2b-patterns/buying-group-marketing  (after b2b/ relocation)
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/advertising-activation → use-case-patterns/audience-building-activation/audience-activation-to-destinations
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/segment-match → use-case-patterns/audience-building-activation/audience-collaboration-segment-match
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2bactivation → use-case-patterns/b2b-patterns/account-audience-activation  (after b2b/ relocation)
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2b-buying-group-journeys → use-case-patterns/b2b-patterns/buying-group-marketing  (after b2b/ relocation)
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journey-analytics/b2b-cja → use-case-patterns/b2b-patterns/account-analytics  (after b2b/ relocation)
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-journeys → use-case-patterns/campaign-orchestration-patterns/event-triggered-messaging
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-campaigns → use-case-patterns/campaign-orchestration-patterns/batch-outbound-message-activation
@@ -144,7 +149,7 @@ B2B营销操作的实际应用。 新类别共汇总7个模式：3个已重新�
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/decision-management/decision-management-hub → use-case-patterns/personalization-patterns/offer-decisioning
 
 # Optional one-off — if customer-journey-analytics/analysis.md is relocated to experience-platform/
-/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journey-analytics/analysis → architecture-diagrams/architecture-overview/analysis
+/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journey-analytics/analysis → architecture-diagrams/architecture-overviews/analysis
 ```
 
 将以上任何内容转换为活动重定向行时，请设置逗号分隔格式 `source,dest`
@@ -209,7 +214,7 @@ B2B营销操作的实际应用。 新类别共汇总7个模式：3个已重新�
 | help/blueprints/b2b/b2bactivation.md | B2B 受众和用户档案激活 Blueprint | 使用帐户和配置文件数据跨Web、电子邮件和广告渠道激活基于帐户的B2B受众。 | 图案 | 复制 |  |  |  | help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md | 3 | 1 | 覆盖2：存在对等模式。 Blueprint是更窄的以架构为中心的子集。 |
 | help/blueprints/b2b/b2b-account-activation.md | B2B帐户激活到Advertising目标和文件目标 | 通过LinkedIn以及使用帐户受众创建和激活的云存储目标定位B2B帐户。 | 图表 | 图表 |  |  | B2B帐户Audience Activation |  | 1 | 2 | 最少的商业框架，无KPI，最少的叙述。 给出了架构图；描述了LinkedIn/云存储拓扑。 以图形式保留。 |
 | help/blueprints/b2b/b2b-buying-group-journeys.md | 购买基于群组的营销和历程管理Blueprint | 设计客户历程，使潜在客户有资格购买具有定义角色和解决方案兴趣的群组。 | 图案 | 复制 |  |  |  | help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md | 5 | 2 | 覆盖2：存在对等模式。 Blueprint具有丰富的模式内容，而现有的模式更加全面。 |
-| help/blueprints/b2b/b2b-journeys-with-marketo.md | 使用Marketo Data Blueprint的B2B历程 | 使用Journey Optimizer B2B edition数据部署Marketo，以编排购买团体历程和客户参与。 | 图案 | 图案 | b2b | 使用Marketo数据集成的B2B帐户历程 |  |  | 4 | 1 | 强大的业务框架。 列出了KPI；多个实施选项；广泛的注意事项（30行以上）。 通过Marketo数据集成深度（XDM配置、身份拼接、字段阻止）与现有模式区分开来。 路由到新的b2b/类别。 |
+| help/blueprints/b2b/b2b-journeys-with-marketo.md | 使用Marketo Data Blueprint的B2B历程 | 使用Marketo数据部署Journey Optimizer B2B Edition，以编排购买团体历程和客户参与。 | 图案 | 图案 | b2b | 使用Marketo数据集成的B2B帐户历程 |  |  | 4 | 1 | 强大的业务框架。 列出了KPI；多个实施选项；广泛的注意事项（30行以上）。 通过Marketo数据集成深度（XDM配置、身份拼接、字段阻止）与现有模式区分开来。 路由到新的b2b/类别。 |
 | help/blueprints/b2b/ajo-b2b-paid-media-controller.md | AJO B2B — 帐户Journey Orchestration — 付费媒体控制者 | 使用瀑布式逻辑编排B2B付费媒体营销活动，将帐户分配给营销活动并激活到目标。 | 图案 | 图案 | b2b | 通过Waterfall拆分路径逻辑进行B2B付费媒体编排 |  |  | 4 | 2 | 强大的业务框架。 明确KPI；多个实施选项；先决条件；超过30行的叙述。 不同于现有的购买群体模式（侧重于付费媒体优先化，而不是培养）。 路由到新的b2b/类别。 |
 | help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md | Marketo Engage 和 Workfront 集成 Blueprint 概述 | 使用Marketo Engage和Workfront与Fusion实现活动计划到执行自动化的概述。 | 导航 | 导航 |  |  |  |  |  |  | 覆盖1：名为overview.md的文件。 已从迁移中排除。 |
 | help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md | 接收和创建 Blueprint | 使用Workfront表单和Marketo Engage项目模板自动创建B2B营销活动请求摄取。 | 图案 | 图案 | b2b | Campaign请求接收和自动程序创建 |  |  | 4 | 1 | 强大的业务框架提高了营销活动速度。 隐式KPI（减少错误/返工）；工作流步骤>30行；准备清单。 通往新b2b/类别的路由（Marketo+Workfront运营运营主要包括B2B）。 |
@@ -221,7 +226,7 @@ B2B营销操作的实际应用。 新类别共汇总7个模式：3个已重新�
 | help/blueprints/customer-journey-analytics/cja-ajo.md | Customer Journey Analytics和Journey Optimizer Blueprint | 在CJA中分析AJO交付和交互数据；将CJA受众发布到AJO。 | 图表 | 图表 |  |  | CJA与AJO的集成和分析 |  | 1 | 3 | 强大的架构重点。 极少的叙事。 唯一内容：双向CJA-AJO数据共享模式。 |
 | help/blueprints/customer-journey-analytics/analysis.md | 数据分析和智能 Blueprint | 使用Experience Platform查询服务对数据湖数据进行探索性分析。 | 图表 | 图表 |  |  | Experience Platform查询服务与BI工具集成 |  | 1 | 3 | 涵盖查询服务，而不是特定于CJA。 可能放错在CJA文件夹中；请考虑重新定位到experience-platform/。 强大的架构师受众（PostgreSQL、BI工具）。 |
 | help/blueprints/customer-journeys/overview.md | 客户历程 Blueprint | 现代营销平台支持事件驱动的历程和品牌发起的跨渠道营销活动。 | 导航 | 导航 |  |  |  |  |  |  | 覆盖1： overview.md。 历程子类别的目录；介绍Journey Optimizer和Campaign定位。 |
-| help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md | Journey Optimizer Blueprint | 跨渠道的事件驱动的1:1配置文件编排和基于受众的品牌通信。 | 导航 | 导航 |  |  |  |  |  |  | 覆盖1： overview.md。 登陆页面，其中包含用例选项卡和集成模式。 |
+| help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md | Journey Optimizer Blueprint | 事件驱动的1:1用户档案编排和跨渠道基于受众的品牌沟通。 | 导航 | 导航 |  |  |  |  |  |  | 覆盖1： overview.md。 登陆页面，其中包含用例选项卡和集成模式。 |
 | help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md | Journey Optimizer — 触发的消息处理和Adobe Experience Platform Blueprint | 实时事件驱动型工作流根据客户行为提供个性化的多步体验。 | 图案 | 复制 |  |  |  | help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md | 4 | 2 | 覆盖2但有注意事项：代理标记为可能重复但不确定。 先验证范围是否一致，然后再缩小。 架构考虑因素可能独一无二（配置文件新鲜度、区段资格计时），值得在图中保留。 |
 | help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md | Journey Optimizer - Campaign编排 | 跨出站渠道（电子邮件、短信、推送、直邮）计划基于受众的多步通信。 | 图案 | 复制 |  |  |  | help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md | 3 | 2 | 覆盖2：等效模式。 多个体系结构图；保留为图。 独特内容：关系数据库/受众门户/瘦配置文件架构详细信息。 |
 | help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md | Journey Optimizer - 第三方消息传递 blueprint | 演示Journey Optimizer与第三方消息传递系统的集成，以实现编排式通信。 | 混合 | 拆分 | campaign-management-orchestration | 第三方消息传递与Journey Optimizer的集成 | 第三方报文传送架构 |  | 2 | 2 | 平分→打分。 图（系统到系统拓扑）加上模式内容（实施步骤、集成约束：承载身份验证、无静态IP、速率限制）。 值得保留两者。 |
@@ -230,7 +235,7 @@ B2B营销操作的实际应用。 新类别共汇总7个模式：3个已重新�
 | help/blueprints/customer-journeys/decision-management/decision-management-hub.md | 中心决策管理 Blueprint | 跨渠道提供个性化优惠，包括信息亭、代理辅助体验和出站投放。 | 混合 | 复制 |  |  |  | help/blueprints/use-case-patterns/personalization/offer-decisioning.md | 2 | 3 | 覆盖2：映射到offer-decisioning。 中心部署变量 — 考虑将与Edge Blueprint整合到一个部署 — 选项图中。 |
 | help/blueprints/customer-journeys/campaign-v8/campaign-v8-overview.md | Campaign v8 Blueprint、Campaign和平台 | 新一代批处理营销活动管理平台，具有ETL、分段和事务性消息传递功能。 | 图案 | 图案 | campaign-management-orchestration | Campaign v8批量编排和事务性消息传递 | Campaign v8架构部署模型 |  | 4 | 3 | 独特的技术方法（Campaign v8原生，而不是AJO）。 多体系结构图；业务框架；护栏中隐含的KPI（20M msg/hr批量，1M/hr实时）。 现有模式目录中无等效项。 注意：得分也符合拆分的条件 — 建议使用模式，但作者可能希望保留图表。 |
 | help/blueprints/customer-journeys/campaign-v8/rtcdp-and-campaign-v8.md | Real-Time CDP 与 Adobe Campaign v8 集成模式 | 展示RTCDP受众和配置文件与Campaign v8的集成，以进行个性化对话。 | 图表 | 图表 |  |  | RTCDP - Campaign v8受众和配置文件交换 |  | 1 | 2 | 集成连接器Blueprint，而不是独立的用例。 图表+简短的先决条件/护栏。 面向架构师。 |
-| help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md | Journey Optimizer 与 Adobe Campaign v8 Blueprint | 演示了使用Campaign v8事务性消息传送AJO编排，以实现1:1个体验。 | 图表 | 图表 |  |  | Journey Optimizer - Campaign v8事务性消息传递集成 |  | 1 | 2 | 集成连接器。 图表+实施步骤+技术限制（4,000毫秒/5分钟调节，仅限事件启动）。 AJO和Campaign v8模式的交叉链接。 |
+| help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md | Journey Optimizer 与 Adobe Campaign v8 Blueprint | 演示了使用Campaign v8进行事务性消息传递的AJO编排，其中显示了1:1体验。 | 图表 | 图表 |  |  | Journey Optimizer - Campaign v8事务性消息传递集成 |  | 1 | 2 | 集成连接器。 图表+实施步骤+技术限制（4,000毫秒/5分钟调节，仅限事件启动）。 AJO和Campaign v8模式的交叉链接。 |
 | help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md | Campaign v7 Blueprint | 已弃用：基于批次的消息传递、入门、再营销、直邮、简单事务型消息传递。 | 导航 | 导航 |  |  |  |  |  |  | 已弃用的产品（frontmatter链接到v8）。 最小内容（仅限体系结构图）。 请勿迁移。 |
 | help/blueprints/customer-journeys/campaign-v7/rtcdp-and-campaign-v7.md | Real-Time CDP与Campaign v7和Campaign Standard集成模式 | 展示RTCDP和Real-Time Customer Profile与Campaign v7/Standard的集成，以进行个性化对话。 | 图表 | 图表 |  |  | RTCDP - Campaign v7/Standard受众和配置文件交换 |  | 1 | 2 | 已弃用。 集成连接器。 图表+全面的实施步骤。 不要迁移到新模式；请保持原样。 |
-| help/blueprints/customer-journeys/campaign-v7/ajo-and-campaign-v7.md | Journey Optimizer 与 Adobe Campaign v7 Blueprint | 演示了使用Campaign v7事务性消息传送AJO编排，以实现1:1个体验。 | 图表 | 图表 |  |  | Journey Optimizer - Campaign v7事务性消息传递集成 |  | 1 | 2 | 已弃用。 集成连接器。 图表+实施步骤+约束。 请勿迁移；请保持原样。 |
+| help/blueprints/customer-journeys/campaign-v7/ajo-and-campaign-v7.md | Journey Optimizer 与 Adobe Campaign v7 Blueprint | 演示了使用Campaign v7事务性消息传递进行AJO编排，以实现1:1体验。 | 图表 | 图表 |  |  | Journey Optimizer - Campaign v7事务性消息传递集成 |  | 1 | 2 | 已弃用。 集成连接器。 图表+实施步骤+约束。 请勿迁移；请保持原样。 |

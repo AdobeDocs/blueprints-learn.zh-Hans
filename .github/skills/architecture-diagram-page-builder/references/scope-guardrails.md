@@ -1,12 +1,12 @@
 ---
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '665'
 ht-degree: 0%
 ---
 # 范围护栏：架构页面与用例模式页面
 
-Blueprint站点将&#x200B;**架构图页面**&#x200B;与&#x200B;**用例模式页面**&#x200B;分开，因为它们满足不同的读者需求。 本文档定义什么内容属于何处以及如何处理跨越边界的内容。
+此站点将&#x200B;**架构图页面**&#x200B;与&#x200B;**用例模式页面**&#x200B;分开，因为它们服务于不同的读者需求。 本文档定义什么内容属于何处以及如何处理跨越边界的内容。
 
 ## 核心区别
 

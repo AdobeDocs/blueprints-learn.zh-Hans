@@ -2,20 +2,18 @@
 title: AJO B2B付费媒体控制器
 description: 营销活动和将帐户激活到付费媒体目标的优先级
 solution: Journey Optimizer B2B Edition
-source-git-commit: 796e113c40b6b4e8b56e5fbbd22122c066c30c6f
+source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1499'
 ht-degree: 0%
-
 ---
-
 # AJO B2B — 帐户Journey Orchestration — 付费媒体控制者
 
 ## 概述
 
 大规模运行B2B付费媒体的营销团队面临一个反复出现的问题：**帐户一次结束多个营销活动**（角色、类别意识、解决方案引导、追随），这会稀释消息传递，导致受众疲劳，并强制在LinkedIn帐户匹配（帐户目标）过程中执行手动列表工作 — 上传、排除和抑制。 如果没有&#x200B;**瀑布图优先顺序**&#x200B;和&#x200B;**自动营销活动分配**，则无法单独决定哪个帐户获取了哪个消息，并且操作无法缩放。
 
-**付费媒体控制器**&#x200B;是解决此问题的完美解决方案。 它同时使用&#x200B;**Adobe Journey Optimizer B2B edition (AJO B2B)**&#x200B;和&#x200B;**Adobe Experience Platform (AEP)**：一个&#x200B;**帐户历程**&#x200B;从Real-Time CDP中读取合格的帐户受众，应用&#x200B;**拆分路径（瀑布）逻辑**&#x200B;将每个帐户仅分配给一个营销活动层，以及&#x200B;**将每个路径直接**&#x200B;激活到付费媒体目标（**例如，LinkedIn匹配受众**），而无需手动列表切换。 结果是精确控制、较少的重叠以及多通道B2B付费媒体编排的可重复模式。
+**付费媒体控制器**&#x200B;是解决此问题的完美解决方案。 它同时使用&#x200B;**Adobe Journey Optimizer B2B Edition (AJO B2B)**&#x200B;和&#x200B;**Adobe Experience Platform (AEP)**：一个&#x200B;**帐户历程**&#x200B;从Real-Time CDP中读取合格帐户受众，应用&#x200B;**拆分路径（瀑布）逻辑**&#x200B;将每个帐户仅分配给一个营销活动层，以及&#x200B;**将每个路径直接**&#x200B;激活到付费媒体目标（**例如，LinkedIn匹配受众**），而无需手动列表切换。 结果是精确控制、较少的重叠以及多通道B2B付费媒体编排的可重复模式。
 
 ## 用例：营销人员的故事：为什么控制者重要
 
@@ -50,7 +48,7 @@ ht-degree: 0%
 
 以客户为中心的解决方案需要以下应用程序和服务：
 
-- **Adobe Journey Optimizer B2B edition** — 帐户历程、拆分路径（瀑布）逻辑、激活到目标。
+- **Adobe Journey Optimizer B2B Edition** — 帐户历程、拆分路径（瀑布）逻辑、激活到目标。
 - **Adobe Real-time Customer Data Platform (RTCDP) B2B edition** — 帐户配置文件、帐户受众（例如，付费媒体的合格帐户）。
 
 ## 架构
@@ -61,19 +59,15 @@ ht-degree: 0%
 2. **编排** — AJO B2B帐户历程： **读取受众** （符合条件的帐户）→ **拆分路径** （瀑布：例如，追随→解决方案主导的→ Persona →类别→基础）→ **激活到目标** （按指向LinkedIn或其他付费媒体的路径）。
 3. **目标** — 付费媒体渠道（例如，LinkedIn匹配受众）从每个历程路径接收帐户级别的激活；不手动上传列表。
 
-## 架构图
-
-<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-activation-architecture.svg" alt="AJO B2B付费媒体控制器架构" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
-
 ## B2B AEP中的数据建模
 
-对于任何数据驱动编排，架构设计都非常重要。 AEP/RTCDP中的帐户和人员配置文件必须包含在&#x200B;**拆分路径条件**&#x200B;中使用的属性（例如，追求标志、解决方案兴趣、角色、意图类别、参与度分数）。 B2B架构（XDM业务帐户、XDM个人配置文件、关系型）应表示您的层次结构和数据源。 有关详细信息，请参阅[RTCDP B2B架构](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)和[Journey Optimizer B2B edition文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/guide-overview)。
+对于任何数据驱动编排，架构设计都非常重要。 AEP/RTCDP中的帐户和人员配置文件必须包含在&#x200B;**拆分路径条件**&#x200B;中使用的属性（例如，追求标志、解决方案兴趣、角色、意图类别、参与度分数）。 B2B架构（XDM业务帐户、XDM个人配置文件、关系型）应表示您的层次结构和数据源。 有关详细信息，请参阅[RTCDP B2B架构](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)和[Journey Optimizer B2B Edition文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/guide-overview)。
 
 **注意：**&#x200B;历程中的拆分路径逻辑使用个人资料和（如果支持）关系数据；请确保瀑布逻辑所需的字段在历程中可用。
 
 ### 护栏
 
-- **Journey Optimizer B2B edition** — 有关历程限制、节点限制和目标支持，请参阅[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html)。
+- **Journey Optimizer B2B Edition** — 有关历程限制、节点限制和目标支持，请参阅[产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html)。
 - **Real-Time CDP** — 有关分段和激活限制，请参阅[RTCDP护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/guardrails/overview)。
 
 ## 实施
@@ -107,10 +101,6 @@ ht-degree: 0%
    - 确认每个帐户只输入一条路径（第一个匹配条件）。
    - 验证激活：帐户显示在正确的目标中，并按预期从较低优先级的营销活动中排除。
 
-## 实施图
-
-<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-controller-canvas.svg" alt="AJO B2B付费媒体控制器画布" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
-
 ### Audience Activation
 
 1. **激活到LinkedIn（和其他目标）。**
@@ -127,6 +117,5 @@ ht-degree: 0%
 
 ## 相关文档
 
-- [购买基于群组的营销和历程管理Blueprint](https://experienceleague.adobe.com/zh-hans/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — 在AJO B2B中注册和购买群组的历程。
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b) — 产品文档。
+- [Adobe Journey Optimizer B2B Edition](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b) — 产品文档。
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) — 帐户受众和激活。

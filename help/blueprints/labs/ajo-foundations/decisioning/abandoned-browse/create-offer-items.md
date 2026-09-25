@@ -4,13 +4,11 @@ description: 创建分层iPhone选件项目，这些项目具有优先级、资�
 doc-type: article
 solution: Experience Platform
 exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
-
 ---
-
 
 # 创建优惠项目
 
@@ -84,7 +82,7 @@ ht-degree: 0%
 >
 >实际上，对于更复杂的选件，应该设置适当的审批流程以确保正确创建选件项目。 为节省本实验时间，您只需批准您创建的每个选件项即可。
 
-&#x200B;12. 单击选件项标题旁边的&#x200B;**向左箭头**&#x200B;以返回“选件”页面，此时您会看到iphone：17\：generic选件已列出。
+1. 单击选件项标题旁边的&#x200B;**向左箭头**&#x200B;以返回“选件”页面，此时您会看到iphone：17\：generic选件已列出。
 
 ## 创建基本模型优惠项
 
@@ -150,7 +148,7 @@ ht-degree: 0%
 
 ![Ultra层选件项的配置已完成](assets/create-offer-items-ultra-offer-final-config.png)
 
-&#x200B;11. 确认所有设置均正确后，保存并批准此选件项目。 您现在可以看到所有四个选件项目，每个项目都具有唯一的优先级。
+1. 确认所有设置均正确后，保存并批准此选件项目。 您现在可以看到所有四个选件项目，每个项目都具有唯一的优先级。
 
 ![优惠页面列出了具有唯一优先级的全部四个优惠项目](assets/create-offer-items-all-four-offers-priority.png)
 

@@ -3,13 +3,11 @@ title: 匿名访客Web Personalization
 description: 了解如何根据会话中行为信号向未识别的访客提供个性化的Web内容。
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1706'
 ht-degree: 4%
-
 ---
-
 # 匿名访客Web个性化
 
 本指南介绍了匿名访客Web个性化用例模式，该模式使用[!DNL Adobe Journey Optimizer] (AJO)、[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)和[!DNL Adobe Experience Platform] (AEP)根据会话内行为信号向匿名（未识别）访客提供个性化Web内容。 它专为需要了解此模式的用途、支持的业务目标、支持的战术用例以及涉及的Adobe应用程序的解决方案架构师、营销技术人员和实施工程师而设计。
@@ -102,12 +100,6 @@ ht-degree: 4%
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — 基于会话中行为信号的实时受众评估的Edge分段；匿名边缘配置文件管理
 - **[!DNL Adobe Experience Platform] (AEP)** — [!DNL Web SDK]用于行为信号收集，[!DNL Edge Network]用于实时数据路由和个性化投放，数据流配置
 
-## 架构
-
-以下参考架构说明了如何在边缘收集匿名访客信号、根据受众规则评估并使用这些信号提供个性化内容。
-
-![匿名受众激活和个性化的参考架构](/help/blueprints/audience-activation/assets/anonymous_activation.png)
-
 ## 相关文档
 
 以下Experience League资源提供了有关此用例模式中所用功能的更多详细信息。
@@ -115,7 +107,7 @@ ht-degree: 4%
 **Web渠道体验和基于代码的体验**
 
 - [Web渠道入门](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/get-started-web)
-- [创建Web体验](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/create-web)
+- [创建 Web 体验](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/create-web)
 - [基于代码的体验渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/get-started-code-based)
 - [基于代码的体验配置](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/code-based-configuration)
 
