@@ -97,7 +97,7 @@ Adobe [!DNL Journey Optimizer]是基于Adobe Experience Platform构建的云原�
 | 集成 | 描述 | 技术注意事项 |
 | :-- | :-- | :-- |
 | [第三方消息](3rd-party-messaging.md) | 演示Adobe [!DNL Journey Optimizer]如何与第三方消息传递平台集成，以编排和提供个性化的客户通信。 | <ul><li>第三方系统必须支持&#x200B;**持有者令牌身份验证**</li><li>由于多租户架构，不支持&#x200B;**静态IP**。</li><li>了解第三方系统上的&#x200B;**API速率限制**；客户可能需要购买额外容量来处理源自&#x200B;**Adobe Journey Optimizer**&#x200B;的流量。</li><li>消息有效负载或投放逻辑中不支持&#x200B;**决策管理**。</li></ul> |
-| 使用Adobe Campaign v8](../campaign-v8/ajo-and-campaign-v8.md)的[[!DNL Journey Optimizer]  | 演示Adobe [!DNL Journey Optimizer]如何与Adobe Campaign v8的事务性消息传递功能集成以执行最终消息传递。 | <ul><li>消息不受限制。 每5分钟最多4,000条消息。</li><li>仅支持事件启动的历程</li><li>Campaign发送的消息不支持决策管理</li></ul> |
+| 使用Adobe Campaign v8[&#128279;](../campaign-v8/ajo-and-campaign-v8.md)的[!DNL Journey Optimizer]  | 演示Adobe [!DNL Journey Optimizer]如何与Adobe Campaign v8的事务性消息传递功能集成以执行最终消息传递。 | <ul><li>消息不受限制。 每5分钟最多4,000条消息。</li><li>仅支持事件启动的历程</li><li>Campaign发送的消息不支持决策管理</li></ul> |
 
 <br>
 
