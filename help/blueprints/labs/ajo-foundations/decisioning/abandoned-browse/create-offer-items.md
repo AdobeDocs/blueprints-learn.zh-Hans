@@ -105,7 +105,7 @@ ht-degree: 0%
 5. 在新上限规则上，将&#x200B;**选择上限事件**&#x200B;更改为&#x200B;**展示。**
 6. 将&#x200B;**上限事件计数**&#x200B;更改为&#x200B;**3**。 完成后，您的上限规则将如下所示：
 
-   基础选件的上限规则设置为3次展示](assets/create-offer-items-base-offer-capping-rule.png)![
+   基础选件的上限规则设置为3次展示![&#128279;](assets/create-offer-items-base-offer-capping-rule.png)
 
    更正后，单击蓝色的&#x200B;**创建**&#x200B;按钮以保存上限规则。
 

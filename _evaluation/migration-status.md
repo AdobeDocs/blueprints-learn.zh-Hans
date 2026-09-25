@@ -4,7 +4,7 @@ workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 2%
 ---
-# 迁移状态a€` Blueprint到用例模式
+# 迁移状态a€&grave; Blueprint到用例模式
 
 本文档捕获了Blueprint重组工作的状态，以便可以跨会话干净地恢复。
 
@@ -30,7 +30,7 @@ B2B部分不再暂停。 其发布的架构范围现在仅限于受众/个人资
    >This blueprint is also available as a [use case pattern](<absolute path>) under <Category>.
    ```
 
-3. 如果Blueprint具有相关模式缺少的架构图，请将`## Architecture`部分添加到通过绝对路径引用同一SVG的模式中。 ****&#x200B;资产将保留在其原始位置（无文件副本）。
+3. 如果Blueprint具有相关模式缺少的架构图，请将`## Architecture`部分添加到通过绝对路径引用同一SVG的模式中。 **&#x200B;**&#x200B;资产将保留在其原始位置（无文件副本）。
 4. 从Blueprint中修剪模式所涵盖的&#x200B;**实施步骤**。 要删除的分区通常包括： `## Implementation steps`、`## Implementation patterns`、`## Implementation considerations`，有时包括`## Prerequisites`。 根据每个Blueprint使用判断。
 5. **逐一进行** a €建议每个Blueprint的更改，获得用户批准，然后申请。
 
@@ -112,10 +112,10 @@ Aa€&quot;E之后的用例模式总数：6个类别中的&#x200B;**26个模式*
 
 ## 仍未解决的问题（来自审核）
 
-2. **`journey-optimizer-journeys.md`** a €标记为不确定的`event-triggered-messaging`重复项；在裁切之前验证范围。
-3. “**`customer-journey-analytics/analysis.md`** a€”内容与Experience Platform查询服务有关，与CJA无关；请考虑重新定位到`experience-platform/`。
-4. **`customer-success-stories.md`** a€”仅链接页面；确认导航分类。
-5. 历史TOC — 锚点问题被已完成的B2B体系结构配置所取代。
+&#x200B;2. **`journey-optimizer-journeys.md`** a €标记为不确定的`event-triggered-messaging`重复项；在裁切之前验证范围。
+&#x200B;3. “**`customer-journey-analytics/analysis.md`** a€”内容与Experience Platform查询服务有关，与CJA无关；请考虑重新定位到`experience-platform/`。
+&#x200B;4. **`customer-success-stories.md`** a€”仅链接页面；确认导航分类。
+&#x200B;5. 历史TOC — 锚点问题被已完成的B2B体系结构配置所取代。
 
 ## 如何恢复
 

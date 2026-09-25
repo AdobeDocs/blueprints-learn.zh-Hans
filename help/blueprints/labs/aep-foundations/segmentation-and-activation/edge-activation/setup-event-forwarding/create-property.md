@@ -188,7 +188,7 @@ ht-degree: 0%
 | 方法 | 帖子 |
 | URL | 使用您在设置流目标时使用的相同webhook URL。 您可以在浏览器中打开新选项卡并导航到“目标” -> “浏览”找到它 |
 | 正文 | 原始 |
-| 正文数据 | \{ &quot;data&quot;： \{ &quot;event&quot;： &quot;\{\{数据对象\}\}&quot; } |
+| 正文数据 | \&lbrace; &quot;data&quot;： \{ &quot;event&quot;： &quot;\{\{数据对象\}\}&quot; } |
 
 >[!NOTE]
 >
@@ -226,7 +226,7 @@ ht-degree: 0%
 
 
 
-2. 单击“添加库”按钮&#x200B;****
+2. 单击“添加库”按钮&#x200B;**&#x200B;**
 
    ![用“添加库”按钮突出显示的发布流页面](assets/create-property-add-library-button.png "添加库")
 

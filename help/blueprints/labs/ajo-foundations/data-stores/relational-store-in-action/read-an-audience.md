@@ -140,7 +140,7 @@ Orchestrated Campaign对所有活动使用关系架构。 使用读取受众活�
 
 1. 将“**Result**”重命名为“**Not In Store**”，然后单击&#x200B;**创建筛选器**&#x200B;以设置筛选器条件
 
-   使用筛选器选项](assets/read-an-audience-rename-not-in-store-segment.png)将![区段重命名为“不在存储区中”
+   使用筛选器选项![&#128279;](assets/read-an-audience-rename-not-in-store-segment.png)将区段重命名为“不在存储区中”
 
 1. 在&#x200B;**创建筛选器**&#x200B;窗格中，单击&#x200B;**添加条件**。 按照与上述相同的方法，通过单击&#x200B;**>**&#x200B;展开&#x200B;**定向维度**，然后从列表中选择`Source`并单击&#x200B;**确认**
 

@@ -60,7 +60,7 @@ ht-degree: 1%
 
 转到Postman ->创建Web事件Edge（无身份验证） — >标头
 
-1. 将&#x200B;**x-adobe-aep-validation-token**&#x200B;添加到标头，标头具有从Assurance复制的上面链接。 在从Assurance复制的链接中，只获取=后面的&#x200B;**ID**&#x200B;值。 例如[https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)[`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
+1. 将&#x200B;**x-adobe-aep-validation-token**&#x200B;添加到标头，标头具有从Assurance复制的上面链接。 在从Assurance复制的链接中，只获取=后面的&#x200B;**ID**&#x200B;值。 例如[https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0) [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
 1. 我们只使用[`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)值，而不使用完整URL
 
    ![在Postman中添加具有Assurance会话ID的x-adobe-aep-validation-token标头](assets/monitor-your-event-populate-the-x-adobe-aep-validation-token.png)

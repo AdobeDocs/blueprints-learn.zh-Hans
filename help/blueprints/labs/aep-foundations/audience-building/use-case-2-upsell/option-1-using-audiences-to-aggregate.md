@@ -40,7 +40,7 @@ ht-degree: 0%
 
 
 
-   在属性列表](assets/option-1-using-audiences-to-aggregate-select-billing-data-usage-field--2.png)中选择了![计费数据使用情况字段
+   在属性列表![&#128279;](assets/option-1-using-audiences-to-aggregate-select-billing-data-usage-field--2.png)中选择了计费数据使用情况字段
 
 
 
