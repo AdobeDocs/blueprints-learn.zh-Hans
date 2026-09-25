@@ -1,14 +1,14 @@
 ---
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '230'
 ht-degree: 0%
 ---
 # 架构图页面模板
 
 这是架构图页面的完整Markdown模板。 将每`{placeholder}`替换为在技能工作流的阶段1中收集的值。 移除任何不适用的可选部分（例如`>[!MORELIKETHIS]`块） — 不要在生成的文件中保留空占位符。
 
-&#x200B;---
+---
 
 ```markdown
 ---
@@ -28,13 +28,13 @@ solution: {Comma-separated Adobe solutions, e.g. Experience Platform, Journey Op
 
 {1-2 sentence explanation of what the diagram shows and why it matters.}
 
-<img src="assets/{filename-1}" alt="{Alt text for diagram 1}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![{Alt text for diagram 1}](assets/{filename-1}){width="1000" zoomable="yes"}
 
 ## {Diagram 2 section title}
 
 {1-2 sentence explanation.}
 
-<img src="assets/{filename-2}" alt="{Alt text for diagram 2}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![{Alt text for diagram 2}](assets/{filename-2}){width="1000" zoomable="yes"}
 
 ## Primary data flows and integration points
 
@@ -59,7 +59,7 @@ The architecture above supports the following use case patterns:
 - [{Article 3 title}]({Experience League URL 3})
 ```
 
-&#x200B;---
+---
 
 ## Frontmatter规则
 
@@ -70,11 +70,11 @@ The architecture above supports the following use case patterns:
 
 - **一个H1** — 页面标题。 与`title`前件完全匹配。
 - **每个关系图一个H2。** 图节中没有H3；请将其保留为1-2句介绍以及图像。
-- **`<img>`嵌入** — 需要内联样式和`class="modal-image"`。 它们驱动Experience League模式缩放交互。
+- **Markdown图像嵌入** — 提供描述性替换文本并使用`{width="1000" zoomable="yes"}`作为图表。
 - **图像路径** — 始终为`assets/{filename}`（相对于页面的主题文件夹）。 请勿使用绝对路径。
 - **Adobe产品名称** — 在正文和项目符号中以`[!DNL ...]`换行。 示例： `[!DNL Real-Time CDP]`，`[!DNL Journey Optimizer]`，`[!DNL Experience Platform]`。
 - **用例模式链接** — 始终使用绝对`/help/blueprints/use-case-patterns/{category}/{file}.md`表单，以便该链接从任何可能包含此内容的页面中解析。
-- **Experience League链接** — 以`https://experienceleague.adobe.com/zh-hans`开头的绝对URL。 与本地化的变体相比，更喜欢规范文档URL。
+- **Experience League链接** — 以`https://experienceleague.adobe.com/`开头的绝对URL。 与本地化的变体相比，更喜欢规范文档URL。
 
 ## 章节排序
 
