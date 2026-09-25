@@ -48,6 +48,6 @@ Adobe Customer Journey Analytics将客户交互数据从Adobe Experience Platfor
 
 ## 进一步阅读
 
-- [Customer Journey Analytics概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [Customer Journey Analytics连接](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
-- [发布Customer Journey Analytics受众](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Customer Journey Analytics概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Customer Journey Analytics连接](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-connections/create-connection)
+- [发布Customer Journey Analytics受众](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/audiences/publish)
