@@ -4,7 +4,10 @@ description: 在Postman中使用配置文件实体API和身份服务集群API查
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 1%
@@ -81,7 +84,7 @@ ht-degree: 1%
 1. 单击&#x200B;**实体查找（属性）**&#x200B;请求以将其打开
 1. 通过单击&#x200B;**发送**&#x200B;按钮执行调用
 
-   发送&rbrack;(assets/profile-and-identity-apis-entity-lookup-attributes-request.png "配置文件实体查找（属性） API之前，实体查找（属性）调用的!&lbrack;Postman请求窗格")
+   发送](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "配置文件实体查找（属性） API之前，实体查找（属性）调用的![Postman请求窗格")
 
    成功的请求应使用`200 OK`进行响应，您应会看到一个包含深度模式配置文件所有属性的结果。
 
