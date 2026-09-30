@@ -95,8 +95,8 @@ B2B组织面临一个根本性的挑战：购买决策很少由一个人做出�
 
 在此用例模式中使用以下Adobe应用程序。
 
-- **[!DNL Journey Optimizer B2B Edition]([!DNL AJO B2B])** — 编排帐户级别的历程，通过角色模板和解决方案兴趣来管理购买组，在人员和购买组级别对参与情况进行评分，作者B2B电子邮件内容，发送SMS消息，配置销售警报，并提供B2B分析功能板。
-- **[!DNL Real-Time CDP B2B Edition]([!DNL RT-CDP B2B])** — 从跨源B2B数据统一帐户配置文件，解析人员与帐户的关系，评估帐户级别的受众，配置特定于B2B的目标([!DNL Marketo Engage]、[!DNL LinkedIn]、CRM)，并跨B2B数据实施数据管理。
+- **[!DNL Journey Optimizer B2B Edition] ([!DNL AJO B2B])** — 编排帐户级别的历程，通过角色模板和解决方案兴趣来管理购买组，在人员和购买组级别对参与情况进行评分，作者B2B电子邮件内容，发送SMS消息，配置销售警报，并提供B2B分析功能板。
+- **[!DNL Real-Time CDP B2B Edition] ([!DNL RT-CDP B2B])** — 从跨源B2B数据统一帐户配置文件，解析人员与帐户的关系，评估帐户级别的受众，配置特定于B2B的目标([!DNL Marketo Engage]、[!DNL LinkedIn]、CRM)，并跨B2B数据实施数据管理。
 
 ## 相关文档
 
