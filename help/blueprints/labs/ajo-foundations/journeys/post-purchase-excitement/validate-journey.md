@@ -120,7 +120,7 @@ limit 50
 
 >[!NOTE]
 >
->想知道每个字段的含义，请查看AJO架构词典，并将下拉列表更改为历程步骤事件架构：[https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en)
+>想知道每个字段的含义，请查看AJO架构词典，并将下拉列表更改为历程步骤事件架构：[https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
 
 
 
