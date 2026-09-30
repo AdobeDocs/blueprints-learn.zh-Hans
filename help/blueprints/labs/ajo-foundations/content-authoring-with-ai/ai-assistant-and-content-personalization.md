@@ -4,13 +4,14 @@ description: 使用Adobe Journey Optimizer的AI Assistant在电子邮件设计�
 doc-type: article
 solution: Experience Platform
 exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 5%
-
 ---
-
 
 # AI助手和内容个性化
 
@@ -84,7 +85,7 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 
 4. 从下拉列表中选择&#x200B;**Connection 5G Brand Guidelines**。
 
-   在AI助手下拉列表![&#128279;](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)中选择了连接5G品牌指南选项
+   在AI助手下拉列表](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)中选择了![连接5G品牌指南选项
 
 5. 提示：
 

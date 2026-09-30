@@ -3,13 +3,14 @@ title: 用例目录
 description: 按垂直方向浏览行业用例，以找到您的Adobe Experience Platform和应用程序历程的正确起点，并提供指向实施模式和业务目标的链接。
 doc-type: overview-page
 exl-id: 38593314-b8c9-49f6-85db-a4345ec444e7
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '4157'
 ht-degree: 30%
-
 ---
-
 # 用例目录
 
 行业用例展示了特定行业中的公司如何应用Adobe Experience Platform和应用程序来实现可衡量的业务成果。 每个用例描述一个具体的业务场景、其预期影响，以及指向提供详细实施指导的[用例模式](/help/blueprints/use-case-patterns/overview.md)的链接。

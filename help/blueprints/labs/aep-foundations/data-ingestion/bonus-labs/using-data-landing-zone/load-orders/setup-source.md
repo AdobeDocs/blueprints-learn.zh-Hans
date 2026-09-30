@@ -4,13 +4,14 @@ description: 将历史订单JSON文件上传到数据登陆区，并配置针对
 doc-type: article
 solution: Experience Platform
 exl-id: 046d50ad-687e-4cdb-a8b1-3c55ab39b68e
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
-
 ---
-
 
 # 设置源
 
@@ -52,7 +53,7 @@ ht-degree: 0%
 1. 在数据流详细信息屏幕中，选择&#x200B;**新建数据集**
 1. 将输出数据集命名为&#x200B;**订单 — YourNameHere**
 1. 选择架构名称&#x200B;**dep： Orders**
-1. 打开&#x200B;**配置文件数据集**&#x200B;切换框
+1. 打开&#x200B;**配置文件数据集**切换框
 （如果未打开此功能，则配置文件存储区将无法监视是否有新数据进入此数据集，因此不会将此数据摄取到配置文件中）
 1. 打开&#x200B;**启用部分摄取**
 （如果不打开此功能，则当其中一个记录出错时，摄取可能会失败）

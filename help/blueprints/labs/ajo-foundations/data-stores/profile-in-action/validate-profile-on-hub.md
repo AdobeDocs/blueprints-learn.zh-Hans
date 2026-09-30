@@ -4,13 +4,14 @@ description: 了解如何在Real-time Customer Profile Hub上查找用户档案�
 doc-type: article
 solution: Experience Platform
 exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '397'
 ht-degree: 0%
-
 ---
-
 
 # 验证中心上的配置文件
 
@@ -74,7 +75,7 @@ ht-degree: 0%
 >
 >**如何读取segmentMembership？**
 >
->[https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups：**&#x200B;这是AEP支持的各种受众的映射键。  ups键包含规则生成器创建的受众。  其他受众将包含在其他键中（例如AAM）。
 >

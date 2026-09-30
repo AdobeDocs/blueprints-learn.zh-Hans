@@ -3,13 +3,14 @@ title: B2B Audience Activation
 description: 了解如何跨Web、电子邮件和广告渠道激活基于帐户的B2B受众。
 solution: Real-Time Customer Data Platform
 exl-id: 2b979159-37aa-41d4-a6b4-1105538f6546
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 2%
-
 ---
-
 # B2B受众激活
 
 本指南介绍B2B Audience Activation用例模式，该模式使用[!DNL Adobe Real-Time Customer Data Platform] ([!DNL RT-CDP]) B2B edition在Web、电子邮件、广告和CRM渠道中构建、评估和激活帐户级别的受众。 它专为需要了解此模式的用途、支持的业务目标、支持的战术用例以及涉及的Adobe应用程序的解决方案架构师、营销技术人员和实施工程师而设计。
@@ -105,7 +106,7 @@ B2B营销团队需要在帐户级别（而不是个人级别）定位和激活�
 以下应用程序用于实现此用例模式。
 
 - **[!DNL Real-Time CDP]B2B edition** — 用于统一帐户配置文件、B2B身份解析、帐户受众评估、特定于B2B的目标配置和帐户受众激活的核心平台
-- **[!DNL Adobe Experience Platform] (AEP)** — 用于B2B XDM数据建模、从CRM和营销自动化源摄取数据、标识服务和治理的基础基础架构
+- **[!DNL Adobe Experience Platform](AEP)** — 用于B2B XDM数据建模、从CRM和营销自动化源摄取数据、标识服务和治理的基础基础架构
 - **[!DNL Marketo Engage]** — 由激活的帐户受众提供的潜在客户培养计划、评分和营销活动执行的主要B2B营销自动化目标
 
 ## 相关文档
@@ -115,65 +116,65 @@ B2B营销团队需要在帐户级别（而不是个人级别）定位和激活�
 **[!DNL RT-CDP]B2B edition**
 
 - [Real-Time CDP B2B edition概述](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#rtcdp-b2b)
-- [Real-Time CDP中的B2B架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/schemas/b2b)
-- [帐户受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/types/account-audiences)
-- [RT-CDP B2B edition产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html)
+- [Real-Time CDP中的B2B架构](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
+- [帐户受众](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)
+- [RT-CDP B2B edition产品描述](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html)
 
 **受众评估和分段**
 
-- [分段服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/home)
-- [区段生成器UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder)
-- [受众构成](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-composition)
-- [流式客户细分](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [分段护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
+- [分段服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [区段生成器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [受众构成](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
+- [流式客户细分](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [分段护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 
 **目标和激活**
 
-- [目的地概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home)
-- [目标目录](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/overview)
-- [Marketo Engage目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/adobe/marketo-engage)
-- [LinkedIn匹配受众目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/social/linkedin)
-- [Salesforce CRM目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/crm/salesforce)
-- [Microsoft Dynamics 365目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/crm/microsoft-dynamics-365)
-- [Amazon S3目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
-- [将受众激活到流目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [将受众激活到批处理目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [激活护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/guardrails)
+- [目的地概述](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+- [目标目录](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [Marketo Engage目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/adobe/marketo-engage)
+- [LinkedIn匹配受众目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
+- [Salesforce CRM目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/salesforce)
+- [Microsoft Dynamics 365目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/microsoft-dynamics-365)
+- [Amazon S3目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
+- [将受众激活到流目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [将受众激活到批处理目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [激活护栏](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
 
 **数据源和连接器**
 
-- [来源概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/home)
-- [Marketo Engage连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-- [Salesforce连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/connectors/crm/salesforce)
+- [来源概述](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+- [Marketo Engage连接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Salesforce连接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/crm/salesforce)
 
 **数据建模和标识**
 
-- [XDM系统概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)
-- [Identity服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home)
-- [配置文件概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/home)
-- [合并策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview)
+- [XDM系统概述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [Identity服务概述](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [配置文件概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [合并策略概述](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 
 **数据治理和隐私**
 
-- [数据治理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/home)
+- [数据治理概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
 - [数据使用标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview)
 - [同意和偏好设置](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 
 **监视和可观察性**
 
-- [警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview)
-- [监视目标数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [监测源数据流](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/api-tutorials/monitor)
+- [警报概述](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
+- [监视目标数据流](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [监测源数据流](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/monitor)
 - [许可证用量仪表板](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 **Reporting &amp; Analytics**
 
-- [CJA概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)
-- [连接概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-connections/overview)
-- [数据视图概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/data-views)
+- [CJA概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
+- [连接概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
+- [数据视图概述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
 
 **教程和指南**
 
 - [Real-Time CDP B2B edition快速入门](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro)
-- [为B2B源创建架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/schemas/b2b)
-- [沙盒工具](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/sandbox-tooling-api/overview)
+- [为B2B源创建架构](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
+- [沙盒工具](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/sandbox-tooling-api/overview)

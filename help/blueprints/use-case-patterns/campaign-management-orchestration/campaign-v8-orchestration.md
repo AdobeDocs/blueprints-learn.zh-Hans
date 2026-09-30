@@ -3,7 +3,12 @@ title: Campaign v8 Blueprint、Campaign和平台
 description: 了解Campaign v8的蓝图。
 solution: Campaign,Campaign v8
 version: Campaign v8
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 29%
@@ -134,11 +139,11 @@ Adobe Campaign v8是新一代营销活动管理平台，专为电子邮件和直
 
 ## 实施步骤
 
-请参阅快速入门指南，以了解[实施 Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=zh-Hans)
+请参阅快速入门指南，以了解[实施 Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html)
 
 ## 相关文档
 
-- [Campaign v8文档](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=zh-Hans)
+- [Campaign v8文档](https://experienceleague.adobe.com/docs/campaign-v8.html)
 - [Campaign v8产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-- [Experience Platform标记文档](https://experienceleague.adobe.com/docs/launch.html?lang=zh-Hans)
-- [Experience Platform Mobile SDK文档](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hans)
+- [Experience Platform标记文档](https://experienceleague.adobe.com/docs/launch.html)
+- [Experience Platform Mobile SDK文档](https://experienceleague.adobe.com/docs/mobile.html)

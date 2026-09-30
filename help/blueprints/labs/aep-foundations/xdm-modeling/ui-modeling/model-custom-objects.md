@@ -4,7 +4,10 @@ description: 在架构编辑器中构建自定义帐户、计划和customerID字
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 0%
@@ -33,7 +36,7 @@ ht-degree: 0%
 
 1. 通过单击架构顶部的&#x200B;**+ （添加）**&#x200B;按钮添加新字段
 
-   在架构顶部添加(+)按钮以添加自定义字段![&#128279;](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
+   在架构顶部添加(+)按钮以添加自定义字段](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)![
 
    >[!NOTE]
    >
@@ -106,7 +109,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >枚举和建议值的目标是使分段对于最终用户更容易。 枚举在数据摄取时强制进行验证，而建议值不强制验证。 要了解有关此功能的更多信息，请参阅此处的文档 — > [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=zh-Hans#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=zh-Hans#enums-and-suggested-values)
+   >枚举和建议值的目标是使分段对于最终用户更容易。 枚举在数据摄取时强制进行验证，而建议值不强制验证。 要了解有关此功能的更多信息，请参阅此处的文档 — > [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
 
 
 
@@ -177,7 +180,7 @@ ht-degree: 0%
 
 完成后，您的最终结果看起来类似于下面的屏幕截图
 
-在根![&#128279;](assets/model-custom-objects-customerid-field-added.png)中添加了具有customerID字段的客户帐户架构
+在根](assets/model-custom-objects-customerid-field-added.png)中添加了![具有customerID字段的客户帐户架构
 
 
 

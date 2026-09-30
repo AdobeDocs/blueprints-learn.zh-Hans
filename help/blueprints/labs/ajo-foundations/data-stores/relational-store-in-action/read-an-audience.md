@@ -4,7 +4,10 @@ description: 了解如何在编排的营销活动中结合使用读取受众活�
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -140,7 +143,7 @@ Orchestrated Campaign对所有活动使用关系架构。 使用读取受众活�
 
 1. 将“**Result**”重命名为“**Not In Store**”，然后单击&#x200B;**创建筛选器**&#x200B;以设置筛选器条件
 
-   使用筛选器选项![&#128279;](assets/read-an-audience-rename-not-in-store-segment.png)将区段重命名为“不在存储区中”
+   使用筛选器选项](assets/read-an-audience-rename-not-in-store-segment.png)将![区段重命名为“不在存储区中”
 
 1. 在&#x200B;**创建筛选器**&#x200B;窗格中，单击&#x200B;**添加条件**。 按照与上述相同的方法，通过单击&#x200B;**>**&#x200B;展开&#x200B;**定向维度**，然后从列表中选择`Source`并单击&#x200B;**确认**
 
@@ -182,4 +185,4 @@ Orchestrated Campaign对所有活动使用关系架构。 使用读取受众活�
 
 您现在已经了解了创建营销活动、执行读取受众活动以及配置文件定位Dimension以使用关系架构有多么简单。 您使用了拆分活动根据条件拆分受众。 最后，该测试模式有助于理解，配置文件和关系模式之间的数据一致性很重要。
 
-如有需要，您可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience)阅读更多内容。
+如有需要，您可以在[此处](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience)阅读更多内容。

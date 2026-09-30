@@ -2,10 +2,12 @@
 title: 设置
 description: 在启动Postman基础实验室之前，完成所需的沙盒部署和AJO配置步骤。
 doc-type: article
-
 solution: Experience Platform
 exl-id: 7c1a9e3d-5b8f-4a2e-9c6d-3f7b0e4a8c2d
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 1%
@@ -44,7 +46,7 @@ ht-degree: 1%
 
 ### 已委派的子域
 
-[配置电子邮件渠道](data-stores/configure-email-channels/overview.md)实验室 — 以及依赖它的所有内容（[正在运行的消息投放](orchestrated-campaigns/message-delivery-in-action/overview.md)、[购买后兴奋](journeys/post-purchase-excitement/overview.md)和[AJO Brands](content-authoring-with-ai/overview.md)） — 需要委派给Adobe的子域来发送电子邮件。 如果您还没有域，请向任何域注册机构（例如，Namecheap）注册一个域。 然后，要将其子域（例如`email.yourdomain.com`）委派给Adobe，请按照Adobe的[子域委派说明](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)操作。
+[配置电子邮件渠道](data-stores/configure-email-channels/overview.md)实验室 — 以及依赖它的所有内容（[正在运行的消息投放](orchestrated-campaigns/message-delivery-in-action/overview.md)、[购买后兴奋](journeys/post-purchase-excitement/overview.md)和[AJO Brands](content-authoring-with-ai/overview.md)） — 需要委派给Adobe的子域来发送电子邮件。 如果您还没有域，请向任何域注册机构（例如，Namecheap）注册一个域。 然后，要将其子域（例如`email.yourdomain.com`）委派给Adobe，请按照Adobe的[子域委派说明](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)操作。
 
 >[!NOTE]
 >

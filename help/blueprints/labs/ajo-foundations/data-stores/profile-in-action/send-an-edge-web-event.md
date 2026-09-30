@@ -4,13 +4,14 @@ description: 了解如何使用数据流ID通过Postman API调用将模拟Web事
 doc-type: article
 solution: Experience Platform
 exl-id: 0823bcf7-35d9-492e-ad8d-3e8327f77dd8
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
-
 ---
-
 
 # 发送Edge Web事件
 
@@ -76,7 +77,7 @@ ht-degree: 0%
 
 2. 从页面上的第一步使用&#x200B;**数据流ID**&#x200B;更新&#x200B;**DATASTREAM_CONFIG** **值**。
 
-   使用数据流ID ![&#128279;](assets/send-an-edge-web-event-update-datastream-config-variable.png)更新了DATASTREAM_CONFIG变量
+   使用数据流ID ](assets/send-an-edge-web-event-update-datastream-config-variable.png)更新了![DATASTREAM_CONFIG变量
 
 3. **保存**&#x200B;您的更新（ctrl+s或command+s）
 4. 单击环境侧栏右上角的“**X**”以关闭该侧栏

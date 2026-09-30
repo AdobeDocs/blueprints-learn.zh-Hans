@@ -3,13 +3,18 @@ title: 汽车用例
 description: 了解汽车行业组织如何使用Adobe Experience Platform使车辆购买历程个性化、提高服务保留率和建立所有者忠诚度。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: ee83c739-0907-481d-ba3f-358af4e03c67
-source-git-commit: e5c88f240fe86bbc494402842a3d974f803aab03
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1802'
 ht-degree: 4%
-
 ---
-
 # 汽车用例
 
 汽车企业使用Adobe Experience Platform将来自经销商互动、在线车辆研究、服务记录和联网汽车系统的客户数据统一到每个所有者的单一视图中。 这一基础将在整个所有权生命周期（从最初的车辆研究到购买、服务和忠诚度）中实现个性化体验。

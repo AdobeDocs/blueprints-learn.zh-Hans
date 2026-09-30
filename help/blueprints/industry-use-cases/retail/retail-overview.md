@@ -3,13 +3,18 @@ title: 零售用例
 description: 了解零售组织如何使用Adobe Experience Platform打造个性化购物体验、回收放弃的购物车并提高客户忠诚度。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 89a5b6b5-bb71-4154-bb3b-f6dbbbef13eb
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '6082'
 ht-degree: 0%
-
 ---
-
 # 零售用例
 
 零售组织使用Adobe Experience Platform将在线商店、实际位置和忠诚度计划中的客户数据统一到每位购物者的单一视图中。 此基础可实现个性化的购物体验、可恢复收入损失的及时外展以及保持客户回访的忠诚度策略。

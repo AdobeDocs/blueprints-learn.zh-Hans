@@ -3,7 +3,10 @@ title: 架构概述
 description: 显示Adobe Experience Cloud应用程序、Adobe Experience Platform及其SDK如何组合的顶级图，以及护栏和延迟。
 solution: Experience Platform
 doc-type: overview-page
-source-git-commit: 7b2542ddb50449d5f41b81d1fe95781aaffa972a
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%

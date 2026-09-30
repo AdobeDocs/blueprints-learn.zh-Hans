@@ -4,13 +4,14 @@ description: 针对现有数据集创建批次源数据流，并从先前的数�
 doc-type: article
 solution: Experience Platform
 exl-id: 6f26f742-27e8-445a-8005-21d4e59dc3d0
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%
-
 ---
-
 
 # 创建新数据流
 
@@ -28,9 +29,9 @@ ht-degree: 0%
 
 1. 在数据流详细信息屏幕中，选择&#x200B;**现有数据集**。
 1. 使用您之前创建的数据集，名称为&#x200B;**客户帐户 — \&lt;您的首字母>**
-1. 确保已打开&#x200B;**配置文件数据集**&#x200B;切换开关。
+1. 确保已打开&#x200B;**配置文件数据集**切换开关。
 （如果不打开此功能，配置文件存储区将无法监视是否有新数据进入此数据集，因此不会将此数据摄取到配置文件中）
-1. 确保已打开&#x200B;**启用部分摄取**&#x200B;切换开关
+1. 确保已打开&#x200B;**启用部分摄取**切换开关
 （如果不打开此功能，则当只有一个记录出错时，整个摄取可能会失败）
 1. 将数据流名称设置为&#x200B;**客户帐户批次v2 - \&lt;您的首字母>**
 1. 打开所有警报&#x200B;**源数据流启动/成功/失败**

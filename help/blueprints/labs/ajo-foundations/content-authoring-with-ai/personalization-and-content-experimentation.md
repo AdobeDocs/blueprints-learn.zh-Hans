@@ -4,13 +4,14 @@ description: 了解如何使用用户档案属性和Handlebars语法个性化电
 doc-type: article
 solution: Experience Platform
 exl-id: b79327e0-dfc4-49bf-a112-3675c825c479
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 0%
-
 ---
-
 
 # Personalization和内容试验
 
@@ -48,7 +49,7 @@ Adobe Journey Optimizer中的Personalization允许您根据个人资料、行为
 
    电子邮件文本工具栏中的![个性化图标](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
-4. 搜索&#x200B;**第一个名称**&#x200B;**1&rbrace;。**
+4. 搜索&#x200B;**第一个名称****1}。**
 
    ![在个性化面板中搜索“名字”属性](assets/personalization-and-content-experimentation-search-first-name-field.png)
 

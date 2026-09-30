@@ -3,13 +3,18 @@ title: 媒体和娱乐用例
 description: 了解媒体和娱乐组织如何使用Adobe Experience Platform实现内容发现个性化、减少订阅者流失以及提高受众参与度。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: cfcf689f-9579-447f-9ef9-72e0c80c1f27
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3363'
 ht-degree: 0%
-
 ---
-
 # 媒体和娱乐用例
 
 媒体和娱乐组织使用Adobe Experience Platform将流平台、内容库和订阅者帐户中的受众数据统一到每个查看者或收听者的单个视图中。 此基础实现了个性化内容发现、主动订阅者保留和参与策略，使受众能够回访并获取更多内容。

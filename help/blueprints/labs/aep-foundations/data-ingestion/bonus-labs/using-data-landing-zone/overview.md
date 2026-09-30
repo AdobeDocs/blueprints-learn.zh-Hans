@@ -4,7 +4,10 @@ description: 安装和配置带有SAS URL的Azure Storage Explorer以连接到Ad
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d61bef25-7039-450d-a8e7-01bb12e8df7c
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
@@ -21,7 +24,7 @@ ht-degree: 0%
 1. 安装应用程序
 1. 第一次打开应用程序时，接受最终用户许可协议
 
-Azure Storage Explorer&rbrack;(assets/overview-end-user-license-agreement-screen.png "最终用户许可协议屏幕中的!&lbrack;最终用户许可协议屏幕")
+Azure Storage Explorer](assets/overview-end-user-license-agreement-screen.png "最终用户许可协议屏幕中的![最终用户许可协议屏幕")
 
 
 ## 使用Experience Platform配置Azure存储资源管理器

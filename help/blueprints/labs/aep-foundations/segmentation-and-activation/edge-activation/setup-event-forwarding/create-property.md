@@ -4,7 +4,10 @@ description: 创建具有数据元素和规则的事件转发属性，以将传�
 doc-type: article
 solution: Experience Platform
 exl-id: eabd5f75-7706-4c96-982e-2512509bdc55
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 0%
@@ -188,7 +191,7 @@ ht-degree: 0%
 | 方法 | 帖子 |
 | URL | 使用您在设置流目标时使用的相同webhook URL。 您可以在浏览器中打开新选项卡并导航到“目标” -> “浏览”找到它 |
 | 正文 | 原始 |
-| 正文数据 | \&lbrace; &quot;data&quot;： \{ &quot;event&quot;： &quot;\{\{数据对象\}\}&quot; } |
+| 正文数据 | \{ &quot;data&quot;： \{ &quot;event&quot;： &quot;\{\{数据对象\}\}&quot; } |
 
 >[!NOTE]
 >
@@ -226,7 +229,7 @@ ht-degree: 0%
 
 
 
-2. 单击“添加库”按钮&#x200B;**&#x200B;**
+2. 单击“添加库”按钮&#x200B;****
 
    ![用“添加库”按钮突出显示的发布流页面](assets/create-property-add-library-button.png "添加库")
 

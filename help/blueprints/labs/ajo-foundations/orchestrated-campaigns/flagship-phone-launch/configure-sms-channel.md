@@ -4,7 +4,10 @@ description: 了解如何配置基于Twilio的短信渠道及其执行维度，�
 doc-type: article
 solution: Experience Platform
 exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 0%
@@ -107,7 +110,7 @@ Twilio供应商的![SMS API凭据字段](assets/configure-sms-channel-enter-api-
 
    ![具有目标和辅助维度的执行维度设置](assets/configure-sms-channel-execution-dimension-setup.png)
 
-   在执行维度设置“次要Dimension”![&#128279;](assets/configure-sms-channel-secondary-dimension-detail.png "次要Dimension")中，将次要Dimension设置为客户行
+   在执行维度设置“次要Dimension”](assets/configure-sms-channel-secondary-dimension-detail.png "次要Dimension")中，将![次要Dimension设置为客户行
 
    >[!NOTE]
    >
@@ -165,4 +168,4 @@ Twilio供应商的![SMS API凭据字段](assets/configure-sms-channel-enter-api-
 
 您现在已了解如何成功配置短信渠道。  请注意，此配置是一种基于API的短信，因此根据您的提供商，他们可能会使用其他方法进行身份验证。
 
-如有需要，您可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)阅读更多内容。
+如有需要，您可以在[此处](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)阅读更多内容。

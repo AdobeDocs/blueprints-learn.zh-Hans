@@ -4,7 +4,10 @@ description: 了解如何在测试模式下运行编排的活动工作流，并�
 doc-type: article
 solution: Experience Platform
 exl-id: c3b35b27-92ae-44ca-a5fb-3f76990f9db4
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%
@@ -88,7 +91,7 @@ ht-degree: 0%
 
 5. 在预览结果屏幕中一直滚动到表的底部，您注意到&#x200B;**4记录**&#x200B;具有&#x200B;**空白的定向维度**。
 
-表![&#128279;](assets/run-the-workflow-4-records-missing-dimension.png)底部具有空白定向维度的4条记录
+表](assets/run-the-workflow-4-records-missing-dimension.png)底部具有空白定向维度的![4条记录
 
 
 

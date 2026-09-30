@@ -6,7 +6,14 @@ short-description: 将 RTCDP 轮廓和受众与 Adobe Target 集成。
 solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
-source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 32%
@@ -28,7 +35,7 @@ ht-degree: 32%
 
 ### 参考文档
 
-* [实时客户数据平台的Adobe Target连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans)
+* [实时客户数据平台的Adobe Target连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
 * [Edge数据流配置](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=zh-Hans)
 
 ## 集成模式
@@ -54,7 +61,7 @@ ht-degree: 32%
 
 使用传统的特定于应用程序的 SDK（例如，AT.js 和 AppMeasurement.js）。 使用此实施方案不支持实时 Edge 区段评估。 但是，使用此实施方案支持从 Experience Platform 中心进行流传输和批次受众共享。
 
-[请参阅Adobe Target连接器文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[请参阅Adobe Target连接器文档](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
 [请参阅Experience Platform Web SDK Blueprint](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)
 
 ## 实施注意事项

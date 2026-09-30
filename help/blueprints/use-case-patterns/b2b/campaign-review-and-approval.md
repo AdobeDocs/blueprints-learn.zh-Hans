@@ -1,7 +1,10 @@
 ---
 title: 审阅并批准
 description: 审查和批准 — Marketo Engage与Workfront集成
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 83%
@@ -71,7 +74,7 @@ ht-degree: 83%
 
 ### 使用Workfront校对通过注释和批注进行协作 {#use-workfront-proofing-to-collaborate}
 
-[Workfront的校对](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html?lang=zh-Hans){target="_blank"}功能允许您的营销团队获取新资源（如图像或电子邮件），并通过评论和批注进行协作。 一旦验证准备好上线，决策者就可以批准验证工具中的资产。
+[Workfront的校对](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"}功能允许您的营销团队获取新资源（如图像或电子邮件），并通过评论和批注进行协作。 一旦验证准备好上线，决策者就可以批准验证工具中的资产。
 
 ### 批准Workfront Proof并在Marketo Engage中触发资源批准，将任务标记为完成 {#approve-workfront-proof-and-trigger-asset-approval-in-marketo-engage}
 

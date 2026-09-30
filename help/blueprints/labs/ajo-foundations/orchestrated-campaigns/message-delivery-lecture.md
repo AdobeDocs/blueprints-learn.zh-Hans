@@ -4,13 +4,14 @@ description: 观看视频讲座，了解编排的营销活动中消息投放的�
 doc-type: article
 solution: Experience Platform
 exl-id: d6b08e96-3914-450e-8bd3-7cde9ddb2cae
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 0%
-
 ---
-
 
 # 消息投放讲座
 

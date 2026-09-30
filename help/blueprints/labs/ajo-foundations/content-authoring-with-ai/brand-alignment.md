@@ -4,13 +4,14 @@ description: 了解如何使用AJO的AI驱动的品牌协调得分根据品牌�
 doc-type: article
 solution: Experience Platform
 exl-id: 2385232e-9059-469a-975d-3c7ace146c29
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
-
 ---
-
 
 # 品牌一致性
 
@@ -108,7 +109,7 @@ Adobe Journey Optimizer包含&#x200B;**AI驱动的Brand Alignment分数**，该�
 
    用于应用建议修改的![AI建议图标](assets/brand-alignment-ai-suggestion-icon.png)
 
-4. 单击“使用AI修复”**&#x200B;**&#x200B;按钮，如下所示。
+4. 单击“使用AI修复”****&#x200B;按钮，如下所示。
 
    针对已标记的准则![使用AI修复按钮](assets/brand-alignment-fix-with-ai-button.png)
 

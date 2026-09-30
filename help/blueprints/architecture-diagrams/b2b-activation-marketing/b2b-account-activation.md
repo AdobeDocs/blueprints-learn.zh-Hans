@@ -3,7 +3,10 @@ title: Advertising和文件目标的B2B帐户激活
 description: 使用基于帐户的参与来创建帐户受众，并将这些受众激活到广告目标和云存储。
 solution: Real-Time Customer Data Platform
 exl-id: 578c0019-6133-4508-ae9d-8a8a463376f0
-source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 1%
@@ -60,19 +63,19 @@ ht-degree: 1%
 
 设计和激活帐户受众时，请参阅以下护栏：
 
-- [Real-Time Customer Data Platform B2B edition的护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
-- [帐户受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
-- [激活帐户受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
-- [个人资料和分段护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails)
-- [流式分段资格标准更新](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/eligibility-criteria-update)
+- [Real-Time Customer Data Platform B2B edition的护栏](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [帐户受众](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [激活帐户受众](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
+- [个人资料和分段护栏](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [流式分段资格标准更新](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/eligibility-criteria-update)
 
 ## Real-Time Customer Data Platform B2B edition的实施步骤、帐户受众的创建和激活
 
-- 有关Real-Time Customer Data Platform B2B edition的实施步骤，请参阅文档：[Real-Time Customer Data Platform B2B edition快速入门](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)。
-- 有关帐户受众创建步骤，请参阅[帐户受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/account-audiences?lang=en)文档。
-- 有关帐户受众激活步骤，请参阅[激活帐户受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)文档：
+- 有关Real-Time Customer Data Platform B2B edition的实施步骤，请参阅文档：[Real-Time Customer Data Platform B2B edition快速入门](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)。
+- 有关帐户受众创建步骤，请参阅[帐户受众](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)文档。
+- 有关帐户受众激活步骤，请参阅[激活帐户受众](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)文档：
 
-  - [LinkedIn匹配受众目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings)的必需映射。
+  - [LinkedIn匹配受众目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings)的必需映射。
 
 ## 实施注意事项
 
@@ -81,11 +84,11 @@ LinkedIn匹配的受众具有最低受众规模要求（例如，300个匹配的
 ## 相关文档
 
 - [B2B Audience和Profile Activation Blueprint](b2b-audience-profile-activation.md) — 父Blueprint同时涵盖人员级别和帐户级别的B2B激活。
-- [Real-Time Customer Data Platform的B2B edition](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview?lang=en)
-- [创建和激活帐户受众 — 教程视频](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data?lang=en)
-- [创建帐户受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
-- [激活帐户受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
-- [Adobe Experience Platform - LinkedIn目标连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)
-- [Real-Time CDP B2B edition中的架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/schemas/b2b)
-- [架构升级到Real-Time CDP B2B edition](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
-- [目标护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/guardrails)
+- [Real-Time Customer Data Platform的B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview?lang=en)
+- [创建和激活帐户受众 — 教程视频](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data?lang=en)
+- [创建帐户受众](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [激活帐户受众](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
+- [Adobe Experience Platform - LinkedIn目标连接器](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)
+- [Real-Time CDP B2B edition中的架构](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
+- [架构升级到Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
+- [目标护栏](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)

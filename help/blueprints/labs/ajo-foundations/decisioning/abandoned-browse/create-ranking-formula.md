@@ -4,7 +4,10 @@ description: 构建一个排名公式，以根据用户档案属性（如年龄�
 doc-type: article
 solution: Experience Platform
 exl-id: 67aaca7f-366c-4db4-a5d5-017f52fbd15b
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 0%
@@ -75,7 +78,7 @@ ht-degree: 0%
 
 3. 将运算符保留设置为“等于”，在剩余的文本框中，输入ultra tier选件项的名称，即&#x200B;**iphone：17\：ultra**。 输入文本后，UI将更新并反映匹配条件已被接受。
 4. 单击&#x200B;**+添加条件**，然后单击显示的&#x200B;**新文本框** (其中包含文本“*单击以创建决策项……*”
-5. 单击现在可用的&#x200B;**选择属性**&#x200B;选项&#x200B;**.**
+5. 单击现在可用的&#x200B;**选择属性**&#x200B;选项**.**
 6. 当“选择属性”对话框打开时，单击&#x200B;**配置文件属性>人员**（您可能需要向下滚动）**>出生年份**。 选择后，单击&#x200B;**保存。**
 
    >[!NOTE]

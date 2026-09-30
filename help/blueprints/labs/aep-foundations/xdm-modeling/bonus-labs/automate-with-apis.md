@@ -4,7 +4,10 @@ description: 运行一个Postman收藏集，可在单次运行时自动创建架
 doc-type: article
 solution: Experience Platform
 exl-id: a490f93f-19da-4de3-81c8-4569c49c5354
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -44,7 +47,7 @@ ht-degree: 0%
 
 1. 此时将显示一个新窗口，其中显示了文件夹中的所有API调用。 将&#x200B;**延迟**&#x200B;设置为&#x200B;**500毫秒**，然后单击&#x200B;**运行**&#x200B;按钮。
 
-   在单击“运行”![&#128279;](assets/automate-with-apis-execute-automation-dialog.png "“执行自动化”")之前，“执行自动化”对话框的延迟设置为500毫秒
+   在单击“运行”](assets/automate-with-apis-execute-automation-dialog.png "“执行自动化”")之前，![“执行自动化”对话框的延迟设置为500毫秒
 
 
 

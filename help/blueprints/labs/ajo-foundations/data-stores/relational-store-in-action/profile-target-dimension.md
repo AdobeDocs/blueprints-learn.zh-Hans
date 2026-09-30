@@ -4,7 +4,10 @@ description: 了解如何将关系架构字段标记为身份并创建配置文�
 doc-type: article
 solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -106,4 +109,4 @@ ht-degree: 0%
 
 现在，您已看到在架构中导航、将属性标记为身份和创建Profile Target Dimension有多么简单。
 
-如有需要，您可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension)阅读更多内容。
+如有需要，您可以在[此处](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension)阅读更多内容。
