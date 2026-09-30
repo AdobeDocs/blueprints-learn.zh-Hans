@@ -3,13 +3,16 @@ title: Offer Decisioning
 description: 了解如何使用集中式决策逻辑跨渠道为用户档案选择下一个最佳选件或内容。
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 8fd511b3-0200-41bf-aff1-e3f2a00a578e
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1707'
 ht-degree: 5%
-
 ---
-
 # Offer Decisioning
 
 本指南介绍Offer Decisioning用例模式，该模式使用[!DNL Adobe Journey Optimizer] (AJO) Decisioning和[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)实施集中式优惠选择逻辑，从而跨渠道为每个客户配置文件确定下一个最佳优惠。 它专为需要了解此模式的用途、支持的业务目标、支持的战术用例以及涉及的Adobe应用程序的解决方案架构师、营销技术人员和实施工程师而设计。
@@ -42,13 +45,13 @@ Offer Decisioning通过在AJO的决策管理引擎中集中所有优惠选择逻
 根据个人偏好、行为和生命周期阶段定制内容、选件和消息。
 **KPI：**&#x200B;参与度、转化率、客户满意度(CSAT)
 
-**[推动交叉销售和追加销售收入](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)**
+**[提高交叉销售和追加销售收入](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)**
 根据行为和购买历史，向现有客户推广补充性和优质产品或服务。
 **KPI：**&#x200B;追加销售/交叉销售%，增量收入，客户存留期值
 
 **[提高客户忠诚度和存留期值](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
 通过忠诚度计划、奖励和个性化参与，深化客户关系并最大化长期价值。
-**KPI：**&#x200B;客户存留期值、留存率、追加销售/交叉销售%
+**KPI：**&#x200B;客户存留期值，留存，追加销售/交叉销售%
 
 ## 战术用例示例
 

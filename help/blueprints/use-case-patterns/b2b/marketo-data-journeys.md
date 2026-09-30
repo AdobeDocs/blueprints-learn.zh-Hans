@@ -2,7 +2,10 @@
 title: 使用Marketo Data Blueprint的B2B历程
 description: 使用Marketo Engage数据快速部署Journey Optimizer B2B Edition的Blueprint。
 solution: Journey Optimizer B2B Edition
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '2069'
 ht-degree: 2%
@@ -202,7 +205,7 @@ order by
 
 * [Adobe Journey Optimizer B2B Edition — 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer-b2b.html)
 包括用于Journey Optimizer B2B Edition的特定护栏和使用参数。
-* [Adobe Experience Platform部署护栏](https://experienceleague.adobe.com/zh-hans/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
+* [Adobe Experience Platform部署护栏](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
 涵盖Adobe Experience Platform解决方案的一般架构和部署护栏。
 * [Adobe Marketo Engage — 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
 详细介绍Marketo Engage的性能和使用情况护栏，包括激活和CRM同步注意事项。

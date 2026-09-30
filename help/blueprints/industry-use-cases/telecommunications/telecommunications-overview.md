@@ -3,13 +3,18 @@ title: 电信用例
 description: 了解电信企业如何使用Adobe Experience Platform减少客户流失、推动设备和规划升级，以及提高客户参与度。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 653632f0-81be-435c-a703-56c5bc132794
-source-git-commit: 4b4d85f80abaa6219e7ea210864a07a141564921
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3527'
 ht-degree: 0%
-
 ---
-
 # 电信用例
 
 电信机构使用Adobe Experience Platform为每个用户建立统一的视图，并提供个性化体验，从而减少流失、增加计划和设备升级，以及加强长期客户关系。 通过连接网络使用数据、计费信息和客户交互，电信提供商可以预测用户需求并通过其首选渠道在正确的时间与他们互动。

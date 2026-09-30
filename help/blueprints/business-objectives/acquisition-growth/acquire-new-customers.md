@@ -3,13 +3,16 @@ title: 获取新客户
 description: 了解如何通过有针对性的客户获取促销活动、相似受众和付费媒体优化来扩展客户群。
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: 57b2da92-f099-4c82-899b-9023f1ac81dc
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 5%
-
 ---
-
 # 获取新客户
 
 通过有针对性的客户获取促销活动、相似受众和付费媒体优化来扩展客户群。 此目标专注于通过精准的受众定位和抑制现有客户，在保持成本效益的同时大规模拓展新潜在客户。

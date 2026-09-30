@@ -3,13 +3,18 @@ title: 改进潜在客户资格鉴定和转化
 description: 了解如何通过评分、培养和个性化的跟进来提高潜在客户质量并加快管道进度。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 4454b148-79f9-49f9-97ca-f305df00fe0b
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 4%
-
 ---
-
 # 改进潜在客户资格鉴定和转化
 
 通过评分、培养和个性化的跟进，提高销售线索质量并加快管道进度。 此目标侧重于通过购买群组分析、多方利益相关者参与跟踪以及自动化资格鉴定工作流来识别高潜力的潜在客户，从而加快从潜在客户到机会的路径。

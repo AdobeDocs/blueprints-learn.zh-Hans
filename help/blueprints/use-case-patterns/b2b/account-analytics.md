@@ -3,13 +3,16 @@ title: B2B分析
 description: 了解如何在跨渠道客户历程分析中包含B2B帐户级别信息。
 solution: Customer Journey Analytics, Real-Time Customer Data Platform
 exl-id: 9d576e5c-cbd2-4c60-a6b0-88f8b8b963b4
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1811'
 ht-degree: 2%
-
 ---
-
 # B2B分析
 
 本指南介绍了B2B分析用例模式，该模式使用[!DNL Customer Journey Analytics] ([!DNL CJA])B2B edition和[!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP])B2B edition将B2B帐户级别信息合并到跨渠道客户历程分析中。 它专为需要了解此模式的用途、支持的业务目标、支持的战术用例以及涉及的Adobe应用程序的解决方案架构师、营销技术人员和实施工程师而设计。

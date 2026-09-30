@@ -3,7 +3,10 @@ title: 受众和用户档案激活
 description: 显示受众和配置文件如何在Adobe Real-Time CDP中构建以及如何激活到目标和应用程序的图表。
 solution: Real-Time Customer Data Platform
 doc-type: overview-page
-source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 6%

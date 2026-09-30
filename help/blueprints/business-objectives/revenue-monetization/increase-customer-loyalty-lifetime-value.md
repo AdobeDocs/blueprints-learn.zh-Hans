@@ -3,7 +3,14 @@ title: 提高客户忠诚度和存留期值
 description: 了解如何通过忠诚度计划、奖励和个性化参与来深化客户关系并最大化长期价值。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 4054a964-652a-492a-adae-e6a9edaf9e8a
-source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 9%

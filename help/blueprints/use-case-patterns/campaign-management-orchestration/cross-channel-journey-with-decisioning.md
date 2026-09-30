@@ -3,13 +3,16 @@ title: 使用Decisioning进行跨渠道历程
 description: 了解如何结合实时决策来编排多步历程以选择最佳渠道、内容或选件。
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: eabdd91f-bb7d-4de3-adb5-5940d3ca4a78
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
-source-wordcount: '1983'
+source-wordcount: '2070'
 ht-degree: 5%
-
 ---
-
 # 使用决策的跨渠道历程
 
 本指南介绍具有决策功能的跨渠道历程用例模式，该模式使用[!DNL Adobe Journey Optimizer]和[!DNL Adobe Real-Time Customer Data Platform]编排多步骤、多渠道历程，在一个或多个历程节点纳入实时决策。 它专为需要了解此模式的用途、支持的业务目标、支持的战术用例以及涉及的Adobe应用程序的解决方案架构师、营销技术人员和实施工程师而设计。
@@ -52,13 +55,13 @@ ht-degree: 5%
 
 **[提高客户忠诚度和存留期值](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
 通过忠诚度计划、奖励和个性化参与，深化客户关系并最大化长期价值。
-**KPI：**&#x200B;客户存留期值、留存率、追加销售/交叉销售%
+**KPI：**&#x200B;客户存留期值，留存，追加销售/交叉销售%
 
-**[提高客户保留率](../../business-objectives/customer-experience/improve-customer-retention.md)**
+**[提高客户维系率](../../business-objectives/customer-experience/improve-customer-retention.md)**
 透过价值导向型经验及持续培养关系，让现有客户持续参与及不断更新。
 **KPI：**&#x200B;维系、客户存留期值、参与度
 
-**[推动交叉销售和追加销售收入](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)**
+**[提高交叉销售和追加销售收入](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)**
 根据行为和购买历史，向现有客户推广补充性和优质产品或服务。
 **KPI：**&#x200B;追加销售/交叉销售%，增量收入，客户存留期值
 

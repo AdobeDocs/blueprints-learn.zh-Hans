@@ -3,13 +3,18 @@ title: 医疗保健使用案例
 description: 了解医疗保健组织如何使用Adobe Experience Platform提高患者参与度、简化护理协调并推动更好的健康结果。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 8da82711-a783-488d-a0ed-070b33ecbbc4
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3589'
 ht-degree: 0%
-
 ---
-
 # 医疗保健使用案例
 
 医疗保健组织使用Adobe Experience Platform构建统一的患者资料，并在每个接触点之间提供个性化、及时的通信。 通过将临床、行为和偏好数据整合到一个地方，护理团队可以更有效地吸引患者，同时保持最高标准的隐私和合规。

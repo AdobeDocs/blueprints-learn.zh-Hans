@@ -2,7 +2,10 @@
 title: B2B Audience和Profile Activation
 description: 通过Real-Time Customer Data Platform B2B edition提供基于帐户和基于人员的受众，以便在各个渠道和目标中激活。
 solution: Real-Time Customer Data Platform
-source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 5%

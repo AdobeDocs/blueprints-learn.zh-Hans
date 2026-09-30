@@ -4,13 +4,18 @@ description: 了解用于实施Adobe Experience Platform和应用程序以实现
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
 exl-id: 58caa6ad-0d1c-4290-9614-c68c9c9028bb
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 0%
-
+source-wordcount: '1098'
+ht-degree: 8%
 ---
-
 # 用例模式
 
 用例模式定义了Adobe Experience Platform和应用程序的可重复实施方法。 每种模式都描述特定功能、提供该功能的执行计划、涉及的应用程序以及该模式支持的[关键业务目标](/help/blueprints/business-objectives/overview.md)。
@@ -72,7 +77,7 @@ ht-degree: 0%
 | [B2B受众激活](b2b/account-audience-activation.md) | 跨Web、电子邮件和广告渠道激活基于帐户的B2B受众 | [!DNL Real-Time CDP] B2B edition |
 | [购买基于群组的营销和历程管理](b2b/buying-group-marketing.md) | 开发客户级别的历程，使潜在客户有资格加入购买群体，以提高B2B营销效率 | [!DNL Journey Optimizer] B2B edition，[!DNL Real-Time CDP] B2B edition |
 | [B2B分析](b2b/account-analytics.md) | 在跨渠道客户历程分析中包含B2B帐户级别信息 | [!DNL Customer Journey Analytics] B2B edition，[!DNL Real-Time CDP] B2B edition |
-| 使用Marketo数据的[B2B历程](b2b/marketo-data-journeys.md) | 使用Journey Optimizer数据部署Marketo B2B edition，以编排购买团体历程和客户参与 | [!DNL Journey Optimizer] B2B edition，[!DNL Marketo Engage]，[!DNL Real-Time CDP] B2B edition |
+| 使用Marketo数据的[B2B历程](b2b/marketo-data-journeys.md) | 使用Marketo数据部署Journey Optimizer B2B Edition，以编排购买团体历程和客户参与 | [!DNL Journey Optimizer] B2B edition，[!DNL Marketo Engage]，[!DNL Real-Time CDP] B2B edition |
 | [AJO B2B付费媒体控制器](b2b/paid-media-orchestration.md) | 使用瀑布式逻辑编排B2B付费媒体营销活动，将帐户分配给营销活动并激活到目标 | [!DNL Journey Optimizer] B2B edition，[!DNL Real-Time CDP] B2B edition |
 | [Marketo和Workfront接收和创建](b2b/campaign-intake-and-creation.md) | 使用Workfront Forms和Fusion自动接收营销活动请求和创建Marketo Engage项目 | [!DNL Marketo Engage], [!DNL Workfront], [!DNL Workfront Fusion] |
 | [Marketo和Workfront审核和批准](b2b/campaign-review-and-approval.md) | 使用Fusion Automation将Workfront验证和审批工作流与Marketo Engage电子邮件资源集成 | [!DNL Marketo Engage], [!DNL Workfront], [!DNL Workfront Fusion] |
@@ -94,33 +99,33 @@ ht-degree: 0%
 *失效的客户已有90天未购买。 您希望通过定向优惠重新吸引他们。*
 
 - **优惠选择是否为动态的（不同的客户根据资格或排名接收不同的优惠）？**
-   - 是→[Offer Decisioning](personalization/offer-decisioning.md)作为选件层，封装在[多步骤编排历程](campaign-management-orchestration/multi-step-orchestrated-journey.md)中，用于重新参与序列
-   - 没有（向所有符合条件的失效客户提供相同优惠），仅→[多步协调历程](campaign-management-orchestration/multi-step-orchestrated-journey.md)
+  - 是→[Offer Decisioning](personalization/offer-decisioning.md)作为选件层，封装在[多步骤编排历程](campaign-management-orchestration/multi-step-orchestrated-journey.md)中，用于重新参与序列
+  - 没有（向所有符合条件的失效客户提供相同优惠），仅→[多步协调历程](campaign-management-orchestration/multi-step-orchestrated-journey.md)
 
 ### 购买后跟进
 
 *客户刚刚完成购买。 您希望发送确认、交叉销售推荐和忠诚度奖励通知。*
 
 - **序列是否需要根据实时事件（例如，已申请奖励、已审查产品）进行自适应分支？**
-   - 是→[多步协调历程](campaign-management-orchestration/multi-step-orchestrated-journey.md)
-   - [批出站消息激活](campaign-management-orchestration/batch-outbound-message-activation.md)→无（固定序列，无分支）
+  - 是→[多步协调历程](campaign-management-orchestration/multi-step-orchestrated-journey.md)
+  - [批出站消息激活](campaign-management-orchestration/batch-outbound-message-activation.md)→无（固定序列，无分支）
 - **它是否包含个性化的产品推荐？**
-   - 是→在内容层使用[行为推荐](personalization/behavioral-recommendation.md)进行扩展
+  - 是→在内容层使用[行为推荐](personalization/behavioral-recommendation.md)进行扩展
 
 ### 忠诚度里程碑个性化
 
 *客户达到新的忠诚度级别。 您希望显示个性化Web内容并发送祝贺消息。*
 
 - **Web内容是否为个性化的（每层或每区段具有不同的内容）？**
-   - 是→Web表面的[已知访客Web/应用程序个性化](personalization/known-visitor-web-app-personalization.md)
+  - 是→Web表面的[已知访客Web/应用程序个性化](personalization/known-visitor-web-app-personalization.md)
 - **出站消息是单次发送还是培养序列？**
-   - 单个发送→[事件触发的消息传递](campaign-management-orchestration/event-triggered-messaging.md)
-   - [→多步协调历程](campaign-management-orchestration/multi-step-orchestrated-journey.md)的序列
+  - 单个发送→[事件触发的消息传递](campaign-management-orchestration/event-triggered-messaging.md)
+  - [→多步协调历程](campaign-management-orchestration/multi-step-orchestrated-journey.md)的序列
 
 ### 重新参与营销活动
 
 *非活动用户区段需要多点触控重新激活序列。*
 
 - **单个消息是否需要实时从多个选件变体中进行选择？**
-   - 是→[具有决策的跨渠道历程](campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
-   - 无→[多步骤编排历程](campaign-management-orchestration/multi-step-orchestrated-journey.md)
+  - 是→[具有决策的跨渠道历程](campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
+  - 无→[多步骤编排历程](campaign-management-orchestration/multi-step-orchestrated-journey.md)

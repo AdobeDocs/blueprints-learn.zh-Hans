@@ -3,13 +3,18 @@ title: 增加收入和销售
 description: 了解如何通过优化的数字渠道、活动和客户历程推动总收入增长。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 080e49a7-f4fb-4ffd-96d5-cce6d018c4f7
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 6%
-
 ---
-
 # 增加收入和销售
 
 通过优化的数字渠道、营销活动和客户历程推动总收入增长。 此目标涵盖从收购到维系的所有收入驱动活动，利用数据驱动型定位和多渠道参与最大限度地提高交易量和交易价值。

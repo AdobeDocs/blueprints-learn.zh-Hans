@@ -3,13 +3,18 @@ title: 旅游和酒店用例
 description: 了解旅游和酒店组织如何使用Adobe Experience Platform来个性化预订体验、恢复已放弃的预订以及建立访客忠诚度。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: fbdcc015-96a4-4015-93e2-3fc7db375c13
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3744'
 ht-degree: 0%
-
 ---
-
 # 旅游和酒店用例
 
 旅游和酒店组织使用Adobe Experience Platform将预订引擎、忠诚度计划、资产管理系统和数字接触点中的访客数据整合到每个旅行者的单一视图中。 这个统一的基础支持个性化体验，从而激发预订、恢复放弃的预订，并建立可促进重复访问的访客忠诚度。

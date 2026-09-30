@@ -2,7 +2,12 @@
 title: Adobe Real-Time CDP激活
 description: 用于将受众和配置文件数据从Adobe Real-Time CDP激活到广告、社交、云存储和企业目标的架构参考。
 solution: Real-Time Customer Data Platform, Experience Platform
-source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%

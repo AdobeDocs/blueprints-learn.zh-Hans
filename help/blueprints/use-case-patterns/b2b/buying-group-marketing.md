@@ -3,13 +3,16 @@ title: 购买基于群组的营销和历程管理
 description: 了解如何开发帐户级别的历程，使潜在客户有资格加入购买组，以提高B2B营销效率。
 solution: Journey Optimizer B2B Edition, Real-Time Customer Data Platform
 exl-id: 2bf57f67-80c8-4368-98d2-05706427772d
-source-git-commit: c0a9cba3d6a55fae8f149f7ca479625458cd1b22
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 1%
-
 ---
-
 # 购买基于群组的营销和历程管理
 
 本指南介绍了基于购买群组的营销和历程管理用例模式，该模式使用[!DNL Adobe Journey Optimizer B2B Edition]和[!DNL Real-Time CDP B2B Edition]通过购买群组管理实施帐户级别的历程编排。 它专为需要了解此模式的用途、支持的业务目标、支持的战术用例以及涉及的Adobe应用程序的解决方案架构师、营销技术人员和实施工程师而设计。
@@ -101,7 +104,7 @@ B2B组织面临一个根本性的挑战：购买决策很少由一个人做出�
 
 ### [!DNL Journey Optimizer B2B Edition]
 
-- [Journey Optimizer B2B edition文档主页](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/guide-overview)
+- [Journey Optimizer B2B Edition文档主页](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/guide-overview)
 - [购买群组概述](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
 - [解决方案兴趣](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
 - [角色模板](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
@@ -116,7 +119,7 @@ B2B组织面临一个根本性的挑战：购买决策很少由一个人做出�
 
 - [B2B电子邮件创作](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/journey-content/email-channel/email-authoring)
 - [B2B短信创作](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/journey-content/sms-authoring)
-- [为电子邮件创作生成内容](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/journey-content/email-channel/ai-assistant-emails)
+- [为电子邮件创作生成内容](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/ai-assistant-emails)
 
 ### B2B分析和功能板
 
