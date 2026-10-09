@@ -2,18 +2,16 @@
 title: Adobe Experience Platform Web SDK和[!DNL Edge Network]
 description: 此架构图显示了通过Experience Platform Web和Mobile SDK以及[!DNL Edge Network]进行的引入
 solution: Experience Platform,Data Collection
-kt: null
-thumbnail: null
+kt:
+thumbnail:
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-TQID: https://experienceleague.adobe.com/s56Vkgc-UvIUNPhcB8x3WFlzhfeEUpRxXZCMu0zf58Y
+TQID: 'https://experienceleague.adobe.com/s56Vkgc-UvIUNPhcB8x3WFlzhfeEUpRxXZCMu0zf58Y'
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
 feature_v2:
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-    internal-label: Implementation
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
-    internal-label: Data collection
+    internal-label: Data collection tags
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -26,7 +24,7 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+source-git-commit: be435d6d8bb87cd327e45910dbb63d9989ea5402
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 60%
@@ -35,7 +33,7 @@ ht-degree: 60%
 
 有关Web和Mobile SDK以及[!DNL Edge Network]服务器API的概述和详细信息，请参阅以下内容。
 
-* [Web SDK概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/home)
+* [Web SDK概述](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
 * [移动SDK概述](https://developer.adobe.com/client-sdks/documentation/)
 * [[!DNL Edge Network]服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans)
 
