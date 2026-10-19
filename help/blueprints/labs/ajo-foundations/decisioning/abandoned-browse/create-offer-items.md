@@ -7,7 +7,7 @@ exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
+source-git-commit: f76215380509d20a9204e6dd3cab4cb852e0ad31
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -86,7 +86,7 @@ ht-degree: 0%
    >
    >实际上，对于更复杂的选件，应该设置适当的审批流程以确保正确创建选件项目。 为节省本实验时间，您只需批准您创建的每个选件项即可。
 
-1. 单击选件项标题旁边的&#x200B;**向左箭头**&#x200B;以返回“选件”页面，此时您会看到iphone：17\：generic选件已列出。
+12. 单击选件项标题旁边的&#x200B;**向左箭头**&#x200B;以返回“选件”页面，此时您会看到iphone：17\：generic选件已列出。
 
 ## 创建基本模型优惠项
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 5. 在新上限规则上，将&#x200B;**选择上限事件**&#x200B;更改为&#x200B;**展示。**
 6. 将&#x200B;**上限事件计数**&#x200B;更改为&#x200B;**3**。 完成后，您的上限规则将如下所示：
 
-   基础选件的上限规则设置为3次展示![&#128279;](assets/create-offer-items-base-offer-capping-rule.png)
+   基础选件的上限规则设置为3次展示](assets/create-offer-items-base-offer-capping-rule.png)![
 
    更正后，单击蓝色的&#x200B;**创建**&#x200B;按钮以保存上限规则。
 
