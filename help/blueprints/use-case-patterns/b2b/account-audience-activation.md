@@ -106,7 +106,7 @@ B2B营销团队需要在帐户级别（而不是个人级别）定位和激活�
 以下应用程序用于实现此用例模式。
 
 - **[!DNL Real-Time CDP]B2B edition** — 用于统一帐户配置文件、B2B身份解析、帐户受众评估、特定于B2B的目标配置和帐户受众激活的核心平台
-- **[!DNL Adobe Experience Platform](AEP)** — 用于B2B XDM数据建模、从CRM和营销自动化源摄取数据、标识服务和治理的基础基础架构
+- **[!DNL Adobe Experience Platform] (AEP)** — 用于B2B XDM数据建模、从CRM和营销自动化源摄取数据、标识服务和治理的基础基础架构
 - **[!DNL Marketo Engage]** — 由激活的帐户受众提供的潜在客户培养计划、评分和营销活动执行的主要B2B营销自动化目标
 
 ## 相关文档
