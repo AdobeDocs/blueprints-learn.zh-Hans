@@ -7,7 +7,7 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: f76215380509d20a9204e6dd3cab4cb852e0ad31
+source-git-commit: 999b0f4e8d401991e099c0598b8031ceb632d8fd
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 0%
@@ -18,17 +18,17 @@ ht-degree: 0%
 ## 命名并定义准入标准
 
 1. 如有必要，请展开左边栏中的&#x200B;**历程管理**&#x200B;菜单项，然后单击&#x200B;**历程**。 你登陆“历程”页面。
-2. 单击蓝色的&#x200B;**创建历程**&#x200B;按钮。
-3. 显示“创建历程”叠加图时，选择&#x200B;**从头开始创建**，然后单击&#x200B;**确认**
-4. 在右边栏中，将历程命名为&#x200B;**iPhone 17 Abandon Browse**，然后单击蓝色的&#x200B;**保存**&#x200B;按钮，以便开始向历程画布添加操作。
-5. 将&#x200B;**受众资格**&#x200B;事件拖动到画布上。
-6. 在右边栏中，单击&#x200B;**铅笔**&#x200B;图标以选择此事件的受众。
-7. 选择&#x200B;**dep：对iPhone 17**&#x200B;受众感兴趣。
-8. 确保&#x200B;**Namespace**&#x200B;下拉列表设置为&#x200B;**customerID。** 此时，您的历程将如下所示：
+1. 单击蓝色的&#x200B;**创建历程**&#x200B;按钮。
+1. 显示“创建历程”叠加图时，选择&#x200B;**从头开始创建**，然后单击&#x200B;**确认**
+1. 在右边栏中，将历程命名为&#x200B;**iPhone 17 Abandon Browse**，然后单击蓝色的&#x200B;**保存**&#x200B;按钮，以便开始向历程画布添加操作。
+1. 将&#x200B;**受众资格**&#x200B;事件拖动到画布上。
+1. 在右边栏中，单击&#x200B;**铅笔**&#x200B;图标以选择此事件的受众。
+1. 选择&#x200B;**dep：对iPhone 17**&#x200B;受众感兴趣。
+1. 确保&#x200B;**Namespace**&#x200B;下拉列表设置为&#x200B;**customerID。** 此时，您的历程将如下所示：
 
    ![历程画布添加了受众资格事件，命名空间设置为customerID](assets/create-the-journey-audience-qualification-event.png)
 
-9. 当每个人看起来都正确后，单击蓝色的&#x200B;**保存**&#x200B;按钮以保存进度。
+1. 当每个人看起来都正确后，单击蓝色的&#x200B;**保存**&#x200B;按钮以保存进度。
 
 >[!NOTE]
 >
@@ -78,67 +78,67 @@ ht-degree: 0%
    >
    >后备优惠是可选的，因为它只有在最终用户可能不符合任何优惠资格时（或变为）才适用。 在本例中，我们的选择策略是针对所有访客的，只有进入历程的用户才能到达CBE节点。 进行身份验证是历程进入的一个要求（在历程中设置的命名空间是他们只有在进行身份验证后才会拥有的命名空间）。 我们还在Ranking公式中内置了后备优惠，因此在本例中，无需设置此后备优惠。
 
-&#x200B;11. 单击蓝色的&#x200B;**下一步**&#x200B;按钮以查看决策策略。
+1. 单击蓝色的&#x200B;**下一步**&#x200B;按钮以查看决策策略。
 
-    在创建决策策略之前![审核该策略的步骤](assets/create-the-journey-review-decision-policy.png)
+   在创建决策策略之前![审核该策略的步骤](assets/create-the-journey-review-decision-policy.png)
 
-&#x200B;12. 一切看起来正确后，单击蓝色的&#x200B;**创建**&#x200B;按钮。 创建后，您将返回到表达式编辑器页面。
-&#x200B;13. 您应该会看到类似于下面的屏幕；如果没有，请再次单击&#x200B;**决策策略**，然后您会看到您的决策策略出现。
+1. 一切看起来正确后，单击蓝色的&#x200B;**创建**&#x200B;按钮。 创建后，您将返回到表达式编辑器页面。
+1. 您应该会看到类似于下面的屏幕；如果没有，请再次单击&#x200B;**决策策略**，然后您会看到您的决策策略出现。
 
-    显示决策策略的![表达式编辑器已准备插入](assets/create-the-journey-decision-policy-ready.png)
+   显示决策策略的![表达式编辑器已准备插入](assets/create-the-journey-decision-policy-ready.png)
 
-&#x200B;14. 单击&#x200B;**+插入策略**&#x200B;按钮，代码编辑器中将显示一个ForEach循环：
+1. 单击&#x200B;**+插入策略**&#x200B;按钮，代码编辑器中将显示一个ForEach循环：
 
-    插入决策策略后插入到代码编辑器中的![ForEach循环](assets/create-the-journey-foreach-loop-inserted.png)
+   插入决策策略后插入到代码编辑器中的![ForEach循环](assets/create-the-journey-foreach-loop-inserted.png)
 
-    >[!NOTE]
-    >
-    >为什么每个循环使用？ 在我们的例子中，我们只返回了一个选件。 但是，请考虑之前我们可以返回多个选件的步骤。 在考虑功能时，此处的循环机制是合理的。
+   >[!NOTE]
+   >
+   >为什么每个循环使用？ 在我们的例子中，我们只返回了一个选件。 但是，请考虑之前我们可以返回多个选件的步骤。 在考虑功能时，此处的循环机制是合理的。
 
-&#x200B;15. 在循环范围内添加有效的JSON以返回应提供给最终用户的手机的品牌、型号和层。 由于还设置了频率上限，因此需要将trackingToken添加到响应。 稍后在说明中会对此进行详细介绍。 要节省时间，只需将这些行代码复制并粘贴到For Each循环中的代码编辑器中：
+1. 在循环范围内添加有效的JSON以返回应提供给最终用户的手机的品牌、型号和层。 由于还设置了频率上限，因此需要将trackingToken添加到响应。 稍后在说明中会对此进行详细介绍。 要节省时间，只需将这些行代码复制并粘贴到For Each循环中的代码编辑器中：
 
-    ```javascript
-    {
-         "make":"",
-         "model":"",
-         "tier":"",
-         "trackingToken":""
-     },
-    ```
+   ```javascript
+   {
+        "make":"",
+        "model":"",
+        "tier":"",
+        "trackingToken":""
+    },
+   ```
 
-    ![初始JSON，ForEach循环中包含make、model、tier和trackingToken字段](assets/create-the-journey-initial-json-in-loop.png)
+   ![初始JSON，ForEach循环中包含make、model、tier和trackingToken字段](assets/create-the-journey-initial-json-in-loop.png)
 
-    >[!NOTE]
-    >
-    >请记住，您已将属性添加到标准选件XDM架构中，特别是品牌、模型和层。 然后，在创建选件时填充这些属性。 您现在可以将这些属性添加为变量，并用选定选件的值填充这些变量。 trackingToken字段是系统生成的值，用于跟踪点击次数和展示次数。
+   >[!NOTE]
+   >
+   >请记住，您已将属性添加到标准选件XDM架构中，特别是品牌、模型和层。 然后，在创建选件时填充这些属性。 您现在可以将这些属性添加为变量，并用选定选件的值填充这些变量。 trackingToken字段是系统生成的值，用于跟踪点击次数和展示次数。
 
-&#x200B;16. 将光标置于&#39;make&#39;节点的&#x200B;**&quot;**&#x200B;之间。 通过在决策策略菜单中导航到&#x200B;**\_dep > Device > Make**&#x200B;节点，插入优惠的品牌。  单击&#x200B;**Make**&#x200B;元素上的&#x200B;**+**&#x200B;图标，您会看到它填充编辑器。
+1. 将光标置于&#39;make&#39;节点的&#x200B;**&quot;**&#x200B;之间。 通过在决策策略菜单中导航到&#x200B;**\_dep > Device > Make**&#x200B;节点，插入优惠的品牌。  单击&#x200B;**Make**&#x200B;元素上的&#x200B;**+**&#x200B;图标，您会看到它填充编辑器。
 
-    ![将决策策略中的属性填充到JSON编辑器中](assets/create-the-journey-populate-make-attribute.png)
+   ![将决策策略中的属性填充到JSON编辑器中](assets/create-the-journey-populate-make-attribute.png)
 
-&#x200B;17. 以类似方式添加&#x200B;**模型**&#x200B;和&#x200B;**层**&#x200B;属性。
-&#x200B;18. 单击属性导航中的&#x200B;**决策策略**&#x200B;以返回到根级别。
-&#x200B;19. 通过&#x200B;**\_experience > decisioning > decisionitem >跟踪令牌**&#x200B;路径导航到跟踪令牌值来填充trackingToken属性。
-&#x200B;20. 最后，将整段代码封装在一组方括号(**\[]**)中。 您最终的JSON代码应如下所示：
+1. 以类似方式添加&#x200B;**模型**&#x200B;和&#x200B;**层**&#x200B;属性。
+1. 单击属性导航中的&#x200B;**决策策略**&#x200B;以返回到根级别。
+1. 通过&#x200B;**\_experience > decisioning > decisionitem >跟踪令牌**&#x200B;路径导航到跟踪令牌值来填充trackingToken属性。
+1. 最后，将整段代码封装在一组方括号(**\[]**)中。 您最终的JSON代码应如下所示：
 
-    ![CBE响应的最终JSON代码，用方括号括起来](assets/create-the-journey-final-json-code.png)
+   ![CBE响应的最终JSON代码，用方括号括起来](assets/create-the-journey-final-json-code.png)
 
-    >[!WARNING]
-    >
-    >确保在整个决策项目两侧都包含括号“\[ ]”。 困惑？ 请再次参阅第#20步。
+   >[!WARNING]
+   >
+   >确保在整个决策项目两侧都包含括号“\[ ]”。 困惑？ 请再次参阅第#20步。
 
 
 
-&#x200B;21. 查看上面的屏幕快照后，单击右上角的&#x200B;**保存并关闭**&#x200B;以保存您的代码。 然后，您将返回到基于代码的体验页面。
-&#x200B;22. 单击历程名称旁边的向后箭头&#x200B;**\&lt;**&#x200B;图标，您将返回到画布。
+1. 查看上面的屏幕快照后，单击右上角的&#x200B;**保存并关闭**&#x200B;以保存您的代码。 然后，您将返回到基于代码的体验页面。
+1. 单击历程名称旁边的向后箭头&#x200B;**\&lt;**&#x200B;图标，您将返回到画布。
 
-    从基于代码的历程编辑器返回后![体验画布](assets/create-the-journey-return-to-canvas.png)
+   从基于代码的历程编辑器返回后![体验画布](assets/create-the-journey-return-to-canvas.png)
 
-&#x200B;23. 单击蓝色的&#x200B;**Save**&#x200B;按钮以保存CBE操作节点。 您的历程现在看起来像这样：
+1. 单击蓝色的&#x200B;**Save**&#x200B;按钮以保存CBE操作节点。 您的历程现在看起来像这样：
 
-    ![历程画布显示已完成的CBE操作节点](assets/create-the-journey-completed-canvas.png)
+   ![历程画布显示已完成的CBE操作节点](assets/create-the-journey-completed-canvas.png)
 
-&#x200B;24. 完成历程后，单击右上方的蓝色&#x200B;**发布**&#x200B;按钮，并在出现确认框时再次单击&#x200B;**发布**。 过了一两会儿，您会看到您的历程现已上线！
+1. 完成历程后，单击右上方的蓝色&#x200B;**发布**&#x200B;按钮，并在出现确认框时再次单击&#x200B;**发布**。 过了一两会儿，您会看到您的历程现已上线！
 
 ![已发布并上线的iPhone 17放弃Browse历程](assets/create-the-journey-published-live.png)
 
