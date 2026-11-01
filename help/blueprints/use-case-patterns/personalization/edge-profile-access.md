@@ -56,7 +56,7 @@ ht-degree: 11%
 ## 护栏
 
 * [[!UICONTROL 实时客户个人资料]数据的护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)
-* [Edge Network护栏](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [Edge Network护栏](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=zh-Hans)
 * Edge用户档案具有14天的生存时间(TTL)。 如果用户在Edge上未活动14天，Edge配置文件可能会过期，需要从中心提取，这可能会影响第一页个性化。
 * Edge个性化支持对符合Edge分段标准的受众进行实时受众成员资格评估。 此外，通过相应的配置，还可在边缘位置获得来自中心的批量访问和流式访问受众。
 
