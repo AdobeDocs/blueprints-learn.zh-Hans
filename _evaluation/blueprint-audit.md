@@ -1,14 +1,18 @@
 ---
-source-git-commit: 2ed15399073fce5ebd1c2ba07b1cf70ec706452c
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '3507'
 ht-degree: 6%
 ---
+
 # Blueprint审核和建议
 
 此审核将[评估规则](rubric.md)应用于下的每个文档
 [TOC.md](../help/blueprints/TOC.md)（第76-133行）的“架构图和Blueprint”部分，以及
-建议每个Blueprint是否应成为用例&#x200B;**模式**（架构）
+建议每个Blueprint是否应成为用例**模式**（架构）
 **Diagram**，两者(**Split**)，或标记为现有模式的&#x200B;**重复**。
 
 这仅是审核 — 未移动任何内容。 迁移积压（批处理A-D操作）
@@ -122,7 +126,7 @@ B2B营销操作的实际应用。 新类别共汇总7个模式：3个已重新�
 **待处理 — 当Blueprint为&#x200B;*已删除*时添加（在缩减为就地关系图时添加）：**，如果
 以后将完全删除模式、拆分或重复行的Blueprint，请从添加重定向
 指向规范模式URL的Blueprint URL。 默认迁移方法（简化图表）
-使Blueprint URL保持活动状态，**不需要**&#x200B;这些重定向。 下面列出了
+使Blueprint URL保持活动状态，**不需要**这些重定向。 下面列出了
 如果任何Blueprint完全停用，则表示完整性：
 
 ```
