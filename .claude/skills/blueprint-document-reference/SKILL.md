@@ -1,13 +1,14 @@
 ---
 name: blueprint-document-reference
 description: 有关创建和编辑Adobe Digital Experience Blueprint文档的参考。 在创建新Blueprint、添加Blueprint页面，或用户询问Blueprint结构、区域、模板或引用Adobe Experience League时使用。
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
-
 ---
-
 
 # Blueprint文档引用
 

@@ -2,13 +2,14 @@
 name: Adobe Experience League Authoring Guidelines
 description: Adobe Experience League Markdown创作规则的完整参考，2026年3月抓取自官方创作指南。
 type: reference
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Experience League创作准则
 
@@ -178,7 +179,7 @@ seo-title， seo-description，受众，难度， uuid（来自迁移时代）
 >[!SUCCESS]
 ```
 
-- 严重： `>`和`[ !`之间没有空格 — 使用`>[!NOTE]`，而不是`> [!NOTE]`
+- 严重： `>`和`[!`之间没有空格 — 使用`>[!NOTE]`，而不是`> [!NOTE]`
 - 在`>[!NOTE]`和正文文本行之间添加空白行
 
 ### 选项卡
@@ -229,7 +230,7 @@ Content here
 >* [Article 2](url)
 ```
 
-### 上下文帮助
+### 情景帮助
 
 ```
 >[!CONTEXTUALHELP]
@@ -408,7 +409,7 @@ Content here
 
 - 缺少或空白`title`或`description`元数据
 - `description`不以“了解……”开头 或“学习如何……”
-- 标注语法中介于`>`和`[ !`之间的空格（`> [!NOTE]`而不是`>[!NOTE]`）
+- 标注语法中介于`>`和`[!`之间的空格（`> [!NOTE]`而不是`>[!NOTE]`）
 - 粗体标记中的空格： `**text **` （尾随空格破断粗体）
 - HTML表中的Markdown语法（例如，此处无法使用标注）
 - 文档中的标题锚点ID重复
