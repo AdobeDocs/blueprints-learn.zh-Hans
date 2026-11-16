@@ -4,13 +4,11 @@ description: 了解如何在编排的营销活动中使用“构建受众”活�
 doc-type: article
 solution: Experience Platform
 exl-id: 697d3edb-2b63-4038-a934-3587495e17f7
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 44d25df10492b3df80fe3887f75ab71e1ebf4743
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '855'
 ht-degree: 0%
-
 ---
-
 
 # 构建受众
 
@@ -165,6 +163,6 @@ ht-degree: 0%
 
 ## 回顾
 
-您已成功创建第一个受众，现在应该会看到在构建受众活动中开发和验证计数有多么容易。
+您已成功创建受众，现在应该会看到在构建受众活动中开发和验证计数有多么容易。
 
 回顾之后![已完成生成受众活动](assets/build-an-audience-recap-completed-audience.png)

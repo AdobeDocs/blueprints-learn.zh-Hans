@@ -4,9 +4,9 @@ description: 构建响应Order Shipped事件的单一历程，调用装运ETA的
 doc-type: article
 solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+source-git-commit: 93fba2a4818790431306801b43a791508451f344
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1078'
 ht-degree: 0%
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 创建历程
 
-转到&#x200B;**历程**&#x200B;并单击&#x200B;**创建历程 — 从头开始创建**
+转到&#x200B;**历程**&#x200B;并单击&#x200B;**创建历程**
 
 ![创建历程 — 在Adobe Journey Optimizer中从头开始创建](assets/build-journey-create-journey-from-scratch.png)
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 1. 使用以下内容更新右边栏中的历程属性：
    - **名称**： `Order Shipped Journey`
    - **描述**： `Notify customer that order has shipped. Include shipping details.`
-   - **标记**： `Default`
+   - **标记**： *留空*
    - **历程指标**：*留空*
 
      >[!NOTE]
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ### 添加单一事件
 
-从&#x200B;**事件菜单**&#x200B;下的左窗格，将&#x200B;**orderShipped**&#x200B;事件拖放到画布上，如下所示
+单击加号图标，导航到&#x200B;**自定义事件**&#x200B;并选择&#x200B;**orderShipped**&#x200B;事件，如下所示
 
 ![将orderShipped事件从“事件”菜单拖到历程画布上](assets/build-journey-drag-order-shipped-event-onto-canvas.png)
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ### 添加自定义操作
 
-1. 如果左窗格展开&#x200B;**操作菜单**，然后将&#39;n拖放到画布上，则在orderShipped事件后生成名为&#x200B;**GetShippingDetails**&#x200B;的操作
+1. 单击加号图标，导航到&#x200B;**自定义操作**&#x200B;并选择您生成的名为&#x200B;**GetShippingDetails**&#x200B;的操作，使其显示在orderShipped事件之后
 
    ![将GetShippingDetails自定义操作拖到orderShipped事件之后的画布上](assets/build-journey-drag-getshippingdetails-action-onto-canvas.png)
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 ### 添加电子邮件操作
 
-1. 在“操作”菜单下，将“**操作**”操作拖放到画布上的GetShippingDetails操作之后
+1. 在GetShippingDetails自定义事件后单击加号图标，然后选择&#x200B;**操作**。
 
    ![将“操作”节点拖到GetShippingDetails操作之后的画布上](assets/build-journey-drag-email-action-onto-canvas.png)
 
@@ -137,11 +137,11 @@ ht-degree: 0%
 
    ![在顶部栏中从草稿设计内容块](assets/build-journey-click-design-from-scratch.png)
 
-3. 从结构容器下的左栏将&#x200B;**1:1列**&#x200B;拖放到画布上
+3. 在左栏中，转到“组件”选项卡，然后从结构容器下方，将&#x200B;**1:1列**&#x200B;拖放到画布上
 
    ![将1:1列结构元素拖动到电子邮件画布上](assets/build-journey-drag-1-1-column-onto-canvas.png)
 
-4. 然后在“内容”容器下，将&#x200B;**Text**&#x200B;组件拖放到您的&#x200B;**1:1列**&#x200B;中
+4. 然后从内容容器下，将&#x200B;**Text**&#x200B;组件拖放到您的&#x200B;**1:1列**&#x200B;中
 
    ![将文本组件拖入1:1列](assets/build-journey-drag-text-component-into-column.png)
 
@@ -206,7 +206,8 @@ ht-degree: 0%
 
    电子邮件参数下的![启用参数覆盖图标](assets/build-journey-enable-parameter-override.png)
 
-2. 单击空文本框，然后在左边栏中向下展开至&#x200B;**Context** -> **orderShipped** -> **\_dep**，然后单击&#x200B;**personalEmail**&#x200B;字段。  然后单击&#x200B;**确定按钮**
+2. 单击空文本框，然后在左边栏中向下展开至&#x200B;**Context** -> **orderShipped** -> **\_dep**，然后单击&#x200B;**personalEmail**&#x200B;字段。  然后单击“**确定”按钮**
+（请注意，以下划线开头的租户名称可能与您的环境不同，在本例中为_dep。）
 
    ![选择orderShipped上下文下的personalEmail字段_dep](assets/build-journey-select-personalemail-context-field.png)
 
