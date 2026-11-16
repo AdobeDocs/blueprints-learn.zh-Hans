@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+source-git-commit: ea991411ae0339bb4a1a36ac994fa76097d37307
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 80%
+source-wordcount: '164'
+ht-degree: 82%
 ---
 # B2B 激活与营销
 
@@ -33,5 +33,4 @@ B2B 受众和用户档案激活是在数据驱动营销世界中取得成功的�
 
 | 图表 | 描述 |
 | --- | --- |
-| [B2B受众和配置文件激活](b2b-audience-profile-activation.md) | 使用Real-Time Customer Data Platform B2B edition激活基于帐户和基于人员的受众 |
-| [B2B帐户激活](b2b-account-activation.md) | 通过广告和基于文件的目标定位B2B帐户 |
+| [B2B受众和配置文件激活](b2b-audience-profile-activation.md) | 使用Real-Time Customer Data Platform B2B edition跨支持的渠道激活人员受众，并将帐户受众激活到广告和文件目标 |
