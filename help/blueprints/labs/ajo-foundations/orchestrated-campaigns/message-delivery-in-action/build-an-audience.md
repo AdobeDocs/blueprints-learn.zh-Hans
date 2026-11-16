@@ -4,13 +4,11 @@ description: 了解如何使用构建受众活动从关系架构中定位基本�
 doc-type: article
 solution: Experience Platform
 exl-id: 7576e64b-d99a-4864-b877-f4ae77e1d7bd
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 9a38e7016b9fdca00bc49be00fe03a0e8e5ed26d
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
-
 ---
-
 
 # 构建受众
 
@@ -40,11 +38,11 @@ ht-degree: 0%
 
    ![在“创建受众”窗格中单击“添加条件”](assets/build-an-audience-add-condition.png)
 
-6. 通过单击旁边的&#x200B;**>**&#x200B;向下滚动并展开`dep-rel: Plan Lookup`
+6. 通过单击旁边的&#x200B;**>**&#x200B;向下滚动并展开`dep-rel: Plan [Lookup]`
 
    ![展开相关：计划查找](assets/build-an-audience-expand-plan-lookup.png)
 
-7. 选择`dep-rel: Plan Name`并单击&#x200B;**确认**
+7. 选择`Plan Name`并单击&#x200B;**确认**
 
    ![选择dep-rel：计划名称](assets/build-an-audience-select-plan-name.png)
 
@@ -80,4 +78,4 @@ ht-degree: 0%
 
 现在，您已经了解在营销策划中使用构建受众活动的难易程度，只需从关系架构中选择正确的定向维度即可。 然后，您添加了一个条件来优化受众构建标准，并使用刷新选项来检查预期的行数。
 
-如有需要，您可以在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience)阅读更多内容。
+如有需要，您可以在[此处](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience)阅读更多内容。
