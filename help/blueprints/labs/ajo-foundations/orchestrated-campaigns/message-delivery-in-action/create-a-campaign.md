@@ -7,9 +7,9 @@ exl-id: 5602b0ba-95e2-455f-affd-081df540c999
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 5ddc029828ce7ecc167555ed900a136690b10677
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '131'
 ht-degree: 4%
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 4%
 
    ![单击“创建营销活动”按钮](assets/create-a-campaign-click-create-campaign.png)
 
-3. 选择&#x200B;**业务流程 — 营销**，然后单击&#x200B;**确认**
+3. 选择&#x200B;**Orchestration Marketing and transactional**，然后单击&#x200B;**确认**
 
-   ![选择“编排 — 营销”并单击“确认”](assets/create-a-campaign-select-orchestration-marketing.png)
+   ![选择Orchestration Marketing and transaction，然后单击“确认”](assets/create-a-campaign-select-orchestration-marketing.png)
 
 4. 在下面提供Campaign详细信息，完成后，单击&#x200B;**保存按钮**
    - **名称：** `OC-MDL-Campaign-Test`
