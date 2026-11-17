@@ -7,9 +7,9 @@ exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 7c7ee72676fd17a248694548fb59ea87c52a293c
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '661'
 ht-degree: 0%
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ## 目标
 
-在接下来的几步中，您在测试模式下运行活动，以在发布活动之前确认活动可按预期运行。 在这种情况下，测试模式不会发送电子邮件，但有助于验证整个流量并尽早识别问题。
+在接下来的几步中，您在测试模式下运行活动，以在发布活动之前确认活动可按预期运行。 在这种情况下，测试模式不会发送电子邮件，但有助于验证整个流量并提前识别问题。
 
 ## 启动工作流
 
-1. 配置两个电子邮件流后，Campaign将如下所示。 单击&#x200B;**开始**&#x200B;按钮以在&#x200B;**测试模式**&#x200B;下运行营销活动
+1. 配置两个电子邮件流后，Campaign将如下所示。 单击&#x200B;**开始**&#x200B;按钮以在测试模式下运行营销活动
 
    ![单击“开始”以在测试模式下运行营销活动](assets/test-the-campaign-click-start-test-mode.png)
 
@@ -111,4 +111,4 @@ ht-degree: 0%
 
 您现在已了解如何测试创建的营销活动以了解流量和行为。 在测试流执行期间，可以很好地理解为电子邮件渠道配置使用不同设置的细微差别。
 
-如果您有兴趣，请在[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)阅读有关营销活动测试模式的更多信息。
+如果您有兴趣，请在[此处](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)阅读有关营销活动测试模式的更多信息。

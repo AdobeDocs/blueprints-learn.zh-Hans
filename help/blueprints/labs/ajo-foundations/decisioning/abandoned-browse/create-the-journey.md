@@ -7,9 +7,9 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 999b0f4e8d401991e099c0598b8031ceb632d8fd
+source-git-commit: e973383e71d942cfeb86864cb92caddac6604d9a
 workflow-type: tm+mt
-source-wordcount: '1726'
+source-wordcount: '1740'
 ht-degree: 0%
 ---
 
@@ -19,9 +19,8 @@ ht-degree: 0%
 
 1. 如有必要，请展开左边栏中的&#x200B;**历程管理**&#x200B;菜单项，然后单击&#x200B;**历程**。 你登陆“历程”页面。
 1. 单击蓝色的&#x200B;**创建历程**&#x200B;按钮。
-1. 显示“创建历程”叠加图时，选择&#x200B;**从头开始创建**，然后单击&#x200B;**确认**
 1. 在右边栏中，将历程命名为&#x200B;**iPhone 17 Abandon Browse**，然后单击蓝色的&#x200B;**保存**&#x200B;按钮，以便开始向历程画布添加操作。
-1. 将&#x200B;**受众资格**&#x200B;事件拖动到画布上。
+1. 单击历程开始后的加号图标，然后将&#x200B;**受众资格**&#x200B;事件添加到画布上。
 1. 在右边栏中，单击&#x200B;**铅笔**&#x200B;图标以选择此事件的受众。
 1. 选择&#x200B;**dep：对iPhone 17**&#x200B;受众感兴趣。
 1. 确保&#x200B;**Namespace**&#x200B;下拉列表设置为&#x200B;**customerID。** 此时，您的历程将如下所示：
@@ -38,9 +37,9 @@ ht-degree: 0%
 
 ## 配置CBE和决策策略
 
-1. 展开画布左侧的&#x200B;**操作**&#x200B;折叠面板，将&#x200B;**操作**&#x200B;元素拖动到画布上，并将其连接到第一个节点。
+1. 在受众资格后单击加号图标，然后将&#x200B;**Action**&#x200B;元素添加到画布上。
 1. 显示“选择操作类型”叠加图时，选择&#x200B;**基于代码的体验**&#x200B;操作，然后单击蓝色的&#x200B;**添加**&#x200B;按钮。
-1. 在现在可见的“Action\：Code-based Experience”属性中，单击&#x200B;**配置操作**&#x200B;按钮。
+1. 在现在可见的“Action\：Code-based experience”属性中，单击&#x200B;**配置操作**&#x200B;按钮。
 
    使用“配置操作”按钮![基于代码的体验操作属性](assets/create-the-journey-configure-action-button.png)
 
@@ -112,7 +111,7 @@ ht-degree: 0%
    >
    >请记住，您已将属性添加到标准选件XDM架构中，特别是品牌、模型和层。 然后，在创建选件时填充这些属性。 您现在可以将这些属性添加为变量，并用选定选件的值填充这些变量。 trackingToken字段是系统生成的值，用于跟踪点击次数和展示次数。
 
-1. 将光标置于&#39;make&#39;节点的&#x200B;**&quot;**&#x200B;之间。 通过在决策策略菜单中导航到&#x200B;**\_dep > Device > Make**&#x200B;节点，插入优惠的品牌。  单击&#x200B;**Make**&#x200B;元素上的&#x200B;**+**&#x200B;图标，您会看到它填充编辑器。
+1. 将光标置于&#39;make&#39;节点的&#x200B;**&quot;**&#x200B;之间。 通过在决策策略菜单中导航到&#x200B;**\_dep > Device > Make**&#x200B;节点，插入优惠的品牌。  单击&#x200B;**Make**&#x200B;元素上的&#x200B;**+**&#x200B;图标，您会看到它填充编辑器。 （请注意，以下划线开头的租户名称可能与您的环境不同，在本例中为_dep。）
 
    ![将决策策略中的属性填充到JSON编辑器中](assets/create-the-journey-populate-make-attribute.png)
 
@@ -134,11 +133,11 @@ ht-degree: 0%
 
    从基于代码的历程编辑器返回后![体验画布](assets/create-the-journey-return-to-canvas.png)
 
-1. 单击蓝色的&#x200B;**Save**&#x200B;按钮以保存CBE操作节点。 您的历程现在看起来像这样：
+1. 单击蓝色的&#x200B;**保存**&#x200B;按钮以保存基于代码的Experience操作节点。 您的历程现在看起来像这样：
 
    ![历程画布显示已完成的CBE操作节点](assets/create-the-journey-completed-canvas.png)
 
-1. 完成历程后，单击右上方的蓝色&#x200B;**发布**&#x200B;按钮，并在出现确认框时再次单击&#x200B;**发布**。 过了一两会儿，您会看到您的历程现已上线！
+1. 完成历程后，首先单击&#x200B;**验证**，然后单击右上角的&#x200B;**发布**&#x200B;按钮，当出现确认框时再次单击&#x200B;**发布**。 过了一两会儿，您会看到您的历程现已上线！
 
 ![已发布并上线的iPhone 17放弃Browse历程](assets/create-the-journey-published-live.png)
 

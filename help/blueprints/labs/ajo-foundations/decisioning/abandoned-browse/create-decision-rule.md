@@ -7,9 +7,9 @@ exl-id: 1c1e2d82-ca09-4074-813d-3b29af77388b
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 74b5a717f6c16c75e26426619885202f4b658171
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '526'
 ht-degree: 0%
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 0%
 
    >[!WARNING]
    >
-   >确保您位于决策菜单中，而不是决策管理菜单中。 如果展开了“决策管理”菜单，请折叠该菜单以避免本实验期间出现导航混乱。
+   >确保您位于决策菜单中，而不是决策管理菜单（如果两者在您的环境中均可见）。 如果展开了“决策管理”菜单，请折叠该菜单以避免本实验期间出现导航混乱。
 
 3. 单击“资格”菜单下的&#x200B;**决策规则**，然后单击右上角的&#x200B;**创建规则**&#x200B;按钮。
 
    使用“创建规则”按钮的![决策规则页面](assets/create-decision-rule-create-rule-button.png)
 
-4. 这将打开一个与区段生成器UI类似的屏幕。 通过单击&#x200B;**XDM Individual Profile > DEP > Plan Details**，然后将&#x200B;**Plan ID**&#x200B;属性拖到画布上，将Plan ID属性添加到规则画布中。
+4. 这将打开一个与区段生成器UI类似的屏幕。 通过单击&#x200B;**XDM Individual Profile > DEP > Plan Details**，然后将&#x200B;**Plan ID**&#x200B;属性拖到画布上，将Plan ID属性添加到规则画布中。 (请注意，在此示例中为Dep的租户名称在您的环境中可能不同。 您还可以在“属性”搜索栏中搜索“计划详细信息”。)
 5. 将下拉列表从equals更改为&#x200B;**contains.**
 6. 在框中输入文本&#x200B;**2**，按&#x200B;**Tab**&#x200B;键接受2值，然后输入&#x200B;**3，**&#x200B;再次按&#x200B;**Tab**，以便规则查找包含2或3的任何计划ID
 7. 使用右边栏中的&#x200B;**Name**&#x200B;文本框命名决策规则&#x200B;**上层计划**。 根据需要添加描述。 完成后，决策规则应如下所示：
