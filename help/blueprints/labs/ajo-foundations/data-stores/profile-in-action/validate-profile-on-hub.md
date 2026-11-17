@@ -75,7 +75,7 @@ ht-degree: 0%
 >
 >**如何读取segmentMembership？**
 >
->[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups：**&#x200B;这是AEP支持的各种受众的映射键。  ups键包含规则生成器创建的受众。  其他受众将包含在其他键中（例如AAM）。
 >
