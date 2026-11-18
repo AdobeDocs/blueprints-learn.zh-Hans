@@ -7,9 +7,9 @@ exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 689f227965176096ccd1785699de65046af4f3d3
+source-git-commit: f189618dc8bfa198b25d646faa3ca0e0f5af5916
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '443'
 ht-degree: 0%
 ---
 
@@ -57,9 +57,25 @@ ht-degree: 0%
 
 
 
+## 添加更改维度
+
+1. 在工作流画布上，单击添加的分割条件后面的&#x200B;**+**&#x200B;图标，然后选择&#x200B;**更改维度**&#x200B;活动
+
+   ![在拆分条件后添加更改维度活动](assets/filter-the-lines-add-change-dimension-activity.png)
+
+2. 更新如下所述的更改维度的属性，然后单击&#x200B;**确认**：
+标签： `Convert Line to Account`
+新目标维度： `dep-rel: Customer Account`
+
+   ![编辑目标维度](assets/filter-the-lines-add-edit-target-dimension.png)
+
+   ![编辑目标维度](assets/filter-the-lines-add-select-target-dimension.png)
+
+
+
 ## 添加短信活动
 
-1. 在工作流画布上，单击添加的分割条件后面的&#x200B;**+**&#x200B;图标，然后选择&#x200B;**移动消息活动**
+1. 在添加的“更改”维度后单击&#x200B;**+**&#x200B;图标，然后选择&#x200B;**手机消息活动**
 
    ![在拆分条件后添加移动消息活动](assets/filter-the-lines-add-sms-activity.png)
 
@@ -67,9 +83,9 @@ ht-degree: 0%
 
 
 
-2. 在右边栏中，单击编辑移动设备消息按钮以开始配置短信消息
+2. 在右边栏中，首先将Target选择更改为&#x200B;**每个辅助维度一个消息**，然后单击&#x200B;**编辑移动设备消息**&#x200B;按钮以开始配置短信消息
 
-   右边栏中的![编辑移动消息按钮](assets/filter-the-lines-edit-sms-button.png)
+   在右边栏中![定位并编辑移动消息按钮](assets/filter-the-lines-edit-sms-button.png)
 
 
 
@@ -82,4 +98,4 @@ ht-degree: 0%
 
 ## 回顾
 
-您过滤掉了所有因选择退出而不允许使用短信消息进行定位的行，并为允许进行定位的用户添加了短信活动。
+您过滤掉所有因选择退出而不允许使用短信消息进行定位的行，将维度从行更改为帐户，并为允许进行定位的用户添加短信活动。
