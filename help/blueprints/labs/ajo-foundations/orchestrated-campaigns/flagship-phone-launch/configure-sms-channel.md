@@ -7,9 +7,9 @@ exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 027d4d3373dd18fa4711e5c403465c03d374de70
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '678'
 ht-degree: 0%
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 ## 导航到渠道
 
 1. 在Adobe Journey Optimizer中，转到&#x200B;**管理** -> **渠道**&#x200B;菜单。
-1. 选择&#x200B;**SMS设置** → **API凭据**。
+1. Select **SMS设置**→**API凭据**。
 1. 单击&#x200B;**创建API凭据**。
 
 ![在管理渠道菜单“导航到SMS设置”中导航到SMS设置和API凭据](assets/configure-sms-channel-navigate-to-sms-settings.png "导航到SMS设置")
@@ -106,11 +106,11 @@ Twilio供应商的![SMS API凭据字段](assets/configure-sms-channel-enter-api-
 3. 在子部分&#x200B;**执行维度**&#x200B;下的下一个部分，请确保按如下方式设置以下内容：
    - **根据以下日期传递消息：** `Target + Secondary Dimension`
    - **配置文件目标Dimension：** `dep-rel: Customer Account - customer_id`
-   - **辅助Dimension：** `Customer Line`
+   - **辅助Dimension：** `dep-rel: Customer Line`
 
    ![具有目标和辅助维度的执行维度设置](assets/configure-sms-channel-execution-dimension-setup.png)
 
-   在执行维度设置“次要Dimension”![&#128279;](assets/configure-sms-channel-secondary-dimension-detail.png "次要Dimension")中，将次要Dimension设置为客户行
+   ![次要Dimension设置为dep-rel：执行维度设置“次要Dimension”中的客户行](assets/configure-sms-channel-secondary-dimension-detail.png "次要Dimension")
 
    >[!NOTE]
    >

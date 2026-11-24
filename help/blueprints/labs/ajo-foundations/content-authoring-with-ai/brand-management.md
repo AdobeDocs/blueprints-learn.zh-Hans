@@ -7,9 +7,9 @@ exl-id: 84be70f5-6c3b-40e2-ad38-ac737363f845
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 89f451f2f0a0f078cd46a76bd7775cad1c11b46b
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1409'
 ht-degree: 0%
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 - 从PDF上传并提取品牌准则信息。
 - 在“关于品牌”、“书写样式”和“可视内容”选项卡中查看和优化品牌详细信息。
 - 添加排除规则以避免电子邮件按钮过度复制。
-- 发布品牌，使其可用于模板、片段、AI助手和品牌协调。
+- 发布品牌，使其可用于模板、片段、AI和品牌协调。
 
 下载文件 — [toolkit.zip](assets/toolkit.zip)
 
@@ -67,7 +67,7 @@ Adobe Journey Optimizer的&#x200B;**品牌**&#x200B;功能可帮助您在所有�
    “品牌”部分中的![创建品牌按钮](assets/brand-management-click-create-brand-button.png)
 
 3. 在&#x200B;**名称**&#x200B;字段中，输入`Connection 5G Brand Guidelines`
-4. 在上传区域中，拖放&#x200B;**Connection5g Brand Guidelines.pdf**&#x200B;文件（或单击&#x200B;**选择文件**&#x200B;并从您的计算机中选择它）。
+4. 在上传区域中，拖放&#x200B;**Connection5g Brand Guidelines.pdf**&#x200B;文件（或单击&#x200B;**Select文件**&#x200B;并从您的计算机中选择它）。
 
    ![将Connection5g Brand Guidelines PDF拖放到上载区域](assets/brand-management-upload-brand-guideline-pdf.png)
 
@@ -131,7 +131,7 @@ Adobe Journey Optimizer的&#x200B;**品牌**&#x200B;功能可帮助您在所有�
 
 ![定义品牌语调、措辞和法律规则的写作风格选项卡](assets/brand-management-writing-style-tab.png)
 
-您可以添加和优化自然语言的规则，甚至可以仅将它们应用于特定渠道，例如电子邮件或短信。 这使您能够灵活而精确地控制AI Assistant和内容作者的编写方式。
+您可以添加和优化自然语言的规则，甚至可以仅将它们应用于特定渠道，例如电子邮件或短信。 这使您能够灵活而精确地控制AI和内容作者的编写方式。
 
 ### 视觉内容
 
@@ -223,9 +223,9 @@ Adobe Journey Optimizer的&#x200B;**品牌**&#x200B;功能可帮助您在所有�
 
 7. 单击&#x200B;**保存**。
 
-此规则适用于AI助手或作者处理电子邮件按钮复制的任何位置，可使CTA与Connection 5G色调保持一致。
+此规则适用于AI或作者处理电子邮件按钮复制的任何位置，可使CTA与Connection 5G色调保持一致。
 
-![适用于AI助手和作者的电子邮件按钮排除规则](assets/brand-management-email-button-exclusion-rule-applied.png)
+![适用于AI和作者的电子邮件按钮排除规则](assets/brand-management-email-button-exclusion-rule-applied.png)
 
 >[!NOTE]
 >
@@ -264,6 +264,6 @@ Adobe Journey Optimizer的&#x200B;**品牌**&#x200B;功能可帮助您在所有�
 - 已上传品牌指南文件，并允许AJO提取关键信息。
 - 审核并完善了关于品牌、书写风格和可视内容选项卡。
 - 添加了特定的排除规则，使电子邮件按钮绝不会过于刺眼。
-- 已发布品牌，以便能够支持AI助手、品牌协调、模板和片段。
+- 发布了品牌，以便能够支持AI、品牌协调、模板和片段。
 
 您现在已完全配置和发布了&#x200B;**Connection 5G**&#x200B;品牌配置文件，该配置文件将在本实验的其余部分用于使所有内容保持品牌化。

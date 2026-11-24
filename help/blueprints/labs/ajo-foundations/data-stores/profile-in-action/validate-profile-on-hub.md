@@ -7,9 +7,9 @@ exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: da2fcc7a4afc091c28a4cfdff96055dbf7dbb41a
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 0%
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 检查中心配置文件
 
-1. 单击&#x200B;**配置文件ID**&#x200B;以打开配置文件
+1. 单击配置文件的&#x200B;**查看**&#x200B;按钮以打开配置文件
 1. 首先单击&#x200B;**属性**&#x200B;选项卡，然后单击&#x200B;**中心**&#x200B;单选按钮以查看&#x200B;**中心配置文件**
 
 在“属性”选项卡上显示![中心配置文件](assets/validate-profile-on-hub-attributes-tab.png)

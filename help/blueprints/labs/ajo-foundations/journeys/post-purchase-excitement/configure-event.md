@@ -51,7 +51,7 @@ ht-degree: 0%
 
    字段输入框中的![铅笔图标](assets/configure-event-click-fields-pencil-icon.png)
 
-5. 选择要添加到事件的以下字段，完成后，单击&#x200B;**确定**&#x200B;按钮
+5. Select要添加到事件的以下字段，完成后，单击&#x200B;**确定**&#x200B;按钮
    - `Event Type (eventType)`
    - `Order ID (orderID)`
 

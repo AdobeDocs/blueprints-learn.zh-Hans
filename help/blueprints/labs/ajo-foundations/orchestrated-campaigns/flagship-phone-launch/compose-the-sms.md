@@ -7,9 +7,9 @@ exl-id: 3deb822b-8374-4537-a260-f4f6f4d67569
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 4efa9da0ca6b73b4710a15a007712edcaa3ee867
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '424'
 ht-degree: 0%
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 
 
-3. 使用左边栏中的&#x200B;**Target属性**&#x200B;选项，更新下面名为&#x200B;**phone\_make**&#x200B;和&#x200B;**phone\_model**&#x200B;的消息中的两个字段。  完成后，您的消息应与屏幕快照匹配。
+3. 将下面名为&#x200B;**phone\_make**&#x200B;和&#x200B;**phone\_model**&#x200B;的消息中的两个字段替换为左边栏中对应的&#x200B;**目标属性**&#x200B;选项。  完成后，您的消息应与下面的屏幕快照匹配。 （变量命名路径应该会为您提供在何处查找这些变量的提示。）
 
    ![带有手机代号和型号的最终短信消息](assets/compose-the-sms-final-message-text.png)
 

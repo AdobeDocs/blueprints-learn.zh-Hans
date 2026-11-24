@@ -7,9 +7,9 @@ exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: bcc54e483dddad7417ee13613323198c8ce12bec
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '667'
 ht-degree: 5%
 ---
 
@@ -51,6 +51,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
+>您的环境的子域可能不同。
 >如果您是自控进度的，并且没有预配置的子域，请在此处选择您自己的委派给Adobe的子域，而不是`email.dep-labs.com`。 请参阅[设置](../../setup.md)以了解如何委派一个。
 
 ## 配置IP池详细信息

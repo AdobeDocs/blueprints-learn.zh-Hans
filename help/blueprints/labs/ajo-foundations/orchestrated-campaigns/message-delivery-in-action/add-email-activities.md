@@ -7,9 +7,9 @@ exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 526f170e52c0479362c6a72bfd4cbeadc825d464
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '462'
 ht-degree: 0%
 ---
 
@@ -69,17 +69,13 @@ ht-degree: 0%
 
    ![单击向左箭头退出电子邮件Designer](assets/add-email-activities-exit-email-designer.png)
 
-10. 此时会弹出一个确认对话框，请单击&#x200B;**保存并关闭**&#x200B;按钮
-
-![带有“保存并关闭”按钮的确认对话框](assets/add-email-activities-save-and-close-dialog.png)
-
-1. 查看电子邮件属性和操作，包括添加到电子邮件正文的文本。 单击&#x200B;**向左箭头**&#x200B;以导航回促销活动画布
+10. 查看电子邮件属性和操作，包括添加到电子邮件正文的文本。 单击&#x200B;**向左箭头**&#x200B;以导航回促销活动画布
 
 ![导航回促销活动画布](assets/add-email-activities-back-to-campaign-canvas.png)
 
 ## 添加底部分支电子邮件活动
 
-返回促销活动画布，单击底部流的&#x200B;**+**，然后从&#x200B;**渠道活动**&#x200B;中选择&#x200B;**电子邮件**。 执行与上述相同的步骤（步骤2至11），以下步骤除外：
+返回促销活动画布，单击底部流的&#x200B;**+**，然后从&#x200B;**渠道活动**&#x200B;中选择&#x200B;**电子邮件**。 执行与上述相同的步骤（步骤2至10），以下步骤除外：
 
 - 为&#x200B;**电子邮件**&#x200B;活动使用Target Dimension **将标签重命名为**&#x200B;电子邮件
 - 在“电子邮件”设置中，选择&#x200B;**关系电子邮件**&#x200B;电子邮件渠道配置

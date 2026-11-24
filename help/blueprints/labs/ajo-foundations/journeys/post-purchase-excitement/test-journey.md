@@ -7,9 +7,9 @@ exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 929145a02a8a2f3505e9e12ff605c500eac1cc79
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '429'
 ht-degree: 0%
 ---
 
@@ -21,9 +21,13 @@ ht-degree: 0%
 
 ## 测试历程
 
-1. 在左边栏上单击&#x200B;**历程**，如果没有看到历程列表，请单击&#x200B;**浏览选项卡**
+1. 如果您尚不在历程中，请单击左边栏中的&#x200B;**历程**，如果没有看到历程列表，请单击&#x200B;**浏览选项卡**
 2. 单击您的&#x200B;**历程**&#x200B;以将其打开
-3. 单击&#x200B;**警报**&#x200B;并确保没有错误（警告正常）
+3. 首次单击右上方的&#x200B;**验证**&#x200B;按钮
+
+   ![单击以验证历程](assets/test-journey-click-validate.png)
+
+4. 单击&#x200B;**警报**&#x200B;并确保没有错误（警告正常）
 
    ![打开历程后未显示任何错误的警报面板](assets/test-journey-alerts-no-errors.png)
 
@@ -33,9 +37,11 @@ ht-degree: 0%
    >
    >指示电子邮件变体中缺少选择退出链接
 
-4. 单击&#x200B;**模拟**，然后在左侧选择&#x200B;**测试模式**
+5. 单击&#x200B;**模拟**，然后选择&#x200B;**测试模式**
 
-   在左侧的“模拟”下选择了![测试模式](assets/test-journey-select-test-mode.png)
+   ![按模拟](assets/test-journey-select-test-mode.png)
+
+   在弹出窗口中选择了![测试模式](assets/test-journey-select-test-mode-in-popup.png)
 
 
 
@@ -45,11 +51,11 @@ ht-degree: 0%
 
 
 
-5. 单击&#x200B;**触发事件**&#x200B;并填写以下属性：
+6. 单击左侧的&#x200B;**触发事件**&#x200B;并填写以下属性：
    - **事件类型**： `orders.shipped`
    - **个人电子邮件**： `henry.creel@emailsim.io`
    - **订单ID**： `123`
-6. 单击&#x200B;**发送**（请注意，单击发送后需要几秒钟才能做出响应）
+7. 单击&#x200B;**发送**（请注意，单击发送后需要几秒钟才能做出响应）
 
    ![触发填写的事件表单并单击发送](assets/test-journey-trigger-event-send.png)
 
@@ -65,7 +71,7 @@ ht-degree: 0%
 
 
 
-7. 在&#x200B;**结果** ->下，单击左侧的&#x200B;**显示日志**
+8. 在&#x200B;**结果** ->下，单击左侧的&#x200B;**显示日志**
 
 触发测试事件后![在“结果”下显示“日志”选项](assets/test-journey-show-log-results.png)
 
@@ -106,12 +112,12 @@ ht-degree: 0%
 
 
 
-1. **关闭**&#x200B;浏览器&#x200B;**选项卡**
+1. **关闭**&#x200B;浏览器&#x200B;**选项卡**&#x200B;日志
 1. 右上角的&#x200B;**关闭测试模式**
 
    右上角的![关闭测试模式按钮](assets/test-journey-close-test-mode.png)
 
-1. 单击右上方的&#x200B;**发布**&#x200B;历程
+1. 再次单击&#x200B;**验证**，然后在右上角&#x200B;**发布**&#x200B;历程
 
    右上角的历程的![发布按钮](assets/test-journey-publish-journey.png)
 

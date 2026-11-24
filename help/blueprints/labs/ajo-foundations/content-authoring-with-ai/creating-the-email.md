@@ -7,9 +7,9 @@ exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 6f54406bc0cda8e0fa5f028201a1ed1c2953e3cf
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '668'
 ht-degree: 0%
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    历程管理中的![创建营销活动按钮](assets/creating-the-email-click-create-campaign-button.png)
 
-3. 选择“**业务流程 — 营销**”并单击&#x200B;**确认**
+3. Select &quot;**Orchestration - Marketing**&quot;并单击&#x200B;**确认**
 
    ![选择编排 — 营销并单击确认](assets/creating-the-email-select-orchestration-marketing.png)
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
    ![读取受众框和受众文件夹图标](assets/creating-the-email-read-audience-folder-icon.png)
 
-7. 选择&#x200B;**dep：对iPhone 17**&#x200B;受众感兴趣，然后单击“**添加受众**”按钮
+7. 对&#x200B;**dep：对iPhone 17**&#x200B;受众感兴趣的Select并单击“**添加受众**”按钮
 
    ![选择对iPhone 17受众感兴趣并单击添加受众](assets/creating-the-email-select-audience-add-button.png)
 
-8. 选择实体 — **dep-rel：客户帐户 — customer\_id** （或任何与此部分无关的实体）
+8. Select实体 — **dep-rel：客户帐户 — customer\_id** （或任何与此部分无关的实体）
 9. 通过单击&#x200B;**+符号**&#x200B;添加&#x200B;**电子邮件活动**，然后从渠道活动中选择&#x200B;**电子邮件**。
 
    ![从渠道活动添加电子邮件活动](assets/creating-the-email-add-email-channel-activity.png)
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ![编辑营销活动电子邮件活动的电子邮件选项](assets/creating-the-email-click-edit-email.png)
 
-1. 单击&#x200B;**操作选项卡**&#x200B;并选择&#x200B;**您的**&#x200B;电子邮件配置。 您的沙盒可能会将此内容显示为关系电子邮件。 （选择任意）
+1. 单击&#x200B;**操作选项卡**&#x200B;并选择&#x200B;**您的**&#x200B;电子邮件配置。 您的沙盒可能会将此内容显示为关系电子邮件。 （Select任意）
 
    选择电子邮件配置的![操作选项卡](assets/creating-the-email-action-tab-email-configuration.png)
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
    在电子邮件编辑器中![应用内容模板选项](assets/creating-the-email-click-apply-content-template.png)
 
-1. 选择您创建的模板&#x200B;**“促销模板”**，然后单击&#x200B;**确认**
+1. 对您创建的模板&#x200B;**“促销模板”**&#x200B;进行Select，然后单击&#x200B;**确认**
 
    ![选择促销模板并单击“确认”](assets/creating-the-email-select-promotional-template-confirm.png)
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
    ![正在从工具包文件夹上传hero.png](assets/creating-the-email-upload-hero-png-file.png)
 
-5. 单击&#x200B;**下一步，**&#x200B;选择&#x200B;**您的资产文件夹**，然后按&#x200B;**导入**
+5. 单击&#x200B;**下一步，** Select **您的资源文件夹**，然后按&#x200B;**导入**
 
    ![选择assets文件夹并单击主页图像的导入](assets/creating-the-email-select-folder-import-hero.png)
 
@@ -140,4 +140,4 @@ ht-degree: 0%
 - 更新了主页和产品图像
 - 增强的样式
 
-您现在已准备好进入下一个模块 — **AI助手和内容个性化**，在该模块中，您将使用AI优化文本并自动生成图像。
+您现在已准备好进入下一个模块 — **人工智能辅助内容个性化**，在该模块中，您将使用人工智能优化文本并自动生成图像。
