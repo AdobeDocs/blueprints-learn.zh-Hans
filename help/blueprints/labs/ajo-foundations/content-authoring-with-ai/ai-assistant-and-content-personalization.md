@@ -7,9 +7,9 @@ exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 43a7d8153e8ad7e24162b9bb6c0d5bbcea784330
+source-git-commit: ea468b0eddaacdb7beaa1227c9c335371d089f34
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1311'
 ht-degree: 5%
 ---
 
@@ -91,19 +91,12 @@ AJO中的AI协助可帮助您构建更智能的品牌内内容。
 
    >*为iPhone 17发布内容撰写一个大胆、引人关注的标题。 将其保留在10个字以内*
 
-6. 单击“文本设置”以更改音调和通信策略。 将沟通策略更改为&#x200B;**FOMO （害怕错过）**，语言更改为&#x200B;**英语**，音调更改为&#x200B;**激动人心**。 通过缩小拨号键使用较短的版本。
+6. 单击“文本设置”以更改音调和通信策略。 将沟通策略更改为&#x200B;**FOMO （害怕错过）**，语言更改为&#x200B;**英语**，音调更改为&#x200B;**激动人心**。
 
    ![已选择FOMO通信策略和激励音调的文本设置面板](assets/ai-assistant-and-content-personalization-text-settings-fomo-tone.png)
 
 7. 单击&#x200B;**生成**&#x200B;按钮
-8. 查看并选择最佳版本，
-9. 如果文本较长，则使用滑块指向&#x200B;**“较短文本”**&#x200B;并重新生成文本。
-
-
-
-   ![用于重新生成较短标题的较短文本滑块](assets/ai-assistant-and-content-personalization-shorter-text-slider.png)
-
-10. 对文本感到满意后，请单击&#x200B;**Select**
+8. 查看并&#x200B;**Select**&#x200B;最佳版本
 
 ![选择生成的主页标题文本](assets/ai-assistant-and-content-personalization-select-generated-hero-text.png)
 
@@ -123,17 +116,17 @@ AJO中的AI协助可帮助您构建更智能的品牌内内容。
 
    ![评估前自动使用品牌指南选择原始内容](assets/ai-assistant-and-content-personalization-evaluate-brand-alignment.png)
 
-4. 正如预期的那样，您会注意到许多违反品牌准则的错误。 虽然这些可以通过人工智能进行更正，但在这种情况下，您无需修订现有材料。 相反，您可以原样保留它们，并从头开始创建完全符合品牌标准的新内容。
+4. 正如预期的那样，您会注意到许多违反品牌准则的错误。 尽管可以使用AI更正这些内容，但在这种情况下，您无需修订此占位符文本。 相反，您可以为描述输入所有新内容。
 
    ![AI评估结果显示违反品牌准则](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
 
-5. 使用带有以下提示的、使用AI为您生成的新段落。 您可以使用以下提示对描述文本使用相同的方法。
+5. 您可以按照与之前的主页标题相同的步骤操作，使用以下提示或……以节省时间，您还可以将占位符文本替换为下面提供的现成段落。
 
 提示：
 
 >*为新的iPhone 17编写引人注目的产品说明。 重点介绍其最令人印象深刻的功能，例如高级摄像头、电池续航时间和性能。 基调应该是优质、激动人心且易于让广大受众理解的。 将其保留在3个句子以下。*
 
-为了节省时间，已为您创建了文本。 复制并粘贴以下内容以获取您的文本。
+现成段落：
 
 >了解iPhone 17™ — 它配备先进的摄像头，可提供令人惊叹的照片、可让您持续工作的电池续航时间，以及让您保持领先地位的超快性能。 不要错过这种创新的体验。
 
@@ -171,7 +164,7 @@ AJO中的AI协助可帮助您构建更智能的品牌内内容。
 
    ![为图像引用样式选择了Connection 5G品牌准则](assets/ai-assistant-and-content-personalization-select-brand-guideline-reference.png)
 
-3. 单击上传图像
+3. 单击&#x200B;**上传图像**
 
    Firefly引用样式面板中的![上传图像按钮](assets/ai-assistant-and-content-personalization-click-upload-image.png)
 
@@ -186,43 +179,45 @@ AJO中的AI协助可帮助您构建更智能的品牌内内容。
 
 ## 选择图像设置
 
-选择您的&#x200B;**图像设置**：
+向下滚动左列，然后单击&#x200B;**更多设置**
+
+![Select更多设置](assets/ai-assistant-and-content-personalization-select-more-settings.png)
 
 1. 选择以下设置：
    - **比率：**&#x200B;横向(4:3)
    - **内容类型：**&#x200B;照片
    - **颜色和色调：**&#x200B;冷色调
    - **照明：**&#x200B;戏剧性的照明
-1. 按&#x200B;**生成**&#x200B;按钮
+
+2. 按&#x200B;**生成**&#x200B;按钮
 
 ![Firefly图像设置，包括比率、内容类型和照明，然后生成](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
 
+&#x200B;3. Select右侧的变体可查看它们，并&#x200B;**将**&#x200B;收藏夹中的几个保存到您的Assets文件夹以供以后使用。 您还可以单击多生成几次以获取更多变体。
 
-## Select并插入生成的图像
+![浏览变体并保存一些](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
 
-1. 通过检查生成的所有图像来查看Firefly结果。
+![保存到您的Assets文件夹](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
 
-   ![正在查看Firefly生成的图像结果](assets/ai-assistant-and-content-personalization-review-firefly-results.png)
+&#x200B;4. 然后，暂时从图像生成界面中&#x200B;**取消**。
 
-2. 单击所需所选图像的&#x200B;**Select**。
 
-   ![选择所需的生成Firefly图像](assets/ai-assistant-and-content-personalization-select-firefly-image.png)
-
-3. 如果出现上载模式提示，请单击&#x200B;**下一步**。
-
-   ![上传模式提示以单击“下一步”](assets/ai-assistant-and-content-personalization-upload-modal-next.png)
-
-4. 然后单击&#x200B;**导入**。
-
-![用于插入选定图像的“导入”按钮](assets/ai-assistant-and-content-personalization-click-import-button.png)
 
 ## 最终确定块设计
 
-如果您有时间，可应用10的圆角边框半径，使其看起来更现代。
+1. 返回电子邮件设计器界面，单击图像块上的&#x200B;**浏览**。
 
-经过几次迭代和变体后，您便拥有了最终设计。 最终布局与示例类似。
+![单击图像块中的“浏览”](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
+
+&#x200B;2. Select您的变体之一，然后单击&#x200B;**Select**
+
+![Select您的变体之一](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
+
+&#x200B;3. Select右列的&#x200B;**样式**&#x200B;选项卡，并对图像应用10的圆角边框半径
 
 ![带圆角图像的最终电子邮件块设计](assets/ai-assistant-and-content-personalization-final-block-design.png)
+
+经过几次迭代和变体后，您便拥有了最终设计。 最终布局与上例相似。
 
 此时，您应该对使用AI加快和提升内容创建速度充满信心。
 

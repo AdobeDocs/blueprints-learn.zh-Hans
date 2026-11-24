@@ -7,9 +7,9 @@ exl-id: 3e2b064f-5680-461c-a49e-2a61514e146f
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: c0adb1eab9b0a1315e2041c1f2cb89a4bfdae4b2
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '509'
 ht-degree: 0%
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 简介
 
-在本最终模块中，您将使用Adobe Journey Optimizer中的模拟工具通过&#x200B;**两个条件变体**&#x200B;测试电子邮件。
+在本模块中，您将使用Adobe Journey Optimizer中的模拟工具通过&#x200B;**两个条件变体**&#x200B;测试电子邮件。
 这样，您可以预览不同客户将会如何体验您的个性化消息，确保在启动营销活动之前保持准确性。
 
 您将使用工具包中的示例测试配置文件文件&#x200B;**sample.csv**。
@@ -37,8 +37,7 @@ ht-degree: 0%
 ## 打开模拟工具
 
 1. 打开您填写好的电子邮件。
-1. 单击&#x200B;**模拟内容**。
-1. 选择&#x200B;**模拟内容变体**。
+2. 在电子邮件中，单击&#x200B;**模拟内容**。
 
 ![单击“模拟内容”并选择“模拟内容变化”](assets/content-simulation-click-simulate-content-variation.png)
 
@@ -46,39 +45,42 @@ ht-degree: 0%
 
 ## 上传测试配置文件数据
 
-1. 从您的Toolkit文件夹中打开&#x200B;**sample.csv**。
-   - **Alex** → 40岁以上
-   - **Jason**→于40岁
-2. 单击&#x200B;**上载输入数据**。
+1. 单击底部的&#x200B;**上传**&#x200B;以上传输入数据。
 
-   在模拟面板中![上载输入数据按钮](assets/content-simulation-click-upload-input-data.png)
+   在模拟面板中上载输入数据的![按钮](assets/content-simulation-click-upload-input-data.png)
 
-3. 选择&#x200B;**sample.csv**&#x200B;并单击&#x200B;**继续**。
+&#x200B;3. 选择&#x200B;**sample.csv**&#x200B;并单击&#x200B;**继续**。
 
-![选择sample.csv并单击“继续”](assets/content-simulation-choose-sample-csv-continue.png)
+   ![选择sample.csv并单击“打开”](assets/content-simulation-choose-sample-csv-continue.png)
 
-AJO会处理文件并准备预览。
+AJO会处理文件，并及时准备预览。
+![变量预览](assets/content-simulation-variation-previews.png)
 
 
 ## 查看变体渲染
 
-AJO会根据上传的用户档案并排显示这两个变体。
+当您单击模拟电子邮件中的内容时，AJO会根据上传的用户档案并排显示变体。
 
 **预期结果：**
 
 - **Alex**→看到&#x200B;**变体1**（年龄超过40岁）
+单击第一个变量上方的铅笔图标以&#x200B;**显示变量详细信息**
 
+![单击铅笔图标以查看变体详细信息](assets/content-simulation-click-pencil-icon.png)
+
+卡片将翻转以显示个性化所基于的详细信息
 ![Alex个人资料呈现年龄超过40岁的变体1](assets/content-simulation-variant-1-age-above-40.png)
 
-如果向上滚动，您现在还会看到带有名称的个性化字段，如下所示。
-
-为变体1![&#128279;](assets/content-simulation-personalized-name-field-variant-1.png)中的Alex显示的个性化名称字段
-
 - **Jason** →看到&#x200B;**变体2** （年龄低于40岁）
+单击第二个变量上方的铅笔图标以&#x200B;**显示变量详细信息**
 
-![Jason个人资料呈现年龄在40岁以下的Variant 2](assets/content-simulation-variant-2-age-below-40.png)
+![单击铅笔图标以查看变体详细信息](assets/content-simulation-click-pencil-icon-for-second-variant.png)
 
-还有杰森的全名。 太酷了！
+将视图从并排切换到&#x200B;**垂直栈叠**&#x200B;以并排查看Jason的详细信息和个性化
+
+![Jason个人资料呈现年龄在40岁以下的Variant 2](assets/content-simulation-swap-view-to-vertically-stacked.png)
+
+在滚动电子邮件内容时，我们可以看到Jason的全名以及我们选择的条件内容图像。 太酷了！
 
 在变体2![&#128279;](assets/content-simulation-personalized-name-field-variant-2.png)中为Jason显示了个性化全名字段
 

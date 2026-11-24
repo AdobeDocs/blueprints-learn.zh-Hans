@@ -7,9 +7,9 @@ exl-id: 1abab39e-811c-4010-a4f5-a7adc9e4e0a4
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: efdf51a410acd377a38ec73a9c71964a78320a0b
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '405'
 ht-degree: 0%
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 0%
 此时，您已了解我们不仅可以将配置文件属性个性化，还可以使用属性创建条件逻辑以确定要显示的内容。 Adobe Journey Optimizer功能非常强大，为营销人员提供了极大的灵活性。
 
 1. 单击&#x200B;**模拟内容**。
-2. 选择&#x200B;**模拟内容变体**。
+2. Select **模拟内容变化**。
 
-   ![单击“模拟内容”并选择“模拟内容变化”](assets/content-simulation-click-simulate-content-variation.png)
+   ![单击“模拟内容变量”](assets/content-simulation-click-simulate-content-variation.png)
 
    此时将打开模拟面板。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 
 
-5. 选择两个变体。
+5. Select前两个变体（第三个是后备）。
 6. 添加主题行前缀
    1. 变体1:40以上
    2. 变体2:40以下

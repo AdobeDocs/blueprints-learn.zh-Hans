@@ -4,13 +4,11 @@ description: 了解如何通过导入HTML并插入之前创建的标头片段，
 doc-type: article
 solution: Experience Platform
 exl-id: e73f06b1-be8a-4096-949c-900db13db9f8
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 0ba4d425f258e4c02e1563cdec2da1f815bfcc65
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '842'
 ht-degree: 0%
-
 ---
-
 
 # 构建内容模板
 
@@ -77,7 +75,7 @@ ht-degree: 0%
    2. 自己编写代码
    3. 导入HTML
 
-选择第三个选项。 单击&#x200B;**导入HTML**
+Select是第三个选项。 单击&#x200B;**导入HTML**
 
 
 
@@ -104,7 +102,7 @@ ht-degree: 0%
 
 ### 左侧面板
 
-Adobe Journey Optimizer (AJO)中的“**结构**”和“**内容**”组件是设计电子邮件、登陆页面和内容片段时使用的基本元素。 结构定义了布局框架，而内容提供了置于这些布局中的实际构建块。
+在“组件”选项卡下，Adobe Journey Optimizer (AJO)中的“**结构**”和“**内容**”组件是设计电子邮件、登陆页面和内容片段时使用的基本元素。 结构定义了布局框架，而内容提供了置于这些布局中的实际构建块。
 
 Adobe Journey Optimizer中的正文部分是电子邮件或页面内容的主容器。 它用作可视设计空间的根，其中所有结构组件（列、布局）和内容组件（文本、图像、按钮等） 嵌套。
 
