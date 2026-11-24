@@ -7,7 +7,7 @@ exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: cdd5113ade5b2e4b75a5572a3a83aecd2918e297
+source-git-commit: 929145a02a8a2f3505e9e12ff605c500eac1cc79
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
    ![单击以验证历程](assets/test-journey-click-validate.png)
 
-&#x200B;5. 单击&#x200B;**警报**&#x200B;并确保没有错误（警告正常）
+4. 单击&#x200B;**警报**&#x200B;并确保没有错误（警告正常）
 
    ![打开历程后未显示任何错误的警报面板](assets/test-journey-alerts-no-errors.png)
 
@@ -37,7 +37,7 @@ ht-degree: 0%
    >
    >指示电子邮件变体中缺少选择退出链接
 
-&#x200B;6. 单击&#x200B;**模拟**，然后选择&#x200B;**测试模式**
+5. 单击&#x200B;**模拟**，然后选择&#x200B;**测试模式**
 
    ![按模拟](assets/test-journey-select-test-mode.png)
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 
 
-&#x200B;7. 单击左侧的&#x200B;**触发事件**&#x200B;并填写以下属性：
+6. 单击左侧的&#x200B;**触发事件**&#x200B;并填写以下属性：
    - **事件类型**： `orders.shipped`
    - **个人电子邮件**： `henry.creel@emailsim.io`
    - **订单ID**： `123`
-&#x200B;8. 单击&#x200B;**发送**（请注意，单击发送后需要几秒钟才能做出响应）
+7. 单击&#x200B;**发送**（请注意，单击发送后需要几秒钟才能做出响应）
 
    ![触发填写的事件表单并单击发送](assets/test-journey-trigger-event-send.png)
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 
 
-&#x200B;9. 在&#x200B;**结果** ->下，单击左侧的&#x200B;**显示日志**
+8. 在&#x200B;**结果** ->下，单击左侧的&#x200B;**显示日志**
 
 触发测试事件后![在“结果”下显示“日志”选项](assets/test-journey-show-log-results.png)
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
    右上角的历程的![发布按钮](assets/test-journey-publish-journey.png)
 
-1. 单击左上角的\&lt; — 箭头&#x200B;**关闭**&#x200B;**历程**
+1. 单击左上角的\&lt; — 箭头&#x200B;**关闭****历程**
 
 ![左上角的向后箭头以关闭历程](assets/test-journey-close-journey-back-arrow.png)
 
