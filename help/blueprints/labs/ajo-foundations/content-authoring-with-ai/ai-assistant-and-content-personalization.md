@@ -1,27 +1,27 @@
 ---
-title: AI助手和内容个性化
-description: 使用Adobe Journey Optimizer的AI Assistant在电子邮件设计器中生成品牌内主题行、优化电子邮件副本和色调，以及创建Firefly生成的图像。
+title: AI辅助内容个性化
+description: 使用Adobe Journey Optimizer的AI在电子邮件设计器中生成品牌内主题行、优化电子邮件副本和色调，以及创建Firefly生成的图像。
 doc-type: article
 solution: Experience Platform
 exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 43a7d8153e8ad7e24162b9bb6c0d5bbcea784330
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1322'
 ht-degree: 5%
 ---
 
-# AI助手和内容个性化
+# AI辅助内容个性化
 
-**用途：**&#x200B;了解如何使用Adobe Journey Optimizer的AI Assistant直接在电子邮件设计工具中生成主题行、优化电子邮件文本、调整色调和创建品牌内Firefly图像。
+**用途：**&#x200B;了解如何使用Adobe Journey Optimizer的AI直接在电子邮件设计器中生成主题行、优化电子邮件文本、调整色调和创建品牌内显示的Firefly图像。
 
 ## 学习目标
 
 在本模块结束时，您将能够：
 
-1. 使用AI Assistant生成主题行和预标题。
+1. 使用AI生成主题行和预标题。
 1. 优化主页文本、描述、语调和消息。
 1. 应用AI驱动的改写、摘要和色调调整。
 1. 使用具有引用样式和品牌设置的Adobe Firefly生成图像。
@@ -29,7 +29,7 @@ ht-degree: 5%
 
 ## 简介
 
-AJO中的AI助手可帮助您构建更智能的品牌内内容。
+AJO中的AI协助可帮助您构建更智能的品牌内内容。
 它可以：
 
 - 生成主题行
@@ -38,21 +38,21 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 - 使用Firefly创建品牌图像
 - 确保一切符合“连接5G”准则
 
-在本练习中，您将改进使用AI助手创建的电子邮件。
+对于此练习，您将改进使用AI创建的电子邮件。
 
 >[!NOTE]
 >
->AI Assistant是&#x200B;**非确定性的**，这意味着它每次使用时可能会生成稍有不同的内容。 您在练习过程中看到的内容可能与本指南中的屏幕截图或示例不完全相符。 没关系 — 专注于学习过程和概念，而不是期望得到相同的结果。
+>AI是&#x200B;**非确定性的**，这意味着每次使用它时，它可能会生成稍有不同的内容。 您在练习过程中看到的内容可能与本指南中的屏幕截图或示例不完全相符。 没关系 — 专注于学习过程和概念，而不是期望得到相同的结果。
 
-## 使用AI助手创建电子邮件主题行
+## 使用人工智能创建电子邮件主题行
 
 1. 通过单击“返回”按钮返回至Campaign，或编辑您在上一模块中创建的电子邮件。 在上一步中，您可以单击右侧的&#x200B;**设置**&#x200B;选项卡。
 2. 单击电子邮件容器>单击编辑电子邮件按钮。
 3. 单击内容选项卡，然后单击电子邮件正文
-4. 选择&#x200B;**主题行**&#x200B;字段。
-5. 单击&#x200B;**AI助手图标**。 （见下文）
+4. Select **主题行**&#x200B;字段。
+5. 单击&#x200B;**AI图标**。 （见下文）
 
-   主题行字段工具栏中的![AI助手图标](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
+   主题行字段工具栏中的![AI图标](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
 
 6. 您注意到默认情况下会选中“品牌指南”。
 7. 输入提示：
@@ -61,13 +61,13 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 
 8. 按&#x200B;**生成**。
 9. 查看生成的四个变体。
-10. 选择具有最佳对齐分数的变体，然后单击&#x200B;**选择**。
+10. 选择具有最佳一致性分数的变体，然后单击&#x200B;**Select**。
 
-![从AI助手中选择最匹配的主题行变量](assets/ai-assistant-and-content-personalization-select-subject-line-variant.png)
+![从AI中选择最匹配的主题行变体](assets/ai-assistant-and-content-personalization-select-subject-line-variant.png)
 
 >[!NOTE]
 >
->您的结果可能与实验指南完全不同，因此您无需担心。 选择您认为正确的标题，然后继续进行实验。
+>您的结果可能与实验指南完全不同，因此您无需担心。 您认为标题正确的Select并继续实验。
 
 
 
@@ -79,13 +79,13 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
    ![在营销活动编辑器中编辑电子邮件正文按钮](assets/ai-assistant-and-content-personalization-edit-email-body-button.png)
 
 2. 单击&#x200B;**产品捕捉行**&#x200B;标题。
-3. 通过单击&#x200B;**生成并选择文本**&#x200B;打开AI助手
+3. 通过单击&#x200B;**生成并选择文本**&#x200B;来启动人工智能帮助
 
-   ![生成并选择文本选项以打开AI助手](assets/ai-assistant-and-content-personalization-generate-and-select-text.png)
+   ![生成并选择文本选项以打开AI](assets/ai-assistant-and-content-personalization-generate-and-select-text.png)
 
-4. 从下拉列表中选择&#x200B;**Connection 5G Brand Guidelines**。
+4. 下拉列表中的Select **Connection 5G Brand Guidelines**。
 
-   在AI助手下拉列表![&#128279;](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)中选择了连接5G品牌指南选项
+   在AI下拉列表中选择了![Connection 5G品牌指南选项](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)
 
 5. 提示：
 
@@ -103,7 +103,7 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 
    ![用于重新生成较短标题的较短文本滑块](assets/ai-assistant-and-content-personalization-shorter-text-slider.png)
 
-10. 对文本感到满意后，单击&#x200B;**选择**
+10. 对文本感到满意后，请单击&#x200B;**Select**
 
 ![选择生成的主页标题文本](assets/ai-assistant-and-content-personalization-select-generated-hero-text.png)
 
@@ -111,13 +111,13 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 
 这一次，您将测试AI如何帮助发现问题。
 
-1. 选择下面是模板化文本且没有意义的文本。
+1. Select下面的文本是模板化文本，没有含义。
 
    ![为评估选择的模板化占位符文本](assets/ai-assistant-and-content-personalization-select-templated-text.png)
 
 2. 单击评估按钮，如下所示。
 
-   ![AI助手文本面板中的“评估”按钮](assets/ai-assistant-and-content-personalization-click-evaluate-button.png)
+   ![评估AI文本面板中的按钮](assets/ai-assistant-and-content-personalization-click-evaluate-button.png)
 
 3. 系统会自动为您的品牌选择原始内容，如下面的步骤1和2所示。 单击&#x200B;**评估**&#x200B;按钮继续。
 
@@ -125,7 +125,7 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 
 4. 正如预期的那样，您会注意到许多违反品牌准则的错误。 虽然这些可以通过人工智能进行更正，但在这种情况下，您无需修订现有材料。 相反，您可以原样保留它们，并从头开始创建完全符合品牌标准的新内容。
 
-   ![AI助手评估结果显示违反品牌准则](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
+   ![AI评估结果显示违反品牌准则](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
 
 5. 使用带有以下提示的、使用AI为您生成的新段落。 您可以使用以下提示对描述文本使用相同的方法。
 
@@ -146,7 +146,7 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 
 ## 添加Firefly生成的图像
 
-到目前为止，我们已在主题行和文本上对AI助手进行了测试。 图像呢？
+到目前为止，我们已在主题行和文本上测试了AI。 图像呢？
 
 在深入探讨AI图像生成之前，请查看您可以构建的体验类型。
 
@@ -167,7 +167,7 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 ## 上传参考图像
 
 1. 打开&#x200B;**引用样式**。
-2. 在品牌选择上选择&#x200B;**连接5G品牌指南**
+2. 关于品牌选择的Select **连接5G品牌指南**
 
    ![为图像引用样式选择了Connection 5G品牌准则](assets/ai-assistant-and-content-personalization-select-brand-guideline-reference.png)
 
@@ -175,7 +175,7 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 
    Firefly引用样式面板中的![上传图像按钮](assets/ai-assistant-and-content-personalization-click-upload-image.png)
 
-4. 从工具包文件夹中选择reference.jpg
+4. toolkit文件夹中的Select reference.jpg
 
    ![从工具包文件夹中选择reference.jpg](assets/ai-assistant-and-content-personalization-select-reference-jpg.png)
 
@@ -198,13 +198,13 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 ![Firefly图像设置，包括比率、内容类型和照明，然后生成](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
 
 
-## 选择并插入生成的图像
+## Select并插入生成的图像
 
 1. 通过检查生成的所有图像来查看Firefly结果。
 
    ![正在查看Firefly生成的图像结果](assets/ai-assistant-and-content-personalization-review-firefly-results.png)
 
-2. 单击所需所选图像的&#x200B;**选择**。
+2. 单击所需所选图像的&#x200B;**Select**。
 
    ![选择所需的生成Firefly图像](assets/ai-assistant-and-content-personalization-select-firefly-image.png)
 
@@ -228,7 +228,7 @@ AJO中的AI助手可帮助您构建更智能的品牌内内容。
 
 ## 回顾
 
-您已成功使用AI助手执行以下操作：
+您已成功使用AI执行以下操作：
 
 - 生成主题行
 - 优化主页文本

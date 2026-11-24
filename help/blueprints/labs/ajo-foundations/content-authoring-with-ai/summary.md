@@ -7,9 +7,9 @@ exl-id: 8c4d8a66-190d-4714-95a3-37955b1e1a8c
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 54e14714c83a6815926f12db8aad1476b0266d7b
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 - 您可以放心地在Adobe Journey Optimizer (AJO)中创建、配置和测试品牌通信。
 - 使用&#x200B;**片段**&#x200B;和&#x200B;**模板**&#x200B;可简化内容创建，并确保消息之间的品牌一致性。
-- **AI助手**&#x200B;和&#x200B;**品牌一致性分数**&#x200B;工具有助于在启动之前保持语调、质量和合规性。
+- **AI**&#x200B;和&#x200B;**品牌一致性分数**&#x200B;工具有助于在启动之前保持语调、质量和合规性。
 - **Personalization**&#x200B;允许您根据实时配置文件属性和行为一对一地定制内容。
 - **动态内容**&#x200B;使用定位规则和条件逻辑在区段之间启用消息变化。
 - 使用&#x200B;**模拟用户档案**&#x200B;进行测试并运行&#x200B;**合规性检查**&#x200B;可确保邮件在正式启用前正确呈现并符合品牌标准。
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 - [ ]您是否创建并配置了Connection 5G品牌？
 - [ ]您是否生成并应用了页眉/页脚片段？
-- [ ]您是否使用AI助手生成内容？
+- [ ]您是否使用AI生成内容？
 - [ ]您是否运行了品牌一致性检查并解决了问题？
 - [ ]您是否使用测试用户档案测试您的历程并查看电子邮件？
 
