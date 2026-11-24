@@ -4,7 +4,7 @@ description: 了解如何将电子邮件设计分解为可重用的片段（例�
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
-source-git-commit: d935e9a5179579e35c6aa5fe9e495f5bba1a1b03
+source-git-commit: 71aca15b0ca0257d3ea0a84b52fed76ca4e372f0
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
@@ -132,33 +132,31 @@ ht-degree: 0%
 
 10. 单击&#x200B;**“浏览”**&#x200B;以选择已提供并已上传到Assets的徽标图像。
 
-![单击“浏览”按钮选择徽标图像](assets/building-content-fragments-click-browse-button.png)
+    ![单击“浏览”按钮选择徽标图像](assets/building-content-fragments-click-browse-button.png)
 
-&#x200B;11. 导航到您的文件夹，单击徽标图像(*C5G-Logo.png*)，然后单击&#x200B;**Select**。
+11. 导航到您的文件夹，单击徽标图像(*C5G-Logo.png*)，然后单击&#x200B;**Select**。
 
-![从Assets文件夹中选择C5G-Logo.png](assets/building-content-fragments-select-logo-from-assets.png)
+    ![从Assets文件夹中选择C5G-Logo.png](assets/building-content-fragments-select-logo-from-assets.png)
 
-&#x200B;12. 徽标放置正确，但太大，需要调整大小。 要调整徽标的大小，请更新其属性。 单击右列的&#x200B;**样式**&#x200B;选项卡，然后通过拖动滑块将宽度设置为40%，如下所示。
+12. 徽标放置正确，但太大，需要调整大小。 要调整徽标的大小，请更新其属性。 单击右列的&#x200B;**样式**&#x200B;选项卡，然后通过拖动滑块将宽度设置为40%，如下所示。
 
->[!NOTE]
->
->请注意，打开切换按钮时，40数字表示%，而不是像素。 如果您希望得到一个绝对的像素完美值，请将按钮切换为px。
+    >[!NOTE]
+    >
+    >请注意，打开切换按钮时，40数字表示%，而不是像素。 如果您希望得到一个绝对的像素完美值，请将按钮切换为px。
 
+    ![样式选项卡宽度滑块设置为40%以调整徽标大小](assets/building-content-fragments-resize-logo-width-slider.png)
 
+13. 单击&#x200B;**“保存”**&#x200B;并保存您的片段。 在确认时，您会收到绿色条通知。
 
-![样式选项卡宽度滑块设置为40%以调整徽标大小](assets/building-content-fragments-resize-logo-width-slider.png)
+    保存片段后![绿色确认栏](assets/building-content-fragments-save-fragment-confirmation.png)
 
-&#x200B;13. 单击&#x200B;**“保存”**&#x200B;并保存您的片段。 在确认时，您会收到绿色条通知。
+14. 保存的片段处于草稿模式。 在使用它之前，您需要先发布它。 单击“**上一步**”按钮。
 
-保存片段后![绿色确认栏](assets/building-content-fragments-save-fragment-confirmation.png)
+    ![“上一步”按钮以在发布前离开草稿片段](assets/building-content-fragments-click-back-button-draft.png)
 
-&#x200B;14. 保存的片段处于草稿模式。 在使用它之前，您需要先发布它。 单击“**上一步**”按钮。
+15. 单击“**发布**”按钮。 您会看到消息“正在发布片段，这可能需要一些时间。 我们会在完成后通知。” 确认时。 您的片段已准备好用于创建模板。
 
-![“上一步”按钮以在发布前离开草稿片段](assets/building-content-fragments-click-back-button-draft.png)
-
-&#x200B;15. 单击“**发布**”按钮。 您会看到消息“正在发布片段，这可能需要一些时间。 我们会在完成后通知。” 确认时。 您的片段已准备好用于创建模板。
-
-![发布按钮和发布片段确认消息](assets/building-content-fragments-click-publish-fragment-button.png)
+    ![发布按钮和发布片段确认消息](assets/building-content-fragments-click-publish-fragment-button.png)
 
 您看到状态更改为&#x200B;**“实时”**。 此时，您已完成构建标题片段，该片段将在下一步中使用。
 

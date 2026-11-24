@@ -7,7 +7,7 @@ exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: ea468b0eddaacdb7beaa1227c9c335371d089f34
+source-git-commit: 71aca15b0ca0257d3ea0a84b52fed76ca4e372f0
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 5%
@@ -191,31 +191,29 @@ AJO中的AI协助可帮助您构建更智能的品牌内内容。
 
 2. 按&#x200B;**生成**&#x200B;按钮
 
-![Firefly图像设置，包括比率、内容类型和照明，然后生成](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
+   ![Firefly图像设置，包括比率、内容类型和照明，然后生成](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
 
-&#x200B;3. Select右侧的变体可查看它们，并&#x200B;**将**&#x200B;收藏夹中的几个保存到您的Assets文件夹以供以后使用。 您还可以单击多生成几次以获取更多变体。
+3. Select右侧的变体可查看它们，并&#x200B;**将**&#x200B;收藏夹中的几个保存到您的Assets文件夹以供以后使用。 您还可以单击多生成几次以获取更多变体。
 
-![浏览变体并保存一些](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
+   ![浏览变体并保存一些](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
 
-![保存到您的Assets文件夹](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
+   ![保存到您的Assets文件夹](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
 
-&#x200B;4. 然后，暂时从图像生成界面中&#x200B;**取消**。
-
-
+4. 然后，暂时从图像生成界面中&#x200B;**取消**。
 
 ## 最终确定块设计
 
 1. 返回电子邮件设计器界面，单击图像块上的&#x200B;**浏览**。
 
-![单击图像块中的“浏览”](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
+   ![单击图像块中的“浏览”](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
 
-&#x200B;2. Select您的变体之一，然后单击&#x200B;**Select**
+2. Select您的变体之一，然后单击&#x200B;**Select**
 
-![Select您的变体之一](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
+   ![Select您的变体之一](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
 
-&#x200B;3. Select右列的&#x200B;**样式**&#x200B;选项卡，并对图像应用10的圆角边框半径
+3. Select右列的&#x200B;**样式**&#x200B;选项卡，并对图像应用10的圆角边框半径
 
-![带圆角图像的最终电子邮件块设计](assets/ai-assistant-and-content-personalization-final-block-design.png)
+   ![带圆角图像的最终电子邮件块设计](assets/ai-assistant-and-content-personalization-final-block-design.png)
 
 经过几次迭代和变体后，您便拥有了最终设计。 最终布局与上例相似。
 
