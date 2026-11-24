@@ -4,9 +4,9 @@ description: 了解如何将电子邮件设计分解为可重用的片段（例�
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+source-git-commit: d935e9a5179579e35c6aa5fe9e495f5bba1a1b03
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '916'
 ht-degree: 0%
 ---
 
@@ -96,7 +96,13 @@ ht-degree: 0%
 
    ![用您的名字和姓氏命名新资源文件夹](assets/building-content-fragments-name-asset-folder.png)
 
-5. **创建新片段：**&#x200B;在“内容管理”下，单击&#x200B;**片段**&#x200B;并创建新片段。
+5. 双击新创建的文件夹以&#x200B;**打开**。 然后单击&#x200B;**添加Assets**，浏览或删除工具包文件夹中的所有.png和.jpg图像。 然后单击&#x200B;**上传**
+
+   ![单击“添加资源并上传图像文件”](assets/building-content-fragments-add-assets-and-upload-image-files.png)
+
+   ![单击上传](assets/building-content-fragments-click-upload.png)
+
+6. **创建新片段：**&#x200B;在“内容管理”下，单击&#x200B;**片段**&#x200B;并创建新片段。
 
    内容管理下的![片段选项用于创建新片段](assets/building-content-fragments-click-fragments-create-new.png)
 
@@ -106,57 +112,51 @@ ht-degree: 0%
 
    **描述：**&#x200B;模板的片段标头
 
-   **类型：**&#x200B;选择可视化片段
+   **类型：** Select可视化片段
 
    ![标头片段名称、描述和可视化片段类型字段](assets/building-content-fragments-fragment-name-type-details.png)
 
-6. 单击右上方的&#x200B;**创建按钮**。
+7. 单击右上方的&#x200B;**创建按钮**。
 
    新片段对话框右上角的![创建按钮](assets/building-content-fragments-click-create-button-top-right.png)
 
    这将打开一个空白片段创建者屏幕。
 
-7. 单击“结构”下的1:1列，然后拖到画布上，如下所示。 （请单击下面的图像查看动画图形）
+8. 转到左列的&#x200B;**组件**&#x200B;选项卡。 然后单击“结构”下的&#x200B;**1:1 Column**&#x200B;并拖动到画布上，如下所示。 （请单击下面的图像查看动画图形）
 
-   ![将1:1列结构拖动到片段画布上的动画演示](assets/building-content-fragments-drag-1-1-columns-structure.gif)
+   ![将1:1列结构拖到片段画布上](assets/building-content-fragments-drag-1-1-columns-structure.png)
 
-8. 接下来，将“**image**”拖动到刚刚添加的1:1行上
+9. 接下来，将“**image**”拖动到刚刚添加的1:1行上
 
    ![将图像组件拖动到1:1行](assets/building-content-fragments-drag-image-onto-row.png)
 
-9. 上传您提供的徽标图像。 单击&#x200B;**“导入媒体”按钮**
+10. 单击&#x200B;**“浏览”**&#x200B;以选择已提供并已上传到Assets的徽标图像。
 
-   ![导入媒体按钮以上传徽标图像](assets/building-content-fragments-click-import-media-button.png)
+![单击“浏览”按钮选择徽标图像](assets/building-content-fragments-click-browse-button.png)
 
-10. **上传徽标：**&#x200B;从图像的Toolkit文件夹上传徽标(*C5G-Logo.png*)，然后单击“下一步”。
+11. 导航到您的文件夹，单击徽标图像(*C5G-Logo.png*)，然后单击&#x200B;**Select**。
 
-![从Toolkit文件夹中选择C5G-Logo.png以上传](assets/building-content-fragments-upload-logo-select-file.png)
+![从Assets文件夹中选择C5G-Logo.png](assets/building-content-fragments-select-logo-from-assets.png)
 
-![选择徽标上传后单击“下一步”](assets/building-content-fragments-upload-logo-click-next.png)
+12. 徽标放置正确，但太大，需要调整大小。 要调整徽标的大小，请更新其属性。 单击右列的&#x200B;**样式**&#x200B;选项卡，然后通过拖动滑块将宽度设置为40%，如下所示。
 
-1. 选择您已创建的&#x200B;**资产文件夹**，然后单击&#x200B;**导入**。 该文件将保存在您的文件夹中。
-
-   ![选择已创建的资产文件夹并单击“导入”](assets/building-content-fragments-select-asset-folder-import.png)
-
-1. 徽标放置正确，但太大，需要调整大小。 要调整徽标的大小，请更新其属性。 单击&#x200B;**样式选项卡**&#x200B;并通过拖动滑块将宽度设置为40%，如下所示。
-
-   >[!NOTE]
-   >
-   >请注意，打开切换按钮时，40数字表示%，而不是像素。 如果您希望得到一个绝对的像素完美值，请将按钮切换为px。
+>[!NOTE]
+>
+>请注意，打开切换按钮时，40数字表示%，而不是像素。 如果您希望得到一个绝对的像素完美值，请将按钮切换为px。
 
 
 
-   ![样式选项卡宽度滑块设置为40%以调整徽标大小](assets/building-content-fragments-resize-logo-width-slider.png)
+![样式选项卡宽度滑块设置为40%以调整徽标大小](assets/building-content-fragments-resize-logo-width-slider.png)
 
-1. 单击&#x200B;**“保存”**&#x200B;并保存您的片段。 在确认时，您会收到绿色条通知。
+13. 单击&#x200B;**“保存”**&#x200B;并保存您的片段。 在确认时，您会收到绿色条通知。
 
-   保存片段后![绿色确认栏](assets/building-content-fragments-save-fragment-confirmation.png)
+保存片段后![绿色确认栏](assets/building-content-fragments-save-fragment-confirmation.png)
 
-1. 保存的片段处于草稿模式。 在使用它之前，您需要先发布它。 单击“**上一步**”按钮。
+14. 保存的片段处于草稿模式。 在使用它之前，您需要先发布它。 单击“**上一步**”按钮。
 
-   ![“上一步”按钮以在发布前离开草稿片段](assets/building-content-fragments-click-back-button-draft.png)
+![“上一步”按钮以在发布前离开草稿片段](assets/building-content-fragments-click-back-button-draft.png)
 
-1. 单击“**发布**”按钮。 您会看到消息“正在发布片段，这可能需要一些时间。 我们会在完成后通知。” 确认时。 您的片段已准备好用于创建模板。
+15. 单击“**发布**”按钮。 您会看到消息“正在发布片段，这可能需要一些时间。 我们会在完成后通知。” 确认时。 您的片段已准备好用于创建模板。
 
 ![发布按钮和发布片段确认消息](assets/building-content-fragments-click-publish-fragment-button.png)
 

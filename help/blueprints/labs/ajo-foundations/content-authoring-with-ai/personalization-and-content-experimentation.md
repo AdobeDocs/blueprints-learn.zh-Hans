@@ -7,9 +7,9 @@ exl-id: b79327e0-dfc4-49bf-a112-3675c825c479
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: a9a9e6b1a44f5f104e0454ab52da01fb47db425e
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1227'
 ht-degree: 0%
 ---
 
@@ -44,12 +44,12 @@ Adobe Journey Optimizer中的Personalization允许您根据个人资料、行为
 此练习的这一部分简化了个性化操作。 根据用户档案将名字和姓氏添加到电子邮件中。 Personalization基于由您定义的XDM Individual Profile架构管理的配置文件数据。 XDM Individual Profile架构是唯一可用于在Journey Optimizer中对内容进行个性化的架构。
 
 1. 打开在之前的模块中创建的电子邮件。
-2. 在主图标题上方添加一个文本块，内容为： **您好，**
+2. 在标题副本上方的主页标题块中添加文本&#x200B;**&quot;嗨， &quot;**
 3. 单击&#x200B;**个性化**&#x200B;图标。
 
    电子邮件文本工具栏中的![个性化图标](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
-4. 搜索&#x200B;**第一个名称**&#x200B;**1&rbrace;。**
+4. 搜索&#x200B;**名字**。
 
    ![在个性化面板中搜索“名字”属性](assets/personalization-and-content-experimentation-search-first-name-field.png)
 
@@ -102,7 +102,7 @@ Adobe Journey Optimizer中的动态内容使您能够创建无缝适应受众的
 
 为40岁以下的人创建另一个图像（请记住，您创建了一个45岁左右的Firefly图像），并将其用于此练习。
 
-1. 选择现有图像块。 （单击图像）并单击&#x200B;**条件块**。
+1. Select现有图像块。 （单击图像）并单击&#x200B;**条件块**。
 2. 单击&#x200B;**添加变体**。
 
    ![条件图像块上的“添加变体”按钮](assets/personalization-and-content-experimentation-click-add-variant-button.png)
@@ -116,13 +116,13 @@ Adobe Journey Optimizer中的动态内容使您能够创建无缝适应受众的
    ![正在创建新变体并将其重命名为年龄低于40岁的变体](assets/personalization-and-content-experimentation-create-variant-age-below-40.png)
 
 5. 您可以使用Firefly通过提示（如“20岁左右”）创建图像。 但是，为了节省时间，我们在工具包中已有一个名为“**variant-age-below-40.jpg**”的图像。
-6. 单击图像并导入介质。
+6. 单击该图像并&#x200B;**Select资产**。
 
-   ![单击40以下变体的图像并导入媒体](assets/personalization-and-content-experimentation-click-image-import-media.png)
+   ![单击图像并Select40以下变体的资产](assets/personalization-and-content-experimentation-click-image-import-media.png)
 
-7. 选择&#x200B;**variant-age-below-40.jpg**&#x200B;图像。 通过单击&#x200B;**下一步**&#x200B;导入它，最后再按文件夹中的&#x200B;**导入**（默认情况下，您应该已在文件夹中）。
+7. Select **variant-age-below-40.jpg**&#x200B;图像位于Assets文件夹中，然后单击&#x200B;**Select**。
 
-   ![选择并导入variant-age-below-40.jpg图像](assets/personalization-and-content-experimentation-select-below-40-image.png)
+   ![选择并导入variant-age-below-40.jpg图像](assets/personalization-and-content-experimentation-select-below-40-image-from-assets.png)
 
 8. 尝试在变体之间切换，您会看到应用了其他图像。
 
@@ -137,7 +137,7 @@ Adobe Journey Optimizer中的动态内容使您能够创建无缝适应受众的
 
 ## “40岁以上”的逻辑
 
-1. 选择并将&#x200B;**年龄悬停在40**&#x200B;变量上方。
+1. Select并将&#x200B;**年龄悬停在40**&#x200B;变量上方。
 2. 单击&#x200B;**条件逻辑**&#x200B;图标。
 
    40岁以上变体的![条件逻辑图标](assets/personalization-and-content-experimentation-click-conditional-logic-icon.png)
@@ -155,14 +155,14 @@ Adobe Journey Optimizer中的动态内容使您能够创建无缝适应受众的
 
 7. 将条件命名为： **年龄大于40**
 8. 添加描述 — &quot;**40**&#x200B;以上人员的图像变体&quot;
-9. 单击&#x200B;**添加→选择**。
+9. 单击&#x200B;**添加Select**。
 
-![单击“添加”，然后选择超过40岁的年龄条件](assets/personalization-and-content-experimentation-click-add-select-age-above-40.png)
+![单击“添加”，然后单击Select40岁以上的年龄条件](assets/personalization-and-content-experimentation-click-add-select-age-above-40.png)
 
 
 ## “40岁以下”的逻辑
 
-1. 选择并悬停&#x200B;**低于40**&#x200B;分区的年龄。
+1. Select并将&#x200B;**年龄悬停在40**&#x200B;分区以下。
 2. 重复这些步骤，但将逻辑更改为：
    - **birthYear >= 1986**
 
@@ -170,9 +170,9 @@ Adobe Journey Optimizer中的动态内容使您能够创建无缝适应受众的
 
 3. 将条件命名为： **年龄小于40**
 4. 添加描述。 “**适用于40**&#x200B;以下人员的图像变量”
-5. 单击&#x200B;**添加→选择**。
+5. 单击&#x200B;**添加Select**。
 
-![单击“添加”，然后选择40岁以下的年龄条件](assets/personalization-and-content-experimentation-click-add-select-age-below-40.png)
+![依次单击“添加”和Select40岁以下的年龄条件](assets/personalization-and-content-experimentation-click-add-select-age-below-40.png)
 
 
 ## 验证变量切换

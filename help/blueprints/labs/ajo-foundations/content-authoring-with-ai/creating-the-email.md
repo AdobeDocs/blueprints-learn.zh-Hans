@@ -7,9 +7,9 @@ exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 6f54406bc0cda8e0fa5f028201a1ed1c2953e3cf
+source-git-commit: 8a0e198d205b9003fa61cf555debc6c20585b70a
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '656'
 ht-degree: 0%
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    历程管理中的![创建营销活动按钮](assets/creating-the-email-click-create-campaign-button.png)
 
-3. Select &quot;**Orchestration - Marketing**&quot;并单击&#x200B;**确认**
+3. Select &quot;**Orchestration Marketing and transactional**&quot;并单击&#x200B;**确认**
 
    ![选择编排 — 营销并单击确认](assets/creating-the-email-select-orchestration-marketing.png)
 
@@ -107,19 +107,15 @@ ht-degree: 0%
 
    ![正在从映像中删除临时源URL](assets/creating-the-email-remove-temporary-source-url.png)
 
-3. 单击&#x200B;**导入媒体**
+3. 单击&#x200B;**Select资产**
 
-   主页图像的![导入媒体按钮](assets/creating-the-email-click-import-media.png)
+   ![Select主页图像的资源按钮](assets/creating-the-email-click-import-media.png)
 
-4. 从您的工具包上传`hero.png`。 （您可以拖动文件）
+4. 从您的文件夹Select `hero.png`并单击&#x200B;**Select**。
 
-   ![正在从工具包文件夹上传hero.png](assets/creating-the-email-upload-hero-png-file.png)
+   ![从Assets文件夹中选择hero.png](assets/creating-the-email-select-hero-png-file.png)
 
-5. 单击&#x200B;**下一步，** Select **您的资源文件夹**，然后按&#x200B;**导入**
-
-   ![选择assets文件夹并单击主页图像的导入](assets/creating-the-email-select-folder-import-hero.png)
-
-6. 您的电子邮件模板即将正常显示。 它如下所示。 单击&#x200B;**“保存”**&#x200B;以保存您所做的工作。
+5. 您的电子邮件模板即将正常显示。 它如下所示。 单击&#x200B;**“保存”**&#x200B;以保存您所做的工作。
 
 ![在保存前用新的主页图像更新了电子邮件模板](assets/creating-the-email-save-updated-email-template.png)
 
@@ -128,7 +124,7 @@ ht-degree: 0%
 
 ### 替换产品图像
 
-继续更新所有产品图像（在Toolkit文件夹中提供的图像），并为您的喜好添加圆边框。 您的电子邮件看起来更好，没有任何损坏的链接，如下所示。 对所有产品卡重复此过程。
+继续更新所有产品图像（图像在Toolkit文件夹中提供，您已将其上传到Assets），并且还会为您的喜好添加圆边框。 您的电子邮件看起来更好，没有任何损坏的链接，如下所示。 对所有产品卡重复此过程。
 
 ![电子邮件中的所有产品图像都已更新，并且没有断开的链接](assets/creating-the-email-product-images-updated-no-broken-links.png)
 
